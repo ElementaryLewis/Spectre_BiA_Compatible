@@ -1,0 +1,1164 @@
+templates:
+  dettlaff_veiny_002.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - dlc/bob/data/fx/monsters/dettlaff/monster/dettlaff_column_base.w2ent
+    overrides:  #array:2,0,SEntityTemplateOverride
+      - ".type": SEntityTemplateOverride
+        componentName: column_base
+        className: CMovingPhysicalAgentComponent
+        overriddenProperties:  #array:2,0,CName
+          - movementAdjustor
+    ## properOverrides: true
+    ## entityClass: CDettlaffColumn
+    entityObject:
+      ".type": CDettlaffColumn
+      tags:
+        - arena_support
+      attachments: # array:handle:IAttachment
+      streamingDataBuffer:  #SharedDataBuffer
+        Bufferdata: 2058 bytes, MD5: ac5d0307a08e3ae9e1d5af392872bd48
+        streamingDataBuffer:
+          ".type": CMeshComponent
+          guid: ee7d24b9-5ff3-4f45-9ada-2f5c73ecf9ab
+          attachments: # array:handle:IAttachment
+          name: "veins_02"
+          graphPositionX: 249
+          graphPositionY: 247
+          boundingBox:  #Box
+            Min: [ 340282300000000000000000000000000000000.0000, 340282300000000000000000000000000000000.0000, 340282300000000000000000000000000000000.0000, 1.0000 ]
+            Max: [ NaN, NaN, NaN, 1.0000 ]
+          drawableFlags:
+            - DF_IsVisible
+            - DF_NoDissolves
+            - DF_Collapsed
+          defaultEffectParams: [ 0.0000, 1.0000, 0.0010, 0.0000 ]
+          mesh: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/veins_02.w2mesh
+        streamingDataBuffer:
+          ".type": CStaticMeshComponent
+          transform:
+            pos: [ 0.1563, 0.2479, -1.4678 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 8.8940, 8.8940, 8.8940 ]
+          guid: 4a0b861d-fec2-42dd-9c5c-79556f615448
+          attachments: # array:handle:IAttachment
+          name: "capsule_cloth"
+          graphPositionX: -116
+          graphPositionY: 203
+          boundingBox:  #Box
+            Min: [ 340282300000000000000000000000000000000.0000, 340282300000000000000000000000000000000.0000, 340282300000000000000000000000000000000.0000, 1.0000 ]
+            Max: [ NaN, NaN, NaN, 1.0000 ]
+          drawableFlags:
+            - 
+          mesh: dlc/bob/data/environment/blockout_base/capsule_cloth.w2mesh
+          pathLibCollisionType: PLC_Disabled
+          physicalCollisionType:  #CPhysicalCollision
+            Unk1: 2
+            Collisiontypes:  #CBufferVLQInt32:CName
+              - Camera
+            Data: 16 bytes, MD5: 57b7bd530b78878fc8b2d56f4ab594ce
+        streamingDataBuffer:
+          ".type": CSoundEmitterComponent
+          guid: d24e1557-c352-4d4e-b5e9-fdda7f12088b
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          graphPositionX: -244
+          graphPositionY: 70
+          loopStart: monster_dettlaff_monster_vein_beating_heart_LP
+          loopStop: monster_dettlaff_monster_vein_beating_heart_LP_stop
+          banksDependency:  #array:2,0,CName
+            - monster_dettlaff_monster.bnk
+      streamingDistance: 35
+      entityStaticFlags: ESF_Streamed
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CMovingPhysicalAgentComponent
+          guid: cb2e1201-7d61-4d3f-9455-8a4895716e00
+          attachments: # array:handle:IAttachment
+          name: "column_base"
+        - ".type": CMeshComponent
+          guid: 3dbb359a-e40c-43fa-bf55-70d870003572
+          attachments: # array:handle:IAttachment
+          name: "t02_tendon"
+          isStreamed: false
+          boundingBox:  #Box
+            Min: [ -13.6483, -13.4440, -1.1469, 1.0000 ]
+            Max: [ 10.9420, 3.2731, 14.4250, 1.0000 ]
+          drawableFlags:
+            - DF_IsVisible
+            - DF_NoDissolves
+            - DF_Collapsed
+          defaultEffectParams: [ 0.0000, 1.0000, 0.0010, 0.0000 ]
+          mesh: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_tendon.w2mesh
+        - ".type": CMeshComponent
+          guid: 167f6cd8-07f4-49dd-a0b1-93a5d67831da
+          attachments: # array:handle:IAttachment
+          name: "t02_veins"
+          isStreamed: false
+          boundingBox:  #Box
+            Min: [ -14.7847, -22.4946, -0.9926, 1.0000 ]
+            Max: [ 12.2755, 2.5375, 16.6520, 1.0000 ]
+          drawableFlags:
+            - DF_IsVisible
+            - DF_NoDissolves
+            - DF_Collapsed
+          defaultEffectParams: [ 0.0000, 1.0000, 0.0010, 0.0000 ]
+          mesh: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_veins.w2mesh
+        - ".type": CAppearanceComponent
+          guid: 06e1e3bd-f6b4-44c0-9aaf-1329bfe99a4c
+          attachments: # array:handle:IAttachment
+          name: "CAppearanceComponent0"
+          attachmentReplacements:  #SAttachmentReplacements
+            replacements:  #array:2,0,SAttachmentReplacement
+              - ".type": SAttachmentReplacement
+                oldName: proxy_W3SummonedEntityComponent0_B6CE1FED-46E9BE9F-EC0343A2-CE60C817
+                oldClass: CExternalProxyComponent
+                newName: W3SummonedEntityComponent0
+                newClass: W3SummonedEntityComponent
+        - ".type": W3SummonedEntityComponent
+          guid: 9a692e10-9dca-4eaf-9fa4-a936f910aaa0
+          attachments: # array:handle:IAttachment
+          name: "W3SummonedEntityComponent0"
+      idTag:  c08fe1db-d931-4971-a062-c32615a487dc
+      displayName: Dettlaff
+      aimVector: [ 0.0000, 0.0000, 0.5000, 0.0000 ]
+      iconOffset: [ 0.0000, 0.0000, 1.5000, 0.0000 ]
+      level: 49
+    appearances:  #array:2,0,CEntityAppearance
+      alive:
+        ".type": CEntityAppearance
+        ## name: alive
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_heart_alive.w2ent
+      dead:
+        ".type": CEntityAppearance
+        ## name: dead
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_heart_dead.w2ent
+    usedAppearances:  #array:2,0,CName
+      - alive
+    slots:  #array:2,0,EntitySlot
+      hit_slot:
+        ".type": EntitySlot
+        ## name: hit_slot
+        componentName: t02_heart
+        transform:
+          pos: [ -0.2500, -0.3800, 0.3000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      support_end:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: support_end
+        freeRotation: true
+      support_effects:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: support_effects
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CAttackableArea
+        name: "attackableArea"
+        radius: 1.7500
+        height: 2.0000
+      - ".type": CCharacterControllerParam
+        wasIncluded: true
+        name: "column_capsule"
+        height: 1.0000
+        physicalRadius: 1.5000
+        interactionPriorityEnum: IP_Max_Unpushable
+        collisionType:  #CPhysicalCollision
+          Unk1: 2
+          Collisiontypes:  #CBufferVLQInt32:CName
+            - Character
+            - Camera
+            - CameraOccludable
+          Data: 16 bytes, MD5: 9b0c5fced4afa70669459ef290967565
+      - ".type": CCharacterStatsParam
+        wasIncluded: true
+        name: "column_character_stats"
+        abilities:  #array:2,0,CName
+          - mon_dettlaff_column_strong
+          - InstantKillImmune
+      - ".type": CMonsterParam
+        wasIncluded: true
+        name: "column_monster_params"
+        monsterCategory: 1
+      - ".type": CAIProfile
+        wasIncluded: true
+        senseVisionParams:
+          ".type": CAISenseParams
+        senseAbsoluteParams:
+          ".type": CAISenseParams
+          rangeMax: 20.0000
+          rangeAngle: 360.0000
+          testLOS: false
+        attitudeGroup: AG_katakan
+      - ".type": CBuffImmunityParam
+        wasIncluded: true
+        name: "column_buff_immunity"
+        immunityTo:  #array:2,0,Int32
+          - 18
+          - 16
+          - 19
+        flags: IF_Potion,IF_Positive,IF_Negative,IF_Neutral,IF_Immobilize,IF_Confuse,IF_Damage
+    effects:
+      #buffer: 2527 bytes, MD5: d178bfb062e92d04a4bb9b7f071eb52d
+      pumping:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0714, 1.0000 ]
+                      - [ 0.3179, 1.0000 ]
+                      - [ 0.7878, 1.0000 ]
+                      - [ 1.5297, 1.0000 ]
+                      - [ 2.5920, 1.0000 ]
+                      - [ 2.9634, 1.0000 ]
+                      - [ 3.0118, 1.0000 ]
+                      - [ 2.8405, 1.0000 ]
+                      - [ 2.8606, 1.0000 ]
+                      - [ 2.8976, 1.0000 ]
+                      - [ 2.6104, 1.0000 ]
+                      - [ 1.8937, 1.0000 ]
+                      - [ 1.0307, 1.0000 ]
+                      - [ 0.3049, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 112, 6, 255 ]
+                    radius: 8.0000
+                    brightness: 2.0000
+                    attenuation: 1.0000
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ 0.0000, 0.0000, 2.0000, 0.0000 ]
+                ## name: "light"
+            isExpanded: true
+            trackGroupColor: [ 213, 214, 251, 100 ]
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              pumping:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.1852
+                      - 0.3704
+                      - 0.5556
+                      - 0.7407
+                      - 0.9259
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 0.9009
+                      - 0.7207
+                      - 0.5405
+                      - 0.3604
+                      - 0.1802
+                      - 0.0000
+                    parameterName: MeshEffectScalar0
+                    allComponents: true
+                ## name: "pumping"
+            isExpanded: true
+            trackGroupColor: [ 202, 196, 157, 100 ]
+            componentName: t03_veins
+          sound:
+            ".type": CFXTrackGroup
+            ## name: "sound"
+            tracks:  #array:2,0,ptr:CFXTrack
+              CFXTrack0:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_dettlaff_monster_vein_beating_heart_fast_LP
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.6897
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_dettlaff_monster_vein_beating_heart_fast_LP_stop
+            isExpanded: true
+            trackGroupColor: [ 127, 144, 189, 100 ]
+        loopStart: 0.3767
+        loopEnd: 0.6278
+        ## name: pumping
+        showDistance: 250.0000
+        isLooped: true
+      #buffer: 2281 bytes, MD5: 68259960cae201cc984b8926112511a3
+      growing:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          little_veins:
+            ".type": CFXTrackGroup
+            ## name: "little_veins"
+            tracks:  #array:2,0,ptr:CFXTrack
+              little_veins:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0800
+                    timeDuration: 17.9548
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.0100
+                      - 0.0384
+                      - 0.0828
+                      - 0.1409
+                      - 0.2103
+                      - 0.2885
+                      - 0.3733
+                      - 0.4622
+                      - 0.5528
+                      - 0.6428
+                      - 0.7298
+                      - 0.8114
+                      - 0.8852
+                      - 0.9489
+                      - 1.0000
+                    parameterName: MeshEffectScalar2
+                ## name: "little_veins"
+            isExpanded: true
+            trackGroupColor: [ 139, 176, 131, 100 ]
+            componentName: veins_02
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              veins:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0842
+                    timeDuration: 19.8592
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.0823
+                      - 0.1686
+                      - 0.2574
+                      - 0.3472
+                      - 0.4368
+                      - 0.5245
+                      - 0.6091
+                      - 0.6891
+                      - 0.7630
+                      - 0.8295
+                      - 0.8871
+                      - 0.9343
+                      - 0.9699
+                      - 0.9922
+                      - 1.0000
+                    parameterName: MeshEffectScalar2
+                ## name: "veins"
+            isExpanded: true
+            trackGroupColor: [ 136, 206, 168, 100 ]
+            componentName: t02_veins
+          heart:
+            ".type": CFXTrackGroup
+            ## name: "heart"
+            tracks:  #array:2,0,ptr:CFXTrack
+              heart_mat:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0701
+                    timeDuration: 9.6776
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.0952
+                      - 0.1905
+                      - 0.2857
+                      - 0.3810
+                      - 0.4762
+                      - 0.5714
+                      - 0.6667
+                      - 0.7619
+                      - 0.8571
+                      - 0.9524
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                    parameterName: MeshEffectScalar2
+                ## name: "heart_mat"
+            isExpanded: true
+            trackGroupColor: [ 147, 236, 233, 100 ]
+            componentName: t02_heart
+          tendon_mat:
+            ".type": CFXTrackGroup
+            ## name: "tendon_mat"
+            tracks:  #array:2,0,ptr:CFXTrack
+              tendon:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0800
+                    timeDuration: 17.9548
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.0100
+                      - 0.0384
+                      - 0.0828
+                      - 0.1409
+                      - 0.2103
+                      - 0.2885
+                      - 0.3733
+                      - 0.4622
+                      - 0.5528
+                      - 0.6428
+                      - 0.7298
+                      - 0.8114
+                      - 0.8852
+                      - 0.9489
+                      - 1.0000
+                    parameterName: MeshEffectScalar2
+                ## name: "tendon"
+            isExpanded: true
+            trackGroupColor: [ 232, 148, 177, 100 ]
+            componentName: t02_tendon
+        length: 20.1302
+        loopStart: 0.0442
+        loopEnd: 5.0951
+        ## name: growing
+        showDistance: 250.0000
+      #buffer: 3227 bytes, MD5: aef96983b0308dc8296d86e11262284e
+      disappearing:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          little_veins:
+            ".type": CFXTrackGroup
+            ## name: "little_veins"
+            tracks:  #array:2,0,ptr:CFXTrack
+              little_veins:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0800
+                    timeDuration: 11.4000
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - -1.0000
+                      - -0.8108
+                      - -0.6568
+                      - -0.5339
+                      - -0.4381
+                      - -0.3652
+                      - -0.3111
+                      - -0.2719
+                      - -0.2434
+                      - -0.2215
+                      - -0.2022
+                      - -0.1813
+                      - -0.1549
+                      - -0.1187
+                      - -0.0688
+                      - -0.0010
+                    parameterName: MeshEffectScalar2
+                ## name: "little_veins"
+            isExpanded: true
+            trackGroupColor: [ 127, 230, 198, 100 ]
+            componentName: veins_02
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              stripes:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 5.1070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/stripes_heart_02.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ 1.0000, -2.0000, 0.0000, 0.0000 ]
+                ## name: "stripes"
+            isExpanded: true
+            trackGroupColor: [ 146, 235, 134, 100 ]
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              veins:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0842
+                    timeDuration: 13.0000
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - -1.0000
+                      - -0.8538
+                      - -0.7213
+                      - -0.6019
+                      - -0.4952
+                      - -0.4005
+                      - -0.3174
+                      - -0.2453
+                      - -0.1837
+                      - -0.1320
+                      - -0.0898
+                      - -0.0564
+                      - -0.0314
+                      - -0.0141
+                      - -0.0042
+                      - -0.0010
+                    parameterName: MeshEffectScalar2
+                ## name: "veins"
+            isExpanded: true
+            trackGroupColor: [ 136, 206, 168, 100 ]
+            componentName: t02_veins
+          heart:
+            ".type": CFXTrackGroup
+            ## name: "heart"
+            tracks:  #array:2,0,ptr:CFXTrack
+              heart_mat:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0701
+                    timeDuration: 10.0000
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - -1.0000
+                      - -0.8246
+                      - -0.6710
+                      - -0.5376
+                      - -0.4231
+                      - -0.3261
+                      - -0.2451
+                      - -0.1786
+                      - -0.1253
+                      - -0.0838
+                      - -0.0526
+                      - -0.0302
+                      - -0.0153
+                      - -0.0064
+                      - -0.0021
+                      - -0.0010
+                    parameterName: MeshEffectScalar2
+                ## name: "heart_mat"
+            isExpanded: true
+            trackGroupColor: [ 147, 236, 233, 100 ]
+            componentName: t02_heart
+          tendon_mat:
+            ".type": CFXTrackGroup
+            ## name: "tendon_mat"
+            tracks:  #array:2,0,ptr:CFXTrack
+              tendon:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0800
+                    timeDuration: 11.4000
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - -1.0000
+                      - -0.8108
+                      - -0.6568
+                      - -0.5339
+                      - -0.4381
+                      - -0.3652
+                      - -0.3111
+                      - -0.2719
+                      - -0.2434
+                      - -0.2215
+                      - -0.2022
+                      - -0.1813
+                      - -0.1549
+                      - -0.1187
+                      - -0.0688
+                      - -0.0010
+                    parameterName: MeshEffectScalar2
+                ## name: "tendon"
+            isExpanded: true
+            trackGroupColor: [ 232, 148, 177, 100 ]
+            componentName: t02_tendon
+        length: 14.1918
+        loopStart: 0.0442
+        loopEnd: 5.0951
+        ## name: disappearing
+        showDistance: 250.0000
+      #buffer: 1139 bytes, MD5: c3e2c0e453ebefb172d2338b42eac0a5
+      reset:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              veins:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                    parameterName: MeshEffectScalar2
+                    allComponents: true
+                ## name: "veins"
+            isExpanded: true
+            trackGroupColor: [ 136, 206, 168, 100 ]
+            componentName: t02_veins
+        ## name: reset
+        showDistance: 250.0000
+      #buffer: 2432 bytes, MD5: d5c78087dccb9a9f72eadce1cb47e8b9
+      hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              material:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 1.0000
+                      - -1.0000
+                      - -0.7195
+                      - -0.3792
+                      - -0.1629
+                      - -0.1297
+                      - -0.4907
+                      - 0.4557
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                      - 1.0000
+                    parameterName: MeshEffectScalar1
+                ## name: "material"
+            isExpanded: true
+            trackGroupColor: [ 159, 155, 184, 100 ]
+            componentName: t02_heart
+          sound:
+            ".type": CFXTrackGroup
+            ## name: "sound"
+            tracks:  #array:2,0,ptr:CFXTrack
+              CFXTrack0:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0025
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: cmb_play_hit_heavy
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0001
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_dettlaff_monster_vein_hit_blood
+            isExpanded: true
+            trackGroupColor: [ 166, 194, 132, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              hit:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 2.5000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/dettlaff_support_hit.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                ## name: "hit"
+            isExpanded: true
+            trackGroupColor: [ 136, 231, 240, 100 ]
+        length: 2.5222
+        loopStart: 0.0225
+        loopEnd: 1.0507
+        ## name: hit
+        showDistance: 250.0000
+      #buffer: 1772 bytes, MD5: 37ee323cee60af38016626817bb33050
+      critical_burning:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              burning:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 3.0000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/arena_burning.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.3500, 0.5000, 0.5000, 0.0000 ]
+                ## name: "burning"
+            isExpanded: true
+            trackGroupColor: [ 196, 233, 163, 100 ]
+        length: 3.0905
+        loopStart: 0.6236
+        loopEnd: 1.1097
+        ## name: critical_burning
+        showDistance: 150.0000
+        isLooped: true
+      #buffer: 1626 bytes, MD5: fcc7c1c7a8c153fa7a5adb19ed41f937
+      igni_cone_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              burning:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/arena_igni_hit.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.3500, 0.5000, 0.2500, 0.0000 ]
+                ## name: "burning"
+            isExpanded: true
+            trackGroupColor: [ 166, 137, 163, 100 ]
+        ## name: igni_cone_hit
+        showDistance: 150.0000
+      #buffer: 2740 bytes, MD5: 029443168c95ca9efcc7acb7e6fb1297
+      dying_out:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          heart:
+            ".type": CFXTrackGroup
+            ## name: "heart"
+            tracks:  #array:2,0,ptr:CFXTrack
+              material:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeDuration: 2.5260
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - -0.1133
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                      - -0.1700
+                    parameterName: MeshEffectScalar0
+                ## name: "material"
+            isExpanded: true
+            trackGroupColor: [ 234, 190, 230, 100 ]
+            componentName: t02_heart
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 2.7176
+                    timeDuration: 2.5000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/dettlaff_support_death.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 179, 224, 155, 100 ]
+          sound:
+            ".type": CFXTrackGroup
+            ## name: "sound"
+            tracks:  #array:2,0,ptr:CFXTrack
+              CFXTrack0:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0634
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_dettlaff_monster_vein_dies
+            isExpanded: true
+            trackGroupColor: [ 176, 130, 231, 100 ]
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              dying_out:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeDuration: 2.5261
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.0667
+                      - 0.1333
+                      - 0.2000
+                      - 0.2667
+                      - 0.3333
+                      - 0.4000
+                      - 0.4667
+                      - 0.5333
+                      - 0.6000
+                      - 0.6667
+                      - 0.7333
+                      - 0.8000
+                      - 0.8667
+                      - 0.9333
+                      - 1.0000
+                    parameterName: MeshEffectScalar3
+                    allComponents: true
+                ## name: "dying_out"
+            isExpanded: true
+            trackGroupColor: [ 245, 238, 155, 100 ]
+            componentName: tree_001
+        length: 2.5567
+        loopStart: 0.0628
+        ## name: dying_out
+        showDistance: 250.0000
+      #buffer: 2800 bytes, MD5: 0f9031b513e6426147d315695cc4e7af
+      blood_in:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              blood_03:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.3892
+                    timeDuration: 1.6047
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.2500, 0.2500, 1.0000, 0.0000 ]
+                      relativeRot: [ -35.0000, 35.0000, 0.0000 ]
+                ## name: "blood_03"
+              blood_02:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.2117
+                    timeDuration: 1.4067
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.2500, 0.2500, 0.0000, 0.0000 ]
+                      relativeRot: [ -35.0000, 270.0000, 0.0000 ]
+                ## name: "blood_02"
+              blood_in:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 1.4886
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.2500, -0.2500, 0.0000, 0.0000 ]
+                      relativeRot: [ -35.0000, 90.0000, 0.0000 ]
+                ## name: "blood_in"
+            isExpanded: true
+            trackGroupColor: [ 154, 135, 134, 100 ]
+        length: 2.4719
+        ## name: blood_in
+        showDistance: 150.0000
+      #buffer: 1704 bytes, MD5: 846d96b2ad1f3f0e47bb1c2a5fa732f0
+      boom:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              partikle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 1.5000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/support_boom.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - hit_slot
+                      relativePos: [ -0.2000, 0.0000, 0.0000, 0.0000 ]
+                ## name: "partikle"
+            isExpanded: true
+            trackGroupColor: [ 212, 243, 192, 100 ]
+        length: 1.5000
+        loopEnd: 1.5000
+        ## name: boom
+        showDistance: 250.0000
+    ## cookedEffectsVersion: 1

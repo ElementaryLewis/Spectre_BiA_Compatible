@@ -1,0 +1,909 @@
+templates:
+  petard_dimeritium_bomb.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - items/weapons/projectiles/petards/base/petard_base.w2ent
+    ## properOverrides: true
+    ## entityClass: W3Dimeritium
+    entityObject:
+      ".type": W3Dimeritium
+      tags:
+        - petard
+      attachments: # array:handle:IAttachment
+      streamingDistance: 3
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CAppearanceComponent
+          guid: cd637d15-aeea-4d0f-818b-ec94028ffed9
+          attachments: # array:handle:IAttachment
+          name: "appearance"
+          forcedAppearance: petard
+          attachmentReplacements:  #SAttachmentReplacements
+            replacements:  #array:2,0,SAttachmentReplacement
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CTriggerActivatorComponent0_B4B4E291-423D0A11-339A399B-C25BBEF2
+                oldClass: CExternalProxyComponent
+                newName: CTriggerActivatorComponent0
+                newClass: CTriggerActivatorComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_fx_cluster_cleave_D98A5B87-4CAFF5B2-02044CBE-554EEA7A
+                oldClass: CExternalProxyComponent
+                newName: fx_cluster_cleave
+                newClass: CEffectDummyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CSoundEmitterComponent0_179654F9-4C227499-F127578C-7E82FD43
+                oldClass: CExternalProxyComponent
+                newName: CSoundEmitterComponent0
+                newClass: CSoundEmitterComponent
+        - ".type": CPointLightComponent
+          transform:
+            pos: [ 0.0000, -0.0291, 1.1718 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: 3faffc35-51f1-4a55-bcd8-a552c0fe1c01
+          attachments: # array:handle:IAttachment
+          name: "loopLight"
+          radius: 2.0000
+          brightness: 0.0000
+          color: [ 100, 216, 150, 255 ]
+          envColorGroup: ECG_LightsDefault
+          autoHideDistance: 44.0000
+          lightFlickering:  #SLightFlickering
+            positionOffset: 1.0000
+            flickerStrength: 12.0000
+            flickerPeriod: 0.1000
+        - ".type": CPointLightComponent
+          transform:
+            pos: [ -0.7566, 1.6246, 0.0000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: e7791d2d-da35-4051-bd7e-1259a40351d6
+          attachments: # array:handle:IAttachment
+          name: "CPointLightComponent0"
+          radius: 2.0000
+          brightness: 0.0000
+          color: [ 100, 216, 150, 255 ]
+          envColorGroup: ECG_LightsDefault
+          autoHideDistance: 44.0000
+          lightFlickering:  #SLightFlickering
+            positionOffset: 1.0000
+            flickerStrength: 12.0000
+            flickerPeriod: 0.1000
+        - ".type": CPointLightComponent
+          transform:
+            pos: [ 1.0591, -1.0163, 0.0563 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: 58b85c65-4cd8-48ec-8002-f72220dadfa9
+          attachments: # array:handle:IAttachment
+          name: "CPointLightComponent1"
+          radius: 2.0000
+          brightness: 0.0000
+          color: [ 100, 216, 150, 255 ]
+          envColorGroup: ECG_LightsDefault
+          autoHideDistance: 44.0000
+          lightFlickering:  #SLightFlickering
+            positionOffset: 1.0000
+            flickerStrength: 12.0000
+            flickerPeriod: 0.1000
+        - ".type": CTriggerActivatorComponent
+          guid: a4883b90-ab46-4560-ae78-095b76644e19
+          attachments: # array:handle:IAttachment
+          name: "CTriggerActivatorComponent0"
+        - ".type": CEffectDummyComponent
+          guid: c25bcc9e-1ae7-4889-8284-d59e0c46e736
+          attachments: # array:handle:IAttachment
+          name: "fx_cluster_cleave"
+        - ".type": CSoundEmitterComponent
+          guid: 837b4a78-ada0-4c0f-8f20-cff4a3944dc5
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          isStreamed: false
+          maxDistance: 50.0000
+          occlusionEnabled: false
+      idTag:  63579ffe-35a6-4176-a950-1daf77f01fb4
+      hitReactionType:
+        - EHRT_Heavy
+      componentsEnabledOnLoop:  #array:2,0,CName
+        - loopLight
+      impactParams:  #SPetardParams
+        range: 6.0000
+        playHitAnimMode:
+          - EAHA_Default
+        fx:  #array:2,0,CName
+          - explosion
+        fxCluster:  #array:2,0,CName
+          - explosion_cluster
+      loopParams:  #SPetardParams
+        range: 6.0000
+        cylinderHeight: 3.0000
+        cylinderOffsetZ: -1.0000
+        playHitAnimMode:
+          - EAHA_Default
+        fx:  #array:2,0,CName
+          - ground
+        fxCluster:  #array:2,0,CName
+          - ground_cluster
+        componentsToSnap:  #array:2,0,CName
+          - fx_0_0_0
+      affectedFX: activate
+      affectedFXCluster: activate_cluster
+    appearances:  #array:2,0,CEntityAppearance
+      petard:
+        ".type": CEntityAppearance
+        ## name: petard
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - items/weapons/projectiles/petards/model/petard_body1.w2ent
+    usedAppearances:  #array:2,0,CName
+      - petard
+    slots:  #array:2,0,EntitySlot
+      fx:
+        ".type": EntitySlot
+        ## name: fx
+      light_pos:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: light_pos
+        transform:
+          pos: [ 0.0000, 0.0000, 0.5000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      sparks:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: sparks
+        transform:
+          pos: [ 0.0000, 0.0000, 0.1000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+    coloringEntries:  #array:2,0,SEntityTemplateColoringEntry
+      - ".type": SEntityTemplateColoringEntry
+        appearance: petard
+        componentName: petard
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -41
+        colorShift2:  #CColorShift
+          saturation: -95
+          luminance: 46
+    effects:
+      #buffer: 3784 bytes, MD5: 6faf2a50b5f6c1a3323b2ff625e64c03
+      explosion:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          Audio:
+            ".type": CFXTrackGroup
+            ## name: "Audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              audio:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0188
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritum_explo
+                    maxDistance: 50.0000
+                ## name: "audio"
+            isExpanded: true
+            trackGroupColor: [ 139, 233, 139, 100 ]
+          radial:
+            ".type": CFXTrackGroup
+            ## name: "radial"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemRadialBlur
+                    timeBegin: 0.0073
+                    ## buffername: RadialBlur
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0500, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.2077, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.2700, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1978, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1255, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0532, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 218, 235, 231, 100 ]
+            componentName: petard
+          tint:
+            ".type": CFXTrackGroup
+            ## name: "tint"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemBrightnessTint
+                    timeBegin: 0.0059
+                    ## buffername: BrightnessTint
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.0000 ]
+                      - [ 5.3746, 1.0000 ]
+                      - [ 8.9243, 1.0000 ]
+                      - [ 4.4425, 1.0000 ]
+                      - [ 1.9152, 1.0000 ]
+                      - [ 1.0751, 0.9333 ]
+                      - [ 1.0000, 0.8000 ]
+                      - [ 1.0000, 0.6667 ]
+                      - [ 1.0000, 0.5333 ]
+                      - [ 1.0000, 0.4000 ]
+                      - [ 1.0000, 0.2667 ]
+                      - [ 1.0000, 0.1333 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                    color: [ 92, 255, 189, 255 ]
+                    range: 33.0000
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 140, 224, 223, 100 ]
+            componentName: petard
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light_dynamic:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: -0.0037
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.2454, 1.0000 ]
+                      - [ 173.1182, 1.0000 ]
+                      - [ 203.4928, 1.0000 ]
+                      - [ 159.7375, 1.0000 ]
+                      - [ 115.9823, 1.0000 ]
+                      - [ 72.2270, 1.0000 ]
+                      - [ 28.4718, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 113, 255, 165, 255 ]
+                    radius: 9.0000
+                    autoHideDistance: 45.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_0_0_0
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.5000, 0.0000 ]
+                ## name: "light_dynamic"
+            isExpanded: true
+            trackGroupColor: [ 182, 217, 172, 100 ]
+          force:
+            ".type": CFXTrackGroup
+            ## name: "force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0004
+                    timeDuration: 5.2907
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0853, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      attach: true
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 171, 192, 154, 100 ]
+        length: 5.1676
+        loopStart: 0.4257
+        loopEnd: 0.5400
+        ## name: explosion
+        showDistance: 100.0000
+      #buffer: 2303 bytes, MD5: 9cf999c054bc70fef35ba4d08d85ecf6
+      ground:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0125
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_ground_loop
+                    maxDistance: 50.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.6896
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_ground_loop_end
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 238, 233, 205, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 215, 152, 171, 100 ]
+            componentName: loopLight
+          force:
+            ".type": CFXTrackGroup
+            ## name: "force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0217
+                    timeDuration: 3.5429
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_cloud.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      copyRotation: false
+                      attach: true
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 171, 192, 154, 100 ]
+        length: 3.5136
+        loopStart: 0.2652
+        loopEnd: 0.5057
+        ## name: ground
+        showDistance: 100.0000
+        isLooped: true
+      #buffer: 3226 bytes, MD5: 4a87b480c4aafce05e67b77833df8e0b
+      activate:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          light3:
+            ".type": CFXTrackGroup
+            ## name: "light3"
+            tracks:  #array:2,0,ptr:CFXTrack
+              SAd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: -0.0085
+                    timeDuration: 3.5164
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 666.0000
+                      - 666.0000
+                      - 600.5571
+                      - 491.3483
+                      - 382.1395
+                      - 272.9307
+                      - 163.7220
+                      - 54.5131
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    parameterName: brightness
+                ## name: "SAd"
+            isExpanded: true
+            trackGroupColor: [ 131, 251, 149, 100 ]
+            componentName: CPointLightComponent1
+          light2:
+            ".type": CFXTrackGroup
+            ## name: "light2"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: 0.0142
+                    timeDuration: 3.5164
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 666.0000
+                      - 666.0000
+                      - 600.5571
+                      - 491.3483
+                      - 382.1395
+                      - 272.9307
+                      - 163.7220
+                      - 54.5131
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    parameterName: brightness
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 212, 194, 220, 100 ]
+            componentName: CPointLightComponent0
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0376
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_activation_loop
+                    maxDistance: 50.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.6395
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_activation_loop_end
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 193, 222, 127, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParameterFloat
+                    timeBegin: -0.0040
+                    timeDuration: 3.5164
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 666.0000
+                      - 666.0000
+                      - 600.5571
+                      - 491.3483
+                      - 382.1395
+                      - 272.9307
+                      - 163.7220
+                      - 54.5131
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    parameterName: brightness
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 215, 152, 171, 100 ]
+            componentName: loopLight
+          force:
+            ".type": CFXTrackGroup
+            ## name: "force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0083
+                    timeDuration: 3.1581
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_activate.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      copyRotation: false
+                      attach: true
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 171, 192, 154, 100 ]
+        length: 3.5136
+        loopStart: 0.2652
+        loopEnd: 0.5057
+        ## name: activate
+        showDistance: 100.0000
+        isLooped: true
+      #buffer: 2760 bytes, MD5: e5043b10d1e05b075481c5b1ac0ac517
+      explosion_cluster:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          Audio:
+            ".type": CFXTrackGroup
+            ## name: "Audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              audio:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0188
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritum_explo
+                    maxDistance: 50.0000
+                ## name: "audio"
+            isExpanded: true
+            trackGroupColor: [ 139, 233, 139, 100 ]
+          force:
+            ".type": CFXTrackGroup
+            ## name: "force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0004
+                    timeDuration: 5.2907
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0853, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_fx1_cluster.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      attach: true
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 171, 192, 154, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light_dynamic:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: -0.0037
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.2454, 1.0000 ]
+                      - [ 173.1182, 1.0000 ]
+                      - [ 203.4928, 1.0000 ]
+                      - [ 159.7375, 1.0000 ]
+                      - [ 115.9823, 1.0000 ]
+                      - [ 72.2270, 1.0000 ]
+                      - [ 28.4718, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 113, 255, 165, 255 ]
+                    radius: 3.0000
+                    autoHideDistance: 45.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_0_0_0
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.5000, 0.0000 ]
+                ## name: "light_dynamic"
+            isExpanded: true
+            trackGroupColor: [ 182, 217, 172, 100 ]
+        length: 5.1676
+        loopStart: 0.4257
+        loopEnd: 0.5400
+        ## name: explosion_cluster
+        showDistance: 100.0000
+      #buffer: 2319 bytes, MD5: 222069a677d36ba4db4b5e53712e46f7
+      ground_cluster:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0125
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_ground_loop
+                    maxDistance: 50.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.6896
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_ground_loop_end
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 238, 233, 205, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 215, 152, 171, 100 ]
+            componentName: loopLight
+          force:
+            ".type": CFXTrackGroup
+            ## name: "force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0217
+                    timeDuration: 3.5429
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_cloud_cluster.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      copyRotation: false
+                      attach: true
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 171, 192, 154, 100 ]
+        length: 3.5136
+        loopStart: 0.2652
+        loopEnd: 0.5057
+        ## name: ground_cluster
+        showDistance: 100.0000
+        isLooped: true
+      #buffer: 3099 bytes, MD5: bfed7c871b11f8edaf465e8a0371cdf7
+      activate_cluster:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0056
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.2454, 1.0000 ]
+                      - [ 48.1026, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 99.0000, 1.0000 ]
+                      - [ 48.9414, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 113, 255, 165, 255 ]
+                    radius: 9.0000
+                    brightness: 111.0000
+                    lightFlickering:  #SLightFlickering
+                      positionOffset: 1.0000
+                    autoHideDistance: 45.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_0_0_0
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.5000, 0.0000 ]
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 183, 138, 164, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0056
+                    timeDuration: 3.1581
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/weapons/bombs/dimeritium_bomb/dimeritium_activate_cluster.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      copyRotation: false
+                      attach: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 182, 152, 128, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0376
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_activation_loop
+                    maxDistance: 50.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.6395
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: bomb_dimeritium_activation_loop_end
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 193, 222, 127, 100 ]
+        length: 3.5136
+        loopStart: 0.2652
+        loopEnd: 0.5057
+        ## name: activate_cluster
+        showDistance: 100.0000
+        isLooped: true
+    ## cookedEffectsVersion: 1

@@ -1,0 +1,1247 @@
+black_spider_34_normal.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+black_spider_34_normal.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+black_spider_34_normal.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+black_spider_34_normal.w2ent:                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/black_spider.w2ent
+black_spider_34_normal.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+black_spider_34_normal.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+black_spider_34_normal.w2ent:                    componentName (CName) : CAppearanceComponent0
+black_spider_34_normal.w2ent:                    className (CName) : CAppearanceComponent
+black_spider_34_normal.w2ent:                    overriddenProperties (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                        0 (CName) : attachmentReplacements
+black_spider_34_normal.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+black_spider_34_normal.w2ent:                    componentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                    overriddenProperties (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                        0 (CName) : movementAdjustor
+black_spider_34_normal.w2ent:            properOverrides (Bool) : true
+black_spider_34_normal.w2ent:            entityClass (CName) : CNewNPC
+black_spider_34_normal.w2ent:            entityObject (ptr:CEntity) : CNewNPC #1
+black_spider_34_normal.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+black_spider_34_normal.w2ent:                0 (CEntityAppearance) : black_spider_01
+black_spider_34_normal.w2ent:                    name (CName) : black_spider_01
+black_spider_34_normal.w2ent:                    wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+black_spider_34_normal.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/h_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        1 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/c_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        2 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/t_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        3 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/l_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        4 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/d_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        5 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/a_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        6 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_01__black_spider.w2ent
+black_spider_34_normal.w2ent:                        7 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_02__black_spider.w2ent
+black_spider_34_normal.w2ent:            usedAppearances (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : black_spider_01
+black_spider_34_normal.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+black_spider_34_normal.w2ent:                0 (EntitySlot) : projectile_origin
+black_spider_34_normal.w2ent:                    wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:                    name (CName) : projectile_origin
+black_spider_34_normal.w2ent:                    componentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                    boneName (CName) : head
+black_spider_34_normal.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                        Pitch (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Yaw (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Roll (Float) : 0.0000
+black_spider_34_normal.w2ent:                        X (Float) : -0.2437
+black_spider_34_normal.w2ent:                        Y (Float) : -0.1444
+black_spider_34_normal.w2ent:                        Z (Float) : -0.0469
+black_spider_34_normal.w2ent:                1 (EntitySlot) : death
+black_spider_34_normal.w2ent:                    wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:                    name (CName) : death
+black_spider_34_normal.w2ent:                2 (EntitySlot) : blood_point
+black_spider_34_normal.w2ent:                    wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:                    name (CName) : blood_point
+black_spider_34_normal.w2ent:                    componentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                    boneName (CName) : GlowAnt_BAZA
+black_spider_34_normal.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                        Pitch (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Yaw (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Roll (Float) : 90.0000
+black_spider_34_normal.w2ent:                        X (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Y (Float) : 0.2500
+black_spider_34_normal.w2ent:                        Z (Float) : 0.0100
+black_spider_34_normal.w2ent:                3 (EntitySlot) : hit_ground
+black_spider_34_normal.w2ent:                    wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:                    name (CName) : hit_ground
+black_spider_34_normal.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                        X (Float) : 0.0000
+black_spider_34_normal.w2ent:                        Y (Float) : 0.3000
+black_spider_34_normal.w2ent:                        Z (Float) : 0.0000
+black_spider_34_normal.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+black_spider_34_normal.w2ent:                0 (ptr:CEntityTemplateParam) : CAIProfile #18
+black_spider_34_normal.w2ent:                1 (ptr:CEntityTemplateParam) : CInventoryDefinition #19
+black_spider_34_normal.w2ent:                2 (ptr:CEntityTemplateParam) : CAttackRangeParam #22
+black_spider_34_normal.w2ent:                3 (ptr:CEntityTemplateParam) : CCharacterStatsParam #24
+black_spider_34_normal.w2ent:                4 (ptr:CEntityTemplateParam) : CBloodTrailEffect #25
+black_spider_34_normal.w2ent:                5 (ptr:CEntityTemplateParam) : CCharacterControllerParam #26
+black_spider_34_normal.w2ent:                6 (ptr:CEntityTemplateParam) : CR4LootParam #27
+black_spider_34_normal.w2ent:                7 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #28
+black_spider_34_normal.w2ent:                8 (ptr:CEntityTemplateParam) : CAnimGlobalParam #73
+black_spider_34_normal.w2ent:                9 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #74
+black_spider_34_normal.w2ent:                10 (ptr:CEntityTemplateParam) : CAIProfile #75
+black_spider_34_normal.w2ent:                11 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #78
+black_spider_34_normal.w2ent:                12 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #79
+black_spider_34_normal.w2ent:                13 (ptr:CEntityTemplateParam) : CCharacterStatsParam #80
+black_spider_34_normal.w2ent:                14 (ptr:CEntityTemplateParam) : CMonsterParam #81
+black_spider_34_normal.w2ent:                15 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #82
+black_spider_34_normal.w2ent:                16 (ptr:CEntityTemplateParam) : CBloodTrailEffect #83
+black_spider_34_normal.w2ent:                17 (ptr:CEntityTemplateParam) : CFocusSoundParam #84
+black_spider_34_normal.w2ent:                18 (ptr:CEntityTemplateParam) : CAnimGlobalParam #85
+black_spider_34_normal.w2ent:                19 (ptr:CEntityTemplateParam) : CBuffImmunityParam #86
+black_spider_34_normal.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+black_spider_34_normal.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
+black_spider_34_normal.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        streamingDistance (Uint8) : 14
+black_spider_34_normal.w2ent:                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+black_spider_34_normal.w2ent:                        name (String) : "PreviewEntity"
+black_spider_34_normal.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+black_spider_34_normal.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #4
+black_spider_34_normal.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #5
+black_spider_34_normal.w2ent:                            2 (ptr:CComponent) : CPhantomComponent #10
+black_spider_34_normal.w2ent:                            3 (ptr:CComponent) : CDecalComponent #11
+black_spider_34_normal.w2ent:                            4 (ptr:CComponent) : CCreatureDataComponent #12
+black_spider_34_normal.w2ent:                            5 (ptr:CComponent) : CSoundEmitterComponent #13
+black_spider_34_normal.w2ent:                            6 (ptr:CComponent) : CInventoryComponent #14
+black_spider_34_normal.w2ent:                            7 (ptr:CComponent) : CDynamicColliderComponent #9
+black_spider_34_normal.w2ent:                            8 (ptr:CComponent) : CDismembermentComponent #15
+black_spider_34_normal.w2ent:                            9 (ptr:CComponent) : CGameplayEffectsComponent #16
+black_spider_34_normal.w2ent:                            10 (ptr:CComponent) : CEffectDummyComponent #7
+black_spider_34_normal.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+black_spider_34_normal.w2ent:                            0 (SEntityBufferType1) : 
+black_spider_34_normal.w2ent:                                ComponentName (CName) : 
+black_spider_34_normal.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+black_spider_34_normal.w2ent:                        idTag (IdTag) :  cc881d54-dfba-4efb-8bad-e93ae23d5ed6
+black_spider_34_normal.w2ent:                        displayName (LocalizedString) : Arachnomorph
+black_spider_34_normal.w2ent:                        abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #1
+black_spider_34_normal.w2ent:                        effectManager (handle:W3EffectManager) : W3EffectManager #3
+black_spider_34_normal.w2ent:                        level (Int32) : 34
+black_spider_34_normal.w2ent:                        currentLevel (Int32) : 34
+black_spider_34_normal.w2ent:                        isMonsterType_Group (Bool) : true
+black_spider_34_normal.w2ent:                W3NonPlayerAbilityManager #1 (W3NonPlayerAbilityManager) : 
+black_spider_34_normal.w2ent:                    W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+black_spider_34_normal.w2ent:                        statPoints (array:SBaseStat) : # array:SBaseStat
+black_spider_34_normal.w2ent:                            0 (SBaseStat) : <SBaseStat>0
+black_spider_34_normal.w2ent:                                current (Float) : 16121.6000
+black_spider_34_normal.w2ent:                                max (Float) : 16121.6000
+black_spider_34_normal.w2ent:                                type (EBaseCharacterStats) : BCS_Essence
+black_spider_34_normal.w2ent:                            1 (SBaseStat) : <SBaseStat>1
+black_spider_34_normal.w2ent:                                current (Float) : 100.0000
+black_spider_34_normal.w2ent:                                max (Float) : 100.0000
+black_spider_34_normal.w2ent:                                type (EBaseCharacterStats) : BCS_Stamina
+black_spider_34_normal.w2ent:                            2 (SBaseStat) : <SBaseStat>2
+black_spider_34_normal.w2ent:                                current (Float) : 100.0000
+black_spider_34_normal.w2ent:                                max (Float) : 100.0000
+black_spider_34_normal.w2ent:                                type (EBaseCharacterStats) : BCS_Morale
+black_spider_34_normal.w2ent:                        resistStats (array:SResistanceValue) : # array:SResistanceValue
+black_spider_34_normal.w2ent:                            0 (SResistanceValue) : <SResistanceValue>0
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PhysicalRes
+black_spider_34_normal.w2ent:                            1 (SResistanceValue) : <SResistanceValue>1
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BleedingRes
+black_spider_34_normal.w2ent:                            2 (SResistanceValue) : <SResistanceValue>2
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PoisonRes
+black_spider_34_normal.w2ent:                            3 (SResistanceValue) : <SResistanceValue>3
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_FireRes
+black_spider_34_normal.w2ent:                            4 (SResistanceValue) : <SResistanceValue>4
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_FrostRes
+black_spider_34_normal.w2ent:                            5 (SResistanceValue) : <SResistanceValue>5
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueAdditive (Float) : 0.5195
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ShockRes
+black_spider_34_normal.w2ent:                            6 (SResistanceValue) : <SResistanceValue>6
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                    valueBase (Float) : 0.3000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueAdditive (Float) : 0.5280
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ForceRes
+black_spider_34_normal.w2ent:                            7 (SResistanceValue) : <SResistanceValue>7
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueAdditive (Float) : 0.8280
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_WillRes
+black_spider_34_normal.w2ent:                            8 (SResistanceValue) : <SResistanceValue>8
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueAdditive (Float) : 0.5280
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                    valueBase (Float) : 0.5000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BurningRes
+black_spider_34_normal.w2ent:                            9 (SResistanceValue) : <SResistanceValue>9
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_SlashingRes
+black_spider_34_normal.w2ent:                            10 (SResistanceValue) : <SResistanceValue>10
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PiercingRes
+black_spider_34_normal.w2ent:                            11 (SResistanceValue) : <SResistanceValue>11
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BludgeoningRes
+black_spider_34_normal.w2ent:                            12 (SResistanceValue) : <SResistanceValue>12
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_RendingRes
+black_spider_34_normal.w2ent:                            13 (SResistanceValue) : <SResistanceValue>13
+black_spider_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                                    valueBase (Float) : 0.1000
+black_spider_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ElementalRes
+black_spider_34_normal.w2ent:                        owner (handle:CActor) : CNewNPC #0
+black_spider_34_normal.w2ent:                        charStats (handle:CCharacterStats) : CCharacterStats #2
+black_spider_34_normal.w2ent:                        usedDifficultyMode (EDifficultyMode) : EDM_Medium
+black_spider_34_normal.w2ent:                        difficultyAbilities (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                            1 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                                0 (CName) : difficulty_CommonEasy
+black_spider_34_normal.w2ent:                            2 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                                0 (CName) : difficulty_CommonMedium
+black_spider_34_normal.w2ent:                            3 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                                0 (CName) : difficulty_CommonHard
+black_spider_34_normal.w2ent:                            4 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                                0 (CName) : difficulty_CommonHardcore
+black_spider_34_normal.w2ent:                CCharacterStats #2 (CCharacterStats) : 
+black_spider_34_normal.w2ent:                    CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+black_spider_34_normal.w2ent:                W3EffectManager #3 (W3EffectManager) : 
+black_spider_34_normal.w2ent:                    W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+black_spider_34_normal.w2ent:                        statDeltas (array:Float) : # array:Float
+black_spider_34_normal.w2ent:                            1 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            2 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            3 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            4 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            5 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            6 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            7 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            8 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            9 (Float) : 0.0000
+black_spider_34_normal.w2ent:                            10 (Float) : 0.0000
+black_spider_34_normal.w2ent:                CAppearanceComponent #4 (CAppearanceComponent) : CAppearanceComponent0
+black_spider_34_normal.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+black_spider_34_normal.w2ent:                        guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CAppearanceComponent0"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : -56
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 212
+black_spider_34_normal.w2ent:                        forcedAppearance (CName) : endriaga_worker_01
+black_spider_34_normal.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+black_spider_34_normal.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+black_spider_34_normal.w2ent:                                0 (SAttachmentReplacement) : proxy_CPhantomComponent1_8875441C-4C6583AB-81D94AA3-11740460
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CPhantomComponent1_8875441C-4C6583AB-81D94AA3-11740460
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CPhantomComponent1
+black_spider_34_normal.w2ent:                                    newClass (CName) : CPhantomComponent
+black_spider_34_normal.w2ent:                                1 (SAttachmentReplacement) : proxy_CDecalComponent0_AC6CCC1F-4F808A44-76F28885-48AA2F5C
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CDecalComponent0_AC6CCC1F-4F808A44-76F28885-48AA2F5C
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CDecalComponent0
+black_spider_34_normal.w2ent:                                    newClass (CName) : CDecalComponent
+black_spider_34_normal.w2ent:                                2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_59F585A0-4E9ECD3A-B6D978B7-A3518E80
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CCreatureDataComponent1_59F585A0-4E9ECD3A-B6D978B7-A3518E80
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CCreatureDataComponent1
+black_spider_34_normal.w2ent:                                    newClass (CName) : CCreatureDataComponent
+black_spider_34_normal.w2ent:                                3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_6CEF2FF4-487A6FAD-9702E484-E72BAB4E
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_6CEF2FF4-487A6FAD-9702E484-E72BAB4E
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+black_spider_34_normal.w2ent:                                4 (SAttachmentReplacement) : proxy_CInventoryComponent0_BE92511C-42E2385E-CF622286-5812E60A
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_BE92511C-42E2385E-CF622286-5812E60A
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CInventoryComponent0
+black_spider_34_normal.w2ent:                                    newClass (CName) : CInventoryComponent
+black_spider_34_normal.w2ent:                                5 (SAttachmentReplacement) : proxy_grassCollider_877E8920-40730141-70690F9B-5D44BA15
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_grassCollider_877E8920-40730141-70690F9B-5D44BA15
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : grassCollider
+black_spider_34_normal.w2ent:                                    newClass (CName) : CDynamicColliderComponent
+black_spider_34_normal.w2ent:                                6 (SAttachmentReplacement) : proxy_CDismembermentComponent0_8CFBBFE8-421380D8-6500B898-1CCD6462
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_8CFBBFE8-421380D8-6500B898-1CCD6462
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CDismembermentComponent0
+black_spider_34_normal.w2ent:                                    newClass (CName) : CDismembermentComponent
+black_spider_34_normal.w2ent:                                7 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_AC99E873-4A093FDD-4866C1B9-2DDF3BAA
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_AC99E873-4A093FDD-4866C1B9-2DDF3BAA
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
+black_spider_34_normal.w2ent:                                8 (SAttachmentReplacement) : proxy_torso3effect_88609271-4BC22167-62DFBB86-E5DC1046
+black_spider_34_normal.w2ent:                                    oldName (CName) : proxy_torso3effect_88609271-4BC22167-62DFBB86-E5DC1046
+black_spider_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                                    newName (CName) : torso3effect
+black_spider_34_normal.w2ent:                                    newClass (CName) : CEffectDummyComponent
+black_spider_34_normal.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+black_spider_34_normal.w2ent:                            0 (SAppearanceAttachments) : endriaga_worker_02
+black_spider_34_normal.w2ent:                                appearance (CName) : endriaga_worker_02
+black_spider_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                                        parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                                        childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                            1 (SAppearanceAttachments) : endriaga_worker_03
+black_spider_34_normal.w2ent:                                appearance (CName) : endriaga_worker_03
+black_spider_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                                        parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                                        childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                            2 (SAppearanceAttachments) : endriaga_worker_04
+black_spider_34_normal.w2ent:                                appearance (CName) : endriaga_worker_04
+black_spider_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                                        parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                                        childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                            3 (SAppearanceAttachments) : black_spider_01
+black_spider_34_normal.w2ent:                                appearance (CName) : black_spider_01
+black_spider_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                                    0 (SAppearanceAttachment) : a_01__black_spider
+black_spider_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                                        parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                                        childName (CName) : a_01__black_spider
+black_spider_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                CMovingPhysicalAgentComponent #5 (CMovingPhysicalAgentComponent) : endriaga_base
+black_spider_34_normal.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
+black_spider_34_normal.w2ent:                        guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                            0 (handle:IAttachment) : CHardAttachment #6
+black_spider_34_normal.w2ent:                            1 (handle:IAttachment) : CHardAttachment #8
+black_spider_34_normal.w2ent:                        name (String) : "endriaga_base"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 145
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 533
+black_spider_34_normal.w2ent:                        ragdoll (handle:CRagdoll) : characters/base_entities/endriaga_base/endriaga_ragdoll.w2ragdoll
+black_spider_34_normal.w2ent:                        skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
+black_spider_34_normal.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+black_spider_34_normal.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Combat
+black_spider_34_normal.w2ent:                                instanceName (CName) : Combat
+black_spider_34_normal.w2ent:                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+black_spider_34_normal.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+black_spider_34_normal.w2ent:                                instanceName (CName) : Cutscene
+black_spider_34_normal.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+black_spider_34_normal.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+black_spider_34_normal.w2ent:                CHardAttachment #6 (CHardAttachment) : 
+black_spider_34_normal.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+black_spider_34_normal.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #5
+black_spider_34_normal.w2ent:                        child (ptr:CNode) : CEffectDummyComponent #7
+black_spider_34_normal.w2ent:                CEffectDummyComponent #7 (CEffectDummyComponent) : torso3effect
+black_spider_34_normal.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+black_spider_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                            Pitch (Float) : 269.6780
+black_spider_34_normal.w2ent:                            Yaw (Float) : 9.4358
+black_spider_34_normal.w2ent:                            Roll (Float) : 95.2398
+black_spider_34_normal.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #6
+black_spider_34_normal.w2ent:                        guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                            0 (handle:IAttachment) : CHardAttachment #6
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "torso3effect"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : -59
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 528
+black_spider_34_normal.w2ent:                CHardAttachment #8 (CHardAttachment) : 
+black_spider_34_normal.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+black_spider_34_normal.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #5
+black_spider_34_normal.w2ent:                        child (ptr:CNode) : CDynamicColliderComponent #9
+black_spider_34_normal.w2ent:                CDynamicColliderComponent #9 (CDynamicColliderComponent) : grassCollider
+black_spider_34_normal.w2ent:                    CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
+black_spider_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                            Scale_x (Float) : 1.5000
+black_spider_34_normal.w2ent:                            Scale_y (Float) : 1.5000
+black_spider_34_normal.w2ent:                            Scale_z (Float) : 2.0000
+black_spider_34_normal.w2ent:                            X (Float) : 0.0000
+black_spider_34_normal.w2ent:                            Y (Float) : 0.0000
+black_spider_34_normal.w2ent:                            Z (Float) : 0.4000
+black_spider_34_normal.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #8
+black_spider_34_normal.w2ent:                        guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                            0 (handle:IAttachment) : CHardAttachment #8
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "grassCollider"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 83
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 614
+black_spider_34_normal.w2ent:                        useInWaterNormal (Bool) : false
+black_spider_34_normal.w2ent:                        useInGrassDisplacement (Bool) : true
+black_spider_34_normal.w2ent:                CPhantomComponent #10 (CPhantomComponent) : CPhantomComponent1
+black_spider_34_normal.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+black_spider_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                            Scale_x (Float) : 1.7360
+black_spider_34_normal.w2ent:                            Scale_y (Float) : 1.6629
+black_spider_34_normal.w2ent:                            Scale_z (Float) : 1.0000
+black_spider_34_normal.w2ent:                            X (Float) : 0.0000
+black_spider_34_normal.w2ent:                            Y (Float) : 0.9000
+black_spider_34_normal.w2ent:                            Z (Float) : 0.5000
+black_spider_34_normal.w2ent:                        guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CPhantomComponent1"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 211
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 701
+black_spider_34_normal.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                            0 (CName) : Character
+black_spider_34_normal.w2ent:                        shapeType (EPhantomShape) : PS_Box
+black_spider_34_normal.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+black_spider_34_normal.w2ent:                            X (Float) : 0.7000
+black_spider_34_normal.w2ent:                            Y (Float) : 0.7000
+black_spider_34_normal.w2ent:                            Z (Float) : 1.0000
+black_spider_34_normal.w2ent:                            W (Float) : 0.0000
+black_spider_34_normal.w2ent:                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+black_spider_34_normal.w2ent:                CDecalComponent #11 (CDecalComponent) : CDecalComponent0
+black_spider_34_normal.w2ent:                    CDecalComponent (CDecalComponent) : CDecalComponent0
+black_spider_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                            Scale_x (Float) : 3.0000
+black_spider_34_normal.w2ent:                            Scale_y (Float) : 3.0000
+black_spider_34_normal.w2ent:                            Scale_z (Float) : 1.8000
+black_spider_34_normal.w2ent:                        guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CDecalComponent0"
+black_spider_34_normal.w2ent:                        isStreamed (Bool) : false
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : -212
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 338
+black_spider_34_normal.w2ent:                        boundingBox (Box) : <Box>boundingBox
+black_spider_34_normal.w2ent:                            Min (Vector) : <Vector>Min
+black_spider_34_normal.w2ent:                                X (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                                Y (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                                Z (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                                W (Float) : 1.0000
+black_spider_34_normal.w2ent:                            Max (Vector) : <Vector>Max
+black_spider_34_normal.w2ent:                                X (Float) : NaN
+black_spider_34_normal.w2ent:                                Y (Float) : NaN
+black_spider_34_normal.w2ent:                                Z (Float) : NaN
+black_spider_34_normal.w2ent:                                W (Float) : 1.0000
+black_spider_34_normal.w2ent:                        diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
+black_spider_34_normal.w2ent:                        specularColor (Color) : <Color>specularColor
+black_spider_34_normal.w2ent:                            Red (Uint8) : 15
+black_spider_34_normal.w2ent:                            Green (Uint8) : 15
+black_spider_34_normal.w2ent:                            Blue (Uint8) : 15
+black_spider_34_normal.w2ent:                            Alpha (Uint8) : 255
+black_spider_34_normal.w2ent:                        normalThreshold (Float) : 57.6000
+black_spider_34_normal.w2ent:                CCreatureDataComponent #12 (CCreatureDataComponent) : CCreatureDataComponent1
+black_spider_34_normal.w2ent:                    CCreatureDataComponent (CCreatureDataComponent) : 
+black_spider_34_normal.w2ent:                        guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CCreatureDataComponent1"
+black_spider_34_normal.w2ent:                        itemsUsedAgainstCreature (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                            0 (CName) : Necrophage Oil 1	
+black_spider_34_normal.w2ent:                            1 (CName) : Golden Oriole 1
+black_spider_34_normal.w2ent:                        cameraDistance (Float) : 2.5000
+black_spider_34_normal.w2ent:                        cameraLookAtZ (Float) : 1.0000
+black_spider_34_normal.w2ent:                        cameraRotationYaw (Float) : 190.0000
+black_spider_34_normal.w2ent:                        cameraRotationPitch (Float) : 10.0000
+black_spider_34_normal.w2ent:                        environmentSunRotationYaw (Float) : 330.0000
+black_spider_34_normal.w2ent:                        environmentSunRotationPitch (Float) : 340.0000
+black_spider_34_normal.w2ent:                CSoundEmitterComponent #13 (CSoundEmitterComponent) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                            X (Float) : 0.0000
+black_spider_34_normal.w2ent:                            Y (Float) : 0.0000
+black_spider_34_normal.w2ent:                            Z (Float) : 0.7000
+black_spider_34_normal.w2ent:                        guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CSoundEmitterComponent0"
+black_spider_34_normal.w2ent:                        isStreamed (Bool) : false
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 98
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 415
+black_spider_34_normal.w2ent:                        eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+black_spider_34_normal.w2ent:                            0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
+black_spider_34_normal.w2ent:                        banksDependency (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                            0 (CName) : monster_black_spider.bnk
+black_spider_34_normal.w2ent:                        maxDistance (Float) : 100.0000
+black_spider_34_normal.w2ent:                CInventoryComponent #14 (CInventoryComponent) : CInventoryComponent0
+black_spider_34_normal.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+black_spider_34_normal.w2ent:                        guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CInventoryComponent0"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 310
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 391
+black_spider_34_normal.w2ent:                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+black_spider_34_normal.w2ent:                CDismembermentComponent #15 (CDismembermentComponent) : CDismembermentComponent0
+black_spider_34_normal.w2ent:                    CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+black_spider_34_normal.w2ent:                        guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CDismembermentComponent0"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 20
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 69
+black_spider_34_normal.w2ent:                CGameplayEffectsComponent #16 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:                        guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
+black_spider_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                        name (String) : "CGameplayEffectsComponent0"
+black_spider_34_normal.w2ent:                        graphPositionX (Int16) : 46
+black_spider_34_normal.w2ent:                        graphPositionY (Int16) : 268
+black_spider_34_normal.w2ent:            cookedEffectsVersion (Uint32) : 1
+black_spider_34_normal.w2ent:            Unk1 (Uint32) : 0
+black_spider_34_normal.w2ent:    CNewNPC #1 (CNewNPC) : 
+black_spider_34_normal.w2ent:        CNewNPC (CNewNPC) : 
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            streamingDistance (Uint8) : 14
+black_spider_34_normal.w2ent:            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+black_spider_34_normal.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+black_spider_34_normal.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #5
+black_spider_34_normal.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #6
+black_spider_34_normal.w2ent:                2 (ptr:CComponent) : CPhantomComponent #11
+black_spider_34_normal.w2ent:                3 (ptr:CComponent) : CDecalComponent #12
+black_spider_34_normal.w2ent:                4 (ptr:CComponent) : CCreatureDataComponent #13
+black_spider_34_normal.w2ent:                5 (ptr:CComponent) : CSoundEmitterComponent #14
+black_spider_34_normal.w2ent:                6 (ptr:CComponent) : CInventoryComponent #15
+black_spider_34_normal.w2ent:                7 (ptr:CComponent) : CDynamicColliderComponent #10
+black_spider_34_normal.w2ent:                8 (ptr:CComponent) : CDismembermentComponent #16
+black_spider_34_normal.w2ent:                9 (ptr:CComponent) : CGameplayEffectsComponent #17
+black_spider_34_normal.w2ent:                10 (ptr:CComponent) : CEffectDummyComponent #8
+black_spider_34_normal.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+black_spider_34_normal.w2ent:                0 (SEntityBufferType1) : 
+black_spider_34_normal.w2ent:                    ComponentName (CName) : 
+black_spider_34_normal.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+black_spider_34_normal.w2ent:            idTag (IdTag) :  cc881d54-dfba-4efb-8bad-e93ae23d5ed6
+black_spider_34_normal.w2ent:            displayName (LocalizedString) : Arachnomorph
+black_spider_34_normal.w2ent:            abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #2
+black_spider_34_normal.w2ent:            effectManager (handle:W3EffectManager) : W3EffectManager #4
+black_spider_34_normal.w2ent:            level (Int32) : 34
+black_spider_34_normal.w2ent:            currentLevel (Int32) : 34
+black_spider_34_normal.w2ent:            isMonsterType_Group (Bool) : true
+black_spider_34_normal.w2ent:    W3NonPlayerAbilityManager #2 (W3NonPlayerAbilityManager) : 
+black_spider_34_normal.w2ent:        W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+black_spider_34_normal.w2ent:            statPoints (array:SBaseStat) : # array:SBaseStat
+black_spider_34_normal.w2ent:                0 (SBaseStat) : <SBaseStat>0
+black_spider_34_normal.w2ent:                    current (Float) : 16121.6000
+black_spider_34_normal.w2ent:                    max (Float) : 16121.6000
+black_spider_34_normal.w2ent:                    type (EBaseCharacterStats) : BCS_Essence
+black_spider_34_normal.w2ent:                1 (SBaseStat) : <SBaseStat>1
+black_spider_34_normal.w2ent:                    current (Float) : 100.0000
+black_spider_34_normal.w2ent:                    max (Float) : 100.0000
+black_spider_34_normal.w2ent:                    type (EBaseCharacterStats) : BCS_Stamina
+black_spider_34_normal.w2ent:                2 (SBaseStat) : <SBaseStat>2
+black_spider_34_normal.w2ent:                    current (Float) : 100.0000
+black_spider_34_normal.w2ent:                    max (Float) : 100.0000
+black_spider_34_normal.w2ent:                    type (EBaseCharacterStats) : BCS_Morale
+black_spider_34_normal.w2ent:            resistStats (array:SResistanceValue) : # array:SResistanceValue
+black_spider_34_normal.w2ent:                0 (SResistanceValue) : <SResistanceValue>0
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PhysicalRes
+black_spider_34_normal.w2ent:                1 (SResistanceValue) : <SResistanceValue>1
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BleedingRes
+black_spider_34_normal.w2ent:                2 (SResistanceValue) : <SResistanceValue>2
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PoisonRes
+black_spider_34_normal.w2ent:                3 (SResistanceValue) : <SResistanceValue>3
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_FireRes
+black_spider_34_normal.w2ent:                4 (SResistanceValue) : <SResistanceValue>4
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_FrostRes
+black_spider_34_normal.w2ent:                5 (SResistanceValue) : <SResistanceValue>5
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueAdditive (Float) : 0.5195
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ShockRes
+black_spider_34_normal.w2ent:                6 (SResistanceValue) : <SResistanceValue>6
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                        valueBase (Float) : 0.3000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueAdditive (Float) : 0.5280
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ForceRes
+black_spider_34_normal.w2ent:                7 (SResistanceValue) : <SResistanceValue>7
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueAdditive (Float) : 0.8280
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_WillRes
+black_spider_34_normal.w2ent:                8 (SResistanceValue) : <SResistanceValue>8
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueAdditive (Float) : 0.5280
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                        valueBase (Float) : 0.5000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BurningRes
+black_spider_34_normal.w2ent:                9 (SResistanceValue) : <SResistanceValue>9
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_SlashingRes
+black_spider_34_normal.w2ent:                10 (SResistanceValue) : <SResistanceValue>10
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PiercingRes
+black_spider_34_normal.w2ent:                11 (SResistanceValue) : <SResistanceValue>11
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BludgeoningRes
+black_spider_34_normal.w2ent:                12 (SResistanceValue) : <SResistanceValue>12
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_RendingRes
+black_spider_34_normal.w2ent:                13 (SResistanceValue) : <SResistanceValue>13
+black_spider_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+black_spider_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
+black_spider_34_normal.w2ent:                        valueBase (Float) : 0.1000
+black_spider_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ElementalRes
+black_spider_34_normal.w2ent:            owner (handle:CActor) : CNewNPC #1
+black_spider_34_normal.w2ent:            charStats (handle:CCharacterStats) : CCharacterStats #3
+black_spider_34_normal.w2ent:            usedDifficultyMode (EDifficultyMode) : EDM_Medium
+black_spider_34_normal.w2ent:            difficultyAbilities (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                1 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                    0 (CName) : difficulty_CommonEasy
+black_spider_34_normal.w2ent:                2 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                    0 (CName) : difficulty_CommonMedium
+black_spider_34_normal.w2ent:                3 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                    0 (CName) : difficulty_CommonHard
+black_spider_34_normal.w2ent:                4 (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                    0 (CName) : difficulty_CommonHardcore
+black_spider_34_normal.w2ent:    CCharacterStats #3 (CCharacterStats) : 
+black_spider_34_normal.w2ent:        CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+black_spider_34_normal.w2ent:    W3EffectManager #4 (W3EffectManager) : 
+black_spider_34_normal.w2ent:        W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+black_spider_34_normal.w2ent:            statDeltas (array:Float) : # array:Float
+black_spider_34_normal.w2ent:                1 (Float) : 0.0000
+black_spider_34_normal.w2ent:                2 (Float) : 0.0000
+black_spider_34_normal.w2ent:                3 (Float) : 0.0000
+black_spider_34_normal.w2ent:                4 (Float) : 0.0000
+black_spider_34_normal.w2ent:                5 (Float) : 0.0000
+black_spider_34_normal.w2ent:                6 (Float) : 0.0000
+black_spider_34_normal.w2ent:                7 (Float) : 0.0000
+black_spider_34_normal.w2ent:                8 (Float) : 0.0000
+black_spider_34_normal.w2ent:                9 (Float) : 0.0000
+black_spider_34_normal.w2ent:                10 (Float) : 0.0000
+black_spider_34_normal.w2ent:    CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
+black_spider_34_normal.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+black_spider_34_normal.w2ent:            guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CAppearanceComponent0"
+black_spider_34_normal.w2ent:            forcedAppearance (CName) : endriaga_worker_01
+black_spider_34_normal.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+black_spider_34_normal.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+black_spider_34_normal.w2ent:                    0 (SAttachmentReplacement) : proxy_CPhantomComponent1_8875441C-4C6583AB-81D94AA3-11740460
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CPhantomComponent1_8875441C-4C6583AB-81D94AA3-11740460
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CPhantomComponent1
+black_spider_34_normal.w2ent:                        newClass (CName) : CPhantomComponent
+black_spider_34_normal.w2ent:                    1 (SAttachmentReplacement) : proxy_CDecalComponent0_AC6CCC1F-4F808A44-76F28885-48AA2F5C
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CDecalComponent0_AC6CCC1F-4F808A44-76F28885-48AA2F5C
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CDecalComponent0
+black_spider_34_normal.w2ent:                        newClass (CName) : CDecalComponent
+black_spider_34_normal.w2ent:                    2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_59F585A0-4E9ECD3A-B6D978B7-A3518E80
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CCreatureDataComponent1_59F585A0-4E9ECD3A-B6D978B7-A3518E80
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CCreatureDataComponent1
+black_spider_34_normal.w2ent:                        newClass (CName) : CCreatureDataComponent
+black_spider_34_normal.w2ent:                    3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_6CEF2FF4-487A6FAD-9702E484-E72BAB4E
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_6CEF2FF4-487A6FAD-9702E484-E72BAB4E
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:                        newClass (CName) : CSoundEmitterComponent
+black_spider_34_normal.w2ent:                    4 (SAttachmentReplacement) : proxy_CInventoryComponent0_BE92511C-42E2385E-CF622286-5812E60A
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_BE92511C-42E2385E-CF622286-5812E60A
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CInventoryComponent0
+black_spider_34_normal.w2ent:                        newClass (CName) : CInventoryComponent
+black_spider_34_normal.w2ent:                    5 (SAttachmentReplacement) : proxy_grassCollider_877E8920-40730141-70690F9B-5D44BA15
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_grassCollider_877E8920-40730141-70690F9B-5D44BA15
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : grassCollider
+black_spider_34_normal.w2ent:                        newClass (CName) : CDynamicColliderComponent
+black_spider_34_normal.w2ent:                    6 (SAttachmentReplacement) : proxy_CDismembermentComponent0_8CFBBFE8-421380D8-6500B898-1CCD6462
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_8CFBBFE8-421380D8-6500B898-1CCD6462
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CDismembermentComponent0
+black_spider_34_normal.w2ent:                        newClass (CName) : CDismembermentComponent
+black_spider_34_normal.w2ent:                    7 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_AC99E873-4A093FDD-4866C1B9-2DDF3BAA
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_AC99E873-4A093FDD-4866C1B9-2DDF3BAA
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:                        newClass (CName) : CGameplayEffectsComponent
+black_spider_34_normal.w2ent:                    8 (SAttachmentReplacement) : proxy_torso3effect_88609271-4BC22167-62DFBB86-E5DC1046
+black_spider_34_normal.w2ent:                        oldName (CName) : proxy_torso3effect_88609271-4BC22167-62DFBB86-E5DC1046
+black_spider_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
+black_spider_34_normal.w2ent:                        newName (CName) : torso3effect
+black_spider_34_normal.w2ent:                        newClass (CName) : CEffectDummyComponent
+black_spider_34_normal.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+black_spider_34_normal.w2ent:                0 (SAppearanceAttachments) : endriaga_worker_02
+black_spider_34_normal.w2ent:                    appearance (CName) : endriaga_worker_02
+black_spider_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                            parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                            childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                            childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                1 (SAppearanceAttachments) : endriaga_worker_03
+black_spider_34_normal.w2ent:                    appearance (CName) : endriaga_worker_03
+black_spider_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                            parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                            childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                            childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                2 (SAppearanceAttachments) : endriaga_worker_04
+black_spider_34_normal.w2ent:                    appearance (CName) : endriaga_worker_04
+black_spider_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
+black_spider_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                            parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                            childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                            childName (CName) : a_01__endriaga
+black_spider_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:                3 (SAppearanceAttachments) : black_spider_01
+black_spider_34_normal.w2ent:                    appearance (CName) : black_spider_01
+black_spider_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+black_spider_34_normal.w2ent:                        0 (SAppearanceAttachment) : a_01__black_spider
+black_spider_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+black_spider_34_normal.w2ent:                            parentName (CName) : endriaga_base
+black_spider_34_normal.w2ent:                            childClass (CName) : CMeshComponent
+black_spider_34_normal.w2ent:                            childName (CName) : a_01__black_spider
+black_spider_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+black_spider_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+black_spider_34_normal.w2ent:    CMovingPhysicalAgentComponent #6 (CMovingPhysicalAgentComponent) : endriaga_base
+black_spider_34_normal.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
+black_spider_34_normal.w2ent:            guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                0 (handle:IAttachment) : CHardAttachment #7
+black_spider_34_normal.w2ent:                1 (handle:IAttachment) : CHardAttachment #9
+black_spider_34_normal.w2ent:            name (String) : "endriaga_base"
+black_spider_34_normal.w2ent:            ragdoll (handle:CRagdoll) : characters/base_entities/endriaga_base/endriaga_ragdoll.w2ragdoll
+black_spider_34_normal.w2ent:            skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
+black_spider_34_normal.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+black_spider_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
+black_spider_34_normal.w2ent:                    instanceName (CName) : Combat
+black_spider_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+black_spider_34_normal.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+black_spider_34_normal.w2ent:                    instanceName (CName) : Cutscene
+black_spider_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+black_spider_34_normal.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+black_spider_34_normal.w2ent:    CHardAttachment #7 (CHardAttachment) : 
+black_spider_34_normal.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+black_spider_34_normal.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #6
+black_spider_34_normal.w2ent:            child (ptr:CNode) : CEffectDummyComponent #8
+black_spider_34_normal.w2ent:    CEffectDummyComponent #8 (CEffectDummyComponent) : torso3effect
+black_spider_34_normal.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+black_spider_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                Pitch (Float) : 269.6780
+black_spider_34_normal.w2ent:                Yaw (Float) : 9.4358
+black_spider_34_normal.w2ent:                Roll (Float) : 95.2398
+black_spider_34_normal.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #7
+black_spider_34_normal.w2ent:            guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                0 (handle:IAttachment) : CHardAttachment #7
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "torso3effect"
+black_spider_34_normal.w2ent:    CHardAttachment #9 (CHardAttachment) : 
+black_spider_34_normal.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+black_spider_34_normal.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #6
+black_spider_34_normal.w2ent:            child (ptr:CNode) : CDynamicColliderComponent #10
+black_spider_34_normal.w2ent:    CDynamicColliderComponent #10 (CDynamicColliderComponent) : grassCollider
+black_spider_34_normal.w2ent:        CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
+black_spider_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                Scale_x (Float) : 1.5000
+black_spider_34_normal.w2ent:                Scale_y (Float) : 1.5000
+black_spider_34_normal.w2ent:                Scale_z (Float) : 2.0000
+black_spider_34_normal.w2ent:                X (Float) : 0.0000
+black_spider_34_normal.w2ent:                Y (Float) : 0.0000
+black_spider_34_normal.w2ent:                Z (Float) : 0.4000
+black_spider_34_normal.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #9
+black_spider_34_normal.w2ent:            guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:                0 (handle:IAttachment) : CHardAttachment #9
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "grassCollider"
+black_spider_34_normal.w2ent:            useInWaterNormal (Bool) : false
+black_spider_34_normal.w2ent:            useInGrassDisplacement (Bool) : true
+black_spider_34_normal.w2ent:    CPhantomComponent #11 (CPhantomComponent) : CPhantomComponent1
+black_spider_34_normal.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+black_spider_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                Scale_x (Float) : 1.7360
+black_spider_34_normal.w2ent:                Scale_y (Float) : 1.6629
+black_spider_34_normal.w2ent:                Scale_z (Float) : 1.0000
+black_spider_34_normal.w2ent:                X (Float) : 0.0000
+black_spider_34_normal.w2ent:                Y (Float) : 0.9000
+black_spider_34_normal.w2ent:                Z (Float) : 0.5000
+black_spider_34_normal.w2ent:            guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CPhantomComponent1"
+black_spider_34_normal.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : Character
+black_spider_34_normal.w2ent:            shapeType (EPhantomShape) : PS_Box
+black_spider_34_normal.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+black_spider_34_normal.w2ent:                X (Float) : 0.7000
+black_spider_34_normal.w2ent:                Y (Float) : 0.7000
+black_spider_34_normal.w2ent:                Z (Float) : 1.0000
+black_spider_34_normal.w2ent:                W (Float) : 0.0000
+black_spider_34_normal.w2ent:            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+black_spider_34_normal.w2ent:    CDecalComponent #12 (CDecalComponent) : CDecalComponent0
+black_spider_34_normal.w2ent:        CDecalComponent (CDecalComponent) : CDecalComponent0
+black_spider_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                Scale_x (Float) : 3.0000
+black_spider_34_normal.w2ent:                Scale_y (Float) : 3.0000
+black_spider_34_normal.w2ent:                Scale_z (Float) : 1.8000
+black_spider_34_normal.w2ent:            guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CDecalComponent0"
+black_spider_34_normal.w2ent:            isStreamed (Bool) : false
+black_spider_34_normal.w2ent:            boundingBox (Box) : <Box>boundingBox
+black_spider_34_normal.w2ent:                Min (Vector) : <Vector>Min
+black_spider_34_normal.w2ent:                    X (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                    Y (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                    Z (Float) : 340282300000000000000000000000000000000.0000
+black_spider_34_normal.w2ent:                    W (Float) : 1.0000
+black_spider_34_normal.w2ent:                Max (Vector) : <Vector>Max
+black_spider_34_normal.w2ent:                    X (Float) : NaN
+black_spider_34_normal.w2ent:                    Y (Float) : NaN
+black_spider_34_normal.w2ent:                    Z (Float) : NaN
+black_spider_34_normal.w2ent:                    W (Float) : 1.0000
+black_spider_34_normal.w2ent:            diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
+black_spider_34_normal.w2ent:            specularColor (Color) : <Color>specularColor
+black_spider_34_normal.w2ent:                Red (Uint8) : 15
+black_spider_34_normal.w2ent:                Green (Uint8) : 15
+black_spider_34_normal.w2ent:                Blue (Uint8) : 15
+black_spider_34_normal.w2ent:                Alpha (Uint8) : 255
+black_spider_34_normal.w2ent:            normalThreshold (Float) : 57.6000
+black_spider_34_normal.w2ent:    CCreatureDataComponent #13 (CCreatureDataComponent) : CCreatureDataComponent1
+black_spider_34_normal.w2ent:        CCreatureDataComponent (CCreatureDataComponent) : 
+black_spider_34_normal.w2ent:            guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CCreatureDataComponent1"
+black_spider_34_normal.w2ent:            itemsUsedAgainstCreature (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : Necrophage Oil 1	
+black_spider_34_normal.w2ent:                1 (CName) : Golden Oriole 1
+black_spider_34_normal.w2ent:            cameraDistance (Float) : 2.5000
+black_spider_34_normal.w2ent:            cameraLookAtZ (Float) : 1.0000
+black_spider_34_normal.w2ent:            cameraRotationYaw (Float) : 190.0000
+black_spider_34_normal.w2ent:            cameraRotationPitch (Float) : 10.0000
+black_spider_34_normal.w2ent:            environmentSunRotationYaw (Float) : 330.0000
+black_spider_34_normal.w2ent:            environmentSunRotationPitch (Float) : 340.0000
+black_spider_34_normal.w2ent:    CSoundEmitterComponent #14 (CSoundEmitterComponent) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+black_spider_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+black_spider_34_normal.w2ent:                X (Float) : 0.0000
+black_spider_34_normal.w2ent:                Y (Float) : 0.0000
+black_spider_34_normal.w2ent:                Z (Float) : 0.7000
+black_spider_34_normal.w2ent:            guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CSoundEmitterComponent0"
+black_spider_34_normal.w2ent:            isStreamed (Bool) : false
+black_spider_34_normal.w2ent:            eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+black_spider_34_normal.w2ent:                0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
+black_spider_34_normal.w2ent:            banksDependency (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : monster_black_spider.bnk
+black_spider_34_normal.w2ent:            maxDistance (Float) : 100.0000
+black_spider_34_normal.w2ent:    CInventoryComponent #15 (CInventoryComponent) : CInventoryComponent0
+black_spider_34_normal.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+black_spider_34_normal.w2ent:            guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CInventoryComponent0"
+black_spider_34_normal.w2ent:            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+black_spider_34_normal.w2ent:    CDismembermentComponent #16 (CDismembermentComponent) : CDismembermentComponent0
+black_spider_34_normal.w2ent:        CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+black_spider_34_normal.w2ent:            guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CDismembermentComponent0"
+black_spider_34_normal.w2ent:    CGameplayEffectsComponent #17 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+black_spider_34_normal.w2ent:            guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
+black_spider_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+black_spider_34_normal.w2ent:            name (String) : "CGameplayEffectsComponent0"
+black_spider_34_normal.w2ent:    CAIProfile #18 (CAIProfile) : AG_endriaga_spikey
+black_spider_34_normal.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            attitudeGroup (CName) : AG_endriaga_spikey
+black_spider_34_normal.w2ent:    CInventoryDefinition #19 (CInventoryDefinition) : 
+black_spider_34_normal.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+black_spider_34_normal.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #20
+black_spider_34_normal.w2ent:    CInventoryDefinitionEntry #20 (CInventoryDefinitionEntry) : monster_weapon
+black_spider_34_normal.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+black_spider_34_normal.w2ent:            category (CName) : monster_weapon
+black_spider_34_normal.w2ent:            isMount (Bool) : true
+black_spider_34_normal.w2ent:            isLootable (Bool) : false
+black_spider_34_normal.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #21
+black_spider_34_normal.w2ent:    CInventoryInitializerUniform #21 (CInventoryInitializerUniform) : mon_black_spider_weapon
+black_spider_34_normal.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+black_spider_34_normal.w2ent:            itemName (CName) : mon_black_spider_weapon
+black_spider_34_normal.w2ent:    CAttackRangeParam #22 (CAttackRangeParam) : attack_range_worker
+black_spider_34_normal.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_range_worker
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "attack_range_worker"
+black_spider_34_normal.w2ent:            overrideInherited (Bool) : true
+black_spider_34_normal.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+black_spider_34_normal.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #23
+black_spider_34_normal.w2ent:    CConeAttackRange #23 (CConeAttackRange) : basic_strike
+black_spider_34_normal.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
+black_spider_34_normal.w2ent:            name (CName) : basic_strike
+black_spider_34_normal.w2ent:            rangeMax (Float) : 1.0000
+black_spider_34_normal.w2ent:            height (Float) : 2.0000
+black_spider_34_normal.w2ent:    CCharacterStatsParam #24 (CCharacterStatsParam) : additional_abilities
+black_spider_34_normal.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional_abilities
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "additional_abilities"
+black_spider_34_normal.w2ent:            abilities (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : Venom
+black_spider_34_normal.w2ent:                1 (CName) : mon_black_spider
+black_spider_34_normal.w2ent:    CBloodTrailEffect #25 (CBloodTrailEffect) : green_blood_trail
+black_spider_34_normal.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "green_blood_trail"
+black_spider_34_normal.w2ent:            effect (CName) : green_blood_trail
+black_spider_34_normal.w2ent:    CCharacterControllerParam #26 (CCharacterControllerParam) : endriaga_worker_controller_params
+black_spider_34_normal.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : endriaga_worker_controller_params
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "endriaga_worker_controller_params"
+black_spider_34_normal.w2ent:            overrideInherited (Bool) : true
+black_spider_34_normal.w2ent:            height (Float) : 1.0000
+black_spider_34_normal.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_2
+black_spider_34_normal.w2ent:    CR4LootParam #27 (CR4LootParam) : loot
+black_spider_34_normal.w2ent:        CR4LootParam (CR4LootParam) : loot
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "loot"
+black_spider_34_normal.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+black_spider_34_normal.w2ent:                0 (CR4LootContainerParam) : _monster__blackSpiderNormal
+black_spider_34_normal.w2ent:                    name (CName) : _monster__blackSpiderNormal
+black_spider_34_normal.w2ent:    CAIBaseTreeTemplateParam #28 (CAIBaseTreeTemplateParam) : 
+black_spider_34_normal.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #29
+black_spider_34_normal.w2ent:    CAIMonsterBase #29 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIEndriagaDefaults #30
+black_spider_34_normal.w2ent:    CAIEndriagaDefaults #30 (CAIEndriagaDefaults) : 
+black_spider_34_normal.w2ent:        CAIEndriagaDefaults (CAIEndriagaDefaults) : <CAIEndriagaDefaults>CAIEndriagaDefaults
+black_spider_34_normal.w2ent:            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #31
+black_spider_34_normal.w2ent:            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #33
+black_spider_34_normal.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #35
+black_spider_34_normal.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorArachas #37
+black_spider_34_normal.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #55
+black_spider_34_normal.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #71
+black_spider_34_normal.w2ent:    CAIMonsterSpawnDefault #31 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #32
+black_spider_34_normal.w2ent:    CAIMonsterSpawnParams #32 (CAIMonsterSpawnParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+black_spider_34_normal.w2ent:    CAIMonsterTaunt #33 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #34
+black_spider_34_normal.w2ent:    CAIMonsterTauntParams #34 (CAIMonsterTauntParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+black_spider_34_normal.w2ent:    CAIMonsterAxii #35 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #36
+black_spider_34_normal.w2ent:    CAIMonsterAxiiParams #36 (CAIMonsterAxiiParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+black_spider_34_normal.w2ent:    CAIMonsterIdleDecoratorArachas #37 (CAIMonsterIdleDecoratorArachas) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterIdleDecoratorArachas (CAIMonsterIdleDecoratorArachas) : <CAIMonsterIdleDecoratorArachas>CAIMonsterIdleDecoratorArachas
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #38
+black_spider_34_normal.w2ent:    CAIMonsterIdleDecoratorParams #38 (CAIMonsterIdleDecoratorParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+black_spider_34_normal.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #39
+black_spider_34_normal.w2ent:            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #51
+black_spider_34_normal.w2ent:            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
+black_spider_34_normal.w2ent:                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleDig #53
+black_spider_34_normal.w2ent:    CAIMonsterReactionsTree #39 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #40
+black_spider_34_normal.w2ent:    CAIMonsterReactionsTreeParams #40 (CAIMonsterReactionsTreeParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+black_spider_34_normal.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+black_spider_34_normal.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #41
+black_spider_34_normal.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #43
+black_spider_34_normal.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #45
+black_spider_34_normal.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #47
+black_spider_34_normal.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #49
+black_spider_34_normal.w2ent:    CAIActionSearchForTarget #41 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #42
+black_spider_34_normal.w2ent:    CAINpcReactionSearchTarget #42 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+black_spider_34_normal.w2ent:    CAIActionAllySearchesTarget #43 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #44
+black_spider_34_normal.w2ent:    CAINpcReactionJoinSearchForTarget #44 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+black_spider_34_normal.w2ent:    CAIActionPlayWithTarget #45 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #46
+black_spider_34_normal.w2ent:    CAINpcReactionPlayWithTarget #46 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+black_spider_34_normal.w2ent:    CAIActionMoveInPack #47 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #48
+black_spider_34_normal.w2ent:    CAINpcReactionMoveInPack #48 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+black_spider_34_normal.w2ent:    CAIActionRunWildInPack #49 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #50
+black_spider_34_normal.w2ent:    CAINpcReactionRunWildInPack #50 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+black_spider_34_normal.w2ent:    CAIMonsterSearchFoodTree #51 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #52
+black_spider_34_normal.w2ent:    CAIMonsterSearchFoodIdleParams #52 (CAIMonsterSearchFoodIdleParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
+black_spider_34_normal.w2ent:            meat (Bool) : true
+black_spider_34_normal.w2ent:    CAIMonsterIdleDig #53 (CAIMonsterIdleDig) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterIdleDig (CAIMonsterIdleDig) : <CAIMonsterIdleDig>CAIMonsterIdleDig
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #54
+black_spider_34_normal.w2ent:    CAIMonsterIdleActionParams #54 (CAIMonsterIdleActionParams) : Dig
+black_spider_34_normal.w2ent:        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
+black_spider_34_normal.w2ent:            loopTime (Float) : 10.0000
+black_spider_34_normal.w2ent:            actionName (CName) : Dig
+black_spider_34_normal.w2ent:    CAIMonsterCombat #55 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #56
+black_spider_34_normal.w2ent:    CAIMonsterCombatParams #56 (CAIMonsterCombatParams) : MonsterHitReaction
+black_spider_34_normal.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+black_spider_34_normal.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBlackSpiderCombatLogic #57
+black_spider_34_normal.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #59
+black_spider_34_normal.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
+black_spider_34_normal.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #61
+black_spider_34_normal.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #63
+black_spider_34_normal.w2ent:    CAIBlackSpiderCombatLogic #57 (CAIBlackSpiderCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_black_spider_logic.w2behtree
+black_spider_34_normal.w2ent:        CAIBlackSpiderCombatLogic (CAIBlackSpiderCombatLogic) : <CAIBlackSpiderCombatLogic>CAIBlackSpiderCombatLogic
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_black_spider_logic.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIBlackSpiderCombatLogicParams #58
+black_spider_34_normal.w2ent:    CAIBlackSpiderCombatLogicParams #58 (CAIBlackSpiderCombatLogicParams) : 
+black_spider_34_normal.w2ent:        CAIBlackSpiderCombatLogicParams (CAIBlackSpiderCombatLogicParams) : <CAIBlackSpiderCombatLogicParams>CAIBlackSpiderCombatLogicParams
+black_spider_34_normal.w2ent:            minChargeDist (Float) : 7.0000
+black_spider_34_normal.w2ent:            maxChargeDist (Float) : 8.0000
+black_spider_34_normal.w2ent:    CAIMonsterDamageReactionTree #59 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #60
+black_spider_34_normal.w2ent:    CAIDamageReactionTreeParams #60 (CAIDamageReactionTreeParams) : 
+black_spider_34_normal.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+black_spider_34_normal.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
+black_spider_34_normal.w2ent:    CAINpcCriticalState #61 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+black_spider_34_normal.w2ent:        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #62
+black_spider_34_normal.w2ent:    CAINpcCriticalStateParams #62 (CAINpcCriticalStateParams) : 
+black_spider_34_normal.w2ent:        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+black_spider_34_normal.w2ent:    CAIMonsterCombatReactionsTree #63 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #64
+black_spider_34_normal.w2ent:    CAIMonsterReactionsTreeParams #64 (CAIMonsterReactionsTreeParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+black_spider_34_normal.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+black_spider_34_normal.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #65
+black_spider_34_normal.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #67
+black_spider_34_normal.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #69
+black_spider_34_normal.w2ent:    CAIActionLeadEscape #65 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #66
+black_spider_34_normal.w2ent:    CAINpcReactionLeadEscape #66 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+black_spider_34_normal.w2ent:    CAIActionLeadEscape #67 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #68
+black_spider_34_normal.w2ent:            actionEventName (CName) : FearsomeEvent
+black_spider_34_normal.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
+black_spider_34_normal.w2ent:    CAINpcReactionLeadEscape #68 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+black_spider_34_normal.w2ent:    CAIActionEscapeInPack #69 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+black_spider_34_normal.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+black_spider_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #70
+black_spider_34_normal.w2ent:    CAINpcReactionEscapeInPack #70 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+black_spider_34_normal.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+black_spider_34_normal.w2ent:    CAIMonsterDeath #71 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+black_spider_34_normal.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+black_spider_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+black_spider_34_normal.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #72
+black_spider_34_normal.w2ent:    CAIMonsterDeathParams #72 (CAIMonsterDeathParams) : 
+black_spider_34_normal.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+black_spider_34_normal.w2ent:            disableCollisionOnAnim (Bool) : true
+black_spider_34_normal.w2ent:    CAnimGlobalParam #73 (CAnimGlobalParam) : sfx_endriaga
+black_spider_34_normal.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            sfxTag (CName) : sfx_endriaga
+black_spider_34_normal.w2ent:    CAnimBehaviorsParam #74 (CAnimBehaviorsParam) : scene
+black_spider_34_normal.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : scene
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "scene"
+black_spider_34_normal.w2ent:            componentName (String) : "endriaga_base"
+black_spider_34_normal.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+black_spider_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : StoryScene
+black_spider_34_normal.w2ent:                    instanceName (CName) : StoryScene
+black_spider_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+black_spider_34_normal.w2ent:    CAIProfile #75 (CAIProfile) : monsters
+black_spider_34_normal.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #76
+black_spider_34_normal.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #77
+black_spider_34_normal.w2ent:            attitudeGroup (CName) : monsters
+black_spider_34_normal.w2ent:    CAISenseParams #76 (CAISenseParams) : 
+black_spider_34_normal.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+black_spider_34_normal.w2ent:            rangeMax (Float) : 20.0000
+black_spider_34_normal.w2ent:            rangeAngle (Float) : 240.0000
+black_spider_34_normal.w2ent:    CAISenseParams #77 (CAISenseParams) : 
+black_spider_34_normal.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+black_spider_34_normal.w2ent:            rangeAngle (Float) : 360.0000
+black_spider_34_normal.w2ent:            testLOS (Bool) : false
+black_spider_34_normal.w2ent:    CAnimAnimsetsParam #78 (CAnimAnimsetsParam) : endriaga
+black_spider_34_normal.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : endriaga
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "endriaga"
+black_spider_34_normal.w2ent:            componentName (String) : "endriaga_base"
+black_spider_34_normal.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+black_spider_34_normal.w2ent:                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/monsters/monster_black_spider.w2anims
+black_spider_34_normal.w2ent:    CAnimBehaviorsParam #79 (CAnimBehaviorsParam) : endriaga
+black_spider_34_normal.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : endriaga
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "endriaga"
+black_spider_34_normal.w2ent:            componentName (String) : "endriaga_base"
+black_spider_34_normal.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+black_spider_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
+black_spider_34_normal.w2ent:                    instanceName (CName) : Combat
+black_spider_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+black_spider_34_normal.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+black_spider_34_normal.w2ent:                    instanceName (CName) : Cutscene
+black_spider_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+black_spider_34_normal.w2ent:    CCharacterStatsParam #80 (CCharacterStatsParam) : black_spider_base_abilities
+black_spider_34_normal.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : black_spider_base_abilities
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "black_spider_base_abilities"
+black_spider_34_normal.w2ent:            abilities (array:CName) : # array:CName
+black_spider_34_normal.w2ent:                0 (CName) : mon_black_spider_base
+black_spider_34_normal.w2ent:    CMonsterParam #81 (CMonsterParam) : black_spider_monster_params
+black_spider_34_normal.w2ent:        CMonsterParam (CMonsterParam) : black_spider_monster_params
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "black_spider_monster_params"
+black_spider_34_normal.w2ent:            monsterCategory (Int32) : 5
+black_spider_34_normal.w2ent:            soundMonsterName (CName) : Endriaga
+black_spider_34_normal.w2ent:    CAnimConstraintsParam #82 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\npc\behaviorgraph\monster_endriaga_constraints.w2beh
+black_spider_34_normal.w2ent:        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_endriaga_constraints.w2beh
+black_spider_34_normal.w2ent:    CBloodTrailEffect #83 (CBloodTrailEffect) : green_blood_trail
+black_spider_34_normal.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "green_blood_trail"
+black_spider_34_normal.w2ent:            effect (CName) : green_blood_trail
+black_spider_34_normal.w2ent:    CFocusSoundParam #84 (CFocusSoundParam) : Focus_Sound
+black_spider_34_normal.w2ent:        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "Focus_Sound"
+black_spider_34_normal.w2ent:            overrideInherited (Bool) : true
+black_spider_34_normal.w2ent:            eventStart (CName) : monster_endriaga_focus_clue_100m_start
+black_spider_34_normal.w2ent:            eventStop (CName) : monster_endriaga_focus_clue_100m_stop
+black_spider_34_normal.w2ent:    CAnimGlobalParam #85 (CAnimGlobalParam) : sfx_endriaga
+black_spider_34_normal.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            sfxTag (CName) : sfx_endriaga
+black_spider_34_normal.w2ent:    CBuffImmunityParam #86 (CBuffImmunityParam) : immunes
+black_spider_34_normal.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : immunes
+black_spider_34_normal.w2ent:            wasIncluded (Bool) : true
+black_spider_34_normal.w2ent:            name (String) : "immunes"
+black_spider_34_normal.w2ent:            immunityTo (array:Int32) : # array:Int32
+black_spider_34_normal.w2ent:                0 (Int32) : 19

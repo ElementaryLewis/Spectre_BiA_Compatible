@@ -1,0 +1,77 @@
+templates:
+  bestiarymonsterhuntmh303.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: d68e01b9-564c-4ea4-a33d-362f4338813a
+      baseName: "Succubus"
+      order: 4286578686
+      uniqueScriptIdentifier: Succubus D68E01B9-4EA4564C-2F363DA3-3A813843
+      parentGuid: 0a6165df-4050-44d6-8569-c8337f1ce26d
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions 93391E55-43D20AD7-2A4FFDB7-7E24707D
+          parentGuid: d68e01b9-564c-4ea4-a33d-362f4338813a
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: f7ce32a0-4877-4dff-bfd5-2017b03013b5
+              baseName: "Lilith lives"
+              order: 2147483647
+              uniqueScriptIdentifier: Description F7CE32A0-4DFF4877-1720D5BF-B51330B0
+              parentGuid: 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+              description: <br>That is exactly the perplexing question faced by Geralt of Rivia. In the end he believed Salma and decided to let her go free - though he could not shake off the feeling that he might live to regret that decision.
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: de42a1e0-18c1-4e2c-a93f-a4ce0ba2f0c9
+              baseName: "Lilith dies"
+              order: 3221225470
+              uniqueScriptIdentifier: Lilith dies DE42A1E0-4E2C18C1-CEA43FA9-C9F0A20B
+              parentGuid: 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+              index: 1
+              description: <br>That is exactly the perplexing question faced by Geralt of Rivia. The succubus Salma claimed she killed out of necessity, that she had had no other choice. While the witcher did have another choice, he chose not to exercise it and killed the succubus instead - figuring this would be the lesser evil.
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 8693f568-b2aa-4811-9698-93c0b0a5aef3
+              baseName: "Lilith Precombat"
+              order: 1073741823
+              uniqueScriptIdentifier: Lilith Precombat 8693F568-4811B2AA-C0939896-F3AEA5B0
+              parentGuid: 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+              index: 2
+              description: does this monster, who wishes men no ill yet all the same often causes harm, deserve death, or mercy?
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: b5661a09-18da-4613-b41a-0c5150a32ac6
+              baseName: "Quote"
+              order: 536870911
+              uniqueScriptIdentifier: Quote B5661A09-461318DA-510C1AB4-C62AA350
+              parentGuid: 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+              index: 3
+              description: <i>I'm not one to lie. Nor do I kill without reason.</i><br>– Salma, succubus<br>
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: ce7c5aed-7d3e-4950-849f-581c5a2b96ce
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues CE7C5AED-49507D3E-1C589F84-CE962B5A
+          parentGuid: d68e01b9-564c-4ea4-a33d-362f4338813a
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: 49c6cc41-b79e-4534-b1ab-1d7d5b0d1fab
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints 49C6CC41-4534B79E-7D1DABB1-AB1F0D5B
+          parentGuid: d68e01b9-564c-4ea4-a33d-362f4338813a
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: a8445d32-cdba-4543-ad7a-99ba720ddb8b
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots A8445D32-4543CDBA-BA997AAD-8BDB0D72
+          parentGuid: d68e01b9-564c-4ea4-a33d-362f4338813a
+          index: 3
+      name: Salma
+      image: "bestiary_succubusmh303.png"
+      entityTemplate: quests/generic_quests/novigrad/quest_files/mh303_succubus/characters/mh303_succbus_v2.w2ent
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Hybrid Oil 1
+        - Quen
+        - Dwimeritium Bomb 1

@@ -1,0 +1,72 @@
+succubus.journal:    CJournalResource #0 (CJournalResource) : 
+succubus.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+succubus.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
+succubus.journal:    CJournalCreature #1 (CJournalCreature) : Succubus
+succubus.journal:        CJournalCreature (CJournalCreature) : Succubi
+succubus.journal:            guid (CGUID) : ea707bb5-8548-40c2-9a23-ddaedd78ddac
+succubus.journal:            baseName (String) : "Succubus"
+succubus.journal:            order (Uint32) : 4227858430
+succubus.journal:            uniqueScriptIdentifier (CName) : Succubus
+succubus.journal:            parentGuid (CGUID) : 0a6165df-4050-44d6-8569-c8337f1ce26d
+succubus.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+succubus.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+succubus.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #5
+succubus.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #6
+succubus.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #7
+succubus.journal:            name (LocalizedString) : Succubi
+succubus.journal:            image (String) : "bestiary_succubus.png"
+succubus.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
+succubus.journal:                0 (CName) : Hybrid Oil 1
+succubus.journal:                1 (CName) : Quen
+succubus.journal:                2 (CName) : Dwimeritium Bomb 1
+succubus.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+succubus.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+succubus.journal:            guid (CGUID) : 0b220d75-4b69-41c2-964a-7ae6a07315c9
+succubus.journal:            baseName (String) : "Descriptions"
+succubus.journal:            order (Uint32) : 2147483647
+succubus.journal:            uniqueScriptIdentifier (CName) : Descriptions 0B220D75-41C24B69-E67A4A96-C91573A0
+succubus.journal:            parentGuid (CGUID) : ea707bb5-8548-40c2-9a23-ddaedd78ddac
+succubus.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+succubus.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+succubus.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+succubus.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Sukkub - wpis 1
+succubus.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+succubus.journal:            guid (CGUID) : e7e0bad0-1c44-4453-8d52-53fc20af370f
+succubus.journal:            baseName (String) : "Sukkub - wpis 1"
+succubus.journal:            order (Uint32) : 2147483647
+succubus.journal:            uniqueScriptIdentifier (CName) : Sukkub - wpis 1
+succubus.journal:            parentGuid (CGUID) : 0b220d75-4b69-41c2-964a-7ae6a07315c9
+succubus.journal:            description (LocalizedString) : their never-ending advances, though pleasurable at first, have pushed more than one man to madness or even death.<br>
+succubus.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Sukkub - wpis 2
+succubus.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+succubus.journal:            guid (CGUID) : 4469b9f3-e478-4f95-afef-76c44669d511
+succubus.journal:            baseName (String) : "Sukkub - wpis 2"
+succubus.journal:            order (Uint32) : 3221225470
+succubus.journal:            uniqueScriptIdentifier (CName) : Sukkub - wpis 2
+succubus.journal:            parentGuid (CGUID) : 0b220d75-4b69-41c2-964a-7ae6a07315c9
+succubus.journal:            index (Uint8) : 1
+succubus.journal:            description (LocalizedString) : Succubi and menads usually can be found near human settlements, including small villages and populous cities. They prowl at night, though when stricken by serious need they will leave their lairs during the day as well. They shower their affections on men as well as women, the young as well as the old, the ugly as well as the beautiful. Some of them are particularly fond of pastors and other holy men, whose seduction they treat as a sort of game.<br><br>Though succubi are peaceful by nature, when forced to fight they will defend themselves fiercely. One should thus not be fooled by their fair appearance – under the velvety skin of their arms lie muscles of iron, and a blow delivered with their rear, goat-like legs or the thick horns on their head can easily crush bone.
+succubus.journal:    CJournalCreatureHuntingClueGroup #5 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+succubus.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+succubus.journal:            guid (CGUID) : 824d26b7-d309-4db5-86d5-46085fb89201
+succubus.journal:            baseName (String) : "Hunting Clues"
+succubus.journal:            order (Uint32) : 3221225470
+succubus.journal:            uniqueScriptIdentifier (CName) : Hunting Clues 824D26B7-4DB5D309-0846D586-0192B85F
+succubus.journal:            parentGuid (CGUID) : ea707bb5-8548-40c2-9a23-ddaedd78ddac
+succubus.journal:            index (Uint8) : 1
+succubus.journal:    CJournalCreatureGameplayHintGroup #6 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+succubus.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+succubus.journal:            guid (CGUID) : 7faa1530-07c2-45d2-9ea8-acc8c111aa9a
+succubus.journal:            baseName (String) : "Gameplay Hints"
+succubus.journal:            order (Uint32) : 3758096382
+succubus.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 7FAA1530-45D207C2-C8ACA89E-9AAA11C1
+succubus.journal:            parentGuid (CGUID) : ea707bb5-8548-40c2-9a23-ddaedd78ddac
+succubus.journal:            index (Uint8) : 2
+succubus.journal:    CJournalCreatureVitalSpotGroup #7 (CJournalCreatureVitalSpotGroup) : Vital spots
+succubus.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+succubus.journal:            guid (CGUID) : 12baa517-b462-40e3-907d-1fbec641a25d
+succubus.journal:            baseName (String) : "Vital spots"
+succubus.journal:            order (Uint32) : 4026531838
+succubus.journal:            uniqueScriptIdentifier (CName) : Vital spots 12BAA517-40E3B462-BE1F7D90-5DA241C6
+succubus.journal:            parentGuid (CGUID) : ea707bb5-8548-40c2-9a23-ddaedd78ddac
+succubus.journal:            index (Uint8) : 3

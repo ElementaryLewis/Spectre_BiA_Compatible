@@ -1,0 +1,3663 @@
+templates:
+  mh307_05_halflings_closing.w2scene:
+    ".type": CStoryScene
+    controlParts:  #array:2,0,ptr:CStorySceneControlPart
+      - ".type": CStorySceneInput
+        nextLinkElement:
+          ".type": CStorySceneSection
+          linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+            #"0": (looped reference) CStorySceneInput #1
+          nextLinkElement:
+            ".type": CStorySceneFlowCondition
+            linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+              #"0": (looped reference) CStorySceneSection #2
+            comment: "If mh307_minion killed"
+            trueLink:
+              ".type": CStorySceneLinkElement
+              nextLinkElement:
+                ".type": CStorySceneSection
+                linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                  #"0": (looped reference) CStorySceneLinkElement #4
+                nextLinkElement:
+                  ".type": CStorySceneScript
+                  linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                    #"0": (looped reference) CStorySceneSection #5
+                  nextLinkElement:
+                    ".type": CStorySceneOutput
+                    linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                      #"0": (looped reference) CStorySceneScript #6
+                    name: completed
+                    gameplayCameraBlendTime: 4.0000
+                  comment: "mh307_02_minion_killed_completed"
+                  functionName: SetRewardModifierScene
+                  BufferParameters:  #CCompressedBuffer:CVariant
+                    rewardName: mh307_02_minion_killed_completed
+                    modifer: 0.5
+                    onlyIfDoesntExist: True
+                    multiply: False
+                    notBaseMonsterHuntReward: False
+                nextVariantId: 1
+                defaultVariantId: 0
+                variants:  #array:2,0,ptr:CStorySceneSectionVariant
+                  - ".type": CStorySceneSectionVariant
+                    id: 0
+                    localeId: 2
+                    events:  #array:2,0,CGUID
+                      - 2ef3ada7-9550-4ab9-b97f-dce461afe27e
+                      - 8683a3cb-443d-42fc-80e8-fa72890169e3
+                      - aa25ce19-32fe-4442-927d-ed681bd1acdf
+                      - 47337330-c400-435a-94c9-0f3c1106a94f
+                      - a2e2ee3a-969f-4ae3-880f-1871c57853ee
+                      - 99a0fb72-51ba-423c-8278-152a330768cf
+                      - abd3adb6-ae44-41ee-8c21-030d2ab740b5
+                      - fec6820f-ef2b-4256-a3c0-97ce5b81ae5b
+                      - 52f75128-c4f9-4123-93e3-0e9cdce2db08
+                      - 504781df-f616-4d99-8db4-d26ddecc81fc
+                      - 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                      - 238e6f0c-3e9f-4e9c-b1b1-9113a65c1257
+                      - b93311d9-6939-46f6-a794-b49d34e0c884
+                      - 7357d030-5b12-4475-8b77-ac0fafd68028
+                      - eace7da8-91a5-475d-a219-8643c7f47495
+                      - c2e0a86e-9f50-43bc-9f07-66d8a89fa3b6
+                      - 10b99cbd-4107-434b-881a-473830971a13
+                      - 5dd057d7-5861-4a2c-ad02-843e5d08aed4
+                      - 9b881c92-7537-4eab-8b4e-1455aaee02d7
+                      - 2e3c687c-5d56-47e6-9c69-df9f8738ced9
+                      - 252db778-3a95-49c0-b65d-e16be8b56784
+                      - aa55f313-2ec7-4181-b13f-9a8b09a263ca
+                      - 7e641948-0cd3-4955-b43f-fa51593d4954
+                      - d69797e9-b8a9-406f-aeac-cd3fed2f569f
+                      - 506621e6-c62e-412a-bc31-336107a5b106
+                      - 65f3c6c8-c792-4eb4-89c1-6b9ed1db24b4
+                      - 64cdcc78-a4bd-4f5b-884e-ffb6b2fe5015
+                      - 11ee8c8e-a708-4f43-a25a-5ddb4ed7c736
+                      - 50f509cf-51a5-467f-975e-548263fec399
+                      - 2b3d8487-5a08-4345-809d-06fa743410a5
+                      - 0e801875-e4a2-461f-a851-b2a6f2896460
+                      - 2d0dc2f3-d44a-49e2-b661-c94b14e4a229
+                    elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "Line_70"
+                        approvedDuration: 5.1694
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "Line_71"
+                        approvedDuration: 5.3249
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "PauseElement_81"
+                        approvedDuration: 1.0000
+                sceneElements:  #array:2,0,ptr:CStorySceneElement
+                  - ".type": CStorySceneLine
+                    elementID: "Line_70"
+                    approvedDuration: 5.1620
+                    voicetag: GERALT
+                    speakingTo: HALFLING MAN 01
+                    dialogLine: It's hardly compensation for your losses, but at least the hound won't destroy any more hives.
+                  - ".type": CStorySceneLine
+                    elementID: "Line_71"
+                    approvedDuration: 5.3199
+                    voicetag: HALFLING MAN 01
+                    speakingTo: GERALT
+                    dialogLine: Thank you, witcher! It's true, nothing like hiring a specialist!
+                  - ".type": CStoryScenePauseElement
+                    elementID: "PauseElement_81"
+                    approvedDuration: 1.0000
+                    duration: 1.0000
+                eventsInfo:  #array:2,0,ptr:CStorySceneEventInfo
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 2ef3ada7-9550-4ab9-b97f-dce461afe27e
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 8683a3cb-443d-42fc-80e8-fa72890169e3
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: aa25ce19-32fe-4442-927d-ed681bd1acdf
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 47337330-c400-435a-94c9-0f3c1106a94f
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: a2e2ee3a-969f-4ae3-880f-1871c57853ee
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 99a0fb72-51ba-423c-8278-152a330768cf
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: abd3adb6-ae44-41ee-8c21-030d2ab740b5
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: fec6820f-ef2b-4256-a3c0-97ce5b81ae5b
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 52f75128-c4f9-4123-93e3-0e9cdce2db08
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 504781df-f616-4d99-8db4-d26ddecc81fc
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 238e6f0c-3e9f-4e9c-b1b1-9113a65c1257
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: b93311d9-6939-46f6-a794-b49d34e0c884
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: eace7da8-91a5-475d-a219-8643c7f47495
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: c2e0a86e-9f50-43bc-9f07-66d8a89fa3b6
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 10b99cbd-4107-434b-881a-473830971a13
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 5dd057d7-5861-4a2c-ad02-843e5d08aed4
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 9b881c92-7537-4eab-8b4e-1455aaee02d7
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 2e3c687c-5d56-47e6-9c69-df9f8738ced9
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 252db778-3a95-49c0-b65d-e16be8b56784
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: aa55f313-2ec7-4181-b13f-9a8b09a263ca
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 7e641948-0cd3-4955-b43f-fa51593d4954
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: d69797e9-b8a9-406f-aeac-cd3fed2f569f
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 506621e6-c62e-412a-bc31-336107a5b106
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 65f3c6c8-c792-4eb4-89c1-6b9ed1db24b4
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 64cdcc78-a4bd-4f5b-884e-ffb6b2fe5015
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 11ee8c8e-a708-4f43-a25a-5ddb4ed7c736
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 50f509cf-51a5-467f-975e-548263fec399
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 2b3d8487-5a08-4345-809d-06fa743410a5
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 0e801875-e4a2-461f-a851-b2a6f2896460
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 2d0dc2f3-d44a-49e2-b661-c94b14e4a229
+                    sectionVariantId: 0
+                sectionId: 5
+                sectionName: "mh307_05_minion_killed"
+                sceneEventElements:  #array:0,0,CVariantSizeType
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 2ef3ada7-9550-4ab9-b97f-dce461afe27e
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actor: GERALT
+                    target: HALFLING MAN 01
+                    speed: 0.9076
+                    level: LL_Head
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 8683a3cb-443d-42fc-80e8-fa72890169e3
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actor: HALFLING MAN 01
+                    target: GERALT
+                    speed: 0.9227
+                    level: LL_Head
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: aa25ce19-32fe-4442-927d-ed681bd1acdf
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actor: HALFLING MAN 02
+                    target: GERALT
+                    speed: 0.7790
+                  - ".type": CVariantSizeType
+                    startPosition: 0.1557
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 47337330-c400-435a-94c9-0f3c1106a94f
+                    actor: HALFLING MAN 02
+                    target: HALFLING MAN 01
+                    speed: 0.9090
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: a2e2ee3a-969f-4ae3-880f-1871c57853ee
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actor: HALFLING MAN 03
+                    target: GERALT
+                    speed: 0.9186
+                  - ".type": CVariantSizeType
+                    startPosition: 0.6844
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 99a0fb72-51ba-423c-8278-152a330768cf
+                    actor: HALFLING MAN 03
+                    target: HALFLING MAN 01
+                    speed: 0.6182
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: abd3adb6-ae44-41ee-8c21-030d2ab740b5
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actor: HALFLING MAN 04
+                    target: GERALT
+                    speed: 0.8430
+                  - ".type": CVariantSizeType
+                    startPosition: 0.3400
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: fec6820f-ef2b-4256-a3c0-97ce5b81ae5b
+                    actor: HALFLING MAN 04
+                    target: HALFLING MAN 01
+                    speed: 0.6929
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 52f75128-c4f9-4123-93e3-0e9cdce2db08
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    duration: 6.9462
+                    actor: GERALT
+                    clipFront: 0.4118
+                    clipEnd: 6.1000
+                    stretch: 1.2212
+                    weight: 0.6546
+                    animationName: add_gesture_explain_13
+                  - ".type": CVariantSizeType
+                    eventName: "question 01"
+                    startPosition: 0.9026
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 504781df-f616-4d99-8db4-d26ddecc81fc
+                    duration: 4.9647
+                    actor: HALFLING MAN 01
+                    clipEnd: 4.8000
+                    stretch: 1.0343
+                    weight: 0.9012
+                    animationName: high_standing_determined_gesture_question_01
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.2846
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.7154
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - 2ef3ada7-9550-4ab9-b97f-dce461afe27e
+                      - 8683a3cb-443d-42fc-80e8-fa72890169e3
+                      - aa25ce19-32fe-4442-927d-ed681bd1acdf
+                      - a2e2ee3a-969f-4ae3-880f-1871c57853ee
+                      - abd3adb6-ae44-41ee-8c21-030d2ab740b5
+                      - 52f75128-c4f9-4123-93e3-0e9cdce2db08
+                      - 9b881c92-7537-4eab-8b4e-1455aaee02d7
+                      - 50f509cf-51a5-467f-975e-548263fec399
+                    customCameraName: G medium
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0291
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 238e6f0c-3e9f-4e9c-b1b1-9113a65c1257
+                    customCameraName: 2_1_semicloseup_ext
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: b93311d9-6939-46f6-a794-b49d34e0c884
+                    linkParentGUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    actor: GERALT
+                  - ".type": CVariantSizeType
+                    eventName: "StartBlendToGameplayCamera"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - b93311d9-6939-46f6-a794-b49d34e0c884
+                      - eace7da8-91a5-475d-a219-8643c7f47495
+                      - c2e0a86e-9f50-43bc-9f07-66d8a89fa3b6
+                      - 10b99cbd-4107-434b-881a-473830971a13
+                      - 5dd057d7-5861-4a2c-ad02-843e5d08aed4
+                    cameraTranslation: [ -1.3891, -1.8682, 2.1207, 1.0000 ]
+                    cameraRotation: [ 342.5000, 344.4000, 0.0000 ]
+                    cameraFov: 13.0000
+                    dofFocusDistFar: 5.0000
+                    dofBlurDistFar: 5.0000
+                    dofIntensity: 1.0000
+                    dofFocusDistNear: 2.0000
+                    dofBlurDistNear: 3.0000
+                    cameraDefinition:  #StorySceneCameraDefinition
+                      cameraTransform:
+                        pos: [ -1.8561, -1.1709, 1.9113 ]
+                        rot: [ 0.0000, 338.0000, 326.6500 ]
+                        scale: [ 0.0000, 0.0000, 0.0000 ]
+                      cameraFov: 60.0000
+                      dof:  #ApertureDofParams
+                        focalLength: 33.6351
+                        distance: 2.8571
+                      genParam:  #CEventGeneratorCameraParams
+                        cameraPlane: Wide
+                      cameraAdjustVersion: 2
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: eace7da8-91a5-475d-a219-8643c7f47495
+                    linkParentGUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    actor: HALFLING MAN 01
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: c2e0a86e-9f50-43bc-9f07-66d8a89fa3b6
+                    linkParentGUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    actor: HALFLING MAN 02
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: 10b99cbd-4107-434b-881a-473830971a13
+                    linkParentGUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    actor: HALFLING MAN 03
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1123
+                    #sceneElement: (looped reference) CStoryScenePauseElement #11
+                    GUID: 5dd057d7-5861-4a2c-ad02-843e5d08aed4
+                    linkParentGUID: 7357d030-5b12-4475-8b77-ac0fafd68028
+                    actor: HALFLING MAN 04
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 9b881c92-7537-4eab-8b4e-1455aaee02d7
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    duration: 0.0000
+                    blendIn: 0.0000
+                    blendOut: 0.0000
+                    animationName: medium_shake
+                    isIdle: true
+                  - ".type": CVariantSizeType
+                    startPosition: 0.2363
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 2e3c687c-5d56-47e6-9c69-df9f8738ced9
+                    duration: 2.3997
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.8300
+                    stretch: 1.3113
+                    weight: 0.8604
+                    animationName: head_left01_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head left 01"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0059
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 252db778-3a95-49c0-b65d-e16be8b56784
+                    duration: 0.7442
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 0.7333
+                    stretch: 1.0148
+                    weight: 0.5493
+                    animationName: head_down_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head down"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.7384
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: aa55f313-2ec7-4181-b13f-9a8b09a263ca
+                    duration: 1.3721
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.0333
+                    stretch: 1.3279
+                    weight: 0.9664
+                    animationName: geralt_neutral_gesture_quicknod_face
+                    filterOption: AccentsHead
+                    friendlyName: "quicknod"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.4198
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 7e641948-0cd3-4955-b43f-fa51593d4954
+                    duration: 1.6468
+                    actor: GERALT
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 0.7000
+                    stretch: 2.3526
+                    weight: 0.9157
+                    animationName: constant_brows_down_accent_face
+                    filterOption: AccentsBrow
+                    friendlyName: "brows down"
+                  - ".type": CVariantSizeType
+                    startPosition: 1.0000
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: d69797e9-b8a9-406f-aeac-cd3fed2f569f
+                    duration: 3.6839
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 2.9000
+                    stretch: 1.2703
+                    weight: 0.7328
+                    animationName: geralt_neutral_gesture_shout_no_way_face
+                    filterOption: Shout
+                    friendlyName: "shout 05 no way"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.7653
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 506621e6-c62e-412a-bc31-336107a5b106
+                    duration: 1.2667
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.2333
+                    stretch: 1.0270
+                    weight: 0.5956
+                    animationName: head_up_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head up"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.8545
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 65f3c6c8-c792-4eb4-89c1-6b9ed1db24b4
+                    duration: 1.2622
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 1.0000
+                    stretch: 1.2622
+                    weight: 0.9508
+                    animationName: constant_brows_down_accent_face
+                    filterOption: AccentsBrow
+                    friendlyName: "brows down"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0426
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 64cdcc78-a4bd-4f5b-884e-ffb6b2fe5015
+                    duration: 1.0014
+                    actor: GERALT
+                    stretch: 1.0014
+                    mimicsEmotionalState: Neutral
+                    mimicsLayer_Eyes: Neutral
+                    mimicsLayer_Pose: Neutral
+                    mimicsLayer_Animation: Neutral
+                    mimicsPoseWeight: 0.6548
+                  - ".type": CVariantSizeType
+                    startPosition: 0.6665
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 11ee8c8e-a708-4f43-a25a-5ddb4ed7c736
+                    duration: 1.0009
+                    actor: HALFLING MAN 01
+                    stretch: 1.0009
+                    mimicsEmotionalState: Neutral
+                    mimicsLayer_Eyes: Neutral
+                    mimicsLayer_Pose: Neutral
+                    mimicsLayer_Animation: Neutral
+                    mimicsPoseWeight: 0.7286
+                  - ".type": CVariantSizeType
+                    eventName: "Placement event"
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 50f509cf-51a5-467f-975e-548263fec399
+                    linkParentGUID: 0980f3ca-e6b2-49b3-98d4-3d553ce6c71e
+                    actorName: HALFLING MAN 01
+                    placement:
+                      pos: [ -0.1877, 1.3701, -0.0300 ]
+                      rot: [ 0.0000, 0.0000, 208.0581 ]
+                      scale: [ 0.0000, 0.0000, 0.0000 ]
+                    resetCloth: DRCDT_None
+                  - ".type": CVariantSizeType
+                    eventName: "turn 90 right"
+                    startPosition: 0.1619
+                    #sceneElement: (looped reference) CStorySceneLine #9
+                    GUID: 2b3d8487-5a08-4345-809d-06fa743410a5
+                    duration: 2.8000
+                    actor: HALFLING MAN 01
+                    clipEnd: 2.8000
+                    weight: 0.6000
+                    animationName: high_standing_determined_turn90_right
+                    useMotionExtraction: true
+                    useFakeMotion: false
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+                  - ".type": CVariantSizeType
+                    eventName: "CustomCamera"
+                    startPosition: 0.4884
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 0e801875-e4a2-461f-a851-b2a6f2896460
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - 2d0dc2f3-d44a-49e2-b661-c94b14e4a229
+                    customCameraName: 1_2_semicloseup_int
+                  - ".type": CVariantSizeType
+                    eventName: "take"
+                    startPosition: 0.3795
+                    #sceneElement: (looped reference) CStorySceneLine #10
+                    GUID: 2d0dc2f3-d44a-49e2-b661-c94b14e4a229
+                    linkParentGUID: 0e801875-e4a2-461f-a851-b2a6f2896460
+                    linkParentTimeOffset: -0.5804
+                    duration: 5.0000
+                    actor: GERALT
+                    clipEnd: 5.0000
+                    animationName: high_standing_determined_gesture_take
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+            falseLink:
+              ".type": CStorySceneLinkElement
+              nextLinkElement:
+                ".type": CStorySceneSection
+                linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                  #"0": (looped reference) CStorySceneLinkElement #44
+                nextLinkElement:
+                  ".type": CStorySceneScript
+                  linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                    #"0": (looped reference) CStorySceneSection #45
+                  nextLinkElement:
+                    ".type": CStorySceneOutput
+                    linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                      #"0": (looped reference) CStorySceneScript #46
+                    name: failed
+                    gameplayCameraBlendTime: 4.0000
+                  comment: "mh307_02_minion_killed_completed"
+                  functionName: SetRewardModifierScene
+                  BufferParameters:  #CCompressedBuffer:CVariant
+                    rewardName: mh307_02_minion_killed_completed
+                    modifer: 0.5
+                    onlyIfDoesntExist: False
+                    multiply: True
+                    notBaseMonsterHuntReward: False
+                nextVariantId: 1
+                defaultVariantId: 0
+                variants:  #array:2,0,ptr:CStorySceneSectionVariant
+                  - ".type": CStorySceneSectionVariant
+                    id: 0
+                    localeId: 2
+                    events:  #array:2,0,CGUID
+                      - 496d8191-4e37-4dad-9f09-95c6cad4e8d9
+                      - 2f13781e-b647-400d-8f27-7144fbcd9fc4
+                      - 7d00aabf-b0c1-4c9b-b0f8-62eae785d7f7
+                      - b1efc8b4-c94a-4e71-9a07-8ed4c008ccfa
+                      - 083c822b-ab35-4e36-9e94-49164d2d0baf
+                      - e25a08b1-76dc-4cbb-b4b4-e9fd473c4e2b
+                      - 53b3b477-d9ac-45da-ba9f-8de4cc6e6793
+                      - 1b77c18d-78b1-4625-b5a8-37739f410892
+                      - 1624648f-767d-490a-8d0a-ca5f5d3cf167
+                      - 26d24ccb-b356-48f6-b1d4-89abfd1c13ea
+                      - 65b510d8-3042-412e-9f43-9bf34e0f5385
+                      - 3a35cf02-66e8-477e-88b0-edde14d53643
+                      - 85711157-d0f7-4663-8d96-dc1f2ada0e27
+                      - b6fe7016-709b-455b-9511-56ca20d71caa
+                      - 1a71495c-5ed2-4a7c-9e0c-37bdf6a76be6
+                      - 70315353-7907-4008-ba84-00923a15418b
+                      - 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                      - 69f6c046-c709-46de-bce9-6c940d4fe82e
+                      - c74e6a1a-1cc3-4a4e-9cec-9e7e0dcbcbfe
+                      - dfa10ae0-52c7-46cb-b7df-99d4c1ece153
+                      - c9985c39-54dd-450e-9340-7021699f1ced
+                      - 7cf304df-9222-4250-9fa7-4b64d41cdec9
+                      - 4d0b6978-d03b-4e71-98fc-703ad5cccc2c
+                      - 92e32bb4-1417-4564-a9d0-b867ad37aca3
+                      - 9373b974-e3ed-4005-95a2-4c4019adc8df
+                      - fb9b0ea1-cbf0-466e-a580-e0f8d5b3367a
+                      - 34d70990-0240-4eea-a88d-301b30048f84
+                      - 24c28d38-96b3-4226-92a0-61f410354741
+                      - 7e8f994d-cbaf-4b3e-8b72-42bbaee399cd
+                      - b67a786c-7e82-4f71-b0fe-ec2369855623
+                      - 0b8129af-2c22-46ef-91d5-5721f0c8b54d
+                      - 54a017c3-062b-4135-9ac5-3f9daa5e43f1
+                      - 6afe8ff8-7890-4c61-89ca-4a792160d0af
+                      - 8c225a6a-3331-44cd-9935-2f2c5361af86
+                      - e62ad928-e0d5-495f-a95b-a2a773bdaf0f
+                      - 35ea80d1-bfe3-49ab-bfe2-e7c6920657ce
+                      - 286a1441-4675-4882-8192-f4c1edf748d7
+                      - 43097398-95c2-43b2-b8ca-4e6fa7fa79ba
+                      - e34d7c9e-5c51-4b22-9b44-409000b13b5d
+                      - 584023c9-7bd1-4c5c-b0e7-446196f93ff0
+                      - 498ddc77-0f3c-49e6-b839-bc68ca4385ff
+                      - 479046ad-0042-49f8-863a-c78d8923bfe8
+                    elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "Line_68"
+                        approvedDuration: 2.3739
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "Line_69"
+                        approvedDuration: 10.1139
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "PauseElement_84"
+                        approvedDuration: 1.1486
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "Line_77"
+                        approvedDuration: 2.2471
+                      - ".type": CStorySceneSectionVariantElementInfo
+                        elementId: "PauseElement_82"
+                        approvedDuration: 1.0000
+                sceneElements:  #array:2,0,ptr:CStorySceneElement
+                  - ".type": CStorySceneLine
+                    elementID: "Line_68"
+                    approvedDuration: 2.3712
+                    voicetag: GERALT
+                    speakingTo: HALFLING MAN 01
+                    dialogLine: I roused him out, but he got away.
+                  - ".type": CStorySceneLine
+                    elementID: "Line_69"
+                    approvedDuration: 10.0952
+                    voicetag: HALFLING MAN 01
+                    speakingTo: GERALT
+                    dialogLine: Got away? Do you mean he could return? Ooph, that is not what we hired you to do. Job's only half done - you're entitled to half the pay.
+                  - ".type": CStoryScenePauseElement
+                    elementID: "PauseElement_84"
+                    duration: 1.1486
+                  - ".type": CStorySceneLine
+                    elementID: "Line_77"
+                    approvedDuration: 2.2481
+                    voicetag: GERALT
+                    speakingTo: HALFLING MAN 01
+                    dialogLine: Good enough for me. Farewell.
+                  - ".type": CStoryScenePauseElement
+                    elementID: "PauseElement_82"
+                    approvedDuration: 1.0000
+                    duration: 1.0000
+                eventsInfo:  #array:2,0,ptr:CStorySceneEventInfo
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 496d8191-4e37-4dad-9f09-95c6cad4e8d9
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 2f13781e-b647-400d-8f27-7144fbcd9fc4
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 7d00aabf-b0c1-4c9b-b0f8-62eae785d7f7
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: b1efc8b4-c94a-4e71-9a07-8ed4c008ccfa
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 083c822b-ab35-4e36-9e94-49164d2d0baf
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: e25a08b1-76dc-4cbb-b4b4-e9fd473c4e2b
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 53b3b477-d9ac-45da-ba9f-8de4cc6e6793
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 1b77c18d-78b1-4625-b5a8-37739f410892
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 1624648f-767d-490a-8d0a-ca5f5d3cf167
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 26d24ccb-b356-48f6-b1d4-89abfd1c13ea
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 65b510d8-3042-412e-9f43-9bf34e0f5385
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 3a35cf02-66e8-477e-88b0-edde14d53643
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 85711157-d0f7-4663-8d96-dc1f2ada0e27
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: b6fe7016-709b-455b-9511-56ca20d71caa
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 1a71495c-5ed2-4a7c-9e0c-37bdf6a76be6
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 70315353-7907-4008-ba84-00923a15418b
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 69f6c046-c709-46de-bce9-6c940d4fe82e
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: c74e6a1a-1cc3-4a4e-9cec-9e7e0dcbcbfe
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: dfa10ae0-52c7-46cb-b7df-99d4c1ece153
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: c9985c39-54dd-450e-9340-7021699f1ced
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 7cf304df-9222-4250-9fa7-4b64d41cdec9
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 4d0b6978-d03b-4e71-98fc-703ad5cccc2c
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 92e32bb4-1417-4564-a9d0-b867ad37aca3
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 9373b974-e3ed-4005-95a2-4c4019adc8df
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: fb9b0ea1-cbf0-466e-a580-e0f8d5b3367a
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 34d70990-0240-4eea-a88d-301b30048f84
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 24c28d38-96b3-4226-92a0-61f410354741
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 7e8f994d-cbaf-4b3e-8b72-42bbaee399cd
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: b67a786c-7e82-4f71-b0fe-ec2369855623
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 0b8129af-2c22-46ef-91d5-5721f0c8b54d
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 54a017c3-062b-4135-9ac5-3f9daa5e43f1
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 6afe8ff8-7890-4c61-89ca-4a792160d0af
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 8c225a6a-3331-44cd-9935-2f2c5361af86
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: e62ad928-e0d5-495f-a95b-a2a773bdaf0f
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 35ea80d1-bfe3-49ab-bfe2-e7c6920657ce
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 286a1441-4675-4882-8192-f4c1edf748d7
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 43097398-95c2-43b2-b8ca-4e6fa7fa79ba
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: e34d7c9e-5c51-4b22-9b44-409000b13b5d
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 584023c9-7bd1-4c5c-b0e7-446196f93ff0
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 498ddc77-0f3c-49e6-b839-bc68ca4385ff
+                    sectionVariantId: 0
+                  - ".type": CStorySceneEventInfo
+                    eventGuid: 479046ad-0042-49f8-863a-c78d8923bfe8
+                    sectionVariantId: 0
+                sectionId: 4
+                sectionName: "mh307_05_minion_not_killed"
+                sceneEventElements:  #array:0,0,CVariantSizeType
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 496d8191-4e37-4dad-9f09-95c6cad4e8d9
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actor: GERALT
+                    target: HALFLING MAN 01
+                    speed: 0.5478
+                    level: LL_Head
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 2f13781e-b647-400d-8f27-7144fbcd9fc4
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actor: HALFLING MAN 01
+                    target: GERALT
+                    speed: 0.5356
+                    level: LL_Head
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 7d00aabf-b0c1-4c9b-b0f8-62eae785d7f7
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actor: HALFLING MAN 02
+                    target: GERALT
+                    speed: 0.6270
+                  - ".type": CVariantSizeType
+                    startPosition: 0.1133
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: b1efc8b4-c94a-4e71-9a07-8ed4c008ccfa
+                    actor: HALFLING MAN 02
+                    target: HALFLING MAN 01
+                    speed: 0.8103
+                  - ".type": CVariantSizeType
+                    startPosition: 0.8401
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 083c822b-ab35-4e36-9e94-49164d2d0baf
+                    actor: HALFLING MAN 02
+                    target: GERALT
+                    speed: 0.9731
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: e25a08b1-76dc-4cbb-b4b4-e9fd473c4e2b
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actor: HALFLING MAN 03
+                    target: GERALT
+                    speed: 0.5047
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0314
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 53b3b477-d9ac-45da-ba9f-8de4cc6e6793
+                    actor: HALFLING MAN 03
+                    target: HALFLING MAN 01
+                    speed: 0.8868
+                  - ".type": CVariantSizeType
+                    startPosition: 0.4562
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 1b77c18d-78b1-4625-b5a8-37739f410892
+                    actor: HALFLING MAN 03
+                    target: GERALT
+                    speed: 0.9792
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 1624648f-767d-490a-8d0a-ca5f5d3cf167
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actor: HALFLING MAN 04
+                    target: GERALT
+                    speed: 0.6124
+                  - ".type": CVariantSizeType
+                    startPosition: 0.1668
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 26d24ccb-b356-48f6-b1d4-89abfd1c13ea
+                    actor: HALFLING MAN 04
+                    target: HALFLING MAN 01
+                    speed: 0.8702
+                  - ".type": CVariantSizeType
+                    startPosition: 0.8066
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 65b510d8-3042-412e-9f43-9bf34e0f5385
+                    actor: HALFLING MAN 04
+                    target: GERALT
+                    speed: 0.7756
+                  - ".type": CVariantSizeType
+                    eventName: "Weight Shift 04"
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 3a35cf02-66e8-477e-88b0-edde14d53643
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    duration: 14.2878
+                    actor: GERALT
+                    clipFront: 0.7673
+                    clipEnd: 11.3667
+                    stretch: 1.3480
+                    weight: 0.3000
+                    animationName: add_idle_weight_shift_04
+                  - ".type": CVariantSizeType
+                    startPosition: 0.9238
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 85711157-d0f7-4663-8d96-dc1f2ada0e27
+                    duration: 3.9875
+                    actor: HALFLING MAN 01
+                    clipEnd: 3.4000
+                    stretch: 1.1728
+                    weight: 0.7282
+                    animationName: high_standing_determined_gesture_question_03
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - 496d8191-4e37-4dad-9f09-95c6cad4e8d9
+                      - 2f13781e-b647-400d-8f27-7144fbcd9fc4
+                      - 7d00aabf-b0c1-4c9b-b0f8-62eae785d7f7
+                      - e25a08b1-76dc-4cbb-b4b4-e9fd473c4e2b
+                      - 1624648f-767d-490a-8d0a-ca5f5d3cf167
+                      - 3a35cf02-66e8-477e-88b0-edde14d53643
+                      - 92e32bb4-1417-4564-a9d0-b867ad37aca3
+                      - 43097398-95c2-43b2-b8ca-4e6fa7fa79ba
+                      - e34d7c9e-5c51-4b22-9b44-409000b13b5d
+                    customCameraName: G medium
+                  - ".type": CVariantSizeType
+                    startPosition: 0.9617
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 1a71495c-5ed2-4a7c-9e0c-37bdf6a76be6
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - 0b8129af-2c22-46ef-91d5-5721f0c8b54d
+                    customCameraName: 1_2_semicloseup_int
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0220
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 70315353-7907-4008-ba84-00923a15418b
+                    customCameraName: 2_1_semicloseup_ext
+                  - ".type": CVariantSizeType
+                    eventName: "StartBlendToGameplayCamera"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    linkChildrenGUID:  #array:2,0,CGUID
+                      - 69f6c046-c709-46de-bce9-6c940d4fe82e
+                      - c74e6a1a-1cc3-4a4e-9cec-9e7e0dcbcbfe
+                      - dfa10ae0-52c7-46cb-b7df-99d4c1ece153
+                      - c9985c39-54dd-450e-9340-7021699f1ced
+                      - 7cf304df-9222-4250-9fa7-4b64d41cdec9
+                    cameraTranslation: [ -1.3891, -1.8682, 2.1207, 1.0000 ]
+                    cameraRotation: [ 342.5000, 344.4000, 0.0000 ]
+                    cameraFov: 13.0000
+                    dofFocusDistFar: 5.0000
+                    dofBlurDistFar: 5.0000
+                    dofIntensity: 1.0000
+                    dofFocusDistNear: 2.0000
+                    dofBlurDistNear: 3.0000
+                    cameraDefinition:  #StorySceneCameraDefinition
+                      cameraTransform:
+                        pos: [ -1.8938, -1.1838, 1.8501 ]
+                        rot: [ 0.0000, 340.0000, 323.4000 ]
+                        scale: [ 0.0000, 0.0000, 0.0000 ]
+                      cameraFov: 60.0000
+                      dof:  #ApertureDofParams
+                        focalLength: 33.6351
+                        distance: 2.8571
+                      genParam:  #CEventGeneratorCameraParams
+                        cameraPlane: Wide
+                      cameraAdjustVersion: 2
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: 69f6c046-c709-46de-bce9-6c940d4fe82e
+                    linkParentGUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    actor: GERALT
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: c74e6a1a-1cc3-4a4e-9cec-9e7e0dcbcbfe
+                    linkParentGUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    actor: HALFLING MAN 01
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: dfa10ae0-52c7-46cb-b7df-99d4c1ece153
+                    linkParentGUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    actor: HALFLING MAN 02
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: c9985c39-54dd-450e-9340-7021699f1ced
+                    linkParentGUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    actor: HALFLING MAN 03
+                  - ".type": CVariantSizeType
+                    eventName: "NewEvent"
+                    startPosition: 0.1920
+                    #sceneElement: (looped reference) CStoryScenePauseElement #53
+                    GUID: 7cf304df-9222-4250-9fa7-4b64d41cdec9
+                    linkParentGUID: 312dd3cb-a5b2-48e8-bb1e-d9e3ebdb9c88
+                    actor: HALFLING MAN 04
+                  - ".type": CVariantSizeType
+                    eventName: "question 01"
+                    startPosition: 0.7296
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 4d0b6978-d03b-4e71-98fc-703ad5cccc2c
+                    duration: 4.8042
+                    actor: HALFLING MAN 01
+                    clipEnd: 4.8000
+                    stretch: 1.0009
+                    animationName: high_standing_determined_gesture_question_01
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.2941
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.7059
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 92e32bb4-1417-4564-a9d0-b867ad37aca3
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    duration: 0.0000
+                    blendIn: 0.0000
+                    blendOut: 0.0000
+                    animationName: medium_shake
+                    isIdle: true
+                  - ".type": CVariantSizeType
+                    startPosition: 0.1521
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 9373b974-e3ed-4005-95a2-4c4019adc8df
+                    duration: 1.1382
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.0333
+                    stretch: 1.1015
+                    weight: 0.7386
+                    animationName: geralt_neutral_gesture_quicknod_face
+                    filterOption: AccentsHead
+                    friendlyName: "quicknod"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.6636
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: fb9b0ea1-cbf0-466e-a580-e0f8d5b3367a
+                    duration: 0.8421
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 0.7333
+                    stretch: 1.1483
+                    weight: 0.8812
+                    animationName: head_down_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head down"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.1521
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 34d70990-0240-4eea-a88d-301b30048f84
+                    duration: 1.2143
+                    actor: GERALT
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 0.7000
+                    stretch: 1.7347
+                    weight: 0.8792
+                    animationName: constant_brows_down_accent_face
+                    filterOption: AccentsBrow
+                    friendlyName: "brows down"
+                  - ".type": CVariantSizeType
+                    startPosition: 1.0000
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 24c28d38-96b3-4226-92a0-61f410354741
+                    duration: 2.7354
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 2.6667
+                    stretch: 1.0258
+                    weight: 0.7252
+                    animationName: geralt_neutral_gesture_question_ver01_not_bad_face
+                    filterOption: Question
+                    friendlyName: "question not bad"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.7247
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 7e8f994d-cbaf-4b3e-8b72-42bbaee399cd
+                    duration: 0.9695
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 0.7333
+                    stretch: 1.3221
+                    weight: 0.6237
+                    animationName: head_down_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head down"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.4671
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: b67a786c-7e82-4f71-b0fe-ec2369855623
+                    duration: 1.3934
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.0333
+                    stretch: 1.3485
+                    weight: 0.5523
+                    animationName: geralt_neutral_gesture_quicknod_face
+                    filterOption: AccentsHead
+                    friendlyName: "quicknod"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.8279
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 0b8129af-2c22-46ef-91d5-5721f0c8b54d
+                    linkParentGUID: 1a71495c-5ed2-4a7c-9e0c-37bdf6a76be6
+                    linkParentTimeOffset: -1.3528
+                    duration: 1.3534
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.2333
+                    stretch: 1.0973
+                    weight: 0.5426
+                    animationName: head_up_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head up"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.6742
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 54a017c3-062b-4135-9ac5-3f9daa5e43f1
+                    duration: 2.0620
+                    actor: HALFLING MAN 01
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 1.0000
+                    stretch: 2.0620
+                    weight: 0.9631
+                    animationName: constant_brows_down_accent_face
+                    filterOption: AccentsBrow
+                    friendlyName: "brows down"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0439
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 6afe8ff8-7890-4c61-89ca-4a792160d0af
+                    duration: 1.0764
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.0333
+                    stretch: 1.0417
+                    weight: 0.9513
+                    animationName: geralt_neutral_gesture_quicknod_face
+                    filterOption: AccentsHead
+                    friendlyName: "quicknod"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.5664
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 8c225a6a-3331-44cd-9935-2f2c5361af86
+                    duration: 1.3118
+                    actor: GERALT
+                    blendIn: 0.2000
+                    blendOut: 0.2000
+                    clipEnd: 1.2333
+                    stretch: 1.0636
+                    weight: 0.8608
+                    animationName: head_up_head_accent_face
+                    filterOption: AccentsHead
+                    friendlyName: "head up"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.0439
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: e62ad928-e0d5-495f-a95b-a2a773bdaf0f
+                    duration: 1.6662
+                    actor: GERALT
+                    blendIn: 0.2500
+                    blendOut: 0.4000
+                    clipEnd: 0.7000
+                    stretch: 2.3802
+                    weight: 0.5376
+                    animationName: constant_brows_up_accent_face
+                    filterOption: AccentsBrow
+                    friendlyName: "brows up"
+                  - ".type": CVariantSizeType
+                    startPosition: 0.3594
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 35ea80d1-bfe3-49ab-bfe2-e7c6920657ce
+                    duration: 1.0019
+                    actor: HALFLING MAN 01
+                    stretch: 1.0019
+                    mimicsEmotionalState: Aggressive
+                    mimicsLayer_Eyes: Aggressive
+                    mimicsLayer_Pose: Aggressive
+                    mimicsLayer_Animation: Aggressive
+                    mimicsPoseWeight: 0.6850
+                  - ".type": CVariantSizeType
+                    #sceneElement: (looped reference) CStorySceneLine #52
+                    GUID: 286a1441-4675-4882-8192-f4c1edf748d7
+                    duration: 0.9996
+                    actor: GERALT
+                    stretch: 0.9996
+                    mimicsEmotionalState: Neutral
+                    mimicsLayer_Eyes: Neutral
+                    mimicsLayer_Pose: Neutral
+                    mimicsLayer_Animation: Neutral
+                    mimicsPoseWeight: 0.6544
+                  - ".type": CVariantSizeType
+                    eventName: "Placement event"
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: 43097398-95c2-43b2-b8ca-4e6fa7fa79ba
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    actorName: HALFLING MAN 01
+                    placement:
+                      pos: [ -0.1877, 1.3701, -0.0300 ]
+                      rot: [ 0.0000, 0.0000, 208.0581 ]
+                      scale: [ 0.0000, 0.0000, 0.0000 ]
+                    resetCloth: DRCDT_None
+                  - ".type": CVariantSizeType
+                    eventName: "turn 90 right"
+                    #sceneElement: (looped reference) CStorySceneLine #49
+                    GUID: e34d7c9e-5c51-4b22-9b44-409000b13b5d
+                    linkParentGUID: b6fe7016-709b-455b-9511-56ca20d71caa
+                    duration: 2.8000
+                    actor: HALFLING MAN 01
+                    clipEnd: 2.8000
+                    weight: 0.5000
+                    animationName: high_standing_determined_turn90_right
+                    useMotionExtraction: true
+                    useFakeMotion: false
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+                  - ".type": CVariantSizeType
+                    startPosition: 0.3184
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 584023c9-7bd1-4c5c-b0e7-446196f93ff0
+                    actor: HALFLING MAN 01
+                    target: GERALT
+                    type: DLT_StaticPoint
+                    speed: 0.8000
+                    level: LL_Head
+                    staticPoint: [ -1.1000, 2.0000, 0.9500, 1.0000 ]
+                  - ".type": CVariantSizeType
+                    startPosition: 0.4399
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 498ddc77-0f3c-49e6-b839-bc68ca4385ff
+                    actor: HALFLING MAN 01
+                    target: GERALT
+                    speed: 0.7000
+                    level: LL_Head
+                  - ".type": CVariantSizeType
+                    eventName: "take"
+                    startPosition: 0.9308
+                    #sceneElement: (looped reference) CStorySceneLine #50
+                    GUID: 479046ad-0042-49f8-863a-c78d8923bfe8
+                    duration: 5.0000
+                    actor: GERALT
+                    clipEnd: 5.0000
+                    animationName: high_standing_determined_gesture_take
+                    weightCurve:  #SCurveData
+                      Curve Values:  #array:142,0,SCurveDataEntry
+                        - ".type": SCurveDataEntry
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 0.5000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          lue: 1.0000
+                          rveTypeL: 1
+                          rveTypeR: 1
+                        - ".type": SCurveDataEntry
+                          me: 1.0000
+                          ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                          rveTypeL: 1
+                          rveTypeR: 1
+                      value type: CVT_Float
+                      type: CT_Segmented
+                      is looped: false
+            questCondition:
+              ".type": CQuestFightCondition
+              tag: mh307_minion
+              referenceValue: 1
+          nextVariantId: 1
+          defaultVariantId: 0
+          variants:  #array:2,0,ptr:CStorySceneSectionVariant
+            - ".type": CStorySceneSectionVariant
+              id: 0
+              localeId: 2
+              events:  #array:2,0,CGUID
+                - db76d163-c745-44a8-b5aa-49a62e29816d
+                - c22c773e-f208-4057-8f67-d219f4e03498
+                - d51c00cd-3f48-4f32-b745-fe37657cc6d0
+                - 731ed09d-963f-46de-a1bb-d394ed90c8e0
+                - 709874a3-db11-4fa5-9628-45b5b00e5425
+                - ea7b0c25-9a23-4674-a139-7f183b440d6c
+                - 1ae0b3af-bf3d-4931-b826-399c5aeb5009
+                - e76db4a1-1f63-4c43-bc99-29c46cccfe19
+                - f880b0c0-8f07-4bc3-a318-89e3c4e2371f
+                - f1a0afc0-16d0-43af-ba91-cc1854cb7880
+                - d771eb0e-acda-4ab7-801d-ab135b0e323a
+                - 586e9b52-4bde-4ce2-8151-34d18913e26c
+                - 8432b0fd-8450-40b5-b246-52f0ab4a9cef
+                - 7d4016e9-3165-454e-9bc4-0d8ef53cd0a2
+                - c576d06e-bd79-4b9a-a15c-0010bb5d062b
+                - 199ece72-6f32-4365-b92b-db9c3fa61104
+                - fa199325-e2d6-4449-bf55-a7bd42c8c87e
+                - 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+                - 3e026710-b0c2-455c-80d8-9a7397145291
+                - 4e74875c-9442-4c99-bbb0-92fc38d5ff9b
+                - 902b1e02-82b3-401b-a6a3-e1bb8d529fcd
+                - 3de29207-136d-4c6c-9b0f-1d8a3d836685
+                - 37ea668e-e08c-4322-9320-02799d923e4b
+                - 86962fe9-f090-4ea4-ba4b-ed139d1000ab
+                - 8c7273f7-41ff-460a-986f-a23650fc5df4
+                - ac1415ca-afb6-4321-98f5-11017ea2bd2c
+                - 899d5064-a7c6-4686-9caa-7db584a720af
+                - 97716805-2744-4975-9b23-e61ac7c4935b
+                - 9583dd52-23b0-40bc-8c29-ea59b753745f
+                - a7a58221-79f7-44b5-9e6b-3c4786666c38
+                - 5b0b36c8-e646-4c72-91c8-886012b23112
+                - 1150e52f-bd37-41c9-9ed9-90b95632325d
+                - 3f805b1c-c213-4a35-bcd6-e8abac635549
+                - 27735825-a87c-47f4-9e98-5b8950bc2000
+                - b9614262-3a42-4f4c-8a51-d859ee0872f8
+                - b96a1e2f-4624-474e-8b92-70909d688e9b
+                - 5ae1919e-7ece-43a4-8375-6ee1d9853032
+                - 6a2c8878-0f01-48ec-8128-bbb0d46c2f8d
+                - 801783f9-222b-4be0-9e10-3cdf87887189
+                - 0d7bcdff-f40c-41b5-8470-9b1125197362
+                - 039d1353-1de1-4972-874a-4400610db59d
+                - 4de7bb47-7b9f-4c5a-9011-e27eed5c19cc
+                - d6de58fb-59c7-42e0-800b-0189e5917475
+                - 5a867abd-f06d-4c82-ad2d-0c96c2d521fd
+                - 52e38252-580f-4ff7-84e7-4fc731bc5f71
+                - ae8e95c0-6b83-438c-88d0-c4892d08cf1f
+                - a0d6ab08-8030-4ce5-9fa6-13c42e36119f
+                - 262e6b08-70af-496f-a8c5-86cbc87be19e
+                - 3dd81ba5-cafa-407b-9281-10d5a8415d80
+              elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "PauseElement_80"
+                  approvedDuration: 0.3063
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "Line_36"
+                  approvedDuration: 2.9459
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "Line_78"
+                  approvedDuration: 4.5612
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "PauseElement_79"
+                  approvedDuration: 0.3574
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "Line_39"
+                  approvedDuration: 5.3293
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "Line_40"
+                  approvedDuration: 4.8296
+                - ".type": CStorySceneSectionVariantElementInfo
+                  elementId: "PauseElement_83"
+                  approvedDuration: 0.2255
+          sceneElements:  #array:2,0,ptr:CStorySceneElement
+            - ".type": CStoryScenePauseElement
+              elementID: "PauseElement_80"
+              approvedDuration: 0.3063
+              duration: 0.3063
+            - ".type": CStorySceneLine
+              elementID: "Line_36"
+              approvedDuration: 2.9425
+              voicetag: GERALT
+              speakingTo: HALFLING MAN 01
+              dialogLine: Your apiarian phantom was a hound of the Wild Hunt.
+            - ".type": CStorySceneLine
+              elementID: "Line_78"
+              approvedDuration: 4.5567
+              voicetag: HALFLING MAN 01
+              speakingTo: GERALT
+              dialogLine: Eternal Fire! Hounds run with the Wild Hunt as well?!
+            - ".type": CStoryScenePauseElement
+              elementID: "PauseElement_79"
+              approvedDuration: 0.3574
+              duration: 0.3574
+            - ".type": CStorySceneLine
+              elementID: "Line_39"
+              approvedDuration: 5.3246
+              voicetag: HALFLING MAN 02
+              speakingTo: GERALT
+              dialogLine: About two weeks back I woke suddenly in the night. Saw the Hunt streaking across the sky!
+            - ".type": CStorySceneLine
+              elementID: "Line_40"
+              approvedDuration: 4.8216
+              voicetag: GERALT
+              speakingTo: HALFLING MAN 02
+              dialogLine: Hound must've gotten separated then. Couldn't go back, so it hid in the empty house.
+            - ".type": CStoryScenePauseElement
+              elementID: "PauseElement_83"
+              duration: 0.2255
+          eventsInfo:  #array:2,0,ptr:CStorySceneEventInfo
+            - ".type": CStorySceneEventInfo
+              eventGuid: db76d163-c745-44a8-b5aa-49a62e29816d
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: c22c773e-f208-4057-8f67-d219f4e03498
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: d51c00cd-3f48-4f32-b745-fe37657cc6d0
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 731ed09d-963f-46de-a1bb-d394ed90c8e0
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 709874a3-db11-4fa5-9628-45b5b00e5425
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: ea7b0c25-9a23-4674-a139-7f183b440d6c
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 1ae0b3af-bf3d-4931-b826-399c5aeb5009
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: e76db4a1-1f63-4c43-bc99-29c46cccfe19
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: f880b0c0-8f07-4bc3-a318-89e3c4e2371f
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: f1a0afc0-16d0-43af-ba91-cc1854cb7880
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: d771eb0e-acda-4ab7-801d-ab135b0e323a
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 586e9b52-4bde-4ce2-8151-34d18913e26c
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 8432b0fd-8450-40b5-b246-52f0ab4a9cef
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 7d4016e9-3165-454e-9bc4-0d8ef53cd0a2
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: c576d06e-bd79-4b9a-a15c-0010bb5d062b
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 199ece72-6f32-4365-b92b-db9c3fa61104
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: fa199325-e2d6-4449-bf55-a7bd42c8c87e
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 3e026710-b0c2-455c-80d8-9a7397145291
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 4e74875c-9442-4c99-bbb0-92fc38d5ff9b
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 902b1e02-82b3-401b-a6a3-e1bb8d529fcd
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 3de29207-136d-4c6c-9b0f-1d8a3d836685
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 37ea668e-e08c-4322-9320-02799d923e4b
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 86962fe9-f090-4ea4-ba4b-ed139d1000ab
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 8c7273f7-41ff-460a-986f-a23650fc5df4
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: ac1415ca-afb6-4321-98f5-11017ea2bd2c
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 899d5064-a7c6-4686-9caa-7db584a720af
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 97716805-2744-4975-9b23-e61ac7c4935b
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 9583dd52-23b0-40bc-8c29-ea59b753745f
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: a7a58221-79f7-44b5-9e6b-3c4786666c38
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 5b0b36c8-e646-4c72-91c8-886012b23112
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 1150e52f-bd37-41c9-9ed9-90b95632325d
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 3f805b1c-c213-4a35-bcd6-e8abac635549
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 27735825-a87c-47f4-9e98-5b8950bc2000
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: b9614262-3a42-4f4c-8a51-d859ee0872f8
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: b96a1e2f-4624-474e-8b92-70909d688e9b
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 5ae1919e-7ece-43a4-8375-6ee1d9853032
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 6a2c8878-0f01-48ec-8128-bbb0d46c2f8d
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 801783f9-222b-4be0-9e10-3cdf87887189
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 0d7bcdff-f40c-41b5-8470-9b1125197362
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 039d1353-1de1-4972-874a-4400610db59d
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 4de7bb47-7b9f-4c5a-9011-e27eed5c19cc
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: d6de58fb-59c7-42e0-800b-0189e5917475
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 5a867abd-f06d-4c82-ad2d-0c96c2d521fd
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 52e38252-580f-4ff7-84e7-4fc731bc5f71
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: ae8e95c0-6b83-438c-88d0-c4892d08cf1f
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: a0d6ab08-8030-4ce5-9fa6-13c42e36119f
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 262e6b08-70af-496f-a8c5-86cbc87be19e
+              sectionVariantId: 0
+            - ".type": CStorySceneEventInfo
+              eventGuid: 3dd81ba5-cafa-407b-9281-10d5a8415d80
+              sectionVariantId: 0
+          sectionId: 1
+          sectionName: "mh307_05_halflings_closing"
+          sceneEventElements:  #array:0,0,CVariantSizeType
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              linkChildrenGUID:  #array:2,0,CGUID
+                - 731ed09d-963f-46de-a1bb-d394ed90c8e0
+                - ea7b0c25-9a23-4674-a139-7f183b440d6c
+                - f880b0c0-8f07-4bc3-a318-89e3c4e2371f
+                - f1a0afc0-16d0-43af-ba91-cc1854cb7880
+                - d771eb0e-acda-4ab7-801d-ab135b0e323a
+                - 586e9b52-4bde-4ce2-8151-34d18913e26c
+                - 4e74875c-9442-4c99-bbb0-92fc38d5ff9b
+                - 902b1e02-82b3-401b-a6a3-e1bb8d529fcd
+                - 3de29207-136d-4c6c-9b0f-1d8a3d836685
+                - 97716805-2744-4975-9b23-e61ac7c4935b
+              customCameraName: 1_2_semicloseup_ext
+            - ".type": CVariantSizeType
+              startPosition: 0.0200
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: c22c773e-f208-4057-8f67-d219f4e03498
+              customCameraName: 2_1_semicloseup_ext
+            - ".type": CVariantSizeType
+              startPosition: 0.0293
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: d51c00cd-3f48-4f32-b745-fe37657cc6d0
+              linkChildrenGUID:  #array:2,0,CGUID
+                - e76db4a1-1f63-4c43-bc99-29c46cccfe19
+                - ac1415ca-afb6-4321-98f5-11017ea2bd2c
+              customCameraName: G medium
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 731ed09d-963f-46de-a1bb-d394ed90c8e0
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              actor: GERALT
+              target: HALFLING MAN 01
+              level: LL_Head
+              instant: true
+            - ".type": CVariantSizeType
+              startPosition: 0.0993
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 709874a3-db11-4fa5-9628-45b5b00e5425
+              actor: GERALT
+              target: HALFLING MAN 02
+              speed: 0.6000
+              level: LL_Head
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: ea7b0c25-9a23-4674-a139-7f183b440d6c
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              actor: HALFLING MAN 01
+              target: GERALT
+              instant: true
+            - ".type": CVariantSizeType
+              startPosition: 0.0539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 1ae0b3af-bf3d-4931-b826-399c5aeb5009
+              actor: HALFLING MAN 01
+              target: HALFLING MAN 02
+              speed: 0.7000
+              level: LL_Head
+            - ".type": CVariantSizeType
+              startPosition: 0.0293
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: e76db4a1-1f63-4c43-bc99-29c46cccfe19
+              linkParentGUID: d51c00cd-3f48-4f32-b745-fe37657cc6d0
+              actor: HALFLING MAN 01
+              target: GERALT
+              speed: 0.5218
+              level: LL_Head
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: f880b0c0-8f07-4bc3-a318-89e3c4e2371f
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              actor: HALFLING MAN 02
+              target: GERALT
+              instant: true
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: f1a0afc0-16d0-43af-ba91-cc1854cb7880
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              actor: HALFLING MAN 03
+              target: GERALT
+              instant: true
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: d771eb0e-acda-4ab7-801d-ab135b0e323a
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              actor: HALFLING MAN 04
+              target: GERALT
+              instant: true
+            - ".type": CVariantSizeType
+              eventName: "sure"
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 586e9b52-4bde-4ce2-8151-34d18913e26c
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              duration: 3.6872
+              actor: GERALT
+              clipEnd: 2.8333
+              stretch: 1.3014
+              weight: 0.6500
+              animationName: high_standing_determined_gesture_sure
+            - ".type": CVariantSizeType
+              startPosition: 0.4936
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: 8432b0fd-8450-40b5-b246-52f0ab4a9cef
+              duration: 2.6423
+              actor: GERALT
+              clipEnd: 2.2000
+              stretch: 1.2011
+              weight: 0.9845
+              animationName: high_standing_determined_gesture_question_hand_flick_01
+            - ".type": CVariantSizeType
+              eventName: "„you”"
+              startPosition: 0.3606
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 7d4016e9-3165-454e-9bc4-0d8ef53cd0a2
+              duration: 2.9750
+              actor: GERALT
+              clipEnd: 2.7000
+              stretch: 1.1018
+              weight: 0.7500
+              animationName: high_standing_determined_gesture_you
+            - ".type": CVariantSizeType
+              eventName: "question 5"
+              startPosition: 0.9783
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: c576d06e-bd79-4b9a-a15c-0010bb5d062b
+              duration: 3.0450
+              actor: GERALT
+              clipEnd: 2.5333
+              stretch: 1.2020
+              animationName: high_standing_determined_gesture_question_05
+            - ".type": CVariantSizeType
+              startPosition: 0.5956
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: 199ece72-6f32-4365-b92b-db9c3fa61104
+              duration: 1.9633
+              actor: HALFLING MAN 01
+              clipEnd: 1.7000
+              stretch: 1.1549
+              weight: 0.9427
+              animationName: high_standing_determined_gesture_question_02
+            - ".type": CVariantSizeType
+              eventName: "question 3"
+              startPosition: 0.0565
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: fa199325-e2d6-4449-bf55-a7bd42c8c87e
+              duration: 4.1010
+              actor: HALFLING MAN 01
+              clipEnd: 3.4000
+              stretch: 1.2062
+              weight: 0.9439
+              animationName: high_standing_determined_gesture_question_03
+              weightCurve:  #SCurveData
+                Curve Values:  #array:142,0,SCurveDataEntry
+                  - ".type": SCurveDataEntry
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.1220
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.8780
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 1.0000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                value type: CVT_Float
+                type: CT_Segmented
+                is looped: false
+            - ".type": CVariantSizeType
+              eventName: "CustomCamera"
+              startPosition: 0.1539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+              interpolationEventGUID: 8c7273f7-41ff-460a-986f-a23650fc5df4
+              linkChildrenGUID:  #array:2,0,CGUID
+                - 37ea668e-e08c-4322-9320-02799d923e4b
+                - ae8e95c0-6b83-438c-88d0-c4892d08cf1f
+              cameraTranslation: [ -1.6865, -2.0613, 2.1100, 1.0000 ]
+              cameraRotation: [ 342.2000, 329.0000, 0.0000 ]
+              cameraZoom: 2.0000
+              cameraFov: 25.0000
+              dofFocusDistFar: 10.0000
+              dofBlurDistFar: 5.0000
+              dofIntensity: 1.0000
+              dofFocusDistNear: 2.0000
+              dofBlurDistNear: 3.0000
+              cameraDefinition:  #StorySceneCameraDefinition
+                cameraName: CustomCamera
+                cameraTransform:
+                  pos: [ -4.1501, -2.4229, 1.0255 ]
+                  rot: [ 0.0000, 357.4000, 301.9000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                cameraZoom: 2.0000
+                cameraFov: 25.0000
+                dofFocusDistFar: 25.0000
+                dofBlurDistFar: 250.0000
+                dofIntensity: 1.0000
+                dofBlurDistNear: 3.0000
+                dof:  #ApertureDofParams
+                  focalLength: 28.2495
+                  distance: 1.2701
+                cameraAdjustVersion: 2
+            - ".type": CVariantSizeType
+              eventName: "Lookat"
+              startPosition: 0.3677
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 3e026710-b0c2-455c-80d8-9a7397145291
+              actor: GERALT
+              target: HALFLING MAN 01
+              speed: 0.7000
+              level: LL_Head
+            - ".type": CVariantSizeType
+              eventName: "high_standing_aggressive_enter_leftside"
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 4e74875c-9442-4c99-bbb0-92fc38d5ff9b
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              duration: 6.2064
+              actor: HALFLING MAN 04
+              clipEnd: 6.2000
+              stretch: 1.0010
+              behEvent: high_standing_aggressive_enter_leftside
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 902b1e02-82b3-401b-a6a3-e1bb8d529fcd
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              duration: 0.0000
+              blendIn: 0.0000
+              blendOut: 0.0000
+              animationName: medium_shake
+              isIdle: true
+            - ".type": CVariantSizeType
+              eventName: "Add pose key"
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 3de29207-136d-4c6c-9b0f-1d8a3d836685
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              duration: 0.0000
+              actor: HALFLING MAN 01
+              linkToDialogset: true
+              version: 1
+              bones:  #array:2,0,SSSBoneTransform
+                - ".type": SSSBoneTransform
+                  bone: r_hand
+                  transform:
+                    pos: [ 0.0000, 0.0000, 0.0000 ]
+                    rot: [ 356.4001, 0.0000, 12.5999 ]
+                    scale: [ 0.0000, 0.0000, 0.0000 ]
+              presetName: halfling_high_standing_determined
+              presetVersion: 4
+              cachedBones:  #array:2,0,Int32
+                - 30
+              cachedTransforms:  #array:133,0,EngineQsTransform
+                - ".type": EngineQsTransform
+                  Pitch: 0.0034
+                  Yaw: -0.0312
+                  Roll: 0.1097
+                  W: 0.9935
+            - ".type": CVariantSizeType
+              eventName: "two steps forward casual"
+              startPosition: 0.1539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 37ea668e-e08c-4322-9320-02799d923e4b
+              linkParentGUID: 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+              duration: 4.6510
+              actor: HALFLING MAN 02
+              blendOut: 0.0000
+              clipEnd: 4.6467
+              stretch: 1.0009
+              animationName: high_standing_sad_walk_two_steps_forward_causal
+              weightCurve:  #SCurveData
+                Curve Values:  #array:142,0,SCurveDataEntry
+                  - ".type": SCurveDataEntry
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 1.0000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                value type: CVT_Float
+                type: CT_Segmented
+                is looped: false
+            - ".type": CVariantSizeType
+              eventName: "CustomCamera"
+              startPosition: 0.0151
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 86962fe9-f090-4ea4-ba4b-ed139d1000ab
+              interpolationEventGUID: 8c7273f7-41ff-460a-986f-a23650fc5df4
+              linkChildrenGUID:  #array:2,0,CGUID
+                - 262e6b08-70af-496f-a8c5-86cbc87be19e
+              cameraTranslation: [ -4.1502, -2.4229, 1.0255, 1.0000 ]
+              cameraRotation: [ 357.4000, 301.9000, 0.0000 ]
+              cameraFov: 25.0000
+              dofFocusDistFar: 25.0000
+              dofBlurDistFar: 250.0000
+              dofIntensity: 1.0000
+              dofBlurDistNear: 3.0000
+              cameraDefinition:  #StorySceneCameraDefinition
+                cameraName: CustomCamera
+                cameraTransform:
+                  pos: [ -4.1502, -2.4229, 1.0255 ]
+                  rot: [ 0.0000, 357.4000, 302.5500 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                cameraFov: 25.0000
+                dofFocusDistFar: 25.0000
+                dofBlurDistFar: 250.0000
+                dofIntensity: 1.0000
+                dofBlurDistNear: 3.0000
+                dof:  #ApertureDofParams
+                  focalLength: 0.0000
+                  distance: 0.0000
+                cameraAdjustVersion: 2
+            - ".type": CVariantSizeType
+              eventName: "interpolation event"
+              startPosition: 0.1539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 8c7273f7-41ff-460a-986f-a23650fc5df4
+              keyGuids:  #array:2,0,CGUID
+                - 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+                - 86962fe9-f090-4ea4-ba4b-ed139d1000ab
+              keys:  #array:2,0,CStorySceneEventCameraInterpolationKey
+                - ".type": CStorySceneEventCameraInterpolationKey
+                  bezierHandles:  #[15]Bezier2dHandle
+                    "0":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "1":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "2":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "3":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "4":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "5":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "6":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "7":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "8":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "9":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "10":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "11":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "12":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "13":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                    "14":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                  interpolationTypes:  #[15]Uint32
+                    "0": 2
+                    "1": 2
+                    "2": 2
+                    "3": 2
+                    "4": 2
+                    "5": 2
+                    "6": 2
+                    "7": 2
+                    "8": 2
+                    "9": 2
+                    "10": 2
+                    "11": 2
+                    "12": 2
+                    "13": 2
+                    "14": 2
+                - ".type": CStorySceneEventCameraInterpolationKey
+                  bezierHandles:  #[15]Bezier2dHandle
+                    "0":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "1":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "2":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "3":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "4":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "5":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "6":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "7":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "8":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "9":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "10":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "11":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "12":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "13":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "14":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.5275
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                  interpolationTypes:  #[15]Uint32
+                    "0": 2
+                    "1": 2
+                    "2": 2
+                    "3": 2
+                    "4": 2
+                    "5": 2
+                    "6": 2
+                    "7": 2
+                    "8": 2
+                    "9": 2
+                    "10": 2
+                    "11": 2
+                    "12": 2
+                    "13": 2
+                    "14": 2
+            - ".type": CVariantSizeType
+              eventName: "Placement event"
+              startPosition: 0.0293
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: ac1415ca-afb6-4321-98f5-11017ea2bd2c
+              linkParentGUID: d51c00cd-3f48-4f32-b745-fe37657cc6d0
+              actorName: HALFLING MAN 02
+              placement:
+                pos: [ 0.7100, -0.0999, -0.0800 ]
+                rot: [ 0.0000, 0.0000, 94.2000 ]
+                scale: [ 0.0000, 0.0000, 0.0000 ]
+            - ".type": CVariantSizeType
+              eventName: "quesiton 03"
+              startPosition: 0.5834
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 899d5064-a7c6-4686-9caa-7db584a720af
+              duration: 3.7712
+              actor: HALFLING MAN 02
+              clipEnd: 3.7667
+              stretch: 1.0012
+              animationName: high_standing_sad_gesture_question_03
+              weightCurve:  #SCurveData
+                Curve Values:  #array:142,0,SCurveDataEntry
+                  - ".type": SCurveDataEntry
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 1.0000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                value type: CVT_Float
+                type: CT_Segmented
+                is looped: false
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #98
+              GUID: 97716805-2744-4975-9b23-e61ac7c4935b
+              linkParentGUID: db76d163-c745-44a8-b5aa-49a62e29816d
+              duration: 0.0000
+              blendIn: 0.0000
+              blendOut: 0.0000
+              animationName: medium_shake
+              isIdle: true
+            - ".type": CVariantSizeType
+              startPosition: 0.2515
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: 9583dd52-23b0-40bc-8c29-ea59b753745f
+              duration: 0.8370
+              actor: GERALT
+              blendIn: 0.2000
+              blendOut: 0.2000
+              clipEnd: 0.7333
+              stretch: 1.1413
+              weight: 0.7317
+              animationName: head_down_head_accent_face
+              filterOption: AccentsHead
+              friendlyName: "head down"
+            - ".type": CVariantSizeType
+              startPosition: 0.5296
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: a7a58221-79f7-44b5-9e6b-3c4786666c38
+              duration: 1.0038
+              actor: GERALT
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 0.7000
+              stretch: 1.4340
+              weight: 0.5804
+              animationName: constant_brows_up_accent_face
+              filterOption: AccentsBrow
+              friendlyName: "brows up"
+            - ".type": CVariantSizeType
+              startPosition: 1.0000
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: 5b0b36c8-e646-4c72-91c8-886012b23112
+              duration: 3.2796
+              actor: HALFLING MAN 01
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 2.5000
+              stretch: 1.3119
+              weight: 0.7817
+              animationName: geralt_neutral_shout_cheers_face
+              filterOption: Shout
+              friendlyName: "shout 02 cheers"
+            - ".type": CVariantSizeType
+              startPosition: 1.0000
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: 1150e52f-bd37-41c9-9ed9-90b95632325d
+              duration: 2.7224
+              actor: HALFLING MAN 01
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 2.5000
+              stretch: 1.0889
+              weight: 0.9506
+              animationName: geralt_neutral_gesture_shout_youre_wrong_face
+              filterOption: Shout
+              friendlyName: "shout  13 you're wrong"
+            - ".type": CVariantSizeType
+              startPosition: 0.7201
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: 3f805b1c-c213-4a35-bcd6-e8abac635549
+              duration: 0.9161
+              actor: HALFLING MAN 01
+              blendIn: 0.2000
+              blendOut: 0.2000
+              clipEnd: 0.7333
+              stretch: 1.2492
+              weight: 0.7200
+              animationName: head_down_head_accent_face
+              filterOption: AccentsHead
+              friendlyName: "head down"
+            - ".type": CVariantSizeType
+              startPosition: 0.7201
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: 27735825-a87c-47f4-9e98-5b8950bc2000
+              duration: 0.8402
+              actor: HALFLING MAN 01
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 1.0000
+              stretch: 0.8402
+              weight: 0.6748
+              animationName: constant_brows_up_accent_face
+              filterOption: AccentsBrow
+              friendlyName: "brows up"
+            - ".type": CVariantSizeType
+              startPosition: 1.0000
+              #sceneElement: (looped reference) CStoryScenePauseElement #101
+              GUID: b9614262-3a42-4f4c-8a51-d859ee0872f8
+              duration: 2.6672
+              actor: HALFLING MAN 02
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 2.4000
+              stretch: 1.1113
+              weight: 0.8730
+              animationName: geralt_neutral_shout_hurray_face
+              filterOption: Shout
+              friendlyName: "shout 03 hurray"
+            - ".type": CVariantSizeType
+              startPosition: 0.6299
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: b96a1e2f-4624-474e-8b92-70909d688e9b
+              duration: 1.3381
+              actor: HALFLING MAN 02
+              blendIn: 0.2000
+              blendOut: 0.2000
+              clipEnd: 1.0333
+              stretch: 1.2950
+              weight: 0.6386
+              animationName: geralt_neutral_gesture_quicknod_face
+              filterOption: AccentsHead
+              friendlyName: "quicknod"
+            - ".type": CVariantSizeType
+              startPosition: 0.6299
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 5ae1919e-7ece-43a4-8375-6ee1d9853032
+              duration: 0.7738
+              actor: HALFLING MAN 02
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 1.0000
+              stretch: 0.7738
+              weight: 0.7604
+              animationName: constant_brows_down_accent_face
+              filterOption: AccentsBrow
+              friendlyName: "brows down"
+            - ".type": CVariantSizeType
+              startPosition: 0.5256
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 6a2c8878-0f01-48ec-8128-bbb0d46c2f8d
+              duration: 1.6219
+              actor: GERALT
+              blendIn: 0.2000
+              blendOut: 0.2000
+              clipEnd: 1.2333
+              stretch: 1.3150
+              weight: 0.9288
+              animationName: head_up_head_accent_face
+              filterOption: AccentsHead
+              friendlyName: "head up"
+            - ".type": CVariantSizeType
+              startPosition: 0.6516
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 801783f9-222b-4be0-9e10-3cdf87887189
+              duration: 0.9635
+              actor: GERALT
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 0.7000
+              stretch: 1.3765
+              weight: 0.9889
+              animationName: constant_brows_up_accent_face
+              filterOption: AccentsBrow
+              friendlyName: "brows up"
+            - ".type": CVariantSizeType
+              startPosition: 0.0498
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 0d7bcdff-f40c-41b5-8470-9b1125197362
+              duration: 2.2322
+              actor: GERALT
+              blendIn: 0.2000
+              blendOut: 0.2000
+              clipEnd: 1.9000
+              stretch: 1.1749
+              weight: 0.7408
+              animationName: head_right01_head_accent_face
+              filterOption: AccentsHead
+              friendlyName: "head right 01"
+            - ".type": CVariantSizeType
+              startPosition: 0.0498
+              #sceneElement: (looped reference) CStorySceneLine #103
+              GUID: 039d1353-1de1-4972-874a-4400610db59d
+              duration: 1.3196
+              actor: GERALT
+              blendIn: 0.2500
+              blendOut: 0.4000
+              clipEnd: 0.7000
+              stretch: 1.8851
+              weight: 0.9786
+              animationName: constant_brows_down_accent_face
+              filterOption: AccentsBrow
+              friendlyName: "brows down"
+            - ".type": CVariantSizeType
+              startPosition: 0.0083
+              #sceneElement: (looped reference) CStorySceneLine #99
+              GUID: 4de7bb47-7b9f-4c5a-9011-e27eed5c19cc
+              duration: 1.0012
+              actor: GERALT
+              stretch: 1.0012
+              mimicsEmotionalState: Neutral
+              mimicsLayer_Eyes: Neutral
+              mimicsLayer_Pose: Neutral
+              mimicsLayer_Animation: Neutral
+              mimicsPoseWeight: 0.7442
+            - ".type": CVariantSizeType
+              startPosition: 0.2710
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: d6de58fb-59c7-42e0-800b-0189e5917475
+              duration: 1.0010
+              actor: HALFLING MAN 01
+              stretch: 1.0010
+              mimicsEmotionalState: Neutral
+              mimicsLayer_Eyes: Neutral
+              mimicsLayer_Pose: Neutral
+              mimicsLayer_Animation: Neutral
+              mimicsPoseWeight: 0.7304
+            - ".type": CVariantSizeType
+              #sceneElement: (looped reference) CStoryScenePauseElement #101
+              GUID: 5a867abd-f06d-4c82-ad2d-0c96c2d521fd
+              duration: 1.0006
+              actor: HALFLING MAN 02
+              stretch: 1.0006
+              mimicsEmotionalState: Neutral
+              mimicsLayer_Eyes: Neutral
+              mimicsLayer_Pose: Neutral
+              mimicsLayer_Animation: Neutral
+              mimicsPoseWeight: 0.7192
+            - ".type": CVariantSizeType
+              eventName: "turn 90 left"
+              startPosition: 0.0307
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 52e38252-580f-4ff7-84e7-4fc731bc5f71
+              duration: 3.8000
+              actor: HALFLING MAN 01
+              clipEnd: 3.8000
+              weight: 0.6000
+              animationName: high_standing_determined_turn90_left
+              useMotionExtraction: true
+              useFakeMotion: false
+              weightCurve:  #SCurveData
+                Curve Values:  #array:142,0,SCurveDataEntry
+                  - ".type": SCurveDataEntry
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 1.0000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                value type: CVT_Float
+                type: CT_Segmented
+                is looped: false
+            - ".type": CVariantSizeType
+              eventName: "Placement event"
+              startPosition: 0.1539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: ae8e95c0-6b83-438c-88d0-c4892d08cf1f
+              interpolationEventGUID: 3dd81ba5-cafa-407b-9281-10d5a8415d80
+              linkParentGUID: 4b4888af-72fd-4a1c-a206-5bbb1214e5ca
+              actorName: HALFLING MAN 02
+              placement:
+                pos: [ 1.2500, -0.1500, -0.1100 ]
+                rot: [ 1.8000, 3.4000, 97.5000 ]
+                scale: [ 0.0000, 0.0000, 0.0000 ]
+              resetCloth: DRCDT_None
+            - ".type": CVariantSizeType
+              eventName: "Weight Shift 01"
+              startPosition: 0.6918
+              #sceneElement: (looped reference) CStorySceneLine #100
+              GUID: a0d6ab08-8030-4ce5-9fa6-13c42e36119f
+              duration: 8.0000
+              actor: GERALT
+              clipEnd: 8.0000
+              weight: 0.4000
+              animationName: add_idle_weight_shift_01
+              animationType: AAST_Additive
+              weightCurve:  #SCurveData
+                Curve Values:  #array:142,0,SCurveDataEntry
+                  - ".type": SCurveDataEntry
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 0.5000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    lue: 1.0000
+                    rveTypeL: 1
+                    rveTypeR: 1
+                  - ".type": SCurveDataEntry
+                    me: 1.0000
+                    ntrolPoint: [ -0.1000, 0.0000, 0.1000, 0.0000 ]
+                    rveTypeL: 1
+                    rveTypeR: 1
+                value type: CVT_Float
+                type: CT_Segmented
+                is looped: false
+            - ".type": CVariantSizeType
+              eventName: "Placement event"
+              startPosition: 0.6977
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 262e6b08-70af-496f-a8c5-86cbc87be19e
+              interpolationEventGUID: 3dd81ba5-cafa-407b-9281-10d5a8415d80
+              linkParentGUID: 86962fe9-f090-4ea4-ba4b-ed139d1000ab
+              linkParentTimeOffset: -1.6841
+              actorName: HALFLING MAN 02
+              placement:
+                pos: [ 1.2499, -0.1499, -0.0600 ]
+                rot: [ 2.5000, 0.0000, 97.5000 ]
+                scale: [ 0.0000, 0.0000, 0.0000 ]
+              resetCloth: DRCDT_None
+            - ".type": CVariantSizeType
+              eventName: "interpolation event"
+              startPosition: 0.1539
+              #sceneElement: (looped reference) CStorySceneLine #102
+              GUID: 3dd81ba5-cafa-407b-9281-10d5a8415d80
+              keyGuids:  #array:2,0,CGUID
+                - ae8e95c0-6b83-438c-88d0-c4892d08cf1f
+                - 262e6b08-70af-496f-a8c5-86cbc87be19e
+              keys:  #array:2,0,CStorySceneEventPlacementInterpolationKey
+                - ".type": CStorySceneEventPlacementInterpolationKey
+                  bezierHandles:  #[6]Bezier2dHandle
+                    "0":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                    "1":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                    "2":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                    "3":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                    "4":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                    "5":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                  interpolationTypes:  #[6]Uint32
+                    "0": 2
+                    "1": 2
+                    "2": 2
+                    "3": 2
+                    "4": 2
+                    "5": 2
+                - ".type": CStorySceneEventPlacementInterpolationKey
+                  bezierHandles:  #[6]Bezier2dHandle
+                    "0":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "1":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "2":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "3":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "4":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                    "5":  #Bezier2dHandle
+                      incomingTangent:  #Vector2
+                        X: 0.9661
+                        Y: 0.0000
+                      outgoingTangent:  #Vector2
+                        X: 1.0000
+                        Y: 0.0000
+                  interpolationTypes:  #[6]Uint32
+                    "0": 2
+                    "1": 2
+                    "2": 2
+                    "3": 2
+                    "4": 2
+                    "5": 2
+        voicetagMappings:  #array:2,0,CStorySceneVoicetagMapping
+          - ".type": CStorySceneVoicetagMapping
+          - ".type": CStorySceneVoicetagMapping
+            voicetag: HALFLING MAN 03
+          - ".type": CStorySceneVoicetagMapping
+            voicetag: HALFLING MAN 04
+          - ".type": CStorySceneVoicetagMapping
+            voicetag: GERALT
+          - ".type": CStorySceneVoicetagMapping
+            voicetag: HALFLING MAN 01
+          - ".type": CStorySceneVoicetagMapping
+            voicetag: HALFLING MAN 02
+        dialogsetInstanceName: mh307_dialog_halflings_field
+        isGameplay: false
+      #"1": (looped reference) CStorySceneOutput #47
+      #"2": (looped reference) CStorySceneSection #2
+      - ".type": CStorySceneSection
+        linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+          - ".type": CStorySceneInput
+            #nextLinkElement: (looped reference) CStorySceneSection #154
+            inputName: "intro_reward_in"
+            voicetagMappings:  #array:2,0,CStorySceneVoicetagMapping
+              - ".type": CStorySceneVoicetagMapping
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 03
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 04
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: GERALT
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 01
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 02
+            dialogsetInstanceName: mh307_dialog_halflings_field
+        nextLinkElement:
+          ".type": CStorySceneOutput
+          linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+            #"0": (looped reference) CStorySceneSection #154
+          name: intro_reward_out
+        nextVariantId: 1
+        defaultVariantId: 0
+        variants:  #array:2,0,ptr:CStorySceneSectionVariant
+          - ".type": CStorySceneSectionVariant
+            id: 0
+            localeId: 2
+            elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+              - ".type": CStorySceneSectionVariantElementInfo
+                elementId: "Line_46"
+                approvedDuration: 1.0863
+              - ".type": CStorySceneSectionVariantElementInfo
+                elementId: "Line_47"
+                approvedDuration: 1.6030
+        sceneElements:  #array:2,0,ptr:CStorySceneElement
+          - ".type": CStorySceneLine
+            elementID: "Line_46"
+            approvedDuration: 1.0863
+            voicetag: HALFLING MAN 02
+            speakingTo: HALFLING MAN 04
+            dialogLine: How did you fare?
+          - ".type": CStorySceneLine
+            elementID: "Line_47"
+            approvedDuration: 1.6030
+            voicetag: HALFLING MAN 04
+            speakingTo: HALFLING MAN 02
+            dialogLine: Did you drive off the phantom?
+        sectionId: 2
+        sectionName: "mh307_05_intro_reward"
+        isGameplay: true
+        sceneEventElements: # array:CVariantSizeType
+      #"4": (looped reference) CStorySceneInput #155
+      #"5": (looped reference) CStorySceneOutput #156
+      - ".type": CStorySceneSection
+        linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+          - ".type": CStorySceneInput
+            #nextLinkElement: (looped reference) CStorySceneSection #160
+            inputName: "post_reward_in"
+            voicetagMappings:  #array:2,0,CStorySceneVoicetagMapping
+              - ".type": CStorySceneVoicetagMapping
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 03
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 04
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: GERALT
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 01
+              - ".type": CStorySceneVoicetagMapping
+                voicetag: HALFLING MAN 02
+            dialogsetInstanceName: mh307_dialog_halflings_field
+        nextLinkElement:
+          ".type": CStorySceneOutput
+          linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+            #"0": (looped reference) CStorySceneSection #160
+          name: post_reward_out
+        nextVariantId: 1
+        defaultVariantId: 0
+        variants:  #array:2,0,ptr:CStorySceneSectionVariant
+          - ".type": CStorySceneSectionVariant
+            id: 0
+            localeId: 2
+            elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+              - ".type": CStorySceneSectionVariantElementInfo
+                elementId: "Line_52"
+                approvedDuration: 6.7289
+              - ".type": CStorySceneSectionVariantElementInfo
+                elementId: "Line_54"
+                approvedDuration: 3.2688
+        sceneElements:  #array:2,0,ptr:CStorySceneElement
+          - ".type": CStorySceneLine
+            elementID: "Line_52"
+            approvedDuration: 6.7289
+            voicetag: HALFLING MAN 01
+            speakingTo: HALFLING MAN 04
+            dialogLine: Enough for today, boys. Let's go home. We've a big day tomorrow - must rebuild the hives the hound destroyed.
+          - ".type": CStorySceneLine
+            elementID: "Line_54"
+            approvedDuration: 3.2688
+            voicetag: HALFLING MAN 04
+            speakingTo: HALFLING MAN 01
+            dialogLine: Work and more work - never-ending story…
+        sectionId: 3
+        sectionName: "mh307_05_post_reward"
+        isGameplay: true
+        sceneEventElements: # array:CVariantSizeType
+      #"7": (looped reference) CStorySceneInput #161
+      #"8": (looped reference) CStorySceneOutput #162
+      #"9": (looped reference) CStorySceneFlowCondition #3
+      #"10": (looped reference) CStorySceneSection #45
+      #"11": (looped reference) CStorySceneSection #5
+      #"12": (looped reference) CStorySceneOutput #7
+      - ".type": CStorySceneOutput
+        linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+          - ".type": CStorySceneSection
+            linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+              - ".type": CStorySceneInput
+                #nextLinkElement: (looped reference) CStorySceneSection #167
+                inputName: "post_fail_in"
+                voicetagMappings:  #array:2,0,CStorySceneVoicetagMapping
+                  - ".type": CStorySceneVoicetagMapping
+                  - ".type": CStorySceneVoicetagMapping
+                    voicetag: HALFLING MAN 03
+                  - ".type": CStorySceneVoicetagMapping
+                    voicetag: HALFLING MAN 04
+                  - ".type": CStorySceneVoicetagMapping
+                    voicetag: GERALT
+                  - ".type": CStorySceneVoicetagMapping
+                    voicetag: HALFLING MAN 01
+                  - ".type": CStorySceneVoicetagMapping
+                    voicetag: HALFLING MAN 02
+                dialogsetInstanceName: mh307_dialog_halflings_field
+            #nextLinkElement: (looped reference) CStorySceneOutput #166
+            nextVariantId: 1
+            defaultVariantId: 0
+            variants:  #array:2,0,ptr:CStorySceneSectionVariant
+              - ".type": CStorySceneSectionVariant
+                id: 0
+                localeId: 2
+                elementInfo:  #array:2,0,CStorySceneSectionVariantElementInfo
+                  - ".type": CStorySceneSectionVariantElementInfo
+                    elementId: "Line_75"
+                    approvedDuration: 3.3366
+                  - ".type": CStorySceneSectionVariantElementInfo
+                    elementId: "Line_76"
+                    approvedDuration: 4.1249
+            sceneElements:  #array:2,0,ptr:CStorySceneElement
+              - ".type": CStorySceneLine
+                elementID: "Line_75"
+                approvedDuration: 3.3366
+                voicetag: HALFLING MAN 02
+                speakingTo: HALFLING MAN 01
+                dialogLine: Strange that witcher couldn't vanquish the hound.
+              - ".type": CStorySceneLine
+                elementID: "Line_76"
+                approvedDuration: 4.1249
+                voicetag: HALFLING MAN 01
+                speakingTo: HALFLING MAN 02
+                dialogLine: Well, he did what he could. We all trip up sometimes.
+            sectionId: 6
+            sectionName: "mh307_05_post_fail"
+            isGameplay: true
+            sceneEventElements: # array:CVariantSizeType
+        name: post_fail_out
+      #"14": (looped reference) CStorySceneSection #167
+      #"15": (looped reference) CStorySceneInput #168
+      #"16": (looped reference) CStorySceneScript #46
+      #"17": (looped reference) CStorySceneScript #6
+    sections:  #array:2,0,ptr:CStorySceneSection
+      #"0": (looped reference) CStorySceneSection #2
+      #"1": (looped reference) CStorySceneSection #154
+      #"2": (looped reference) CStorySceneSection #160
+      #"3": (looped reference) CStorySceneSection #45
+      #"4": (looped reference) CStorySceneSection #5
+      #"5": (looped reference) CStorySceneSection #167
+    elementIDCounter: 84
+    sectionIDCounter: 6
+    sceneId: 59199589
+    sceneTemplates:  #array:2,0,ptr:CStorySceneActor
+      - ".type": CStorySceneActor
+        id: GERALT
+        actorTags:
+          - PLAYER
+        entityTemplate: gameplay/templates/characters/player/player.w2ent
+      - ".type": CStorySceneActor
+        id: HALFLING MAN 01
+        actorTags:
+          - mh307_halfling_father
+        entityTemplate: quests/generic_quests/novigrad/quest_files/mh307_minion/characters/mh307_halfling_father.w2ent
+        dontSearchByVoicetag: true
+      - ".type": CStorySceneActor
+        id: HALFLING MAN 02
+        actorTags:
+          - mh307_halfling_son_1
+        entityTemplate: quests/generic_quests/novigrad/quest_files/mh307_minion/characters/mh307_halfling_son_1.w2ent
+        dontSearchByVoicetag: true
+      - ".type": CStorySceneActor
+        id: HALFLING MAN 03
+        actorTags:
+          - mh307_halfling_son_2
+        entityTemplate: quests/generic_quests/novigrad/quest_files/mh307_minion/characters/mh307_halfling_son_2.w2ent
+        dontSearchByVoicetag: true
+      - ".type": CStorySceneActor
+        id: HALFLING MAN 04
+        actorTags:
+          - mh307_halfling_son_3
+        entityTemplate: quests/generic_quests/novigrad/quest_files/mh307_minion/characters/mh307_halfling_son_3.w2ent
+        dontSearchByVoicetag: true
+    dialogsetInstances:  #array:2,0,ptr:CStorySceneDialogsetInstance
+      - ".type": CStorySceneDialogsetInstance
+        name: mh307_dialog_halflings_field
+        slots:  #array:2,0,ptr:CStorySceneDialogsetSlot
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 1
+            slotName: slot1
+            slotPlacement:
+              pos: [ -1.3500, -0.5500, 0.0700 ]
+              rot: [ 0.0000, 0.0000, 303.4000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            actorName: GERALT
+            ID: 7bfd0946-233b-4545-8201-1ec1b3270497
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 2
+            slotName: slot2
+            slotPlacement:
+              pos: [ -0.2000, 1.4000, -0.0300 ]
+              rot: [ 0.0000, 0.0000, 160.4000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            actorName: HALFLING MAN 01
+            ID: 41b36d2f-8e1e-4732-bf35-dd8e380db1ea
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 3
+            slotName: slot3
+            slotPlacement:
+              pos: [ 0.7100, -0.0999, -0.0800 ]
+              rot: [ 0.0000, 0.0000, 94.2000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            actorName: HALFLING MAN 02
+            actorEmotionalState: Sad
+            ID: 6ae87c96-42c1-4534-a8da-e37c7ef87970
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 4
+            slotName: slot4
+            slotPlacement:
+              pos: [ -1.0000, -5.0000, 0.3500 ]
+              rot: [ 0.0000, 0.0000, 34.0000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            actorName: HALFLING MAN 03
+            ID: 85f75bfd-fbe6-4713-b720-0f275e872563
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 5
+            slotName: slot5
+            slotPlacement:
+              pos: [ -2.0000, 1.8500, 0.0700 ]
+              rot: [ 0.0000, 0.0000, 188.2000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            actorName: HALFLING MAN 04
+            actorEmotionalState: Proud
+            ID: 20ea5ff9-2355-4386-a103-e5ccdc3356e8
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 6
+            slotName: slot6
+            slotPlacement:
+              pos: [ -0.6700, 1.3500, 0.0000 ]
+              rot: [ 0.0000, 0.0000, 205.0000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            ID: fd2fce14-125a-4669-a823-b6c5ed6bb49d
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 7
+            slotName: slot7
+            slotPlacement:
+              pos: [ 0.3500, -1.7500, 0.0000 ]
+              rot: [ 0.0000, 0.0000, 15.0000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            ID: 533d4c95-2c7a-4a88-8ec1-b2cb8db3677f
+          - ".type": CStorySceneDialogsetSlot
+            slotNumber: 8
+            slotName: slot8
+            slotPlacement:
+              pos: [ -0.7500, -1.7500, 0.0000 ]
+              rot: [ 0.0000, 0.0000, 345.0000 ]
+              scale: [ 0.0000, 0.0000, 0.0000 ]
+            ID: ee73db51-1cf0-45ff-ae92-52d6dee85b4a
+        placementTag:
+          - mh307_dialog_halflings_field
+        path: "gameplay/dialogsets/dialogset_3_vs_5.w2dset"
+    cameraDefinitions:  #array:2,0,StorySceneCameraDefinition
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_medium_ext
+        cameraTransform:
+          pos: [ -1.0600, -1.7640, 1.7100 ]
+          rot: [ 0.0000, 356.0000, 331.8000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 20.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.1400
+        dofBlurDistNear: 5.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.3074
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Medium
+          tags:
+            - ext
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_medium_ext
+        cameraTransform:
+          pos: [ -0.8404, 2.0642, 1.6800 ]
+          rot: [ 0.0000, 357.0000, 205.0001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 5.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0161, 0.0371, 1.2952, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 42.1379
+          distance: 2.7060
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Medium
+          tags:
+            - ext
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_semicloseup_ext
+        cameraTransform:
+          pos: [ 1.8693, 2.7175, 0.9353 ]
+          rot: [ 0.0000, 6.1500, 129.4500 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 15.0000
+        dofFocusDistFar: 25.0000
+        dofBlurDistFar: 250.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 3.0000
+        dofBlurDistNear: 3.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.3074
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          tags:
+            - ext
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_closeup_ext
+        cameraTransform:
+          pos: [ 1.0995, -0.5334, 1.7138 ]
+          rot: [ 0.0000, 2.9000, 84.7751 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 10.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 5.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.3074
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Closeup
+          tags:
+            - ext
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_supercloseup_int
+        cameraTransform:
+          pos: [ -0.4471, -0.6126, 1.7087 ]
+          rot: [ 0.0000, 0.3500, 342.0751 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 10.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.2952
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Supercloseup
+          tags:
+            - int
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_wide_ext
+        cameraTransform:
+          pos: [ -1.2676, -1.9020, 1.7120 ]
+          rot: [ 0.0000, 354.8650, 327.7000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 23.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 5.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.2952
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Wide
+          tags:
+            - ext
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_medium_int
+        cameraTransform:
+          pos: [ -0.6949, -0.8547, 1.7000 ]
+          rot: [ 0.0000, 355.5000, 333.1250 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 25.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.2952
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Medium
+          tags:
+            - int
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_semicloseup_int
+        cameraTransform:
+          pos: [ 0.1758, 0.4341, 1.5747 ]
+          rot: [ 0.0000, 4.7001, 119.4000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 17.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 250.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.3074
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          tags:
+            - int
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_2_closeup_int
+        cameraTransform:
+          pos: [ -0.5733, -1.0834, 1.7600 ]
+          rot: [ 0.0000, 358.3000, 341.9900 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 12.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 3.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot2
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.3074
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Closeup
+          tags:
+            - int
+          targetSlot: 1
+          sourceSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_wide_ext
+        cameraTransform:
+          pos: [ -1.6865, -2.0613, 2.1100 ]
+          rot: [ 0.0000, 342.2000, 329.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 25.0000
+        dofFocusDistFar: 10.0000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 3.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0161, 0.0371, 1.2952, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Wide
+          tags:
+            - ext
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_medium_int
+        cameraTransform:
+          pos: [ -0.6749, 1.3049, 1.7000 ]
+          rot: [ 0.0000, 355.6000, 207.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 25.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofBlurDistNear: 4.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0161, 0.0371, 1.2952, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Medium
+          tags:
+            - int
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_semicloseup_ext
+        cameraTransform:
+          pos: [ -1.3891, -1.8682, 2.1207 ]
+          rot: [ 0.0000, 342.5000, 343.9500 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 15.0000
+        dofFocusDistFar: 5.0000
+        dofBlurDistFar: 25.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 2.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0159, -0.0078, 1.3074, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          tags:
+            - ext
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_semicloseup_int
+        cameraTransform:
+          pos: [ 0.8266, 0.1152, 1.2020 ]
+          rot: [ 0.0000, 1.4500, 77.3251 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 25.0000
+        dofFocusDistFar: 5.0000
+        dofBlurDistFar: 10.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0159, -0.0078, 1.3074, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          tags:
+            - int
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_closeup_int
+        cameraTransform:
+          pos: [ -0.5800, 1.4600, 1.7800 ]
+          rot: [ 0.0000, 357.8400, 198.8000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 12.0000
+        dofFocusDistFar: 2.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0161, 0.0371, 1.2952, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Closeup
+          tags:
+            - int
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_closeup_ext
+        cameraTransform:
+          pos: [ -0.8000, 2.3500, 1.7400 ]
+          rot: [ 0.0000, 358.6300, 198.7000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 10.0000
+        dofFocusDistFar: 5.0000
+        dofBlurDistFar: 2.5000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0200
+        dofBlurDistNear: 5.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0159, -0.0078, 1.3074, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Closeup
+          tags:
+            - ext
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_1_supercloseup_int
+        cameraTransform:
+          pos: [ -0.3672, 1.0070, 1.7600 ]
+          rot: [ 0.0000, 358.4900, 195.8251 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 10.0000
+        dofFocusDistFar: 1.5000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        sourceSlotName: slot1
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0161, 0.0371, 1.2952, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Supercloseup
+          tags:
+            - int
+          targetSlot: 2
+          sourceSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 1_semicloseup
+        cameraTransform:
+          pos: [ -1.9164, -3.5342, 1.9448 ]
+          rot: [ 0.0000, 349.5544, 339.1501 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot1
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0063, 0.1075, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 1
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 2_semicloseup
+        cameraTransform:
+          pos: [ -0.3590, 0.9343, 1.7445 ]
+          rot: [ 0.0000, 356.8044, 194.6501 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot2
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0159, -0.0078, 1.3074, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 2
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 3_semicloseup
+        cameraTransform:
+          pos: [ -0.1850, -0.1126, 1.6678 ]
+          rot: [ 0.0000, 0.5544, 247.9001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot3
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ 0.0177, -0.0534, 1.2324, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 3
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 5_semicloseup
+        cameraTransform:
+          pos: [ 0.8543, -0.2455, 1.6807 ]
+          rot: [ 0.0000, 359.5544, 13.9001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot5
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ 0.0177, -0.0534, 1.2324, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 5
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 4_semicloseup
+        cameraTransform:
+          pos: [ -0.5719, 0.7395, 1.6579 ]
+          rot: [ 0.0000, 0.5544, 164.1501 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot4
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0159, -0.0225, 1.3072, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 4
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 6_semicloseup
+        cameraTransform:
+          pos: [ -0.5191, -0.0376, 1.6745 ]
+          rot: [ 0.0000, 359.5545, 4.4001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot6
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 6
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 7_semicloseup
+        cameraTransform:
+          pos: [ 0.5072, -0.1711, 1.7566 ]
+          rot: [ 0.0000, 357.0545, 170.9001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot7
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 7
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 8_semicloseup
+        cameraTransform:
+          pos: [ -0.5465, -0.3531, 1.6688 ]
+          rot: [ 0.0000, 0.3045, 172.4001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 20.0000
+        dofFocusDistFar: 4.1000
+        dofBlurDistFar: 8.1000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 0.5000
+        dofBlurDistNear: 5.0000
+        targetSlotName: slot8
+        sourceEyesHeigth: 1.7538
+        targetEyesLS: [ -0.0063, 0.1074, 1.7538, 1.0000 ]
+        dof:  #ApertureDofParams
+          focalLength: 13.9020
+          distance: 0.8913
+        genParam:  #CEventGeneratorCameraParams
+          cameraPlane: Semicloseup
+          targetSlot: 8
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: G medium
+        cameraTransform:
+          pos: [ 5.5609, -1.6516, 0.8313 ]
+          rot: [ 0.0000, 359.4500, 70.3251 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraZoom: 2.0000
+        cameraFov: 23.0000
+        dofFocusDistFar: 50.0000
+        dofBlurDistFar: 250.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 3.4000
+        dofBlurDistNear: 49.0000
+        dof:  #ApertureDofParams
+          focalLength: 28.2495
+          distance: 1.2701
+        genParam:  #CEventGeneratorCameraParams
+          tags:
+            - G medium
+        cameraAdjustVersion: 2
+      - ".type": StorySceneCameraDefinition
+        cameraName: 3_1 wide 
+        cameraTransform:
+          pos: [ -1.5563, -2.1777, 2.1100 ]
+          rot: [ 0.0000, 339.7001, 333.5001 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        cameraFov: 25.0000
+        dofFocusDistFar: 10.0000
+        dofBlurDistFar: 5.0000
+        dofIntensity: 1.0000
+        dofFocusDistNear: 2.0000
+        dofBlurDistNear: 3.0000
+        dof:  #ApertureDofParams
+          focalLength: 29.1288
+          distance: 3.3333
+        genParam:  #CEventGeneratorCameraParams
+          targetSlot: 3
+          sourceSlot: 1
+        cameraAdjustVersion: 2

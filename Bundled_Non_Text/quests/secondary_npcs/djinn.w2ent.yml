@@ -1,0 +1,1676 @@
+templates:
+  djinn.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - gameplay/templates/characters/npcs/ai_presets/ai_preset_combat_attack_ranges.w2ent
+    ## properOverrides: true
+    ## entityClass: CNewNPC
+    entityObject:
+      ".type": CNewNPC
+      attachments: # array:handle:IAttachment
+      streamingDistance: 0
+      autoPlayEffectName: default
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CEffectDummyComponent
+          transform:
+            pos: [ 0.0000, 0.2000, 1.3000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: b08c6f83-a4ce-4d65-9b95-bb6e793fa026
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+        - ".type": CAppearanceComponent
+          guid: 0c0e2f5b-cdb1-4f84-9679-3b39c88e3058
+          attachments: # array:handle:IAttachment
+          name: "CAppearanceComponent0"
+          forcedAppearance: 1_djinn
+          appearanceAttachments:  #array:2,0,SAppearanceAttachments
+            - ".type": SAppearanceAttachments
+              appearance: djinn
+              attachments:  #array:2,0,SAppearanceAttachment
+                - ".type": SAppearanceAttachment
+                  parentClass: CMovingPhysicalAgentComponent
+                  parentName: woman_base
+                  childClass: CMeshComponent
+                  childName: s_01_wa__novigrad_citizen
+                  Data:  #CBufferVLQInt32:IReferencable
+                    - ".type": CMeshSkinningAttachment
+                - ".type": SAppearanceAttachment
+                  parentClass: CMovingPhysicalAgentComponent
+                  parentName: woman_base
+                  childClass: CAnimDangleBufferComponent
+                  childName: CAnimDangleBufferComponent0
+                  Data:  #CBufferVLQInt32:IReferencable
+                    - ".type": CAnimatedAttachment
+                - ".type": SAppearanceAttachment
+                  parentClass: CMovingPhysicalAgentComponent
+                  parentName: woman_base
+                  childClass: CAnimDangleComponent
+                  childName: c_01_wa__keira_dyng_new
+                  Data:  #CBufferVLQInt32:IReferencable
+                    - ".type": CAnimatedAttachment
+                - ".type": SAppearanceAttachment
+                  parentClass: CMovingPhysicalAgentComponent
+                  parentName: woman_base
+                  childClass: CMimicComponent
+                  childName: mimic component
+                  Data:  #CBufferVLQInt32:IReferencable
+                    - ".type": CAnimatedAttachment
+                      parentSlotName: torso2
+        - ".type": CInventoryComponent
+          guid: ccd72380-ce53-493e-b93c-6d4763210896
+          attachments: # array:handle:IAttachment
+          name: "inventory"
+          containerTemplate: items/remains/remains__human_01/remains_human_inv.w2ent
+        - ".type": CMovingPhysicalAgentComponent
+          guid: 0ca791f5-0c0b-4258-9f28-291dc73d9e52
+          attachments:  #array:0,0,handle:IAttachment
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #5
+              child:
+                ".type": CDynamicColliderComponent
+                transform:
+                  pos: [ 0.0000, 0.0200, 0.8209 ]
+                  rot: [ 90.0000, 270.0000, 0.0000 ]
+                  scale: [ 1.0000, 1.8000, 1.0000 ]
+                #transformParent: (looped reference) CHardAttachment #6
+                guid: 8075847d-0540-487d-babe-45522df87bbe
+                attachments: # array:handle:IAttachment
+                name: "grassCollider"
+                useInWaterNormal: false
+                useInGrassDisplacement: true
+              parentSlotName: pelvis
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 9
+          name: "woman_base"
+          ragdoll: characters/base_entities/woman_base/woman_base_ragdoll.w2ragdoll
+          skeleton: characters/base_entities/woman_base/woman_base.w2rig
+          defaultBehaviorAnimationSlotNode: Exploration
+          defaultSpeedConfigKey: woman
+          runtimeBehaviorInstanceSlots:  #array:2,0,SBehaviorGraphInstanceSlot
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: BaseGraph
+              graph: gameplay/behaviors/npc/behaviorgraph/npc_sorceress_combat.w2beh
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Cutscene
+              graph: gameplay/behaviors/cutscene_graph.w2beh
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: StoryScene
+              graph: gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+          steeringBehavior: gameplay/behaviors/pc/steering/pc_steering.w2steer
+          triggerChannels:
+            - TC_Default
+            - TC_NPC
+        #"4": (looped reference) CDynamicColliderComponent #7
+        - ".type": CSoundEmitterComponent
+          guid: 9efb6b55-efc8-4994-8498-bbb101abfd95
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          isStreamed: false
+          banksDependency:  #array:2,0,CName
+            - magic_djinn.bnk
+          maxDistance: 80.0000
+      idTag:  4786f2f0-feae-4e48-91d4-2bc3e18e9d54
+      displayName: Djinn
+      iconOffset: [ 0.0000, 0.0000, -0.2000, 0.0000 ]
+      voiceTag: DJINN
+      isImmortal: true
+      level: 16
+    appearances:  #array:2,0,CEntityAppearance
+      1_djinn:
+        ".type": CEntityAppearance
+        ## name: 1_djinn
+        voicetag: DJINN
+    usedAppearances:  #array:2,0,CName
+      - 1_djinn
+    voicetagAppearances:  #array:2,0,VoicetagAppearancePair
+      - ".type": VoicetagAppearancePair
+        voicetag: DJINN
+        appearance: 1_djinn
+    slots:  #array:2,0,EntitySlot
+      fx_point:
+        ".type": EntitySlot
+        ## name: fx_point
+        componentName: woman_base
+        boneName: head
+        freeRotation: true
+      fx_cast_push:
+        ".type": EntitySlot
+        ## name: fx_cast_push
+        transform:
+          pos: [ 0.0000, 0.0000, 1.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CAIProfile
+        senseVisionParams:
+          ".type": CAISenseParams
+          rangeMax: 20.0000
+          rangeAngle: 360.0000
+        attitudeGroup: sq202_djinn
+      - ".type": CInventoryDefinition
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_djinn_weapon
+      - ".type": CAIBaseTreeTemplateParam
+        aiBaseTree:
+          ".type": CAIMonsterBase
+          tree: gameplay/trees/monster_base.w2behtree
+          params:
+            ".type": CAIDjinnDefaults
+            spawnTree:
+              ".type": CAIMonsterSpawnDefault
+              tree: gameplay/trees/monster_spawn_default.w2behtree
+              params:
+                ".type": CAIMonsterSpawnParams
+            tauntTree:
+              ".type": CAIMonsterTaunt
+              tree: gameplay/trees/monster_basetaunt.w2behtree
+              params:
+                ".type": CAIMonsterTauntParams
+            axiiTree:
+              ".type": CAIMonsterAxii
+              tree: gameplay/trees/monster_baseaxii.w2behtree
+              params:
+                ".type": CAIMonsterAxiiParams
+            idleDecoratorTree:
+              ".type": CAIMonsterIdleDecorator
+              tree: gameplay/trees/idle/monster_idle_decorator.w2behtree
+              params:
+                ".type": CAIMonsterIdleDecoratorParams
+                reactionTree:
+                  ".type": CAIMonsterReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionSearchForTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionSearchTarget
+                          tree: gameplay/trees/reactions/reaction_search_target.w2behtree
+                      - ".type": CAIActionAllySearchesTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionJoinSearchForTarget
+                          tree: gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+                      - ".type": CAIActionPlayWithTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionPlayWithTarget
+                          tree: gameplay/trees/reactions/reaction_play_around.w2behtree
+                      - ".type": CAIActionMoveInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionMoveInPack
+                          tree: gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+                      - ".type": CAIActionRunWildInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionRunWildInPack
+                          tree: gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+            combatTree:
+              ".type": CAIMonsterCombat
+              tree: gameplay/trees/monster_basecombat.w2behtree
+              params:
+                ".type": CAIMonsterCombatParams
+                combatLogicTree:
+                  ".type": CAIDjinnCombatLogic
+                  tree: gameplay/trees/monsters/monster_djinn_logic.w2behtree
+                  params:
+                    ".type": CAIMonsterCombatLogicParams
+                damageReactionTree:
+                  ".type": CAIMonsterDamageReactionTree
+                  tree: gameplay/trees/monster_damage_reaction.w2behtree
+                  params:
+                    ".type": CAIDamageReactionTreeParams
+                    completeTaskAfterDisablingHitReaction: true
+                createHitReactionEvent: MonsterHitReaction
+                reactionTree:
+                  ".type": CAIMonsterCombatReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                        actionEventName: FearsomeEvent
+                        saveReactionTargetUnder: FearsomeEventSource
+                      - ".type": CAIActionEscapeInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionEscapeInPack
+                          tree: gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+            deathTree:
+              ".type": CAIMonsterDeath
+              tree: gameplay/trees/death/death.w2behtree
+              params:
+                ".type": CAIMonsterDeathParams
+                stopFXOnActivate: default
+                disableCollisionOnAnim: true
+      - ".type": CAnimBehaviorsParam
+        name: "djinn"
+        componentName: "woman_base"
+        slots:  #array:2,0,SBehaviorGraphInstanceSlot
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: BaseGraph
+            graph: gameplay/behaviors/npc/behaviorgraph/npc_sorceress_combat.w2beh
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Cutscene
+            graph: gameplay/behaviors/cutscene_graph.w2beh
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: StoryScene
+            graph: gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+      - ".type": CAnimAnimsetsParam
+        name: "djinn"
+        componentName: "woman_base"
+        animationSets:  #array:2,0,handle:CSkeletalAnimationSet
+          - animations/woman/combat/woman_sorceress.w2anims
+      - ".type": CCharacterStatsParam
+        name: "abilities"
+        abilities:  #array:2,0,CName
+          - mon_djinn
+          - ablTeleport
+          - ablMagic
+      - ".type": CAutoEffectsParam
+        name: "autobuffs"
+        autoEffects:  #array:2,0,CName
+          - AutoStaminaRegen
+          - AutoEssenceRegen
+      - ".type": CCharacterControllerParam
+        name: "character_controller_params"
+      - ".type": CMonsterParam
+        name: "monster_params"
+        monsterCategory: 13
+        soundMonsterName: Djinn
+      - ".type": CBuffImmunityParam
+        name: "immunities"
+        immunityTo:  #array:2,0,Int32
+          - 9
+          - 6
+          - 26
+          - 18
+          - 16
+          - 19
+          - 17
+          - 15
+      - ".type": CAttackRangeParam
+        wasIncluded: true
+        name: "combat_attack_ranges"
+        overrideInherited: true
+        attackRanges:  #array:2,0,ptr:CAIAttackRange
+          rangeNormal:
+            ".type": CConeAttackRange
+            ## name: rangeNormal
+            rangeMax: 1.6000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          rangeFar:
+            ".type": CConeAttackRange
+            ## name: rangeFar
+            rangeMax: 3.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          basic_strike:
+            ".type": CConeAttackRange
+            ## name: basic_strike
+            rangeMax: 1.5000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          fist_short:
+            ".type": CConeAttackRange
+            ## name: fist_short
+            rangeMax: 1.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeAngle: 80.0000
+          slash_short:
+            ".type": CConeAttackRange
+            ## name: slash_short
+            rangeMax: 1.6000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          slash_long:
+            ".type": CConeAttackRange
+            ## name: slash_long
+            rangeMax: 1.9000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeAngle: 110.0000
+          thrust:
+            ".type": CBoxAttackRange
+            ## name: thrust
+            rangeMax: 1.8000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          thrust235:
+            ".type": CBoxAttackRange
+            ## name: thrust235
+            rangeMax: 2.2500
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeWidth: 0.6000
+          thrust250:
+            ".type": CBoxAttackRange
+            ## name: thrust250
+            rangeMax: 2.4000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeWidth: 0.6000
+          thrust320:
+            ".type": CBoxAttackRange
+            ## name: thrust320
+            rangeMax: 3.1000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeWidth: 0.6000
+          wideslash130:
+            ".type": CConeAttackRange
+            ## name: wideslash130
+            rangeMax: 1.3000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeAngle: 160.0000
+          wideslash150:
+            ".type": CConeAttackRange
+            ## name: wideslash150
+            rangeMax: 1.5000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            rangeAngle: 160.0000
+          wideslash200:
+            ".type": CConeAttackRange
+            ## name: wideslash200
+            rangeMax: 2.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeAngle: 160.0000
+          smash150:
+            ".type": CBoxAttackRange
+            ## name: smash150
+            rangeMax: 1.5000
+            height: 1.5000
+            position: [ 0.0000, 0.0000, 0.7500, 1.0000 ]
+          smash180:
+            ".type": CBoxAttackRange
+            ## name: smash180
+            rangeMax: 1.8000
+            height: 1.5000
+            position: [ 0.0000, 0.0000, 0.7500, 1.0000 ]
+          smash235:
+            ".type": CBoxAttackRange
+            ## name: smash235
+            rangeMax: 2.3500
+            height: 1.5000
+            position: [ 0.0000, 0.0000, 0.7500, 1.0000 ]
+            checkLineOfSight: true
+          slash200:
+            ".type": CConeAttackRange
+            ## name: slash200
+            rangeMax: 2.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          slash180:
+            ".type": CConeAttackRange
+            ## name: slash180
+            rangeMax: 1.8000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+          slash130:
+            ".type": CConeAttackRange
+            ## name: slash130
+            rangeMax: 1.3000
+            height: 0.9000
+            checkLineOfSight: true
+          NarrowSlash160:
+            ".type": CConeAttackRange
+            ## name: NarrowSlash160
+            rangeMax: 1.6000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+            rangeAngle: 60.0000
+          aoe360Normal:
+            ".type": CConeAttackRange
+            ## name: aoe360Normal
+            rangeMax: 1.8000
+            height: 2.0000
+            checkLineOfSight: true
+            rangeAngle: 360.0000
+          aoe360Far:
+            ".type": CConeAttackRange
+            ## name: aoe360Far
+            rangeMax: 3.0000
+            height: 2.0000
+            checkLineOfSight: true
+            rangeAngle: 360.0000
+          rangeVeryFar:
+            ".type": CConeAttackRange
+            ## name: rangeVeryFar
+            rangeMax: 4.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            checkLineOfSight: true
+          aoe360VeryFar:
+            ".type": CConeAttackRange
+            ## name: aoe360VeryFar
+            rangeMax: 4.0000
+            height: 2.0000
+            checkLineOfSight: true
+            rangeAngle: 360.0000
+          specialAttack_2_100:
+            ".type": CConeAttackRange
+            ## name: specialAttack_2_100
+            rangeMax: 2.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+          specialAttack_2_200:
+            ".type": CConeAttackRange
+            ## name: specialAttack_2_200
+            rangeMax: 2.2000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            rangeAngle: 200.0000
+          specialAttack_12_60:
+            ".type": CConeAttackRange
+            ## name: specialAttack_12_60
+            rangeMax: 1.2000
+            height: 1.5000
+            position: [ 0.0000, 0.0000, 0.5000, 1.0000 ]
+            rangeAngle: 60.0000
+          specialAttack_2_80:
+            ".type": CConeAttackRange
+            ## name: specialAttack_2_80
+            rangeMax: 2.0000
+            height: 0.9000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+            rangeAngle: 80.0000
+          attack_15_100_offset_-40:
+            ".type": CConeAttackRange
+            ## name: attack_15_100_offset_-40
+            rangeMax: 1.5000
+            height: 0.9000
+            angleOffset: 40.0000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+          attack_15_100_offset_30:
+            ".type": CConeAttackRange
+            ## name: attack_15_100_offset_30
+            rangeMax: 1.5000
+            height: 0.9000
+            angleOffset: 330.0000
+            position: [ 0.0000, 0.0000, 1.1500, 1.0000 ]
+    effects:
+      #buffer: 3919 bytes, MD5: da9125189cf672ecc7106e7e689d8bf6
+      default:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          flare:
+            ".type": CFXTrackGroup
+            ## name: "flare"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0061
+                    timeDuration: 7.0612
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 2.6590
+                      - 2.8143
+                      - 2.4314
+                      - 2.0485
+                      - 1.6656
+                      - 1.2827
+                      - 0.8998
+                      - 0.5169
+                      - 0.1340
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 149
+                          Green: 204
+                          Blue: 255
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                        - 1.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 6.0000
+                      visibilityFullDist: 44.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 208, 234, 170, 100 ]
+          dynamic_light:
+            ".type": CFXTrackGroup
+            ## name: "dynamic_light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0220
+                    timeDuration: 3.0357
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 11.0662, 1.0000 ]
+                      - [ 9.7144, 1.0000 ]
+                      - [ 8.3626, 1.0000 ]
+                      - [ 7.0108, 1.0000 ]
+                      - [ 5.6590, 1.0000 ]
+                      - [ 4.3072, 1.0000 ]
+                      - [ 2.9554, 1.0000 ]
+                      - [ 1.6036, 1.0000 ]
+                      - [ 0.2518, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 151, 198, 255, 255 ]
+                    radius: 8.0000
+                    brightness: 66.0000
+                    lightFlickering:  #SLightFlickering
+                      positionOffset: 1.0000
+                      flickerStrength: 2.0000
+                      flickerPeriod: 0.1000
+                    autoHideDistance: 44.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      attach: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 241, 146, 215, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0039
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_default_fx_loop
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.7600
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_default_fx_loop_end
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 195, 197, 161, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0441
+                    timeDuration: 3.8031
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.6667, 1.0000, 1.0000 ]
+                      - [ 0.3333, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_fx_default.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                      parentSlotName: pelvis
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 155, 197, 199, 100 ]
+        length: 4.4094
+        loopStart: 0.2205
+        loopEnd: 0.7276
+        ## name: default
+        showDistance: 55.0000
+        isLooped: true
+      #buffer: 288 bytes, MD5: 3188618ad0d21ffc137d98cd8f6eb3a4
+      fx_point:
+        ".type": CFXDefinition
+        ## name: fx_point
+      #buffer: 1507 bytes, MD5: 920d8c1c3dba6d876cbc551ff9b8147c
+      teleport_glow:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              override:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeDuration: 1.5000
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0175, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0877, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.1579, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2281, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2982, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3684, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4386, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5088, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5789, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.6491, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7193, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7895, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8596, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9298, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                    material: fx/cutscenes/novigrad/cs305_ciri_disappears/cs305_ciri_glow.w2mi
+                    drawOriginal: true
+                ## name: "override"
+            isExpanded: true
+            trackGroupColor: [ 187, 171, 156, 100 ]
+        length: 1.5000
+        loopEnd: 1.5000
+        ## name: teleport_glow
+        showDistance: 150.0000
+      #buffer: 2872 bytes, MD5: fb8258bb3a8837e0420beb26e717f049
+      teleport_out:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0081
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_teleport
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 166, 136, 208, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0928
+                    timeDuration: 2.4409
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.9685, 1.0000 ]
+                      - [ 24.7563, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 129, 199, 255, 255 ]
+                    radius: 12.0000
+                    brightness: 50.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 35.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      copyRotation: false
+                      relativePosition: [ 0.0500, 0.0500, 0.0000, 0.0000 ]
+                      parentSlotName: torso
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 200, 195, 188, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0012
+                    timeDuration: 3.1640
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_teleport.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 252, 137, 152, 100 ]
+        length: 3.2242
+        ## name: teleport_out
+        showDistance: 66.0000
+      #buffer: 2895 bytes, MD5: b3e12e88366cbda0ae8f649097a1df9d
+      teleport_in:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0121
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_teleport
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 243, 166, 160, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0999
+                    timeDuration: 1.7108
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.9685, 1.0000 ]
+                      - [ 461.0180, 1.0000 ]
+                      - [ 259.6459, 1.0000 ]
+                      - [ 58.2739, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 127, 194, 255, 255 ]
+                    radius: 12.0000
+                    brightness: 4.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 35.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: woman_base
+                      copyRotation: false
+                      relativePosition: [ 0.0500, 0.0500, 0.0000, 0.0000 ]
+                      parentSlotName: torso2
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 200, 195, 188, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0086
+                    timeDuration: 3.1640
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_teleport_out.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 252, 137, 152, 100 ]
+        length: 3.2242
+        ## name: teleport_in
+        showDistance: 66.0000
+      #buffer: 3553 bytes, MD5: 0f95eab20512b854bb5b194f9e80e463
+      fx_push:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.1183
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_fx_push
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 152, 254, 142, 100 ]
+          physx_force:
+            ".type": CFXTrackGroup
+            ## name: "physx_force"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemGlobalSpacePhysicalForce
+                    timeBegin: 0.0079
+                    timeDuration: 1.4000
+                    ## buffername: 
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 22.0631, 1.0000, 1.0000, 1.0000 ]
+                      - [ 21.4744, 1.0000, 1.0000, 1.0000 ]
+                      - [ 20.2922, 1.0000, 1.0000, 1.0000 ]
+                      - [ 18.6281, 1.0000, 1.0000, 1.0000 ]
+                      - [ 16.5935, 1.0000, 1.0000, 1.0000 ]
+                      - [ 14.2998, 1.0000, 1.0000, 1.0000 ]
+                      - [ 11.8585, 1.0000, 1.0000, 1.0000 ]
+                      - [ 9.3811, 1.0000, 1.0000, 1.0000 ]
+                      - [ 6.9791, 1.0000, 1.0000, 1.0000 ]
+                      - [ 4.7638, 1.0000, 1.0000, 1.0000 ]
+                      - [ 2.8469, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.3396, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3535, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                    forceObject:
+                      ".type": CFXExplosionImplosionPhysicalForce
+                      fieldType: FT_Square
+                      forceScale: 15.0000
+                      radius: 10.0000
+                      applyFractureDamage: 150.0000
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 200, 222, 207, 100 ]
+            componentName: CPhantomComponent1
+          sd:
+            ".type": CFXTrackGroup
+            ## name: "sd"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0416
+                    timeDuration: 2.4409
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 65.6044, 1.0000 ]
+                      - [ 11.3352, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 121, 164, 255, 255 ]
+                    radius: 12.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_cast_push
+                ## name: "light"
+            isExpanded: true
+            trackGroupColor: [ 242, 253, 207, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0057
+                    timeDuration: 3.0526
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/yennefer/attack_02/yennefer_attack_02.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_cast_push
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 250, 182, 244, 100 ]
+        length: 2.3922
+        ## name: fx_push
+        showDistance: 66.0000
+      #buffer: 3236 bytes, MD5: 6a2db27755b1d1dc4dcfe1774cd2ff2d
+      lightning:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0121
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_vfx_lightning
+                    maxDistance: 50.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 148, 192, 134, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0106
+                    timeDuration: 1.0423
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 16.9218, 1.0000 ]
+                      - [ 333.0000, 1.0000 ]
+                      - [ 246.2164, 1.0000 ]
+                      - [ 5.7714, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 143, 198, 255, 255 ]
+                    radius: 2.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 35.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: r_hand
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 224, 140, 158, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0123
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_face.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                      parentSlotName: r_hand
+                ## name: "3"
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0051
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/yennefer/attack_01/yennefer_lightning.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                      parentSlotName: r_hand
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 181, 246, 210, 100 ]
+        length: 1.0056
+        loopStart: 0.1444
+        loopEnd: 0.4146
+        ## name: lightning
+        showDistance: 66.0000
+      #buffer: 2904 bytes, MD5: 60e531855a28c0232b418e01039e8f15
+      prepare_attack:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0103
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_vfx_prepare_attack
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 163, 137, 174, 100 ]
+          flare:
+            ".type": CFXTrackGroup
+            ## name: "flare"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ads:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0098
+                    timeDuration: 7.0612
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 6.6667
+                      - 6.4762
+                      - 1.7143
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 149
+                          Green: 204
+                          Blue: 255
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                        - 1.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 5.0000
+                      visibilityFullDist: 44.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                ## name: "ads"
+            isExpanded: true
+            trackGroupColor: [ 148, 164, 186, 100 ]
+          ds:
+            ".type": CFXTrackGroup
+            ## name: "ds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0098
+                    timeDuration: 1.8544
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_prepare_attack.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx_point
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 176, 212, 163, 100 ]
+        length: 1.8152
+        loopStart: 0.0589
+        ## name: prepare_attack
+        showDistance: 33.0000
+      #buffer: 1672 bytes, MD5: a4d896ecf7682916fb476a7ca0d5e87a
+      range:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          ds:
+            ".type": CFXTrackGroup
+            ## name: "ds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0098
+                    timeDuration: 1.8544
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2704, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_electric_sphere.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 176, 212, 163, 100 ]
+        length: 1.8152
+        loopStart: 0.0589
+        loopEnd: 0.1635
+        ## name: range
+        showDistance: 33.0000
+        isLooped: true
+      #buffer: 1664 bytes, MD5: 94be9d23ed6113a9cdcb0a5582b1630f
+      aard_reaction:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0316
+                    timeDuration: 8.1274
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9548, 1.0000, 1.0000 ]
+                      - [ 0.3429, 0.8763, 1.0000 ]
+                      - [ 0.0000, 0.6509, 1.0000 ]
+                      - [ 0.0000, 0.4254, 1.0000 ]
+                      - [ 0.0000, 0.2000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djin_aard_reaction.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 154, 135, 242, 100 ]
+        length: 8.0009
+        loopStart: 0.4111
+        loopEnd: 0.7906
+        ## name: aard_reaction
+        showDistance: 33.0000
+        isLooped: true
+      #buffer: 1664 bytes, MD5: d115382aa7ba3d2eb2193105f66b67ba
+      igni_reaction:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0316
+                    timeDuration: 8.1274
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9548, 1.0000, 0.8411 ]
+                      - [ 0.3429, 0.8763, 0.4119 ]
+                      - [ 0.0000, 0.6509, 0.0000 ]
+                      - [ 0.0000, 0.4254, 0.0000 ]
+                      - [ 0.0000, 0.2000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000 ]
+                    particleSystem: fx/characters/djin/djin_igni_reaction.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 154, 135, 242, 100 ]
+        length: 8.0009
+        loopStart: 0.4111
+        loopEnd: 0.7906
+        ## name: igni_reaction
+        showDistance: 33.0000
+        isLooped: true
+      #buffer: 3840 bytes, MD5: c42a01abcc34468f3d649b694cd21f25
+      weak:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          flare:
+            ".type": CFXTrackGroup
+            ## name: "flare"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0061
+                    timeDuration: 7.0612
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 2.6590
+                      - 2.8143
+                      - 2.4314
+                      - 2.0485
+                      - 1.6656
+                      - 1.2827
+                      - 0.8998
+                      - 0.5169
+                      - 0.1340
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 149
+                          Green: 204
+                          Blue: 255
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                        - 1.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 6.0000
+                      visibilityFullDist: 44.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 208, 234, 170, 100 ]
+          dynamic_light:
+            ".type": CFXTrackGroup
+            ## name: "dynamic_light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0220
+                    timeDuration: 3.0357
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 11.0662, 1.0000 ]
+                      - [ 9.7144, 1.0000 ]
+                      - [ 8.3626, 1.0000 ]
+                      - [ 7.0108, 1.0000 ]
+                      - [ 5.6590, 1.0000 ]
+                      - [ 4.3072, 1.0000 ]
+                      - [ 2.9554, 1.0000 ]
+                      - [ 1.6036, 1.0000 ]
+                      - [ 0.2518, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 151, 198, 255, 255 ]
+                    radius: 8.0000
+                    brightness: 12.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.1000
+                    autoHideDistance: 44.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      attach: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 241, 146, 215, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0039
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_default_fx_loop
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.7600
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: magic_djinn_default_fx_loop_end
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 195, 197, 161, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0441
+                    timeDuration: 3.8031
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3333, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/djin/djinn_weak.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      attach: true
+                      parentSlotName: pelvis
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 155, 197, 199, 100 ]
+        length: 4.4094
+        loopStart: 0.2205
+        loopEnd: 0.7276
+        ## name: weak
+        showDistance: 55.0000
+        isLooped: true
+    ## cookedEffectsVersion: 1

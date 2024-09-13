@@ -1,0 +1,74 @@
+mq7002spriggan.journal:    CJournalResource #0 (CJournalResource) : 
+mq7002spriggan.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+mq7002spriggan.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
+mq7002spriggan.journal:    CJournalCreature #1 (CJournalCreature) : Spriggan - general
+mq7002spriggan.journal:        CJournalCreature (CJournalCreature) : Spriggans
+mq7002spriggan.journal:            guid (CGUID) : f281e002-dc37-49ff-a6da-988327c522bd
+mq7002spriggan.journal:            baseName (String) : "Spriggan - general"
+mq7002spriggan.journal:            order (Uint32) : 3221225470
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Spriggan F281E002-49FFDC37-8398DAA6-BD22C527
+mq7002spriggan.journal:            parentGuid (CGUID) : 7815517d-faa9-4a09-adce-b918fcd43ef9
+mq7002spriggan.journal:            linkedParentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
+mq7002spriggan.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+mq7002spriggan.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+mq7002spriggan.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #5
+mq7002spriggan.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #6
+mq7002spriggan.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #7
+mq7002spriggan.journal:            name (LocalizedString) : Spriggans
+mq7002spriggan.journal:            image (String) : "bestiary_spriggan.png"
+mq7002spriggan.journal:            entityTemplate (soft:CEntityTemplate) : dlc/bob/data/quests/minor_quests/quest_files/mq7002_stubborn_knight/characters/mq7002_springgan.w2ent
+mq7002spriggan.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
+mq7002spriggan.journal:                0 (CName) : Silver Dust Bomb 1
+mq7002spriggan.journal:                1 (CName) : Relic Oil 1
+mq7002spriggan.journal:                2 (CName) : Igni
+mq7002spriggan.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+mq7002spriggan.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+mq7002spriggan.journal:            guid (CGUID) : b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+mq7002spriggan.journal:            baseName (String) : "Descriptions"
+mq7002spriggan.journal:            order (Uint32) : 2147483647
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Descriptions B14FEA6E-4F603AA8-2FFF5DA0-F9BE785C
+mq7002spriggan.journal:            parentGuid (CGUID) : f281e002-dc37-49ff-a6da-988327c522bd
+mq7002spriggan.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+mq7002spriggan.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+mq7002spriggan.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+mq7002spriggan.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : wpis 1
+mq7002spriggan.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+mq7002spriggan.journal:            guid (CGUID) : cb7e1fc9-b9b9-4067-a6ef-6201275a0360
+mq7002spriggan.journal:            baseName (String) : "wpis 1"
+mq7002spriggan.journal:            order (Uint32) : 2147483647
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Before Sighting CB7E1FC9-4067B9B9-0162EFA6-60035A27
+mq7002spriggan.journal:            parentGuid (CGUID) : b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+mq7002spriggan.journal:            description (LocalizedString) : <i>I was gathering berries, as one does this time of year, when suddenly the trees shook and I saw this… this thing…</i><br> – fragment of a story told by a woman returning from the woods.<br><br>Spriggans are a subspecies of the monsters known as leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage. Their appetite is such that they can devour more flesh than an army at a wedding.<br><br>Each spriggan has mastery over plants and is inextricably tied to them. Thus if someone destroys greenery in its domain, it immediately comes to punish the disturber.<br>
+mq7002spriggan.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : wpis 2
+mq7002spriggan.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+mq7002spriggan.journal:            guid (CGUID) : 827090be-2da0-48fc-8f98-b5349b04ce5c
+mq7002spriggan.journal:            baseName (String) : "wpis 2"
+mq7002spriggan.journal:            order (Uint32) : 3221225470
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : After Sighting 827090BE-48FC2DA0-34B5988F-5CCE049B
+mq7002spriggan.journal:            parentGuid (CGUID) : b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+mq7002spriggan.journal:            index (Uint8) : 1
+mq7002spriggan.journal:            description (LocalizedString) : In combat a spriggan makes skilled use of its powerful limbs. When riled it attacks swiftly and forcefully, which, given its considerable mass, can prove highly problematic. <br><br>Its calloused hide can deflect even strong blows from a sword, and there can be no thought of parrying the spriggan’s attacks. One must keep an eye out for roots, which the spriggan will attempt to use to entangle its foe.<br><br>It can also teleport – in such cases it suddenly appears directly in front of its foe and attacks. The Aard Sign does not work against it, for no force on earth can knock it over.
+mq7002spriggan.journal:    CJournalCreatureHuntingClueGroup #5 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+mq7002spriggan.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+mq7002spriggan.journal:            guid (CGUID) : 06beb4f9-de6a-4f08-92ef-4fb363ce1c10
+mq7002spriggan.journal:            baseName (String) : "Hunting Clues"
+mq7002spriggan.journal:            order (Uint32) : 3221225470
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Hunting Clues 06BEB4F9-4F08DE6A-B34FEF92-101CCE63
+mq7002spriggan.journal:            parentGuid (CGUID) : f281e002-dc37-49ff-a6da-988327c522bd
+mq7002spriggan.journal:            index (Uint8) : 1
+mq7002spriggan.journal:    CJournalCreatureGameplayHintGroup #6 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+mq7002spriggan.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+mq7002spriggan.journal:            guid (CGUID) : 4324d3b9-6b56-4639-91f7-78bee4c1a569
+mq7002spriggan.journal:            baseName (String) : "Gameplay Hints"
+mq7002spriggan.journal:            order (Uint32) : 3758096382
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 4324D3B9-46396B56-BE78F791-69A5C1E4
+mq7002spriggan.journal:            parentGuid (CGUID) : f281e002-dc37-49ff-a6da-988327c522bd
+mq7002spriggan.journal:            index (Uint8) : 2
+mq7002spriggan.journal:    CJournalCreatureVitalSpotGroup #7 (CJournalCreatureVitalSpotGroup) : Vital spots
+mq7002spriggan.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+mq7002spriggan.journal:            guid (CGUID) : 9bebc441-fc27-4d73-87e6-fc2f92526d14
+mq7002spriggan.journal:            baseName (String) : "Vital spots"
+mq7002spriggan.journal:            order (Uint32) : 4026531838
+mq7002spriggan.journal:            uniqueScriptIdentifier (CName) : Vital spots 9BEBC441-4D73FC27-2FFCE687-146D5292
+mq7002spriggan.journal:            parentGuid (CGUID) : f281e002-dc37-49ff-a6da-988327c522bd
+mq7002spriggan.journal:            index (Uint8) : 3

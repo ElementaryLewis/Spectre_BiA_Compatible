@@ -1,0 +1,441 @@
+toad_spawn_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
+toad_spawn_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+toad_spawn_projectile.w2ent:            properOverrides (Bool) : true
+toad_spawn_projectile.w2ent:            entityClass (CName) : PoisonProjectile
+toad_spawn_projectile.w2ent:            entityObject (ptr:CEntity) : PoisonProjectile #1
+toad_spawn_projectile.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+toad_spawn_projectile.w2ent:                0 (EntitySlot) : fx
+toad_spawn_projectile.w2ent:                    name (CName) : fx
+toad_spawn_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+toad_spawn_projectile.w2ent:                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
+toad_spawn_projectile.w2ent:                    PoisonProjectile (PoisonProjectile) : PreviewEntity
+toad_spawn_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        streamingDistance (Uint8) : 0
+toad_spawn_projectile.w2ent:                        name (String) : "PreviewEntity"
+toad_spawn_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+toad_spawn_projectile.w2ent:                            0 (ptr:CComponent) : CPhantomComponent #1
+toad_spawn_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+toad_spawn_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+toad_spawn_projectile.w2ent:                            0 (SEntityBufferType1) : 
+toad_spawn_projectile.w2ent:                                ComponentName (CName) : 
+toad_spawn_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+toad_spawn_projectile.w2ent:                        idTag (IdTag) :  2edc49e1-06c3-4a86-8948-5b79f9c2f951
+toad_spawn_projectile.w2ent:                        doWaterLevelTest (Bool) : false
+toad_spawn_projectile.w2ent:                        radius (Float) : 0.1500
+toad_spawn_projectile.w2ent:                        projAngle (Float) : 40.0000
+toad_spawn_projectile.w2ent:                        projDMG (Float) : 150.0000
+toad_spawn_projectile.w2ent:                        initFxName (CName) : spit_travel
+toad_spawn_projectile.w2ent:                        onCollisionFxName (CName) : spit_hit
+toad_spawn_projectile.w2ent:                        spawnEntityOnGround (Bool) : true
+toad_spawn_projectile.w2ent:                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/toad/toad_acid_pool.w2ent
+toad_spawn_projectile.w2ent:                CPhantomComponent #1 (CPhantomComponent) : CPhantomComponent0
+toad_spawn_projectile.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+toad_spawn_projectile.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+toad_spawn_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        name (String) : "CPhantomComponent0"
+toad_spawn_projectile.w2ent:                        graphPositionX (Int16) : 194
+toad_spawn_projectile.w2ent:                        graphPositionY (Int16) : 274
+toad_spawn_projectile.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+toad_spawn_projectile.w2ent:                            0 (CName) : Character
+toad_spawn_projectile.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
+toad_spawn_projectile.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+toad_spawn_projectile.w2ent:                            X (Float) : 0.1500
+toad_spawn_projectile.w2ent:                            Y (Float) : 0.0500
+toad_spawn_projectile.w2ent:                            Z (Float) : 0.0500
+toad_spawn_projectile.w2ent:                            W (Float) : 0.5000
+toad_spawn_projectile.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+toad_spawn_projectile.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+toad_spawn_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+toad_spawn_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+toad_spawn_projectile.w2ent:                        guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+toad_spawn_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
+toad_spawn_projectile.w2ent:                        isStreamed (Bool) : false
+toad_spawn_projectile.w2ent:                        graphPositionX (Int16) : 102
+toad_spawn_projectile.w2ent:                        graphPositionY (Int16) : 196
+toad_spawn_projectile.w2ent:                        maxDistance (Float) : 60.0000
+toad_spawn_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+toad_spawn_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : spit_hit
+toad_spawn_projectile.w2ent:                    name (CName) : spit_hit
+toad_spawn_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+toad_spawn_projectile.w2ent:                        Bufferdata (CByteArray) : 1928 bytes, MD5: 48fb202b39aa143cb2d2c44aa90e733c
+toad_spawn_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_hit
+toad_spawn_projectile.w2ent:                            CFXDefinition (CFXDefinition) : spit_hit
+toad_spawn_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+toad_spawn_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+toad_spawn_projectile.w2ent:                                length (Float) : 4.0000
+toad_spawn_projectile.w2ent:                                loopEnd (Float) : 4.0000
+toad_spawn_projectile.w2ent:                                name (CName) : spit_hit
+toad_spawn_projectile.w2ent:                                showDistance (Float) : 50.0000
+toad_spawn_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+toad_spawn_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+toad_spawn_projectile.w2ent:                                name (String) : "sounds"
+toad_spawn_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+toad_spawn_projectile.w2ent:                                isExpanded (Bool) : true
+toad_spawn_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+toad_spawn_projectile.w2ent:                                    Red (Uint8) : 172
+toad_spawn_projectile.w2ent:                                    Green (Uint8) : 147
+toad_spawn_projectile.w2ent:                                    Blue (Uint8) : 143
+toad_spawn_projectile.w2ent:                                    Alpha (Uint8) : 100
+toad_spawn_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+toad_spawn_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
+toad_spawn_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+toad_spawn_projectile.w2ent:                                name (String) : "sfx"
+toad_spawn_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+toad_spawn_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+toad_spawn_projectile.w2ent:                                timeBegin (Float) : 0.0066
+toad_spawn_projectile.w2ent:                                buffername (CName) : 
+toad_spawn_projectile.w2ent:                                count (CDynamicInt) : 0
+toad_spawn_projectile.w2ent:                                unk (Uint8) : 0
+toad_spawn_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+toad_spawn_projectile.w2ent:                                soundEventName (StringAnsi) : monster_toad_fx_mucus_hit
+toad_spawn_projectile.w2ent:                                maxDistance (Float) : 40.0000
+toad_spawn_projectile.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : particles
+toad_spawn_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+toad_spawn_projectile.w2ent:                                name (String) : "particles"
+toad_spawn_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+toad_spawn_projectile.w2ent:                                isExpanded (Bool) : true
+toad_spawn_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+toad_spawn_projectile.w2ent:                                    Red (Uint8) : 192
+toad_spawn_projectile.w2ent:                                    Green (Uint8) : 152
+toad_spawn_projectile.w2ent:                                    Blue (Uint8) : 232
+toad_spawn_projectile.w2ent:                                    Alpha (Uint8) : 100
+toad_spawn_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : fx1
+toad_spawn_projectile.w2ent:                            CFXTrack (CFXTrack) : fx1
+toad_spawn_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+toad_spawn_projectile.w2ent:                                name (String) : "fx1"
+toad_spawn_projectile.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+toad_spawn_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+toad_spawn_projectile.w2ent:                                timeDuration (Float) : 4.0000
+toad_spawn_projectile.w2ent:                                buffername (CName) : Particles
+toad_spawn_projectile.w2ent:                                count (CDynamicInt) : 3
+toad_spawn_projectile.w2ent:                                unk (Uint8) : 1
+toad_spawn_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+toad_spawn_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 0.8333
+toad_spawn_projectile.w2ent:                                        11 (Float) : 0.6667
+toad_spawn_projectile.w2ent:                                        12 (Float) : 0.5000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 0.3333
+toad_spawn_projectile.w2ent:                                        14 (Float) : 0.1667
+toad_spawn_projectile.w2ent:                                        15 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_back_burst.w2p
+toad_spawn_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+toad_spawn_projectile.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : fx
+toad_spawn_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+toad_spawn_projectile.w2ent:                                componentName (CName) : fx
+toad_spawn_projectile.w2ent:                                copyRotation (Bool) : false
+toad_spawn_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : spit_travel
+toad_spawn_projectile.w2ent:                    name (CName) : spit_travel
+toad_spawn_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+toad_spawn_projectile.w2ent:                        Bufferdata (CByteArray) : 2678 bytes, MD5: 923c577ee0f42ca847cc7fdfcf555e5d
+toad_spawn_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_travel
+toad_spawn_projectile.w2ent:                            CFXDefinition (CFXDefinition) : spit_travel
+toad_spawn_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+toad_spawn_projectile.w2ent:                                length (Float) : 1.3737
+toad_spawn_projectile.w2ent:                                loopStart (Float) : 0.1000
+toad_spawn_projectile.w2ent:                                loopEnd (Float) : 0.2000
+toad_spawn_projectile.w2ent:                                name (CName) : spit_travel
+toad_spawn_projectile.w2ent:                                showDistance (Float) : 50.0000
+toad_spawn_projectile.w2ent:                                isLooped (Bool) : true
+toad_spawn_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particles
+toad_spawn_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+toad_spawn_projectile.w2ent:                                name (String) : "particles"
+toad_spawn_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+toad_spawn_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #5
+toad_spawn_projectile.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #8
+toad_spawn_projectile.w2ent:                                isExpanded (Bool) : true
+toad_spawn_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+toad_spawn_projectile.w2ent:                                    Red (Uint8) : 170
+toad_spawn_projectile.w2ent:                                    Green (Uint8) : 227
+toad_spawn_projectile.w2ent:                                    Blue (Uint8) : 140
+toad_spawn_projectile.w2ent:                                    Alpha (Uint8) : 100
+toad_spawn_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : fx2
+toad_spawn_projectile.w2ent:                            CFXTrack (CFXTrack) : fx2
+toad_spawn_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+toad_spawn_projectile.w2ent:                                name (String) : "fx2"
+toad_spawn_projectile.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+toad_spawn_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+toad_spawn_projectile.w2ent:                                timeDuration (Float) : 1.3761
+toad_spawn_projectile.w2ent:                                buffername (CName) : Particles
+toad_spawn_projectile.w2ent:                                count (CDynamicInt) : 3
+toad_spawn_projectile.w2ent:                                unk (Uint8) : 1
+toad_spawn_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+toad_spawn_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 0.8333
+toad_spawn_projectile.w2ent:                                        11 (Float) : 0.6667
+toad_spawn_projectile.w2ent:                                        12 (Float) : 0.5000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 0.3333
+toad_spawn_projectile.w2ent:                                        14 (Float) : 0.1667
+toad_spawn_projectile.w2ent:                                        15 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_back_burst.w2p
+toad_spawn_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+toad_spawn_projectile.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+toad_spawn_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+toad_spawn_projectile.w2ent:                                slotNames (array:CName) : # array:CName
+toad_spawn_projectile.w2ent:                                    0 (CName) : fx
+toad_spawn_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : light
+toad_spawn_projectile.w2ent:                            CFXTrack (CFXTrack) : light
+toad_spawn_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #6
+toad_spawn_projectile.w2ent:                                name (String) : "light"
+toad_spawn_projectile.w2ent:                        CFXTrackItemDynamicLight #6 (CFXTrackItemDynamicLight) : DynamicLight
+toad_spawn_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+toad_spawn_projectile.w2ent:                                timeBegin (Float) : 0.0070
+toad_spawn_projectile.w2ent:                                buffername (CName) : DynamicLight
+toad_spawn_projectile.w2ent:                                count (CDynamicInt) : 2
+toad_spawn_projectile.w2ent:                                unk (Uint8) : 1
+toad_spawn_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <0.7686223> <0.483777> <0.1989317> <0> <0> <0> <0> <0> <0> <0> <0> <0>> <16:
+toad_spawn_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 0.7686
+toad_spawn_projectile.w2ent:                                        5 (Float) : 0.4838
+toad_spawn_projectile.w2ent:                                        6 (Float) : 0.1989
+toad_spawn_projectile.w2ent:                                        7 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                color (Color) : <Color>color
+toad_spawn_projectile.w2ent:                                    Red (Uint8) : 209
+toad_spawn_projectile.w2ent:                                    Green (Uint8) : 173
+toad_spawn_projectile.w2ent:                                    Blue (Uint8) : 108
+toad_spawn_projectile.w2ent:                                    Alpha (Uint8) : 255
+toad_spawn_projectile.w2ent:                                brightness (Float) : 55.0000
+toad_spawn_projectile.w2ent:                                attenuation (Float) : 0.5000
+toad_spawn_projectile.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+toad_spawn_projectile.w2ent:                                    positionOffset (Float) : 0.2000
+toad_spawn_projectile.w2ent:                                    flickerStrength (Float) : 0.6000
+toad_spawn_projectile.w2ent:                                    flickerPeriod (Float) : 0.0500
+toad_spawn_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+toad_spawn_projectile.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+toad_spawn_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+toad_spawn_projectile.w2ent:                                slotNames (array:CName) : # array:CName
+toad_spawn_projectile.w2ent:                                    0 (CName) : fx
+toad_spawn_projectile.w2ent:                        CFXTrack #8 (CFXTrack) : fx
+toad_spawn_projectile.w2ent:                            CFXTrack (CFXTrack) : fx
+toad_spawn_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+toad_spawn_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+toad_spawn_projectile.w2ent:                                name (String) : "fx"
+toad_spawn_projectile.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+toad_spawn_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+toad_spawn_projectile.w2ent:                                timeDuration (Float) : 1.3616
+toad_spawn_projectile.w2ent:                                buffername (CName) : Particles
+toad_spawn_projectile.w2ent:                                count (CDynamicInt) : 3
+toad_spawn_projectile.w2ent:                                unk (Uint8) : 1
+toad_spawn_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+toad_spawn_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 0.0000
+toad_spawn_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+toad_spawn_projectile.w2ent:                                        0 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        2 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        3 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        4 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        5 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        6 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        7 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        8 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        9 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        10 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        11 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        12 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        13 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        14 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                        15 (Float) : 1.0000
+toad_spawn_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_spit_trail.w2p
+toad_spawn_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #10
+toad_spawn_projectile.w2ent:                        CFXSimpleSpawner #10 (CFXSimpleSpawner) : 
+toad_spawn_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+toad_spawn_projectile.w2ent:                                slotNames (array:CName) : # array:CName
+toad_spawn_projectile.w2ent:                                    0 (CName) : fx
+toad_spawn_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
+toad_spawn_projectile.w2ent:            Unk1 (Uint32) : 0
+toad_spawn_projectile.w2ent:    PoisonProjectile #1 (PoisonProjectile) : spit_travel
+toad_spawn_projectile.w2ent:        PoisonProjectile (PoisonProjectile) : 
+toad_spawn_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            streamingDistance (Uint8) : 0
+toad_spawn_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+toad_spawn_projectile.w2ent:                0 (ptr:CComponent) : CPhantomComponent #2
+toad_spawn_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
+toad_spawn_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+toad_spawn_projectile.w2ent:                0 (SEntityBufferType1) : 
+toad_spawn_projectile.w2ent:                    ComponentName (CName) : 
+toad_spawn_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+toad_spawn_projectile.w2ent:            idTag (IdTag) :  2edc49e1-06c3-4a86-8948-5b79f9c2f951
+toad_spawn_projectile.w2ent:            doWaterLevelTest (Bool) : false
+toad_spawn_projectile.w2ent:            radius (Float) : 0.1500
+toad_spawn_projectile.w2ent:            projAngle (Float) : 40.0000
+toad_spawn_projectile.w2ent:            projDMG (Float) : 150.0000
+toad_spawn_projectile.w2ent:            initFxName (CName) : spit_travel
+toad_spawn_projectile.w2ent:            onCollisionFxName (CName) : spit_hit
+toad_spawn_projectile.w2ent:            spawnEntityOnGround (Bool) : true
+toad_spawn_projectile.w2ent:            spawnEntityTemplate (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/toad/toad_acid_pool.w2ent
+toad_spawn_projectile.w2ent:    CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
+toad_spawn_projectile.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+toad_spawn_projectile.w2ent:            guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+toad_spawn_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            name (String) : "CPhantomComponent0"
+toad_spawn_projectile.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
+toad_spawn_projectile.w2ent:                0 (CName) : Character
+toad_spawn_projectile.w2ent:            shapeType (EPhantomShape) : PS_Sphere
+toad_spawn_projectile.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+toad_spawn_projectile.w2ent:                X (Float) : 0.1500
+toad_spawn_projectile.w2ent:                Y (Float) : 0.0500
+toad_spawn_projectile.w2ent:                Z (Float) : 0.0500
+toad_spawn_projectile.w2ent:                W (Float) : 0.5000
+toad_spawn_projectile.w2ent:            onTriggerEnteredScriptEvent (CName) : CharacterCollision
+toad_spawn_projectile.w2ent:            onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+toad_spawn_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+toad_spawn_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+toad_spawn_projectile.w2ent:            guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+toad_spawn_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+toad_spawn_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
+toad_spawn_projectile.w2ent:            isStreamed (Bool) : false
+toad_spawn_projectile.w2ent:            maxDistance (Float) : 60.0000

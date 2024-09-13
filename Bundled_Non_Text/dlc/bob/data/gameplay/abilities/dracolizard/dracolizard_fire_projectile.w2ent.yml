@@ -1,0 +1,447 @@
+templates:
+  dracolizard_fire_projectile.w2ent:
+    ".type": CEntityTemplate
+    ## properOverrides: true
+    ## entityClass: W3DracolizardFireball
+    entityObject:
+      ".type": W3DracolizardFireball
+      attachments: # array:handle:IAttachment
+      streamingDistance: 0
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CEffectDummyComponent
+          guid: 18febab9-37fa-4ee8-92e8-8289a568b2b5
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+        - ".type": CSoundEmitterComponent
+          guid: ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          isStreamed: false
+          banksDependency:  #array:2,0,CName
+            - monster_dracolizard.bnk
+          maxDistance: 50.0000
+      idTag:  ac25e4ea-0e05-4ddb-b4fd-663c5941148b
+      displayName: 1211408
+      radius: 0.3000
+      projSpeed: 20.0000
+      projAngle: 0.0000
+      projDMG: 300.0000
+      projSilverDMG: 300.0000
+      initFxName: venom
+      onCollisionFxName: venom_hit
+      spawnEntityTemplate: dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_location.w2ent
+      range: 1.5000
+      burningDur: 3.0000
+      destroyAfter: 10.0000
+      surfaceFX:  #SFXSurfacePostParams
+        fxFadeInTime: 0.5000
+        fxLastingTime: 10.0000
+        fxFadeOutTime: 1.0000
+        fxRadius: 3.0000
+        fxType: 1
+    slots:  #array:2,0,EntitySlot
+      fx:
+        ".type": EntitySlot
+        ## name: fx
+        componentName: CEffectDummyComponent0
+    effects:
+      #buffer: 3131 bytes, MD5: 5821817b2dcc21cdf32ed2c657a7e6a6
+      venom:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fire:
+            ".type": CFXTrackGroup
+            ## name: "fire"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeDuration: 1.6138
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 10.0139, 1.0000 ]
+                      - [ 4.0046, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                    color: [ 255, 167, 86, 255 ]
+                    radius: 3.0000
+                    brightness: 35.0000
+                    autoHideDistance: 25.0000
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                ## name: "3"
+              "12":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0027
+                    timeDuration: 1.6138
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 12.0000, 1.0000 ]
+                      - [ 10.0139, 1.0000 ]
+                      - [ 4.0046, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                    color: [ 255, 167, 86, 255 ]
+                    radius: 8.0000
+                    brightness: 15.0000
+                    autoHideDistance: 25.0000
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                ## name: "12"
+            isExpanded: true
+            trackGroupColor: [ 188, 149, 200, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.1098
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    latchDistanceParameterBelow: 3.0000
+                    latchEvent: monster_dracolizard_combat_fireball_flyby
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 205, 221, 139, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0044
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.5011, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 208, 197, 209, 100 ]
+        length: 2.3090
+        loopStart: 0.1258
+        loopEnd: 0.2359
+        ## name: venom
+        showDistance: 44.0000
+        isLooped: true
+      #buffer: 5302 bytes, MD5: 573226ff9f13ac67dd27daef9d3cf4fa
+      venom_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sound:
+            ".type": CFXTrackGroup
+            ## name: "sound"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0469
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_dracolizard_combat_fireball_hit
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 134, 240, 251, 100 ]
+            componentName: CEffectDummyComponent0
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: -0.0015
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 17.5009, 1.0000 ]
+                      - [ 11.0183, 1.0000 ]
+                      - [ 4.5357, 1.0000 ]
+                      - [ 1.8608, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 188, 100, 255 ]
+                    radius: 26.0000
+                    brightness: 65.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 45.0000
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                      relativePos: [ 0.0000, 0.0000, 1.0000, 0.0000 ]
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 186, 244, 161, 100 ]
+          tint:
+            ".type": CFXTrackGroup
+            ## name: "tint"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemBrightnessTint
+                    timeBegin: -0.0056
+                    timeDuration: 0.6814
+                    ## buffername: BrightnessTint
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.0000 ]
+                      - [ 3.0000, 1.0000 ]
+                      - [ 6.7143, 1.0000 ]
+                      - [ 5.2857, 1.0000 ]
+                      - [ 3.8571, 1.0000 ]
+                      - [ 2.4286, 1.0000 ]
+                      - [ 1.0000, 0.8571 ]
+                      - [ 1.0000, 0.6667 ]
+                      - [ 1.0000, 0.4762 ]
+                      - [ 1.0000, 0.2857 ]
+                      - [ 1.0000, 0.0952 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                    color: [ 255, 191, 124, 255 ]
+                    range: 17.0000
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 183, 186, 155, 100 ]
+            componentName: CEffectDummyComponent0
+          asd:
+            ".type": CFXTrackGroup
+            ## name: "asd"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0209
+                    timeDuration: 4.4437
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_explode.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                ## name: "3"
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0000
+                    timeDuration: 4.4437
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_explode.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                ## name: "3"
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0018
+                    timeDuration: 0.5755
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 8.2701
+                      - 11.1273
+                      - 9.5377
+                      - 7.9481
+                      - 6.3585
+                      - 4.7688
+                      - 3.1792
+                      - 1.5896
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 255
+                          Green: 158
+                          Blue: 92
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 6.0000
+                      fadeInMaxSpeed: 9999.0000
+                      fadeOutMaxSpeed: 9999.0000
+                      fadeInAccel: 9999.0000
+                      fadeOutAccel: 9999.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx
+                      copyRotation: false
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 155, 150, 164, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemRadialBlur
+                    timeBegin: 0.0029
+                    ## buffername: RadialBlur
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1667, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1373, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0588, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                    distanceFromCamera: 12.0000
+                    centerMultiplier: 0.3500
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 151, 161, 254, 100 ]
+            componentName: CEffectDummyComponent0
+        length: 4.5091
+        loopStart: 0.0987
+        loopEnd: 0.1791
+        ## name: venom_hit
+        showDistance: 220.0000
+    ## cookedEffectsVersion: 1

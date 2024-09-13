@@ -1,0 +1,116 @@
+sand_coil_proj.w2ent:    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
+sand_coil_proj.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+sand_coil_proj.w2ent:            properOverrides (Bool) : true
+sand_coil_proj.w2ent:            entityClass (CName) : DebuffProjectile
+sand_coil_proj.w2ent:            entityObject (ptr:CEntity) : DebuffProjectile #1
+sand_coil_proj.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+sand_coil_proj.w2ent:                0 (EntitySlot) : fx
+sand_coil_proj.w2ent:                    name (CName) : fx
+sand_coil_proj.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+sand_coil_proj.w2ent:                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
+sand_coil_proj.w2ent:                    DebuffProjectile (DebuffProjectile) : PreviewEntity
+sand_coil_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+sand_coil_proj.w2ent:                            Bufferdata (CByteArray) : 948 bytes, MD5: 8598312eb3344947e160808e955826bb
+sand_coil_proj.w2ent:                            CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+sand_coil_proj.w2ent:                                CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+sand_coil_proj.w2ent:                                    guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+sand_coil_proj.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                                    name (String) : "CPhantomComponent0"
+sand_coil_proj.w2ent:                                    isStreamed (Bool) : true
+sand_coil_proj.w2ent:                                    graphPositionX (Int16) : 194
+sand_coil_proj.w2ent:                                    graphPositionY (Int16) : 274
+sand_coil_proj.w2ent:                                    triggeringCollisionGroupNames (array:CName) : # array:CName
+sand_coil_proj.w2ent:                                        0 (CName) : Character
+sand_coil_proj.w2ent:                                    shapeType (EPhantomShape) : PS_Sphere
+sand_coil_proj.w2ent:                                    shapeDimensions (Vector) : <Vector>shapeDimensions
+sand_coil_proj.w2ent:                                        X (Float) : 2.0000
+sand_coil_proj.w2ent:                                        Y (Float) : 0.0500
+sand_coil_proj.w2ent:                                        Z (Float) : 0.0500
+sand_coil_proj.w2ent:                                        W (Float) : 1.0000
+sand_coil_proj.w2ent:                                    onTriggerEnteredScriptEvent (CName) : CharacterCollision
+sand_coil_proj.w2ent:                                    onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+sand_coil_proj.w2ent:                        streamingDistance (Uint8) : 0
+sand_coil_proj.w2ent:                        name (String) : "PreviewEntity"
+sand_coil_proj.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+sand_coil_proj.w2ent:                            0 (ptr:CComponent) : CSoundEmitterComponent #1
+sand_coil_proj.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sand_coil_proj.w2ent:                            0 (SEntityBufferType1) : 
+sand_coil_proj.w2ent:                                ComponentName (CName) : 
+sand_coil_proj.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sand_coil_proj.w2ent:                        idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
+sand_coil_proj.w2ent:                        radius (Float) : 0.5000
+sand_coil_proj.w2ent:                        projSpeed (Float) : 30.0000
+sand_coil_proj.w2ent:                        projDMG (Float) : 150.0000
+sand_coil_proj.w2ent:                        ignoreArmor (Bool) : false
+sand_coil_proj.w2ent:                        debuffType (EEffectType) : EET_Confusion
+sand_coil_proj.w2ent:                        hitReactionType (EHitReactionType) : EHRT_None
+sand_coil_proj.w2ent:                        damageTypeName (CName) : PhysicalDamage
+sand_coil_proj.w2ent:                        destroyQuen (Bool) : false
+sand_coil_proj.w2ent:                        customDuration (Float) : 2.0000
+sand_coil_proj.w2ent:                        signalDamageInstigatedEvent (Bool) : true
+sand_coil_proj.w2ent:                CSoundEmitterComponent #1 (CSoundEmitterComponent) : CSoundEmitterComponent0
+sand_coil_proj.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+sand_coil_proj.w2ent:                        guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+sand_coil_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        name (String) : "CSoundEmitterComponent0"
+sand_coil_proj.w2ent:                        isStreamed (Bool) : false
+sand_coil_proj.w2ent:                        graphPositionX (Int16) : 142
+sand_coil_proj.w2ent:                        graphPositionY (Int16) : 179
+sand_coil_proj.w2ent:                        maxDistance (Float) : 60.0000
+sand_coil_proj.w2ent:            cookedEffectsVersion (Uint32) : 1
+sand_coil_proj.w2ent:            Unk1 (Uint32) : 0
+sand_coil_proj.w2ent:    DebuffProjectile #1 (DebuffProjectile) : PhysicalDamage
+sand_coil_proj.w2ent:        DebuffProjectile (DebuffProjectile) : 
+sand_coil_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+sand_coil_proj.w2ent:                Bufferdata (CByteArray) : 948 bytes, MD5: 8598312eb3344947e160808e955826bb
+sand_coil_proj.w2ent:                CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+sand_coil_proj.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+sand_coil_proj.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+sand_coil_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:                        name (String) : "CPhantomComponent0"
+sand_coil_proj.w2ent:                        isStreamed (Bool) : true
+sand_coil_proj.w2ent:                        graphPositionX (Int16) : 194
+sand_coil_proj.w2ent:                        graphPositionY (Int16) : 274
+sand_coil_proj.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+sand_coil_proj.w2ent:                            0 (CName) : Character
+sand_coil_proj.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
+sand_coil_proj.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+sand_coil_proj.w2ent:                            X (Float) : 2.0000
+sand_coil_proj.w2ent:                            Y (Float) : 0.0500
+sand_coil_proj.w2ent:                            Z (Float) : 0.0500
+sand_coil_proj.w2ent:                            W (Float) : 1.0000
+sand_coil_proj.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+sand_coil_proj.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+sand_coil_proj.w2ent:            streamingDistance (Uint8) : 0
+sand_coil_proj.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+sand_coil_proj.w2ent:                0 (ptr:CComponent) : CSoundEmitterComponent #2
+sand_coil_proj.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sand_coil_proj.w2ent:                0 (SEntityBufferType1) : 
+sand_coil_proj.w2ent:                    ComponentName (CName) : 
+sand_coil_proj.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sand_coil_proj.w2ent:            idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
+sand_coil_proj.w2ent:            radius (Float) : 0.5000
+sand_coil_proj.w2ent:            projSpeed (Float) : 30.0000
+sand_coil_proj.w2ent:            projDMG (Float) : 150.0000
+sand_coil_proj.w2ent:            ignoreArmor (Bool) : false
+sand_coil_proj.w2ent:            debuffType (EEffectType) : EET_Confusion
+sand_coil_proj.w2ent:            hitReactionType (EHitReactionType) : EHRT_None
+sand_coil_proj.w2ent:            damageTypeName (CName) : PhysicalDamage
+sand_coil_proj.w2ent:            destroyQuen (Bool) : false
+sand_coil_proj.w2ent:            customDuration (Float) : 2.0000
+sand_coil_proj.w2ent:            signalDamageInstigatedEvent (Bool) : true
+sand_coil_proj.w2ent:    CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+sand_coil_proj.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+sand_coil_proj.w2ent:            guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+sand_coil_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sand_coil_proj.w2ent:            name (String) : "CSoundEmitterComponent0"
+sand_coil_proj.w2ent:            isStreamed (Bool) : false
+sand_coil_proj.w2ent:            maxDistance (Float) : 60.0000

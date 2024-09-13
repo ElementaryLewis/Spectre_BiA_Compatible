@@ -1,0 +1,738 @@
+templates:
+  mq6003_taxes.w2phase:
+    ".type": CQuestPhase
+    graph:
+      ".type": CQuestGraph
+      graphBlocks:  #array:2,0,ptr:CGraphBlock
+        - ".type": CQuestPhaseBlock
+          name: "Scene"
+          guid: f6cfdb54-2627-405a-9c20-a3ee7aac70f7
+          cachedConnections:  #array:2,0,SCachedConnections
+            - ".type": SCachedConnections
+              socketId: Finished
+              blocks:  #array:2,0,SBlockDesc
+                - ".type": SBlockDesc
+                  ock:
+                    ".type": CQuestPhaseBlock
+                    name: "Reward & Cleanup"
+                    guid: 51c6b2a2-8dfe-40e2-b1b7-a3aa52288051
+                    cachedConnections:  #array:2,0,SCachedConnections
+                      - ".type": SCachedConnections
+                        socketId: Out
+                        blocks:  #array:2,0,SBlockDesc
+                          - ".type": SBlockDesc
+                            ock:
+                              ".type": CQuestPhaseOutputBlock
+                              guid: 2bac8c49-cfce-496e-9b17-c68b4ad6a0b9
+                            putName:  
+                    embeddedGraph:
+                      ".type": CQuestGraph
+                      graphBlocks:  #array:2,0,ptr:CGraphBlock
+                        - ".type": CQuestPauseConditionBlock
+                          comment: "player leaves oxenfurt"
+                          guid: fd32dd26-6d81-437f-8673-17890b12928a
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestStoryPhaseSetterBlock
+                                    comment: "despawn tax collector"
+                                    guid: 146a1647-9f41-46c7-bd03-3b3d95367ab2
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            ock:
+                                              ".type": CQuestPhaseOutputBlock
+                                              guid: 1e4b38c4-05ad-4c45-9777-a9c3fe5846b0
+                                            putName:  
+                                    spawnsets:  #array:2,0,ptr:IQuestSpawnsetAction
+                                      - ".type": CDeactivateSpawnset
+                                        spawnset: dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+                                  putName: In
+                          conditions:  #array:2,0,ptr:IQuestCondition
+                            - ".type": CQuestInsideTriggerCondition
+                              triggerTag: mq6003_trigger_oxenfurt
+                              isInside: false
+                        #"1": (looped reference) CQuestStoryPhaseSetterBlock #7
+                        - ".type": CQuestPhaseInputBlock
+                          guid: 6478d0b0-5519-432d-ac82-5ab3c4afbaf8
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId:  
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestRewardBlock
+                                    guid: c6a622f5-28ea-433b-b4f8-277c67e531ff
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            #ock: (looped reference) CQuestPauseConditionBlock #6
+                                            putName: In
+                                    rewardName: mq6003_completed
+                                    caption: "Reward [mq6003_completed]"
+                                  putName: In
+                        #"3": (looped reference) CQuestRewardBlock #12
+                        #"4": (looped reference) CQuestPhaseOutputBlock #8
+                      sourceDataRemoved: true
+                  putName: In
+            - ".type": SCachedConnections
+              socketId: Vivaldi
+              blocks:  #array:2,0,SBlockDesc
+                - ".type": SBlockDesc
+                  ock:
+                    ".type": CQuestPhaseBlock
+                    name: "Vivaldi"
+                    guid: ec227814-5a63-4dc1-8508-6075e598cf74
+                    cachedConnections:  #array:2,0,SCachedConnections
+                      - ".type": SCachedConnections
+                        socketId: Out
+                        blocks:  #array:2,0,SBlockDesc
+                          - ".type": SBlockDesc
+                            #ock: (looped reference) CQuestPhaseBlock #3
+                            putName: In
+                    embeddedGraph:
+                      ".type": CQuestGraph
+                      graphBlocks:  #array:2,0,ptr:CGraphBlock
+                        - ".type": CJournalQuestBlock
+                          guid: 3c2871e1-bd19-4286-9d86-3c28166e5b5e
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId: Out
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CJournalQuestBlock
+                                    guid: c3f50d2f-9576-4df4-87da-69794f98d7d8
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            ock:
+                                              ".type": CQuestScriptBlock
+                                              name: "take 1000 gold"
+                                              comment: "take 1000 gold"
+                                              guid: f8ca6e70-7bc6-41be-b1af-23d002d05ac2
+                                              cachedConnections:  #array:2,0,SCachedConnections
+                                                - ".type": SCachedConnections
+                                                  socketId: Out
+                                                  blocks:  #array:2,0,SBlockDesc
+                                                    - ".type": SBlockDesc
+                                                      ock:
+                                                        ".type": CQuestSceneBlock
+                                                        guid: fc045565-af35-4a42-81fb-1def6d12c2c7
+                                                        cachedConnections:  #array:2,0,SCachedConnections
+                                                          - ".type": SCachedConnections
+                                                            socketId: mq6003_one_liner_out
+                                                            blocks:  #array:2,0,SBlockDesc
+                                                              - ".type": SBlockDesc
+                                                                ock:
+                                                                  ".type": CQuestCheckpointBlock
+                                                                  guid: 84a9488e-aaf9-49cc-9726-b274914b9847
+                                                                  cachedConnections:  #array:2,0,SCachedConnections
+                                                                    - ".type": SCachedConnections
+                                                                      socketId: Out
+                                                                      blocks:  #array:2,0,SBlockDesc
+                                                                        - ".type": SBlockDesc
+                                                                          ock:
+                                                                            ".type": CQuestPhaseOutputBlock
+                                                                            guid: 4e0367c4-a289-49d6-ace4-ce0a78ad828a
+                                                                          putName:  
+                                                                putName: In
+                                                        scene: dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_geralt_one_liner.w2scene
+                                                        shouldFadeOnLoading_NamesCooked:  #array:2,0,CName
+                                                          - mq6003_one_liner_in
+                                                        shouldFadeOnLoading_ValuesCooked:  #array:2,0,Bool
+                                                          - false
+                                                      putName: mq6003_one_liner_in
+                                              functionName: RemoveItemQuest
+                                              parameters:  #array:2,0,QuestScriptParam
+                                                - ".type": QuestScriptParam
+                                                  name: entityTag
+                                                  value: PLAYER
+                                                - ".type": QuestScriptParam
+                                                  name: item_name
+                                                  value: Crown
+                                                - ".type": QuestScriptParam
+                                                  name: item_category
+                                                  #value: <empty value>
+                                                - ".type": QuestScriptParam
+                                                  name: item_tag
+                                                  #value: <empty value>
+                                                - ".type": QuestScriptParam
+                                                  name: quantity
+                                                  value: 1000
+                                              caption: "Script [RemoveItemQuest]"
+                                              BufferParameters:  #CCompressedBuffer:CVariant
+                                                entityTag: PLAYER
+                                                item_name: Crown
+                                                #item_category: <empty value>
+                                                #item_tag: <empty value>
+                                                quantity: 1000
+                                            putName: In
+                                    questEntry:
+                                      ".type": CJournalPath
+                                      guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                      resource: dlc/ep1/journal/quests/ep1.journal
+                                      child:
+                                        ".type": CJournalPath
+                                        guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                        resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                    showInfoOnScreen: true
+                                  putName: Success
+                          questEntry:
+                            ".type": CJournalPath
+                            guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                            resource: dlc/ep1/journal/quests/ep1.journal
+                            child:
+                              ".type": CJournalPath
+                              guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                              resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                              child:
+                                ".type": CJournalPath
+                                guid: b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+                                child:
+                                  ".type": CJournalPath
+                                  guid: 8226dea7-f425-495d-8409-13ae5ea6d462
+                        #"1": (looped reference) CJournalQuestBlock #16
+                        #"2": (looped reference) CQuestPhaseOutputBlock #20
+                        #"3": (looped reference) CQuestCheckpointBlock #19
+                        #"4": (looped reference) CQuestSceneBlock #18
+                        #"5": (looped reference) CQuestScriptBlock #17
+                        - ".type": CQuestScriptBlock
+                          guid: 0fd6deee-6b7d-46f8-9d7d-04d68fdf06a4
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId: Out
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestFactsDBChangingBlock
+                                    comment: "mq6003_fact_taxes_paid"
+                                    guid: ac5617d6-ecaa-4d62-bd45-49fc10133fa0
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            #ock: (looped reference) CJournalQuestBlock #15
+                                            putName: Success
+                                    factID: "mq6003_fact_taxes_paid"
+                                    value: 1
+                                  putName: In
+                          functionName: RemoveItemQuest
+                          parameters:  #array:2,0,QuestScriptParam
+                            - ".type": QuestScriptParam
+                              name: entityTag
+                              value: PLAYER
+                            - ".type": QuestScriptParam
+                              name: item_name
+                              value: mq6003_tax_bill
+                            - ".type": QuestScriptParam
+                              name: item_category
+                              #value: <empty value>
+                            - ".type": QuestScriptParam
+                              name: item_tag
+                              #value: <empty value>
+                            - ".type": QuestScriptParam
+                              name: quantity
+                              value: 1
+                          caption: "Script [RemoveItemQuest]"
+                          BufferParameters:  #CCompressedBuffer:CVariant
+                            entityTag: PLAYER
+                            item_name: mq6003_tax_bill
+                            #item_category: <empty value>
+                            #item_tag: <empty value>
+                            quantity: 1
+                        #"7": (looped reference) CQuestFactsDBChangingBlock #28
+                        - ".type": CQuestPauseConditionBlock
+                          name: "1s"
+                          guid: 30a63cda-7f26-4ab2-b543-1c2553d9b6c2
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestInteractionDialogBlock
+                                    guid: cd0dc5ab-b663-4f2e-a781-0cfa5a663060
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: mq6003_taxes_paid
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            #ock: (looped reference) CQuestScriptBlock #27
+                                            putName: In
+                                      - ".type": SCachedConnections
+                                        socketId: mq6003_taxes_not_paid
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            #ock: (looped reference) CQuestPauseConditionBlock #29
+                                            putName: In
+                                    scene: dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_vimme_vivaldi_default_replacer.w2scene
+                                    actorTags:
+                                      - vivaldi
+                                  putName: mq6003_vivaldi_taxes_in
+                          conditions:  #array:2,0,ptr:IQuestCondition
+                            - ".type": CQuestRealtimeDelayCondition
+                              howLong:  #GameTime
+                                m_seconds: 1
+                        #"9": (looped reference) CQuestInteractionDialogBlock #30
+                        - ".type": CQuestPhaseInputBlock
+                          guid: 49e61dac-01f7-44ab-b149-2c6fdf7c0c1d
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId:  
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestFactsDBChangingBlock
+                                    comment: "mq6003_flip_vivaldi_default"
+                                    guid: 86c6e8aa-a0e9-41f5-933a-a4a8143c0c98
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            #ock: (looped reference) CQuestInteractionDialogBlock #30
+                                            putName: mq6003_vivaldi_taxes_in
+                                    factID: "mq6003_flip_vivaldi_default"
+                                    value: 1
+                                  putName: In
+                        #"11": (looped reference) CQuestFactsDBChangingBlock #33
+                      sourceDataRemoved: true
+                  putName: In
+          embeddedGraph:
+            ".type": CQuestGraph
+            graphBlocks:  #array:2,0,ptr:CGraphBlock
+              - ".type": CQuestSceneBlock
+                guid: 206c6156-7007-4928-8e73-ca108d361079
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId: mq6003__good_geralt_out
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        ock:
+                          ".type": CJournalQuestBlock
+                          guid: d0b343e7-262a-4983-ac7c-b7055831021c
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId: Out
+                          questEntry:
+                            ".type": CJournalPath
+                            guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                            resource: dlc/ep1/journal/quests/ep1.journal
+                            child:
+                              ".type": CJournalPath
+                              guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                              resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                              child:
+                                ".type": CJournalPath
+                                guid: b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+                                child:
+                                  ".type": CJournalPath
+                                  guid: 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
+                        putName: Success
+                      - ".type": SBlockDesc
+                        ock:
+                          ".type": CQuestStoryPhaseSetterBlock
+                          comment: "despawn tax collector"
+                          guid: 68ff959b-c1b8-421e-aee5-11ad5c47f320
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId: Out
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestScriptBlock
+                                    guid: 89e7c0cd-7a68-4e8f-9723-665b041caf31
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            ock:
+                                              ".type": CQuestDeletionMarkerBlock
+                                              guid: 6ea84b8c-b823-447f-a31b-e9e6ad536bf6
+                                              cachedConnections:  #array:2,0,SCachedConnections
+                                                - ".type": SCachedConnections
+                                                  socketId: Out
+                                                  blocks:  #array:2,0,SBlockDesc
+                                                    - ".type": SBlockDesc
+                                                      ock:
+                                                        ".type": CJournalQuestBlock
+                                                        guid: 68e82f1f-73b2-4650-9f0f-65ac22e52e6f
+                                                        cachedConnections:  #array:2,0,SCachedConnections
+                                                          - ".type": SCachedConnections
+                                                            socketId: Out
+                                                            blocks:  #array:2,0,SBlockDesc
+                                                              - ".type": SBlockDesc
+                                                                ock:
+                                                                  ".type": CJournalQuestBlock
+                                                                  guid: e13ec143-2221-4fff-af41-407d5b8cf7be
+                                                                  cachedConnections:  #array:2,0,SCachedConnections
+                                                                    - ".type": SCachedConnections
+                                                                      socketId: Out
+                                                                      blocks:  #array:2,0,SBlockDesc
+                                                                        - ".type": SBlockDesc
+                                                                          ock:
+                                                                            ".type": CQuestCheckpointBlock
+                                                                            guid: 8378c8a3-53c4-412b-ba05-5522aa17e29f
+                                                                            cachedConnections:  #array:2,0,SCachedConnections
+                                                                              - ".type": SCachedConnections
+                                                                                socketId: Out
+                                                                                blocks:  #array:2,0,SBlockDesc
+                                                                                  - ".type": SBlockDesc
+                                                                                    ock:
+                                                                                      ".type": CQuestPhaseOutputBlock
+                                                                                      guid: 494a211a-8595-44aa-a6ce-9dcd02b3a3f0
+                                                                                      socketID: Finished
+                                                                                    putName:  
+                                                                          putName: In
+                                                                  questEntry:
+                                                                    ".type": CJournalPath
+                                                                    guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                                                    resource: dlc/ep1/journal/quests/ep1.journal
+                                                                    child:
+                                                                      ".type": CJournalPath
+                                                                      guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                                                      resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                                                putName: Success
+                                                        questEntry:
+                                                          ".type": CJournalPath
+                                                          guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                                          resource: dlc/ep1/journal/quests/ep1.journal
+                                                          child:
+                                                            ".type": CJournalPath
+                                                            guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                                            resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                                            child:
+                                                              ".type": CJournalPath
+                                                              guid: 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+                                                              child:
+                                                                ".type": CJournalPath
+                                                                guid: 039a2e5a-f6ba-428b-997f-6da270b7fb18
+                                                      putName: Activate
+                                              guids:  #array:2,0,CGUID
+                                                - fe89c891-7ff6-4d4d-ad53-1c016ce82a9e
+                                            putName: In
+                                    functionName: FadeInQuest
+                                    parameters:  #array:2,0,QuestScriptParam
+                                      - ".type": QuestScriptParam
+                                        name: fadeTime
+                                        value: 1
+                                    caption: "Script [FadeInQuest]"
+                                    BufferParameters:  #CCompressedBuffer:CVariant
+                                      fadeTime: 1
+                                  putName: In
+                          spawnsets:  #array:2,0,ptr:IQuestSpawnsetAction
+                            - ".type": CDeactivateSpawnset
+                              spawnset: dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+                        putName: In
+                  - ".type": SCachedConnections
+                    socketId: mq6003_bad_geralt_out
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CJournalQuestBlock #36
+                        putName: Success
+                      - ".type": SBlockDesc
+                        ock:
+                          ".type": CQuestStoryPhaseSetterBlock
+                          comment: "despawn tax collector"
+                          guid: dd63b540-5594-4f83-bd68-dd090ac9abd0
+                          cachedConnections:  #array:2,0,SCachedConnections
+                            - ".type": SCachedConnections
+                              socketId: Out
+                              blocks:  #array:2,0,SBlockDesc
+                                - ".type": SBlockDesc
+                                  ock:
+                                    ".type": CQuestScriptBlock
+                                    guid: 40ed203f-5a13-4d21-b302-987b59c92e02
+                                    cachedConnections:  #array:2,0,SCachedConnections
+                                      - ".type": SCachedConnections
+                                        socketId: Out
+                                        blocks:  #array:2,0,SBlockDesc
+                                          - ".type": SBlockDesc
+                                            ock:
+                                              ".type": CQuestDeletionMarkerBlock
+                                              guid: 69dac0fa-19cd-4e14-a2cd-4ab8c5e327a2
+                                              cachedConnections:  #array:2,0,SCachedConnections
+                                                - ".type": SCachedConnections
+                                                  socketId: Out
+                                                  blocks:  #array:2,0,SBlockDesc
+                                                    - ".type": SBlockDesc
+                                                      ock:
+                                                        ".type": CJournalQuestBlock
+                                                        guid: 95d92023-93d4-4b18-950e-54897e49a892
+                                                        cachedConnections:  #array:2,0,SCachedConnections
+                                                          - ".type": SCachedConnections
+                                                            socketId: Out
+                                                            blocks:  #array:2,0,SBlockDesc
+                                                              - ".type": SBlockDesc
+                                                                ock:
+                                                                  ".type": CJournalQuestBlock
+                                                                  guid: c1d96887-61dc-4d58-8301-946371087ee8
+                                                                  cachedConnections:  #array:2,0,SCachedConnections
+                                                                    - ".type": SCachedConnections
+                                                                      socketId: Out
+                                                                      blocks:  #array:2,0,SBlockDesc
+                                                                        - ".type": SBlockDesc
+                                                                          ock:
+                                                                            ".type": CQuestCheckpointBlock
+                                                                            guid: 4530b0c6-a551-4a57-899f-b4ccc58f8a17
+                                                                            cachedConnections:  #array:2,0,SCachedConnections
+                                                                              - ".type": SCachedConnections
+                                                                                socketId: Out
+                                                                                blocks:  #array:2,0,SBlockDesc
+                                                                                  - ".type": SBlockDesc
+                                                                                    ock:
+                                                                                      ".type": CQuestPhaseOutputBlock
+                                                                                      guid: 8352f77b-3079-4834-9ed0-8d19923bb7ef
+                                                                                      socketID: Vivaldi
+                                                                                    putName:  
+                                                                          putName: In
+                                                                  questEntry:
+                                                                    ".type": CJournalPath
+                                                                    guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                                                    resource: dlc/ep1/journal/quests/ep1.journal
+                                                                    child:
+                                                                      ".type": CJournalPath
+                                                                      guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                                                      resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                                                      child:
+                                                                        ".type": CJournalPath
+                                                                        guid: b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+                                                                        child:
+                                                                          ".type": CJournalPath
+                                                                          guid: 8226dea7-f425-495d-8409-13ae5ea6d462
+                                                                  showInfoOnScreen: true
+                                                                putName: Activate
+                                                        questEntry:
+                                                          ".type": CJournalPath
+                                                          guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                                          resource: dlc/ep1/journal/quests/ep1.journal
+                                                          child:
+                                                            ".type": CJournalPath
+                                                            guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                                            resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                                            child:
+                                                              ".type": CJournalPath
+                                                              guid: 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+                                                              child:
+                                                                ".type": CJournalPath
+                                                                guid: e24aa720-ff68-46b7-b3f9-4cc75e122d52
+                                                      putName: Activate
+                                              guids:  #array:2,0,CGUID
+                                                - a70e63e4-201c-4eb5-8942-30306ff1369d
+                                            putName: In
+                                    functionName: FadeInQuest
+                                    parameters:  #array:2,0,QuestScriptParam
+                                      - ".type": QuestScriptParam
+                                        name: fadeTime
+                                        value: 1
+                                    caption: "Script [FadeInQuest]"
+                                    BufferParameters:  #CCompressedBuffer:CVariant
+                                      fadeTime: 1
+                                  putName: In
+                          spawnsets:  #array:2,0,ptr:IQuestSpawnsetAction
+                            - ".type": CDeactivateSpawnset
+                              spawnset: dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+                        putName: In
+                scene: dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_tax_collector.w2scene
+                shouldFadeOnLoading_NamesCooked:  #array:2,0,CName
+                  - mq6003_tax_collector_in
+                shouldFadeOnLoading_ValuesCooked:  #array:2,0,Bool
+                  - true
+              #"1": (looped reference) CQuestDeletionMarkerBlock #43
+              #"2": (looped reference) CJournalQuestBlock #58
+              #"3": (looped reference) CJournalQuestBlock #59
+              #"4": (looped reference) CQuestScriptBlock #56
+              #"5": (looped reference) CJournalQuestBlock #44
+              #"6": (looped reference) CJournalQuestBlock #45
+              #"7": (looped reference) CQuestStoryPhaseSetterBlock #41
+              #"8": (looped reference) CQuestStoryPhaseSetterBlock #55
+              #"9": (looped reference) CQuestCheckpointBlock #60
+              #"10": (looped reference) CQuestPhaseOutputBlock #61
+              #"11": (looped reference) CJournalQuestBlock #36
+              - ".type": CJournalQuestBlock
+                guid: 14d063fb-8937-4f49-ac96-9320ba807386
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId: Out
+                questEntry:
+                  ".type": CJournalPath
+                  guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                  resource: dlc/ep1/journal/quests/ep1.journal
+                  child:
+                    ".type": CJournalPath
+                    guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                    resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                    child:
+                      ".type": CJournalPath
+                      guid: 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+                      child:
+                        ".type": CJournalPath
+                        guid: 87fc3276-97cd-4afb-a72a-7dc1649258af
+              - ".type": CJournalQuestBlock
+                guid: 0c554f15-0820-4c66-8f46-c2b26f1f6f85
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId: Out
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CJournalQuestBlock #71
+                        putName: Activate
+                questEntry:
+                  ".type": CJournalPath
+                  guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                  resource: dlc/ep1/journal/quests/ep1.journal
+                  child:
+                    ".type": CJournalPath
+                    guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                    resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                    child:
+                      ".type": CJournalPath
+                      guid: b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+                      child:
+                        ".type": CJournalPath
+                        guid: 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
+              #"14": (looped reference) CQuestPhaseOutputBlock #47
+              - ".type": CQuestPauseConditionBlock
+                comment: "mq6003_trigger_tax_collector"
+                guid: 92cb21ee-8a42-4021-87e7-705368e2a658
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CJournalQuestBlock #76
+                        putName: Activate
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CQuestSceneBlock #35
+                        putName: mq6003_tax_collector_in
+                conditions:  #array:2,0,ptr:IQuestCondition
+                  - ".type": CQuestEnterTriggerCondition
+                    triggerTag: mq6003_trigger_tax_collector
+              - ".type": CQuestPhaseInputBlock
+                guid: 8611fe59-d833-423c-a664-55e8e84bb438
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId:  
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CQuestPauseConditionBlock #81
+                        putName: In
+              #"17": (looped reference) CQuestCheckpointBlock #46
+              #"18": (looped reference) CQuestScriptBlock #42
+              #"19": (looped reference) CQuestDeletionMarkerBlock #57
+            sourceDataRemoved: true
+        #"1": (looped reference) CQuestPhaseBlock #13
+        #"2": (looped reference) CQuestPhaseBlock #3
+        - ".type": CQuestPhaseBlock
+          name: "Setup"
+          guid: 3487c111-0560-44b7-9d71-5791cd34c474
+          cachedConnections:  #array:2,0,SCachedConnections
+            - ".type": SCachedConnections
+              socketId: Out
+              blocks:  #array:2,0,SBlockDesc
+                - ".type": SBlockDesc
+                  #ock: (looped reference) CQuestPhaseBlock #2
+                  putName: In
+          embeddedGraph:
+            ".type": CQuestGraph
+            graphBlocks:  #array:2,0,ptr:CGraphBlock
+              - ".type": CQuestStoryPhaseSetterBlock
+                comment: "spawn tax collector"
+                guid: d5db4b39-58c6-4370-aa32-4f17f8590235
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId: Out
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        ock:
+                          ".type": CQuestPhaseOutputBlock
+                          guid: 51ebe999-2ea2-4176-a0ae-370fb1748018
+                        putName:  
+                spawnsets:  #array:2,0,ptr:IQuestSpawnsetAction
+                  - ".type": CActivateStoryPhase
+                    spawnset: dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+                    phase: start
+              #"1": (looped reference) CQuestPhaseOutputBlock #87
+              - ".type": CQuestPhaseInputBlock
+                guid: ff15f856-e349-4591-95c6-ab70887e8af5
+                cachedConnections:  #array:2,0,SCachedConnections
+                  - ".type": SCachedConnections
+                    socketId:  
+                    blocks:  #array:2,0,SBlockDesc
+                      - ".type": SBlockDesc
+                        #ock: (looped reference) CQuestStoryPhaseSetterBlock #86
+                        putName: In
+            sourceDataRemoved: true
+        - ".type": CQuestPauseConditionBlock
+          comment: "player has less than 35000"
+          guid: 649523bc-6160-4a57-84b3-37ae2a86c5d6
+          cachedConnections:  #array:2,0,SCachedConnections
+            - ".type": SCachedConnections
+              blocks:  #array:2,0,SBlockDesc
+                - ".type": SBlockDesc
+                  ock:
+                    ".type": CQuestCutControlBlock
+                    guid: d7d553b8-a9bd-46ae-8efb-2757c8e8bbcb
+                    cachedConnections:  #array:2,0,SCachedConnections
+                      - ".type": SCachedConnections
+                        socketId: Out
+                      - ".type": SCachedConnections
+                        socketId: Thunder
+                        blocks:  #array:2,0,SBlockDesc
+                          - ".type": SBlockDesc
+                            #ock: (looped reference) CQuestPhaseBlock #2
+                            putName: Cut
+                    permanent: false
+                  putName: In
+                - ".type": SBlockDesc
+                  ock:
+                    ".type": CQuestPauseConditionBlock
+                    comment: "quest only appears if the player has 35000+ gold"
+                    guid: a74c7d69-7166-4f69-b287-c241aab04fab
+                    cachedConnections:  #array:2,0,SCachedConnections
+                      - ".type": SCachedConnections
+                        blocks:  #array:2,0,SBlockDesc
+                          - ".type": SBlockDesc
+                            #ock: (looped reference) CQuestPhaseBlock #84
+                            putName: In
+                          - ".type": SBlockDesc
+                            #ock: (looped reference) CQuestPauseConditionBlock #90
+                            putName: In
+                    conditions:  #array:2,0,ptr:IQuestCondition
+                      - ".type": CQuestActorCondition
+                        actorTag: PLAYER
+                        checkType:
+                          ".type": CQCItemQuantity
+                          item: Crowns
+                          quantity: 10000
+                  putName: In
+          conditions:  #array:2,0,ptr:IQuestCondition
+            - ".type": CQuestActorCondition
+              actorTag: PLAYER
+              checkType:
+                ".type": CQCItemQuantity
+                item: Crowns
+                quantity: 10000
+                compareFunc: CF_Less
+        #"5": (looped reference) CQuestPauseConditionBlock #92
+        #"6": (looped reference) CQuestCutControlBlock #91
+        - ".type": CQuestPhaseInputBlock
+          guid: 274f9774-57ed-4622-8edd-4ff153f5c4a5
+          cachedConnections:  #array:2,0,SCachedConnections
+            - ".type": SCachedConnections
+              socketId:  
+              blocks:  #array:2,0,SBlockDesc
+                - ".type": SBlockDesc
+                  #ock: (looped reference) CQuestPauseConditionBlock #92
+                  putName: In
+        #"8": (looped reference) CQuestPhaseOutputBlock #4
+      sourceDataRemoved: true

@@ -1,0 +1,77 @@
+templates:
+  sq204ancientleszen.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+      baseName: "sq204 Ancient Leszen"
+      order: 4293918718
+      uniqueScriptIdentifier: sq204 Ancient Leszen 920DD44F-4640510C-A48A8EAB-F8003E1D
+      parentGuid: 5919978f-5689-428a-be0e-f2fee6d80cdb
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: 02bc8a0f-37c0-4875-b876-210bff927835
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions 02BC8A0F-487537C0-0B2176B8-357892FF
+          parentGuid: 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 1f82b5a2-1904-481e-8ca6-13a9ce2eb5e5
+              baseName: "Ancient Leszen Precombat"
+              order: 2147483647
+              uniqueScriptIdentifier: Ancient Leszen Precombat 1F82B5A2-481E1904-A913A68C-E5B52ECE
+              parentGuid: 02bc8a0f-37c0-4875-b876-210bff927835
+              description: it was vulnerable to fire, that born of the Igni Sign in particular.
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: bf8c16d6-bd64-4a02-9a3c-6a8f689db24e
+              baseName: "Ancient Leszen Final killed"
+              order: 3221225470
+              uniqueScriptIdentifier: Ancient Leszen Final killed BF8C16D6-4A02BD64-8F6A3C9A-4EB29D68
+              parentGuid: 02bc8a0f-37c0-4875-b876-210bff927835
+              index: 1
+              description: <br>The witcher managed to kill the leshen, ending the murders terrorizing the woods around Fayrlund. Yet this did not mean the villagers' troubles were over…
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 8e373fd2-c97f-440a-af82-9280e3f29001
+              baseName: "Ancient Leszen Final Appeased"
+              order: 3758096382
+              uniqueScriptIdentifier: Ancient Leszen Final Appeased 8E373FD2-440AC97F-809282AF-0190F2E3
+              parentGuid: 02bc8a0f-37c0-4875-b876-210bff927835
+              index: 2
+              description: <br>In the end, however, there never was a battle between Geralt and the Woodland Spirit. Geralt knew that the leshen was surely less benevolent than the elders thought - but he also knew killing it would do more harm than good.
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: aa4ff692-135a-4844-9030-7f44a85eb434
+              baseName: "Quote"
+              order: 1073741823
+              uniqueScriptIdentifier: Quote AA4FF692-4844135A-447F3090-34B45EA8
+              parentGuid: 02bc8a0f-37c0-4875-b876-210bff927835
+              index: 3
+              description: <i>We've offended him, Sven. The Woodland Spirit seeks revenge. This here is him saying we've strayed from the old paths.</i><br>–Harald of Fayrlund<br>
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: 49a6111a-f9ab-4c07-9230-710a4b90113e
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues 49A6111A-4C07F9AB-0A713092-3E11904B
+          parentGuid: 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: c023fefc-71c1-47e2-b9c2-e7d29e1cb759
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints C023FEFC-47E271C1-D2E7C2B9-59B71C9E
+          parentGuid: 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: efe3a486-5f1a-4b0e-a3a7-c86b6e6eaca7
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots EFE3A486-4B0E5F1A-6BC8A7A3-A7AC6E6E
+          parentGuid: 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+          index: 3
+      name: Woodland Spirit
+      image: "bestiary_leshen.png"
+      entityTemplate: quests/sidequests/skellige/quest_files/sq204_forest_spirit/characters/sq204_leshy.w2ent
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Silver Dust Bomb 1
+        - Relic Oil 1
+        - Igni

@@ -1,0 +1,1022 @@
+tree_heart.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CHeartMiniboss
+tree_heart.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+tree_heart.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+tree_heart.w2ent:                0 (handle:CEntityTemplate) : environment/decorations/magic_items/tree_heart/tree_heart_base.w2ent
+tree_heart.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+tree_heart.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+tree_heart.w2ent:                    componentName (CName) : tree_heart_base
+tree_heart.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    overriddenProperties (array:CName) : # array:CName
+tree_heart.w2ent:                        0 (CName) : movementAdjustor
+tree_heart.w2ent:            properOverrides (Bool) : true
+tree_heart.w2ent:            entityClass (CName) : CHeartMiniboss
+tree_heart.w2ent:            entityObject (ptr:CEntity) : CHeartMiniboss #1
+tree_heart.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+tree_heart.w2ent:                0 (CEntityAppearance) : heart_cut_morph
+tree_heart.w2ent:                    name (CName) : heart_cut_morph
+tree_heart.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+tree_heart.w2ent:                        0 (handle:CEntityTemplate) : environment/decorations/magic_items/tree_heart/tree_heart_morph_02.w2ent
+tree_heart.w2ent:                1 (CEntityAppearance) : heart_dying_morph
+tree_heart.w2ent:                    name (CName) : heart_dying_morph
+tree_heart.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+tree_heart.w2ent:                        0 (handle:CEntityTemplate) : environment/decorations/magic_items/tree_heart/tree_heart_morph_01.w2ent
+tree_heart.w2ent:            usedAppearances (array:CName) : # array:CName
+tree_heart.w2ent:                0 (CName) : heart_dying_morph
+tree_heart.w2ent:                1 (CName) : heart_cut_morph
+tree_heart.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+tree_heart.w2ent:                0 (EntitySlot) : hit_point
+tree_heart.w2ent:                    name (CName) : hit_point
+tree_heart.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+tree_heart.w2ent:                        X (Float) : -0.2000
+tree_heart.w2ent:                        Y (Float) : 0.5000
+tree_heart.w2ent:                        Z (Float) : 1.5000
+tree_heart.w2ent:                1 (EntitySlot) : wood_hit
+tree_heart.w2ent:                    name (CName) : wood_hit
+tree_heart.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+tree_heart.w2ent:                        X (Float) : -0.3000
+tree_heart.w2ent:                        Y (Float) : 1.0500
+tree_heart.w2ent:                        Z (Float) : 1.7000
+tree_heart.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+tree_heart.w2ent:                0 (ptr:CEntityTemplateParam) : CAIProfile #4
+tree_heart.w2ent:                1 (ptr:CEntityTemplateParam) : CCharacterStatsParam #7
+tree_heart.w2ent:                2 (ptr:CEntityTemplateParam) : CMonsterParam #8
+tree_heart.w2ent:                3 (ptr:CEntityTemplateParam) : CBuffImmunityParam #9
+tree_heart.w2ent:                4 (ptr:CEntityTemplateParam) : CCharacterControllerParam #10
+tree_heart.w2ent:                5 (ptr:CEntityTemplateParam) : CAttackableArea #11
+tree_heart.w2ent:                6 (ptr:CEntityTemplateParam) : CAnimGlobalParam #12
+tree_heart.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                CHeartMiniboss #0 (CHeartMiniboss) : PreviewEntity
+tree_heart.w2ent:                    CHeartMiniboss (CHeartMiniboss) : PreviewEntity
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+tree_heart.w2ent:                            Bufferdata (CByteArray) : 3550 bytes, MD5: 0534f2c56b3663bd6f585938e8dfee00
+tree_heart.w2ent:                            CMeshComponent #0 (CMeshComponent) : fifth_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : fifth_root
+tree_heart.w2ent:                                    guid (CGUID) : f67fa672-ab44-4512-aa42-d028d1493a68
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "fifth_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 43
+tree_heart.w2ent:                                    graphPositionY (Int16) : 178
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -3.2537
+tree_heart.w2ent:                                            Y (Float) : 0.3000
+tree_heart.w2ent:                                            Z (Float) : -0.1911
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : -2.7111
+tree_heart.w2ent:                                            Y (Float) : 0.8250
+tree_heart.w2ent:                                            Z (Float) : 4.6833
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/fifth_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CMeshComponent #1 (CMeshComponent) : first_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : first_root
+tree_heart.w2ent:                                    guid (CGUID) : 8335de80-93a5-4bdf-9f50-78dc5473eda1
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "first_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 48
+tree_heart.w2ent:                                    graphPositionY (Int16) : 18
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -3.6570
+tree_heart.w2ent:                                            Y (Float) : -1.5027
+tree_heart.w2ent:                                            Z (Float) : 0.0345
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : -2.0774
+tree_heart.w2ent:                                            Y (Float) : 2.9155
+tree_heart.w2ent:                                            Z (Float) : 4.7009
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/first_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CMeshComponent #2 (CMeshComponent) : fourth_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : fourth_root
+tree_heart.w2ent:                                    guid (CGUID) : 17f214d9-5aa5-46e1-acc9-08870536e03e
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "fourth_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 47
+tree_heart.w2ent:                                    graphPositionY (Int16) : 138
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -0.0514
+tree_heart.w2ent:                                            Y (Float) : 1.4771
+tree_heart.w2ent:                                            Z (Float) : -0.1911
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : 0.4912
+tree_heart.w2ent:                                            Y (Float) : 2.0021
+tree_heart.w2ent:                                            Z (Float) : 4.6833
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/fourth_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CMeshComponent #3 (CMeshComponent) : second_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : second_root
+tree_heart.w2ent:                                    guid (CGUID) : d0b90334-6151-405a-b06e-038700243265
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "second_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 50
+tree_heart.w2ent:                                    graphPositionY (Int16) : 59
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -0.8957
+tree_heart.w2ent:                                            Y (Float) : 1.5591
+tree_heart.w2ent:                                            Z (Float) : -0.1911
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : -0.3531
+tree_heart.w2ent:                                            Y (Float) : 2.0840
+tree_heart.w2ent:                                            Z (Float) : 4.6833
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/second_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CMeshComponent #4 (CMeshComponent) : sixth_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : sixth_root
+tree_heart.w2ent:                                    guid (CGUID) : 51d5ba9a-66b9-46d5-a027-aefce57b337c
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "sixth_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 43
+tree_heart.w2ent:                                    graphPositionY (Int16) : 218
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -1.8154
+tree_heart.w2ent:                                            Y (Float) : 1.4000
+tree_heart.w2ent:                                            Z (Float) : -0.1911
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : -1.2728
+tree_heart.w2ent:                                            Y (Float) : 1.9249
+tree_heart.w2ent:                                            Z (Float) : 4.6833
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/sixth_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CMeshComponent #5 (CMeshComponent) : third_root
+tree_heart.w2ent:                                CMeshComponent (CMeshComponent) : third_root
+tree_heart.w2ent:                                    guid (CGUID) : a0b57bf6-1ed6-4b1c-a6fa-9cafeaa79682
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "third_root"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 47
+tree_heart.w2ent:                                    graphPositionY (Int16) : 99
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -0.5174
+tree_heart.w2ent:                                            Y (Float) : -0.4534
+tree_heart.w2ent:                                            Z (Float) : -0.2691
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : 2.6187
+tree_heart.w2ent:                                            Y (Float) : 3.4028
+tree_heart.w2ent:                                            Z (Float) : 4.2955
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/third_root.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CStaticMeshComponent #6 (CStaticMeshComponent) : tree_heart_roots
+tree_heart.w2ent:                                CStaticMeshComponent (CStaticMeshComponent) : tree_heart_roots
+tree_heart.w2ent:                                    guid (CGUID) : d6c21d67-f010-4cc7-a7b9-3392ae1bd1cf
+tree_heart.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                    name (String) : "tree_heart_roots"
+tree_heart.w2ent:                                    graphPositionX (Int16) : 498
+tree_heart.w2ent:                                    graphPositionY (Int16) : 28
+tree_heart.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                                        Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                            X (Float) : -6.4143
+tree_heart.w2ent:                                            Y (Float) : -4.9496
+tree_heart.w2ent:                                            Z (Float) : -0.3356
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                        Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                            X (Float) : 6.3081
+tree_heart.w2ent:                                            Y (Float) : 2.5722
+tree_heart.w2ent:                                            Z (Float) : 6.4875
+tree_heart.w2ent:                                            W (Float) : 1.0000
+tree_heart.w2ent:                                    mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/tree_heart_roots.w2mesh
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                            CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent
+tree_heart.w2ent:                                guid (CGUID) : 7e18bd74-28c3-4647-93cb-3a12bc031694
+tree_heart.w2ent:                                AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                                name (String) : "CSoundEmitterComponent"
+tree_heart.w2ent:                                graphPositionX (Int16) : 238
+tree_heart.w2ent:                                graphPositionY (Int16) : -60
+tree_heart.w2ent:                                banksDependency (array:CName) : # array:CName
+tree_heart.w2ent:                                    0 (CName) : monster_tree_heart.bnk
+tree_heart.w2ent:                                maxDistance (Float) : 40.0000
+tree_heart.w2ent:                                occlusionEnabled (Bool) : false
+tree_heart.w2ent:                                unknownBytes (CBytes) : 64 bytes, MD5: d19e26c7f20d3969704ae6be6e44e048
+tree_heart.w2ent:                        streamingDistance (Uint8) : 13
+tree_heart.w2ent:                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+tree_heart.w2ent:                        name (String) : "PreviewEntity"
+tree_heart.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+tree_heart.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
+tree_heart.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+tree_heart.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+tree_heart.w2ent:                            0 (SEntityBufferType1) : 
+tree_heart.w2ent:                                ComponentName (CName) : 
+tree_heart.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+tree_heart.w2ent:                        idTag (IdTag) :  52d8a4d0-41db-4b6a-aa58-6dac89e73337
+tree_heart.w2ent:                        displayName (LocalizedString) : Tree's Heart
+tree_heart.w2ent:                        level (Int32) : 6
+tree_heart.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : Appearance
+tree_heart.w2ent:                    CAppearanceComponent (CAppearanceComponent) : Appearance
+tree_heart.w2ent:                        guid (CGUID) : 5a52c0e7-c4a8-4ddb-89e7-65539440b65e
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "Appearance"
+tree_heart.w2ent:                        graphPositionX (Int16) : 172
+tree_heart.w2ent:                        graphPositionY (Int16) : 268
+tree_heart.w2ent:                        forcedAppearance (CName) : heart_cut_morph
+tree_heart.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+tree_heart.w2ent:                            0 (SAppearanceAttachments) : heart_cut_morph
+tree_heart.w2ent:                                appearance (CName) : heart_cut_morph
+tree_heart.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+tree_heart.w2ent:                                    0 (SAppearanceAttachment) : tree_heart_morph_02
+tree_heart.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                                        parentName (CName) : tree_heart_base
+tree_heart.w2ent:                                        childClass (CName) : CMorphedMeshComponent
+tree_heart.w2ent:                                        childName (CName) : tree_heart_morph_02
+tree_heart.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+tree_heart.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+tree_heart.w2ent:                CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : tree_heart_base
+tree_heart.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : tree_heart_base
+tree_heart.w2ent:                        guid (CGUID) : 50af4114-e2ca-4c30-afda-df8146f24df2
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "tree_heart_base"
+tree_heart.w2ent:                        graphPositionX (Int16) : 260
+tree_heart.w2ent:                        graphPositionY (Int16) : 59
+tree_heart.w2ent:                        ragdollCollisionType (CPhysicalCollision) : <CPhysicalCollision>ragdollCollisionType
+tree_heart.w2ent:                            Unk1 (Uint32) : 2
+tree_heart.w2ent:                            Collisiontypes (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+tree_heart.w2ent:                                0 (CName) : Static
+tree_heart.w2ent:                            Data (CBytes) : 16 bytes, MD5: bb68b7c820e5bbb236cb22b7d678ef52
+tree_heart.w2ent:                        skeleton (handle:CSkeleton) : environment/decorations/magic_items/tree_heart/tree_heart_base.w2rig
+tree_heart.w2ent:                        animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+tree_heart.w2ent:                            0 (handle:CSkeletalAnimationSet) : animations/environment/tree_heart.w2anims
+tree_heart.w2ent:                        behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+tree_heart.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Combat
+tree_heart.w2ent:                                instanceName (CName) : Combat
+tree_heart.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/heart_miniboss.w2beh
+tree_heart.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+tree_heart.w2ent:                                instanceName (CName) : Cutscene
+tree_heart.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+tree_heart.w2ent:                        useExtractedMotion (Bool) : false
+tree_heart.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+tree_heart.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Combat
+tree_heart.w2ent:                                instanceName (CName) : Combat
+tree_heart.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/heart_miniboss.w2beh
+tree_heart.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+tree_heart.w2ent:                                instanceName (CName) : Cutscene
+tree_heart.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+tree_heart.w2ent:                        snapToNavigableSpace (Bool) : false
+tree_heart.w2ent:            streamedAttachments (array:SStreamedAttachment) : # array:SStreamedAttachment
+tree_heart.w2ent:                0 (SStreamedAttachment) : fifth_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : fifth_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:                1 (SStreamedAttachment) : first_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : first_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:                2 (SStreamedAttachment) : fourth_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : fourth_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:                3 (SStreamedAttachment) : second_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : second_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:                4 (SStreamedAttachment) : sixth_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : sixth_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:                5 (SStreamedAttachment) : third_root
+tree_heart.w2ent:                    parentName (CName) : tree_heart_base
+tree_heart.w2ent:                    parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                    childName (CName) : third_root
+tree_heart.w2ent:                    childClass (CName) : CMeshComponent
+tree_heart.w2ent:                    data (array:Uint8) : # array:Uint8
+tree_heart.w2ent:                        CMeshSkinningAttachment #0 (CMeshSkinningAttachment) : 
+tree_heart.w2ent:                            CMeshSkinningAttachment (CMeshSkinningAttachment) : <CMeshSkinningAttachment>CMeshSkinningAttachment
+tree_heart.w2ent:                                parent (ptr:CNode) : NULL
+tree_heart.w2ent:                                child (ptr:CNode) : NULL
+tree_heart.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+tree_heart.w2ent:                0 (CEntityTemplateCookedEffect) : heart_hit
+tree_heart.w2ent:                    name (CName) : heart_hit
+tree_heart.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+tree_heart.w2ent:                        Bufferdata (CByteArray) : 2041 bytes, MD5: 78da515c4a7e1e59ee76e34a740c9c24
+tree_heart.w2ent:                        CFXDefinition #0 (CFXDefinition) : heart_hit
+tree_heart.w2ent:                            CFXDefinition (CFXDefinition) : heart_hit
+tree_heart.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+tree_heart.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+tree_heart.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+tree_heart.w2ent:                                length (Float) : 3.6928
+tree_heart.w2ent:                                loopStart (Float) : 0.1955
+tree_heart.w2ent:                                name (CName) : heart_hit
+tree_heart.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sound
+tree_heart.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
+tree_heart.w2ent:                                name (String) : "sound"
+tree_heart.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+tree_heart.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+tree_heart.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #4
+tree_heart.w2ent:                                isExpanded (Bool) : true
+tree_heart.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+tree_heart.w2ent:                                    Red (Uint8) : 154
+tree_heart.w2ent:                                    Green (Uint8) : 185
+tree_heart.w2ent:                                    Blue (Uint8) : 235
+tree_heart.w2ent:                                    Alpha (Uint8) : 100
+tree_heart.w2ent:                        CFXTrack #2 (CFXTrack) : sword_hit
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : sword_hit
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+tree_heart.w2ent:                                name (String) : "sword_hit"
+tree_heart.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+tree_heart.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+tree_heart.w2ent:                                timeBegin (Float) : 0.0127
+tree_heart.w2ent:                                buffername (CName) : 
+tree_heart.w2ent:                                count (CDynamicInt) : 0
+tree_heart.w2ent:                                unk (Uint8) : 0
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+tree_heart.w2ent:                                soundEventName (StringAnsi) : cmb_play_hit_light
+tree_heart.w2ent:                                maxDistance (Float) : 30.0000
+tree_heart.w2ent:                        CFXTrack #4 (CFXTrack) : blood_squirt
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : blood_squirt
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+tree_heart.w2ent:                                name (String) : "blood_squirt"
+tree_heart.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+tree_heart.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+tree_heart.w2ent:                                timeBegin (Float) : 0.0176
+tree_heart.w2ent:                                buffername (CName) : 
+tree_heart.w2ent:                                count (CDynamicInt) : 0
+tree_heart.w2ent:                                unk (Uint8) : 0
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+tree_heart.w2ent:                                soundEventName (StringAnsi) : cmb_play_dismemberment_gore
+tree_heart.w2ent:                                maxDistance (Float) : 30.0000
+tree_heart.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+tree_heart.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+tree_heart.w2ent:                                name (String) : "fx"
+tree_heart.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+tree_heart.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
+tree_heart.w2ent:                                isEnabled (Bool) : true
+tree_heart.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+tree_heart.w2ent:                                    Red (Uint8) : 161
+tree_heart.w2ent:                                    Green (Uint8) : 206
+tree_heart.w2ent:                                    Blue (Uint8) : 181
+tree_heart.w2ent:                                    Alpha (Uint8) : 100
+tree_heart.w2ent:                        CFXTrack #7 (CFXTrack) : asd
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : asd
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+tree_heart.w2ent:                                name (String) : "asd"
+tree_heart.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+tree_heart.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+tree_heart.w2ent:                                timeBegin (Float) : 0.0543
+tree_heart.w2ent:                                timeDuration (Float) : 2.9108
+tree_heart.w2ent:                                buffername (CName) : Particles
+tree_heart.w2ent:                                count (CDynamicInt) : 3
+tree_heart.w2ent:                                unk (Uint8) : 1
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+tree_heart.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/heart_tree/tree_blood_hit.w2p
+tree_heart.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+tree_heart.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : hit_point
+tree_heart.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+tree_heart.w2ent:                                componentName (CName) : hit_point
+tree_heart.w2ent:                1 (CEntityTemplateCookedEffect) : wood_hit
+tree_heart.w2ent:                    name (CName) : wood_hit
+tree_heart.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+tree_heart.w2ent:                        Bufferdata (CByteArray) : 2008 bytes, MD5: 21b6000890130d338694c756756407c2
+tree_heart.w2ent:                        CFXDefinition #0 (CFXDefinition) : wood_hit
+tree_heart.w2ent:                            CFXDefinition (CFXDefinition) : wood_hit
+tree_heart.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+tree_heart.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+tree_heart.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+tree_heart.w2ent:                                length (Float) : 3.6928
+tree_heart.w2ent:                                loopStart (Float) : 0.1955
+tree_heart.w2ent:                                name (CName) : wood_hit
+tree_heart.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sound
+tree_heart.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
+tree_heart.w2ent:                                name (String) : "sound"
+tree_heart.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+tree_heart.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+tree_heart.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #4
+tree_heart.w2ent:                                isExpanded (Bool) : true
+tree_heart.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+tree_heart.w2ent:                                    Red (Uint8) : 165
+tree_heart.w2ent:                                    Green (Uint8) : 142
+tree_heart.w2ent:                                    Blue (Uint8) : 195
+tree_heart.w2ent:                                    Alpha (Uint8) : 100
+tree_heart.w2ent:                        CFXTrack #2 (CFXTrack) : sword_hit
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : sword_hit
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+tree_heart.w2ent:                                name (String) : "sword_hit"
+tree_heart.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+tree_heart.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+tree_heart.w2ent:                                timeBegin (Float) : 0.0078
+tree_heart.w2ent:                                buffername (CName) : 
+tree_heart.w2ent:                                count (CDynamicInt) : 0
+tree_heart.w2ent:                                unk (Uint8) : 0
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+tree_heart.w2ent:                                soundEventName (StringAnsi) : cmb_test_heavy
+tree_heart.w2ent:                                maxDistance (Float) : 30.0000
+tree_heart.w2ent:                        CFXTrack #4 (CFXTrack) : wood_hit
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : wood_hit
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+tree_heart.w2ent:                                name (String) : "wood_hit"
+tree_heart.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+tree_heart.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+tree_heart.w2ent:                                timeBegin (Float) : 0.0242
+tree_heart.w2ent:                                buffername (CName) : 
+tree_heart.w2ent:                                count (CDynamicInt) : 0
+tree_heart.w2ent:                                unk (Uint8) : 0
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+tree_heart.w2ent:                                soundEventName (StringAnsi) : monster_tree_heart_roots_sword_impact
+tree_heart.w2ent:                                maxDistance (Float) : 30.0000
+tree_heart.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+tree_heart.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+tree_heart.w2ent:                                name (String) : "fx"
+tree_heart.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+tree_heart.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
+tree_heart.w2ent:                                isExpanded (Bool) : true
+tree_heart.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+tree_heart.w2ent:                                    Red (Uint8) : 161
+tree_heart.w2ent:                                    Green (Uint8) : 206
+tree_heart.w2ent:                                    Blue (Uint8) : 181
+tree_heart.w2ent:                                    Alpha (Uint8) : 100
+tree_heart.w2ent:                        CFXTrack #7 (CFXTrack) : asd
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : asd
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+tree_heart.w2ent:                                name (String) : "asd"
+tree_heart.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+tree_heart.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+tree_heart.w2ent:                                timeBegin (Float) : 0.0543
+tree_heart.w2ent:                                timeDuration (Float) : 2.9108
+tree_heart.w2ent:                                buffername (CName) : Particles
+tree_heart.w2ent:                                count (CDynamicInt) : 3
+tree_heart.w2ent:                                unk (Uint8) : 1
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+tree_heart.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/heart_tree/tree_heart_block.w2p
+tree_heart.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+tree_heart.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : wood_hit
+tree_heart.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+tree_heart.w2ent:                                componentName (CName) : wood_hit
+tree_heart.w2ent:                2 (CEntityTemplateCookedEffect) : heart_shield
+tree_heart.w2ent:                    name (CName) : heart_shield
+tree_heart.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+tree_heart.w2ent:                        Bufferdata (CByteArray) : 2024 bytes, MD5: 8e573cb73a4959284b507f9166a2f931
+tree_heart.w2ent:                        CFXDefinition #0 (CFXDefinition) : heart_shield
+tree_heart.w2ent:                            CFXDefinition (CFXDefinition) : heart_shield
+tree_heart.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+tree_heart.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+tree_heart.w2ent:                                length (Float) : 4.8549
+tree_heart.w2ent:                                loopStart (Float) : 0.1657
+tree_heart.w2ent:                                loopEnd (Float) : 0.4696
+tree_heart.w2ent:                                name (CName) : heart_shield
+tree_heart.w2ent:                                showDistance (Float) : 100.0000
+tree_heart.w2ent:                                isLooped (Bool) : true
+tree_heart.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fx
+tree_heart.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+tree_heart.w2ent:                                name (String) : "fx"
+tree_heart.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+tree_heart.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+tree_heart.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #5
+tree_heart.w2ent:                                isExpanded (Bool) : true
+tree_heart.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+tree_heart.w2ent:                                    Red (Uint8) : 254
+tree_heart.w2ent:                                    Green (Uint8) : 130
+tree_heart.w2ent:                                    Blue (Uint8) : 209
+tree_heart.w2ent:                                    Alpha (Uint8) : 100
+tree_heart.w2ent:                        CFXTrack #2 (CFXTrack) : break
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : break
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+tree_heart.w2ent:                                name (String) : "break"
+tree_heart.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+tree_heart.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+tree_heart.w2ent:                                timeBegin (Float) : 1.1668
+tree_heart.w2ent:                                timeDuration (Float) : 3.0000
+tree_heart.w2ent:                                buffername (CName) : Particles
+tree_heart.w2ent:                                count (CDynamicInt) : 3
+tree_heart.w2ent:                                unk (Uint8) : 1
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+tree_heart.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                particleSystem (soft:CParticleSystem) : fx/quest/q105/tree_heart_shield_break.w2p
+tree_heart.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+tree_heart.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : tree_heart_base
+tree_heart.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+tree_heart.w2ent:                                componentName (CName) : tree_heart_base
+tree_heart.w2ent:                        CFXTrack #5 (CFXTrack) : shield
+tree_heart.w2ent:                            CFXTrack (CFXTrack) : shield
+tree_heart.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+tree_heart.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+tree_heart.w2ent:                                name (String) : "shield"
+tree_heart.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+tree_heart.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+tree_heart.w2ent:                                timeDuration (Float) : 5.0000
+tree_heart.w2ent:                                buffername (CName) : Particles
+tree_heart.w2ent:                                count (CDynamicInt) : 3
+tree_heart.w2ent:                                unk (Uint8) : 1
+tree_heart.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1
+tree_heart.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 0.3156
+tree_heart.w2ent:                                        3 (Float) : 0.0000
+tree_heart.w2ent:                                        4 (Float) : 0.0000
+tree_heart.w2ent:                                        5 (Float) : 0.0000
+tree_heart.w2ent:                                        6 (Float) : 0.0000
+tree_heart.w2ent:                                        7 (Float) : 0.0000
+tree_heart.w2ent:                                        8 (Float) : 0.0000
+tree_heart.w2ent:                                        9 (Float) : 0.0000
+tree_heart.w2ent:                                        10 (Float) : 0.0000
+tree_heart.w2ent:                                        11 (Float) : 0.0000
+tree_heart.w2ent:                                        12 (Float) : 0.0000
+tree_heart.w2ent:                                        13 (Float) : 0.0000
+tree_heart.w2ent:                                        14 (Float) : 0.0000
+tree_heart.w2ent:                                        15 (Float) : 0.0000
+tree_heart.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+tree_heart.w2ent:                                        0 (Float) : 1.0000
+tree_heart.w2ent:                                        2 (Float) : 1.0000
+tree_heart.w2ent:                                        3 (Float) : 1.0000
+tree_heart.w2ent:                                        4 (Float) : 1.0000
+tree_heart.w2ent:                                        5 (Float) : 1.0000
+tree_heart.w2ent:                                        6 (Float) : 1.0000
+tree_heart.w2ent:                                        7 (Float) : 1.0000
+tree_heart.w2ent:                                        8 (Float) : 1.0000
+tree_heart.w2ent:                                        9 (Float) : 1.0000
+tree_heart.w2ent:                                        10 (Float) : 1.0000
+tree_heart.w2ent:                                        11 (Float) : 1.0000
+tree_heart.w2ent:                                        12 (Float) : 1.0000
+tree_heart.w2ent:                                        13 (Float) : 1.0000
+tree_heart.w2ent:                                        14 (Float) : 1.0000
+tree_heart.w2ent:                                        15 (Float) : 1.0000
+tree_heart.w2ent:                                particleSystem (soft:CParticleSystem) : fx/quest/q105/tree_heart_shield.w2p
+tree_heart.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+tree_heart.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : tree_heart_base
+tree_heart.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+tree_heart.w2ent:                                componentName (CName) : tree_heart_base
+tree_heart.w2ent:            cookedEffectsVersion (Uint32) : 1
+tree_heart.w2ent:            Unk1 (Uint32) : 0
+tree_heart.w2ent:    CHeartMiniboss #1 (CHeartMiniboss) : 
+tree_heart.w2ent:        CHeartMiniboss (CHeartMiniboss) : 
+tree_heart.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+tree_heart.w2ent:                Bufferdata (CByteArray) : 3038 bytes, MD5: a9c489485ffc3f3f655899446329b48b
+tree_heart.w2ent:                CMeshComponent #0 (CMeshComponent) : fifth_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : fifth_root
+tree_heart.w2ent:                        guid (CGUID) : f67fa672-ab44-4512-aa42-d028d1493a68
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "fifth_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 43
+tree_heart.w2ent:                        graphPositionY (Int16) : 178
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -3.2537
+tree_heart.w2ent:                                Y (Float) : 0.3000
+tree_heart.w2ent:                                Z (Float) : -0.1911
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : -2.7111
+tree_heart.w2ent:                                Y (Float) : 0.8250
+tree_heart.w2ent:                                Z (Float) : 4.6833
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/fifth_root.w2mesh
+tree_heart.w2ent:                CMeshComponent #1 (CMeshComponent) : first_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : first_root
+tree_heart.w2ent:                        guid (CGUID) : 8335de80-93a5-4bdf-9f50-78dc5473eda1
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "first_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 48
+tree_heart.w2ent:                        graphPositionY (Int16) : 18
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -3.6570
+tree_heart.w2ent:                                Y (Float) : -1.5027
+tree_heart.w2ent:                                Z (Float) : 0.0345
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : -2.0774
+tree_heart.w2ent:                                Y (Float) : 2.9155
+tree_heart.w2ent:                                Z (Float) : 4.7009
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/first_root.w2mesh
+tree_heart.w2ent:                CMeshComponent #2 (CMeshComponent) : fourth_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : fourth_root
+tree_heart.w2ent:                        guid (CGUID) : 17f214d9-5aa5-46e1-acc9-08870536e03e
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "fourth_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 47
+tree_heart.w2ent:                        graphPositionY (Int16) : 138
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -0.0514
+tree_heart.w2ent:                                Y (Float) : 1.4771
+tree_heart.w2ent:                                Z (Float) : -0.1911
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : 0.4912
+tree_heart.w2ent:                                Y (Float) : 2.0021
+tree_heart.w2ent:                                Z (Float) : 4.6833
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/fourth_root.w2mesh
+tree_heart.w2ent:                CMeshComponent #3 (CMeshComponent) : second_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : second_root
+tree_heart.w2ent:                        guid (CGUID) : d0b90334-6151-405a-b06e-038700243265
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "second_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 50
+tree_heart.w2ent:                        graphPositionY (Int16) : 59
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -0.8957
+tree_heart.w2ent:                                Y (Float) : 1.5591
+tree_heart.w2ent:                                Z (Float) : -0.1911
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : -0.3531
+tree_heart.w2ent:                                Y (Float) : 2.0840
+tree_heart.w2ent:                                Z (Float) : 4.6833
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/second_root.w2mesh
+tree_heart.w2ent:                CMeshComponent #4 (CMeshComponent) : sixth_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : sixth_root
+tree_heart.w2ent:                        guid (CGUID) : 51d5ba9a-66b9-46d5-a027-aefce57b337c
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "sixth_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 43
+tree_heart.w2ent:                        graphPositionY (Int16) : 218
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -1.8154
+tree_heart.w2ent:                                Y (Float) : 1.4000
+tree_heart.w2ent:                                Z (Float) : -0.1911
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : -1.2728
+tree_heart.w2ent:                                Y (Float) : 1.9249
+tree_heart.w2ent:                                Z (Float) : 4.6833
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/sixth_root.w2mesh
+tree_heart.w2ent:                CMeshComponent #5 (CMeshComponent) : third_root
+tree_heart.w2ent:                    CMeshComponent (CMeshComponent) : third_root
+tree_heart.w2ent:                        guid (CGUID) : a0b57bf6-1ed6-4b1c-a6fa-9cafeaa79682
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "third_root"
+tree_heart.w2ent:                        graphPositionX (Int16) : 47
+tree_heart.w2ent:                        graphPositionY (Int16) : 99
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -0.5174
+tree_heart.w2ent:                                Y (Float) : -0.4534
+tree_heart.w2ent:                                Z (Float) : -0.2691
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : 2.6187
+tree_heart.w2ent:                                Y (Float) : 3.4028
+tree_heart.w2ent:                                Z (Float) : 4.2955
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/third_root.w2mesh
+tree_heart.w2ent:                CStaticMeshComponent #6 (CStaticMeshComponent) : tree_heart_roots
+tree_heart.w2ent:                    CStaticMeshComponent (CStaticMeshComponent) : tree_heart_roots
+tree_heart.w2ent:                        guid (CGUID) : d6c21d67-f010-4cc7-a7b9-3392ae1bd1cf
+tree_heart.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                        name (String) : "tree_heart_roots"
+tree_heart.w2ent:                        graphPositionX (Int16) : 498
+tree_heart.w2ent:                        graphPositionY (Int16) : 28
+tree_heart.w2ent:                        boundingBox (Box) : <Box>boundingBox
+tree_heart.w2ent:                            Min (Vector) : <Vector>Min
+tree_heart.w2ent:                                X (Float) : -6.4143
+tree_heart.w2ent:                                Y (Float) : -4.9496
+tree_heart.w2ent:                                Z (Float) : -0.3356
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                            Max (Vector) : <Vector>Max
+tree_heart.w2ent:                                X (Float) : 6.3081
+tree_heart.w2ent:                                Y (Float) : 2.5722
+tree_heart.w2ent:                                Z (Float) : 6.4875
+tree_heart.w2ent:                                W (Float) : 1.0000
+tree_heart.w2ent:                        mesh (handle:CMesh) : environment/decorations/magic_items/tree_heart/tree_heart_roots.w2mesh
+tree_heart.w2ent:                CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent
+tree_heart.w2ent:                    guid (CGUID) : 7e18bd74-28c3-4647-93cb-3a12bc031694
+tree_heart.w2ent:                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:                    name (String) : "CSoundEmitterComponent"
+tree_heart.w2ent:                    graphPositionX (Int16) : 238
+tree_heart.w2ent:                    graphPositionY (Int16) : -60
+tree_heart.w2ent:                    banksDependency (array:CName) : # array:CName
+tree_heart.w2ent:                        0 (CName) : monster_tree_heart.bnk
+tree_heart.w2ent:                    maxDistance (Float) : 40.0000
+tree_heart.w2ent:                    occlusionEnabled (Bool) : false
+tree_heart.w2ent:            streamingDistance (Uint8) : 13
+tree_heart.w2ent:            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+tree_heart.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+tree_heart.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
+tree_heart.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #3
+tree_heart.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+tree_heart.w2ent:                0 (SEntityBufferType1) : 
+tree_heart.w2ent:                    ComponentName (CName) : 
+tree_heart.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+tree_heart.w2ent:            idTag (IdTag) :  52d8a4d0-41db-4b6a-aa58-6dac89e73337
+tree_heart.w2ent:            displayName (LocalizedString) : Tree's Heart
+tree_heart.w2ent:            level (Int32) : 6
+tree_heart.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : Appearance
+tree_heart.w2ent:        CAppearanceComponent (CAppearanceComponent) : Appearance
+tree_heart.w2ent:            guid (CGUID) : 5a52c0e7-c4a8-4ddb-89e7-65539440b65e
+tree_heart.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            name (String) : "Appearance"
+tree_heart.w2ent:            forcedAppearance (CName) : heart_cut_morph
+tree_heart.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+tree_heart.w2ent:                0 (SAppearanceAttachments) : heart_cut_morph
+tree_heart.w2ent:                    appearance (CName) : heart_cut_morph
+tree_heart.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+tree_heart.w2ent:                        0 (SAppearanceAttachment) : tree_heart_morph_02
+tree_heart.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+tree_heart.w2ent:                            parentName (CName) : tree_heart_base
+tree_heart.w2ent:                            childClass (CName) : CMorphedMeshComponent
+tree_heart.w2ent:                            childName (CName) : tree_heart_morph_02
+tree_heart.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+tree_heart.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+tree_heart.w2ent:    CMovingPhysicalAgentComponent #3 (CMovingPhysicalAgentComponent) : tree_heart_base
+tree_heart.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : tree_heart_base
+tree_heart.w2ent:            guid (CGUID) : 50af4114-e2ca-4c30-afda-df8146f24df2
+tree_heart.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+tree_heart.w2ent:            name (String) : "tree_heart_base"
+tree_heart.w2ent:            ragdollCollisionType (CPhysicalCollision) : <CPhysicalCollision>ragdollCollisionType
+tree_heart.w2ent:                Unk1 (Uint32) : 2
+tree_heart.w2ent:                Collisiontypes (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+tree_heart.w2ent:                    0 (CName) : Static
+tree_heart.w2ent:                Data (CBytes) : 16 bytes, MD5: bb68b7c820e5bbb236cb22b7d678ef52
+tree_heart.w2ent:            skeleton (handle:CSkeleton) : environment/decorations/magic_items/tree_heart/tree_heart_base.w2rig
+tree_heart.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+tree_heart.w2ent:                0 (handle:CSkeletalAnimationSet) : animations/environment/tree_heart.w2anims
+tree_heart.w2ent:            behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+tree_heart.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
+tree_heart.w2ent:                    instanceName (CName) : Combat
+tree_heart.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/heart_miniboss.w2beh
+tree_heart.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+tree_heart.w2ent:                    instanceName (CName) : Cutscene
+tree_heart.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+tree_heart.w2ent:            useExtractedMotion (Bool) : false
+tree_heart.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+tree_heart.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
+tree_heart.w2ent:                    instanceName (CName) : Combat
+tree_heart.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/heart_miniboss.w2beh
+tree_heart.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+tree_heart.w2ent:                    instanceName (CName) : Cutscene
+tree_heart.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+tree_heart.w2ent:            snapToNavigableSpace (Bool) : false
+tree_heart.w2ent:    CAIProfile #4 (CAIProfile) : q105_evil_spirit
+tree_heart.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+tree_heart.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #5
+tree_heart.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #6
+tree_heart.w2ent:            attitudeGroup (CName) : q105_evil_spirit
+tree_heart.w2ent:    CAISenseParams #5 (CAISenseParams) : 
+tree_heart.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+tree_heart.w2ent:            rangeMax (Float) : 15.0000
+tree_heart.w2ent:            rangeAngle (Float) : 360.0000
+tree_heart.w2ent:            height (Float) : 4.0000
+tree_heart.w2ent:            testLOS (Bool) : false
+tree_heart.w2ent:    CAISenseParams #6 (CAISenseParams) : 
+tree_heart.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+tree_heart.w2ent:            rangeMax (Float) : 15.0000
+tree_heart.w2ent:            rangeAngle (Float) : 360.0000
+tree_heart.w2ent:            height (Float) : 4.0000
+tree_heart.w2ent:            testLOS (Bool) : false
+tree_heart.w2ent:    CCharacterStatsParam #7 (CCharacterStatsParam) : character_stats
+tree_heart.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : character_stats
+tree_heart.w2ent:            name (String) : "character_stats"
+tree_heart.w2ent:            abilities (array:CName) : # array:CName
+tree_heart.w2ent:                0 (CName) : mon_heart_miniboss
+tree_heart.w2ent:    CMonsterParam #8 (CMonsterParam) : monster_params
+tree_heart.w2ent:        CMonsterParam (CMonsterParam) : monster_params
+tree_heart.w2ent:            name (String) : "monster_params"
+tree_heart.w2ent:            monsterCategory (Int32) : 1
+tree_heart.w2ent:    CBuffImmunityParam #9 (CBuffImmunityParam) : immunities
+tree_heart.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : immunities
+tree_heart.w2ent:            name (String) : "immunities"
+tree_heart.w2ent:            immunityTo (array:Int32) : # array:Int32
+tree_heart.w2ent:                0 (Int32) : 17
+tree_heart.w2ent:                1 (Int32) : 19
+tree_heart.w2ent:                2 (Int32) : 18
+tree_heart.w2ent:    CCharacterControllerParam #10 (CCharacterControllerParam) : capsule
+tree_heart.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : capsule
+tree_heart.w2ent:            name (String) : "capsule"
+tree_heart.w2ent:    CAttackableArea #11 (CAttackableArea) : attackable_area
+tree_heart.w2ent:        CAttackableArea (CAttackableArea) : attackable_area
+tree_heart.w2ent:            name (String) : "attackable_area"
+tree_heart.w2ent:            offset (Vector) : <Vector>offset
+tree_heart.w2ent:                X (Float) : -0.7500
+tree_heart.w2ent:                Y (Float) : -0.5000
+tree_heart.w2ent:                Z (Float) : -0.5000
+tree_heart.w2ent:                W (Float) : 0.0000
+tree_heart.w2ent:            radius (Float) : 1.7500
+tree_heart.w2ent:            height (Float) : 3.5000
+tree_heart.w2ent:    CAnimGlobalParam #12 (CAnimGlobalParam) : sfx_tree_heart
+tree_heart.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+tree_heart.w2ent:            sfxTag (CName) : sfx_tree_heart

@@ -1,0 +1,83 @@
+mq7002grottore.journal:    CJournalResource #0 (CJournalResource) : 
+mq7002grottore.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+mq7002grottore.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
+mq7002grottore.journal:    CJournalCreature #1 (CJournalCreature) : mq7002 Grottore
+mq7002grottore.journal:        CJournalCreature (CJournalCreature) : Grottore
+mq7002grottore.journal:            guid (CGUID) : e96773de-d0d5-48d2-a218-409757f61e1e
+mq7002grottore.journal:            baseName (String) : "mq7002 Grottore"
+mq7002grottore.journal:            order (Uint32) : 4261412862
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : mq7002 Grottore E96773DE-48D2D0D5-974018A2-1E1EF657
+mq7002grottore.journal:            parentGuid (CGUID) : 7815517d-faa9-4a09-adce-b918fcd43ef9
+mq7002grottore.journal:            linkedParentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
+mq7002grottore.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+mq7002grottore.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+mq7002grottore.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #6
+mq7002grottore.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #7
+mq7002grottore.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #8
+mq7002grottore.journal:            name (LocalizedString) : Grottore
+mq7002grottore.journal:            image (String) : "bestiary_spriggan_mh.png"
+mq7002grottore.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
+mq7002grottore.journal:                0 (CName) : Silver Dust Bomb 1
+mq7002grottore.journal:                1 (CName) : Relic Oil 1
+mq7002grottore.journal:                2 (CName) : Igni
+mq7002grottore.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+mq7002grottore.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+mq7002grottore.journal:            guid (CGUID) : a088150c-7bee-4985-bf40-fe11b1c4608c
+mq7002grottore.journal:            baseName (String) : "Descriptions"
+mq7002grottore.journal:            order (Uint32) : 2147483647
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Descriptions A088150C-49857BEE-11FE40BF-8C60C4B1
+mq7002grottore.journal:            parentGuid (CGUID) : e96773de-d0d5-48d2-a218-409757f61e1e
+mq7002grottore.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+mq7002grottore.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+mq7002grottore.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+mq7002grottore.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
+mq7002grottore.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Grottore quote
+mq7002grottore.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+mq7002grottore.journal:            guid (CGUID) : bc3c6d02-a42e-4d9f-905c-6bd4f18a5263
+mq7002grottore.journal:            baseName (String) : "Grottore quote"
+mq7002grottore.journal:            order (Uint32) : 2147483647
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Grottore quote BC3C6D02-4D9FA42E-D46B5C90-63528AF1
+mq7002grottore.journal:            parentGuid (CGUID) : a088150c-7bee-4985-bf40-fe11b1c4608c
+mq7002grottore.journal:            description (LocalizedString) : <i>Happened like this… A nasty rain caught me while I was out in the woods, so I thought to myself, “I’ll hide in some hollow, for gods’ forbid I get soaked through and catch a cold at my age. So I crawled into a cave. And there inside, something roars at me! Tore out of there so fast, wind had dried my coat by the time I got home.</i><br>Velis Stail, herbalist<br><br>
+mq7002grottore.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Grottore pre-combat
+mq7002grottore.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+mq7002grottore.journal:            guid (CGUID) : bfb71931-bf05-4fb3-a3b8-03dc859dbbb2
+mq7002grottore.journal:            baseName (String) : "Grottore pre-combat"
+mq7002grottore.journal:            order (Uint32) : 3221225470
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Grottore pre-combat BFB71931-4FB3BF05-DC03B8A3-B2BB9D85
+mq7002grottore.journal:            parentGuid (CGUID) : a088150c-7bee-4985-bf40-fe11b1c4608c
+mq7002grottore.journal:            index (Uint8) : 1
+mq7002grottore.journal:            description (LocalizedString) : No one knows exactly when the spriggan called “Grottore” first made its home in the caves at the foot of Mount Gorgon. Spriggans usually prefer isolated backwoods and rarely make dens in caverns.<br>Yet Grottore seemed to have taken a liking to “grottos,” giving rise to its nickname.<br>The monster was quite well-known among Beauclair knights, who often talked of it as a potential source of great glory. None were particularly eager to actually engage the monster in combat, however – none, that is, except for the young knight François.<br><br>
+mq7002grottore.journal:    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Grottore post-combat
+mq7002grottore.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+mq7002grottore.journal:            guid (CGUID) : 68f81f80-f079-4c96-b847-b1fe8c09e81b
+mq7002grottore.journal:            baseName (String) : "Grottore post-combat"
+mq7002grottore.journal:            order (Uint32) : 3758096382
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Grottore post-combat 68F81F80-4C96F079-FEB147B8-1BE8098C
+mq7002grottore.journal:            parentGuid (CGUID) : a088150c-7bee-4985-bf40-fe11b1c4608c
+mq7002grottore.journal:            index (Uint8) : 2
+mq7002grottore.journal:            description (LocalizedString) : Grottore proved to be a demanding foe. It possessed the ability to teleport, meaning it would appear directly in front of Geralt and mount a surprise attack, dealing strong blows that were impossible to parry. It used primeval magic to control tree roots, which would shoot from the ground on its command, dealing significant damage to any in their way.<br><br>It was resistant to the Aard Sign, but vulnerable to burning. Blows from a silver sword would do it harm, despite the bark-like hide covering it like armor.
+mq7002grottore.journal:    CJournalCreatureHuntingClueGroup #6 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+mq7002grottore.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+mq7002grottore.journal:            guid (CGUID) : a374a0ad-21a1-4869-9c05-d9ef60a3e52a
+mq7002grottore.journal:            baseName (String) : "Hunting Clues"
+mq7002grottore.journal:            order (Uint32) : 3221225470
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Hunting Clues A374A0AD-486921A1-EFD9059C-2AE5A360
+mq7002grottore.journal:            parentGuid (CGUID) : e96773de-d0d5-48d2-a218-409757f61e1e
+mq7002grottore.journal:            index (Uint8) : 1
+mq7002grottore.journal:    CJournalCreatureGameplayHintGroup #7 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+mq7002grottore.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+mq7002grottore.journal:            guid (CGUID) : 52b3dc0e-4f88-4cd3-82e2-eb4e19e5ae5a
+mq7002grottore.journal:            baseName (String) : "Gameplay Hints"
+mq7002grottore.journal:            order (Uint32) : 3758096382
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 52B3DC0E-4CD34F88-4EEBE282-5AAEE519
+mq7002grottore.journal:            parentGuid (CGUID) : e96773de-d0d5-48d2-a218-409757f61e1e
+mq7002grottore.journal:            index (Uint8) : 2
+mq7002grottore.journal:    CJournalCreatureVitalSpotGroup #8 (CJournalCreatureVitalSpotGroup) : Vital spots
+mq7002grottore.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+mq7002grottore.journal:            guid (CGUID) : 243106c4-34a1-4a7d-9ccb-e6677a222a71
+mq7002grottore.journal:            baseName (String) : "Vital spots"
+mq7002grottore.journal:            order (Uint32) : 4026531838
+mq7002grottore.journal:            uniqueScriptIdentifier (CName) : Vital spots 243106C4-4A7D34A1-67E6CB9C-712A227A
+mq7002grottore.journal:            parentGuid (CGUID) : e96773de-d0d5-48d2-a218-409757f61e1e
+mq7002grottore.journal:            index (Uint8) : 3

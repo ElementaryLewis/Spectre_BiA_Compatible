@@ -1,0 +1,397 @@
+templates:
+  q601_frog.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - dlc/ep1/data/characters/npc_entities/monsters/toad.w2ent
+    overrides:  #array:2,0,SEntityTemplateOverride
+      - ".type": SEntityTemplateOverride
+        componentName: toad_base
+        className: CMovingPhysicalAgentComponent
+        overriddenProperties:  #array:2,0,CName
+          - tags
+          - movementAdjustor
+      - ".type": SEntityTemplateOverride
+        componentName: CAppearanceComponent0
+        className: CAppearanceComponent
+        overriddenProperties:  #array:2,0,CName
+          - attachmentReplacements
+    ## properOverrides: true
+    ## entityClass: CNewNPC
+    entityObject:
+      ".type": CNewNPC
+      tags:
+        - NoHardLockIcon
+      attachments: # array:handle:IAttachment
+      streamingDataBuffer:  #SharedDataBuffer
+        Bufferdata: 638 bytes, MD5: 7c567489ffdbe229b63117fc2e6f34b4
+        streamingDataBuffer:
+          ".type": CSoundEmitterComponent
+          transform:
+            pos: [ 0.0000, 0.0000, 0.9000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: 3f33def7-0fa5-4bb7-a1ad-aaace14e7417
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          graphPositionX: 567
+          graphPositionY: 145
+          banksDependency:  #array:2,0,CName
+            - monster_toad.bnk
+          maxDistance: 60.0000
+      streamingDistance: 14
+      entityStaticFlags: ESF_Streamed
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CMovingPhysicalAgentComponent
+          tags:
+            - NoHardLockIcon
+          guid: 9fa9e495-78da-440a-a86e-6cb0e70f9bc8
+          attachments:  #array:0,0,handle:IAttachment
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                #transformParent: (looped reference) CHardAttachment #3
+                guid: 2e19d986-da79-4441-9ffe-a80456c0ae1d
+                attachments: # array:handle:IAttachment
+                name: "CPhantomComponent0"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Character
+                  - Ragdoll
+                shapeType: PS_Sphere
+                shapeDimensions: [ 0.5000, 0.5000, 0.5000, 1.0000 ]
+                onTriggerEnteredScriptEvent: OnActorCollision
+              parentSlotName: tongue_middle_05
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 41
+          name: "toad_base"
+          ragdoll: characters/base_entities/arachas_base/arachas_ragdoll.w2ragdoll
+          skeleton: dlc/ep1/data/characters/base_entities/toad_base/toad_base.w2rig
+          runtimeBehaviorInstanceSlots:  #array:2,0,SBehaviorGraphInstanceSlot
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Combat
+              graph: dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
+              alwaysOnTopOfStack: true
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Cutscene
+              graph: gameplay/behaviors/cutscene_graph.w2beh
+          steeringBehavior: gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+        - ".type": CAppearanceComponent
+          guid: 32a13019-4e42-4e0f-816f-e743e6343fb3
+          attachments: # array:handle:IAttachment
+          name: "CAppearanceComponent0"
+          forcedAppearance: toad_01
+          attachmentReplacements:  #SAttachmentReplacements
+            replacements:  #array:2,0,SAttachmentReplacement
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
+                oldClass: CExternalProxyComponent
+                newName: CInventoryComponent0
+                newClass: CInventoryComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
+                oldClass: CExternalProxyComponent
+                newName: CPhantomComponent0
+                newClass: CPhantomComponent
+        - ".type": CInventoryComponent
+          guid: bbe1c426-c74a-4fb6-8168-221ff19035fc
+          attachments: # array:handle:IAttachment
+          name: "CInventoryComponent0"
+        #"3": (looped reference) CPhantomComponent #4
+      idTag:  8be7a8d1-8093-489a-a1ae-c42a0d8f3c43
+      displayName: Toad "Prince"
+      iconOffset: [ 0.0000, 0.0000, 2.0000, 0.0000 ]
+      isUsingTooltip: false
+      isImmortal: true
+      level: 30
+    appearances:  #array:2,0,CEntityAppearance
+      toad_02_morph:
+        ".type": CEntityAppearance
+        ## name: toad_02_morph
+        usesRobe: true
+        wasIncluded: true
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - dlc/ep1/data/characters/models/monsters/toad/t_02__toad_morph.w2ent
+    usedAppearances:  #array:2,0,CName
+      - toad_02_morph
+    slots:  #array:2,0,EntitySlot
+      spell:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: spell
+        componentName: toad_base
+        boneName: head
+        transform:
+          pos: [ 1.0000, 0.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      bodyAttach:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: bodyAttach
+        componentName: toad_base
+        boneName: tongue_middle_05
+      back_slot_r:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: back_slot_r
+        componentName: toad_base
+        boneName: r_torso_helper_04
+      back_slot_l:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: back_slot_l
+        componentName: toad_base
+        boneName: l_torso_helper_04
+      back_slot_r2:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: back_slot_r2
+        componentName: toad_base
+        boneName: r_torso_helper_05
+      back_slot_l2:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: back_slot_l2
+        componentName: toad_base
+        boneName: l_torso_helper_05
+      tongue_end:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: tongue_end
+        componentName: toad_base
+        boneName: tongue_middle_05
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CCharacterStatsParam
+        name: "frogson"
+      - ".type": CAnimAnimsetsParam
+        wasIncluded: true
+        name: "toad_combat"
+        componentName: "toad_base"
+        animationSets:  #array:2,0,handle:CSkeletalAnimationSet
+          - dlc/ep1/data/animations/monsters/moster_toad.w2anims
+      - ".type": CAIProfile
+        wasIncluded: true
+        attitudeGroup: AG_CURSED
+      - ".type": CInventoryDefinition
+        wasIncluded: true
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_toad_claw_weapon
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_toad_tongue_weapon
+      - ".type": CAnimConstraintsParam
+        wasIncluded: true
+        graph: dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_constraints.w2beh
+      - ".type": CCharacterControllerParam
+        wasIncluded: true
+        name: "toad_base_character_controller"
+        height: 2.5000
+        physicalRadius: 2.3000
+        interactionPriorityEnum: IP_Max_Unpushable
+      - ".type": CMonsterParam
+        wasIncluded: true
+        name: "toad_base_monster_params"
+        monsterCategory: 3
+        soundMonsterName: Toad
+      - ".type": CAIProfile
+        wasIncluded: true
+        senseVisionParams:
+          ".type": CAISenseParams
+          rangeMax: 40.0000
+          rangeAngle: 240.0000
+          height: 5.0000
+        senseAbsoluteParams:
+          ".type": CAISenseParams
+          rangeMax: 40.0000
+          rangeAngle: 360.0000
+          height: 5.0000
+        attitudeGroup: AG_CURSED
+      - ".type": CAttackRangeParam
+        wasIncluded: true
+        name: "attack_ranges"
+        attackRanges:  #array:2,0,ptr:CAIAttackRange
+          cone:
+            ".type": CConeAttackRange
+            ## name: cone
+            rangeMax: 3.0000
+            height: 3.0000
+            position: [ 0.0000, 2.0000, 0.0000, 1.0000 ]
+            rangeAngle: 140.0000
+          tongue:
+            ".type": CConeAttackRange
+            ## name: tongue
+            rangeMax: 6.0000
+            position: [ 0.0000, 1.5000, 0.0000, 1.0000 ]
+          counter_left:
+            ".type": CConeAttackRange
+            ## name: counter_left
+            angleOffset: 90.0000
+            position: [ -1.5000, 0.0000, 0.0000, 1.0000 ]
+          counter_right:
+            ".type": CConeAttackRange
+            ## name: counter_right
+            angleOffset: 270.0000
+            position: [ 1.5000, 0.0000, 0.0000, 1.0000 ]
+          counter_back:
+            ".type": CConeAttackRange
+            ## name: counter_back
+            angleOffset: 180.0000
+            position: [ 0.0000, -1.5000, 0.0000, 1.0000 ]
+          tongue_long:
+            ".type": CBoxAttackRange
+            ## name: tongue_long
+            rangeMax: 11.0000
+            height: 3.0000
+          around:
+            ".type": CSphereAttackRange
+            ## name: around
+            rangeMax: 4.0000
+            height: 2.0000
+      - ".type": CCharacterStatsParam
+        wasIncluded: true
+        name: "toad_base_abilities"
+        abilities:  #array:2,0,CName
+          - mon_toad_base
+          - InstantKillImmune
+          - BurnIgnore
+      - ".type": CAnimBehaviorsParam
+        wasIncluded: true
+        name: "toad"
+        componentName: "toad_base"
+        slots:  #array:2,0,SBehaviorGraphInstanceSlot
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Combat
+            graph: dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
+            alwaysOnTopOfStack: true
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Cutscene
+            graph: gameplay/behaviors/cutscene_graph.w2beh
+      - ".type": CAIBaseTreeTemplateParam
+        wasIncluded: true
+        aiBaseTree:
+          ".type": CAIMonsterBase
+          tree: gameplay/trees/monster_base.w2behtree
+          params:
+            ".type": CAIToadDefaults
+            spawnTree:
+              ".type": CAIMonsterSpawnDefault
+              tree: gameplay/trees/monster_spawn_default.w2behtree
+              params:
+                ".type": CAIMonsterSpawnParams
+            tauntTree:
+              ".type": CAIMonsterTaunt
+              tree: gameplay/trees/monster_basetaunt.w2behtree
+              params:
+                ".type": CAIMonsterTauntParams
+            axiiTree:
+              ".type": CAIMonsterAxii
+              tree: gameplay/trees/monster_baseaxii.w2behtree
+              params:
+                ".type": CAIMonsterAxiiParams
+            idleDecoratorTree:
+              ".type": CAIMonsterIdleDecorator
+              tree: gameplay/trees/idle/monster_idle_decorator.w2behtree
+              params:
+                ".type": CAIMonsterIdleDecoratorParams
+                reactionTree:
+                  ".type": CAIMonsterReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionSearchForTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionSearchTarget
+                          tree: gameplay/trees/reactions/reaction_search_target.w2behtree
+                      - ".type": CAIActionAllySearchesTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionJoinSearchForTarget
+                          tree: gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+                      - ".type": CAIActionPlayWithTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionPlayWithTarget
+                          tree: gameplay/trees/reactions/reaction_play_around.w2behtree
+                      - ".type": CAIActionMoveInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionMoveInPack
+                          tree: gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+                      - ".type": CAIActionRunWildInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionRunWildInPack
+                          tree: gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+            combatTree:
+              ".type": CAIMonsterCombat
+              tree: gameplay/trees/monster_basecombat.w2behtree
+              params:
+                ".type": CAIMonsterCombatParams
+                combatLogicTree:
+                  ".type": CAIToadCombatLogic
+                  tree: dlc/ep1/data/gameplay/trees/monsters/monster_toad_logic.w2behtree
+                  params:
+                    ".type": CAIMonsterCombatLogicParams
+                damageReactionTree:
+                  ".type": CAIMonsterDamageReactionTree
+                  tree: gameplay/trees/monster_damage_reaction.w2behtree
+                  params:
+                    ".type": CAIDamageReactionTreeParams
+                    completeTaskAfterDisablingHitReaction: true
+                reachabilityTolerance: 5.0000
+                createHitReactionEvent: MonsterHitReaction
+                criticalState:
+                  ".type": CAINpcCriticalState
+                  tree: gameplay/trees/npc_critical_state.w2behtree
+                  params:
+                    ".type": CAINpcCriticalStateParams
+                reactionTree:
+                  ".type": CAIMonsterCombatReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                        actionEventName: FearsomeEvent
+                        saveReactionTargetUnder: FearsomeEventSource
+                      - ".type": CAIActionEscapeInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionEscapeInPack
+                          tree: gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+            deathTree:
+              ".type": CAIMonsterDeath
+              tree: gameplay/trees/death/death.w2behtree
+              params:
+                ".type": CAIMonsterDeathParams
+      - ".type": CBuffImmunityParam
+        wasIncluded: true
+        name: "toad_base_immunities"
+        immunityTo:  #array:2,0,Int32
+          - 19
+          - 15
+          - 7
+          - 5
+    ## cookedEffectsVersion: 1

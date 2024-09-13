@@ -1,0 +1,310 @@
+templates:
+  toad_acid_pool.w2ent:
+    ".type": CEntityTemplate
+    ## properOverrides: true
+    ## entityClass: CToadAcidPool
+    entityObject:
+      ".type": CToadAcidPool
+      attachments: # array:handle:IAttachment
+      streamingDataBuffer:  #SharedDataBuffer
+        Bufferdata: 481 bytes, MD5: 4d43391f8f13018ba598f56dfd89f972
+        streamingDataBuffer:
+          ".type": CEffectDummyComponent
+          guid: ac92b770-ae52-48ec-9ac0-5309e7823998
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+          isStreamed: true
+          graphPositionX: -108
+          graphPositionY: 236
+      streamingDistance: 2
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CTriggerAreaComponent
+          transform:
+            pos: [ 0.0000, 0.0000, 0.0000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 2.6104, 2.6104, 3.0000 ]
+          guid: e097c918-5bda-4f33-836a-0f0467870191
+          attachments: # array:handle:IAttachment
+          name: "PoisonArea"
+          boundingBox:  #Box
+            Min: [ -1.3052, -1.3052, 0.0000, 1.0000 ]
+            Max: [ 1.3052, 1.3052, 3.0000, 1.0000 ]
+          height: 1.0000
+          color: [ 7, 156, 1, 255 ]
+          localPoints:  #array:2,0,Vector
+            - [ -0.5000, -0.5000, 0.0000, 1.0000 ]
+            - [ 0.5000, -0.5000, 0.0000, 1.0000 ]
+            - [ 0.5000, 0.5000, 0.0000, 1.0000 ]
+            - [ -0.5000, 0.5000, 0.0000, 1.0000 ]
+          worldPoints:  #array:2,0,Vector
+            - [ -1.3052, -1.3052, 0.0000, 1.0000 ]
+            - [ 1.3052, -1.3052, 0.0000, 1.0000 ]
+            - [ 1.3052, 1.3052, 0.0000, 1.0000 ]
+            - [ -1.3052, 1.3052, 0.0000, 1.0000 ]
+          Bufferdata: 1299 bytes, MD5: b181ef9e50b1584c4615519c62edb0be
+          includedChannels:
+            - TC_Default
+            - TC_Player
+            - TC_Projectiles
+      idTag:  5fd238e8-76e8-4b6d-b07a-153ea772c047
+      poisonDamage:  #SAbilityAttributeValue
+        valueMultiplicative: 0.0200
+      despawnTimer: 15.0000
+      damageVal: 100.0000
+      explosionRange: 4.0000
+    slots:  #array:2,0,EntitySlot
+      fx_toxic_cloud:
+        ".type": EntitySlot
+        ## name: fx_toxic_cloud
+      explode:
+        ".type": EntitySlot
+        ## name: explode
+        transform:
+          pos: [ 0.0000, 0.0000, 0.5000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      light:
+        ".type": EntitySlot
+        ## name: light
+        transform:
+          pos: [ 0.0000, 0.0000, 1.2000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CAttackableArea
+        name: "attackable"
+        radius: 7.0000
+        height: 3.0000
+    effects:
+      #buffer: 2546 bytes, MD5: 4eb05f929e41593c70a83614f5682974
+      toxic_gas:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              dynamic:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0161
+                    timeDuration: 0.7590
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 0.0000 ]
+                      - [ 0.1434, 0.0000 ]
+                      - [ 0.2869, 0.0000 ]
+                      - [ 0.4303, 0.0000 ]
+                      - [ 0.5737, 0.0000 ]
+                      - [ 0.7172, 0.0000 ]
+                      - [ 0.8606, 0.0000 ]
+                      - [ 0.7563, 0.0000 ]
+                      - [ 0.6520, 0.0000 ]
+                      - [ 0.5476, 0.0000 ]
+                      - [ 0.4433, 0.0000 ]
+                      - [ 0.3390, 0.0000 ]
+                      - [ 0.2347, 0.0000 ]
+                      - [ 0.1304, 0.0000 ]
+                      - [ 0.0261, 0.0000 ]
+                      - [ 0.0000, 0.0000 ]
+                    color: [ 226, 220, 118, 255 ]
+                    brightness: 70.0000
+                    attenuation: 0.5000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - light
+                      relativePos: [ 0.0000, 0.0000, 1.0000, 0.0000 ]
+                ## name: "dynamic"
+            isExpanded: true
+            trackGroupColor: [ 217, 219, 219, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 5.0000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 0.9167, 1.0000 ]
+                      - [ 1.0000, 0.7500, 1.0000 ]
+                      - [ 1.0000, 0.5833, 1.0000 ]
+                      - [ 1.0000, 0.4167, 1.0000 ]
+                      - [ 1.0000, 0.2500, 1.0000 ]
+                      - [ 1.0000, 0.0833, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                    particleSystem: dlc/ep1/data/fx/monsters/toad/toad_toxic_pool.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_toxic_cloud
+                      copyRotation: false
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 239, 251, 178, 100 ]
+        length: 5.0000
+        loopStart: 1.2500
+        loopEnd: 1.5000
+        ## name: toxic_gas
+        showDistance: 50.0000
+        isLooped: true
+      #buffer: 3418 bytes, MD5: 761fbfb5560c2a07caded33eed7ccb8e
+      toxic_gas_explosion:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sad:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0500
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 54.5004, 1.0000 ]
+                      - [ 75.3832, 1.0000 ]
+                      - [ 50.8094, 1.0000 ]
+                      - [ 26.2355, 1.0000 ]
+                      - [ 20.3036, 1.0000 ]
+                      - [ 16.6747, 1.0000 ]
+                      - [ 13.0459, 1.0000 ]
+                      - [ 9.4170, 1.0000 ]
+                      - [ 7.2313, 1.0000 ]
+                      - [ 5.5616, 1.0000 ]
+                      - [ 3.8918, 1.0000 ]
+                      - [ 2.2220, 1.0000 ]
+                      - [ 0.5523, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 169, 108, 255 ]
+                    radius: 20.0000
+                    brightness: 50.0000
+                    attenuation: 0.1000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.1000
+                    autoHideDistance: 45.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: light
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.5000, 0.0000 ]
+                ## name: "sad"
+            isExpanded: true
+            trackGroupColor: [ 135, 133, 171, 100 ]
+          colour:
+            ".type": CFXTrackGroup
+            ## name: "colour"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemBrightnessTint
+                    timeBegin: 0.0158
+                    ## buffername: BrightnessTint
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.0000 ]
+                      - [ 3.7065, 1.0000 ]
+                      - [ 5.0615, 1.0000 ]
+                      - [ 0.9625, 1.0000 ]
+                      - [ 0.1656, 1.0000 ]
+                      - [ 1.1981, 0.9333 ]
+                      - [ 2.0000, 0.8000 ]
+                      - [ 1.7722, 0.6667 ]
+                      - [ 1.5444, 0.5333 ]
+                      - [ 1.3166, 0.4000 ]
+                      - [ 1.0888, 0.2667 ]
+                      - [ 1.0000, 0.1333 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                      - [ 1.0000, 0.0000 ]
+                    color: [ 255, 191, 140, 255 ]
+                    range: 11.0000
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 225, 187, 169, 100 ]
+            componentName: CEffectDummyComponent0
+          sound:
+            ".type": CFXTrackGroup
+            ## name: "sound"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_expl_toxic_gas_explo
+                    maxDistance: 50.0000
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 210, 222, 199, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0218
+                    timeDuration: 5.0306
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/ep1/data/fx/monsters/toad/toad_acid_pool_explode.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: explode
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 131, 187, 178, 100 ]
+        length: 5.0000
+        ## name: toxic_gas_explosion
+        showDistance: 50.0000
+    ## cookedEffectsVersion: 1

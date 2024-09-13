@@ -1,0 +1,60 @@
+templates:
+  succubus.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: ea707bb5-8548-40c2-9a23-ddaedd78ddac
+      baseName: "Succubus"
+      order: 4227858430
+      uniqueScriptIdentifier: Succubus
+      parentGuid: 0a6165df-4050-44d6-8569-c8337f1ce26d
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: 0b220d75-4b69-41c2-964a-7ae6a07315c9
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions 0B220D75-41C24B69-E67A4A96-C91573A0
+          parentGuid: ea707bb5-8548-40c2-9a23-ddaedd78ddac
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: e7e0bad0-1c44-4453-8d52-53fc20af370f
+              baseName: "Sukkub - wpis 1"
+              order: 2147483647
+              uniqueScriptIdentifier: Sukkub - wpis 1
+              parentGuid: 0b220d75-4b69-41c2-964a-7ae6a07315c9
+              description: their never-ending advances, though pleasurable at first, have pushed more than one man to madness or even death.<br>
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 4469b9f3-e478-4f95-afef-76c44669d511
+              baseName: "Sukkub - wpis 2"
+              order: 3221225470
+              uniqueScriptIdentifier: Sukkub - wpis 2
+              parentGuid: 0b220d75-4b69-41c2-964a-7ae6a07315c9
+              index: 1
+              description: Succubi and menads usually can be found near human settlements, including small villages and populous cities. They prowl at night, though when stricken by serious need they will leave their lairs during the day as well. They shower their affections on men as well as women, the young as well as the old, the ugly as well as the beautiful. Some of them are particularly fond of pastors and other holy men, whose seduction they treat as a sort of game.<br><br>Though succubi are peaceful by nature, when forced to fight they will defend themselves fiercely. One should thus not be fooled by their fair appearance – under the velvety skin of their arms lie muscles of iron, and a blow delivered with their rear, goat-like legs or the thick horns on their head can easily crush bone.
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: 824d26b7-d309-4db5-86d5-46085fb89201
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues 824D26B7-4DB5D309-0846D586-0192B85F
+          parentGuid: ea707bb5-8548-40c2-9a23-ddaedd78ddac
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: 7faa1530-07c2-45d2-9ea8-acc8c111aa9a
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints 7FAA1530-45D207C2-C8ACA89E-9AAA11C1
+          parentGuid: ea707bb5-8548-40c2-9a23-ddaedd78ddac
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: 12baa517-b462-40e3-907d-1fbec641a25d
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots 12BAA517-40E3B462-BE1F7D90-5DA241C6
+          parentGuid: ea707bb5-8548-40c2-9a23-ddaedd78ddac
+          index: 3
+      name: Succubi
+      image: "bestiary_succubus.png"
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Hybrid Oil 1
+        - Quen
+        - Dwimeritium Bomb 1

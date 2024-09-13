@@ -1,0 +1,3631 @@
+templates:
+  q704_ft_goldilocks_bear_02.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - characters/npc_entities/monsters/bear_lvl1__black.w2ent
+    overrides:  #array:2,0,SEntityTemplateOverride
+      - ".type": SEntityTemplateOverride
+        componentName: bear_berserker
+        className: CMovingPhysicalAgentComponent
+        overriddenProperties:  #array:2,0,CName
+          - transform
+          - ragdoll
+          - movementAdjustor
+      - ".type": SEntityTemplateOverride
+        componentName: CAppearanceComponent0
+        className: CAppearanceComponent
+        overriddenProperties:  #array:2,0,CName
+          - forcedAppearance
+          - attachmentReplacements
+    ## properOverrides: true
+    ## entityClass: CNewNPC
+    entityObject:
+      ".type": CNewNPC
+      attachments: # array:handle:IAttachment
+      streamingDistance: 14
+      entityStaticFlags: ESF_Streamed
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CMovingPhysicalAgentComponent
+          transform:
+            pos: [ 0.0000, 0.0000, 0.0000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.5473, 0.5473, 0.5473 ]
+          guid: 69dbf694-4237-43ef-ada0-213da7c72451
+          attachments:  #array:0,0,handle:IAttachment
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CDynamicColliderComponent
+                transform:
+                  pos: [ 1.2000, -0.5000, 0.0000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 2.2000, 1.6000, 1.7000 ]
+                #transformParent: (looped reference) CHardAttachment #3
+                guid: 149067e2-2d9a-47f1-8c12-652daaab77ac
+                attachments: # array:handle:IAttachment
+                name: "grass collider"
+                useInGrassDisplacement: true
+              parentSlotName: pelvis
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 2
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CEffectDummyComponent
+                transform:
+                  pos: [ 0.0000, 0.0000, 0.0000 ]
+                  rot: [ 270.2222, 8.9717, 90.5309 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #6
+                guid: 848c6f5e-5b27-4fa6-b346-6d24e2256a20
+                attachments: # array:handle:IAttachment
+                name: "torso3effect"
+              parentSlotName: neck1
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 35
+          name: "bear_berserker"
+          ragdoll: characters/base_entities/bear_berserker_base/bear_ragdoll.w2ragdoll
+          skeleton: characters/base_entities/bear_berserker_base/bear_berserker_base.w2rig
+          runtimeBehaviorInstanceSlots:  #array:2,0,SBehaviorGraphInstanceSlot
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Combat
+              graph: gameplay/behaviors/npc/behaviorgraph/monster_bear_berserker_combat.w2beh
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Cutscene
+              graph: gameplay/behaviors/cutscene_graph.w2beh
+          steeringBehavior: gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+        - ".type": CAppearanceComponent
+          guid: 209c0bc7-7831-4014-92f9-2f99a248f2d3
+          attachments: # array:handle:IAttachment
+          name: "CAppearanceComponent0"
+          forcedAppearance: bear_grizzly_01
+          attachmentReplacements:  #SAttachmentReplacements
+            replacements:  #array:2,0,SAttachmentReplacement
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CInventoryComponent0_6401A924-47E49446-B4F03D95-1B724295
+                oldClass: CExternalProxyComponent
+                newName: CInventoryComponent0
+                newClass: CInventoryComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_grass collider_55C0A06A-4611A760-AA45A88C-BB45F79D
+                oldClass: CExternalProxyComponent
+                newName: grass collider
+                newClass: CDynamicColliderComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_W3TargetingManagementComponent0_C9A97885-4976FA60-EAC0EDB1-D721A722
+                oldClass: CExternalProxyComponent
+                newName: W3TargetingManagementComponent0
+                newClass: W3TargetingManagementComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CGameplayEffectsComponent0_DFE3F598-4546E2C5-E10DB992-89127D9F
+                oldClass: CExternalProxyComponent
+                newName: CGameplayEffectsComponent0
+                newClass: CGameplayEffectsComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_torso3effect_57C68147-49EAF337-7D4CB0AD-B5281338
+                oldClass: CExternalProxyComponent
+                newName: torso3effect
+                newClass: CEffectDummyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CSoundEmitterComponent_02E3A539-4F83FF36-C20C4FA5-D19546DC
+                oldClass: CExternalProxyComponent
+                newName: CSoundEmitterComponent
+                newClass: CSoundEmitterComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CEffectDummyComponent0_5B124869-4B0EA79D-E490EEA6-7BDBE567
+                oldClass: CExternalProxyComponent
+                newName: CEffectDummyComponent0
+                newClass: CEffectDummyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CCreatureDataComponent0_6496D4AE-41DC937B-C7D61991-DCCCF88D
+                oldClass: CExternalProxyComponent
+                newName: CCreatureDataComponent0
+                newClass: CCreatureDataComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_i_01__bear_berserker_black_49876E1C-41D0D646-9D7A8987-EB32C03A
+                oldClass: CExternalProxyComponent
+                newName: proxy_i_01__bear_berserker_black_224B1D60-44E41FBD-43062CBD-91A1F56C
+                newClass: CExternalProxyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_t_01__bear_berserker_black_403A65EE-48351CDD-57FC8484-A217A79D
+                oldClass: CExternalProxyComponent
+                newName: proxy_t_01__bear_berserker_black_2EF295A6-40B0ED96-167A628B-F2425811
+                newClass: CExternalProxyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CInventoryComponent0_1BC24631-4215CC01-3A7121A3-94538B73
+                oldClass: CExternalProxyComponent
+                newName: CInventoryComponent0
+                newClass: CInventoryComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_grass collider_1C84968D-46A0A381-B839069B-283ADEDF
+                oldClass: CExternalProxyComponent
+                newName: grass collider
+                newClass: CDynamicColliderComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_W3TargetingManagementComponent0_B323F9D8-48B32D10-FC8637BE-817B6031
+                oldClass: CExternalProxyComponent
+                newName: W3TargetingManagementComponent0
+                newClass: W3TargetingManagementComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CGameplayEffectsComponent0_E08ED615-4104993D-06DAB5B2-0B15AA23
+                oldClass: CExternalProxyComponent
+                newName: CGameplayEffectsComponent0
+                newClass: CGameplayEffectsComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_torso3effect_524A35ED-4C1FA7B7-ED97BBA2-DC089F15
+                oldClass: CExternalProxyComponent
+                newName: torso3effect
+                newClass: CEffectDummyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CSoundEmitterComponent_AB08C2C9-41D42CBA-165D3CBA-2D796915
+                oldClass: CExternalProxyComponent
+                newName: CSoundEmitterComponent
+                newClass: CSoundEmitterComponent
+        - ".type": CEffectDummyComponent
+          transform:
+            pos: [ 0.0000, 0.0000, 0.9000 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          guid: 1110ccec-7246-440a-aee3-337edc28e61e
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+        - ".type": CCreatureDataComponent
+          guid: 7def3ce8-aef7-4eb1-a83b-54a04b9aa260
+          attachments: # array:handle:IAttachment
+          name: "CCreatureDataComponent0"
+          itemsUsedAgainstCreature:  #array:2,0,CName
+            - Beast Oil 1
+          cameraDistance: 5.0000
+          cameraLookAtZ: 1.0000
+          cameraRotationYaw: 190.0000
+          cameraRotationPitch: 10.0000
+          environmentSunRotationYaw: 330.0000
+          environmentSunRotationPitch: 340.0000
+        - ".type": CInventoryComponent
+          guid: a28a5c5b-851e-4af6-9b4c-58b4d1bfe492
+          attachments: # array:handle:IAttachment
+          name: "CInventoryComponent0"
+          containerTemplate: items/remains/remains__monster_01/remains__monster_01.w2ent
+        #"5": (looped reference) CDynamicColliderComponent #4
+        - ".type": W3TargetingManagementComponent
+          guid: 5da77919-5bc9-4cde-a479-9b21504be68c
+          attachments: # array:handle:IAttachment
+          name: "W3TargetingManagementComponent0"
+          aimVector: [ 0.0000, 0.0000, 0.0000, 1.0000 ]
+          aimVectorSlot: aimVector
+        - ".type": CGameplayEffectsComponent
+          guid: 5063ddfe-ed58-4a05-852b-4910c790c664
+          attachments: # array:handle:IAttachment
+          name: "CGameplayEffectsComponent0"
+        #"8": (looped reference) CEffectDummyComponent #7
+        - ".type": CSoundEmitterComponent
+          guid: 481ebe7a-f7d0-4755-9dbc-5b5510c556b7
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent"
+          isStreamed: false
+          eventsOnAttach:  #array:2,0,StringAnsi
+            - set_monster_bear_armour_type_flesh
+          banksDependency:  #array:2,0,CName
+            - monster_bear.bnk
+          maxDistance: 100.0000
+      idTag:  e9721929-04b0-4946-8068-b94891e234ed
+      displayName: Bear Cub
+      aimVector: [ 0.0000, 0.0000, 0.0000, 1.0000 ]
+      voiceTag: TOUSSAINT BOY 03
+      isTargatebleByPlayer: false
+      level: 46
+    appearances:  #array:2,0,CEntityAppearance
+      bear_black_01:
+        ".type": CEntityAppearance
+        ## name: bear_black_01
+        voicetag: TOUSSAINT BOY 03
+        wasIncluded: true
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - characters/models/animals/bear_berserker/t_01__bear_berserker_black.w2ent
+    usedAppearances:  #array:2,0,CName
+      - bear_black_01
+    voicetagAppearances:  #array:2,0,VoicetagAppearancePair
+      - ".type": VoicetagAppearancePair
+        voicetag: TOUSSAINT BOY 03
+        appearance: bear_black_01
+    slots:  #array:2,0,EntitySlot
+      blood_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: blood_point
+        componentName: bear_berserker
+        boneName: neckfront
+        transform:
+          pos: [ 0.0000, 0.0000, 0.0000 ]
+          rot: [ 180.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      fx_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: fx_point
+        transform:
+          pos: [ 0.0000, 1.9000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      hit_back_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: hit_back_point
+        componentName: bear_berserker
+        boneName: stomach
+        transform:
+          pos: [ -0.2000, 0.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      move_fx:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: move_fx
+        transform:
+          pos: [ 0.0000, 2.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      aimVector:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: aimVector
+        componentName: bear_berserker
+        boneName: torso3
+      head:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: head
+        componentName: bear_berserker
+        boneName: jaw
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CAIProfile
+        attitudeGroup: friendly_to_player
+      - ".type": CCharacterStatsParam
+        name: "stats"
+        overrideInherited: true
+        abilities:  #array:2,0,CName
+          - mon_bear_base
+          - Charge
+          - mon_ft_bear_grizzly
+          - InstantKillImmune
+      - ".type": CAIProfile
+        wasIncluded: true
+        attitudeGroup: AG_grizzly_bear
+      - ".type": CInventoryDefinition
+        wasIncluded: true
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_bear_weapon
+      - ".type": CR4LootParam
+        wasIncluded: true
+        name: "loot"
+        containers:  #array:2,0,CR4LootContainerParam
+          _monster__Grizzly bear:
+            ".type": CR4LootContainerParam
+            ## name: _monster__Grizzly bear
+      - ".type": CMonsterParam
+        wasIncluded: true
+        name: "bear_monster_param"
+        overrideInherited: true
+        monsterCategory: 4
+        soundMonsterName: Bear
+      - ".type": CAnimGlobalParam
+        wasIncluded: true
+        sfxTag: sfx_bear
+      - ".type": CAnimAnimsetsParam
+        wasIncluded: true
+        name: "bear"
+        componentName: "bear_berserker"
+        animationSets:  #array:2,0,handle:CSkeletalAnimationSet
+          - animations/animals/bear/bear_animation.w2anims
+      - ".type": CAIProfile
+        wasIncluded: true
+        senseVisionParams:
+          ".type": CAISenseParams
+          rangeMax: 20.0000
+          rangeAngle: 240.0000
+        senseAbsoluteParams:
+          ".type": CAISenseParams
+          rangeMax: 3.0000
+          rangeAngle: 360.0000
+          testLOS: false
+        attitudeGroup: AG_bear_berserker
+      - ".type": CCharacterControllerParam
+        wasIncluded: true
+        name: "character_controller_params"
+        physicalRadius: 0.8000
+        interactionPriority: 150.0000
+        interactionPriorityEnum: IP_Prio_8
+        virtualControllers:  #array:2,0,SVirtualControllerParams
+          - ".type": SVirtualControllerParams
+            name: head
+            boneName: neckfront
+            localOffset: [ 0.5000, 0.0000, 0.0000, 0.0000 ]
+            height: 1.0000
+            radius: 0.6000
+          - ".type": SVirtualControllerParams
+            name: shoulder
+            boneName: neck1
+            localOffset: [ 0.0000, -0.5000, 0.0000, 0.0000 ]
+            height: 1.0000
+            radius: 0.7000
+          - ".type": SVirtualControllerParams
+            name: back
+            boneName: pelvis
+            localOffset: [ 0.0000, -1.5000, 0.2000, 0.0000 ]
+            height: 2.0000
+            radius: 0.5000
+      - ".type": CAttackRangeParam
+        wasIncluded: true
+        name: "attack_range"
+        attackRanges:  #array:2,0,ptr:CAIAttackRange
+          basic_strike:
+            ".type": CConeAttackRange
+            ## name: basic_strike
+            rangeMax: 2.4000
+            height: 2.0000
+            position: [ 0.0000, 0.5000, 1.0000, 1.0000 ]
+            rangeAngle: 90.0000
+          bite:
+            ".type": CBoxAttackRange
+            ## name: bite
+            rangeMax: 2.0000
+            height: 2.0000
+            position: [ 0.0000, 0.5000, 1.0000, 1.0000 ]
+          rightSide:
+            ".type": CConeAttackRange
+            ## name: rightSide
+            rangeMax: 2.4000
+            height: 2.0000
+            angleOffset: -60.0000
+            position: [ 0.0000, 0.5000, 1.0000, 1.0000 ]
+            rangeAngle: 90.0000
+          leftSide:
+            ".type": CConeAttackRange
+            ## name: leftSide
+            rangeMax: 2.4000
+            height: 2.0000
+            angleOffset: 60.0000
+            position: [ 0.0000, 0.5000, 1.0000, 1.0000 ]
+            rangeAngle: 90.0000
+          aoe_knockdown:
+            ".type": CConeAttackRange
+            ## name: aoe_knockdown
+            rangeMax: 3.0000
+            height: 2.0000
+            position: [ 0.0000, 0.7000, 0.0000, 1.0000 ]
+            rangeAngle: 270.0000
+          stand_strike:
+            ".type": CConeAttackRange
+            ## name: stand_strike
+            rangeMax: 2.7000
+            height: 2.0000
+            position: [ 0.0000, 0.5000, 1.0000, 1.0000 ]
+          validJump:
+            ".type": CBoxAttackRange
+            ## name: validJump
+            rangeMax: 7.0000
+            height: 3.0000
+            position: [ 0.0000, 1.0000, 0.0000, 1.0000 ]
+            checkLineOfSight: true
+            rangeWidth: 2.0000
+          closeRange:
+            ".type": CConeAttackRange
+            ## name: closeRange
+            rangeMax: 3.0000
+            height: 2.0000
+            angleOffset: -40.0000
+            rangeAngle: 180.0000
+          backRange:
+            ".type": CConeAttackRange
+            ## name: backRange
+            rangeMax: 3.6000
+            angleOffset: 120.0000
+            rangeAngle: 70.0000
+      - ".type": CAnimBehaviorsParam
+        wasIncluded: true
+        name: "bear"
+        componentName: "bear_berserker"
+        slots:  #array:2,0,SBehaviorGraphInstanceSlot
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Combat
+            graph: gameplay/behaviors/npc/behaviorgraph/monster_bear_berserker_combat.w2beh
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Cutscene
+            graph: gameplay/behaviors/cutscene_graph.w2beh
+      - ".type": CAnimConstraintsParam
+        wasIncluded: true
+        graph: gameplay/behaviors/npc/behaviorgraph/monster_bear_constraints.w2beh
+      - ".type": CAIBaseTreeTemplateParam
+        wasIncluded: true
+        aiBaseTree:
+          ".type": CAIMonsterBase
+          tree: gameplay/trees/monster_base.w2behtree
+          params:
+            ".type": CAIBearDefaults
+            spawnTree:
+              ".type": CAIMonsterSpawnDefault
+              tree: gameplay/trees/monster_spawn_default.w2behtree
+              params:
+                ".type": CAIMonsterSpawnParams
+            tauntTree:
+              ".type": CAIMonsterTaunt
+              tree: gameplay/trees/monster_basetaunt.w2behtree
+              params:
+                ".type": CAIMonsterTauntParams
+            axiiTree:
+              ".type": CAIMonsterAxii
+              tree: gameplay/trees/monster_baseaxii.w2behtree
+              params:
+                ".type": CAIMonsterAxiiParams
+            idleDecoratorTree:
+              ".type": CAIMonsterIdleDecoratorBear
+              tree: gameplay/trees/idle/monster_idle_decorator.w2behtree
+              params:
+                ".type": CAIMonsterIdleDecoratorParams
+                reactionTree:
+                  ".type": CAIMonsterReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionSearchForTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionSearchTarget
+                          tree: gameplay/trees/reactions/reaction_search_target.w2behtree
+                      - ".type": CAIActionAllySearchesTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionJoinSearchForTarget
+                          tree: gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+                      - ".type": CAIActionPlayWithTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionPlayWithTarget
+                          tree: gameplay/trees/reactions/reaction_play_around.w2behtree
+                      - ".type": CAIActionMoveInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionMoveInPack
+                          tree: gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+                      - ".type": CAIActionRunWildInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionRunWildInPack
+                          tree: gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+                searchFoodTree:
+                  ".type": CAIMonsterSearchFoodTree
+                  tree: gameplay/trees/idle/monster_search_food_idle.w2behtree
+                  params:
+                    ".type": CAIMonsterSearchFoodIdleParams
+                    corpse: true
+                    meat: true
+                actions:  #array:2,0,handle:CAIMonsterIdleAction
+                  - ".type": CAIMonsterIdleOnGroundAndClean
+                    tree: gameplay/trees/idle/monster_idle_action_slot.w2behtree
+                    params:
+                      ".type": CAIMonsterIdleActionParams
+                      cooldown: 100.0000
+                      loopTime: 30.0000
+                      actionName: OnGroundAndClean
+                  - ".type": CAIMonsterIdleSleep
+                    tree: gameplay/trees/idle/monster_idle_action_slot.w2behtree
+                    params:
+                      ".type": CAIMonsterIdleActionParams
+                      cooldown: 200.0000
+                      loopTime: 100.0000
+                      actionName: Sleep
+                nightActions:  #array:2,0,handle:CAIMonsterIdleAction
+                  #"0": (looped reference) CAIMonsterIdleSleep #69
+            combatTree:
+              ".type": CAIMonsterCombat
+              tree: gameplay/trees/monster_basecombat.w2behtree
+              params:
+                ".type": CAIMonsterCombatParams
+                combatLogicTree:
+                  ".type": CAIBearCombatLogic
+                  tree: gameplay/trees/monsters/monster_bear_berserker_logic.w2behtree
+                  params:
+                    ".type": CAIMonsterCombatLogicParams
+                damageReactionTree:
+                  ".type": CAIMonsterDamageReactionTree
+                  tree: gameplay/trees/monster_damage_reaction.w2behtree
+                  params:
+                    ".type": CAIDamageReactionTreeParams
+                    completeTaskAfterDisablingHitReaction: true
+                createHitReactionEvent: MonsterHitReaction
+                criticalState:
+                  ".type": CAINpcCriticalState
+                  tree: gameplay/trees/npc_critical_state.w2behtree
+                  params:
+                    ".type": CAINpcCriticalStateParams
+                reactionTree:
+                  ".type": CAIMonsterCombatReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                        actionEventName: FearsomeEvent
+                        saveReactionTargetUnder: FearsomeEventSource
+                      - ".type": CAIActionEscapeInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionEscapeInPack
+                          tree: gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+            deathTree:
+              ".type": CAIMonsterDeath
+              tree: gameplay/trees/death/death.w2behtree
+              params:
+                ".type": CAIMonsterDeathParams
+      - ".type": CFocusSoundParam
+        wasIncluded: true
+        name: "Focus_Sound"
+        eventStart: monster_bear_focus_100m_start
+        eventStop: monster_bear_focus_100m_stop
+      - ".type": CAnimGlobalParam
+        wasIncluded: true
+        sfxTag: sfx_bear
+      - ".type": CBuffImmunityParam
+        wasIncluded: true
+        name: "bear_base_immunity"
+        immunityTo:  #array:2,0,Int32
+          - 11
+          - 45
+    effects:
+      #buffer: 1841 bytes, MD5: 8e4f054247fe55ba72c08311313193d0
+      light_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          decals:
+            ".type": CFXTrackGroup
+            ## name: "decals"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ds:
+                ".type": CFXTrack
+                ## name: "ds"
+            isExpanded: true
+            trackGroupColor: [ 195, 221, 239, 100 ]
+          blood_fx:
+            ".type": CFXTrackGroup
+            ## name: "blood_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              add:
+                ".type": CFXTrack
+                ## name: "add"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 1.9198
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/blood/bies/bies_blood_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: blood_point
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 0.0000, 90.0000 ]
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 142, 194, 224, 100 ]
+        length: 1.3554
+        ## name: light_hit
+      #buffer: 1841 bytes, MD5: 4abe13cfe4618c876b650ad4be9140ef
+      heavy_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          decals:
+            ".type": CFXTrackGroup
+            ## name: "decals"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ds:
+                ".type": CFXTrack
+                ## name: "ds"
+            isExpanded: true
+            trackGroupColor: [ 195, 221, 239, 100 ]
+          blood_fx:
+            ".type": CFXTrackGroup
+            ## name: "blood_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              add:
+                ".type": CFXTrack
+                ## name: "add"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 1.9198
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/blood/bies/bies_blood_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: blood_point
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 0.0000, 90.0000 ]
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 142, 194, 224, 100 ]
+        length: 1.5135
+        ## name: heavy_hit
+      #buffer: 2156 bytes, MD5: 54496e00b0d5c3d2930287d598921792
+      hit_ground:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          radial_blur:
+            ".type": CFXTrackGroup
+            ## name: "radial_blur"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemRadialBlur
+                    timeBegin: 0.0226
+                    timeDuration: 1.2500
+                    ## buffername: RadialBlur
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0689, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.3244, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.3125, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.2708, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.2292, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1875, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1458, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.1042, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0625, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0208, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 0.0000, 0.0000, 0.0000 ]
+                    distanceFromCamera: 12.0000
+                    centerMultiplier: 0.4000
+                ## name: "sd"
+            isExpanded: true
+            trackGroupColor: [ 220, 164, 152, 100 ]
+            componentName: CEffectDummyComponent0
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              xc:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0452
+                    timeDuration: 3.4562
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/monsters/bear_berseker/taunt/taunt_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                ## name: "xc"
+            isExpanded: true
+            trackGroupColor: [ 254, 247, 226, 100 ]
+        length: 6.4607
+        ## name: hit_ground
+      #buffer: 1777 bytes, MD5: e8a131e8520eed3e1c41f74307c9aa56
+      blood:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ad:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0302
+                    timeDuration: 3.9282
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.6370, 1.0000, 1.0000 ]
+                      - [ 0.0849, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/monsters/bear_berseker/blood/berseker_blood_trail.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      relativePosition: [ -0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: lower_lip
+                ## name: "ad"
+            isExpanded: true
+            trackGroupColor: [ 163, 201, 151, 100 ]
+        length: 3.8980
+        loopStart: 0.6950
+        loopEnd: 1.6015
+        ## name: blood
+      #buffer: 1731 bytes, MD5: 031160ae5bdbdd014cc3249b1fd4d81a
+      light_hit_back:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          blood_fx:
+            ".type": CFXTrackGroup
+            ## name: "blood_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0068
+                    timeDuration: 3.5536
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/blood/bies/bies_blood_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: hit_back_point
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 0.0000, -90.0000 ]
+                      parentSlotName: k_torso_g
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 142, 194, 224, 100 ]
+        length: 2.2601
+        ## name: light_hit_back
+      #buffer: 1731 bytes, MD5: b644168d50769cb493232d338840e552
+      heavy_hit_back:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          blood_fx:
+            ".type": CFXTrackGroup
+            ## name: "blood_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0068
+                    timeDuration: 3.5536
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/blood/bies/bies_blood_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: hit_back_point
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 0.0000, -90.0000 ]
+                      parentSlotName: k_torso_g
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 142, 194, 224, 100 ]
+        length: 2.2601
+        ## name: heavy_hit_back
+      #buffer: 1586 bytes, MD5: 646531b6d1e95f8b6d0612f58bf92e72
+      r_trail:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              f:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0101
+                    timeDuration: 0.4975
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 0.9147, 0.7000 ]
+                      - [ 1.0000, 0.7865, 0.7000 ]
+                      - [ 1.0000, 0.6584, 0.7000 ]
+                      - [ 1.0000, 0.5302, 0.7000 ]
+                      - [ 1.0000, 0.4020, 0.7000 ]
+                      - [ 1.0000, 0.2738, 0.7000 ]
+                      - [ 1.0000, 0.1457, 0.7000 ]
+                      - [ 1.0000, 0.0175, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                    particleSystem: fx/weapons/trails/monster_hand/monster_hand_trail_light.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: r_middle
+                ## name: "f"
+            isExpanded: true
+            trackGroupColor: [ 184, 185, 220, 100 ]
+        ## name: r_trail
+      #buffer: 1586 bytes, MD5: 6a1d107dc5261dd6e3fa1319faab6fe4
+      l_trail:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              f:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0304
+                    timeDuration: 0.4975
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 1.0000, 0.7000 ]
+                      - [ 1.0000, 0.9147, 0.7000 ]
+                      - [ 1.0000, 0.7865, 0.7000 ]
+                      - [ 1.0000, 0.6584, 0.7000 ]
+                      - [ 1.0000, 0.5302, 0.7000 ]
+                      - [ 1.0000, 0.4020, 0.7000 ]
+                      - [ 1.0000, 0.2738, 0.7000 ]
+                      - [ 1.0000, 0.1457, 0.7000 ]
+                      - [ 1.0000, 0.0175, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                      - [ 1.0000, 0.0000, 0.7000 ]
+                    particleSystem: fx/weapons/trails/monster_hand/monster_hand_trail_light.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_middle
+                ## name: "f"
+            isExpanded: true
+            trackGroupColor: [ 184, 185, 220, 100 ]
+        ## name: l_trail
+      #buffer: 2080 bytes, MD5: d08043b5f7bffbee0f70dedd3a5451ec
+      move_fx:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          radial_blur:
+            ".type": CFXTrackGroup
+            ## name: "radial_blur"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemRadialBlur
+                    timeBegin: 0.0000
+                    ## buffername: RadialBlur
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0994, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.4299, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.3224, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.2149, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.1075, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000, 0.0000 ]
+                    distanceFromCamera: 7.0000
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 135, 251, 247, 100 ]
+            componentName: bear_berserker
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0133
+                    timeDuration: 2.4161
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/monsters/bear_berseker/move/bear_move.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: move_fx
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 150, 243, 252, 100 ]
+        length: 2.3984
+        ## name: move_fx
+      #buffer: 8312 bytes, MD5: 136b6a1bd1407545104f5758e71ccb7f
+      fire_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          flare:
+            ".type": CFXTrackGroup
+            ## name: "flare"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ads:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0020
+                    timeDuration: 0.4008
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 4.1351
+                      - 5.5637
+                      - 4.7688
+                      - 3.9740
+                      - 3.1792
+                      - 2.3844
+                      - 1.5896
+                      - 0.7948
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 255
+                          Green: 148
+                          Blue: 83
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 6.0000
+                      fadeInMaxSpeed: 122.0000
+                      fadeInAccel: 122.0000
+                      visibilityFullDist: 15.0000
+                      visibilityFadeRange: 4.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: man_base
+                      attach: true
+                      parentSlotName: pelvis
+                ## name: "ads"
+            isExpanded: true
+            trackGroupColor: [ 190, 132, 212, 100 ]
+          shader:
+            ".type": CFXTrackGroup
+            ## name: "shader"
+            trackGroupColor: [ 187, 129, 216, 100 ]
+          trail_fx:
+            ".type": CFXTrackGroup
+            ## name: "trail_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0013
+                    timeDuration: 3.8444
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 0.3333, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1400, 0.0000, 0.2000, 0.0000 ]
+                      parentSlotName: r_foot
+                      freeRotation: true
+                ## name: "3"
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0408
+                    timeDuration: 2.8968
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 0.9333, 1.0000, 0.7500 ]
+                      - [ 0.6667, 1.0000, 0.7500 ]
+                      - [ 0.4000, 1.0000, 0.7500 ]
+                      - [ 0.1333, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.1000, 0.0000 ]
+                      parentSlotName: l_ear
+                      freeRotation: true
+                ## name: "sd"
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0082
+                    timeDuration: 4.5804
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 0.8333, 1.0000, 0.6000 ]
+                      - [ 0.5000, 1.0000, 0.6000 ]
+                      - [ 0.1667, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.5800, 0.0000 ]
+                      parentSlotName: r_bicep
+                      freeRotation: true
+                ## name: "4"
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0408
+                    timeDuration: 3.6036
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 0.7778, 1.0000, 0.6000 ]
+                      - [ 0.5556, 1.0000, 0.6000 ]
+                      - [ 0.3333, 1.0000, 0.6000 ]
+                      - [ 0.1111, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.4400, 0.0000 ]
+                      parentSlotName: l_thigh
+                      freeRotation: true
+                ## name: "3"
+              leg2:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.1312
+                    timeDuration: 4.4852
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 0.7778, 1.0000, 0.6000 ]
+                      - [ 0.5556, 1.0000, 0.6000 ]
+                      - [ 0.3333, 1.0000, 0.6000 ]
+                      - [ 0.1111, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ -0.1500, 0.0000, 0.6500, 0.0000 ]
+                      parentSlotName: torso3
+                      freeRotation: true
+                ## name: "leg2"
+              leg1:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0209
+                    timeDuration: 3.3143
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 0.9167, 1.0000, 0.6000 ]
+                      - [ 0.7500, 1.0000, 0.6000 ]
+                      - [ 0.5833, 1.0000, 0.6000 ]
+                      - [ 0.4167, 1.0000, 0.6000 ]
+                      - [ 0.2500, 1.0000, 0.6000 ]
+                      - [ 0.0833, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                      - [ 0.0000, 1.0000, 0.6000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0000, 0.0700, 0.0000 ]
+                      parentSlotName: l_thumb
+                      freeRotation: true
+                ## name: "leg1"
+            isExpanded: true
+            trackGroupColor: [ 151, 164, 150, 100 ]
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0148
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_begin
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.7481
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_end
+                ## name: "sfx"
+            trackGroupColor: [ 229, 235, 197, 100 ]
+          shader_fx:
+            ".type": CFXTrackGroup
+            ## name: "shader_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeBegin: -0.0207
+                    timeDuration: 5.7649
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 15.9637, 8.0000, 1.0000, 1.0000 ]
+                      - [ 12.4314, 8.0000, 1.0000, 1.0000 ]
+                      - [ 6.0185, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.8402, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 8.0000, 1.0000, 1.0000 ]
+                    material: fx/shaders/emisive.w2mg
+                    drawOriginal: true
+                ## name: "asd"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0190
+                    timeDuration: 6.0004
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7500, 1.0000, 1.0000 ]
+                      - [ 0.4167, 1.0000, 1.0000 ]
+                      - [ 0.0833, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_smoke_after.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.4000, 0.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 184, 199, 200, 100 ]
+          hit:
+            ".type": CFXTrackGroup
+            ## name: "hit"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: -0.0129
+                    timeDuration: 3.1179
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 31.0450, 1.0000 ]
+                      - [ 12.8633, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 166, 111, 255 ]
+                    radius: 8.0000
+                    brightness: 2.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 45.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.7000, 0.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "light"
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0106
+                    timeDuration: 4.4805
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/igni/instant/fire_hit_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.4000, 0.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "particle"
+            isExpanded: true
+            isEnabled: true
+            trackGroupColor: [ 221, 243, 229, 100 ]
+        length: 5.4605
+        loopStart: 0.5216
+        ## name: fire_hit
+        showDistance: 55.0000
+      #buffer: 3359 bytes, MD5: 254a34dbe621ae4b3061c71ea4fc11b5
+      yrden_slowdown:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0304
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 0.6747, 0.5000, 0.6000 ]
+                      - [ 0.1349, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                    particleSystem: fx/signs/yrden/lv1/yrden_character.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_foot
+                ## name: "4"
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0101
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 0.6747, 0.5000, 0.6000 ]
+                      - [ 0.1349, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                    particleSystem: fx/signs/yrden/lv1/yrden_character.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: r_foot
+                ## name: "3"
+              "2":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0203
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 1.0000, 0.5000, 0.6000 ]
+                      - [ 0.6747, 0.5000, 0.6000 ]
+                      - [ 0.1349, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                      - [ 0.0000, 0.5000, 0.6000 ]
+                    particleSystem: fx/signs/yrden/lv1/yrden_character.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_handRoll
+                ## name: "2"
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0078
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 0.6000, 3.0000 ]
+                      - [ 1.0000, 0.6000, 3.0000 ]
+                      - [ 1.0000, 0.6000, 3.0000 ]
+                      - [ 1.0000, 0.6000, 3.0000 ]
+                      - [ 0.6747, 0.6000, 3.0000 ]
+                      - [ 0.1349, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                      - [ 0.0000, 0.6000, 3.0000 ]
+                    particleSystem: fx/signs/yrden/lv1/yrden_character.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: neck1
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 150, 226, 166, 100 ]
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.1091
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_yrden_slowdown_loop
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.7678
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_yrden_slowdown_loop_end
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 213, 195, 212, 100 ]
+        length: 3.9867
+        loopStart: 0.3134
+        loopEnd: 0.7364
+        ## name: yrden_slowdown
+        showDistance: 30.0000
+        isLooped: true
+      #buffer: 5271 bytes, MD5: c477437ef744a11ab9f9b8d3cc9f5e1c
+      igni_cone_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          trail_fx:
+            ".type": CFXTrackGroup
+            ## name: "trail_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                ## name: "3"
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.1154
+                    timeDuration: 2.8968
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.9333, 1.0000, 1.5000 ]
+                      - [ 0.6667, 1.0000, 1.5000 ]
+                      - [ 0.4000, 1.0000, 1.5000 ]
+                      - [ 0.1333, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_foot
+                      freeRotation: true
+                ## name: "sd"
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.1542
+                    timeDuration: 4.5804
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 1.0000, 1.0000, 0.5100 ]
+                      - [ 0.8333, 1.0000, 0.5100 ]
+                      - [ 0.5000, 1.0000, 0.5100 ]
+                      - [ 0.1667, 1.0000, 0.5100 ]
+                      - [ 0.0000, 1.0000, 0.5100 ]
+                      - [ 0.0000, 1.0000, 0.5100 ]
+                      - [ 0.0000, 1.0000, 0.5100 ]
+                      - [ 0.0000, 1.0000, 0.5100 ]
+                      - [ 0.0000, 1.0000, 0.5100 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: nose
+                      freeRotation: true
+                ## name: "4"
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.2453
+                    timeDuration: 3.6036
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7778, 1.0000, 1.0000 ]
+                      - [ 0.5556, 1.0000, 1.0000 ]
+                      - [ 0.3333, 1.0000, 1.0000 ]
+                      - [ 0.1111, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_ear
+                      freeRotation: true
+                ## name: "3"
+              leg2:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0008
+                    timeDuration: 4.4852
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.7778, 1.0000, 1.5000 ]
+                      - [ 0.5556, 1.0000, 1.5000 ]
+                      - [ 0.3333, 1.0000, 1.5000 ]
+                      - [ 0.1111, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: r_backpaw
+                      freeRotation: true
+                ## name: "leg2"
+              leg1:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0569
+                    timeDuration: 3.3143
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9167, 1.0000, 1.0000 ]
+                      - [ 0.7500, 1.0000, 1.0000 ]
+                      - [ 0.5833, 1.0000, 1.0000 ]
+                      - [ 0.4167, 1.0000, 1.0000 ]
+                      - [ 0.2500, 1.0000, 1.0000 ]
+                      - [ 0.0833, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx5.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: l_frontpaw
+                      freeRotation: true
+                ## name: "leg1"
+            isExpanded: true
+            trackGroupColor: [ 151, 164, 150, 100 ]
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0148
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_begin
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.7481
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_end
+                ## name: "sfx"
+            trackGroupColor: [ 229, 235, 197, 100 ]
+          shader_fx:
+            ".type": CFXTrackGroup
+            ## name: "shader_fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                ## name: "fx"
+            trackGroupColor: [ 184, 199, 200, 100 ]
+          hit:
+            ".type": CFXTrackGroup
+            ## name: "hit"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0248
+                    timeDuration: 3.1179
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000 ]
+                      - [ 5.1274, 1.0000 ]
+                      - [ 3.7580, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 0.9048, 1.0000 ]
+                      - [ 0.8095, 1.0000 ]
+                      - [ 0.7143, 1.0000 ]
+                      - [ 0.6190, 1.0000 ]
+                      - [ 0.5238, 1.0000 ]
+                      - [ 0.4286, 1.0000 ]
+                      - [ 0.3333, 1.0000 ]
+                      - [ 0.2381, 1.0000 ]
+                      - [ 0.1429, 1.0000 ]
+                      - [ 0.0476, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 145, 70, 255 ]
+                    radius: 4.0000
+                    lightFlickering:  #SLightFlickering
+                      positionOffset: 0.3000
+                      flickerStrength: 0.3000
+                    autoHideDistance: 45.0000
+                    colorGroup: ECG_FX_FireLight
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: head
+                ## name: "light"
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0346
+                    timeDuration: 4.4805
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/igni/instant/instant_fire_hit.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: head
+                ## name: "particle"
+            isExpanded: true
+            isEnabled: true
+            trackGroupColor: [ 221, 243, 229, 100 ]
+        length: 5.4605
+        loopStart: 0.5216
+        ## name: igni_cone_hit
+      #buffer: 8122 bytes, MD5: 97d3189de9bf56649076a64d1e49808f
+      critical_burning:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          flare:
+            ".type": CFXTrackGroup
+            ## name: "flare"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0040
+                    timeDuration: 5.6596
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 2.0000
+                      - 2.0000
+                      - 1.8947
+                      - 1.5789
+                      - 1.2632
+                      - 0.9474
+                      - 0.6316
+                      - 0.3158
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 255
+                          Green: 153
+                          Blue: 88
+                          Alpha: 255
+                        - 0.5000
+                    parameters:  #SFlareParameters
+                      flareRadius: 5.0000
+                      visibilityFullDist: 12.0000
+                      visibilityFadeRange: 5.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      parentSlotName: torso3
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 158, 174, 171, 100 ]
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0157
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_begin
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.1662
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_body_strong_loop
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 1.0737
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_body_strong_loop_end
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 1.1999
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_fire_burning_strong_end
+                ## name: "sfx"
+            trackGroupColor: [ 232, 132, 227, 100 ]
+          leg:
+            ".type": CFXTrackGroup
+            ## name: "leg"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "5":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0040
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.8704, 1.0000, 1.5000 ]
+                      - [ 0.6770, 1.0000, 1.5000 ]
+                      - [ 0.4836, 1.0000, 1.5000 ]
+                      - [ 0.2901, 1.0000, 1.5000 ]
+                      - [ 0.0967, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ -0.2500, 0.1000, 0.2000, 0.0000 ]
+                      parentSlotName: l_shin
+                      freeRotation: true
+                ## name: "5"
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0000
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8704, 1.0000, 1.0000 ]
+                      - [ 0.6770, 1.0000, 1.0000 ]
+                      - [ 0.4836, 1.0000, 1.0000 ]
+                      - [ 0.2901, 1.0000, 1.0000 ]
+                      - [ 0.0967, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.2000, -0.2000, 0.0000, 0.0000 ]
+                      parentSlotName: pelvis
+                      freeRotation: true
+                ## name: "4"
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0812
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.8704, 1.0000, 1.5000 ]
+                      - [ 0.6770, 1.0000, 1.5000 ]
+                      - [ 0.4836, 1.0000, 1.5000 ]
+                      - [ 0.2901, 1.0000, 1.5000 ]
+                      - [ 0.0967, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.3000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                      freeRotation: true
+                ## name: "4"
+              "4":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0304
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.8704, 1.0000, 1.5000 ]
+                      - [ 0.6770, 1.0000, 1.5000 ]
+                      - [ 0.4836, 1.0000, 1.5000 ]
+                      - [ 0.2901, 1.0000, 1.5000 ]
+                      - [ 0.0967, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.3000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                      freeRotation: true
+                ## name: "4"
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0104
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8704, 1.0000, 1.0000 ]
+                      - [ 0.6770, 1.0000, 1.0000 ]
+                      - [ 0.4836, 1.0000, 1.0000 ]
+                      - [ 0.2901, 1.0000, 1.0000 ]
+                      - [ 0.0967, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.2000, 0.0000, 0.0000 ]
+                      parentSlotName: r_backpaw
+                      freeRotation: true
+                ## name: "3"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0575
+                    timeDuration: 3.0070
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 0.8704, 1.0000, 1.5000 ]
+                      - [ 0.6770, 1.0000, 1.5000 ]
+                      - [ 0.4836, 1.0000, 1.5000 ]
+                      - [ 0.2901, 1.0000, 1.5000 ]
+                      - [ 0.0967, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                      - [ 0.0000, 1.0000, 1.5000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.0500, 0.0000, 0.0000 ]
+                      parentSlotName: l_frontpaw
+                      freeRotation: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 190, 254, 242, 100 ]
+          main:
+            ".type": CFXTrackGroup
+            ## name: "main"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx3:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0133
+                    timeDuration: 4.4805
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9419, 1.0000, 1.0000 ]
+                      - [ 0.6533, 1.0000, 1.0000 ]
+                      - [ 0.3647, 1.0000, 1.0000 ]
+                      - [ 0.0760, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_smoke_after.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: neck1
+                ## name: "fx3"
+              fx2:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0065
+                    timeDuration: 4.0272
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 1.0000, 1.0000, 0.7500 ]
+                      - [ 0.7165, 1.0000, 0.7500 ]
+                      - [ 0.4299, 1.0000, 0.7500 ]
+                      - [ 0.1433, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                      - [ 0.0000, 1.0000, 0.7500 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx3.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, -0.2000, 0.0000, 0.0000 ]
+                      parentSlotName: r_handRoll
+                ## name: "fx2"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0150
+                    timeDuration: 4.0272
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.4000 ]
+                      - [ 1.0000, 1.0000, 1.4000 ]
+                      - [ 1.0000, 1.0000, 1.4000 ]
+                      - [ 1.0000, 1.0000, 1.4000 ]
+                      - [ 1.0000, 1.0000, 1.4000 ]
+                      - [ 0.7165, 1.0000, 1.4000 ]
+                      - [ 0.4299, 1.0000, 1.4000 ]
+                      - [ 0.1433, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                      - [ 0.0000, 1.0000, 1.4000 ]
+                    particleSystem: fx/characters/man_base/critical/arson/fire_fx3.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.0000, 0.3000, 0.0000, 0.0000 ]
+                      parentSlotName: neck1
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 173, 211, 250, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              dynamic:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0038
+                    timeDuration: 2.8776
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.4420, 1.0000 ]
+                      - [ 4.4983, 1.0000 ]
+                      - [ 6.0000, 1.0000 ]
+                      - [ 6.0000, 1.0000 ]
+                      - [ 6.0000, 1.0000 ]
+                      - [ 6.0000, 1.0000 ]
+                      - [ 5.1546, 1.0000 ]
+                      - [ 4.2419, 1.0000 ]
+                      - [ 3.3292, 1.0000 ]
+                      - [ 2.4165, 1.0000 ]
+                      - [ 1.5038, 1.0000 ]
+                      - [ 0.5911, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 255, 148, 83, 255 ]
+                    radius: 6.0000
+                    brightness: 9.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerStrength: 0.6000
+                    autoHideDistance: 45.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: torso3
+                ## name: "dynamic"
+            isExpanded: true
+            trackGroupColor: [ 252, 206, 223, 100 ]
+        length: 6.0109
+        loopStart: 0.5216
+        ## name: critical_burning
+        showDistance: 18.0000
+        isLooped: true
+      #buffer: 4806 bytes, MD5: e99d68d95aa03fd9bdf831fd0c726b5d
+      yrden_shock:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0120
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_yrden_shock_activate
+                    maxDistance: 30.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 211, 207, 151, 100 ]
+          leg:
+            ".type": CFXTrackGroup
+            ## name: "leg"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0134
+                    timeDuration: 2.1240
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9336, 1.0000, 1.0000 ]
+                      - [ 0.7144, 1.0000, 1.0000 ]
+                      - [ 0.4952, 1.0000, 1.0000 ]
+                      - [ 0.2761, 1.0000, 1.0000 ]
+                      - [ 0.0569, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/yrden/lv2/yrden_leg_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      parentSlotName: r_kneeRoll
+                ## name: "fx"
+              fc:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0072
+                    timeDuration: 2.1240
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9336, 1.0000, 1.0000 ]
+                      - [ 0.7144, 1.0000, 1.0000 ]
+                      - [ 0.4952, 1.0000, 1.0000 ]
+                      - [ 0.2761, 1.0000, 1.0000 ]
+                      - [ 0.0569, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/yrden/lv2/yrden_leg_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      parentSlotName: l_kneeRoll
+                ## name: "fc"
+            isExpanded: true
+            trackGroupColor: [ 245, 166, 165, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.1345
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9152, 1.0000, 1.0000 ]
+                      - [ 0.7744, 1.0000, 1.0000 ]
+                      - [ 0.6336, 1.0000, 1.0000 ]
+                      - [ 0.4928, 1.0000, 1.0000 ]
+                      - [ 0.3520, 1.0000, 1.0000 ]
+                      - [ 0.2112, 1.0000, 1.0000 ]
+                      - [ 0.0704, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/yrden/charge_release/yrden_release_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "sd"
+              sd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0114
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9152, 1.0000, 1.0000 ]
+                      - [ 0.7744, 1.0000, 1.0000 ]
+                      - [ 0.6336, 1.0000, 1.0000 ]
+                      - [ 0.4928, 1.0000, 1.0000 ]
+                      - [ 0.3520, 1.0000, 1.0000 ]
+                      - [ 0.2112, 1.0000, 1.0000 ]
+                      - [ 0.0704, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/yrden/charge_release/yrden_release_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "sd"
+              "2":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0492
+                    timeDuration: 2.0355
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 44.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000 ]
+                    color: [ 144, 124, 255, 255 ]
+                    radius: 7.0000
+                    brightness: 2.0000
+                    lightFlickering:  #SLightFlickering
+                      positionOffset: 0.2000
+                      flickerStrength: 1.0000
+                      flickerPeriod: 0.1000
+                    autoHideDistance: 22.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: torso3
+                ## name: "2"
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0180
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9152, 1.0000, 1.0000 ]
+                      - [ 0.7744, 1.0000, 1.0000 ]
+                      - [ 0.6336, 1.0000, 1.0000 ]
+                      - [ 0.4928, 1.0000, 1.0000 ]
+                      - [ 0.3520, 1.0000, 1.0000 ]
+                      - [ 0.2112, 1.0000, 1.0000 ]
+                      - [ 0.0704, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/yrden/lv3/yrden_freeze.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                      parentSlotName: torso3
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 150, 226, 166, 100 ]
+        length: 3.9867
+        loopStart: 0.2370
+        loopEnd: 0.7364
+        ## name: yrden_shock
+      #buffer: 3991 bytes, MD5: 8185ed6692e3d09b1651bde294c02c78
+      hit_electric:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0181
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_yrden_shock_activate
+                    maxDistance: 30.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 145, 232, 143, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              after:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: -0.0094
+                    timeDuration: 3.2601
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 7.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 145
+                          Green: 186
+                          Blue: 255
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                    parameters:  #SFlareParameters
+                      flareRadius: 4.0000
+                      fadeInMaxSpeed: 1222.0000
+                      fadeInAccel: 12222.0000
+                      visibilityFullDist: 12.0000
+                      visibilityFadeRange: 5.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      parentSlotName: torso2
+                ## name: "after"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0097
+                    timeDuration: 2.7365
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/yennefer/attack_01/electric_hit_particle.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                      relativePosition: [ 0.0000, 0.5000, 0.0000, 0.0000 ]
+                      parentSlotName: neck1
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 201, 236, 153, 100 ]
+          shader:
+            ".type": CFXTrackGroup
+            ## name: "shader"
+            tracks:  #array:2,0,ptr:CFXTrack
+              mat:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.0886
+                    timeDuration: 0.9084
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 398.4465, 1.0000 ]
+                      - [ 77.8571, 1.0000 ]
+                      - [ 16.8062, 1.0000 ]
+                      - [ 15.1814, 1.0000 ]
+                      - [ 13.5566, 1.0000 ]
+                      - [ 11.9318, 1.0000 ]
+                      - [ 10.3069, 1.0000 ]
+                      - [ 8.6821, 1.0000 ]
+                      - [ 7.0573, 1.0000 ]
+                      - [ 5.4325, 1.0000 ]
+                      - [ 3.8077, 1.0000 ]
+                      - [ 2.1829, 1.0000 ]
+                      - [ 0.5581, 1.0000 ]
+                      - [ -0.2260, 1.0000 ]
+                      - [ -0.1695, 1.0000 ]
+                    color: [ 145, 186, 255, 255 ]
+                    radius: 12.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 44.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: torso2
+                ## name: "mat"
+            isExpanded: true
+            trackGroupColor: [ 248, 211, 224, 100 ]
+        length: 2.6921
+        loopStart: 0.1366
+        loopEnd: 0.4593
+        ## name: hit_electric
+        showDistance: 55.0000
+      #buffer: 3238 bytes, MD5: 4976d9a2e0cb02719861eba842f0193c
+      axii_guardian:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0010
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_axii_target_guard_loop
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 1.0107
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_axii_target_guard_loop_end
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 245, 166, 165, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              f:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeDuration: 1.9822
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.6423
+                      - 1.1768
+                      - 1.4261
+                      - 1.6754
+                      - 1.8000
+                      - 1.8000
+                      - 1.8000
+                      - 1.8000
+                      - 1.4111
+                      - 0.9407
+                      - 0.4704
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 254
+                          Green: 255
+                          Blue: 243
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                    parameters:  #SFlareParameters
+                      occlusionExtent: 0.3000
+                      flareRadius: 1.3500
+                      fadeInMaxSpeed: 122.0000
+                      fadeInAccel: 1222.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "f"
+            isExpanded: true
+            trackGroupColor: [ 252, 206, 223, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              glow:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0267
+                    timeDuration: 4.0116
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.6275, 1.0000, 1.5379 ]
+                      - [ 1.0000, 1.0000, 2.0758 ]
+                      - [ 1.0000, 1.0000, 2.2000 ]
+                      - [ 0.5592, 1.0000, 2.2000 ]
+                      - [ 0.0000, 1.0000, 1.9348 ]
+                      - [ 0.0000, 1.0000, 1.6584 ]
+                      - [ 0.0000, 1.0000, 1.3820 ]
+                      - [ 0.0000, 1.0000, 1.1056 ]
+                      - [ 0.0000, 1.0000, 0.8292 ]
+                      - [ 0.0000, 1.0000, 0.5528 ]
+                      - [ 0.0000, 1.0000, 0.2764 ]
+                      - [ 0.0000, 1.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000 ]
+                      - [ 0.0000, 1.0000, 0.0000 ]
+                    particleSystem: fx/signs/axii/ver_2/axii_quard_head.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "glow"
+            isExpanded: true
+            trackGroupColor: [ 171, 182, 241, 100 ]
+        length: 4.0121
+        loopStart: 0.6277
+        ## name: axii_guardian
+        showDistance: 70.0000
+        isLooped: true
+      #buffer: 3237 bytes, MD5: 931318c3f0ad64486d9c6577b1c2c00f
+      axii_confusion:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0010
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_axii_target_confusion_loop
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 1.0107
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_axii_target_confusion_loop_end
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 245, 166, 165, 100 ]
+          light:
+            ".type": CFXTrackGroup
+            ## name: "light"
+            tracks:  #array:2,0,ptr:CFXTrack
+              f:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemFlare
+                    timeBegin: 0.0205
+                    timeDuration: 1.9822
+                    ## buffername: 
+                    ## count: 1
+                    ## unk: 1
+                    interpolation:
+                      - 0.0000
+                      - 0.6423
+                      - 1.1768
+                      - 1.4261
+                      - 1.6754
+                      - 1.8000
+                      - 1.8000
+                      - 1.8000
+                      - 1.8000
+                      - 1.4111
+                      - 0.9407
+                      - 0.4704
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                      - 0.0000
+                    material:
+                      ".type": CMaterialInstance
+                      baseMaterial: fx/shaders/flares_fx_mat.w2mg
+                      InstanceParameters:  #array:0,0,CVariantSizeNameType
+                        - ".type": CVariantSizeNameType
+                          Red: 254
+                          Green: 255
+                          Blue: 243
+                          Alpha: 255
+                        - 120.0000
+                        - 60.0000
+                    parameters:  #SFlareParameters
+                      occlusionExtent: 0.3000
+                      flareRadius: 1.3500
+                      fadeInMaxSpeed: 122.0000
+                      fadeInAccel: 1222.0000
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "f"
+            isExpanded: true
+            trackGroupColor: [ 252, 206, 223, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              after:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0480
+                    timeDuration: 4.0116
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.6275, 1.0000, 0.8207 ]
+                      - [ 1.0000, 1.0000, 0.6414 ]
+                      - [ 1.0000, 1.0000, 0.6000 ]
+                      - [ 0.5592, 0.7407, 0.6000 ]
+                      - [ 0.0000, 0.3704, 0.6482 ]
+                      - [ 0.0000, 0.0000, 0.6985 ]
+                      - [ 0.0000, 0.0000, 0.7487 ]
+                      - [ 0.0000, 0.0000, 0.7990 ]
+                      - [ 0.0000, 0.0000, 0.8492 ]
+                      - [ 0.0000, 0.0000, 0.8995 ]
+                      - [ 0.0000, 0.0000, 0.9497 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/signs/axii/ver_1/axii_confusion_head_big.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: head
+                ## name: "after"
+            isExpanded: true
+            trackGroupColor: [ 171, 182, 241, 100 ]
+        length: 4.0121
+        loopStart: 0.6277
+        loopEnd: 0.9074
+        ## name: axii_confusion
+        showDistance: 70.0000
+        isLooped: true
+      #buffer: 1725 bytes, MD5: 7562f2436e119cad7005cc2127cdfc4e
+      focus_sound_fx:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0046
+                    timeDuration: 0.3809
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/focus_mode/focus_sound_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: torso3
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 206, 192, 161, 100 ]
+        length: 0.3947
+        loopStart: 0.0964
+        loopEnd: 0.2845
+        ## name: focus_sound_fx
+        showDistance: 300.0000
+        isLooped: true
+      #buffer: 2917 bytes, MD5: ea67e91e07cf0549b85bc1f9d8ef1e93
+      critical_frozen:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0155
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_critical_frozen_loop_start
+                    maxDistance: 25.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 2.6152
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: fx_critical_frozen_loop_stop
+                    maxDistance: 25.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 200, 186, 244, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sad:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 4.5000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 0.8960, 1.0000 ]
+                      - [ 0.0000, 0.7167, 1.0000 ]
+                      - [ 0.0000, 0.5375, 1.0000 ]
+                      - [ 0.0000, 0.3582, 1.0000 ]
+                      - [ 0.0000, 0.1790, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/states/freezing/freezing_smoke_horizontal.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: torso3
+                ## name: "sad"
+            isExpanded: true
+            trackGroupColor: [ 236, 165, 222, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeDuration: 4.3039
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.2000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2791, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3582, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4374, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5384, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7226, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9067, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7287, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4557, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.1827, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                    material: fx/gameplay/states/freezing/freezing_shader_old.w2mg
+                    drawOriginal: true
+                    forceMeshAlternatives: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 232, 241, 164, 100 ]
+        length: 4.5000
+        loopStart: 1.9376
+        loopEnd: 2.4989
+        ## name: critical_frozen
+        showDistance: 35.0000
+        isLooped: true
+      #buffer: 1827 bytes, MD5: 7dc793c0e26aed91609b8e6cd6591cd6
+      axii_slowdown:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              particle:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0078
+                    timeDuration: 3.9613
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 0.9171, 1.5000 ]
+                      - [ 0.6747, 0.4752, 1.5000 ]
+                      - [ 0.1349, 0.0334, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                      - [ 0.0000, 0.0000, 1.5000 ]
+                    particleSystem: fx/signs/axii/ver_1/axii_slowdown.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      attach: true
+                      relativePosition: [ 0.3000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: neck1
+                ## name: "particle"
+            isExpanded: true
+            trackGroupColor: [ 150, 226, 166, 100 ]
+        length: 3.9867
+        loopStart: 0.4079
+        loopEnd: 0.7364
+        ## name: axii_slowdown
+        showDistance: 30.0000
+        isLooped: true
+      #buffer: 2937 bytes, MD5: c4838e4511357ece4291753933f7efe2
+      hit_electric_quen:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0116
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: sign_quen_discharge_short
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 219, 174, 131, 100 ]
+          shader:
+            ".type": CFXTrackGroup
+            ## name: "shader"
+            tracks:  #array:2,0,ptr:CFXTrack
+              mat:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.1217
+                    timeDuration: 0.9084
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 200.1928, 1.0000 ]
+                      - [ 46.7214, 1.0000 ]
+                      - [ 11.6634, 1.0000 ]
+                      - [ 3.7183, 1.0000 ]
+                      - [ -0.2449, 1.0000 ]
+                      - [ -0.2260, 1.0000 ]
+                      - [ -0.2072, 1.0000 ]
+                      - [ -0.1884, 1.0000 ]
+                      - [ -0.1695, 1.0000 ]
+                      - [ -0.1507, 1.0000 ]
+                      - [ -0.1319, 1.0000 ]
+                      - [ -0.1130, 1.0000 ]
+                      - [ -0.0942, 1.0000 ]
+                      - [ -0.0753, 1.0000 ]
+                      - [ -0.0565, 1.0000 ]
+                    color: [ 255, 184, 113, 255 ]
+                    radius: 12.0000
+                    lightFlickering:  #SLightFlickering
+                      flickerPeriod: 0.0000
+                    autoHideDistance: 44.0000
+                    colorGroup: ECG_LightsDefault
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      parentSlotName: neck1
+                ## name: "mat"
+            isExpanded: true
+            trackGroupColor: [ 248, 211, 224, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0033
+                    timeDuration: 2.7365
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/signs/quen/ver3/electric_hit_quen.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativeRotation: [ 0.0000, 90.0000, 0.0000 ]
+                      parentSlotName: neck1
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 201, 236, 153, 100 ]
+        length: 2.6921
+        loopStart: 0.1366
+        loopEnd: 0.4593
+        ## name: hit_electric_quen
+        showDistance: 55.0000
+      #buffer: 3419 bytes, MD5: 86b5b82f27c653b4120451c1e8994745
+      demonic_possession:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.9770
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: qu_item_demonic_saddle_fx_out
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0075
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: qu_item_demonic_saddle_fx_in
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 245, 166, 165, 100 ]
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              end:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.9705
+                    timeDuration: 4.0116
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.6275, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5592, 0.7407, 1.0000 ]
+                      - [ 0.0000, 0.3704, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/states/possession_demonic/demonic_possession_end_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "end"
+              start:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0066
+                    timeDuration: 4.0116
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.6275, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5592, 0.7407, 1.0000 ]
+                      - [ 0.0000, 0.3704, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/states/possession_demonic/demonic_possession_start_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.1000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "start"
+              after:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0053
+                    timeDuration: 4.0116
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 2.5000 ]
+                      - [ 0.6275, 1.0000, 2.5000 ]
+                      - [ 1.0000, 1.0000, 2.5000 ]
+                      - [ 1.0000, 1.0000, 2.5000 ]
+                      - [ 0.5592, 0.7407, 2.5000 ]
+                      - [ 0.0000, 0.3704, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                      - [ 0.0000, 0.0000, 2.5000 ]
+                    particleSystem: fx/gameplay/states/possession_demonic/demonic_possession_head_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: bear_berserker
+                      copyRotation: false
+                      attach: true
+                      relativePosition: [ 0.2000, 0.0000, 0.0000, 0.0000 ]
+                      parentSlotName: head
+                ## name: "after"
+            isExpanded: true
+            trackGroupColor: [ 171, 182, 241, 100 ]
+        length: 4.0121
+        loopStart: 0.6277
+        loopEnd: 0.9074
+        ## name: demonic_possession
+        showDistance: 70.0000
+        isLooped: true
+    ## cookedEffectsVersion: 1

@@ -1,0 +1,53 @@
+templates:
+  dzinn.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+      baseName: "Dzinn"
+      order: 4278190078
+      uniqueScriptIdentifier: Dzinn
+      parentGuid: 4dcf8e73-ac97-4318-9746-78cbe7014d69
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: 66a86635-2a58-4c42-ab0b-a62c51e617c5
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions 66A86635-4C422A58-2CA60BAB-C517E651
+          parentGuid: 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: ed8a3431-7f3f-4610-8fac-39d5a3dd05ef
+              baseName: "Dzinn wpis"
+              order: 2147483647
+              uniqueScriptIdentifier: Dzinn wpis
+              parentGuid: 66a86635-2a58-4c42-ab0b-a62c51e617c5
+              description: <i>The pitcher emitted a puff of glowing red smoke. The smoke pulsated, then gathered into an irregular sphere floating in front of the poet's head...</i><br>–The First Longing, a Tale Fantastic in All Ways<br><br>A djinn is a powerful air spirit, a condensation of the power of said element endowed with consciousness and character - the latter usually nasty. According to legend, djinns can grant even the most far-fetched wishes, though they do so begrudgingly.<br><br>Unusually powerful mages can capture and tame these beings. A mage who succeeds in doing so can then draw energy from such a spirit, using it to cast spells without having to summon the Power from traditional sources. Only a handful have ever managed this feat, however, for djinns fight to avoid such a fate with stubborn determination. To imprison a djinn and bend it to one's will, one must first weaken it - and that is no easy task.<br><br>Fighting djinns is extraordinarily difficult. They can fling off spells in an instant that the most accomplished human mages could never master with years of preparation. What's more, by manipulating the element of air they can summon gales, powerful storms, even hurricanes. Luckily, as magic beings they are vulnerable to silver - yet steel will do them no harm.
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: d68cdfcb-fc95-4d42-8956-9b79e28cbf70
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues D68CDFCB-4D42FC95-799B5689-70BF8CE2
+          parentGuid: 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: edb32201-33d1-4c56-8881-6aebcab97065
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints EDB32201-4C5633D1-EB6A8188-6570B9CA
+          parentGuid: 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: 8e98c695-6ecc-4281-bb2e-8f5422a75a57
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots 8E98C695-42816ECC-548F2EBB-575AA722
+          parentGuid: 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+          index: 3
+      name: Djinns
+      image: "bestiary_djin.png"
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Dwimeritium Bomb 1
+        - Magicals Oil 1
+        - Yrden
+        - Axii

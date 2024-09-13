@@ -1,0 +1,359 @@
+sorceress_stone_proj.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3BoulderProjectile
+sorceress_stone_proj.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+sorceress_stone_proj.w2ent:            properOverrides (Bool) : true
+sorceress_stone_proj.w2ent:            entityClass (CName) : W3BoulderProjectile
+sorceress_stone_proj.w2ent:            entityObject (ptr:CEntity) : W3BoulderProjectile #1
+sorceress_stone_proj.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+sorceress_stone_proj.w2ent:                0 (CEntityAppearance) : default
+sorceress_stone_proj.w2ent:                    name (CName) : default
+sorceress_stone_proj.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+sorceress_stone_proj.w2ent:                        0 (handle:CEntityTemplate) : fx/monsters/elemental/earth/elemental_stone/elemental_stone_small.w2ent
+sorceress_stone_proj.w2ent:                1 (CEntityAppearance) : empty
+sorceress_stone_proj.w2ent:                    name (CName) : empty
+sorceress_stone_proj.w2ent:            usedAppearances (array:CName) : # array:CName
+sorceress_stone_proj.w2ent:                0 (CName) : default
+sorceress_stone_proj.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+sorceress_stone_proj.w2ent:                W3BoulderProjectile #0 (W3BoulderProjectile) : PreviewEntity
+sorceress_stone_proj.w2ent:                    W3BoulderProjectile (W3BoulderProjectile) : PreviewEntity
+sorceress_stone_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        streamingDistance (Uint8) : 0
+sorceress_stone_proj.w2ent:                        entityStaticFlags (EEntityStaticFlags) : 
+sorceress_stone_proj.w2ent:                        name (String) : "PreviewEntity"
+sorceress_stone_proj.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+sorceress_stone_proj.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
+sorceress_stone_proj.w2ent:                            1 (ptr:CComponent) : CEffectDummyComponent #2
+sorceress_stone_proj.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sorceress_stone_proj.w2ent:                            0 (SEntityBufferType1) : 
+sorceress_stone_proj.w2ent:                                ComponentName (CName) : 
+sorceress_stone_proj.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sorceress_stone_proj.w2ent:                        idTag (IdTag) :  f8997906-1a20-4573-9d9d-914419954714
+sorceress_stone_proj.w2ent:                        radius (Float) : 0.1000
+sorceress_stone_proj.w2ent:                        projSpeed (Float) : 40.0000
+sorceress_stone_proj.w2ent:                        projDMG (Float) : 200.0000
+sorceress_stone_proj.w2ent:                        ignoreArmor (Bool) : false
+sorceress_stone_proj.w2ent:                        onCollisionFxName (CName) : impact
+sorceress_stone_proj.w2ent:                        onCollisionAppearanceName (CName) : empty
+sorceress_stone_proj.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+sorceress_stone_proj.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+sorceress_stone_proj.w2ent:                        guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+sorceress_stone_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        name (String) : "CAppearanceComponent0"
+sorceress_stone_proj.w2ent:                        graphPositionX (Int16) : 111
+sorceress_stone_proj.w2ent:                        graphPositionY (Int16) : 53
+sorceress_stone_proj.w2ent:                        forcedAppearance (CName) : default
+sorceress_stone_proj.w2ent:                CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:                        guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+sorceress_stone_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:                        name (String) : "CEffectDummyComponent0"
+sorceress_stone_proj.w2ent:                        graphPositionX (Int16) : -171
+sorceress_stone_proj.w2ent:                        graphPositionY (Int16) : 110
+sorceress_stone_proj.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+sorceress_stone_proj.w2ent:                0 (CEntityTemplateCookedEffect) : impact
+sorceress_stone_proj.w2ent:                    name (CName) : impact
+sorceress_stone_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sorceress_stone_proj.w2ent:                        Bufferdata (CByteArray) : 1572 bytes, MD5: 401e88766e96427fd2d40e8cfbda2025
+sorceress_stone_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : impact
+sorceress_stone_proj.w2ent:                            CFXDefinition (CFXDefinition) : impact
+sorceress_stone_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sorceress_stone_proj.w2ent:                                length (Float) : 5.0000
+sorceress_stone_proj.w2ent:                                loopEnd (Float) : 5.0000
+sorceress_stone_proj.w2ent:                                name (CName) : impact
+sorceress_stone_proj.w2ent:                                showDistance (Float) : 50.0000
+sorceress_stone_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particles
+sorceress_stone_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+sorceress_stone_proj.w2ent:                                name (String) : "particles"
+sorceress_stone_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sorceress_stone_proj.w2ent:                                isExpanded (Bool) : true
+sorceress_stone_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sorceress_stone_proj.w2ent:                                    Red (Uint8) : 194
+sorceress_stone_proj.w2ent:                                    Green (Uint8) : 241
+sorceress_stone_proj.w2ent:                                    Blue (Uint8) : 169
+sorceress_stone_proj.w2ent:                                    Alpha (Uint8) : 100
+sorceress_stone_proj.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+sorceress_stone_proj.w2ent:                            CFXTrack (CFXTrack) : fx
+sorceress_stone_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+sorceress_stone_proj.w2ent:                                name (String) : "fx"
+sorceress_stone_proj.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+sorceress_stone_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sorceress_stone_proj.w2ent:                                timeBegin (Float) : -0.0091
+sorceress_stone_proj.w2ent:                                timeDuration (Float) : 5.0000
+sorceress_stone_proj.w2ent:                                buffername (CName) : Particles
+sorceress_stone_proj.w2ent:                                count (CDynamicInt) : 3
+sorceress_stone_proj.w2ent:                                unk (Uint8) : 1
+sorceress_stone_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sorceress_stone_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/keira_metz/keira_proj_impact.w2p
+sorceress_stone_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+sorceress_stone_proj.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sorceress_stone_proj.w2ent:                                componentName (CName) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:                1 (CEntityTemplateCookedEffect) : glow
+sorceress_stone_proj.w2ent:                    name (CName) : glow
+sorceress_stone_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sorceress_stone_proj.w2ent:                        Bufferdata (CByteArray) : 2286 bytes, MD5: c5d9910a585b5bdc57d7fdd38a68bebf
+sorceress_stone_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : glow
+sorceress_stone_proj.w2ent:                            CFXDefinition (CFXDefinition) : glow
+sorceress_stone_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sorceress_stone_proj.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+sorceress_stone_proj.w2ent:                                loopStart (Float) : 0.1722
+sorceress_stone_proj.w2ent:                                loopEnd (Float) : 0.3313
+sorceress_stone_proj.w2ent:                                name (CName) : glow
+sorceress_stone_proj.w2ent:                                showDistance (Float) : 200.0000
+sorceress_stone_proj.w2ent:                                isLooped (Bool) : true
+sorceress_stone_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particle
+sorceress_stone_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
+sorceress_stone_proj.w2ent:                                name (String) : "particle"
+sorceress_stone_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sorceress_stone_proj.w2ent:                                isExpanded (Bool) : true
+sorceress_stone_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sorceress_stone_proj.w2ent:                                    Red (Uint8) : 185
+sorceress_stone_proj.w2ent:                                    Green (Uint8) : 129
+sorceress_stone_proj.w2ent:                                    Blue (Uint8) : 127
+sorceress_stone_proj.w2ent:                                    Alpha (Uint8) : 100
+sorceress_stone_proj.w2ent:                        CFXTrack #2 (CFXTrack) : ds
+sorceress_stone_proj.w2ent:                            CFXTrack (CFXTrack) : ds
+sorceress_stone_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+sorceress_stone_proj.w2ent:                                name (String) : "ds"
+sorceress_stone_proj.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+sorceress_stone_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sorceress_stone_proj.w2ent:                                timeBegin (Float) : -0.0078
+sorceress_stone_proj.w2ent:                                buffername (CName) : Particles
+sorceress_stone_proj.w2ent:                                count (CDynamicInt) : 3
+sorceress_stone_proj.w2ent:                                unk (Uint8) : 1
+sorceress_stone_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sorceress_stone_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 0.9037
+sorceress_stone_proj.w2ent:                                        7 (Float) : 0.7322
+sorceress_stone_proj.w2ent:                                        8 (Float) : 0.5607
+sorceress_stone_proj.w2ent:                                        9 (Float) : 0.3891
+sorceress_stone_proj.w2ent:                                        10 (Float) : 0.2176
+sorceress_stone_proj.w2ent:                                        11 (Float) : 0.0461
+sorceress_stone_proj.w2ent:                                        12 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        1 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.1000
+sorceress_stone_proj.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/keira_metz/lvitation_glow.w2p
+sorceress_stone_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+sorceress_stone_proj.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CMeshComponent0
+sorceress_stone_proj.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sorceress_stone_proj.w2ent:                                componentName (CName) : CMeshComponent0
+sorceress_stone_proj.w2ent:                                attach (Bool) : true
+sorceress_stone_proj.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : material
+sorceress_stone_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+sorceress_stone_proj.w2ent:                                name (String) : "material"
+sorceress_stone_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+sorceress_stone_proj.w2ent:                                isExpanded (Bool) : true
+sorceress_stone_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sorceress_stone_proj.w2ent:                                    Red (Uint8) : 179
+sorceress_stone_proj.w2ent:                                    Green (Uint8) : 239
+sorceress_stone_proj.w2ent:                                    Blue (Uint8) : 167
+sorceress_stone_proj.w2ent:                                    Alpha (Uint8) : 100
+sorceress_stone_proj.w2ent:                        CFXTrack #6 (CFXTrack) : asd
+sorceress_stone_proj.w2ent:                            CFXTrack (CFXTrack) : asd
+sorceress_stone_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sorceress_stone_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+sorceress_stone_proj.w2ent:                                name (String) : "asd"
+sorceress_stone_proj.w2ent:                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+sorceress_stone_proj.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+sorceress_stone_proj.w2ent:                                timeBegin (Float) : 0.0078
+sorceress_stone_proj.w2ent:                                buffername (CName) : MaterialOverride
+sorceress_stone_proj.w2ent:                                count (CDynamicInt) : 4
+sorceress_stone_proj.w2ent:                                unk (Uint8) : 1
+sorceress_stone_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.4331808> <0.8663617> <1> <1> <1> <0.8649281> <0.5606695> <0.2564107> <0> <0> <0> <0> 
+sorceress_stone_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        1 (Float) : 0.4332
+sorceress_stone_proj.w2ent:                                        2 (Float) : 0.8664
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 0.8649
+sorceress_stone_proj.w2ent:                                        7 (Float) : 0.5607
+sorceress_stone_proj.w2ent:                                        8 (Float) : 0.2564
+sorceress_stone_proj.w2ent:                                        9 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 0.8159
+sorceress_stone_proj.w2ent:                                        8 (Float) : 0.6012
+sorceress_stone_proj.w2ent:                                        9 (Float) : 0.3864
+sorceress_stone_proj.w2ent:                                        10 (Float) : 0.1716
+sorceress_stone_proj.w2ent:                                        11 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 0.0000
+sorceress_stone_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sorceress_stone_proj.w2ent:                                        0 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        2 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        3 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        4 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        5 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        6 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        7 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        8 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        9 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        10 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        11 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        12 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        13 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        14 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                        15 (Float) : 1.0000
+sorceress_stone_proj.w2ent:                                material (handle:IMaterial) : fx/characters/keira_metz/levitation_shader.w2mg
+sorceress_stone_proj.w2ent:                                drawOriginal (Bool) : true
+sorceress_stone_proj.w2ent:            cookedEffectsVersion (Uint32) : 1
+sorceress_stone_proj.w2ent:            Unk1 (Uint32) : 0
+sorceress_stone_proj.w2ent:    W3BoulderProjectile #1 (W3BoulderProjectile) : impact
+sorceress_stone_proj.w2ent:        W3BoulderProjectile (W3BoulderProjectile) : 
+sorceress_stone_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            streamingDistance (Uint8) : 0
+sorceress_stone_proj.w2ent:            entityStaticFlags (EEntityStaticFlags) : 
+sorceress_stone_proj.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+sorceress_stone_proj.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
+sorceress_stone_proj.w2ent:                1 (ptr:CComponent) : CEffectDummyComponent #3
+sorceress_stone_proj.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sorceress_stone_proj.w2ent:                0 (SEntityBufferType1) : 
+sorceress_stone_proj.w2ent:                    ComponentName (CName) : 
+sorceress_stone_proj.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sorceress_stone_proj.w2ent:            idTag (IdTag) :  f8997906-1a20-4573-9d9d-914419954714
+sorceress_stone_proj.w2ent:            radius (Float) : 0.1000
+sorceress_stone_proj.w2ent:            projSpeed (Float) : 40.0000
+sorceress_stone_proj.w2ent:            projDMG (Float) : 200.0000
+sorceress_stone_proj.w2ent:            ignoreArmor (Bool) : false
+sorceress_stone_proj.w2ent:            onCollisionFxName (CName) : impact
+sorceress_stone_proj.w2ent:            onCollisionAppearanceName (CName) : empty
+sorceress_stone_proj.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+sorceress_stone_proj.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+sorceress_stone_proj.w2ent:            guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+sorceress_stone_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            name (String) : "CAppearanceComponent0"
+sorceress_stone_proj.w2ent:            forcedAppearance (CName) : default
+sorceress_stone_proj.w2ent:    CEffectDummyComponent #3 (CEffectDummyComponent) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+sorceress_stone_proj.w2ent:            guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+sorceress_stone_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sorceress_stone_proj.w2ent:            name (String) : "CEffectDummyComponent0"

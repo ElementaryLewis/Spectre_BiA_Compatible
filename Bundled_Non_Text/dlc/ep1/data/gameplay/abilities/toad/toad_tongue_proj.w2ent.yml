@@ -1,0 +1,214 @@
+templates:
+  toad_tongue_proj.w2ent:
+    ".type": CEntityTemplate
+    ## properOverrides: true
+    ## entityClass: DebuffProjectile
+    entityObject:
+      ".type": DebuffProjectile
+      attachments: # array:handle:IAttachment
+      streamingDistance: 0
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CPhantomComponent
+          guid: da68a60d-e7e7-4444-b160-0ab1f85a4492
+          attachments: # array:handle:IAttachment
+          name: "CPhantomComponent0"
+          triggeringCollisionGroupNames:  #array:2,0,CName
+            - Character
+          shapeType: PS_Sphere
+          shapeDimensions: [ 1.5000, 0.0500, 0.0500, 0.5000 ]
+          onTriggerEnteredScriptEvent: CharacterCollision
+          onTriggerExitedScriptEvent: OnCharacterCollision
+        - ".type": CSoundEmitterComponent
+          guid: ef4b4a53-5990-4d37-85d8-1e1493d546c1
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          isStreamed: false
+          maxDistance: 60.0000
+      idTag:  ab577dec-d8a3-4548-9887-18c2e024b56b
+      doWaterLevelTest: false
+      radius: 1.5000
+      projSpeed: 65.0000
+      projAngle: 0.0000
+      projDMG: 300.0000
+      projEfect:
+        - EET_HeavyKnockdown
+      debuffType:
+        - EET_HeavyKnockdown
+      hitReactionType:
+        - EHRT_None
+      destroyQuen: true
+      applyDebuffIfNoDmgWasDealt: true
+      signalDamageInstigatedEvent: true
+    slots:  #array:2,0,EntitySlot
+      fx:
+        ".type": EntitySlot
+        ## name: fx
+    effects:
+      #buffer: 2582 bytes, MD5: dd56d6f65d7a58986ec8765900a08204
+      spit_travel:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0066
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_toad_fx_mucus_spit
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.2115
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_toad_fx_mucus_travel_stop
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 128, 136, 136, 100 ]
+          particles:
+            ".type": CFXTrackGroup
+            ## name: "particles"
+            tracks:  #array:2,0,ptr:CFXTrack
+              light:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemDynamicLight
+                    timeBegin: 0.5210
+                    ## buffername: DynamicLight
+                    ## count: 2
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000 ]
+                    brightness: 100.0000
+                    lightFlickering:  #SLightFlickering
+                      positionOffset: 0.2000
+                      flickerStrength: 0.6000
+                      flickerPeriod: 0.0500
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                ## name: "light"
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/ep1/data/fx/monsters/toad/toad_spit_trail.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 170, 227, 140, 100 ]
+        length: 0.3000
+        loopStart: 0.1000
+        loopEnd: 0.2000
+        ## name: spit_travel
+        showDistance: 50.0000
+        isLooped: true
+      #buffer: 1919 bytes, MD5: 60652ac897a4bcc560cec398725095af
+      spit_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          sounds:
+            ".type": CFXTrackGroup
+            ## name: "sounds"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0066
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_toad_fx_mucus_hit
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 175, 159, 217, 100 ]
+          particles:
+            ".type": CFXTrackGroup
+            ## name: "particles"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx1:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeDuration: 4.0000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 0.8333, 1.0000 ]
+                      - [ 1.0000, 0.6667, 1.0000 ]
+                      - [ 1.0000, 0.5000, 1.0000 ]
+                      - [ 1.0000, 0.3333, 1.0000 ]
+                      - [ 1.0000, 0.1667, 1.0000 ]
+                      - [ 1.0000, 0.0000, 1.0000 ]
+                    particleSystem: dlc/ep1/data/fx/monsters/toad/toad_back_burst.w2p
+                    spawner:
+                      ".type": CFXSimpleSpawner
+                      slotNames:  #array:2,0,CName
+                        - fx
+                ## name: "fx1"
+            isExpanded: true
+            trackGroupColor: [ 192, 152, 232, 100 ]
+        length: 4.0000
+        loopEnd: 4.0000
+        ## name: spit_hit
+        showDistance: 50.0000
+    ## cookedEffectsVersion: 1

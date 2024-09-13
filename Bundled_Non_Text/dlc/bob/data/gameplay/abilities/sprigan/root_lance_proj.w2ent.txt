@@ -1,0 +1,116 @@
+root_lance_proj.w2ent:    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
+root_lance_proj.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+root_lance_proj.w2ent:            properOverrides (Bool) : true
+root_lance_proj.w2ent:            entityClass (CName) : DebuffProjectile
+root_lance_proj.w2ent:            entityObject (ptr:CEntity) : DebuffProjectile #1
+root_lance_proj.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+root_lance_proj.w2ent:                0 (EntitySlot) : fx
+root_lance_proj.w2ent:                    name (CName) : fx
+root_lance_proj.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+root_lance_proj.w2ent:                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
+root_lance_proj.w2ent:                    DebuffProjectile (DebuffProjectile) : PreviewEntity
+root_lance_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+root_lance_proj.w2ent:                            Bufferdata (CByteArray) : 948 bytes, MD5: 3649a52bc4e05b3c28a10289d1e8eb5d
+root_lance_proj.w2ent:                            CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+root_lance_proj.w2ent:                                CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+root_lance_proj.w2ent:                                    guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+root_lance_proj.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                                    name (String) : "CPhantomComponent0"
+root_lance_proj.w2ent:                                    isStreamed (Bool) : true
+root_lance_proj.w2ent:                                    graphPositionX (Int16) : 194
+root_lance_proj.w2ent:                                    graphPositionY (Int16) : 274
+root_lance_proj.w2ent:                                    triggeringCollisionGroupNames (array:CName) : # array:CName
+root_lance_proj.w2ent:                                        0 (CName) : Character
+root_lance_proj.w2ent:                                    shapeType (EPhantomShape) : PS_Sphere
+root_lance_proj.w2ent:                                    shapeDimensions (Vector) : <Vector>shapeDimensions
+root_lance_proj.w2ent:                                        X (Float) : 1.0000
+root_lance_proj.w2ent:                                        Y (Float) : 1.0000
+root_lance_proj.w2ent:                                        Z (Float) : 1.0000
+root_lance_proj.w2ent:                                        W (Float) : 1.0000
+root_lance_proj.w2ent:                                    onTriggerEnteredScriptEvent (CName) : CharacterCollision
+root_lance_proj.w2ent:                                    onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+root_lance_proj.w2ent:                        streamingDistance (Uint8) : 0
+root_lance_proj.w2ent:                        name (String) : "PreviewEntity"
+root_lance_proj.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+root_lance_proj.w2ent:                            0 (ptr:CComponent) : CSoundEmitterComponent #1
+root_lance_proj.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+root_lance_proj.w2ent:                            0 (SEntityBufferType1) : 
+root_lance_proj.w2ent:                                ComponentName (CName) : 
+root_lance_proj.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+root_lance_proj.w2ent:                        idTag (IdTag) :  8ba1c64b-401f-4e75-8d3e-008a20503a08
+root_lance_proj.w2ent:                        radius (Float) : 0.5000
+root_lance_proj.w2ent:                        projSpeed (Float) : 50.0000
+root_lance_proj.w2ent:                        projAngle (Float) : 0.0000
+root_lance_proj.w2ent:                        projDMG (Float) : 300.0000
+root_lance_proj.w2ent:                        ignoreArmor (Bool) : false
+root_lance_proj.w2ent:                        hitReactionType (EHitReactionType) : EHRT_Heavy
+root_lance_proj.w2ent:                        damageTypeName (CName) : PhysicalDamage
+root_lance_proj.w2ent:                        destroyQuen (Bool) : false
+root_lance_proj.w2ent:                        customDuration (Float) : 2.0000
+root_lance_proj.w2ent:                        signalDamageInstigatedEvent (Bool) : true
+root_lance_proj.w2ent:                CSoundEmitterComponent #1 (CSoundEmitterComponent) : CSoundEmitterComponent0
+root_lance_proj.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+root_lance_proj.w2ent:                        guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+root_lance_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        name (String) : "CSoundEmitterComponent0"
+root_lance_proj.w2ent:                        isStreamed (Bool) : false
+root_lance_proj.w2ent:                        graphPositionX (Int16) : 142
+root_lance_proj.w2ent:                        graphPositionY (Int16) : 179
+root_lance_proj.w2ent:                        maxDistance (Float) : 60.0000
+root_lance_proj.w2ent:            cookedEffectsVersion (Uint32) : 1
+root_lance_proj.w2ent:            Unk1 (Uint32) : 0
+root_lance_proj.w2ent:    DebuffProjectile #1 (DebuffProjectile) : PhysicalDamage
+root_lance_proj.w2ent:        DebuffProjectile (DebuffProjectile) : 
+root_lance_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+root_lance_proj.w2ent:                Bufferdata (CByteArray) : 948 bytes, MD5: fbd02f25269b185888886f2662ffb1fc
+root_lance_proj.w2ent:                CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+root_lance_proj.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+root_lance_proj.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+root_lance_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:                        name (String) : "CPhantomComponent0"
+root_lance_proj.w2ent:                        isStreamed (Bool) : true
+root_lance_proj.w2ent:                        graphPositionX (Int16) : 194
+root_lance_proj.w2ent:                        graphPositionY (Int16) : 274
+root_lance_proj.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+root_lance_proj.w2ent:                            0 (CName) : Character
+root_lance_proj.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
+root_lance_proj.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+root_lance_proj.w2ent:                            X (Float) : 1.0000
+root_lance_proj.w2ent:                            Y (Float) : 1.0000
+root_lance_proj.w2ent:                            Z (Float) : 1.0000
+root_lance_proj.w2ent:                            W (Float) : 1.0000
+root_lance_proj.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+root_lance_proj.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+root_lance_proj.w2ent:            streamingDistance (Uint8) : 0
+root_lance_proj.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+root_lance_proj.w2ent:                0 (ptr:CComponent) : CSoundEmitterComponent #2
+root_lance_proj.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+root_lance_proj.w2ent:                0 (SEntityBufferType1) : 
+root_lance_proj.w2ent:                    ComponentName (CName) : 
+root_lance_proj.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+root_lance_proj.w2ent:            idTag (IdTag) :  8ba1c64b-401f-4e75-8d3e-008a20503a08
+root_lance_proj.w2ent:            radius (Float) : 0.5000
+root_lance_proj.w2ent:            projSpeed (Float) : 50.0000
+root_lance_proj.w2ent:            projAngle (Float) : 0.0000
+root_lance_proj.w2ent:            projDMG (Float) : 300.0000
+root_lance_proj.w2ent:            ignoreArmor (Bool) : false
+root_lance_proj.w2ent:            hitReactionType (EHitReactionType) : EHRT_Heavy
+root_lance_proj.w2ent:            damageTypeName (CName) : PhysicalDamage
+root_lance_proj.w2ent:            destroyQuen (Bool) : false
+root_lance_proj.w2ent:            customDuration (Float) : 2.0000
+root_lance_proj.w2ent:            signalDamageInstigatedEvent (Bool) : true
+root_lance_proj.w2ent:    CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+root_lance_proj.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+root_lance_proj.w2ent:            guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+root_lance_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+root_lance_proj.w2ent:            name (String) : "CSoundEmitterComponent0"
+root_lance_proj.w2ent:            isStreamed (Bool) : false
+root_lance_proj.w2ent:            maxDistance (Float) : 60.0000

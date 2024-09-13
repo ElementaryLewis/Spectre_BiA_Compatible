@@ -1,0 +1,1665 @@
+petard_dimeritium_bomb.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3Dimeritium
+petard_dimeritium_bomb.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+petard_dimeritium_bomb.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+petard_dimeritium_bomb.w2ent:                0 (handle:CEntityTemplate) : items/weapons/projectiles/petards/base/petard_base.w2ent
+petard_dimeritium_bomb.w2ent:            properOverrides (Bool) : true
+petard_dimeritium_bomb.w2ent:            entityClass (CName) : W3Dimeritium
+petard_dimeritium_bomb.w2ent:            entityObject (ptr:CEntity) : W3Dimeritium #1
+petard_dimeritium_bomb.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+petard_dimeritium_bomb.w2ent:                0 (CEntityAppearance) : petard
+petard_dimeritium_bomb.w2ent:                    name (CName) : petard
+petard_dimeritium_bomb.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+petard_dimeritium_bomb.w2ent:                        0 (handle:CEntityTemplate) : items/weapons/projectiles/petards/model/petard_body1.w2ent
+petard_dimeritium_bomb.w2ent:            usedAppearances (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                0 (CName) : petard
+petard_dimeritium_bomb.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+petard_dimeritium_bomb.w2ent:                0 (EntitySlot) : fx
+petard_dimeritium_bomb.w2ent:                    name (CName) : fx
+petard_dimeritium_bomb.w2ent:                1 (EntitySlot) : light_pos
+petard_dimeritium_bomb.w2ent:                    wasIncluded (Bool) : true
+petard_dimeritium_bomb.w2ent:                    name (CName) : light_pos
+petard_dimeritium_bomb.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                        X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        Y (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        Z (Float) : 0.5000
+petard_dimeritium_bomb.w2ent:                2 (EntitySlot) : sparks
+petard_dimeritium_bomb.w2ent:                    wasIncluded (Bool) : true
+petard_dimeritium_bomb.w2ent:                    name (CName) : sparks
+petard_dimeritium_bomb.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                        X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        Y (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        Z (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:            coloringEntries (array:SEntityTemplateColoringEntry) : # array:SEntityTemplateColoringEntry
+petard_dimeritium_bomb.w2ent:                0 (SEntityTemplateColoringEntry) : petard
+petard_dimeritium_bomb.w2ent:                    appearance (CName) : petard
+petard_dimeritium_bomb.w2ent:                    componentName (CName) : petard
+petard_dimeritium_bomb.w2ent:                    colorShift1 (CColorShift) : <CColorShift>colorShift1
+petard_dimeritium_bomb.w2ent:                        saturation (Int8) : -64
+petard_dimeritium_bomb.w2ent:                        luminance (Int8) : -41
+petard_dimeritium_bomb.w2ent:                    colorShift2 (CColorShift) : <CColorShift>colorShift2
+petard_dimeritium_bomb.w2ent:                        saturation (Int8) : -95
+petard_dimeritium_bomb.w2ent:                        luminance (Int8) : 46
+petard_dimeritium_bomb.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+petard_dimeritium_bomb.w2ent:                W3Dimeritium #0 (W3Dimeritium) : PreviewEntity
+petard_dimeritium_bomb.w2ent:                    W3Dimeritium (W3Dimeritium) : PreviewEntity
+petard_dimeritium_bomb.w2ent:                        tags (TagList) : petard
+petard_dimeritium_bomb.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : petard
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        streamingDistance (Uint8) : 3
+petard_dimeritium_bomb.w2ent:                        name (String) : "PreviewEntity"
+petard_dimeritium_bomb.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+petard_dimeritium_bomb.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
+petard_dimeritium_bomb.w2ent:                            1 (ptr:CComponent) : CPointLightComponent #2
+petard_dimeritium_bomb.w2ent:                            2 (ptr:CComponent) : CPointLightComponent #3
+petard_dimeritium_bomb.w2ent:                            3 (ptr:CComponent) : CPointLightComponent #4
+petard_dimeritium_bomb.w2ent:                            4 (ptr:CComponent) : CTriggerActivatorComponent #5
+petard_dimeritium_bomb.w2ent:                            5 (ptr:CComponent) : CEffectDummyComponent #6
+petard_dimeritium_bomb.w2ent:                            6 (ptr:CComponent) : CSoundEmitterComponent #7
+petard_dimeritium_bomb.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+petard_dimeritium_bomb.w2ent:                            0 (SEntityBufferType1) : 
+petard_dimeritium_bomb.w2ent:                                ComponentName (CName) : 
+petard_dimeritium_bomb.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+petard_dimeritium_bomb.w2ent:                        idTag (IdTag) :  63579ffe-35a6-4176-a950-1daf77f01fb4
+petard_dimeritium_bomb.w2ent:                        hitReactionType (EHitReactionType) : EHRT_Heavy
+petard_dimeritium_bomb.w2ent:                        componentsEnabledOnLoop (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                            0 (CName) : loopLight
+petard_dimeritium_bomb.w2ent:                        impactParams (SPetardParams) : <SPetardParams>impactParams
+petard_dimeritium_bomb.w2ent:                            range (Float) : 4.0000
+petard_dimeritium_bomb.w2ent:                            playHitAnimMode (EActionHitAnim) : EAHA_Default
+petard_dimeritium_bomb.w2ent:                            fx (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : explosion
+petard_dimeritium_bomb.w2ent:                            fxCluster (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                        loopParams (SPetardParams) : <SPetardParams>loopParams
+petard_dimeritium_bomb.w2ent:                            range (Float) : 3.0000
+petard_dimeritium_bomb.w2ent:                            cylinderHeight (Float) : 3.0000
+petard_dimeritium_bomb.w2ent:                            cylinderOffsetZ (Float) : -1.0000
+petard_dimeritium_bomb.w2ent:                            playHitAnimMode (EActionHitAnim) : EAHA_Default
+petard_dimeritium_bomb.w2ent:                            fx (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : ground
+petard_dimeritium_bomb.w2ent:                            fxCluster (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : ground_cluster
+petard_dimeritium_bomb.w2ent:                            componentsToSnap (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                                0 (CName) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                        affectedFX (CName) : activate
+petard_dimeritium_bomb.w2ent:                        affectedFXCluster (CName) : activate_cluster
+petard_dimeritium_bomb.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : appearance
+petard_dimeritium_bomb.w2ent:                    CAppearanceComponent (CAppearanceComponent) : appearance
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : cd637d15-aeea-4d0f-818b-ec94028ffed9
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "appearance"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 724
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 237
+petard_dimeritium_bomb.w2ent:                        forcedAppearance (CName) : petard
+petard_dimeritium_bomb.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+petard_dimeritium_bomb.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+petard_dimeritium_bomb.w2ent:                                0 (SAttachmentReplacement) : proxy_CTriggerActivatorComponent0_B4B4E291-423D0A11-339A399B-C25BBEF2
+petard_dimeritium_bomb.w2ent:                                    oldName (CName) : proxy_CTriggerActivatorComponent0_B4B4E291-423D0A11-339A399B-C25BBEF2
+petard_dimeritium_bomb.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                                    newName (CName) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:                                    newClass (CName) : CTriggerActivatorComponent
+petard_dimeritium_bomb.w2ent:                                1 (SAttachmentReplacement) : proxy_fx_cluster_cleave_D98A5B87-4CAFF5B2-02044CBE-554EEA7A
+petard_dimeritium_bomb.w2ent:                                    oldName (CName) : proxy_fx_cluster_cleave_D98A5B87-4CAFF5B2-02044CBE-554EEA7A
+petard_dimeritium_bomb.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                                    newName (CName) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:                                    newClass (CName) : CEffectDummyComponent
+petard_dimeritium_bomb.w2ent:                                2 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_179654F9-4C227499-F127578C-7E82FD43
+petard_dimeritium_bomb.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_179654F9-4C227499-F127578C-7E82FD43
+petard_dimeritium_bomb.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+petard_dimeritium_bomb.w2ent:                CPointLightComponent #2 (CPointLightComponent) : loopLight
+petard_dimeritium_bomb.w2ent:                    CPointLightComponent (CPointLightComponent) : loopLight
+petard_dimeritium_bomb.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                            X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                            Y (Float) : -0.0291
+petard_dimeritium_bomb.w2ent:                            Z (Float) : 1.1718
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : 3faffc35-51f1-4a55-bcd8-a552c0fe1c01
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "loopLight"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 80
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 128
+petard_dimeritium_bomb.w2ent:                        radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:                        brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                            Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                            Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                            Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                            Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                        envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:                        autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:                        lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                            positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                            flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                            flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:                CPointLightComponent #3 (CPointLightComponent) : CPointLightComponent0
+petard_dimeritium_bomb.w2ent:                    CPointLightComponent (CPointLightComponent) : CPointLightComponent0
+petard_dimeritium_bomb.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                            X (Float) : -0.7566
+petard_dimeritium_bomb.w2ent:                            Y (Float) : 1.6246
+petard_dimeritium_bomb.w2ent:                            Z (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : e7791d2d-da35-4051-bd7e-1259a40351d6
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "CPointLightComponent0"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 52
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 91
+petard_dimeritium_bomb.w2ent:                        radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:                        brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                            Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                            Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                            Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                            Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                        envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:                        autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:                        lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                            positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                            flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                            flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:                CPointLightComponent #4 (CPointLightComponent) : CPointLightComponent1
+petard_dimeritium_bomb.w2ent:                    CPointLightComponent (CPointLightComponent) : CPointLightComponent1
+petard_dimeritium_bomb.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                            X (Float) : 1.0591
+petard_dimeritium_bomb.w2ent:                            Y (Float) : -1.0163
+petard_dimeritium_bomb.w2ent:                            Z (Float) : 0.0563
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : 58b85c65-4cd8-48ec-8002-f72220dadfa9
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "CPointLightComponent1"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 93
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 9
+petard_dimeritium_bomb.w2ent:                        radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:                        brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                            Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                            Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                            Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                            Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                        envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:                        autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:                        lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                            positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                            flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                            flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:                CTriggerActivatorComponent #5 (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:                    CTriggerActivatorComponent (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : a4883b90-ab46-4560-ae78-095b76644e19
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "CTriggerActivatorComponent0"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 1233
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 402
+petard_dimeritium_bomb.w2ent:                CEffectDummyComponent #6 (CEffectDummyComponent) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : c25bcc9e-1ae7-4889-8284-d59e0c46e736
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "fx_cluster_cleave"
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 898
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 378
+petard_dimeritium_bomb.w2ent:                CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:                        guid (CGUID) : 837b4a78-ada0-4c0f-8f20-cff4a3944dc5
+petard_dimeritium_bomb.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:                        name (String) : "CSoundEmitterComponent0"
+petard_dimeritium_bomb.w2ent:                        isStreamed (Bool) : false
+petard_dimeritium_bomb.w2ent:                        graphPositionX (Int16) : 1150
+petard_dimeritium_bomb.w2ent:                        graphPositionY (Int16) : 238
+petard_dimeritium_bomb.w2ent:                        maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        occlusionEnabled (Bool) : false
+petard_dimeritium_bomb.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+petard_dimeritium_bomb.w2ent:                0 (CEntityTemplateCookedEffect) : explosion
+petard_dimeritium_bomb.w2ent:                    name (CName) : explosion
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 3784 bytes, MD5: 6faf2a50b5f6c1a3323b2ff625e64c03
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : explosion
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : explosion
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+petard_dimeritium_bomb.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #10
+petard_dimeritium_bomb.w2ent:                                    4 (ptr:CFXTrackGroup) : CFXTrackGroup #14
+petard_dimeritium_bomb.w2ent:                                length (Float) : 5.1676
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.4257
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5400
+petard_dimeritium_bomb.w2ent:                                name (CName) : explosion
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : Audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : Audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "Audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 139
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 233
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 139
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : audio
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0188
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritum_explo
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : radial
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : radial
+petard_dimeritium_bomb.w2ent:                                name (String) : "radial"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 218
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 235
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 231
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : petard
+petard_dimeritium_bomb.w2ent:                        CFXTrack #5 (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemRadialBlur #6
+petard_dimeritium_bomb.w2ent:                                name (String) : "sd"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemRadialBlur #6 (CFXTrackItemRadialBlur) : RadialBlur
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemRadialBlur (CFXTrackItemRadialBlur) : <CFXTrackItemRadialBlur>CFXTrackItemRadialBlur
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0073
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : RadialBlur
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 4
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0> <0.04995424> <0.2076626> <0.2700384> <0.1977556> <0.1254728> <0.05319004> <0> <0> <0
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 0.0500
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.2077
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.2700
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.1978
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.1255
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0532
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : tint
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : tint
+petard_dimeritium_bomb.w2ent:                                name (String) : "tint"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 140
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 224
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 223
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : petard
+petard_dimeritium_bomb.w2ent:                        CFXTrack #8 (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemBrightnessTint #9
+petard_dimeritium_bomb.w2ent:                                name (String) : "sd"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemBrightnessTint #9 (CFXTrackItemBrightnessTint) : BrightnessTint
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemBrightnessTint (CFXTrackItemBrightnessTint) : <CFXTrackItemBrightnessTint>CFXTrackItemBrightnessTint
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0059
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : BrightnessTint
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 2
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <5.374554> <8.924335> <4.442533> <1.91522> <1.075106> <1> <1> <1> <1> <1> <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 5.3746
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 8.9243
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 4.4425
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.9152
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0751
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.9333
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.8000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.6667
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.5333
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.4000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.2667
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.1333
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 92
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 189
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                range (Float) : 33.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #10 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #11
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 182
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 217
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 172
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #11 (CFXTrack) : light_dynamic
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : light_dynamic
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #12
+petard_dimeritium_bomb.w2ent:                                name (String) : "light_dynamic"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemDynamicLight #12 (CFXTrackItemDynamicLight) : DynamicLight
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : -0.0037
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : DynamicLight
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 2
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2453967> <173.1182> <203.4928> <159.7375> <115.9823> <72.22702> <28.47177> <0> <0> <0
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.2454
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 173.1182
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 203.4928
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 159.7375
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 115.9823
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 72.2270
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 28.4718
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 113
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 165
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                radius (Float) : 9.0000
+petard_dimeritium_bomb.w2ent:                                autoHideDistance (Float) : 45.0000
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                                relativePosition (Vector) : <Vector>relativePosition
+petard_dimeritium_bomb.w2ent:                                    X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Y (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Z (Float) : 0.5000
+petard_dimeritium_bomb.w2ent:                                    W (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #14 (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                                name (String) : "force"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #15
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 192
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 154
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #15 (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #16
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #16 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0004
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 5.2907
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0853
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_fx1.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #17
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #17 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                1 (CEntityTemplateCookedEffect) : ground
+petard_dimeritium_bomb.w2ent:                    name (CName) : ground
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 2303 bytes, MD5: 9cf999c054bc70fef35ba4d08d85ecf6
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : ground
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : ground
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+petard_dimeritium_bomb.w2ent:                                length (Float) : 3.5136
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.2652
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5057
+petard_dimeritium_bomb.w2ent:                                name (CName) : ground
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                                isLooped (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 238
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 233
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 205
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+petard_dimeritium_bomb.w2ent:                                name (String) : "sfx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0125
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_ground_loop
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.6896
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_ground_loop_end
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 215
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 152
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : loopLight
+petard_dimeritium_bomb.w2ent:                        CFXTrack #6 (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                                name (String) : "fx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                                name (String) : "force"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 192
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 154
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #8 (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0217
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.5429
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_cloud.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                2 (CEntityTemplateCookedEffect) : activate
+petard_dimeritium_bomb.w2ent:                    name (CName) : activate
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 3226 bytes, MD5: 4a87b480c4aafce05e67b77833df8e0b
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : activate
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : activate
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+petard_dimeritium_bomb.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+petard_dimeritium_bomb.w2ent:                                    4 (ptr:CFXTrackGroup) : CFXTrackGroup #14
+petard_dimeritium_bomb.w2ent:                                length (Float) : 3.5136
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.2652
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5057
+petard_dimeritium_bomb.w2ent:                                name (CName) : activate
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                                isLooped (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light3
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light3
+petard_dimeritium_bomb.w2ent:                                name (String) : "light3"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 131
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 251
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 149
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : CPointLightComponent1
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : SAd
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : SAd
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+petard_dimeritium_bomb.w2ent:                                name (String) : "SAd"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : brightness
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : -0.0085
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.5164
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 1
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <666> <666> <600.5571> <491.3483> <382.1395> <272.9307> <163.722> <54.51312> <0> <0> <0>
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 600.5571
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 491.3483
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 382.1395
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 272.9307
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 163.7220
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 54.5131
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                parameterName (CName) : brightness
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : light2
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light2
+petard_dimeritium_bomb.w2ent:                                name (String) : "light2"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 212
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 194
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 220
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : CPointLightComponent0
+petard_dimeritium_bomb.w2ent:                        CFXTrack #5 (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sd
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #6
+petard_dimeritium_bomb.w2ent:                                name (String) : "sd"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParameterFloat #6 (CFXTrackItemParameterFloat) : brightness
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0142
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.5164
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 1
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <666> <666> <600.5571> <491.3483> <382.1395> <272.9307> <163.722> <54.51312> <0> <0> <0>
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 600.5571
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 491.3483
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 382.1395
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 272.9307
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 163.7220
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 54.5131
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                parameterName (CName) : brightness
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 193
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 222
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 127
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #8 (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #9
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
+petard_dimeritium_bomb.w2ent:                                name (String) : "sfx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #9 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0376
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_activation_loop
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.6395
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_activation_loop_end
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 215
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 152
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : loopLight
+petard_dimeritium_bomb.w2ent:                        CFXTrack #12 (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #13
+petard_dimeritium_bomb.w2ent:                                name (String) : "fx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParameterFloat #13 (CFXTrackItemParameterFloat) : brightness
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : -0.0040
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.5164
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 1
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <666> <666> <600.5571> <491.3483> <382.1395> <272.9307> <163.722> <54.51312> <0> <0> <0>
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 666.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 600.5571
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 491.3483
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 382.1395
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 272.9307
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 163.7220
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 54.5131
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                parameterName (CName) : brightness
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #14 (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                                name (String) : "force"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #15
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 192
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 154
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #15 (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #16
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #16 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0083
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.1581
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_activate.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #17
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #17 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                3 (CEntityTemplateCookedEffect) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                    name (CName) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 2760 bytes, MD5: e5043b10d1e05b075481c5b1ac0ac517
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+petard_dimeritium_bomb.w2ent:                                length (Float) : 5.1676
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.4257
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5400
+petard_dimeritium_bomb.w2ent:                                name (CName) : explosion_cluster
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : Audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : Audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "Audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 139
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 233
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 139
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : audio
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0188
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritum_explo
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                                name (String) : "force"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 192
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 154
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #5 (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0004
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 5.2907
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0853
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_fx1_cluster.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 182
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 217
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 172
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #9 (CFXTrack) : light_dynamic
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : light_dynamic
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #10
+petard_dimeritium_bomb.w2ent:                                name (String) : "light_dynamic"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemDynamicLight #10 (CFXTrackItemDynamicLight) : DynamicLight
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : -0.0037
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : DynamicLight
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 2
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2453967> <173.1182> <203.4928> <159.7375> <115.9823> <72.22702> <28.47177> <0> <0> <0
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.2454
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 173.1182
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 203.4928
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 159.7375
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 115.9823
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 72.2270
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 28.4718
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 113
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 165
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                radius (Float) : 3.0000
+petard_dimeritium_bomb.w2ent:                                autoHideDistance (Float) : 45.0000
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #11
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #11 (CFXSpawnerComponent) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                                relativePosition (Vector) : <Vector>relativePosition
+petard_dimeritium_bomb.w2ent:                                    X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Y (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Z (Float) : 0.5000
+petard_dimeritium_bomb.w2ent:                                    W (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                4 (CEntityTemplateCookedEffect) : ground_cluster
+petard_dimeritium_bomb.w2ent:                    name (CName) : ground_cluster
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 2319 bytes, MD5: 222069a677d36ba4db4b5e53712e46f7
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : ground_cluster
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : ground_cluster
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+petard_dimeritium_bomb.w2ent:                                length (Float) : 3.5136
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.2652
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5057
+petard_dimeritium_bomb.w2ent:                                name (CName) : ground_cluster
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                                isLooped (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 238
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 233
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 205
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+petard_dimeritium_bomb.w2ent:                                name (String) : "sfx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0125
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_ground_loop
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.6896
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_ground_loop_end
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 215
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 152
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : loopLight
+petard_dimeritium_bomb.w2ent:                        CFXTrack #6 (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                                name (String) : "fx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : force
+petard_dimeritium_bomb.w2ent:                                name (String) : "force"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 171
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 192
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 154
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #8 (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : particle
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0217
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.5429
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_cloud_cluster.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                5 (CEntityTemplateCookedEffect) : activate_cluster
+petard_dimeritium_bomb.w2ent:                    name (CName) : activate_cluster
+petard_dimeritium_bomb.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+petard_dimeritium_bomb.w2ent:                        Bufferdata (CByteArray) : 3099 bytes, MD5: bfed7c871b11f8edaf465e8a0371cdf7
+petard_dimeritium_bomb.w2ent:                        CFXDefinition #0 (CFXDefinition) : activate_cluster
+petard_dimeritium_bomb.w2ent:                            CFXDefinition (CFXDefinition) : activate_cluster
+petard_dimeritium_bomb.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+petard_dimeritium_bomb.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #9
+petard_dimeritium_bomb.w2ent:                                length (Float) : 3.5136
+petard_dimeritium_bomb.w2ent:                                loopStart (Float) : 0.2652
+petard_dimeritium_bomb.w2ent:                                loopEnd (Float) : 0.5057
+petard_dimeritium_bomb.w2ent:                                name (CName) : activate_cluster
+petard_dimeritium_bomb.w2ent:                                showDistance (Float) : 100.0000
+petard_dimeritium_bomb.w2ent:                                isLooped (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+petard_dimeritium_bomb.w2ent:                                name (String) : "light"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 183
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 138
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 164
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #2 (CFXTrack) : asd
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : asd
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+petard_dimeritium_bomb.w2ent:                                name (String) : "asd"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0056
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : DynamicLight
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 2
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2453967> <48.10264> <99> <99> <99> <99> <99> <99> <48.94136> <0> <0> <0> <0> <0> <0>>
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        1 (Float) : 0.2454
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 48.1026
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 99.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 48.9414
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 113
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 165
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:                                radius (Float) : 9.0000
+petard_dimeritium_bomb.w2ent:                                brightness (Float) : 111.0000
+petard_dimeritium_bomb.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                                    positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                autoHideDistance (Float) : 45.0000
+petard_dimeritium_bomb.w2ent:                                colorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                                relativePosition (Vector) : <Vector>relativePosition
+petard_dimeritium_bomb.w2ent:                                    X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Y (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    Z (Float) : 0.5000
+petard_dimeritium_bomb.w2ent:                                    W (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : particle
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
+petard_dimeritium_bomb.w2ent:                                name (String) : "particle"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 182
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 152
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 128
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #6 (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : fx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+petard_dimeritium_bomb.w2ent:                                name (String) : "fx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : -0.0056
+petard_dimeritium_bomb.w2ent:                                timeDuration (Float) : 3.1581
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : Particles
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 3
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 1
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+petard_dimeritium_bomb.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+petard_dimeritium_bomb.w2ent:                                        0 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        2 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        3 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        4 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        5 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        6 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        7 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        8 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        9 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        10 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        11 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        12 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        13 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        14 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                        15 (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/bombs/dimeritium_bomb/dimeritium_activate_cluster.w2p
+petard_dimeritium_bomb.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+petard_dimeritium_bomb.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : fx
+petard_dimeritium_bomb.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+petard_dimeritium_bomb.w2ent:                                componentName (CName) : fx
+petard_dimeritium_bomb.w2ent:                                copyRotation (Bool) : false
+petard_dimeritium_bomb.w2ent:                                attach (Bool) : true
+petard_dimeritium_bomb.w2ent:                        CFXTrackGroup #9 (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+petard_dimeritium_bomb.w2ent:                                name (String) : "audio"
+petard_dimeritium_bomb.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #10
+petard_dimeritium_bomb.w2ent:                                isExpanded (Bool) : true
+petard_dimeritium_bomb.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+petard_dimeritium_bomb.w2ent:                                    Red (Uint8) : 193
+petard_dimeritium_bomb.w2ent:                                    Green (Uint8) : 222
+petard_dimeritium_bomb.w2ent:                                    Blue (Uint8) : 127
+petard_dimeritium_bomb.w2ent:                                    Alpha (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                        CFXTrack #10 (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                            CFXTrack (CFXTrack) : sfx
+petard_dimeritium_bomb.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+petard_dimeritium_bomb.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #11
+petard_dimeritium_bomb.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #12
+petard_dimeritium_bomb.w2ent:                                name (String) : "sfx"
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #11 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.0376
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_activation_loop
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:                        CFXTrackItemSoundEvent #12 (CFXTrackItemSoundEvent) : 
+petard_dimeritium_bomb.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+petard_dimeritium_bomb.w2ent:                                timeBegin (Float) : 0.6395
+petard_dimeritium_bomb.w2ent:                                buffername (CName) : 
+petard_dimeritium_bomb.w2ent:                                count (CDynamicInt) : 0
+petard_dimeritium_bomb.w2ent:                                unk (Uint8) : 0
+petard_dimeritium_bomb.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+petard_dimeritium_bomb.w2ent:                                soundEventName (StringAnsi) : bomb_dimeritium_activation_loop_end
+petard_dimeritium_bomb.w2ent:                                maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:            cookedEffectsVersion (Uint32) : 1
+petard_dimeritium_bomb.w2ent:            Unk1 (Uint32) : 0
+petard_dimeritium_bomb.w2ent:    W3Dimeritium #1 (W3Dimeritium) : activate
+petard_dimeritium_bomb.w2ent:        W3Dimeritium (W3Dimeritium) : 
+petard_dimeritium_bomb.w2ent:            tags (TagList) : petard
+petard_dimeritium_bomb.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : petard
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            streamingDistance (Uint8) : 3
+petard_dimeritium_bomb.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+petard_dimeritium_bomb.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
+petard_dimeritium_bomb.w2ent:                1 (ptr:CComponent) : CPointLightComponent #3
+petard_dimeritium_bomb.w2ent:                2 (ptr:CComponent) : CPointLightComponent #4
+petard_dimeritium_bomb.w2ent:                3 (ptr:CComponent) : CPointLightComponent #5
+petard_dimeritium_bomb.w2ent:                4 (ptr:CComponent) : CTriggerActivatorComponent #6
+petard_dimeritium_bomb.w2ent:                5 (ptr:CComponent) : CEffectDummyComponent #7
+petard_dimeritium_bomb.w2ent:                6 (ptr:CComponent) : CSoundEmitterComponent #8
+petard_dimeritium_bomb.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+petard_dimeritium_bomb.w2ent:                0 (SEntityBufferType1) : 
+petard_dimeritium_bomb.w2ent:                    ComponentName (CName) : 
+petard_dimeritium_bomb.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+petard_dimeritium_bomb.w2ent:            idTag (IdTag) :  63579ffe-35a6-4176-a950-1daf77f01fb4
+petard_dimeritium_bomb.w2ent:            hitReactionType (EHitReactionType) : EHRT_Heavy
+petard_dimeritium_bomb.w2ent:            componentsEnabledOnLoop (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                0 (CName) : loopLight
+petard_dimeritium_bomb.w2ent:            impactParams (SPetardParams) : <SPetardParams>impactParams
+petard_dimeritium_bomb.w2ent:                range (Float) : 6.0000
+petard_dimeritium_bomb.w2ent:                playHitAnimMode (EActionHitAnim) : EAHA_Default
+petard_dimeritium_bomb.w2ent:                fx (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : explosion
+petard_dimeritium_bomb.w2ent:                fxCluster (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : explosion_cluster
+petard_dimeritium_bomb.w2ent:            loopParams (SPetardParams) : <SPetardParams>loopParams
+petard_dimeritium_bomb.w2ent:                range (Float) : 6.0000
+petard_dimeritium_bomb.w2ent:                cylinderHeight (Float) : 3.0000
+petard_dimeritium_bomb.w2ent:                cylinderOffsetZ (Float) : -1.0000
+petard_dimeritium_bomb.w2ent:                playHitAnimMode (EActionHitAnim) : EAHA_Default
+petard_dimeritium_bomb.w2ent:                fx (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : ground
+petard_dimeritium_bomb.w2ent:                fxCluster (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : ground_cluster
+petard_dimeritium_bomb.w2ent:                componentsToSnap (array:CName) : # array:CName
+petard_dimeritium_bomb.w2ent:                    0 (CName) : fx_0_0_0
+petard_dimeritium_bomb.w2ent:            affectedFX (CName) : activate
+petard_dimeritium_bomb.w2ent:            affectedFXCluster (CName) : activate_cluster
+petard_dimeritium_bomb.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : appearance
+petard_dimeritium_bomb.w2ent:        CAppearanceComponent (CAppearanceComponent) : appearance
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : cd637d15-aeea-4d0f-818b-ec94028ffed9
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "appearance"
+petard_dimeritium_bomb.w2ent:            forcedAppearance (CName) : petard
+petard_dimeritium_bomb.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+petard_dimeritium_bomb.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+petard_dimeritium_bomb.w2ent:                    0 (SAttachmentReplacement) : proxy_CTriggerActivatorComponent0_B4B4E291-423D0A11-339A399B-C25BBEF2
+petard_dimeritium_bomb.w2ent:                        oldName (CName) : proxy_CTriggerActivatorComponent0_B4B4E291-423D0A11-339A399B-C25BBEF2
+petard_dimeritium_bomb.w2ent:                        oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                        newName (CName) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:                        newClass (CName) : CTriggerActivatorComponent
+petard_dimeritium_bomb.w2ent:                    1 (SAttachmentReplacement) : proxy_fx_cluster_cleave_D98A5B87-4CAFF5B2-02044CBE-554EEA7A
+petard_dimeritium_bomb.w2ent:                        oldName (CName) : proxy_fx_cluster_cleave_D98A5B87-4CAFF5B2-02044CBE-554EEA7A
+petard_dimeritium_bomb.w2ent:                        oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                        newName (CName) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:                        newClass (CName) : CEffectDummyComponent
+petard_dimeritium_bomb.w2ent:                    2 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_179654F9-4C227499-F127578C-7E82FD43
+petard_dimeritium_bomb.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_179654F9-4C227499-F127578C-7E82FD43
+petard_dimeritium_bomb.w2ent:                        oldClass (CName) : CExternalProxyComponent
+petard_dimeritium_bomb.w2ent:                        newName (CName) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:                        newClass (CName) : CSoundEmitterComponent
+petard_dimeritium_bomb.w2ent:    CPointLightComponent #3 (CPointLightComponent) : loopLight
+petard_dimeritium_bomb.w2ent:        CPointLightComponent (CPointLightComponent) : loopLight
+petard_dimeritium_bomb.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                X (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:                Y (Float) : -0.0291
+petard_dimeritium_bomb.w2ent:                Z (Float) : 1.1718
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : 3faffc35-51f1-4a55-bcd8-a552c0fe1c01
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "loopLight"
+petard_dimeritium_bomb.w2ent:            radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:            brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:            color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:            envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:            autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:            lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:    CPointLightComponent #4 (CPointLightComponent) : CPointLightComponent0
+petard_dimeritium_bomb.w2ent:        CPointLightComponent (CPointLightComponent) : CPointLightComponent0
+petard_dimeritium_bomb.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                X (Float) : -0.7566
+petard_dimeritium_bomb.w2ent:                Y (Float) : 1.6246
+petard_dimeritium_bomb.w2ent:                Z (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : e7791d2d-da35-4051-bd7e-1259a40351d6
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "CPointLightComponent0"
+petard_dimeritium_bomb.w2ent:            radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:            brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:            color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:            envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:            autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:            lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:    CPointLightComponent #5 (CPointLightComponent) : CPointLightComponent1
+petard_dimeritium_bomb.w2ent:        CPointLightComponent (CPointLightComponent) : CPointLightComponent1
+petard_dimeritium_bomb.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+petard_dimeritium_bomb.w2ent:                X (Float) : 1.0591
+petard_dimeritium_bomb.w2ent:                Y (Float) : -1.0163
+petard_dimeritium_bomb.w2ent:                Z (Float) : 0.0563
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : 58b85c65-4cd8-48ec-8002-f72220dadfa9
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "CPointLightComponent1"
+petard_dimeritium_bomb.w2ent:            radius (Float) : 2.0000
+petard_dimeritium_bomb.w2ent:            brightness (Float) : 0.0000
+petard_dimeritium_bomb.w2ent:            color (Color) : <Color>color
+petard_dimeritium_bomb.w2ent:                Red (Uint8) : 100
+petard_dimeritium_bomb.w2ent:                Green (Uint8) : 216
+petard_dimeritium_bomb.w2ent:                Blue (Uint8) : 150
+petard_dimeritium_bomb.w2ent:                Alpha (Uint8) : 255
+petard_dimeritium_bomb.w2ent:            envColorGroup (EEnvColorGroup) : ECG_LightsDefault
+petard_dimeritium_bomb.w2ent:            autoHideDistance (Float) : 44.0000
+petard_dimeritium_bomb.w2ent:            lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+petard_dimeritium_bomb.w2ent:                positionOffset (Float) : 1.0000
+petard_dimeritium_bomb.w2ent:                flickerStrength (Float) : 12.0000
+petard_dimeritium_bomb.w2ent:                flickerPeriod (Float) : 0.1000
+petard_dimeritium_bomb.w2ent:    CTriggerActivatorComponent #6 (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:        CTriggerActivatorComponent (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : a4883b90-ab46-4560-ae78-095b76644e19
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "CTriggerActivatorComponent0"
+petard_dimeritium_bomb.w2ent:    CEffectDummyComponent #7 (CEffectDummyComponent) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : fx_cluster_cleave
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : c25bcc9e-1ae7-4889-8284-d59e0c46e736
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "fx_cluster_cleave"
+petard_dimeritium_bomb.w2ent:    CSoundEmitterComponent #8 (CSoundEmitterComponent) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+petard_dimeritium_bomb.w2ent:            guid (CGUID) : 837b4a78-ada0-4c0f-8f20-cff4a3944dc5
+petard_dimeritium_bomb.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+petard_dimeritium_bomb.w2ent:            name (String) : "CSoundEmitterComponent0"
+petard_dimeritium_bomb.w2ent:            isStreamed (Bool) : false
+petard_dimeritium_bomb.w2ent:            maxDistance (Float) : 50.0000
+petard_dimeritium_bomb.w2ent:            occlusionEnabled (Bool) : false

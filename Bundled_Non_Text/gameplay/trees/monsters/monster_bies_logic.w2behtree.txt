@@ -1,0 +1,1117 @@
+monster_bies_logic.w2behtree:    CBehTree #0 (CBehTree) : 
+monster_bies_logic.w2behtree:        CBehTree (CBehTree) : <CBehTree>CBehTree
+monster_bies_logic.w2behtree:            rootNode (handle:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #1
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #1 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #2
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #2 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptConditionalDecoratorDefinition #3
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskLookatDef #166
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptConditionalDecoratorDefinition #3 (CBehTreeNodeScriptConditionalDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptConditionalDecoratorDefinition (CBehTreeNodeScriptConditionalDecoratorDefinition) : <CBehTreeNodeScriptConditionalDecoratorDefinition>CBehTreeNodeScriptConditionalDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #4
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskRootPitchDef #165
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #4 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #5
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskAdditiveTauntDef #164
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #5 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeSelectorDefinition #6
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            forwardTestIfNotAvailable (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskAdditiveHitListenerDef #163
+monster_bies_logic.w2behtree:    CBehTreeNodeSelectorDefinition #6 (CBehTreeNodeSelectorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeSelectorDefinition (CBehTreeNodeSelectorDefinition) : <CBehTreeNodeSelectorDefinition>CBehTreeNodeSelectorDefinition
+monster_bies_logic.w2behtree:            children (array:ptr:IBehTreeNodeDefinition) : # array:ptr:IBehTreeNodeDefinition
+monster_bies_logic.w2behtree:                0 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #7
+monster_bies_logic.w2behtree:                1 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #21
+monster_bies_logic.w2behtree:                2 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #39
+monster_bies_logic.w2behtree:                3 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #54
+monster_bies_logic.w2behtree:                4 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #83
+monster_bies_logic.w2behtree:                5 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #101
+monster_bies_logic.w2behtree:                6 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #117
+monster_bies_logic.w2behtree:                7 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #133
+monster_bies_logic.w2behtree:                8 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #138
+monster_bies_logic.w2behtree:                9 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #142
+monster_bies_logic.w2behtree:                10 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #145
+monster_bies_logic.w2behtree:                11 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #153
+monster_bies_logic.w2behtree:                12 (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicIdleDefinition #162
+monster_bies_logic.w2behtree:            checkFrequency (Float) : 0.0100
+monster_bies_logic.w2behtree:            useScoring (Bool) : true
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #7 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #8
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #8 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #9
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #9 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #10
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #10 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #11
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #11 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #12
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskHasAvailableAbilityDef #20
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #12 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #13
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectDef #19
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #13 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #14
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTCondBaseStatLowerThanDef #18
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #14 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptTerminalDefinition #15
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskSetUnstoppableDef #17
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptTerminalDefinition #15 (CBehTreeNodeScriptTerminalDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptTerminalDefinition (CBehTreeNodeScriptTerminalDefinition) : <CBehTreeNodeScriptTerminalDefinition>CBehTreeNodeScriptTerminalDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskBiesHypnotizeDef #16
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskBiesHypnotizeDef #16 (CBTTaskBiesHypnotizeDef) : 
+monster_bies_logic.w2behtree:        CBTTaskBiesHypnotizeDef (CBTTaskBiesHypnotizeDef) : <CBTTaskBiesHypnotizeDef>CBTTaskBiesHypnotizeDef
+monster_bies_logic.w2behtree:            listenToGameplayEvents (array:CName) : # array:CName
+monster_bies_logic.w2behtree:                0 (CName) : HypnotizeRemoved
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack8
+monster_bies_logic.w2behtree:            loopTime (Float) : 3.0000
+monster_bies_logic.w2behtree:            ignoreConeCheck (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskSetUnstoppableDef #17 (CBTTaskSetUnstoppableDef) : 
+monster_bies_logic.w2behtree:        CBTTaskSetUnstoppableDef (CBTTaskSetUnstoppableDef) : <CBTTaskSetUnstoppableDef>CBTTaskSetUnstoppableDef
+monster_bies_logic.w2behtree:    BTCondBaseStatLowerThanDef #18 (BTCondBaseStatLowerThanDef) : 
+monster_bies_logic.w2behtree:        BTCondBaseStatLowerThanDef (BTCondBaseStatLowerThanDef) : <BTCondBaseStatLowerThanDef>BTCondBaseStatLowerThanDef
+monster_bies_logic.w2behtree:            baseStatType (EBaseCharacterStats) : BCS_Essence
+monster_bies_logic.w2behtree:            statValue (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectDef #19 (CBTTaskIfTargetHasEffectDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectDef (CBTTaskIfTargetHasEffectDef) : <CBTTaskIfTargetHasEffectDef>CBTTaskIfTargetHasEffectDef
+monster_bies_logic.w2behtree:            effect (EEffectType) : EET_Hypnotized
+monster_bies_logic.w2behtree:    CBTTaskHasAvailableAbilityDef #20 (CBTTaskHasAvailableAbilityDef) : BiesCustomHypnosis
+monster_bies_logic.w2behtree:        CBTTaskHasAvailableAbilityDef (CBTTaskHasAvailableAbilityDef) : <CBTTaskHasAvailableAbilityDef>CBTTaskHasAvailableAbilityDef
+monster_bies_logic.w2behtree:            abilityName (CName) : BiesCustomHypnosis
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #21 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #22
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #22 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #23
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #23 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #24
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #24 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #25
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 5.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #25 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeCombatTicketManagedGetDefinition #26
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 75.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeCombatTicketManagedGetDefinition #26 (CBehTreeNodeCombatTicketManagedGetDefinition) : TICKET_Special
+monster_bies_logic.w2behtree:        CBehTreeNodeCombatTicketManagedGetDefinition (CBehTreeNodeCombatTicketManagedGetDefinition) : <CBehTreeNodeCombatTicketManagedGetDefinition>CBehTreeNodeCombatTicketManagedGetDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #27
+monster_bies_logic.w2behtree:            ticketName (CName) : TICKET_Special
+monster_bies_logic.w2behtree:            ticketAlgorithm (ptr:IBehTreeTicketAlgorithmDefinition) : CBehTreeScriptTicketAlgorithmDefinition #37
+monster_bies_logic.w2behtree:            locksTicket (Bool) : true
+monster_bies_logic.w2behtree:            failsWhenTicketIsLost (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #27 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #28
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskHasAvailableAbilityDef #36
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #28 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #29
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectDef #35
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #29 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #30
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTCondBaseStatLowerThanDef #34
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #30 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptTerminalDefinition #31
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskSetUnstoppableDef #33
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptTerminalDefinition #31 (CBehTreeNodeScriptTerminalDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptTerminalDefinition (CBehTreeNodeScriptTerminalDefinition) : <CBehTreeNodeScriptTerminalDefinition>CBehTreeNodeScriptTerminalDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskBiesHypnotizeDef #32
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskBiesHypnotizeDef #32 (CBTTaskBiesHypnotizeDef) : light_special_stamina_cost
+monster_bies_logic.w2behtree:        CBTTaskBiesHypnotizeDef (CBTTaskBiesHypnotizeDef) : <CBTTaskBiesHypnotizeDef>CBTTaskBiesHypnotizeDef
+monster_bies_logic.w2behtree:            listenToGameplayEvents (array:CName) : # array:CName
+monster_bies_logic.w2behtree:                0 (CName) : HypnotizeRemoved
+monster_bies_logic.w2behtree:            xmlStaminaCostName (CName) : light_special_stamina_cost
+monster_bies_logic.w2behtree:            drainStaminaOnUse (Bool) : true
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack8
+monster_bies_logic.w2behtree:            loopTime (Float) : 3.0000
+monster_bies_logic.w2behtree:            ignoreConeCheck (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskSetUnstoppableDef #33 (CBTTaskSetUnstoppableDef) : 
+monster_bies_logic.w2behtree:        CBTTaskSetUnstoppableDef (CBTTaskSetUnstoppableDef) : <CBTTaskSetUnstoppableDef>CBTTaskSetUnstoppableDef
+monster_bies_logic.w2behtree:    BTCondBaseStatLowerThanDef #34 (BTCondBaseStatLowerThanDef) : 
+monster_bies_logic.w2behtree:        BTCondBaseStatLowerThanDef (BTCondBaseStatLowerThanDef) : <BTCondBaseStatLowerThanDef>BTCondBaseStatLowerThanDef
+monster_bies_logic.w2behtree:            baseStatType (EBaseCharacterStats) : BCS_Essence
+monster_bies_logic.w2behtree:            statValue (Float) : 50.0000
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectDef #35 (CBTTaskIfTargetHasEffectDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectDef (CBTTaskIfTargetHasEffectDef) : <CBTTaskIfTargetHasEffectDef>CBTTaskIfTargetHasEffectDef
+monster_bies_logic.w2behtree:            effect (EEffectType) : EET_Hypnotized
+monster_bies_logic.w2behtree:    CBTTaskHasAvailableAbilityDef #36 (CBTTaskHasAvailableAbilityDef) : BiesCustomHypnosis
+monster_bies_logic.w2behtree:        CBTTaskHasAvailableAbilityDef (CBTTaskHasAvailableAbilityDef) : <CBTTaskHasAvailableAbilityDef>CBTTaskHasAvailableAbilityDef
+monster_bies_logic.w2behtree:            abilityName (CName) : BiesCustomHypnosis
+monster_bies_logic.w2behtree:    CBehTreeScriptTicketAlgorithmDefinition #37 (CBehTreeScriptTicketAlgorithmDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeScriptTicketAlgorithmDefinition (CBehTreeScriptTicketAlgorithmDefinition) : <CBehTreeScriptTicketAlgorithmDefinition>CBehTreeScriptTicketAlgorithmDefinition
+monster_bies_logic.w2behtree:            scriptDef (handle:ITicketAlgorithmScriptDefinition) : CTicketAlgorithmMeleeDefinition #38
+monster_bies_logic.w2behtree:    CTicketAlgorithmMeleeDefinition #38 (CTicketAlgorithmMeleeDefinition) : 
+monster_bies_logic.w2behtree:        CTicketAlgorithmMeleeDefinition (CTicketAlgorithmMeleeDefinition) : <CTicketAlgorithmMeleeDefinition>CTicketAlgorithmMeleeDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValFloat) : <CBehTreeValFloat>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            isInVicinityBonus (CBehTreeValFloat) : <CBehTreeValFloat>isInVicinityBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 500.0000
+monster_bies_logic.w2behtree:            vicinityMax (CBehTreeValFloat) : <CBehTreeValFloat>vicinityMax
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            timeBonus (CBehTreeValFloat) : <CBehTreeValFloat>timeBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            desiredTime (CBehTreeValFloat) : <CBehTreeValFloat>desiredTime
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #39 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #40
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #40 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 60
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #41
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 1.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #41 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionWasEventFiredRecentlyDefinition #42
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionWasEventFiredRecentlyDefinition #42 (CBehTreeNodeConditionWasEventFiredRecentlyDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionWasEventFiredRecentlyDefinition (CBehTreeNodeConditionWasEventFiredRecentlyDefinition) : <CBehTreeNodeConditionWasEventFiredRecentlyDefinition>CBehTreeNodeConditionWasEventFiredRecentlyDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #43
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            activationTimeout (Float) : 1.0000
+monster_bies_logic.w2behtree:            eventName (CBehTreeValCName) : <CBehTreeValCName>eventName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : LaunchCounterAttack
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #43 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #44
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 5.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #44 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #45
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskCounterDecoratorDef #53
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #45 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeSequenceCheckAvailabilityDefinition #46
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #52
+monster_bies_logic.w2behtree:    CBehTreeNodeSequenceCheckAvailabilityDefinition #46 (CBehTreeNodeSequenceCheckAvailabilityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeSequenceCheckAvailabilityDefinition (CBehTreeNodeSequenceCheckAvailabilityDefinition) : <CBehTreeNodeSequenceCheckAvailabilityDefinition>CBehTreeNodeSequenceCheckAvailabilityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            children (array:ptr:IBehTreeNodeDefinition) : # array:ptr:IBehTreeNodeDefinition
+monster_bies_logic.w2behtree:                0 (ptr:IBehTreeNodeDefinition) : CBehTreeNodeDurationDecoratorDefinition #47
+monster_bies_logic.w2behtree:                1 (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #49
+monster_bies_logic.w2behtree:    CBehTreeNodeDurationDecoratorDefinition #47 (CBehTreeNodeDurationDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeDurationDecoratorDefinition (CBehTreeNodeDurationDecoratorDefinition) : <CBehTreeNodeDurationDecoratorDefinition>CBehTreeNodeDurationDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicIdleDefinition #48
+monster_bies_logic.w2behtree:            duration (CBehTreeValFloat) : <CBehTreeValFloat>duration
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.1000
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicIdleDefinition #48 (CBehTreeNodeAtomicIdleDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicIdleDefinition (CBehTreeNodeAtomicIdleDefinition) : <CBehTreeNodeAtomicIdleDefinition>CBehTreeNodeAtomicIdleDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #49 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #50
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskAttackDef #51
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #50 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 70
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Attack
+monster_bies_logic.w2behtree:    CBTTaskAttackDef #51 (CBTTaskAttackDef) : counter_stamina_cost
+monster_bies_logic.w2behtree:        CBTTaskAttackDef (CBTTaskAttackDef) : <CBTTaskAttackDef>CBTTaskAttackDef
+monster_bies_logic.w2behtree:            disableLookatOnActivation (Bool) : true
+monster_bies_logic.w2behtree:            xmlStaminaCostName (CName) : counter_stamina_cost
+monster_bies_logic.w2behtree:            drainStaminaOnUse (Bool) : true
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack4
+monster_bies_logic.w2behtree:            useDirectionalAttacks (Bool) : true
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #52 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBTTaskCounterDecoratorDef #53 (CBTTaskCounterDecoratorDef) : 
+monster_bies_logic.w2behtree:        CBTTaskCounterDecoratorDef (CBTTaskCounterDecoratorDef) : <CBTTaskCounterDecoratorDef>CBTTaskCounterDecoratorDef
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #54 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #55
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #55 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #56
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #56 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #57
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #57 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeCombatTicketManagedGetDefinition #58
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectsDef #82
+monster_bies_logic.w2behtree:    CBehTreeNodeCombatTicketManagedGetDefinition #58 (CBehTreeNodeCombatTicketManagedGetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeCombatTicketManagedGetDefinition (CBehTreeNodeCombatTicketManagedGetDefinition) : <CBehTreeNodeCombatTicketManagedGetDefinition>CBehTreeNodeCombatTicketManagedGetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #59
+monster_bies_logic.w2behtree:            ticketAlgorithm (ptr:IBehTreeTicketAlgorithmDefinition) : CBehTreeScriptTicketAlgorithmDefinition #80
+monster_bies_logic.w2behtree:            locksTicket (Bool) : true
+monster_bies_logic.w2behtree:            failsWhenTicketIsLost (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #59 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeEvaluatingChoiceDefinition #60
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #79
+monster_bies_logic.w2behtree:    CBehTreeNodeEvaluatingChoiceDefinition #60 (CBehTreeNodeEvaluatingChoiceDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeEvaluatingChoiceDefinition (CBehTreeNodeEvaluatingChoiceDefinition) : <CBehTreeNodeEvaluatingChoiceDefinition>CBehTreeNodeEvaluatingChoiceDefinition
+monster_bies_logic.w2behtree:            children (array:ptr:IBehTreeNodeDefinition) : # array:ptr:IBehTreeNodeDefinition
+monster_bies_logic.w2behtree:                0 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #61
+monster_bies_logic.w2behtree:                1 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #68
+monster_bies_logic.w2behtree:                2 (ptr:IBehTreeNodeDefinition) : CBehTreeCommentDefinition #74
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #61 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #62
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #62 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #63
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #63 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #64
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #64 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #65
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 60.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #65 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #66
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskAttackDef #67
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #66 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Attack
+monster_bies_logic.w2behtree:    CBTTaskAttackDef #67 (CBTTaskAttackDef) : 
+monster_bies_logic.w2behtree:        CBTTaskAttackDef (CBTTaskAttackDef) : <CBTTaskAttackDef>CBTTaskAttackDef
+monster_bies_logic.w2behtree:            disableLookatOnActivation (Bool) : true
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #68 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #69
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #69 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #70
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 3.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #70 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #71
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 30.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #71 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #72
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskAttackDef #73
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #72 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Attack
+monster_bies_logic.w2behtree:    CBTTaskAttackDef #73 (CBTTaskAttackDef) : blood_attack
+monster_bies_logic.w2behtree:        CBTTaskAttackDef (CBTTaskAttackDef) : <CBTTaskAttackDef>CBTTaskAttackDef
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack2
+monster_bies_logic.w2behtree:            fxOnDamageInstigated (CName) : blood_attack
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #74 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #75
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #75 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #76
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.1000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #76 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #77
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskAttackDef #78
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #77 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Attack
+monster_bies_logic.w2behtree:    CBTTaskAttackDef #78 (CBTTaskAttackDef) : 
+monster_bies_logic.w2behtree:        CBTTaskAttackDef (CBTTaskAttackDef) : <CBTTaskAttackDef>CBTTaskAttackDef
+monster_bies_logic.w2behtree:            disableLookatOnActivation (Bool) : true
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack3
+monster_bies_logic.w2behtree:            useDirectionalAttacks (Bool) : true
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #79 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBehTreeScriptTicketAlgorithmDefinition #80 (CBehTreeScriptTicketAlgorithmDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeScriptTicketAlgorithmDefinition (CBehTreeScriptTicketAlgorithmDefinition) : <CBehTreeScriptTicketAlgorithmDefinition>CBehTreeScriptTicketAlgorithmDefinition
+monster_bies_logic.w2behtree:            scriptDef (handle:ITicketAlgorithmScriptDefinition) : CTicketAlgorithmMeleeDefinition #81
+monster_bies_logic.w2behtree:    CTicketAlgorithmMeleeDefinition #81 (CTicketAlgorithmMeleeDefinition) : 
+monster_bies_logic.w2behtree:        CTicketAlgorithmMeleeDefinition (CTicketAlgorithmMeleeDefinition) : <CTicketAlgorithmMeleeDefinition>CTicketAlgorithmMeleeDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValFloat) : <CBehTreeValFloat>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            isInVicinityBonus (CBehTreeValFloat) : <CBehTreeValFloat>isInVicinityBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 500.0000
+monster_bies_logic.w2behtree:            vicinityMax (CBehTreeValFloat) : <CBehTreeValFloat>vicinityMax
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            timeBonus (CBehTreeValFloat) : <CBehTreeValFloat>timeBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            desiredTime (CBehTreeValFloat) : <CBehTreeValFloat>desiredTime
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectsDef #82 (CBTTaskIfTargetHasEffectsDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectsDef (CBTTaskIfTargetHasEffectsDef) : <CBTTaskIfTargetHasEffectsDef>CBTTaskIfTargetHasEffectsDef
+monster_bies_logic.w2behtree:            effects (array:EEffectType) : # array:EEffectType
+monster_bies_logic.w2behtree:                0 (EEffectType) : EET_Knockdown
+monster_bies_logic.w2behtree:                1 (EEffectType) : EET_HeavyKnockdown
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #83 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #84
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #84 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #85
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 30.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 20.0000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #85 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #86
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #86 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #87
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 5.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #87 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeCombatTicketManagedGetDefinition #88
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 45.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeCombatTicketManagedGetDefinition #88 (CBehTreeNodeCombatTicketManagedGetDefinition) : TICKET_Special
+monster_bies_logic.w2behtree:        CBehTreeNodeCombatTicketManagedGetDefinition (CBehTreeNodeCombatTicketManagedGetDefinition) : <CBehTreeNodeCombatTicketManagedGetDefinition>CBehTreeNodeCombatTicketManagedGetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #89
+monster_bies_logic.w2behtree:            ticketName (CName) : TICKET_Special
+monster_bies_logic.w2behtree:            ticketAlgorithm (ptr:IBehTreeTicketAlgorithmDefinition) : CBehTreeScriptTicketAlgorithmDefinition #99
+monster_bies_logic.w2behtree:            locksTicket (Bool) : true
+monster_bies_logic.w2behtree:            failsWhenTicketIsLost (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #89 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #90
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskHasAvailableAbilityDef #98
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #90 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #91
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectDef #97
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #91 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #92
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTCondBaseStatLowerThanDef #96
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #92 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptTerminalDefinition #93
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #95
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptTerminalDefinition #93 (CBehTreeNodeScriptTerminalDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptTerminalDefinition (CBehTreeNodeScriptTerminalDefinition) : <CBehTreeNodeScriptTerminalDefinition>CBehTreeNodeScriptTerminalDefinition
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskBiesHypnotizeDef #94
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskBiesHypnotizeDef #94 (CBTTaskBiesHypnotizeDef) : light_special_stamina_cost
+monster_bies_logic.w2behtree:        CBTTaskBiesHypnotizeDef (CBTTaskBiesHypnotizeDef) : <CBTTaskBiesHypnotizeDef>CBTTaskBiesHypnotizeDef
+monster_bies_logic.w2behtree:            listenToGameplayEvents (array:CName) : # array:CName
+monster_bies_logic.w2behtree:                0 (CName) : HypnotizeRemoved
+monster_bies_logic.w2behtree:            xmlStaminaCostName (CName) : light_special_stamina_cost
+monster_bies_logic.w2behtree:            drainStaminaOnUse (Bool) : true
+monster_bies_logic.w2behtree:            attackType (EAttackType) : EAT_Attack8
+monster_bies_logic.w2behtree:            loopTime (Float) : 3.0000
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #95 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:            playNormalHitOnCritical (Bool) : true
+monster_bies_logic.w2behtree:    BTCondBaseStatLowerThanDef #96 (BTCondBaseStatLowerThanDef) : 
+monster_bies_logic.w2behtree:        BTCondBaseStatLowerThanDef (BTCondBaseStatLowerThanDef) : <BTCondBaseStatLowerThanDef>BTCondBaseStatLowerThanDef
+monster_bies_logic.w2behtree:            baseStatType (EBaseCharacterStats) : BCS_Essence
+monster_bies_logic.w2behtree:            statValue (Float) : 90.0000
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectDef #97 (CBTTaskIfTargetHasEffectDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectDef (CBTTaskIfTargetHasEffectDef) : <CBTTaskIfTargetHasEffectDef>CBTTaskIfTargetHasEffectDef
+monster_bies_logic.w2behtree:            effect (EEffectType) : EET_Hypnotized
+monster_bies_logic.w2behtree:    CBTTaskHasAvailableAbilityDef #98 (CBTTaskHasAvailableAbilityDef) : BiesHypnosis
+monster_bies_logic.w2behtree:        CBTTaskHasAvailableAbilityDef (CBTTaskHasAvailableAbilityDef) : <CBTTaskHasAvailableAbilityDef>CBTTaskHasAvailableAbilityDef
+monster_bies_logic.w2behtree:            abilityName (CName) : BiesHypnosis
+monster_bies_logic.w2behtree:    CBehTreeScriptTicketAlgorithmDefinition #99 (CBehTreeScriptTicketAlgorithmDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeScriptTicketAlgorithmDefinition (CBehTreeScriptTicketAlgorithmDefinition) : <CBehTreeScriptTicketAlgorithmDefinition>CBehTreeScriptTicketAlgorithmDefinition
+monster_bies_logic.w2behtree:            scriptDef (handle:ITicketAlgorithmScriptDefinition) : CTicketAlgorithmMeleeDefinition #100
+monster_bies_logic.w2behtree:    CTicketAlgorithmMeleeDefinition #100 (CTicketAlgorithmMeleeDefinition) : 
+monster_bies_logic.w2behtree:        CTicketAlgorithmMeleeDefinition (CTicketAlgorithmMeleeDefinition) : <CTicketAlgorithmMeleeDefinition>CTicketAlgorithmMeleeDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValFloat) : <CBehTreeValFloat>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            isInVicinityBonus (CBehTreeValFloat) : <CBehTreeValFloat>isInVicinityBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 500.0000
+monster_bies_logic.w2behtree:            vicinityMax (CBehTreeValFloat) : <CBehTreeValFloat>vicinityMax
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            timeBonus (CBehTreeValFloat) : <CBehTreeValFloat>timeBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            desiredTime (CBehTreeValFloat) : <CBehTreeValFloat>desiredTime
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #101 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #102
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #102 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #103
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 20.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 1.0000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 8.0000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #103 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #104
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #104 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #105
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 5.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 12.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #105 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #106
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 20.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #106 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeCombatTicketManagedGetDefinition #107
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectsDef #116
+monster_bies_logic.w2behtree:    CBehTreeNodeCombatTicketManagedGetDefinition #107 (CBehTreeNodeCombatTicketManagedGetDefinition) : TICKET_Charge
+monster_bies_logic.w2behtree:        CBehTreeNodeCombatTicketManagedGetDefinition (CBehTreeNodeCombatTicketManagedGetDefinition) : <CBehTreeNodeCombatTicketManagedGetDefinition>CBehTreeNodeCombatTicketManagedGetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #108
+monster_bies_logic.w2behtree:            ticketName (CName) : TICKET_Charge
+monster_bies_logic.w2behtree:            ticketAlgorithm (ptr:IBehTreeTicketAlgorithmDefinition) : CBehTreeScriptTicketAlgorithmDefinition #114
+monster_bies_logic.w2behtree:            locksTicket (Bool) : true
+monster_bies_logic.w2behtree:            failsWhenTicketIsLost (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #108 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #109
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskHasAbilityDef #113
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #109 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptTerminalDefinition #110
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #112
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptTerminalDefinition #110 (CBehTreeNodeScriptTerminalDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptTerminalDefinition (CBehTreeNodeScriptTerminalDefinition) : <CBehTreeNodeScriptTerminalDefinition>CBehTreeNodeScriptTerminalDefinition
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskBiesChargeDef #111
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskBiesChargeDef #111 (CBTTaskBiesChargeDef) : heavy_special_stamina_cost
+monster_bies_logic.w2behtree:        CBTTaskBiesChargeDef (CBTTaskBiesChargeDef) : <CBTTaskBiesChargeDef>CBTTaskBiesChargeDef
+monster_bies_logic.w2behtree:            disableLookatOnActivation (Bool) : true
+monster_bies_logic.w2behtree:            xmlStaminaCostName (CName) : heavy_special_stamina_cost
+monster_bies_logic.w2behtree:            drainStaminaOnUse (Bool) : true
+monster_bies_logic.w2behtree:            loopTime (Float) : 1.5000
+monster_bies_logic.w2behtree:            endStuck (EAttackType) : EAT_Attack3
+monster_bies_logic.w2behtree:            endHit (EAttackType) : EAT_Attack2
+monster_bies_logic.w2behtree:            stuckTime (Float) : 6.0000
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #112 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBTTaskHasAbilityDef #113 (CBTTaskHasAbilityDef) : Charge
+monster_bies_logic.w2behtree:        CBTTaskHasAbilityDef (CBTTaskHasAbilityDef) : <CBTTaskHasAbilityDef>CBTTaskHasAbilityDef
+monster_bies_logic.w2behtree:            abilityName (CName) : Charge
+monster_bies_logic.w2behtree:    CBehTreeScriptTicketAlgorithmDefinition #114 (CBehTreeScriptTicketAlgorithmDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeScriptTicketAlgorithmDefinition (CBehTreeScriptTicketAlgorithmDefinition) : <CBehTreeScriptTicketAlgorithmDefinition>CBehTreeScriptTicketAlgorithmDefinition
+monster_bies_logic.w2behtree:            scriptDef (handle:ITicketAlgorithmScriptDefinition) : CTicketAlgorithmMeleeDefinition #115
+monster_bies_logic.w2behtree:    CTicketAlgorithmMeleeDefinition #115 (CTicketAlgorithmMeleeDefinition) : 
+monster_bies_logic.w2behtree:        CTicketAlgorithmMeleeDefinition (CTicketAlgorithmMeleeDefinition) : <CTicketAlgorithmMeleeDefinition>CTicketAlgorithmMeleeDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValFloat) : <CBehTreeValFloat>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            isInVicinityBonus (CBehTreeValFloat) : <CBehTreeValFloat>isInVicinityBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 500.0000
+monster_bies_logic.w2behtree:            vicinityMax (CBehTreeValFloat) : <CBehTreeValFloat>vicinityMax
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            timeBonus (CBehTreeValFloat) : <CBehTreeValFloat>timeBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            desiredTime (CBehTreeValFloat) : <CBehTreeValFloat>desiredTime
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectsDef #116 (CBTTaskIfTargetHasEffectsDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectsDef (CBTTaskIfTargetHasEffectsDef) : <CBTTaskIfTargetHasEffectsDef>CBTTaskIfTargetHasEffectsDef
+monster_bies_logic.w2behtree:            effects (array:EEffectType) : # array:EEffectType
+monster_bies_logic.w2behtree:                0 (EEffectType) : EET_Knockdown
+monster_bies_logic.w2behtree:                1 (EEffectType) : EET_HeavyKnockdown
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #117 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #118
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #118 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #119
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 10.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 1.0000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 10.0000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #119 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #120
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #120 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #121
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 6.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #121 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeCombatTicketManagedGetDefinition #122
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 20.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeCombatTicketManagedGetDefinition #122 (CBehTreeNodeCombatTicketManagedGetDefinition) : TICKET_Charge
+monster_bies_logic.w2behtree:        CBehTreeNodeCombatTicketManagedGetDefinition (CBehTreeNodeCombatTicketManagedGetDefinition) : <CBehTreeNodeCombatTicketManagedGetDefinition>CBehTreeNodeCombatTicketManagedGetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #123
+monster_bies_logic.w2behtree:            ticketName (CName) : TICKET_Charge
+monster_bies_logic.w2behtree:            ticketAlgorithm (ptr:IBehTreeTicketAlgorithmDefinition) : CBehTreeScriptTicketAlgorithmDefinition #131
+monster_bies_logic.w2behtree:            locksTicket (Bool) : true
+monster_bies_logic.w2behtree:            failsWhenTicketIsLost (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #123 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #124
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectDef #130
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #124 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #125
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskHasAbilityDef #129
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #125 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptTerminalDefinition #126
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #128
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptTerminalDefinition #126 (CBehTreeNodeScriptTerminalDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptTerminalDefinition (CBehTreeNodeScriptTerminalDefinition) : <CBehTreeNodeScriptTerminalDefinition>CBehTreeNodeScriptTerminalDefinition
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskBiesChargeDef #127
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:    CBTTaskBiesChargeDef #127 (CBTTaskBiesChargeDef) : heavy_special_stamina_cost
+monster_bies_logic.w2behtree:        CBTTaskBiesChargeDef (CBTTaskBiesChargeDef) : <CBTTaskBiesChargeDef>CBTTaskBiesChargeDef
+monster_bies_logic.w2behtree:            disableLookatOnActivation (Bool) : true
+monster_bies_logic.w2behtree:            xmlStaminaCostName (CName) : heavy_special_stamina_cost
+monster_bies_logic.w2behtree:            drainStaminaOnUse (Bool) : true
+monster_bies_logic.w2behtree:            loopTime (Float) : 1.5000
+monster_bies_logic.w2behtree:            endStuck (EAttackType) : EAT_Attack3
+monster_bies_logic.w2behtree:            endHit (EAttackType) : EAT_Attack2
+monster_bies_logic.w2behtree:            stuckTime (Float) : 6.0000
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #128 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBTTaskHasAbilityDef #129 (CBTTaskHasAbilityDef) : Charge
+monster_bies_logic.w2behtree:        CBTTaskHasAbilityDef (CBTTaskHasAbilityDef) : <CBTTaskHasAbilityDef>CBTTaskHasAbilityDef
+monster_bies_logic.w2behtree:            abilityName (CName) : Charge
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectDef #130 (CBTTaskIfTargetHasEffectDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectDef (CBTTaskIfTargetHasEffectDef) : <CBTTaskIfTargetHasEffectDef>CBTTaskIfTargetHasEffectDef
+monster_bies_logic.w2behtree:            effect (EEffectType) : EET_Hypnotized
+monster_bies_logic.w2behtree:    CBehTreeScriptTicketAlgorithmDefinition #131 (CBehTreeScriptTicketAlgorithmDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeScriptTicketAlgorithmDefinition (CBehTreeScriptTicketAlgorithmDefinition) : <CBehTreeScriptTicketAlgorithmDefinition>CBehTreeScriptTicketAlgorithmDefinition
+monster_bies_logic.w2behtree:            scriptDef (handle:ITicketAlgorithmScriptDefinition) : CTicketAlgorithmMeleeDefinition #132
+monster_bies_logic.w2behtree:    CTicketAlgorithmMeleeDefinition #132 (CTicketAlgorithmMeleeDefinition) : 
+monster_bies_logic.w2behtree:        CTicketAlgorithmMeleeDefinition (CTicketAlgorithmMeleeDefinition) : <CTicketAlgorithmMeleeDefinition>CTicketAlgorithmMeleeDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValFloat) : <CBehTreeValFloat>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            isInVicinityBonus (CBehTreeValFloat) : <CBehTreeValFloat>isInVicinityBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 500.0000
+monster_bies_logic.w2behtree:            vicinityMax (CBehTreeValFloat) : <CBehTreeValFloat>vicinityMax
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            timeBonus (CBehTreeValFloat) : <CBehTreeValFloat>timeBonus
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 50.0000
+monster_bies_logic.w2behtree:            desiredTime (CBehTreeValFloat) : <CBehTreeValFloat>desiredTime
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #133 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #134
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #134 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #135
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #135 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPursueTargetDefinition #136
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            invertAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectsDef #137
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPursueTargetDefinition #136 (CBehTreeNodeAtomicPursueTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPursueTargetDefinition (CBehTreeNodeAtomicPursueTargetDefinition) : <CBehTreeNodeAtomicPursueTargetDefinition>CBehTreeNodeAtomicPursueTargetDefinition
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 3.0000
+monster_bies_logic.w2behtree:            tolerance (CBehTreeValFloat) : <CBehTreeValFloat>tolerance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:            moveType (CBehTreeValEMoveType) : <CBehTreeValEMoveType>moveType
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (EMoveType) : MT_Walk
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectsDef #137 (CBTTaskIfTargetHasEffectsDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectsDef (CBTTaskIfTargetHasEffectsDef) : <CBTTaskIfTargetHasEffectsDef>CBTTaskIfTargetHasEffectsDef
+monster_bies_logic.w2behtree:            effects (array:EEffectType) : # array:EEffectType
+monster_bies_logic.w2behtree:                0 (EEffectType) : EET_Knockdown
+monster_bies_logic.w2behtree:                1 (EEffectType) : EET_HeavyKnockdown
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #138 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #139
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #139 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionClearLineToTargetDefinition #140
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 4.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionClearLineToTargetDefinition #140 (CBehTreeNodeConditionClearLineToTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionClearLineToTargetDefinition (CBehTreeNodeConditionClearLineToTargetDefinition) : <CBehTreeNodeConditionClearLineToTargetDefinition>CBehTreeNodeConditionClearLineToTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeAtomicSteerWithTargetDefinition #141
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            creatureTest (Bool) : false
+monster_bies_logic.w2behtree:    CBehTreeAtomicSteerWithTargetDefinition #141 (CBehTreeAtomicSteerWithTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeAtomicSteerWithTargetDefinition (CBehTreeAtomicSteerWithTargetDefinition) : <CBehTreeAtomicSteerWithTargetDefinition>CBehTreeAtomicSteerWithTargetDefinition
+monster_bies_logic.w2behtree:            steeringGraph (CBehTreeValSteeringGraph) : <CBehTreeValSteeringGraph>steeringGraph
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/combat/3_large_monsters_surround.w2steer
+monster_bies_logic.w2behtree:            moveType (CBehTreeValEMoveType) : <CBehTreeValEMoveType>moveType
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (EMoveType) : MT_Walk
+monster_bies_logic.w2behtree:            moveSpeed (CBehTreeValFloat) : <CBehTreeValFloat>moveSpeed
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #142 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #143
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #143 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPursueTargetDefinition #144
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 100.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPursueTargetDefinition #144 (CBehTreeNodeAtomicPursueTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPursueTargetDefinition (CBehTreeNodeAtomicPursueTargetDefinition) : <CBehTreeNodeAtomicPursueTargetDefinition>CBehTreeNodeAtomicPursueTargetDefinition
+monster_bies_logic.w2behtree:            moveSpeed (CBehTreeValFloat) : <CBehTreeValFloat>moveSpeed
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:            tolerance (CBehTreeValFloat) : <CBehTreeValFloat>tolerance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 2.0000
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #145 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #146
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #146 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #147
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 10.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #147 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #148
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #148 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #149
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            minDistance (CBehTreeValFloat) : <CBehTreeValFloat>minDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 7.0000
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 15.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionCheckRotationToCombatTargetDefinition #149 (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionCheckRotationToCombatTargetDefinition (CBehTreeNodeConditionCheckRotationToCombatTargetDefinition) : <CBehTreeNodeConditionCheckRotationToCombatTargetDefinition>CBehTreeNodeConditionCheckRotationToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #150
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            rotationTolerance (Float) : 60.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #150 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #151
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #152
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #151 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Taunt
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #152 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBehTreeCommentDefinition #153 (CBehTreeCommentDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeCommentDefinition (CBehTreeCommentDefinition) : <CBehTreeCommentDefinition>CBehTreeCommentDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeActivationDelayDecoratorDefinition #154
+monster_bies_logic.w2behtree:    CBehTreeNodeActivationDelayDecoratorDefinition #154 (CBehTreeNodeActivationDelayDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeActivationDelayDecoratorDefinition (CBehTreeNodeActivationDelayDecoratorDefinition) : <CBehTreeNodeActivationDelayDecoratorDefinition>CBehTreeNodeActivationDelayDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeDecoratorActivePriorityDefinition #155
+monster_bies_logic.w2behtree:            delayOnSuccess (CBehTreeValFloat) : <CBehTreeValFloat>delayOnSuccess
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 1.0000
+monster_bies_logic.w2behtree:            delayOnFailure (CBehTreeValFloat) : <CBehTreeValFloat>delayOnFailure
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:            delayOnInterruption (CBehTreeValFloat) : <CBehTreeValFloat>delayOnInterruption
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 0.5000
+monster_bies_logic.w2behtree:    CBehTreeDecoratorActivePriorityDefinition #155 (CBehTreeDecoratorActivePriorityDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeDecoratorActivePriorityDefinition (CBehTreeDecoratorActivePriorityDefinition) : <CBehTreeDecoratorActivePriorityDefinition>CBehTreeDecoratorActivePriorityDefinition
+monster_bies_logic.w2behtree:            priority (CBehTreeValInt) : <CBehTreeValInt>priority
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Int32) : 95
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeConditionDistanceToCombatTargetDefinition #156
+monster_bies_logic.w2behtree:    CBehTreeNodeConditionDistanceToCombatTargetDefinition #156 (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeConditionDistanceToCombatTargetDefinition (CBehTreeNodeConditionDistanceToCombatTargetDefinition) : <CBehTreeNodeConditionDistanceToCombatTargetDefinition>CBehTreeNodeConditionDistanceToCombatTargetDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #157
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            maxDistance (CBehTreeValFloat) : <CBehTreeValFloat>maxDistance
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (Float) : 7.0000
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #157 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeScriptDecoratorDefinition #158
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : CBTTaskIfTargetHasEffectsDef #161
+monster_bies_logic.w2behtree:    CBehTreeNodeScriptDecoratorDefinition #158 (CBehTreeNodeScriptDecoratorDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeScriptDecoratorDefinition (CBehTreeNodeScriptDecoratorDefinition) : <CBehTreeNodeScriptDecoratorDefinition>CBehTreeNodeScriptDecoratorDefinition
+monster_bies_logic.w2behtree:            child (ptr:IBehTreeNodeDefinition) : CBehTreeNodeAtomicPlayAnimationEventDefinition #159
+monster_bies_logic.w2behtree:            forwardAvailability (Bool) : true
+monster_bies_logic.w2behtree:            skipIfActive (Bool) : true
+monster_bies_logic.w2behtree:            taskOrigin (handle:IBehTreeTaskDefinition) : BTTaskSetAdditiveHitFlagDef #160
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicPlayAnimationEventDefinition #159 (CBehTreeNodeAtomicPlayAnimationEventDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicPlayAnimationEventDefinition (CBehTreeNodeAtomicPlayAnimationEventDefinition) : <CBehTreeNodeAtomicPlayAnimationEventDefinition>CBehTreeNodeAtomicPlayAnimationEventDefinition
+monster_bies_logic.w2behtree:            shouldForceEvent (Bool) : false
+monster_bies_logic.w2behtree:            eventStateName (CBehTreeValCName) : <CBehTreeValCName>eventStateName
+monster_bies_logic.w2behtree:                varName (CName) : 
+monster_bies_logic.w2behtree:                value (CName) : Taunt
+monster_bies_logic.w2behtree:    BTTaskSetAdditiveHitFlagDef #160 (BTTaskSetAdditiveHitFlagDef) : 
+monster_bies_logic.w2behtree:        BTTaskSetAdditiveHitFlagDef (BTTaskSetAdditiveHitFlagDef) : <BTTaskSetAdditiveHitFlagDef>BTTaskSetAdditiveHitFlagDef
+monster_bies_logic.w2behtree:    CBTTaskIfTargetHasEffectsDef #161 (CBTTaskIfTargetHasEffectsDef) : 
+monster_bies_logic.w2behtree:        CBTTaskIfTargetHasEffectsDef (CBTTaskIfTargetHasEffectsDef) : <CBTTaskIfTargetHasEffectsDef>CBTTaskIfTargetHasEffectsDef
+monster_bies_logic.w2behtree:            effects (array:EEffectType) : # array:EEffectType
+monster_bies_logic.w2behtree:                0 (EEffectType) : EET_Knockdown
+monster_bies_logic.w2behtree:                1 (EEffectType) : EET_HeavyKnockdown
+monster_bies_logic.w2behtree:    CBehTreeNodeAtomicIdleDefinition #162 (CBehTreeNodeAtomicIdleDefinition) : 
+monster_bies_logic.w2behtree:        CBehTreeNodeAtomicIdleDefinition (CBehTreeNodeAtomicIdleDefinition) : <CBehTreeNodeAtomicIdleDefinition>CBehTreeNodeAtomicIdleDefinition
+monster_bies_logic.w2behtree:    BTTaskAdditiveHitListenerDef #163 (BTTaskAdditiveHitListenerDef) : 
+monster_bies_logic.w2behtree:        BTTaskAdditiveHitListenerDef (BTTaskAdditiveHitListenerDef) : <BTTaskAdditiveHitListenerDef>BTTaskAdditiveHitListenerDef
+monster_bies_logic.w2behtree:            listenToGameplayEvents (array:CName) : # array:CName
+monster_bies_logic.w2behtree:                0 (CName) : IgnoreSigns
+monster_bies_logic.w2behtree:                1 (CName) : IgnoreSignsEnd
+monster_bies_logic.w2behtree:            playHitSound (Bool) : true
+monster_bies_logic.w2behtree:    BTTaskAdditiveTauntDef #164 (BTTaskAdditiveTauntDef) : 
+monster_bies_logic.w2behtree:        BTTaskAdditiveTauntDef (BTTaskAdditiveTauntDef) : <BTTaskAdditiveTauntDef>BTTaskAdditiveTauntDef
+monster_bies_logic.w2behtree:            distMax (Float) : 8.0000
+monster_bies_logic.w2behtree:    CBTTaskRootPitchDef #165 (CBTTaskRootPitchDef) : 
+monster_bies_logic.w2behtree:        CBTTaskRootPitchDef (CBTTaskRootPitchDef) : <CBTTaskRootPitchDef>CBTTaskRootPitchDef
+monster_bies_logic.w2behtree:    BTTaskLookatDef #166 (BTTaskLookatDef) : 
+monster_bies_logic.w2behtree:        BTTaskLookatDef (BTTaskLookatDef) : <BTTaskLookatDef>BTTaskLookatDef
+monster_bies_logic.w2behtree:            lookatAtStart (Bool) : true
+monster_bies_logic.w2behtree:            useHeadBoneRotation (Bool) : true
+monster_bies_logic.w2behtree:            keepLooking (Bool) : true

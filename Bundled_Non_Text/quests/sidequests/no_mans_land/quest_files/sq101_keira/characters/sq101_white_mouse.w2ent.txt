@@ -1,0 +1,1303 @@
+sq101_white_mouse.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+sq101_white_mouse.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+sq101_white_mouse.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+sq101_white_mouse.w2ent:                0 (handle:CEntityTemplate) : characters/npc_entities/animals/mouse.w2ent
+sq101_white_mouse.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+sq101_white_mouse.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+sq101_white_mouse.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+sq101_white_mouse.w2ent:                    overriddenProperties (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                        0 (CName) : movementAdjustor
+sq101_white_mouse.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+sq101_white_mouse.w2ent:                    componentName (CName) : CAppearanceComponent0
+sq101_white_mouse.w2ent:                    className (CName) : CAppearanceComponent
+sq101_white_mouse.w2ent:                    overriddenProperties (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                        0 (CName) : Appearance
+sq101_white_mouse.w2ent:                        1 (CName) : attachmentReplacements
+sq101_white_mouse.w2ent:            properOverrides (Bool) : true
+sq101_white_mouse.w2ent:            entityClass (CName) : CNewNPC
+sq101_white_mouse.w2ent:            entityObject (ptr:CEntity) : CNewNPC #1
+sq101_white_mouse.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+sq101_white_mouse.w2ent:                0 (CEntityAppearance) : rat_02
+sq101_white_mouse.w2ent:                    name (CName) : rat_02
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 02
+sq101_white_mouse.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+sq101_white_mouse.w2ent:                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_02__rat.w2ent
+sq101_white_mouse.w2ent:                1 (CEntityAppearance) : rat_03
+sq101_white_mouse.w2ent:                    name (CName) : rat_03
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 03
+sq101_white_mouse.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+sq101_white_mouse.w2ent:                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_02__rat.w2ent
+sq101_white_mouse.w2ent:                2 (CEntityAppearance) : rat_01
+sq101_white_mouse.w2ent:                    name (CName) : rat_01
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 01
+sq101_white_mouse.w2ent:                    wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+sq101_white_mouse.w2ent:                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_02__rat.w2ent
+sq101_white_mouse.w2ent:            usedAppearances (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                0 (CName) : rat_01
+sq101_white_mouse.w2ent:                1 (CName) : rat_02
+sq101_white_mouse.w2ent:                2 (CName) : rat_03
+sq101_white_mouse.w2ent:            voicetagAppearances (array:VoicetagAppearancePair) : # array:VoicetagAppearancePair
+sq101_white_mouse.w2ent:                0 (VoicetagAppearancePair) : rat_01
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 01
+sq101_white_mouse.w2ent:                    appearance (CName) : rat_01
+sq101_white_mouse.w2ent:                1 (VoicetagAppearancePair) : rat_02
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 02
+sq101_white_mouse.w2ent:                    appearance (CName) : rat_02
+sq101_white_mouse.w2ent:                2 (VoicetagAppearancePair) : rat_03
+sq101_white_mouse.w2ent:                    voicetag (CName) : VERDEN BOY 03
+sq101_white_mouse.w2ent:                    appearance (CName) : rat_03
+sq101_white_mouse.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+sq101_white_mouse.w2ent:                0 (EntitySlot) : blood_point
+sq101_white_mouse.w2ent:                    wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:                    name (CName) : blood_point
+sq101_white_mouse.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                    boneName (CName) : torso2
+sq101_white_mouse.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+sq101_white_mouse.w2ent:                0 (ptr:CEntityTemplateParam) : CAIProfile #8
+sq101_white_mouse.w2ent:                1 (ptr:CEntityTemplateParam) : CInventoryDefinition #10
+sq101_white_mouse.w2ent:                2 (ptr:CEntityTemplateParam) : CAttackRangeParam #13
+sq101_white_mouse.w2ent:                3 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #15
+sq101_white_mouse.w2ent:                4 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #16
+sq101_white_mouse.w2ent:                5 (ptr:CEntityTemplateParam) : CAIProfile #17
+sq101_white_mouse.w2ent:                6 (ptr:CEntityTemplateParam) : CCharacterStatsParam #20
+sq101_white_mouse.w2ent:                7 (ptr:CEntityTemplateParam) : CCharacterControllerParam #21
+sq101_white_mouse.w2ent:                8 (ptr:CEntityTemplateParam) : CMonsterParam #22
+sq101_white_mouse.w2ent:                9 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #23
+sq101_white_mouse.w2ent:                10 (ptr:CEntityTemplateParam) : CAttackRangeParam #62
+sq101_white_mouse.w2ent:                11 (ptr:CEntityTemplateParam) : CAnimGlobalParam #64
+sq101_white_mouse.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+sq101_white_mouse.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
+sq101_white_mouse.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "PreviewEntity"
+sq101_white_mouse.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+sq101_white_mouse.w2ent:                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
+sq101_white_mouse.w2ent:                            1 (ptr:CComponent) : CAppearanceComponent #2
+sq101_white_mouse.w2ent:                            2 (ptr:CComponent) : CInventoryComponent #3
+sq101_white_mouse.w2ent:                            3 (ptr:CComponent) : CGameplayEffectsComponent #4
+sq101_white_mouse.w2ent:                            4 (ptr:CComponent) : CPhantomComponent #5
+sq101_white_mouse.w2ent:                            5 (ptr:CComponent) : CSoundEmitterComponent #6
+sq101_white_mouse.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sq101_white_mouse.w2ent:                            0 (SEntityBufferType1) : 
+sq101_white_mouse.w2ent:                                ComponentName (CName) : 
+sq101_white_mouse.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sq101_white_mouse.w2ent:                        idTag (IdTag) :  c788a4fe-9d94-4d31-ac4b-f47c4e8832e4
+sq101_white_mouse.w2ent:                        displayName (LocalizedString) : White Mouse
+sq101_white_mouse.w2ent:                        voiceTag (CName) : VERDEN BOY 03
+sq101_white_mouse.w2ent:                        level (Int32) : 1
+sq101_white_mouse.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                        guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "CMovingPhysicalAgentComponent0"
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 395
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 281
+sq101_white_mouse.w2ent:                        skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+sq101_white_mouse.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+sq101_white_mouse.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Exploration
+sq101_white_mouse.w2ent:                                instanceName (CName) : Exploration
+sq101_white_mouse.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+sq101_white_mouse.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+sq101_white_mouse.w2ent:                                instanceName (CName) : Cutscene
+sq101_white_mouse.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+sq101_white_mouse.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+sq101_white_mouse.w2ent:                CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+sq101_white_mouse.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+sq101_white_mouse.w2ent:                        guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "CAppearanceComponent0"
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 166
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 363
+sq101_white_mouse.w2ent:                        forcedAppearance (CName) : rat_01
+sq101_white_mouse.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+sq101_white_mouse.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+sq101_white_mouse.w2ent:                                0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_F96D1966-46FA7272-5A6FF7A8-7620B724
+sq101_white_mouse.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_F96D1966-46FA7272-5A6FF7A8-7620B724
+sq101_white_mouse.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+sq101_white_mouse.w2ent:                                1 (SAttachmentReplacement) : proxy_CInventoryComponent0_70013375-4A9DC38B-9B1B4182-79E06B03
+sq101_white_mouse.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_70013375-4A9DC38B-9B1B4182-79E06B03
+sq101_white_mouse.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                                    newName (CName) : CInventoryComponent0
+sq101_white_mouse.w2ent:                                    newClass (CName) : CInventoryComponent
+sq101_white_mouse.w2ent:                                2 (SAttachmentReplacement) : proxy_t_01__rat_978BB73D-4D757361-7B054F9C-6C4F5CCF
+sq101_white_mouse.w2ent:                                    oldName (CName) : proxy_t_01__rat_978BB73D-4D757361-7B054F9C-6C4F5CCF
+sq101_white_mouse.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                                    newName (CName) : proxy_t_01__rat_285A7F2E-4D5C81E4-A6BF539F-C49E17FE
+sq101_white_mouse.w2ent:                                    newClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                CInventoryComponent #3 (CInventoryComponent) : CInventoryComponent0
+sq101_white_mouse.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+sq101_white_mouse.w2ent:                        guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "CInventoryComponent0"
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 679
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 458
+sq101_white_mouse.w2ent:                CGameplayEffectsComponent #4 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+sq101_white_mouse.w2ent:                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+sq101_white_mouse.w2ent:                        guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "CGameplayEffectsComponent0"
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 445
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 182
+sq101_white_mouse.w2ent:                CPhantomComponent #5 (CPhantomComponent) : Character_PhantomComponent
+sq101_white_mouse.w2ent:                    CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+sq101_white_mouse.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+sq101_white_mouse.w2ent:                            Scale_x (Float) : 2.5445
+sq101_white_mouse.w2ent:                            Scale_y (Float) : 3.0750
+sq101_white_mouse.w2ent:                            Scale_z (Float) : 1.8624
+sq101_white_mouse.w2ent:                            X (Float) : 0.0000
+sq101_white_mouse.w2ent:                            Y (Float) : 0.0000
+sq101_white_mouse.w2ent:                            Z (Float) : 0.1000
+sq101_white_mouse.w2ent:                        guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "Character_PhantomComponent"
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 255
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 354
+sq101_white_mouse.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+sq101_white_mouse.w2ent:                            X (Float) : 0.0500
+sq101_white_mouse.w2ent:                            Y (Float) : 0.0500
+sq101_white_mouse.w2ent:                            Z (Float) : 0.0500
+sq101_white_mouse.w2ent:                            W (Float) : 1.0000
+sq101_white_mouse.w2ent:                CSoundEmitterComponent #6 (CSoundEmitterComponent) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:                        guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+sq101_white_mouse.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:                        name (String) : "CSoundEmitterComponent0"
+sq101_white_mouse.w2ent:                        isStreamed (Bool) : false
+sq101_white_mouse.w2ent:                        graphPositionX (Int16) : 122
+sq101_white_mouse.w2ent:                        graphPositionY (Int16) : 148
+sq101_white_mouse.w2ent:                        banksDependency (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                            0 (CName) : animals_rat.bnk
+sq101_white_mouse.w2ent:                        maxDistance (Float) : 31.0000
+sq101_white_mouse.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+sq101_white_mouse.w2ent:                0 (CEntityTemplateCookedEffect) : light_hit
+sq101_white_mouse.w2ent:                    name (CName) : light_hit
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 1655 bytes, MD5: b608b8447e9c90f7fda28783e4c36461
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : light_hit
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                length (Float) : 6.0231
+sq101_white_mouse.w2ent:                                name (CName) : light_hit
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                                name (String) : "blood_fx"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 142
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 194
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 224
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : fx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+sq101_white_mouse.w2ent:                                name (String) : "fx"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 1.9198
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : blood_point
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+sq101_white_mouse.w2ent:                                    Pitch (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Yaw (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Roll (Float) : 90.0000
+sq101_white_mouse.w2ent:                1 (CEntityTemplateCookedEffect) : heavy_hit
+sq101_white_mouse.w2ent:                    name (CName) : heavy_hit
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 2034 bytes, MD5: 826a843c527df5f963b87e239711cb36
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+sq101_white_mouse.w2ent:                                length (Float) : 5.9196
+sq101_white_mouse.w2ent:                                name (CName) : heavy_hit
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+sq101_white_mouse.w2ent:                                name (String) : "sounds"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 143
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 243
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 184
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+sq101_white_mouse.w2ent:                                name (String) : "sfx"
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.0100
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_blood_outflow_small_short
+sq101_white_mouse.w2ent:                                maxDistance (Float) : 6.0000
+sq101_white_mouse.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                                name (String) : "blood_fx"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 142
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 194
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 224
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #5 (CFXTrack) : fx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : fx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+sq101_white_mouse.w2ent:                                name (String) : "fx"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.0039
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 1.9198
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.7000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/heavy_hit/blood_heavy_hit.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : blood_point
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : blood_point
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+sq101_white_mouse.w2ent:                                    Pitch (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Yaw (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Roll (Float) : 90.0000
+sq101_white_mouse.w2ent:                2 (CEntityTemplateCookedEffect) : critical_burning
+sq101_white_mouse.w2ent:                    name (CName) : critical_burning
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 2796 bytes, MD5: b4b414bc5bec82e74a908890cda5775c
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_burning
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : critical_burning
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+sq101_white_mouse.w2ent:                                length (Float) : 6.0109
+sq101_white_mouse.w2ent:                                loopStart (Float) : 0.5216
+sq101_white_mouse.w2ent:                                name (CName) : critical_burning
+sq101_white_mouse.w2ent:                                showDistance (Float) : 50.0000
+sq101_white_mouse.w2ent:                                isLooped (Bool) : true
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+sq101_white_mouse.w2ent:                                name (String) : "sounds"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 232
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 132
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 227
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+sq101_white_mouse.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+sq101_white_mouse.w2ent:                                    3 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #6
+sq101_white_mouse.w2ent:                                name (String) : "sfx"
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.0157
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_begin
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.1662
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 1.0737
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop_end
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #6 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 1.1999
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_end
+sq101_white_mouse.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : leg
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : leg
+sq101_white_mouse.w2ent:                                name (String) : "leg"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #11
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 190
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 254
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 242
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #8 (CFXTrack) : 4
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : 4
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+sq101_white_mouse.w2ent:                                name (String) : "4"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 6.1973
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 3.0070
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.8704
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6770
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.4836
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.2901
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.0967
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/man_base/critical/arson/fire_detail_mat.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                parentSlotName (CName) : spine3
+sq101_white_mouse.w2ent:                                freeRotation (Bool) : true
+sq101_white_mouse.w2ent:                        CFXTrack #11 (CFXTrack) : 3
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : 3
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
+sq101_white_mouse.w2ent:                                name (String) : "3"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.0354
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 3.0070
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.8704
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6770
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.4836
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.2901
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.0967
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/animals/boids/arson_boids_fx1.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                parentSlotName (CName) : torso2
+sq101_white_mouse.w2ent:                                freeRotation (Bool) : true
+sq101_white_mouse.w2ent:                3 (CEntityTemplateCookedEffect) : light_hit_back
+sq101_white_mouse.w2ent:                    name (CName) : light_hit_back
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: 5f0c1fc4fe89c5a73b86703b680d7ee8
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit_back
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : light_hit_back
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                length (Float) : 6.0231
+sq101_white_mouse.w2ent:                                name (CName) : light_hit_back
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                                name (String) : "blood_fx"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 142
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 194
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 224
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : fx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+sq101_white_mouse.w2ent:                                name (String) : "fx"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 1.9198
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : blood_point
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+sq101_white_mouse.w2ent:                                    Pitch (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Yaw (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Roll (Float) : 90.0000
+sq101_white_mouse.w2ent:                4 (CEntityTemplateCookedEffect) : heavy_hit_back
+sq101_white_mouse.w2ent:                    name (CName) : heavy_hit_back
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: f5e9f13450fc07e76d78bc593c0293ee
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit_back
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit_back
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                length (Float) : 6.0231
+sq101_white_mouse.w2ent:                                name (CName) : heavy_hit_back
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+sq101_white_mouse.w2ent:                                name (String) : "blood_fx"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 142
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 194
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 224
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : fx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+sq101_white_mouse.w2ent:                                name (String) : "fx"
+sq101_white_mouse.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+sq101_white_mouse.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 1.9198
+sq101_white_mouse.w2ent:                                buffername (CName) : Particles
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 3
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        7 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        8 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        9 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.6000
+sq101_white_mouse.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+sq101_white_mouse.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+sq101_white_mouse.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+sq101_white_mouse.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+sq101_white_mouse.w2ent:                                componentName (CName) : blood_point
+sq101_white_mouse.w2ent:                                copyRotation (Bool) : false
+sq101_white_mouse.w2ent:                                attach (Bool) : true
+sq101_white_mouse.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+sq101_white_mouse.w2ent:                                    Pitch (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Yaw (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    Roll (Float) : 90.0000
+sq101_white_mouse.w2ent:                5 (CEntityTemplateCookedEffect) : critical_frozen
+sq101_white_mouse.w2ent:                    name (CName) : critical_frozen
+sq101_white_mouse.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+sq101_white_mouse.w2ent:                        Bufferdata (CByteArray) : 2044 bytes, MD5: 673e5167e08627318cbcc2dfe2493424
+sq101_white_mouse.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_frozen
+sq101_white_mouse.w2ent:                            CFXDefinition (CFXDefinition) : critical_frozen
+sq101_white_mouse.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+sq101_white_mouse.w2ent:                                length (Float) : 4.5000
+sq101_white_mouse.w2ent:                                loopStart (Float) : 1.9376
+sq101_white_mouse.w2ent:                                loopEnd (Float) : 2.4989
+sq101_white_mouse.w2ent:                                name (CName) : critical_frozen
+sq101_white_mouse.w2ent:                                showDistance (Float) : 35.0000
+sq101_white_mouse.w2ent:                                isLooped (Bool) : true
+sq101_white_mouse.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+sq101_white_mouse.w2ent:                                name (String) : "audio"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 200
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 186
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 244
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : sfx
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+sq101_white_mouse.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+sq101_white_mouse.w2ent:                                name (String) : "sfx"
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 0.0155
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_start
+sq101_white_mouse.w2ent:                                maxDistance (Float) : 25.0000
+sq101_white_mouse.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+sq101_white_mouse.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+sq101_white_mouse.w2ent:                                timeBegin (Float) : 2.6152
+sq101_white_mouse.w2ent:                                buffername (CName) : 
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 0
+sq101_white_mouse.w2ent:                                unk (Uint8) : 0
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+sq101_white_mouse.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_stop
+sq101_white_mouse.w2ent:                                maxDistance (Float) : 25.0000
+sq101_white_mouse.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+sq101_white_mouse.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+sq101_white_mouse.w2ent:                                name (String) : "fx"
+sq101_white_mouse.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+sq101_white_mouse.w2ent:                                isExpanded (Bool) : true
+sq101_white_mouse.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+sq101_white_mouse.w2ent:                                    Red (Uint8) : 232
+sq101_white_mouse.w2ent:                                    Green (Uint8) : 241
+sq101_white_mouse.w2ent:                                    Blue (Uint8) : 164
+sq101_white_mouse.w2ent:                                    Alpha (Uint8) : 100
+sq101_white_mouse.w2ent:                        CFXTrack #6 (CFXTrack) : asd
+sq101_white_mouse.w2ent:                            CFXTrack (CFXTrack) : asd
+sq101_white_mouse.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+sq101_white_mouse.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+sq101_white_mouse.w2ent:                                name (String) : "asd"
+sq101_white_mouse.w2ent:                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+sq101_white_mouse.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+sq101_white_mouse.w2ent:                                timeDuration (Float) : 4.3039
+sq101_white_mouse.w2ent:                                buffername (CName) : MaterialOverride
+sq101_white_mouse.w2ent:                                count (CDynamicInt) : 4
+sq101_white_mouse.w2ent:                                unk (Uint8) : 1
+sq101_white_mouse.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0.2> <0.2791193> <0.3582385> <0.4373578> <0.5383589> <0.7225504> <0.9067419> <1> <1> <1> <0
+sq101_white_mouse.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 0.2000
+sq101_white_mouse.w2ent:                                        1 (Float) : 0.2791
+sq101_white_mouse.w2ent:                                        2 (Float) : 0.3582
+sq101_white_mouse.w2ent:                                        3 (Float) : 0.4374
+sq101_white_mouse.w2ent:                                        4 (Float) : 0.5384
+sq101_white_mouse.w2ent:                                        5 (Float) : 0.7226
+sq101_white_mouse.w2ent:                                        6 (Float) : 0.9067
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 0.7287
+sq101_white_mouse.w2ent:                                        11 (Float) : 0.4557
+sq101_white_mouse.w2ent:                                        12 (Float) : 0.1827
+sq101_white_mouse.w2ent:                                        13 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 0.0000
+sq101_white_mouse.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+sq101_white_mouse.w2ent:                                        0 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        2 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        3 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        4 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        5 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        6 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        7 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        8 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        9 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        10 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        11 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        12 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        13 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        14 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                        15 (Float) : 1.0000
+sq101_white_mouse.w2ent:                                material (handle:IMaterial) : fx/gameplay/states/freezing/freezing_shader_old.w2mg
+sq101_white_mouse.w2ent:                                drawOriginal (Bool) : true
+sq101_white_mouse.w2ent:                                forceMeshAlternatives (Bool) : true
+sq101_white_mouse.w2ent:            cookedEffectsVersion (Uint32) : 1
+sq101_white_mouse.w2ent:            Unk1 (Uint32) : 0
+sq101_white_mouse.w2ent:    CNewNPC #1 (CNewNPC) : VERDEN BOY 03
+sq101_white_mouse.w2ent:        CNewNPC (CNewNPC) : 
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+sq101_white_mouse.w2ent:                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+sq101_white_mouse.w2ent:                1 (ptr:CComponent) : CAppearanceComponent #3
+sq101_white_mouse.w2ent:                2 (ptr:CComponent) : CInventoryComponent #4
+sq101_white_mouse.w2ent:                3 (ptr:CComponent) : CGameplayEffectsComponent #5
+sq101_white_mouse.w2ent:                4 (ptr:CComponent) : CPhantomComponent #6
+sq101_white_mouse.w2ent:                5 (ptr:CComponent) : CSoundEmitterComponent #7
+sq101_white_mouse.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+sq101_white_mouse.w2ent:                0 (SEntityBufferType1) : 
+sq101_white_mouse.w2ent:                    ComponentName (CName) : 
+sq101_white_mouse.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+sq101_white_mouse.w2ent:            idTag (IdTag) :  c788a4fe-9d94-4d31-ac4b-f47c4e8832e4
+sq101_white_mouse.w2ent:            displayName (LocalizedString) : White Mouse
+sq101_white_mouse.w2ent:            voiceTag (CName) : VERDEN BOY 03
+sq101_white_mouse.w2ent:            level (Int32) : 1
+sq101_white_mouse.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+sq101_white_mouse.w2ent:            guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "CMovingPhysicalAgentComponent0"
+sq101_white_mouse.w2ent:            skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+sq101_white_mouse.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+sq101_white_mouse.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+sq101_white_mouse.w2ent:                    instanceName (CName) : Exploration
+sq101_white_mouse.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+sq101_white_mouse.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+sq101_white_mouse.w2ent:                    instanceName (CName) : Cutscene
+sq101_white_mouse.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+sq101_white_mouse.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+sq101_white_mouse.w2ent:    CAppearanceComponent #3 (CAppearanceComponent) : CAppearanceComponent0
+sq101_white_mouse.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+sq101_white_mouse.w2ent:            guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "CAppearanceComponent0"
+sq101_white_mouse.w2ent:            forcedAppearance (CName) : rat_01
+sq101_white_mouse.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+sq101_white_mouse.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+sq101_white_mouse.w2ent:                    0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_F96D1966-46FA7272-5A6FF7A8-7620B724
+sq101_white_mouse.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_F96D1966-46FA7272-5A6FF7A8-7620B724
+sq101_white_mouse.w2ent:                        oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                        newName (CName) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:                        newClass (CName) : CSoundEmitterComponent
+sq101_white_mouse.w2ent:                    1 (SAttachmentReplacement) : proxy_CInventoryComponent0_70013375-4A9DC38B-9B1B4182-79E06B03
+sq101_white_mouse.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_70013375-4A9DC38B-9B1B4182-79E06B03
+sq101_white_mouse.w2ent:                        oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                        newName (CName) : CInventoryComponent0
+sq101_white_mouse.w2ent:                        newClass (CName) : CInventoryComponent
+sq101_white_mouse.w2ent:                    2 (SAttachmentReplacement) : proxy_t_01__rat_978BB73D-4D757361-7B054F9C-6C4F5CCF
+sq101_white_mouse.w2ent:                        oldName (CName) : proxy_t_01__rat_978BB73D-4D757361-7B054F9C-6C4F5CCF
+sq101_white_mouse.w2ent:                        oldClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:                        newName (CName) : proxy_t_01__rat_285A7F2E-4D5C81E4-A6BF539F-C49E17FE
+sq101_white_mouse.w2ent:                        newClass (CName) : CExternalProxyComponent
+sq101_white_mouse.w2ent:    CInventoryComponent #4 (CInventoryComponent) : CInventoryComponent0
+sq101_white_mouse.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+sq101_white_mouse.w2ent:            guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "CInventoryComponent0"
+sq101_white_mouse.w2ent:    CGameplayEffectsComponent #5 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+sq101_white_mouse.w2ent:        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+sq101_white_mouse.w2ent:            guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "CGameplayEffectsComponent0"
+sq101_white_mouse.w2ent:    CPhantomComponent #6 (CPhantomComponent) : Character_PhantomComponent
+sq101_white_mouse.w2ent:        CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+sq101_white_mouse.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+sq101_white_mouse.w2ent:                Scale_x (Float) : 2.5445
+sq101_white_mouse.w2ent:                Scale_y (Float) : 3.0750
+sq101_white_mouse.w2ent:                Scale_z (Float) : 1.8624
+sq101_white_mouse.w2ent:                X (Float) : 0.0000
+sq101_white_mouse.w2ent:                Y (Float) : 0.0000
+sq101_white_mouse.w2ent:                Z (Float) : 0.1000
+sq101_white_mouse.w2ent:            guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "Character_PhantomComponent"
+sq101_white_mouse.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+sq101_white_mouse.w2ent:                X (Float) : 0.0500
+sq101_white_mouse.w2ent:                Y (Float) : 0.0500
+sq101_white_mouse.w2ent:                Z (Float) : 0.0500
+sq101_white_mouse.w2ent:                W (Float) : 1.0000
+sq101_white_mouse.w2ent:    CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+sq101_white_mouse.w2ent:            guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+sq101_white_mouse.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+sq101_white_mouse.w2ent:            name (String) : "CSoundEmitterComponent0"
+sq101_white_mouse.w2ent:            isStreamed (Bool) : false
+sq101_white_mouse.w2ent:            banksDependency (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                0 (CName) : animals_rat.bnk
+sq101_white_mouse.w2ent:            maxDistance (Float) : 31.0000
+sq101_white_mouse.w2ent:    CAIProfile #8 (CAIProfile) : hostile_to_player
+sq101_white_mouse.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #9
+sq101_white_mouse.w2ent:            attitudeGroup (CName) : hostile_to_player
+sq101_white_mouse.w2ent:    CAISenseParams #9 (CAISenseParams) : 
+sq101_white_mouse.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+sq101_white_mouse.w2ent:    CInventoryDefinition #10 (CInventoryDefinition) : 
+sq101_white_mouse.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+sq101_white_mouse.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #11
+sq101_white_mouse.w2ent:    CInventoryDefinitionEntry #11 (CInventoryDefinitionEntry) : monster_weapon
+sq101_white_mouse.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+sq101_white_mouse.w2ent:            category (CName) : monster_weapon
+sq101_white_mouse.w2ent:            isMount (Bool) : true
+sq101_white_mouse.w2ent:            isLootable (Bool) : false
+sq101_white_mouse.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #12
+sq101_white_mouse.w2ent:    CInventoryInitializerUniform #12 (CInventoryInitializerUniform) : mon_nekker_weapon
+sq101_white_mouse.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+sq101_white_mouse.w2ent:            itemName (CName) : mon_nekker_weapon
+sq101_white_mouse.w2ent:    CAttackRangeParam #13 (CAttackRangeParam) : attack_ranges
+sq101_white_mouse.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "attack_ranges"
+sq101_white_mouse.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+sq101_white_mouse.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #14
+sq101_white_mouse.w2ent:    CConeAttackRange #14 (CConeAttackRange) : basic_strike
+sq101_white_mouse.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
+sq101_white_mouse.w2ent:            name (CName) : basic_strike
+sq101_white_mouse.w2ent:            rangeMax (Float) : 0.5000
+sq101_white_mouse.w2ent:            height (Float) : 0.4000
+sq101_white_mouse.w2ent:            rangeAngle (Float) : 70.0000
+sq101_white_mouse.w2ent:    CAnimBehaviorsParam #15 (CAnimBehaviorsParam) : animal
+sq101_white_mouse.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : animal
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "animal"
+sq101_white_mouse.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+sq101_white_mouse.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+sq101_white_mouse.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+sq101_white_mouse.w2ent:                    instanceName (CName) : Exploration
+sq101_white_mouse.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+sq101_white_mouse.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+sq101_white_mouse.w2ent:                    instanceName (CName) : Cutscene
+sq101_white_mouse.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+sq101_white_mouse.w2ent:    CAnimAnimsetsParam #16 (CAnimAnimsetsParam) : animal
+sq101_white_mouse.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : animal
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "animal"
+sq101_white_mouse.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+sq101_white_mouse.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+sq101_white_mouse.w2ent:                0 (handle:CSkeletalAnimationSet) : animations/animals/rat/rat_animation.w2anims
+sq101_white_mouse.w2ent:    CAIProfile #17 (CAIProfile) : AG_small_animals
+sq101_white_mouse.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #18
+sq101_white_mouse.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #19
+sq101_white_mouse.w2ent:            attitudeGroup (CName) : AG_small_animals
+sq101_white_mouse.w2ent:    CAISenseParams #18 (CAISenseParams) : 
+sq101_white_mouse.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+sq101_white_mouse.w2ent:            enabled (Bool) : false
+sq101_white_mouse.w2ent:            rangeMax (Float) : 6.0000
+sq101_white_mouse.w2ent:            rangeAngle (Float) : 360.0000
+sq101_white_mouse.w2ent:            testLOS (Bool) : false
+sq101_white_mouse.w2ent:    CAISenseParams #19 (CAISenseParams) : 
+sq101_white_mouse.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+sq101_white_mouse.w2ent:            rangeMax (Float) : 6.0000
+sq101_white_mouse.w2ent:            rangeAngle (Float) : 360.0000
+sq101_white_mouse.w2ent:            testLOS (Bool) : false
+sq101_white_mouse.w2ent:    CCharacterStatsParam #20 (CCharacterStatsParam) : rat_params
+sq101_white_mouse.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : rat_params
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "rat_params"
+sq101_white_mouse.w2ent:            abilities (array:CName) : # array:CName
+sq101_white_mouse.w2ent:                0 (CName) : animal_rat_base
+sq101_white_mouse.w2ent:                1 (CName) : NPCDoNotGainBoost
+sq101_white_mouse.w2ent:                2 (CName) : NoAdaptBalance
+sq101_white_mouse.w2ent:    CCharacterControllerParam #21 (CCharacterControllerParam) : rat_character_controller_params
+sq101_white_mouse.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : rat_character_controller_params
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "rat_character_controller_params"
+sq101_white_mouse.w2ent:            height (Float) : 0.9000
+sq101_white_mouse.w2ent:            physicalRadius (Float) : 0.2000
+sq101_white_mouse.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_0
+sq101_white_mouse.w2ent:    CMonsterParam #22 (CMonsterParam) : monster_params
+sq101_white_mouse.w2ent:        CMonsterParam (CMonsterParam) : monster_params
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "monster_params"
+sq101_white_mouse.w2ent:            canBeStrafed (Bool) : false
+sq101_white_mouse.w2ent:            monsterCategory (Int32) : 14
+sq101_white_mouse.w2ent:            soundMonsterName (CName) : Rat
+sq101_white_mouse.w2ent:    CAIBaseTreeTemplateParam #23 (CAIBaseTreeTemplateParam) : 
+sq101_white_mouse.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #24
+sq101_white_mouse.w2ent:    CAIMonsterBase #24 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIRatDefaults #25
+sq101_white_mouse.w2ent:    CAIRatDefaults #25 (CAIRatDefaults) : 
+sq101_white_mouse.w2ent:        CAIRatDefaults (CAIRatDefaults) : <CAIRatDefaults>CAIRatDefaults
+sq101_white_mouse.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #26
+sq101_white_mouse.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #28
+sq101_white_mouse.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #44
+sq101_white_mouse.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #60
+sq101_white_mouse.w2ent:    CAIMonsterAxii #26 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #27
+sq101_white_mouse.w2ent:    CAIMonsterAxiiParams #27 (CAIMonsterAxiiParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+sq101_white_mouse.w2ent:    CAIMonsterIdleDecorator #28 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #29
+sq101_white_mouse.w2ent:    CAIMonsterIdleDecoratorParams #29 (CAIMonsterIdleDecoratorParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+sq101_white_mouse.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #30
+sq101_white_mouse.w2ent:    CAIMonsterReactionsTree #30 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #31
+sq101_white_mouse.w2ent:    CAIMonsterReactionsTreeParams #31 (CAIMonsterReactionsTreeParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+sq101_white_mouse.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+sq101_white_mouse.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #32
+sq101_white_mouse.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #34
+sq101_white_mouse.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #36
+sq101_white_mouse.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #38
+sq101_white_mouse.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #40
+sq101_white_mouse.w2ent:                5 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #42
+sq101_white_mouse.w2ent:    CAIActionSearchForTarget #32 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #33
+sq101_white_mouse.w2ent:    CAINpcReactionSearchTarget #33 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+sq101_white_mouse.w2ent:    CAIActionAllySearchesTarget #34 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #35
+sq101_white_mouse.w2ent:    CAINpcReactionJoinSearchForTarget #35 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+sq101_white_mouse.w2ent:    CAIActionPlayWithTarget #36 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #37
+sq101_white_mouse.w2ent:    CAINpcReactionPlayWithTarget #37 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+sq101_white_mouse.w2ent:    CAIActionMoveInPack #38 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #39
+sq101_white_mouse.w2ent:    CAINpcReactionMoveInPack #39 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+sq101_white_mouse.w2ent:    CAIActionRunWildInPack #40 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #41
+sq101_white_mouse.w2ent:    CAINpcReactionRunWildInPack #41 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+sq101_white_mouse.w2ent:    CAIActionLeadEscape #42 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #43
+sq101_white_mouse.w2ent:            actionEventName (CName) : FireDanger
+sq101_white_mouse.w2ent:    CAINpcReactionLeadEscape #43 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:    CAIMonsterCombat #44 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #45
+sq101_white_mouse.w2ent:    CAIMonsterCombatParams #45 (CAIMonsterCombatParams) : MonsterHitReaction
+sq101_white_mouse.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+sq101_white_mouse.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIRatCombatLogic #46
+sq101_white_mouse.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #48
+sq101_white_mouse.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
+sq101_white_mouse.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #50
+sq101_white_mouse.w2ent:    CAIRatCombatLogic #46 (CAIRatCombatLogic) : CBehTree:gameplay\trees\monsters\monster_rat_logic.w2behtree
+sq101_white_mouse.w2ent:        CAIRatCombatLogic (CAIRatCombatLogic) : <CAIRatCombatLogic>CAIRatCombatLogic
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/monsters/monster_rat_logic.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #47
+sq101_white_mouse.w2ent:    CAIMonsterCombatLogicParams #47 (CAIMonsterCombatLogicParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+sq101_white_mouse.w2ent:    CAIMonsterDamageReactionTree #48 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #49
+sq101_white_mouse.w2ent:    CAIDamageReactionTreeParams #49 (CAIDamageReactionTreeParams) : 
+sq101_white_mouse.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+sq101_white_mouse.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
+sq101_white_mouse.w2ent:    CAIMonsterCombatReactionsTree #50 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #51
+sq101_white_mouse.w2ent:    CAIMonsterReactionsTreeParams #51 (CAIMonsterReactionsTreeParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+sq101_white_mouse.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+sq101_white_mouse.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #52
+sq101_white_mouse.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #54
+sq101_white_mouse.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #56
+sq101_white_mouse.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #42
+sq101_white_mouse.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #58
+sq101_white_mouse.w2ent:    CAIActionLeadEscape #52 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #53
+sq101_white_mouse.w2ent:    CAINpcReactionLeadEscape #53 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:    CAIActionLeadEscape #54 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #55
+sq101_white_mouse.w2ent:            actionEventName (CName) : FearsomeEvent
+sq101_white_mouse.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
+sq101_white_mouse.w2ent:    CAINpcReactionLeadEscape #55 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:    CAIActionEscapeInPack #56 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #57
+sq101_white_mouse.w2ent:    CAINpcReactionEscapeInPack #57 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+sq101_white_mouse.w2ent:    CAIActionLeadEscape #58 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+sq101_white_mouse.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+sq101_white_mouse.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #59
+sq101_white_mouse.w2ent:            actionEventName (CName) : CastSignAction
+sq101_white_mouse.w2ent:    CAINpcReactionLeadEscape #59 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+sq101_white_mouse.w2ent:    CAIMonsterDeath #60 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+sq101_white_mouse.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+sq101_white_mouse.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+sq101_white_mouse.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #61
+sq101_white_mouse.w2ent:    CAIMonsterDeathParams #61 (CAIMonsterDeathParams) : 
+sq101_white_mouse.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+sq101_white_mouse.w2ent:    CAttackRangeParam #62 (CAttackRangeParam) : attack_ranges
+sq101_white_mouse.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            name (String) : "attack_ranges"
+sq101_white_mouse.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+sq101_white_mouse.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #63
+sq101_white_mouse.w2ent:    CConeAttackRange #63 (CConeAttackRange) : basic_strike
+sq101_white_mouse.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
+sq101_white_mouse.w2ent:            name (CName) : basic_strike
+sq101_white_mouse.w2ent:            rangeMax (Float) : 0.5000
+sq101_white_mouse.w2ent:            height (Float) : 0.4000
+sq101_white_mouse.w2ent:            rangeAngle (Float) : 70.0000
+sq101_white_mouse.w2ent:    CAnimGlobalParam #64 (CAnimGlobalParam) : sfx_rat
+sq101_white_mouse.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+sq101_white_mouse.w2ent:            wasIncluded (Bool) : true
+sq101_white_mouse.w2ent:            sfxTag (CName) : sfx_rat

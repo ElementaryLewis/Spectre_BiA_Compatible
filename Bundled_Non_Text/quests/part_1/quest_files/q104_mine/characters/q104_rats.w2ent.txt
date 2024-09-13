@@ -1,0 +1,1593 @@
+q104_rats.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3Rat
+q104_rats.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+q104_rats.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+q104_rats.w2ent:                0 (handle:CEntityTemplate) : characters/npc_entities/animals/rat_aggressive.w2ent
+q104_rats.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+q104_rats.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+q104_rats.w2ent:                    componentName (CName) : CAppearanceComponent0
+q104_rats.w2ent:                    className (CName) : CAppearanceComponent
+q104_rats.w2ent:                    overriddenProperties (array:CName) : # array:CName
+q104_rats.w2ent:                        0 (CName) : attachmentReplacements
+q104_rats.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+q104_rats.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+q104_rats.w2ent:                    overriddenProperties (array:CName) : # array:CName
+q104_rats.w2ent:                        0 (CName) : movementAdjustor
+q104_rats.w2ent:            properOverrides (Bool) : true
+q104_rats.w2ent:            entityClass (CName) : W3Rat
+q104_rats.w2ent:            entityObject (ptr:CEntity) : W3Rat #1
+q104_rats.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+q104_rats.w2ent:                0 (CEntityAppearance) : rat_01
+q104_rats.w2ent:                    name (CName) : rat_01
+q104_rats.w2ent:                    wasIncluded (Bool) : true
+q104_rats.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+q104_rats.w2ent:                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_01__rat.w2ent
+q104_rats.w2ent:            usedAppearances (array:CName) : # array:CName
+q104_rats.w2ent:                0 (CName) : rat_01
+q104_rats.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+q104_rats.w2ent:                0 (EntitySlot) : blood_point
+q104_rats.w2ent:                    wasIncluded (Bool) : true
+q104_rats.w2ent:                    name (CName) : blood_point
+q104_rats.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                    boneName (CName) : torso2
+q104_rats.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+q104_rats.w2ent:                0 (ptr:CEntityTemplateParam) : CAIProfile #11
+q104_rats.w2ent:                1 (ptr:CEntityTemplateParam) : CAnimGlobalParam #12
+q104_rats.w2ent:                2 (ptr:CEntityTemplateParam) : CCharacterStatsParam #13
+q104_rats.w2ent:                3 (ptr:CEntityTemplateParam) : CAIProfile #14
+q104_rats.w2ent:                4 (ptr:CEntityTemplateParam) : CInventoryDefinition #16
+q104_rats.w2ent:                5 (ptr:CEntityTemplateParam) : CAnimGlobalParam #19
+q104_rats.w2ent:                6 (ptr:CEntityTemplateParam) : CCharacterStatsParam #20
+q104_rats.w2ent:                7 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #21
+q104_rats.w2ent:                8 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #22
+q104_rats.w2ent:                9 (ptr:CEntityTemplateParam) : CAIProfile #23
+q104_rats.w2ent:                10 (ptr:CEntityTemplateParam) : CCharacterStatsParam #26
+q104_rats.w2ent:                11 (ptr:CEntityTemplateParam) : CCharacterControllerParam #27
+q104_rats.w2ent:                12 (ptr:CEntityTemplateParam) : CMonsterParam #28
+q104_rats.w2ent:                13 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #29
+q104_rats.w2ent:                14 (ptr:CEntityTemplateParam) : CAttackRangeParam #68
+q104_rats.w2ent:                15 (ptr:CEntityTemplateParam) : CAnimGlobalParam #70
+q104_rats.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+q104_rats.w2ent:                W3Rat #0 (W3Rat) : PreviewEntity
+q104_rats.w2ent:                    W3Rat (W3Rat) : PreviewEntity
+q104_rats.w2ent:                        tags (TagList) : AchievementKillDontCount
+q104_rats.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+q104_rats.w2ent:                                0 (CName) : AchievementKillDontCount
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        streamingDistance (Uint8) : 0
+q104_rats.w2ent:                        name (String) : "PreviewEntity"
+q104_rats.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+q104_rats.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #4
+q104_rats.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #5
+q104_rats.w2ent:                            2 (ptr:CComponent) : CInventoryComponent #6
+q104_rats.w2ent:                            3 (ptr:CComponent) : CGameplayEffectsComponent #7
+q104_rats.w2ent:                            4 (ptr:CComponent) : CPhantomComponent #8
+q104_rats.w2ent:                            5 (ptr:CComponent) : CSoundEmitterComponent #9
+q104_rats.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+q104_rats.w2ent:                            0 (SEntityBufferType1) : 
+q104_rats.w2ent:                                ComponentName (CName) : 
+q104_rats.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+q104_rats.w2ent:                        idTag (IdTag) :  af83c503-cfc6-4261-85f2-cf0921885000
+q104_rats.w2ent:                        displayName (LocalizedString) : Rat
+q104_rats.w2ent:                        abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #1
+q104_rats.w2ent:                        effectManager (handle:W3EffectManager) : W3EffectManager #3
+q104_rats.w2ent:                        level (Int32) : 1
+q104_rats.w2ent:                W3NonPlayerAbilityManager #1 (W3NonPlayerAbilityManager) : 
+q104_rats.w2ent:                    W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+q104_rats.w2ent:                        statPoints (array:SBaseStat) : # array:SBaseStat
+q104_rats.w2ent:                            0 (SBaseStat) : <SBaseStat>0
+q104_rats.w2ent:                                current (Float) : 2217.8000
+q104_rats.w2ent:                                max (Float) : 2217.8000
+q104_rats.w2ent:                        resistStats (array:SResistanceValue) : # array:SResistanceValue
+q104_rats.w2ent:                            0 (SResistanceValue) : <SResistanceValue>0
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_PhysicalRes
+q104_rats.w2ent:                            1 (SResistanceValue) : <SResistanceValue>1
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_BleedingRes
+q104_rats.w2ent:                            2 (SResistanceValue) : <SResistanceValue>2
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_PoisonRes
+q104_rats.w2ent:                            3 (SResistanceValue) : <SResistanceValue>3
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_FireRes
+q104_rats.w2ent:                            4 (SResistanceValue) : <SResistanceValue>4
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_FrostRes
+q104_rats.w2ent:                            5 (SResistanceValue) : <SResistanceValue>5
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_ShockRes
+q104_rats.w2ent:                            6 (SResistanceValue) : <SResistanceValue>6
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_ForceRes
+q104_rats.w2ent:                            7 (SResistanceValue) : <SResistanceValue>7
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_WillRes
+q104_rats.w2ent:                            8 (SResistanceValue) : <SResistanceValue>8
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_BurningRes
+q104_rats.w2ent:                            9 (SResistanceValue) : <SResistanceValue>9
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_SlashingRes
+q104_rats.w2ent:                            10 (SResistanceValue) : <SResistanceValue>10
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_PiercingRes
+q104_rats.w2ent:                            11 (SResistanceValue) : <SResistanceValue>11
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_BludgeoningRes
+q104_rats.w2ent:                            12 (SResistanceValue) : <SResistanceValue>12
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_RendingRes
+q104_rats.w2ent:                            13 (SResistanceValue) : <SResistanceValue>13
+q104_rats.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                                    valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                                type (ECharacterDefenseStats) : CDS_ElementalRes
+q104_rats.w2ent:                        owner (handle:CActor) : W3Rat #0
+q104_rats.w2ent:                        charStats (handle:CCharacterStats) : CCharacterStats #2
+q104_rats.w2ent:                        usedDifficultyMode (EDifficultyMode) : EDM_Medium
+q104_rats.w2ent:                        difficultyAbilities (array:CName) : # array:CName
+q104_rats.w2ent:                            1 (array:CName) : # array:CName
+q104_rats.w2ent:                                0 (CName) : difficulty_CommonEasy
+q104_rats.w2ent:                            2 (array:CName) : # array:CName
+q104_rats.w2ent:                                0 (CName) : difficulty_CommonMedium
+q104_rats.w2ent:                            3 (array:CName) : # array:CName
+q104_rats.w2ent:                                0 (CName) : difficulty_CommonHard
+q104_rats.w2ent:                            4 (array:CName) : # array:CName
+q104_rats.w2ent:                                0 (CName) : difficulty_CommonHardcore
+q104_rats.w2ent:                CCharacterStats #2 (CCharacterStats) : 
+q104_rats.w2ent:                    CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+q104_rats.w2ent:                W3EffectManager #3 (W3EffectManager) : 
+q104_rats.w2ent:                    W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+q104_rats.w2ent:                        statDeltas (array:Float) : # array:Float
+q104_rats.w2ent:                            1 (Float) : 0.0000
+q104_rats.w2ent:                            2 (Float) : 0.0000
+q104_rats.w2ent:                            3 (Float) : 0.0000
+q104_rats.w2ent:                            4 (Float) : 0.0000
+q104_rats.w2ent:                            5 (Float) : 0.0000
+q104_rats.w2ent:                            6 (Float) : 0.0000
+q104_rats.w2ent:                            7 (Float) : 0.0000
+q104_rats.w2ent:                            8 (Float) : 0.0000
+q104_rats.w2ent:                            9 (Float) : 0.0000
+q104_rats.w2ent:                            10 (Float) : 0.0000
+q104_rats.w2ent:                CAppearanceComponent #4 (CAppearanceComponent) : CAppearanceComponent0
+q104_rats.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+q104_rats.w2ent:                        guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "CAppearanceComponent0"
+q104_rats.w2ent:                        graphPositionX (Int16) : 166
+q104_rats.w2ent:                        graphPositionY (Int16) : 363
+q104_rats.w2ent:                        forcedAppearance (CName) : rat_01
+q104_rats.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+q104_rats.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+q104_rats.w2ent:                                0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_D8B84929-4C3ABC4F-A3302B92-AF4B5BB6
+q104_rats.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_D8B84929-4C3ABC4F-A3302B92-AF4B5BB6
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+q104_rats.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+q104_rats.w2ent:                                1 (SAttachmentReplacement) : proxy_CInventoryComponent0_92A201E2-4055EF63-B5448388-96B0800D
+q104_rats.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_92A201E2-4055EF63-B5448388-96B0800D
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : CInventoryComponent0
+q104_rats.w2ent:                                    newClass (CName) : CInventoryComponent
+q104_rats.w2ent:                                2 (SAttachmentReplacement) : proxy_t_01__rat_712CA3EB-45668D26-2B15D193-D26F17D2
+q104_rats.w2ent:                                    oldName (CName) : proxy_t_01__rat_712CA3EB-45668D26-2B15D193-D26F17D2
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : proxy_t_01__rat_AD0B507D-4C8240EF-5FA591A0-C86EB737
+q104_rats.w2ent:                                    newClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                3 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_34ACDF96-422895FE-FF35FDAF-16B465E0
+q104_rats.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_34ACDF96-422895FE-FF35FDAF-16B465E0
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
+q104_rats.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
+q104_rats.w2ent:                                4 (SAttachmentReplacement) : proxy_Character_PhantomComponent_494EBF87-457998B6-9B0B9D89-5C36A8D9
+q104_rats.w2ent:                                    oldName (CName) : proxy_Character_PhantomComponent_494EBF87-457998B6-9B0B9D89-5C36A8D9
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : Character_PhantomComponent
+q104_rats.w2ent:                                    newClass (CName) : CPhantomComponent
+q104_rats.w2ent:                                5 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_18F8315E-4CF2563F-CE615388-A162C066
+q104_rats.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_18F8315E-4CF2563F-CE615388-A162C066
+q104_rats.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+q104_rats.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+q104_rats.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+q104_rats.w2ent:                            0 (SAppearanceAttachments) : rat_01
+q104_rats.w2ent:                                appearance (CName) : rat_01
+q104_rats.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+q104_rats.w2ent:                                    0 (SAppearanceAttachment) : t_01__rat
+q104_rats.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+q104_rats.w2ent:                                        parentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                                        childClass (CName) : CMeshComponent
+q104_rats.w2ent:                                        childName (CName) : t_01__rat
+q104_rats.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+q104_rats.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+q104_rats.w2ent:                CMovingPhysicalAgentComponent #5 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+q104_rats.w2ent:                            Scale_x (Float) : 1.7500
+q104_rats.w2ent:                            Scale_y (Float) : 1.7500
+q104_rats.w2ent:                            Scale_z (Float) : 1.7500
+q104_rats.w2ent:                        guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "CMovingPhysicalAgentComponent0"
+q104_rats.w2ent:                        graphPositionX (Int16) : 395
+q104_rats.w2ent:                        graphPositionY (Int16) : 281
+q104_rats.w2ent:                        skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+q104_rats.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q104_rats.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Exploration
+q104_rats.w2ent:                                instanceName (CName) : Exploration
+q104_rats.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q104_rats.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+q104_rats.w2ent:                                instanceName (CName) : Cutscene
+q104_rats.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q104_rats.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+q104_rats.w2ent:                CInventoryComponent #6 (CInventoryComponent) : CInventoryComponent0
+q104_rats.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+q104_rats.w2ent:                        guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "CInventoryComponent0"
+q104_rats.w2ent:                        graphPositionX (Int16) : 679
+q104_rats.w2ent:                        graphPositionY (Int16) : 458
+q104_rats.w2ent:                CGameplayEffectsComponent #7 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q104_rats.w2ent:                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q104_rats.w2ent:                        guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "CGameplayEffectsComponent0"
+q104_rats.w2ent:                        graphPositionX (Int16) : 445
+q104_rats.w2ent:                        graphPositionY (Int16) : 182
+q104_rats.w2ent:                CPhantomComponent #8 (CPhantomComponent) : Character_PhantomComponent
+q104_rats.w2ent:                    CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+q104_rats.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+q104_rats.w2ent:                            Scale_x (Float) : 2.5445
+q104_rats.w2ent:                            Scale_y (Float) : 3.0750
+q104_rats.w2ent:                            Scale_z (Float) : 1.8624
+q104_rats.w2ent:                            X (Float) : 0.0000
+q104_rats.w2ent:                            Y (Float) : 0.0000
+q104_rats.w2ent:                            Z (Float) : 0.1000
+q104_rats.w2ent:                        guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "Character_PhantomComponent"
+q104_rats.w2ent:                        graphPositionX (Int16) : 255
+q104_rats.w2ent:                        graphPositionY (Int16) : 354
+q104_rats.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+q104_rats.w2ent:                            X (Float) : 0.0500
+q104_rats.w2ent:                            Y (Float) : 0.0500
+q104_rats.w2ent:                            Z (Float) : 0.0500
+q104_rats.w2ent:                            W (Float) : 1.0000
+q104_rats.w2ent:                CSoundEmitterComponent #9 (CSoundEmitterComponent) : CSoundEmitterComponent0
+q104_rats.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+q104_rats.w2ent:                        guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+q104_rats.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:                        name (String) : "CSoundEmitterComponent0"
+q104_rats.w2ent:                        isStreamed (Bool) : false
+q104_rats.w2ent:                        graphPositionX (Int16) : 122
+q104_rats.w2ent:                        graphPositionY (Int16) : 148
+q104_rats.w2ent:                        banksDependency (array:CName) : # array:CName
+q104_rats.w2ent:                            0 (CName) : animals_rat.bnk
+q104_rats.w2ent:                        maxDistance (Float) : 31.0000
+q104_rats.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+q104_rats.w2ent:                0 (CEntityTemplateCookedEffect) : light_hit
+q104_rats.w2ent:                    name (CName) : light_hit
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 1655 bytes, MD5: b608b8447e9c90f7fda28783e4c36461
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : light_hit
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                length (Float) : 6.0231
+q104_rats.w2ent:                                name (CName) : light_hit
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                                name (String) : "blood_fx"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 142
+q104_rats.w2ent:                                    Green (Uint8) : 194
+q104_rats.w2ent:                                    Blue (Uint8) : 224
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : fx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q104_rats.w2ent:                                name (String) : "fx"
+q104_rats.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeDuration (Float) : 1.9198
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.6000
+q104_rats.w2ent:                                        1 (Float) : 0.6000
+q104_rats.w2ent:                                        2 (Float) : 0.6000
+q104_rats.w2ent:                                        3 (Float) : 0.6000
+q104_rats.w2ent:                                        4 (Float) : 0.6000
+q104_rats.w2ent:                                        5 (Float) : 0.6000
+q104_rats.w2ent:                                        6 (Float) : 0.6000
+q104_rats.w2ent:                                        7 (Float) : 0.6000
+q104_rats.w2ent:                                        8 (Float) : 0.6000
+q104_rats.w2ent:                                        9 (Float) : 0.6000
+q104_rats.w2ent:                                        10 (Float) : 0.6000
+q104_rats.w2ent:                                        11 (Float) : 0.6000
+q104_rats.w2ent:                                        12 (Float) : 0.6000
+q104_rats.w2ent:                                        13 (Float) : 0.6000
+q104_rats.w2ent:                                        14 (Float) : 0.6000
+q104_rats.w2ent:                                        15 (Float) : 0.6000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q104_rats.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : blood_point
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q104_rats.w2ent:                                    Pitch (Float) : 0.0000
+q104_rats.w2ent:                                    Yaw (Float) : 0.0000
+q104_rats.w2ent:                                    Roll (Float) : 90.0000
+q104_rats.w2ent:                1 (CEntityTemplateCookedEffect) : heavy_hit
+q104_rats.w2ent:                    name (CName) : heavy_hit
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 2034 bytes, MD5: 826a843c527df5f963b87e239711cb36
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+q104_rats.w2ent:                                length (Float) : 5.9196
+q104_rats.w2ent:                                name (CName) : heavy_hit
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+q104_rats.w2ent:                                name (String) : "sounds"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 143
+q104_rats.w2ent:                                    Green (Uint8) : 243
+q104_rats.w2ent:                                    Blue (Uint8) : 184
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : sfx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q104_rats.w2ent:                                name (String) : "sfx"
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 0.0100
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_blood_outflow_small_short
+q104_rats.w2ent:                                maxDistance (Float) : 6.0000
+q104_rats.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                                name (String) : "blood_fx"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 142
+q104_rats.w2ent:                                    Green (Uint8) : 194
+q104_rats.w2ent:                                    Blue (Uint8) : 224
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #5 (CFXTrack) : fx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : fx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+q104_rats.w2ent:                                name (String) : "fx"
+q104_rats.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeBegin (Float) : 0.0039
+q104_rats.w2ent:                                timeDuration (Float) : 1.9198
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.7000
+q104_rats.w2ent:                                        1 (Float) : 0.7000
+q104_rats.w2ent:                                        2 (Float) : 0.7000
+q104_rats.w2ent:                                        3 (Float) : 0.7000
+q104_rats.w2ent:                                        4 (Float) : 0.7000
+q104_rats.w2ent:                                        5 (Float) : 0.7000
+q104_rats.w2ent:                                        6 (Float) : 0.7000
+q104_rats.w2ent:                                        7 (Float) : 0.7000
+q104_rats.w2ent:                                        8 (Float) : 0.7000
+q104_rats.w2ent:                                        9 (Float) : 0.7000
+q104_rats.w2ent:                                        10 (Float) : 0.7000
+q104_rats.w2ent:                                        11 (Float) : 0.7000
+q104_rats.w2ent:                                        12 (Float) : 0.7000
+q104_rats.w2ent:                                        13 (Float) : 0.7000
+q104_rats.w2ent:                                        14 (Float) : 0.7000
+q104_rats.w2ent:                                        15 (Float) : 0.7000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/heavy_hit/blood_heavy_hit.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+q104_rats.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : blood_point
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : blood_point
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q104_rats.w2ent:                                    Pitch (Float) : 0.0000
+q104_rats.w2ent:                                    Yaw (Float) : 0.0000
+q104_rats.w2ent:                                    Roll (Float) : 90.0000
+q104_rats.w2ent:                2 (CEntityTemplateCookedEffect) : critical_burning
+q104_rats.w2ent:                    name (CName) : critical_burning
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 2796 bytes, MD5: b4b414bc5bec82e74a908890cda5775c
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_burning
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : critical_burning
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+q104_rats.w2ent:                                length (Float) : 6.0109
+q104_rats.w2ent:                                loopStart (Float) : 0.5216
+q104_rats.w2ent:                                name (CName) : critical_burning
+q104_rats.w2ent:                                showDistance (Float) : 50.0000
+q104_rats.w2ent:                                isLooped (Bool) : true
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+q104_rats.w2ent:                                name (String) : "sounds"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 232
+q104_rats.w2ent:                                    Green (Uint8) : 132
+q104_rats.w2ent:                                    Blue (Uint8) : 227
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : sfx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q104_rats.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+q104_rats.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+q104_rats.w2ent:                                    3 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #6
+q104_rats.w2ent:                                name (String) : "sfx"
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 0.0157
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_begin
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 0.1662
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 1.0737
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop_end
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #6 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 1.1999
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_end
+q104_rats.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : leg
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : leg
+q104_rats.w2ent:                                name (String) : "leg"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+q104_rats.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #11
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 190
+q104_rats.w2ent:                                    Green (Uint8) : 254
+q104_rats.w2ent:                                    Blue (Uint8) : 242
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #8 (CFXTrack) : 4
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : 4
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+q104_rats.w2ent:                                name (String) : "4"
+q104_rats.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeBegin (Float) : 6.1973
+q104_rats.w2ent:                                timeDuration (Float) : 3.0070
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 0.8704
+q104_rats.w2ent:                                        7 (Float) : 0.6770
+q104_rats.w2ent:                                        8 (Float) : 0.4836
+q104_rats.w2ent:                                        9 (Float) : 0.2901
+q104_rats.w2ent:                                        10 (Float) : 0.0967
+q104_rats.w2ent:                                        11 (Float) : 0.0000
+q104_rats.w2ent:                                        12 (Float) : 0.0000
+q104_rats.w2ent:                                        13 (Float) : 0.0000
+q104_rats.w2ent:                                        14 (Float) : 0.0000
+q104_rats.w2ent:                                        15 (Float) : 0.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.6000
+q104_rats.w2ent:                                        1 (Float) : 0.6000
+q104_rats.w2ent:                                        2 (Float) : 0.6000
+q104_rats.w2ent:                                        3 (Float) : 0.6000
+q104_rats.w2ent:                                        4 (Float) : 0.6000
+q104_rats.w2ent:                                        5 (Float) : 0.6000
+q104_rats.w2ent:                                        6 (Float) : 0.6000
+q104_rats.w2ent:                                        7 (Float) : 0.6000
+q104_rats.w2ent:                                        8 (Float) : 0.6000
+q104_rats.w2ent:                                        9 (Float) : 0.6000
+q104_rats.w2ent:                                        10 (Float) : 0.6000
+q104_rats.w2ent:                                        11 (Float) : 0.6000
+q104_rats.w2ent:                                        12 (Float) : 0.6000
+q104_rats.w2ent:                                        13 (Float) : 0.6000
+q104_rats.w2ent:                                        14 (Float) : 0.6000
+q104_rats.w2ent:                                        15 (Float) : 0.6000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/man_base/critical/arson/fire_detail_mat.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+q104_rats.w2ent:                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                parentSlotName (CName) : spine3
+q104_rats.w2ent:                                freeRotation (Bool) : true
+q104_rats.w2ent:                        CFXTrack #11 (CFXTrack) : 3
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : 3
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
+q104_rats.w2ent:                                name (String) : "3"
+q104_rats.w2ent:                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeBegin (Float) : 0.0354
+q104_rats.w2ent:                                timeDuration (Float) : 3.0070
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 0.8704
+q104_rats.w2ent:                                        7 (Float) : 0.6770
+q104_rats.w2ent:                                        8 (Float) : 0.4836
+q104_rats.w2ent:                                        9 (Float) : 0.2901
+q104_rats.w2ent:                                        10 (Float) : 0.0967
+q104_rats.w2ent:                                        11 (Float) : 0.0000
+q104_rats.w2ent:                                        12 (Float) : 0.0000
+q104_rats.w2ent:                                        13 (Float) : 0.0000
+q104_rats.w2ent:                                        14 (Float) : 0.0000
+q104_rats.w2ent:                                        15 (Float) : 0.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.6000
+q104_rats.w2ent:                                        1 (Float) : 0.6000
+q104_rats.w2ent:                                        2 (Float) : 0.6000
+q104_rats.w2ent:                                        3 (Float) : 0.6000
+q104_rats.w2ent:                                        4 (Float) : 0.6000
+q104_rats.w2ent:                                        5 (Float) : 0.6000
+q104_rats.w2ent:                                        6 (Float) : 0.6000
+q104_rats.w2ent:                                        7 (Float) : 0.6000
+q104_rats.w2ent:                                        8 (Float) : 0.6000
+q104_rats.w2ent:                                        9 (Float) : 0.6000
+q104_rats.w2ent:                                        10 (Float) : 0.6000
+q104_rats.w2ent:                                        11 (Float) : 0.6000
+q104_rats.w2ent:                                        12 (Float) : 0.6000
+q104_rats.w2ent:                                        13 (Float) : 0.6000
+q104_rats.w2ent:                                        14 (Float) : 0.6000
+q104_rats.w2ent:                                        15 (Float) : 0.6000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/animals/boids/arson_boids_fx1.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+q104_rats.w2ent:                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                parentSlotName (CName) : torso2
+q104_rats.w2ent:                                freeRotation (Bool) : true
+q104_rats.w2ent:                3 (CEntityTemplateCookedEffect) : light_hit_back
+q104_rats.w2ent:                    name (CName) : light_hit_back
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: 5f0c1fc4fe89c5a73b86703b680d7ee8
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit_back
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : light_hit_back
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                length (Float) : 6.0231
+q104_rats.w2ent:                                name (CName) : light_hit_back
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                                name (String) : "blood_fx"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 142
+q104_rats.w2ent:                                    Green (Uint8) : 194
+q104_rats.w2ent:                                    Blue (Uint8) : 224
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : fx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q104_rats.w2ent:                                name (String) : "fx"
+q104_rats.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeDuration (Float) : 1.9198
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.6000
+q104_rats.w2ent:                                        1 (Float) : 0.6000
+q104_rats.w2ent:                                        2 (Float) : 0.6000
+q104_rats.w2ent:                                        3 (Float) : 0.6000
+q104_rats.w2ent:                                        4 (Float) : 0.6000
+q104_rats.w2ent:                                        5 (Float) : 0.6000
+q104_rats.w2ent:                                        6 (Float) : 0.6000
+q104_rats.w2ent:                                        7 (Float) : 0.6000
+q104_rats.w2ent:                                        8 (Float) : 0.6000
+q104_rats.w2ent:                                        9 (Float) : 0.6000
+q104_rats.w2ent:                                        10 (Float) : 0.6000
+q104_rats.w2ent:                                        11 (Float) : 0.6000
+q104_rats.w2ent:                                        12 (Float) : 0.6000
+q104_rats.w2ent:                                        13 (Float) : 0.6000
+q104_rats.w2ent:                                        14 (Float) : 0.6000
+q104_rats.w2ent:                                        15 (Float) : 0.6000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q104_rats.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : blood_point
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q104_rats.w2ent:                                    Pitch (Float) : 0.0000
+q104_rats.w2ent:                                    Yaw (Float) : 0.0000
+q104_rats.w2ent:                                    Roll (Float) : 90.0000
+q104_rats.w2ent:                4 (CEntityTemplateCookedEffect) : heavy_hit_back
+q104_rats.w2ent:                    name (CName) : heavy_hit_back
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: f5e9f13450fc07e76d78bc593c0293ee
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit_back
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit_back
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                length (Float) : 6.0231
+q104_rats.w2ent:                                name (CName) : heavy_hit_back
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q104_rats.w2ent:                                name (String) : "blood_fx"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 142
+q104_rats.w2ent:                                    Green (Uint8) : 194
+q104_rats.w2ent:                                    Blue (Uint8) : 224
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : fx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q104_rats.w2ent:                                name (String) : "fx"
+q104_rats.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q104_rats.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q104_rats.w2ent:                                timeDuration (Float) : 1.9198
+q104_rats.w2ent:                                buffername (CName) : Particles
+q104_rats.w2ent:                                count (CDynamicInt) : 3
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.6000
+q104_rats.w2ent:                                        1 (Float) : 0.6000
+q104_rats.w2ent:                                        2 (Float) : 0.6000
+q104_rats.w2ent:                                        3 (Float) : 0.6000
+q104_rats.w2ent:                                        4 (Float) : 0.6000
+q104_rats.w2ent:                                        5 (Float) : 0.6000
+q104_rats.w2ent:                                        6 (Float) : 0.6000
+q104_rats.w2ent:                                        7 (Float) : 0.6000
+q104_rats.w2ent:                                        8 (Float) : 0.6000
+q104_rats.w2ent:                                        9 (Float) : 0.6000
+q104_rats.w2ent:                                        10 (Float) : 0.6000
+q104_rats.w2ent:                                        11 (Float) : 0.6000
+q104_rats.w2ent:                                        12 (Float) : 0.6000
+q104_rats.w2ent:                                        13 (Float) : 0.6000
+q104_rats.w2ent:                                        14 (Float) : 0.6000
+q104_rats.w2ent:                                        15 (Float) : 0.6000
+q104_rats.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q104_rats.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q104_rats.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q104_rats.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q104_rats.w2ent:                                componentName (CName) : blood_point
+q104_rats.w2ent:                                copyRotation (Bool) : false
+q104_rats.w2ent:                                attach (Bool) : true
+q104_rats.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q104_rats.w2ent:                                    Pitch (Float) : 0.0000
+q104_rats.w2ent:                                    Yaw (Float) : 0.0000
+q104_rats.w2ent:                                    Roll (Float) : 90.0000
+q104_rats.w2ent:                5 (CEntityTemplateCookedEffect) : critical_frozen
+q104_rats.w2ent:                    name (CName) : critical_frozen
+q104_rats.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q104_rats.w2ent:                        Bufferdata (CByteArray) : 2044 bytes, MD5: 673e5167e08627318cbcc2dfe2493424
+q104_rats.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_frozen
+q104_rats.w2ent:                            CFXDefinition (CFXDefinition) : critical_frozen
+q104_rats.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q104_rats.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q104_rats.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+q104_rats.w2ent:                                length (Float) : 4.5000
+q104_rats.w2ent:                                loopStart (Float) : 1.9376
+q104_rats.w2ent:                                loopEnd (Float) : 2.4989
+q104_rats.w2ent:                                name (CName) : critical_frozen
+q104_rats.w2ent:                                showDistance (Float) : 35.0000
+q104_rats.w2ent:                                isLooped (Bool) : true
+q104_rats.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+q104_rats.w2ent:                                name (String) : "audio"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 200
+q104_rats.w2ent:                                    Green (Uint8) : 186
+q104_rats.w2ent:                                    Blue (Uint8) : 244
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : sfx
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q104_rats.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+q104_rats.w2ent:                                name (String) : "sfx"
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 0.0155
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_start
+q104_rats.w2ent:                                maxDistance (Float) : 25.0000
+q104_rats.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+q104_rats.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q104_rats.w2ent:                                timeBegin (Float) : 2.6152
+q104_rats.w2ent:                                buffername (CName) : 
+q104_rats.w2ent:                                count (CDynamicInt) : 0
+q104_rats.w2ent:                                unk (Uint8) : 0
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q104_rats.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_stop
+q104_rats.w2ent:                                maxDistance (Float) : 25.0000
+q104_rats.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+q104_rats.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+q104_rats.w2ent:                                name (String) : "fx"
+q104_rats.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q104_rats.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+q104_rats.w2ent:                                isExpanded (Bool) : true
+q104_rats.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q104_rats.w2ent:                                    Red (Uint8) : 232
+q104_rats.w2ent:                                    Green (Uint8) : 241
+q104_rats.w2ent:                                    Blue (Uint8) : 164
+q104_rats.w2ent:                                    Alpha (Uint8) : 100
+q104_rats.w2ent:                        CFXTrack #6 (CFXTrack) : asd
+q104_rats.w2ent:                            CFXTrack (CFXTrack) : asd
+q104_rats.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q104_rats.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+q104_rats.w2ent:                                name (String) : "asd"
+q104_rats.w2ent:                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+q104_rats.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+q104_rats.w2ent:                                timeDuration (Float) : 4.3039
+q104_rats.w2ent:                                buffername (CName) : MaterialOverride
+q104_rats.w2ent:                                count (CDynamicInt) : 4
+q104_rats.w2ent:                                unk (Uint8) : 1
+q104_rats.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0.2> <0.2791193> <0.3582385> <0.4373578> <0.5383589> <0.7225504> <0.9067419> <1> <1> <1> <0
+q104_rats.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 0.2000
+q104_rats.w2ent:                                        1 (Float) : 0.2791
+q104_rats.w2ent:                                        2 (Float) : 0.3582
+q104_rats.w2ent:                                        3 (Float) : 0.4374
+q104_rats.w2ent:                                        4 (Float) : 0.5384
+q104_rats.w2ent:                                        5 (Float) : 0.7226
+q104_rats.w2ent:                                        6 (Float) : 0.9067
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 0.7287
+q104_rats.w2ent:                                        11 (Float) : 0.4557
+q104_rats.w2ent:                                        12 (Float) : 0.1827
+q104_rats.w2ent:                                        13 (Float) : 0.0000
+q104_rats.w2ent:                                        14 (Float) : 0.0000
+q104_rats.w2ent:                                        15 (Float) : 0.0000
+q104_rats.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q104_rats.w2ent:                                        0 (Float) : 1.0000
+q104_rats.w2ent:                                        2 (Float) : 1.0000
+q104_rats.w2ent:                                        3 (Float) : 1.0000
+q104_rats.w2ent:                                        4 (Float) : 1.0000
+q104_rats.w2ent:                                        5 (Float) : 1.0000
+q104_rats.w2ent:                                        6 (Float) : 1.0000
+q104_rats.w2ent:                                        7 (Float) : 1.0000
+q104_rats.w2ent:                                        8 (Float) : 1.0000
+q104_rats.w2ent:                                        9 (Float) : 1.0000
+q104_rats.w2ent:                                        10 (Float) : 1.0000
+q104_rats.w2ent:                                        11 (Float) : 1.0000
+q104_rats.w2ent:                                        12 (Float) : 1.0000
+q104_rats.w2ent:                                        13 (Float) : 1.0000
+q104_rats.w2ent:                                        14 (Float) : 1.0000
+q104_rats.w2ent:                                        15 (Float) : 1.0000
+q104_rats.w2ent:                                material (handle:IMaterial) : fx/gameplay/states/freezing/freezing_shader_old.w2mg
+q104_rats.w2ent:                                drawOriginal (Bool) : true
+q104_rats.w2ent:                                forceMeshAlternatives (Bool) : true
+q104_rats.w2ent:            cookedEffectsVersion (Uint32) : 1
+q104_rats.w2ent:            Unk1 (Uint32) : 0
+q104_rats.w2ent:    W3Rat #1 (W3Rat) : 
+q104_rats.w2ent:        W3Rat (W3Rat) : 
+q104_rats.w2ent:            tags (TagList) : AchievementKillDontCount
+q104_rats.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+q104_rats.w2ent:                    0 (CName) : AchievementKillDontCount
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            streamingDistance (Uint8) : 0
+q104_rats.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+q104_rats.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #5
+q104_rats.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #6
+q104_rats.w2ent:                2 (ptr:CComponent) : CInventoryComponent #7
+q104_rats.w2ent:                3 (ptr:CComponent) : CGameplayEffectsComponent #8
+q104_rats.w2ent:                4 (ptr:CComponent) : CPhantomComponent #9
+q104_rats.w2ent:                5 (ptr:CComponent) : CSoundEmitterComponent #10
+q104_rats.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+q104_rats.w2ent:                0 (SEntityBufferType1) : 
+q104_rats.w2ent:                    ComponentName (CName) : 
+q104_rats.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+q104_rats.w2ent:            idTag (IdTag) :  af83c503-cfc6-4261-85f2-cf0921885000
+q104_rats.w2ent:            displayName (LocalizedString) : Rat
+q104_rats.w2ent:            abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #2
+q104_rats.w2ent:            effectManager (handle:W3EffectManager) : W3EffectManager #4
+q104_rats.w2ent:            level (Int32) : 1
+q104_rats.w2ent:    W3NonPlayerAbilityManager #2 (W3NonPlayerAbilityManager) : 
+q104_rats.w2ent:        W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+q104_rats.w2ent:            statPoints (array:SBaseStat) : # array:SBaseStat
+q104_rats.w2ent:                0 (SBaseStat) : <SBaseStat>0
+q104_rats.w2ent:                    current (Float) : 2217.8000
+q104_rats.w2ent:                    max (Float) : 2217.8000
+q104_rats.w2ent:            resistStats (array:SResistanceValue) : # array:SResistanceValue
+q104_rats.w2ent:                0 (SResistanceValue) : <SResistanceValue>0
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_PhysicalRes
+q104_rats.w2ent:                1 (SResistanceValue) : <SResistanceValue>1
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_BleedingRes
+q104_rats.w2ent:                2 (SResistanceValue) : <SResistanceValue>2
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_PoisonRes
+q104_rats.w2ent:                3 (SResistanceValue) : <SResistanceValue>3
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_FireRes
+q104_rats.w2ent:                4 (SResistanceValue) : <SResistanceValue>4
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_FrostRes
+q104_rats.w2ent:                5 (SResistanceValue) : <SResistanceValue>5
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_ShockRes
+q104_rats.w2ent:                6 (SResistanceValue) : <SResistanceValue>6
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_ForceRes
+q104_rats.w2ent:                7 (SResistanceValue) : <SResistanceValue>7
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_WillRes
+q104_rats.w2ent:                8 (SResistanceValue) : <SResistanceValue>8
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueAdditive (Float) : 0.4960
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_BurningRes
+q104_rats.w2ent:                9 (SResistanceValue) : <SResistanceValue>9
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_SlashingRes
+q104_rats.w2ent:                10 (SResistanceValue) : <SResistanceValue>10
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_PiercingRes
+q104_rats.w2ent:                11 (SResistanceValue) : <SResistanceValue>11
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_BludgeoningRes
+q104_rats.w2ent:                12 (SResistanceValue) : <SResistanceValue>12
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_RendingRes
+q104_rats.w2ent:                13 (SResistanceValue) : <SResistanceValue>13
+q104_rats.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+q104_rats.w2ent:                        valueMultiplicative (Float) : 1.0000
+q104_rats.w2ent:                    type (ECharacterDefenseStats) : CDS_ElementalRes
+q104_rats.w2ent:            owner (handle:CActor) : W3Rat #1
+q104_rats.w2ent:            charStats (handle:CCharacterStats) : CCharacterStats #3
+q104_rats.w2ent:            usedDifficultyMode (EDifficultyMode) : EDM_Medium
+q104_rats.w2ent:            difficultyAbilities (array:CName) : # array:CName
+q104_rats.w2ent:                1 (array:CName) : # array:CName
+q104_rats.w2ent:                    0 (CName) : difficulty_CommonEasy
+q104_rats.w2ent:                2 (array:CName) : # array:CName
+q104_rats.w2ent:                    0 (CName) : difficulty_CommonMedium
+q104_rats.w2ent:                3 (array:CName) : # array:CName
+q104_rats.w2ent:                    0 (CName) : difficulty_CommonHard
+q104_rats.w2ent:                4 (array:CName) : # array:CName
+q104_rats.w2ent:                    0 (CName) : difficulty_CommonHardcore
+q104_rats.w2ent:    CCharacterStats #3 (CCharacterStats) : 
+q104_rats.w2ent:        CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+q104_rats.w2ent:    W3EffectManager #4 (W3EffectManager) : 
+q104_rats.w2ent:        W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+q104_rats.w2ent:            statDeltas (array:Float) : # array:Float
+q104_rats.w2ent:                1 (Float) : 0.0000
+q104_rats.w2ent:                2 (Float) : 0.0000
+q104_rats.w2ent:                3 (Float) : 0.0000
+q104_rats.w2ent:                4 (Float) : 0.0000
+q104_rats.w2ent:                5 (Float) : 0.0000
+q104_rats.w2ent:                6 (Float) : 0.0000
+q104_rats.w2ent:                7 (Float) : 0.0000
+q104_rats.w2ent:                8 (Float) : 0.0000
+q104_rats.w2ent:                9 (Float) : 0.0000
+q104_rats.w2ent:                10 (Float) : 0.0000
+q104_rats.w2ent:    CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
+q104_rats.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+q104_rats.w2ent:            guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "CAppearanceComponent0"
+q104_rats.w2ent:            forcedAppearance (CName) : rat_01
+q104_rats.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+q104_rats.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+q104_rats.w2ent:                    0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_D8B84929-4C3ABC4F-A3302B92-AF4B5BB6
+q104_rats.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_D8B84929-4C3ABC4F-A3302B92-AF4B5BB6
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : CSoundEmitterComponent0
+q104_rats.w2ent:                        newClass (CName) : CSoundEmitterComponent
+q104_rats.w2ent:                    1 (SAttachmentReplacement) : proxy_CInventoryComponent0_92A201E2-4055EF63-B5448388-96B0800D
+q104_rats.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_92A201E2-4055EF63-B5448388-96B0800D
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : CInventoryComponent0
+q104_rats.w2ent:                        newClass (CName) : CInventoryComponent
+q104_rats.w2ent:                    2 (SAttachmentReplacement) : proxy_t_01__rat_712CA3EB-45668D26-2B15D193-D26F17D2
+q104_rats.w2ent:                        oldName (CName) : proxy_t_01__rat_712CA3EB-45668D26-2B15D193-D26F17D2
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : proxy_t_01__rat_AD0B507D-4C8240EF-5FA591A0-C86EB737
+q104_rats.w2ent:                        newClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                    3 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_34ACDF96-422895FE-FF35FDAF-16B465E0
+q104_rats.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_34ACDF96-422895FE-FF35FDAF-16B465E0
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : CGameplayEffectsComponent0
+q104_rats.w2ent:                        newClass (CName) : CGameplayEffectsComponent
+q104_rats.w2ent:                    4 (SAttachmentReplacement) : proxy_Character_PhantomComponent_494EBF87-457998B6-9B0B9D89-5C36A8D9
+q104_rats.w2ent:                        oldName (CName) : proxy_Character_PhantomComponent_494EBF87-457998B6-9B0B9D89-5C36A8D9
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : Character_PhantomComponent
+q104_rats.w2ent:                        newClass (CName) : CPhantomComponent
+q104_rats.w2ent:                    5 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_18F8315E-4CF2563F-CE615388-A162C066
+q104_rats.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_18F8315E-4CF2563F-CE615388-A162C066
+q104_rats.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q104_rats.w2ent:                        newName (CName) : CSoundEmitterComponent0
+q104_rats.w2ent:                        newClass (CName) : CSoundEmitterComponent
+q104_rats.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+q104_rats.w2ent:                0 (SAppearanceAttachments) : rat_01
+q104_rats.w2ent:                    appearance (CName) : rat_01
+q104_rats.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+q104_rats.w2ent:                        0 (SAppearanceAttachment) : t_01__rat
+q104_rats.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+q104_rats.w2ent:                            parentName (CName) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:                            childClass (CName) : CMeshComponent
+q104_rats.w2ent:                            childName (CName) : t_01__rat
+q104_rats.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+q104_rats.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+q104_rats.w2ent:    CMovingPhysicalAgentComponent #6 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q104_rats.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+q104_rats.w2ent:                Scale_x (Float) : 1.7500
+q104_rats.w2ent:                Scale_y (Float) : 1.7500
+q104_rats.w2ent:                Scale_z (Float) : 1.7500
+q104_rats.w2ent:            guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "CMovingPhysicalAgentComponent0"
+q104_rats.w2ent:            skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+q104_rats.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q104_rats.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+q104_rats.w2ent:                    instanceName (CName) : Exploration
+q104_rats.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q104_rats.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+q104_rats.w2ent:                    instanceName (CName) : Cutscene
+q104_rats.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q104_rats.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+q104_rats.w2ent:    CInventoryComponent #7 (CInventoryComponent) : CInventoryComponent0
+q104_rats.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+q104_rats.w2ent:            guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "CInventoryComponent0"
+q104_rats.w2ent:    CGameplayEffectsComponent #8 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q104_rats.w2ent:        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q104_rats.w2ent:            guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "CGameplayEffectsComponent0"
+q104_rats.w2ent:    CPhantomComponent #9 (CPhantomComponent) : Character_PhantomComponent
+q104_rats.w2ent:        CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+q104_rats.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+q104_rats.w2ent:                Scale_x (Float) : 2.5445
+q104_rats.w2ent:                Scale_y (Float) : 3.0750
+q104_rats.w2ent:                Scale_z (Float) : 1.8624
+q104_rats.w2ent:                X (Float) : 0.0000
+q104_rats.w2ent:                Y (Float) : 0.0000
+q104_rats.w2ent:                Z (Float) : 0.1000
+q104_rats.w2ent:            guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "Character_PhantomComponent"
+q104_rats.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+q104_rats.w2ent:                X (Float) : 0.0500
+q104_rats.w2ent:                Y (Float) : 0.0500
+q104_rats.w2ent:                Z (Float) : 0.0500
+q104_rats.w2ent:                W (Float) : 1.0000
+q104_rats.w2ent:    CSoundEmitterComponent #10 (CSoundEmitterComponent) : CSoundEmitterComponent0
+q104_rats.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+q104_rats.w2ent:            guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+q104_rats.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q104_rats.w2ent:            name (String) : "CSoundEmitterComponent0"
+q104_rats.w2ent:            isStreamed (Bool) : false
+q104_rats.w2ent:            banksDependency (array:CName) : # array:CName
+q104_rats.w2ent:                0 (CName) : animals_rat.bnk
+q104_rats.w2ent:            maxDistance (Float) : 31.0000
+q104_rats.w2ent:    CAIProfile #11 (CAIProfile) : 
+q104_rats.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q104_rats.w2ent:    CAnimGlobalParam #12 (CAnimGlobalParam) : sfx_rat
+q104_rats.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q104_rats.w2ent:            sfxTag (CName) : sfx_rat
+q104_rats.w2ent:    CCharacterStatsParam #13 (CCharacterStatsParam) : abl
+q104_rats.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : abl
+q104_rats.w2ent:            name (String) : "abl"
+q104_rats.w2ent:            abilities (array:CName) : # array:CName
+q104_rats.w2ent:                0 (CName) : Zero_XP
+q104_rats.w2ent:    CAIProfile #14 (CAIProfile) : hostile_to_player
+q104_rats.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #15
+q104_rats.w2ent:            attitudeGroup (CName) : hostile_to_player
+q104_rats.w2ent:    CAISenseParams #15 (CAISenseParams) : 
+q104_rats.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q104_rats.w2ent:    CInventoryDefinition #16 (CInventoryDefinition) : 
+q104_rats.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+q104_rats.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #17
+q104_rats.w2ent:    CInventoryDefinitionEntry #17 (CInventoryDefinitionEntry) : monster_weapon
+q104_rats.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+q104_rats.w2ent:            category (CName) : monster_weapon
+q104_rats.w2ent:            isMount (Bool) : true
+q104_rats.w2ent:            isLootable (Bool) : false
+q104_rats.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #18
+q104_rats.w2ent:    CInventoryInitializerUniform #18 (CInventoryInitializerUniform) : mon_rat_weapon
+q104_rats.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+q104_rats.w2ent:            itemName (CName) : mon_rat_weapon
+q104_rats.w2ent:    CAnimGlobalParam #19 (CAnimGlobalParam) : sfx_rat
+q104_rats.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            sfxTag (CName) : sfx_rat
+q104_rats.w2ent:    CCharacterStatsParam #20 (CCharacterStatsParam) : additional abilities
+q104_rats.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional abilities
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "additional abilities"
+q104_rats.w2ent:            abilities (array:CName) : # array:CName
+q104_rats.w2ent:                0 (CName) : q100_Ratzz
+q104_rats.w2ent:    CAnimBehaviorsParam #21 (CAnimBehaviorsParam) : animal
+q104_rats.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : animal
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "animal"
+q104_rats.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+q104_rats.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q104_rats.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+q104_rats.w2ent:                    instanceName (CName) : Exploration
+q104_rats.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q104_rats.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+q104_rats.w2ent:                    instanceName (CName) : Cutscene
+q104_rats.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q104_rats.w2ent:    CAnimAnimsetsParam #22 (CAnimAnimsetsParam) : animal
+q104_rats.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : animal
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "animal"
+q104_rats.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+q104_rats.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+q104_rats.w2ent:                0 (handle:CSkeletalAnimationSet) : animations/animals/rat/rat_animation.w2anims
+q104_rats.w2ent:    CAIProfile #23 (CAIProfile) : AG_small_animals
+q104_rats.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #24
+q104_rats.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #25
+q104_rats.w2ent:            attitudeGroup (CName) : AG_small_animals
+q104_rats.w2ent:    CAISenseParams #24 (CAISenseParams) : 
+q104_rats.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q104_rats.w2ent:            enabled (Bool) : false
+q104_rats.w2ent:            rangeMax (Float) : 6.0000
+q104_rats.w2ent:            rangeAngle (Float) : 360.0000
+q104_rats.w2ent:            testLOS (Bool) : false
+q104_rats.w2ent:    CAISenseParams #25 (CAISenseParams) : 
+q104_rats.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q104_rats.w2ent:            rangeMax (Float) : 6.0000
+q104_rats.w2ent:            rangeAngle (Float) : 360.0000
+q104_rats.w2ent:            testLOS (Bool) : false
+q104_rats.w2ent:    CCharacterStatsParam #26 (CCharacterStatsParam) : rat_params
+q104_rats.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : rat_params
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "rat_params"
+q104_rats.w2ent:            abilities (array:CName) : # array:CName
+q104_rats.w2ent:                0 (CName) : animal_rat_base
+q104_rats.w2ent:                1 (CName) : NPCDoNotGainBoost
+q104_rats.w2ent:                2 (CName) : NoAdaptBalance
+q104_rats.w2ent:    CCharacterControllerParam #27 (CCharacterControllerParam) : rat_character_controller_params
+q104_rats.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : rat_character_controller_params
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "rat_character_controller_params"
+q104_rats.w2ent:            height (Float) : 0.9000
+q104_rats.w2ent:            physicalRadius (Float) : 0.2000
+q104_rats.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_0
+q104_rats.w2ent:    CMonsterParam #28 (CMonsterParam) : monster_params
+q104_rats.w2ent:        CMonsterParam (CMonsterParam) : monster_params
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "monster_params"
+q104_rats.w2ent:            canBeStrafed (Bool) : false
+q104_rats.w2ent:            monsterCategory (Int32) : 14
+q104_rats.w2ent:            soundMonsterName (CName) : Rat
+q104_rats.w2ent:    CAIBaseTreeTemplateParam #29 (CAIBaseTreeTemplateParam) : 
+q104_rats.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #30
+q104_rats.w2ent:    CAIMonsterBase #30 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+q104_rats.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+q104_rats.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIRatDefaults #31
+q104_rats.w2ent:    CAIRatDefaults #31 (CAIRatDefaults) : 
+q104_rats.w2ent:        CAIRatDefaults (CAIRatDefaults) : <CAIRatDefaults>CAIRatDefaults
+q104_rats.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #32
+q104_rats.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #34
+q104_rats.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #50
+q104_rats.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #66
+q104_rats.w2ent:    CAIMonsterAxii #32 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+q104_rats.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #33
+q104_rats.w2ent:    CAIMonsterAxiiParams #33 (CAIMonsterAxiiParams) : 
+q104_rats.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+q104_rats.w2ent:    CAIMonsterIdleDecorator #34 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+q104_rats.w2ent:        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #35
+q104_rats.w2ent:    CAIMonsterIdleDecoratorParams #35 (CAIMonsterIdleDecoratorParams) : 
+q104_rats.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+q104_rats.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #36
+q104_rats.w2ent:    CAIMonsterReactionsTree #36 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+q104_rats.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #37
+q104_rats.w2ent:    CAIMonsterReactionsTreeParams #37 (CAIMonsterReactionsTreeParams) : 
+q104_rats.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+q104_rats.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+q104_rats.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #38
+q104_rats.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #40
+q104_rats.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #42
+q104_rats.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #44
+q104_rats.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #46
+q104_rats.w2ent:                5 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #48
+q104_rats.w2ent:    CAIActionSearchForTarget #38 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #39
+q104_rats.w2ent:    CAINpcReactionSearchTarget #39 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+q104_rats.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+q104_rats.w2ent:    CAIActionAllySearchesTarget #40 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #41
+q104_rats.w2ent:    CAINpcReactionJoinSearchForTarget #41 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+q104_rats.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+q104_rats.w2ent:    CAIActionPlayWithTarget #42 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #43
+q104_rats.w2ent:    CAINpcReactionPlayWithTarget #43 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+q104_rats.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+q104_rats.w2ent:    CAIActionMoveInPack #44 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #45
+q104_rats.w2ent:    CAINpcReactionMoveInPack #45 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+q104_rats.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+q104_rats.w2ent:    CAIActionRunWildInPack #46 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #47
+q104_rats.w2ent:    CAINpcReactionRunWildInPack #47 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+q104_rats.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+q104_rats.w2ent:    CAIActionLeadEscape #48 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #49
+q104_rats.w2ent:            actionEventName (CName) : FireDanger
+q104_rats.w2ent:    CAINpcReactionLeadEscape #49 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:    CAIMonsterCombat #50 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+q104_rats.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #51
+q104_rats.w2ent:    CAIMonsterCombatParams #51 (CAIMonsterCombatParams) : MonsterHitReaction
+q104_rats.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+q104_rats.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIRatCombatLogic #52
+q104_rats.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #54
+q104_rats.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
+q104_rats.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #56
+q104_rats.w2ent:    CAIRatCombatLogic #52 (CAIRatCombatLogic) : CBehTree:gameplay\trees\monsters\monster_rat_logic.w2behtree
+q104_rats.w2ent:        CAIRatCombatLogic (CAIRatCombatLogic) : <CAIRatCombatLogic>CAIRatCombatLogic
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/monsters/monster_rat_logic.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #53
+q104_rats.w2ent:    CAIMonsterCombatLogicParams #53 (CAIMonsterCombatLogicParams) : 
+q104_rats.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+q104_rats.w2ent:    CAIMonsterDamageReactionTree #54 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+q104_rats.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+q104_rats.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #55
+q104_rats.w2ent:    CAIDamageReactionTreeParams #55 (CAIDamageReactionTreeParams) : 
+q104_rats.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+q104_rats.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
+q104_rats.w2ent:    CAIMonsterCombatReactionsTree #56 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+q104_rats.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+q104_rats.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #57
+q104_rats.w2ent:    CAIMonsterReactionsTreeParams #57 (CAIMonsterReactionsTreeParams) : 
+q104_rats.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+q104_rats.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+q104_rats.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #58
+q104_rats.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #60
+q104_rats.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #62
+q104_rats.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #48
+q104_rats.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #64
+q104_rats.w2ent:    CAIActionLeadEscape #58 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #59
+q104_rats.w2ent:    CAINpcReactionLeadEscape #59 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:    CAIActionLeadEscape #60 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #61
+q104_rats.w2ent:            actionEventName (CName) : FearsomeEvent
+q104_rats.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
+q104_rats.w2ent:    CAINpcReactionLeadEscape #61 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:    CAIActionEscapeInPack #62 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #63
+q104_rats.w2ent:    CAINpcReactionEscapeInPack #63 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+q104_rats.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+q104_rats.w2ent:    CAIActionLeadEscape #64 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q104_rats.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q104_rats.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #65
+q104_rats.w2ent:            actionEventName (CName) : CastSignAction
+q104_rats.w2ent:    CAINpcReactionLeadEscape #65 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q104_rats.w2ent:    CAIMonsterDeath #66 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+q104_rats.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+q104_rats.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+q104_rats.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #67
+q104_rats.w2ent:    CAIMonsterDeathParams #67 (CAIMonsterDeathParams) : 
+q104_rats.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+q104_rats.w2ent:    CAttackRangeParam #68 (CAttackRangeParam) : attack_ranges
+q104_rats.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            name (String) : "attack_ranges"
+q104_rats.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+q104_rats.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #69
+q104_rats.w2ent:    CConeAttackRange #69 (CConeAttackRange) : basic_strike
+q104_rats.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
+q104_rats.w2ent:            name (CName) : basic_strike
+q104_rats.w2ent:            rangeMax (Float) : 0.5000
+q104_rats.w2ent:            height (Float) : 0.4000
+q104_rats.w2ent:            rangeAngle (Float) : 70.0000
+q104_rats.w2ent:    CAnimGlobalParam #70 (CAnimGlobalParam) : sfx_rat
+q104_rats.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q104_rats.w2ent:            wasIncluded (Bool) : true
+q104_rats.w2ent:            sfxTag (CName) : sfx_rat

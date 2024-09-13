@@ -1,0 +1,807 @@
+templates:
+  czart_lvl1.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - characters/base_entities/bies_base/bies_base.w2ent
+    overrides:  #array:2,0,SEntityTemplateOverride
+      - ".type": SEntityTemplateOverride
+        componentName: Character
+        className: CMovingPhysicalAgentComponent
+        overriddenProperties:  #array:2,0,CName
+          - movementAdjustor
+      - ".type": SEntityTemplateOverride
+        componentName: CEffectDummyComponent1
+        className: CEffectDummyComponent
+        overriddenProperties:  #array:2,0,CName
+          - transform
+    ## properOverrides: true
+    ## entityClass: CNewNPC
+    entityObject:
+      ".type": CNewNPC
+      attachments: # array:handle:IAttachment
+      streamingDistance: 21
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CMovingPhysicalAgentComponent
+          guid: f64e11f2-3018-4d02-8ea3-f187487a4661
+          attachments:  #array:0,0,handle:IAttachment
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                transform:
+                  pos: [ 0.7411, -1.6435, -0.0746 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #3
+                guid: 89a07b17-1dfa-4f25-8781-3488d3279366
+                attachments: # array:handle:IAttachment
+                name: "CPhantomComponent1"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Character
+                shapeType: PS_Box
+                shapeDimensions: [ 0.7000, 0.4000, 1.0000, 1.0000 ]
+                onTriggerEnteredScriptEvent: OnActorCollision
+              parentSlotName: head
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 9
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                transform:
+                  pos: [ -0.2121, -1.8753, -0.1729 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #6
+                guid: fb98195a-2aae-42ca-ba0a-6d2c9ed7f8f1
+                attachments: # array:handle:IAttachment
+                name: "CPhantomComponent0"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Static
+                  - Terrain
+                  - Destructible
+                shapeType: PS_Sphere
+                shapeDimensions: [ 0.5000, 0.5000, 0.5000, 1.0000 ]
+                onTriggerEnteredScriptEvent: OnObstacleCollision
+              parentSlotName: head
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 9
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CEffectDummyComponent
+                #transformParent: (looped reference) CHardAttachment #9
+                guid: c5011975-3f84-4d67-b39d-5ba41f79e183
+                attachments: # array:handle:IAttachment
+                name: "torso3effect"
+              parentSlotName: neck2
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 7
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CDynamicColliderComponent
+                transform:
+                  pos: [ -0.8000, 0.8000, 0.0000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 2.0000, 2.7000, 1.4000 ]
+                #transformParent: (looped reference) CHardAttachment #12
+                guid: d760d2eb-3406-4480-9273-e358b0b01d4d
+                attachments: # array:handle:IAttachment
+                name: "pelvis_coll"
+                useInWaterNormal: false
+                useInGrassDisplacement: true
+              parentSlotName: pelvis
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 2
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CDynamicColliderComponent
+                transform:
+                  pos: [ 0.0000, 0.0000, 0.0000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 1.5000, 1.5000, 1.5000 ]
+                #transformParent: (looped reference) CHardAttachment #15
+                guid: a7be6c79-61c2-4b97-8ed7-0a99ef697a66
+                attachments: # array:handle:IAttachment
+                name: "r_hand_coll"
+                useInGrassDisplacement: true
+              parentSlotName: r_hand
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 19
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CDynamicColliderComponent
+                transform:
+                  pos: [ 0.0000, 0.0000, 0.0000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 1.5000, 1.5000, 1.5000 ]
+                #transformParent: (looped reference) CHardAttachment #18
+                guid: 869b8659-ebe4-4cb1-939b-d56716dc44b8
+                attachments: # array:handle:IAttachment
+                name: "l_hand_coll"
+                useInGrassDisplacement: true
+              parentSlotName: l_hand
+              parentSlot:
+                ".type": CSkeletonBoneSlot
+                boneIndex: 14
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                transform:
+                  pos: [ 0.0000, 0.5000, 1.5000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #21
+                guid: 4b54a0f1-ef97-4f60-a243-f0617496f219
+                attachments: # array:handle:IAttachment
+                name: "ActorCollision"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Character
+                shapeType: PS_Box
+                shapeDimensions: [ 2.0000, 5.0000, 3.0000, 0.0000 ]
+                onTriggerEnteredScriptEvent: OnActorCollision
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                transform:
+                  pos: [ 0.0000, 2.0000, 2.0000 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #23
+                guid: 4aca82c7-be09-4798-86d4-ecf6cf2d180a
+                attachments: # array:handle:IAttachment
+                name: "ObstacleCollision"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Static
+                  - Terrain
+                shapeType: PS_Box
+                shapeDimensions: [ 1.0000, 2.0000, 2.0000, 0.0000 ]
+                onTriggerEnteredScriptEvent: OnObstacleCollision
+            - ".type": CHardAttachment
+              ## parent: CMovingPhysicalAgentComponent #2
+              child:
+                ".type": CPhantomComponent
+                transform:
+                  pos: [ 0.0000, 2.5000, 1.7500 ]
+                  rot: [ 0.0000, 0.0000, 0.0000 ]
+                  scale: [ 0.0000, 0.0000, 0.0000 ]
+                #transformParent: (looped reference) CHardAttachment #25
+                guid: e79cc4e7-79d8-4dc5-b4cc-ca25b6afc729
+                attachments: # array:handle:IAttachment
+                name: "ObstacleProbe"
+                triggeringCollisionGroupNames:  #array:2,0,CName
+                  - Static
+                  - Terrain
+                  - Destructible
+                  - Door
+                  - Fence
+                shapeType: PS_Box
+                shapeDimensions: [ 1.5000, 2.0000, 1.5000, 0.0000 ]
+                onTriggerEnteredScriptEvent: OnObstacleCollisionProbe
+          name: "Character"
+          ragdoll: characters/base_entities/bies_base/bies_ragdoll.w2ragdoll
+          skeleton: characters/base_entities/bies_base/bies_base.w2rig
+          animationSets:  #array:2,0,handle:CSkeletalAnimationSet
+            - animations/monsters/monster_bies.w2anims
+          overrideBudgetedTickDistance: 70.0000
+          runtimeBehaviorInstanceSlots:  #array:2,0,SBehaviorGraphInstanceSlot
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Combat
+              graph: gameplay/behaviors/npc/behaviorgraph/monster_bies_combat.w2beh
+            - ".type": SBehaviorGraphInstanceSlot
+              instanceName: Cutscene
+              graph: gameplay/behaviors/cutscene_graph.w2beh
+          steeringBehavior: gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+        - ".type": CAppearanceComponent
+          guid: ba71e057-5f87-41ac-b762-b65aa89d14b1
+          attachments: # array:handle:IAttachment
+          name: "Appearances"
+          forcedAppearance: czart_01
+          attachmentReplacements:  #SAttachmentReplacements
+            replacements:  #array:2,0,SAttachmentReplacement
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CInventoryComponent0_A747F45A-4AC683DF-43055790-B873D7B5
+                oldClass: CExternalProxyComponent
+                newName: CInventoryComponent0
+                newClass: CInventoryComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_torso3effect_9C876C6A-496A78E4-0BF27799-E479B8CC
+                oldClass: CExternalProxyComponent
+                newName: torso3effect
+                newClass: CEffectDummyComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_pelvis_coll_45E25289-449434C2-F3A9C5A7-072F086B
+                oldClass: CExternalProxyComponent
+                newName: pelvis_coll
+                newClass: CDynamicColliderComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_r_hand_coll_F2DF9D7C-4BC26820-9C7DCE97-9BB24060
+                oldClass: CExternalProxyComponent
+                newName: r_hand_coll
+                newClass: CDynamicColliderComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_l_hand_coll_2BF3CCCF-4E201304-E19D1395-AA1A4372
+                oldClass: CExternalProxyComponent
+                newName: l_hand_coll
+                newClass: CDynamicColliderComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CCreatureDataComponent0_97BA3D1F-422FDCE3-3506A8BD-AF665ED7
+                oldClass: CExternalProxyComponent
+                newName: CCreatureDataComponent0
+                newClass: CCreatureDataComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CDismembermentComponent0_AC21D718-430730FA-FC7F6D84-0F81C1D8
+                oldClass: CExternalProxyComponent
+                newName: CDismembermentComponent0
+                newClass: CDismembermentComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_ActorCollision_91098916-48569C7B-945877B2-E66406F9
+                oldClass: CExternalProxyComponent
+                newName: ActorCollision
+                newClass: CPhantomComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_ObstacleCollision_346F9832-40C1286A-DDEF49B9-14E24AE2
+                oldClass: CExternalProxyComponent
+                newName: ObstacleCollision
+                newClass: CPhantomComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CGameplayEffectsComponent0_9F9F4B19-4F73C898-9F5EC89C-15C6F916
+                oldClass: CExternalProxyComponent
+                newName: CGameplayEffectsComponent0
+                newClass: CGameplayEffectsComponent
+              - ".type": SAttachmentReplacement
+                oldName: proxy_CSoundEmitterComponent_C341F60E-4D7F2BD5-94FA2AB9-8B20EDA5
+                oldClass: CExternalProxyComponent
+                newName: CSoundEmitterComponent
+                newClass: CSoundEmitterComponent
+        - ".type": CEffectDummyComponent
+          transform:
+            pos: [ 0.0000, 0.0000, 3.6187 ]
+            rot: [ 0.0000, 0.0000, 0.0000 ]
+            scale: [ 0.0000, 0.0000, 0.0000 ]
+          #transformParent: <empty value>
+          guid: ee9f4494-12c7-456c-bf16-fefa969c11f7
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent1"
+        #"3": (looped reference) CPhantomComponent #4
+        #"4": (looped reference) CPhantomComponent #7
+        - ".type": CCreatureDataComponent
+          guid: a8e98799-a7f3-479b-9109-1283dca708b8
+          attachments: # array:handle:IAttachment
+          name: "CCreatureDataComponent1"
+          itemsUsedAgainstCreature:  #array:2,0,CName
+            - Devils Puffball 1
+            - Relic Oil 1
+          cameraDistance: 2.5000
+          cameraLookAtZ: 1.0000
+          cameraRotationYaw: 190.0000
+          cameraRotationPitch: 10.0000
+          environmentSunRotationYaw: 330.0000
+          environmentSunRotationPitch: 340.0000
+        - ".type": CInventoryComponent
+          guid: 2c1298a7-36c3-49c3-8099-e7b6ee05bb0f
+          attachments: # array:handle:IAttachment
+          name: "CInventoryComponent0"
+          containerTemplate: items/remains/remains__monster_01/remains__monster_01.w2ent
+        #"7": (looped reference) CEffectDummyComponent #10
+        #"8": (looped reference) CDynamicColliderComponent #13
+        #"9": (looped reference) CDynamicColliderComponent #16
+        #"10": (looped reference) CDynamicColliderComponent #19
+        - ".type": CCreatureDataComponent
+          guid: 4a2772d7-0773-471a-9312-1736da898e6b
+          attachments: # array:handle:IAttachment
+          name: "CCreatureDataComponent0"
+          cameraDistance: 5.0000
+          cameraLookAtZ: 1.8000
+          cameraRotationYaw: 157.8200
+          cameraRotationPitch: 7.6900
+          environmentSunRotationYaw: 250.0000
+          environmentSunRotationPitch: 10.0000
+        - ".type": CDismembermentComponent
+          guid: 50b20fe3-ceb3-42dd-879b-bb1a81ad5472
+          attachments: # array:handle:IAttachment
+          name: "CDismembermentComponent0"
+        #"13": (looped reference) CPhantomComponent #22
+        #"14": (looped reference) CPhantomComponent #24
+        - ".type": CGameplayEffectsComponent
+          guid: b4588041-99cc-4c17-bd33-c8b0c0e537f6
+          attachments: # array:handle:IAttachment
+          name: "CGameplayEffectsComponent0"
+        #"16": (looped reference) CPhantomComponent #26
+        - ".type": CSoundEmitterComponent
+          guid: 80008102-2c44-4959-b7a4-75fdf9e8ffaf
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent"
+          isStreamed: false
+          eventsOnAttach:  #array:2,0,StringAnsi
+            - set_monster_bies_armour_type_generic
+          banksDependency:  #array:2,0,CName
+            - monster_bies.bnk
+          maxDistance: 160.0000
+      idTag:  adcdf429-46b6-4fd7-98a0-b950faf33e24
+      displayName: Chort
+      isInteractionActivator: true
+      level: 27
+      useSoundValue: true
+      soundValue: 75
+    appearances:  #array:2,0,CEntityAppearance
+      czart_01:
+        ".type": CEntityAppearance
+        ## name: czart_01
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - characters/models/monsters/czart/czart.w2ent
+    usedAppearances:  #array:2,0,CName
+      - czart_01
+    slots:  #array:2,0,EntitySlot
+      horns:
+        ".type": EntitySlot
+        ## name: horns
+        componentName: Character
+        boneName: head
+        transform:
+          pos: [ -0.3000, -1.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      camera_hypnotize:
+        ".type": EntitySlot
+        ## name: camera_hypnotize
+        componentName: Character
+        boneName: m_eye
+      r_weapon:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: r_weapon
+        componentName: Character
+        boneName: r_middle1
+        transform:
+          pos: [ 0.1314, -0.0492, 0.0182 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      l_weapon:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: l_weapon
+        componentName: Character
+        boneName: l_middle1
+        transform:
+          pos: [ 0.2533, -0.1235, -0.1026 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      smash_fx_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: smash_fx_point
+        transform:
+          pos: [ 0.0000, 1.4107, 0.1000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      blood_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: blood_point
+        componentName: Character
+        boneName: spine2
+        transform:
+          pos: [ 1.0000, 1.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      point_hit_back:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: point_hit_back
+        componentName: Character
+        boneName: torso2
+        transform:
+          pos: [ -0.3000, 0.5000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      head:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: head
+        componentName: Character
+        boneName: head
+        transform:
+          pos: [ 0.7500, -0.2800, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      head2:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: head2
+        componentName: Character
+      r_claw:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: r_claw
+        componentName: Character
+        boneName: r_middle1
+        transform:
+          pos: [ 0.1314, -0.0492, 0.0182 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      l_claw:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: l_claw
+        componentName: Character
+        boneName: l_middle1
+        transform:
+          pos: [ 0.0849, -0.0415, -0.0326 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      taunt_fx_ground:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: taunt_fx_ground
+        transform:
+          pos: [ -1.4525, 0.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      charge_fx_point:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: charge_fx_point
+        transform:
+          pos: [ -0.0395, 1.5787, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+      scream:
+        ".type": EntitySlot
+        wasIncluded: true
+        ## name: scream
+        componentName: Character
+        boneName: head
+        transform:
+          pos: [ 0.0000, 0.0000, 0.0000 ]
+          rot: [ 90.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      - ".type": CAIProfile
+        attitudeGroup: AG_fiend
+      - ".type": CCharacterStatsParam
+        name: "bies_czart_abilities"
+        overrideInherited: true
+        abilities:  #array:2,0,CName
+          - mon_czart
+          - Charge
+          - mon_bies_base
+      - ".type": CInventoryDefinition
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_czart_basic_weapon
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_czart_r_claw_weapon
+          - ".type": CInventoryDefinitionEntry
+            category: monster_weapon
+            isMount: true
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: mon_czart_l_claw_weapon
+      - ".type": CR4LootParam
+        name: "loot"
+        containers:  #array:2,0,CR4LootContainerParam
+          _monster__Czart:
+            ".type": CR4LootContainerParam
+            ## name: _monster__Czart
+      - ".type": CEntityDismemberment
+        disabledWounds:  #array:2,0,SDismembermentWoundFilter
+          - ".type": SDismembermentWoundFilter
+            wound: bies_trophy_head
+            appearance: czart_01
+          - ".type": SDismembermentWoundFilter
+            wound: czart_trophy_head
+            appearance: czart_01
+      - ".type": CAnimGlobalParam
+        sfxTag: sfx_bies
+      - ".type": CAnimBehaviorsParam
+        wasIncluded: true
+        name: "monster"
+        componentName: "Character"
+        slots:  #array:2,0,SBehaviorGraphInstanceSlot
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Combat
+            graph: gameplay/behaviors/npc/behaviorgraph/monster_bies_combat.w2beh
+          - ".type": SBehaviorGraphInstanceSlot
+            instanceName: Cutscene
+            graph: gameplay/behaviors/cutscene_graph.w2beh
+      - ".type": CAIProfile
+        wasIncluded: true
+        senseVisionParams:
+          ".type": CAISenseParams
+          rangeMax: 20.0000
+          rangeAngle: 360.0000
+        senseAbsoluteParams:
+          ".type": CAISenseParams
+          rangeMax: 3.0000
+          rangeAngle: 360.0000
+          testLOS: false
+        attitudeGroup: monsters
+      - ".type": CAnimAnimsetsParam
+        wasIncluded: true
+        name: "bies"
+        animationSets:  #array:2,0,handle:CSkeletalAnimationSet
+          - animations/monsters/monster_bies.w2anims
+      - ".type": CAutoEffectsParam
+        wasIncluded: true
+        name: "bies_base_autobuffs"
+        autoEffects:  #array:2,0,CName
+          - AutoEssenceRegen
+          - AutoStaminaRegen
+          - AutoMoraleRegen
+      - ".type": CAttackRangeParam
+        wasIncluded: true
+        name: "attack_ranges"
+        attackRanges:  #array:2,0,ptr:CAIAttackRange
+          base:
+            ".type": CConeAttackRange
+            ## name: base
+            rangeMax: 3.5000
+            height: 3.0000
+            position: [ 0.0000, 0.0000, 1.5000, 1.0000 ]
+          bite:
+            ".type": CBoxAttackRange
+            ## name: bite
+            rangeMax: 3.0000
+            height: 3.0000
+            position: [ 0.0000, 0.0000, 1.5000, 1.0000 ]
+            rangeWidth: 1.5000
+          SlowMo:
+            ".type": CConeAttackRange
+            ## name: SlowMo
+            rangeMax: 3.5000
+            height: 3.0000
+            position: [ 0.0000, 0.0000, 1.5000, 1.0000 ]
+            rangeAngle: 90.0000
+          horns:
+            ".type": CConeAttackRange
+            ## name: horns
+            rangeMax: 3.0000
+            height: 3.0000
+            position: [ 0.0000, 0.0000, 1.5000, 1.0000 ]
+            rangeAngle: 80.0000
+          charge:
+            ".type": CBoxAttackRange
+            ## name: charge
+            rangeMax: 4.0000
+            height: 3.0000
+            position: [ 0.0000, 0.0000, 1.5000, 1.0000 ]
+            rangeWidth: 2.0000
+      - ".type": CMonsterParam
+        wasIncluded: true
+        name: "bies_base_monster_params"
+        monsterCategory: 1
+        soundMonsterName: Bies
+      - ".type": CCharacterControllerParam
+        wasIncluded: true
+        name: "bies_base_character_controller"
+        height: 4.0000
+        physicalRadius: 1.0000
+        interactionPriorityEnum: IP_Prio_10
+        virtualControllers:  #array:2,0,SVirtualControllerParams
+          - ".type": SVirtualControllerParams
+            name: secondCapsule
+            localOffset: [ 0.0000, 1.4000, 1.4000, 0.0000 ]
+            height: 1.8000
+            radius: 1.0000
+          - ".type": SVirtualControllerParams
+            name: thirdCapsule
+            localOffset: [ 0.0000, -0.8000, 0.0000, 0.0000 ]
+            height: 0.5000
+            radius: 1.0000
+        significance: 6.0000
+      - ".type": CBuffImmunityParam
+        wasIncluded: true
+        name: "buff_immunity"
+        immunityTo:  #array:2,0,Int32
+          - 6
+          - 9
+          - 7
+          - 11
+          - 45
+      - ".type": CAnimConstraintsParam
+        wasIncluded: true
+        graph: gameplay/behaviors/npc/behaviorgraph/monster_bies_constraints.w2beh
+      - ".type": CAIBaseTreeTemplateParam
+        wasIncluded: true
+        aiBaseTree:
+          ".type": CAIMonsterBase
+          tree: gameplay/trees/monster_base.w2behtree
+          params:
+            ".type": CAIBiesDefaults
+            spawnTree:
+              ".type": CAIMonsterSpawnDefault
+              tree: gameplay/trees/monster_spawn_default.w2behtree
+              params:
+                ".type": CAIMonsterSpawnParams
+            tauntTree:
+              ".type": CAIMonsterTaunt
+              tree: gameplay/trees/monster_basetaunt.w2behtree
+              params:
+                ".type": CAIMonsterTauntParams
+            axiiTree:
+              ".type": CAIMonsterAxii
+              tree: gameplay/trees/monster_baseaxii.w2behtree
+              params:
+                ".type": CAIMonsterAxiiParams
+            idleDecoratorTree:
+              ".type": CAIMonsterIdleDecoratorBies
+              tree: gameplay/trees/idle/monster_idle_decorator.w2behtree
+              params:
+                ".type": CAIMonsterIdleDecoratorParams
+                reactionTree:
+                  ".type": CAIMonsterReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionSearchForTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionSearchTarget
+                          tree: gameplay/trees/reactions/reaction_search_target.w2behtree
+                      - ".type": CAIActionAllySearchesTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionJoinSearchForTarget
+                          tree: gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+                      - ".type": CAIActionPlayWithTarget
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionPlayWithTarget
+                          tree: gameplay/trees/reactions/reaction_play_around.w2behtree
+                      - ".type": CAIActionMoveInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionMoveInPack
+                          tree: gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+                      - ".type": CAIActionRunWildInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionRunWildInPack
+                          tree: gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+                      - ".type": CAIActionMoveToLure
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionMoveToLure
+                          tree: gameplay/trees/reactions/reaction_monster_move_to_lure.w2behtree
+                searchFoodTree:
+                  ".type": CAIMonsterSearchFoodTree
+                  tree: gameplay/trees/idle/monster_search_food_idle.w2behtree
+                  params:
+                    ".type": CAIMonsterSearchFoodIdleParams
+                    vegetable: true
+                actions:  #array:2,0,handle:CAIMonsterIdleAction
+                  - ".type": CAIMonsterIdleHowl
+                    tree: gameplay/trees/idle/monster_idle_action_howl.w2behtree
+                    params:
+                      ".type": CAIMonsterIdleActionParams
+                      cooldown: 60.0000
+                      loopTime: 5.0000
+            combatTree:
+              ".type": CAIMonsterCombat
+              tree: gameplay/trees/monster_basecombat.w2behtree
+              params:
+                ".type": CAIMonsterCombatParams
+                combatLogicTree:
+                  ".type": CAIBiesCombatLogic
+                  tree: gameplay/trees/monsters/monster_bies_logic.w2behtree
+                  params:
+                    ".type": CAIMonsterCombatLogicParams
+                damageReactionTree:
+                  ".type": CAIMonsterDamageReactionTree
+                  tree: gameplay/trees/monster_damage_reaction.w2behtree
+                  params:
+                    ".type": CAIDamageReactionTreeParams
+                    completeTaskAfterDisablingHitReaction: true
+                reachabilityTolerance: 4.0000
+                createHitReactionEvent: MonsterHitReaction
+                criticalState:
+                  ".type": CAINpcCriticalState
+                  tree: gameplay/trees/npc_critical_state.w2behtree
+                  params:
+                    ".type": CAINpcCriticalStateParams
+                reactionTree:
+                  ".type": CAIMonsterCombatReactionsTree
+                  tree: gameplay/trees/reactions/monster_base_reactions.w2behtree
+                  params:
+                    ".type": CAIMonsterReactionsTreeParams
+                    reactions:  #array:2,0,handle:CAIMonsterActionSubtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                      - ".type": CAIActionLeadEscape
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionLeadEscape
+                          tree: gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+                        actionEventName: FearsomeEvent
+                        saveReactionTargetUnder: FearsomeEventSource
+                      - ".type": CAIActionEscapeInPack
+                        tree: gameplay/trees/reactions/npc_reaction.w2behtree
+                        reactionLogicTree:
+                          ".type": CAINpcReactionEscapeInPack
+                          tree: gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+            deathTree:
+              ".type": CAIMonsterDeath
+              tree: gameplay/trees/death/death.w2behtree
+              params:
+                ".type": CAIMonsterDeathParams
+      - ".type": CEntityDismemberment
+        wasIncluded: true
+        wounds:  #array:2,0,ptr:CDismembermentWound
+          bies_trophy_head:
+            ".type": CDismembermentWound
+            ## name: bies_trophy_head
+            transform:
+              pos: [ -1.4852, 1.3700, 3.0845 ]
+              rot: [ 197.7010, 10.7591, 211.0010 ]
+              scale: [ 3.3762, 1.3309, 2.5888 ]
+            fillMesh: characters/models/monsters/bies/model/w_bies_head_fill.w2mesh
+            decal:  #SDismembermentWoundDecal
+              materialInfo:  #SDynamicDecalMaterialInfo
+                diffuseTexture: characters/models/common/textures/decals/wounds/wnd__decal_d01.xbm
+                normalTexture: characters/models/common/textures/decals/wounds/wnd__decal_n01.xbm
+                specularColor: [ 10, 10, 10, 0 ]
+              depthScale: 2.3000
+              applyToFillMesh: false
+          czart_trophy_head:
+            ".type": CDismembermentWound
+            ## name: czart_trophy_head
+            transform:
+              pos: [ -0.0077, 1.3800, 2.6546 ]
+              rot: [ 180.2860, 352.6060, 182.2210 ]
+              scale: [ 3.5293, 1.1737, 3.3068 ]
+            fillMesh: characters/models/monsters/czart/model/w_czart_head_fill.w2mesh
+            decal:  #SDismembermentWoundDecal
+              materialInfo:  #SDynamicDecalMaterialInfo
+                diffuseTexture: characters/models/common/textures/decals/wounds/wnd__decal_d01.xbm
+                normalTexture: characters/models/common/textures/decals/wounds/wnd__decal_n01.xbm
+                specularColor: [ 10, 10, 10, 0 ]
+              scale:  #Vector2
+                X: 0.5400
+                Y: 0.7000
+              depthScale: 1.8200
+              offset:  #Vector2
+                X: 0.0000
+                Y: 0.0200
+              depthFadePower: -0.1000
+              normalFadeBias: -0.3500
+              normalFadeScale: 3.0000
+              applyToFillMesh: false
+      - ".type": CFocusSoundParam
+        wasIncluded: true
+        name: "Focus_Sound"
+        eventStart: monster_bies_focus_100m_start
+        eventStop: monster_bies_focus_100m_stop
+      - ".type": CAnimGlobalParam
+        wasIncluded: true
+        sfxTag: sfx_bies
+      - ".type": CBloodTrailEffect
+        wasIncluded: true
+        name: "blood_trail"
+        effect: default_blood_trail
+    ## cookedEffectsVersion: 1

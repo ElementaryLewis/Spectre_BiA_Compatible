@@ -1,0 +1,290 @@
+dettlaff_swarm_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
+dettlaff_swarm_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+dettlaff_swarm_projectile.w2ent:            properOverrides (Bool) : true
+dettlaff_swarm_projectile.w2ent:            entityClass (CName) : DebuffProjectile
+dettlaff_swarm_projectile.w2ent:            entityObject (ptr:CEntity) : DebuffProjectile #1
+dettlaff_swarm_projectile.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+dettlaff_swarm_projectile.w2ent:                0 (EntitySlot) : fx
+dettlaff_swarm_projectile.w2ent:                    name (CName) : fx
+dettlaff_swarm_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+dettlaff_swarm_projectile.w2ent:                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
+dettlaff_swarm_projectile.w2ent:                    DebuffProjectile (DebuffProjectile) : PreviewEntity
+dettlaff_swarm_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        streamingDistance (Uint8) : 0
+dettlaff_swarm_projectile.w2ent:                        name (String) : "PreviewEntity"
+dettlaff_swarm_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+dettlaff_swarm_projectile.w2ent:                            0 (ptr:CComponent) : CPhantomComponent #1
+dettlaff_swarm_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+dettlaff_swarm_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+dettlaff_swarm_projectile.w2ent:                            0 (SEntityBufferType1) : 
+dettlaff_swarm_projectile.w2ent:                                ComponentName (CName) : 
+dettlaff_swarm_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+dettlaff_swarm_projectile.w2ent:                        idTag (IdTag) :  4690b096-aeae-482c-b9fd-955afd478f98
+dettlaff_swarm_projectile.w2ent:                        displayName (LocalizedString) : 1213244
+dettlaff_swarm_projectile.w2ent:                        doWaterLevelTest (Bool) : false
+dettlaff_swarm_projectile.w2ent:                        radius (Float) : 1.7000
+dettlaff_swarm_projectile.w2ent:                        projSpeed (Float) : 30.0000
+dettlaff_swarm_projectile.w2ent:                        projAngle (Float) : 0.0000
+dettlaff_swarm_projectile.w2ent:                        projDMG (Float) : 600.0000
+dettlaff_swarm_projectile.w2ent:                        projEfect (EEffectType) : EET_LongStagger
+dettlaff_swarm_projectile.w2ent:                        dealDamageEvenIfDodging (Bool) : false
+dettlaff_swarm_projectile.w2ent:                        debuffType (EEffectType) : EET_LongStagger
+dettlaff_swarm_projectile.w2ent:                        hitReactionType (EHitReactionType) : EHRT_None
+dettlaff_swarm_projectile.w2ent:                        destroyQuen (Bool) : false
+dettlaff_swarm_projectile.w2ent:                        signalDamageInstigatedEvent (Bool) : true
+dettlaff_swarm_projectile.w2ent:                        destroyAfterFloat (Float) : 20.0000
+dettlaff_swarm_projectile.w2ent:                        stopProjectileAfterCollision (Bool) : false
+dettlaff_swarm_projectile.w2ent:                CPhantomComponent #1 (CPhantomComponent) : CPhantomComponent0
+dettlaff_swarm_projectile.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+dettlaff_swarm_projectile.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+dettlaff_swarm_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        name (String) : "CPhantomComponent0"
+dettlaff_swarm_projectile.w2ent:                        graphPositionX (Int16) : 194
+dettlaff_swarm_projectile.w2ent:                        graphPositionY (Int16) : 274
+dettlaff_swarm_projectile.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+dettlaff_swarm_projectile.w2ent:                            0 (CName) : Character
+dettlaff_swarm_projectile.w2ent:                        shapeType (EPhantomShape) : PS_Box
+dettlaff_swarm_projectile.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+dettlaff_swarm_projectile.w2ent:                            X (Float) : 4.0000
+dettlaff_swarm_projectile.w2ent:                            Y (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:                            Z (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:                            W (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+dettlaff_swarm_projectile.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+dettlaff_swarm_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_swarm_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_swarm_projectile.w2ent:                        guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+dettlaff_swarm_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
+dettlaff_swarm_projectile.w2ent:                        isStreamed (Bool) : false
+dettlaff_swarm_projectile.w2ent:                        graphPositionX (Int16) : 102
+dettlaff_swarm_projectile.w2ent:                        graphPositionY (Int16) : 196
+dettlaff_swarm_projectile.w2ent:                        maxDistance (Float) : 60.0000
+dettlaff_swarm_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+dettlaff_swarm_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : spit_travel
+dettlaff_swarm_projectile.w2ent:                    name (CName) : spit_travel
+dettlaff_swarm_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_swarm_projectile.w2ent:                        Bufferdata (CByteArray) : 2092 bytes, MD5: 0436be8d5d6ae2ba9a5df0bdba6570fd
+dettlaff_swarm_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_travel
+dettlaff_swarm_projectile.w2ent:                            CFXDefinition (CFXDefinition) : spit_travel
+dettlaff_swarm_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_swarm_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+dettlaff_swarm_projectile.w2ent:                                length (Float) : 0.3000
+dettlaff_swarm_projectile.w2ent:                                loopStart (Float) : 0.1000
+dettlaff_swarm_projectile.w2ent:                                loopEnd (Float) : 0.2000
+dettlaff_swarm_projectile.w2ent:                                name (CName) : spit_travel
+dettlaff_swarm_projectile.w2ent:                                showDistance (Float) : 50.0000
+dettlaff_swarm_projectile.w2ent:                                isLooped (Bool) : true
+dettlaff_swarm_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+dettlaff_swarm_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+dettlaff_swarm_projectile.w2ent:                                name (String) : "sounds"
+dettlaff_swarm_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_swarm_projectile.w2ent:                                isExpanded (Bool) : true
+dettlaff_swarm_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_swarm_projectile.w2ent:                                    Red (Uint8) : 128
+dettlaff_swarm_projectile.w2ent:                                    Green (Uint8) : 136
+dettlaff_swarm_projectile.w2ent:                                    Blue (Uint8) : 136
+dettlaff_swarm_projectile.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_swarm_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+dettlaff_swarm_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
+dettlaff_swarm_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+dettlaff_swarm_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+dettlaff_swarm_projectile.w2ent:                                name (String) : "sfx"
+dettlaff_swarm_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+dettlaff_swarm_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_swarm_projectile.w2ent:                                timeBegin (Float) : 0.0066
+dettlaff_swarm_projectile.w2ent:                                buffername (CName) : 
+dettlaff_swarm_projectile.w2ent:                                count (CDynamicInt) : 0
+dettlaff_swarm_projectile.w2ent:                                unk (Uint8) : 0
+dettlaff_swarm_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_swarm_projectile.w2ent:                                soundEventName (StringAnsi) : monster_toad_fx_mucus_spit
+dettlaff_swarm_projectile.w2ent:                                maxDistance (Float) : 40.0000
+dettlaff_swarm_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+dettlaff_swarm_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_swarm_projectile.w2ent:                                timeBegin (Float) : 0.2115
+dettlaff_swarm_projectile.w2ent:                                buffername (CName) : 
+dettlaff_swarm_projectile.w2ent:                                count (CDynamicInt) : 0
+dettlaff_swarm_projectile.w2ent:                                unk (Uint8) : 0
+dettlaff_swarm_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_swarm_projectile.w2ent:                                soundEventName (StringAnsi) : monster_toad_fx_mucus_travel_stop
+dettlaff_swarm_projectile.w2ent:                                maxDistance (Float) : 40.0000
+dettlaff_swarm_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : particles
+dettlaff_swarm_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+dettlaff_swarm_projectile.w2ent:                                name (String) : "particles"
+dettlaff_swarm_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+dettlaff_swarm_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #9
+dettlaff_swarm_projectile.w2ent:                                isExpanded (Bool) : true
+dettlaff_swarm_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_swarm_projectile.w2ent:                                    Red (Uint8) : 170
+dettlaff_swarm_projectile.w2ent:                                    Green (Uint8) : 227
+dettlaff_swarm_projectile.w2ent:                                    Blue (Uint8) : 140
+dettlaff_swarm_projectile.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_swarm_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : light
+dettlaff_swarm_projectile.w2ent:                            CFXTrack (CFXTrack) : light
+dettlaff_swarm_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #7
+dettlaff_swarm_projectile.w2ent:                                name (String) : "light"
+dettlaff_swarm_projectile.w2ent:                        CFXTrackItemDynamicLight #7 (CFXTrackItemDynamicLight) : DynamicLight
+dettlaff_swarm_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+dettlaff_swarm_projectile.w2ent:                                timeBegin (Float) : 0.5210
+dettlaff_swarm_projectile.w2ent:                                buffername (CName) : DynamicLight
+dettlaff_swarm_projectile.w2ent:                                count (CDynamicInt) : 2
+dettlaff_swarm_projectile.w2ent:                                unk (Uint8) : 1
+dettlaff_swarm_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_swarm_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_swarm_projectile.w2ent:                                        0 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        2 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        3 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        4 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        5 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        6 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        7 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        8 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        9 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        10 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        11 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        12 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        13 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        14 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        15 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_swarm_projectile.w2ent:                                        0 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        2 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        3 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        4 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        5 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        6 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        7 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        8 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        9 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        10 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        11 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        12 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        13 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        14 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                        15 (Float) : 1.0000
+dettlaff_swarm_projectile.w2ent:                                brightness (Float) : 100.0000
+dettlaff_swarm_projectile.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+dettlaff_swarm_projectile.w2ent:                                    positionOffset (Float) : 0.2000
+dettlaff_swarm_projectile.w2ent:                                    flickerStrength (Float) : 0.6000
+dettlaff_swarm_projectile.w2ent:                                    flickerPeriod (Float) : 0.0500
+dettlaff_swarm_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #8
+dettlaff_swarm_projectile.w2ent:                        CFXSimpleSpawner #8 (CFXSimpleSpawner) : 
+dettlaff_swarm_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_swarm_projectile.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_swarm_projectile.w2ent:                                    0 (CName) : fx
+dettlaff_swarm_projectile.w2ent:                        CFXTrack #9 (CFXTrack) : fx
+dettlaff_swarm_projectile.w2ent:                            CFXTrack (CFXTrack) : fx
+dettlaff_swarm_projectile.w2ent:                                name (String) : "fx"
+dettlaff_swarm_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : spit_hit
+dettlaff_swarm_projectile.w2ent:                    name (CName) : spit_hit
+dettlaff_swarm_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_swarm_projectile.w2ent:                        Bufferdata (CByteArray) : 1279 bytes, MD5: 6b340dc6b25b08e5b644e4f9d93670e6
+dettlaff_swarm_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_hit
+dettlaff_swarm_projectile.w2ent:                            CFXDefinition (CFXDefinition) : spit_hit
+dettlaff_swarm_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_swarm_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+dettlaff_swarm_projectile.w2ent:                                length (Float) : 4.0000
+dettlaff_swarm_projectile.w2ent:                                loopEnd (Float) : 4.0000
+dettlaff_swarm_projectile.w2ent:                                name (CName) : spit_hit
+dettlaff_swarm_projectile.w2ent:                                showDistance (Float) : 50.0000
+dettlaff_swarm_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+dettlaff_swarm_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+dettlaff_swarm_projectile.w2ent:                                name (String) : "sounds"
+dettlaff_swarm_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_swarm_projectile.w2ent:                                isExpanded (Bool) : true
+dettlaff_swarm_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_swarm_projectile.w2ent:                                    Red (Uint8) : 175
+dettlaff_swarm_projectile.w2ent:                                    Green (Uint8) : 159
+dettlaff_swarm_projectile.w2ent:                                    Blue (Uint8) : 217
+dettlaff_swarm_projectile.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_swarm_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+dettlaff_swarm_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
+dettlaff_swarm_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+dettlaff_swarm_projectile.w2ent:                                name (String) : "sfx"
+dettlaff_swarm_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+dettlaff_swarm_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_swarm_projectile.w2ent:                                timeBegin (Float) : 0.0066
+dettlaff_swarm_projectile.w2ent:                                buffername (CName) : 
+dettlaff_swarm_projectile.w2ent:                                count (CDynamicInt) : 0
+dettlaff_swarm_projectile.w2ent:                                unk (Uint8) : 0
+dettlaff_swarm_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_swarm_projectile.w2ent:                                soundEventName (StringAnsi) : monster_toad_fx_mucus_hit
+dettlaff_swarm_projectile.w2ent:                                maxDistance (Float) : 40.0000
+dettlaff_swarm_projectile.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : particles
+dettlaff_swarm_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+dettlaff_swarm_projectile.w2ent:                                name (String) : "particles"
+dettlaff_swarm_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_swarm_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_swarm_projectile.w2ent:                                isExpanded (Bool) : true
+dettlaff_swarm_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_swarm_projectile.w2ent:                                    Red (Uint8) : 192
+dettlaff_swarm_projectile.w2ent:                                    Green (Uint8) : 152
+dettlaff_swarm_projectile.w2ent:                                    Blue (Uint8) : 232
+dettlaff_swarm_projectile.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_swarm_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : fx1
+dettlaff_swarm_projectile.w2ent:                            CFXTrack (CFXTrack) : fx1
+dettlaff_swarm_projectile.w2ent:                                name (String) : "fx1"
+dettlaff_swarm_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
+dettlaff_swarm_projectile.w2ent:            Unk1 (Uint32) : 0
+dettlaff_swarm_projectile.w2ent:    DebuffProjectile #1 (DebuffProjectile) : 
+dettlaff_swarm_projectile.w2ent:        DebuffProjectile (DebuffProjectile) : 
+dettlaff_swarm_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            streamingDistance (Uint8) : 0
+dettlaff_swarm_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+dettlaff_swarm_projectile.w2ent:                0 (ptr:CComponent) : CPhantomComponent #2
+dettlaff_swarm_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
+dettlaff_swarm_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+dettlaff_swarm_projectile.w2ent:                0 (SEntityBufferType1) : 
+dettlaff_swarm_projectile.w2ent:                    ComponentName (CName) : 
+dettlaff_swarm_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+dettlaff_swarm_projectile.w2ent:            idTag (IdTag) :  4690b096-aeae-482c-b9fd-955afd478f98
+dettlaff_swarm_projectile.w2ent:            displayName (LocalizedString) : 1213244
+dettlaff_swarm_projectile.w2ent:            doWaterLevelTest (Bool) : false
+dettlaff_swarm_projectile.w2ent:            radius (Float) : 1.7000
+dettlaff_swarm_projectile.w2ent:            projSpeed (Float) : 30.0000
+dettlaff_swarm_projectile.w2ent:            projAngle (Float) : 0.0000
+dettlaff_swarm_projectile.w2ent:            projDMG (Float) : 600.0000
+dettlaff_swarm_projectile.w2ent:            projEfect (EEffectType) : EET_LongStagger
+dettlaff_swarm_projectile.w2ent:            dealDamageEvenIfDodging (Bool) : false
+dettlaff_swarm_projectile.w2ent:            debuffType (EEffectType) : EET_LongStagger
+dettlaff_swarm_projectile.w2ent:            hitReactionType (EHitReactionType) : EHRT_None
+dettlaff_swarm_projectile.w2ent:            destroyQuen (Bool) : false
+dettlaff_swarm_projectile.w2ent:            signalDamageInstigatedEvent (Bool) : true
+dettlaff_swarm_projectile.w2ent:            destroyAfterFloat (Float) : 20.0000
+dettlaff_swarm_projectile.w2ent:            stopProjectileAfterCollision (Bool) : false
+dettlaff_swarm_projectile.w2ent:    CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
+dettlaff_swarm_projectile.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+dettlaff_swarm_projectile.w2ent:            guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+dettlaff_swarm_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            name (String) : "CPhantomComponent0"
+dettlaff_swarm_projectile.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
+dettlaff_swarm_projectile.w2ent:                0 (CName) : Character
+dettlaff_swarm_projectile.w2ent:            shapeType (EPhantomShape) : PS_Box
+dettlaff_swarm_projectile.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+dettlaff_swarm_projectile.w2ent:                X (Float) : 4.0000
+dettlaff_swarm_projectile.w2ent:                Y (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:                Z (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:                W (Float) : 1.5000
+dettlaff_swarm_projectile.w2ent:            onTriggerEnteredScriptEvent (CName) : CharacterCollision
+dettlaff_swarm_projectile.w2ent:            onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+dettlaff_swarm_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_swarm_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_swarm_projectile.w2ent:            guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+dettlaff_swarm_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_swarm_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
+dettlaff_swarm_projectile.w2ent:            isStreamed (Bool) : false
+dettlaff_swarm_projectile.w2ent:            maxDistance (Float) : 60.0000

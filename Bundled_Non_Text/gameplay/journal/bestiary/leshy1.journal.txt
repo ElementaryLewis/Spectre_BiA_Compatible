@@ -1,0 +1,73 @@
+leshy1.journal:    CJournalResource #0 (CJournalResource) : 
+leshy1.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+leshy1.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
+leshy1.journal:    CJournalCreature #1 (CJournalCreature) : Leszy
+leshy1.journal:        CJournalCreature (CJournalCreature) : Leshens
+leshy1.journal:            guid (CGUID) : 717d3521-0f11-47d3-b0a2-3468ef2b607e
+leshy1.journal:            baseName (String) : "Leszy"
+leshy1.journal:            order (Uint32) : 2147483647
+leshy1.journal:            uniqueScriptIdentifier (CName) : Leszy
+leshy1.journal:            parentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
+leshy1.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+leshy1.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+leshy1.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #5
+leshy1.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #6
+leshy1.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #7
+leshy1.journal:            name (LocalizedString) : Leshens
+leshy1.journal:            image (String) : "bestiary_leshenlvl1.png"
+leshy1.journal:            entityTemplate (soft:CEntityTemplate) : characters/npc_entities/monsters/lessog_lvl1.w2ent
+leshy1.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
+leshy1.journal:                0 (CName) : Silver Dust Bomb 1
+leshy1.journal:                1 (CName) : Relic Oil 1
+leshy1.journal:                2 (CName) : Igni
+leshy1.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+leshy1.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+leshy1.journal:            guid (CGUID) : 585c9826-1773-49e7-93a6-45d60ddd0002
+leshy1.journal:            baseName (String) : "Descriptions"
+leshy1.journal:            order (Uint32) : 2147483647
+leshy1.journal:            uniqueScriptIdentifier (CName) : Descriptions 585C9826-49E71773-D645A693-0200DD0D
+leshy1.journal:            parentGuid (CGUID) : 717d3521-0f11-47d3-b0a2-3468ef2b607e
+leshy1.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+leshy1.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+leshy1.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+leshy1.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Leszy - wpis 1
+leshy1.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+leshy1.journal:            guid (CGUID) : 1fa32971-862e-46a9-a849-a0ec801b489a
+leshy1.journal:            baseName (String) : "Leszy - wpis 1"
+leshy1.journal:            order (Uint32) : 2147483647
+leshy1.journal:            uniqueScriptIdentifier (CName) : Leszy - wpis 1
+leshy1.journal:            parentGuid (CGUID) : 585c9826-1773-49e7-93a6-45d60ddd0002
+leshy1.journal:            description (LocalizedString) : <i>We never hunt in these woods. Never. Even if it means the whole village starves.</i><br>– Mulliver, ealdorman of Hoshberg in lower Aedirn<br><br>Leshens dwell in dense, primeval woods. Fiercely territorial creatures, they hunt with stealth and cunning as their only companions. They use their inborn magic to control the plants and animals within their territory – and so when stalking them, half the battle is merely getting near enough to strike. Leshens old enough to earn the appellation "ancient" wield advanced skills and tactics that make them particularly dangerous.<br>
+leshy1.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Leszy - wpis 2
+leshy1.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+leshy1.journal:            guid (CGUID) : 83002e63-9d87-45c8-9b93-6b5083242619
+leshy1.journal:            baseName (String) : "Leszy - wpis 2"
+leshy1.journal:            order (Uint32) : 3758096382
+leshy1.journal:            uniqueScriptIdentifier (CName) : Leszy - wpis 2
+leshy1.journal:            parentGuid (CGUID) : 585c9826-1773-49e7-93a6-45d60ddd0002
+leshy1.journal:            index (Uint8) : 1
+leshy1.journal:            description (LocalizedString) : wolves, who unfailingly answer their call, or ravens, which harass and distract the leshen's opponent. Leshens are also able to bend plant life to their will and make it aid them in battle. It is a witcher's good fortune that leshens do have one weakness - they are extremely vulnerable to the Igni Sign.
+leshy1.journal:    CJournalCreatureHuntingClueGroup #5 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+leshy1.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+leshy1.journal:            guid (CGUID) : 0b1bf247-fab0-43de-a56a-c263447b95db
+leshy1.journal:            baseName (String) : "Hunting Clues"
+leshy1.journal:            order (Uint32) : 3221225470
+leshy1.journal:            uniqueScriptIdentifier (CName) : Hunting Clues 0B1BF247-43DEFAB0-63C26AA5-DB957B44
+leshy1.journal:            parentGuid (CGUID) : 717d3521-0f11-47d3-b0a2-3468ef2b607e
+leshy1.journal:            index (Uint8) : 1
+leshy1.journal:    CJournalCreatureGameplayHintGroup #6 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+leshy1.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+leshy1.journal:            guid (CGUID) : 5c893cd7-2a28-4a3a-bba8-30a0323a02af
+leshy1.journal:            baseName (String) : "Gameplay Hints"
+leshy1.journal:            order (Uint32) : 3758096382
+leshy1.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 5C893CD7-4A3A2A28-A030A8BB-AF023A32
+leshy1.journal:            parentGuid (CGUID) : 717d3521-0f11-47d3-b0a2-3468ef2b607e
+leshy1.journal:            index (Uint8) : 2
+leshy1.journal:    CJournalCreatureVitalSpotGroup #7 (CJournalCreatureVitalSpotGroup) : Vital spots
+leshy1.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+leshy1.journal:            guid (CGUID) : a43d3188-186c-4296-9b32-39931607702b
+leshy1.journal:            baseName (String) : "Vital spots"
+leshy1.journal:            order (Uint32) : 4026531838
+leshy1.journal:            uniqueScriptIdentifier (CName) : Vital spots A43D3188-4296186C-9339329B-2B700716
+leshy1.journal:            parentGuid (CGUID) : 717d3521-0f11-47d3-b0a2-3468ef2b607e
+leshy1.journal:            index (Uint8) : 3

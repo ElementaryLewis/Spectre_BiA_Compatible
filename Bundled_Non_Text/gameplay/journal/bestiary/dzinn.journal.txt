@@ -1,0 +1,63 @@
+dzinn.journal:    CJournalResource #0 (CJournalResource) : 
+dzinn.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+dzinn.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
+dzinn.journal:    CJournalCreature #1 (CJournalCreature) : Dzinn
+dzinn.journal:        CJournalCreature (CJournalCreature) : Djinns
+dzinn.journal:            guid (CGUID) : 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+dzinn.journal:            baseName (String) : "Dzinn"
+dzinn.journal:            order (Uint32) : 4278190078
+dzinn.journal:            uniqueScriptIdentifier (CName) : Dzinn
+dzinn.journal:            parentGuid (CGUID) : 4dcf8e73-ac97-4318-9746-78cbe7014d69
+dzinn.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+dzinn.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+dzinn.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #4
+dzinn.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #5
+dzinn.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #6
+dzinn.journal:            name (LocalizedString) : Djinns
+dzinn.journal:            image (String) : "bestiary_djin.png"
+dzinn.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
+dzinn.journal:                0 (CName) : Dwimeritium Bomb 1
+dzinn.journal:                1 (CName) : Magicals Oil 1
+dzinn.journal:                2 (CName) : Yrden
+dzinn.journal:                3 (CName) : Axii
+dzinn.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+dzinn.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+dzinn.journal:            guid (CGUID) : 66a86635-2a58-4c42-ab0b-a62c51e617c5
+dzinn.journal:            baseName (String) : "Descriptions"
+dzinn.journal:            order (Uint32) : 2147483647
+dzinn.journal:            uniqueScriptIdentifier (CName) : Descriptions 66A86635-4C422A58-2CA60BAB-C517E651
+dzinn.journal:            parentGuid (CGUID) : 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+dzinn.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+dzinn.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+dzinn.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Dzinn wpis
+dzinn.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+dzinn.journal:            guid (CGUID) : ed8a3431-7f3f-4610-8fac-39d5a3dd05ef
+dzinn.journal:            baseName (String) : "Dzinn wpis"
+dzinn.journal:            order (Uint32) : 2147483647
+dzinn.journal:            uniqueScriptIdentifier (CName) : Dzinn wpis
+dzinn.journal:            parentGuid (CGUID) : 66a86635-2a58-4c42-ab0b-a62c51e617c5
+dzinn.journal:            description (LocalizedString) : <i>The pitcher emitted a puff of glowing red smoke. The smoke pulsated, then gathered into an irregular sphere floating in front of the poet's head...</i><br>–The First Longing, a Tale Fantastic in All Ways<br><br>A djinn is a powerful air spirit, a condensation of the power of said element endowed with consciousness and character - the latter usually nasty. According to legend, djinns can grant even the most far-fetched wishes, though they do so begrudgingly.<br><br>Unusually powerful mages can capture and tame these beings. A mage who succeeds in doing so can then draw energy from such a spirit, using it to cast spells without having to summon the Power from traditional sources. Only a handful have ever managed this feat, however, for djinns fight to avoid such a fate with stubborn determination. To imprison a djinn and bend it to one's will, one must first weaken it - and that is no easy task.<br><br>Fighting djinns is extraordinarily difficult. They can fling off spells in an instant that the most accomplished human mages could never master with years of preparation. What's more, by manipulating the element of air they can summon gales, powerful storms, even hurricanes. Luckily, as magic beings they are vulnerable to silver - yet steel will do them no harm.
+dzinn.journal:    CJournalCreatureHuntingClueGroup #4 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+dzinn.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+dzinn.journal:            guid (CGUID) : d68cdfcb-fc95-4d42-8956-9b79e28cbf70
+dzinn.journal:            baseName (String) : "Hunting Clues"
+dzinn.journal:            order (Uint32) : 3221225470
+dzinn.journal:            uniqueScriptIdentifier (CName) : Hunting Clues D68CDFCB-4D42FC95-799B5689-70BF8CE2
+dzinn.journal:            parentGuid (CGUID) : 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+dzinn.journal:            index (Uint8) : 1
+dzinn.journal:    CJournalCreatureGameplayHintGroup #5 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+dzinn.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+dzinn.journal:            guid (CGUID) : edb32201-33d1-4c56-8881-6aebcab97065
+dzinn.journal:            baseName (String) : "Gameplay Hints"
+dzinn.journal:            order (Uint32) : 3758096382
+dzinn.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints EDB32201-4C5633D1-EB6A8188-6570B9CA
+dzinn.journal:            parentGuid (CGUID) : 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+dzinn.journal:            index (Uint8) : 2
+dzinn.journal:    CJournalCreatureVitalSpotGroup #6 (CJournalCreatureVitalSpotGroup) : Vital spots
+dzinn.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+dzinn.journal:            guid (CGUID) : 8e98c695-6ecc-4281-bb2e-8f5422a75a57
+dzinn.journal:            baseName (String) : "Vital spots"
+dzinn.journal:            order (Uint32) : 4026531838
+dzinn.journal:            uniqueScriptIdentifier (CName) : Vital spots 8E98C695-42816ECC-548F2EBB-575AA722
+dzinn.journal:            parentGuid (CGUID) : 2b2c314b-8a5f-45cc-9783-a2cdc3459c2b
+dzinn.journal:            index (Uint8) : 3

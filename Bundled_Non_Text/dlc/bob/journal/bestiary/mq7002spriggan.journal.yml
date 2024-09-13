@@ -1,0 +1,62 @@
+templates:
+  mq7002spriggan.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: f281e002-dc37-49ff-a6da-988327c522bd
+      baseName: "Spriggan - general"
+      order: 3221225470
+      uniqueScriptIdentifier: Spriggan F281E002-49FFDC37-8398DAA6-BD22C527
+      parentGuid: 7815517d-faa9-4a09-adce-b918fcd43ef9
+      linkedParentGuid: 5919978f-5689-428a-be0e-f2fee6d80cdb
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions B14FEA6E-4F603AA8-2FFF5DA0-F9BE785C
+          parentGuid: f281e002-dc37-49ff-a6da-988327c522bd
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: cb7e1fc9-b9b9-4067-a6ef-6201275a0360
+              baseName: "wpis 1"
+              order: 2147483647
+              uniqueScriptIdentifier: Before Sighting CB7E1FC9-4067B9B9-0162EFA6-60035A27
+              parentGuid: b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+              description: <i>I was gathering berries, as one does this time of year, when suddenly the trees shook and I saw this… this thing…</i><br> – fragment of a story told by a woman returning from the woods.<br><br>Spriggans are a subspecies of the monsters known as leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage. Their appetite is such that they can devour more flesh than an army at a wedding.<br><br>Each spriggan has mastery over plants and is inextricably tied to them. Thus if someone destroys greenery in its domain, it immediately comes to punish the disturber.<br>
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 827090be-2da0-48fc-8f98-b5349b04ce5c
+              baseName: "wpis 2"
+              order: 3221225470
+              uniqueScriptIdentifier: After Sighting 827090BE-48FC2DA0-34B5988F-5CCE049B
+              parentGuid: b14fea6e-3aa8-4f60-a05d-ff2f5c78bef9
+              index: 1
+              description: In combat a spriggan makes skilled use of its powerful limbs. When riled it attacks swiftly and forcefully, which, given its considerable mass, can prove highly problematic. <br><br>Its calloused hide can deflect even strong blows from a sword, and there can be no thought of parrying the spriggan’s attacks. One must keep an eye out for roots, which the spriggan will attempt to use to entangle its foe.<br><br>It can also teleport – in such cases it suddenly appears directly in front of its foe and attacks. The Aard Sign does not work against it, for no force on earth can knock it over.
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: 06beb4f9-de6a-4f08-92ef-4fb363ce1c10
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues 06BEB4F9-4F08DE6A-B34FEF92-101CCE63
+          parentGuid: f281e002-dc37-49ff-a6da-988327c522bd
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: 4324d3b9-6b56-4639-91f7-78bee4c1a569
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints 4324D3B9-46396B56-BE78F791-69A5C1E4
+          parentGuid: f281e002-dc37-49ff-a6da-988327c522bd
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: 9bebc441-fc27-4d73-87e6-fc2f92526d14
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots 9BEBC441-4D73FC27-2FFCE687-146D5292
+          parentGuid: f281e002-dc37-49ff-a6da-988327c522bd
+          index: 3
+      name: Spriggans
+      image: "bestiary_spriggan.png"
+      entityTemplate: dlc/bob/data/quests/minor_quests/quest_files/mq7002_stubborn_knight/characters/mq7002_springgan.w2ent
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Silver Dust Bomb 1
+        - Relic Oil 1
+        - Igni

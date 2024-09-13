@@ -1,0 +1,147 @@
+sq209_cave_nekkers.w2comm:    CCommunity #0 (CCommunity) : 
+sq209_cave_nekkers.w2comm:        CCommunity (CCommunity) : <CCommunity>CCommunity
+sq209_cave_nekkers.w2comm:            communityTable (array:CSTableEntry) : # array:CSTableEntry
+sq209_cave_nekkers.w2comm:                0 (CSTableEntry) : <CSTableEntry>0
+sq209_cave_nekkers.w2comm:                    entities (array:CSEntitiesEntry) : # array:CSEntitiesEntry
+sq209_cave_nekkers.w2comm:                        0 (CSEntitiesEntry) : <CSEntitiesEntry>0
+sq209_cave_nekkers.w2comm:                            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq209_weregild/characters/sq209_cave_nekker.w2ent
+sq209_cave_nekkers.w2comm:                            appearances (array:CName) : # array:CName
+sq209_cave_nekkers.w2comm:                                0 (CName) : nekker_big_01
+sq209_cave_nekkers.w2comm:                            entitySpawnTags (TagList) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                            initializers (ptr:CCommunityInitializers) : CCommunityInitializers #1
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : be212a75-7b97-4013-80f6-4d273912c6f9
+sq209_cave_nekkers.w2comm:                    storyPhases (array:CSStoryPhaseEntry) : # array:CSStoryPhaseEntry
+sq209_cave_nekkers.w2comm:                        0 (CSStoryPhaseEntry) : <CSStoryPhaseEntry>0
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : fa69e1c4-f78d-44ad-84ad-81b9376c12e9
+sq209_cave_nekkers.w2comm:                            storyPhaseName (CSStoryPhaseNames) : <CSStoryPhaseNames>storyPhaseName
+sq209_cave_nekkers.w2comm:                                tags (TagList) : sq209_cave
+sq209_cave_nekkers.w2comm:                                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                        0 (CName) : sq209_cave
+sq209_cave_nekkers.w2comm:                            spawnTimetable (array:CSStoryPhaseSpawnTimetableEntry) : # array:CSStoryPhaseSpawnTimetableEntry
+sq209_cave_nekkers.w2comm:                                0 (CSStoryPhaseSpawnTimetableEntry) : <CSStoryPhaseSpawnTimetableEntry>0
+sq209_cave_nekkers.w2comm:                            spawnPointTags (TagList) : sq209_nekkers_01_wp
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_nekkers_01_wp
+sq209_cave_nekkers.w2comm:                            cachedMapPinPosition (Vector) : <Vector>cachedMapPinPosition
+sq209_cave_nekkers.w2comm:                                X (Float) : 162.7037
+sq209_cave_nekkers.w2comm:                                Y (Float) : -1304.2070
+sq209_cave_nekkers.w2comm:                                Z (Float) : -14.2950
+sq209_cave_nekkers.w2comm:                                W (Float) : 1.0000
+sq209_cave_nekkers.w2comm:                    guid (CGUID) : d30669d7-2e52-4ea5-a3aa-8d197de12f7f
+sq209_cave_nekkers.w2comm:                1 (CSTableEntry) : <CSTableEntry>1
+sq209_cave_nekkers.w2comm:                    entities (array:CSEntitiesEntry) : # array:CSEntitiesEntry
+sq209_cave_nekkers.w2comm:                        0 (CSEntitiesEntry) : <CSEntitiesEntry>0
+sq209_cave_nekkers.w2comm:                            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq209_weregild/characters/sq209_cave_nekker.w2ent
+sq209_cave_nekkers.w2comm:                            appearances (array:CName) : # array:CName
+sq209_cave_nekkers.w2comm:                                0 (CName) : nekker_big_01
+sq209_cave_nekkers.w2comm:                            entitySpawnTags (TagList) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                            initializers (ptr:CCommunityInitializers) : CCommunityInitializers #3
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : 7a895105-86fe-49ec-872c-5881c5580ba0
+sq209_cave_nekkers.w2comm:                    storyPhases (array:CSStoryPhaseEntry) : # array:CSStoryPhaseEntry
+sq209_cave_nekkers.w2comm:                        0 (CSStoryPhaseEntry) : <CSStoryPhaseEntry>0
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : ace29d0c-5d19-44a0-bca9-3813316b6fef
+sq209_cave_nekkers.w2comm:                            storyPhaseName (CSStoryPhaseNames) : <CSStoryPhaseNames>storyPhaseName
+sq209_cave_nekkers.w2comm:                                tags (TagList) : sq209_cave
+sq209_cave_nekkers.w2comm:                                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                        0 (CName) : sq209_cave
+sq209_cave_nekkers.w2comm:                            spawnTimetable (array:CSStoryPhaseSpawnTimetableEntry) : # array:CSStoryPhaseSpawnTimetableEntry
+sq209_cave_nekkers.w2comm:                                0 (CSStoryPhaseSpawnTimetableEntry) : <CSStoryPhaseSpawnTimetableEntry>0
+sq209_cave_nekkers.w2comm:                            spawnPointTags (TagList) : sq209_nekkers_02_wp
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_nekkers_02_wp
+sq209_cave_nekkers.w2comm:                            cachedMapPinPosition (Vector) : <Vector>cachedMapPinPosition
+sq209_cave_nekkers.w2comm:                                X (Float) : 170.3602
+sq209_cave_nekkers.w2comm:                                Y (Float) : -1308.4390
+sq209_cave_nekkers.w2comm:                                Z (Float) : -14.2001
+sq209_cave_nekkers.w2comm:                                W (Float) : 1.0000
+sq209_cave_nekkers.w2comm:                    guid (CGUID) : 061898b3-945d-444b-93a0-d0db1b44e17d
+sq209_cave_nekkers.w2comm:                2 (CSTableEntry) : <CSTableEntry>2
+sq209_cave_nekkers.w2comm:                    entities (array:CSEntitiesEntry) : # array:CSEntitiesEntry
+sq209_cave_nekkers.w2comm:                        0 (CSEntitiesEntry) : <CSEntitiesEntry>0
+sq209_cave_nekkers.w2comm:                            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq209_weregild/characters/sq209_cave_nekker.w2ent
+sq209_cave_nekkers.w2comm:                            appearances (array:CName) : # array:CName
+sq209_cave_nekkers.w2comm:                                0 (CName) : nekker_big_01
+sq209_cave_nekkers.w2comm:                            entitySpawnTags (TagList) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                            initializers (ptr:CCommunityInitializers) : CCommunityInitializers #5
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : 73eaffab-408b-4f78-aa60-2f3522aabd9a
+sq209_cave_nekkers.w2comm:                    storyPhases (array:CSStoryPhaseEntry) : # array:CSStoryPhaseEntry
+sq209_cave_nekkers.w2comm:                        0 (CSStoryPhaseEntry) : <CSStoryPhaseEntry>0
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : a7150e88-944d-4fc6-8578-da1557a1835a
+sq209_cave_nekkers.w2comm:                            storyPhaseName (CSStoryPhaseNames) : <CSStoryPhaseNames>storyPhaseName
+sq209_cave_nekkers.w2comm:                                tags (TagList) : sq209_cave
+sq209_cave_nekkers.w2comm:                                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                        0 (CName) : sq209_cave
+sq209_cave_nekkers.w2comm:                            spawnTimetable (array:CSStoryPhaseSpawnTimetableEntry) : # array:CSStoryPhaseSpawnTimetableEntry
+sq209_cave_nekkers.w2comm:                                0 (CSStoryPhaseSpawnTimetableEntry) : <CSStoryPhaseSpawnTimetableEntry>0
+sq209_cave_nekkers.w2comm:                            spawnPointTags (TagList) : sq209_nekkers_03_wp
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_nekkers_03_wp
+sq209_cave_nekkers.w2comm:                            cachedMapPinPosition (Vector) : <Vector>cachedMapPinPosition
+sq209_cave_nekkers.w2comm:                                X (Float) : 161.7742
+sq209_cave_nekkers.w2comm:                                Y (Float) : -1307.6570
+sq209_cave_nekkers.w2comm:                                Z (Float) : -14.3832
+sq209_cave_nekkers.w2comm:                                W (Float) : 1.0000
+sq209_cave_nekkers.w2comm:                    guid (CGUID) : 88552164-ae45-40bf-927f-e35c6723d305
+sq209_cave_nekkers.w2comm:                3 (CSTableEntry) : <CSTableEntry>3
+sq209_cave_nekkers.w2comm:                    entities (array:CSEntitiesEntry) : # array:CSEntitiesEntry
+sq209_cave_nekkers.w2comm:                        0 (CSEntitiesEntry) : <CSEntitiesEntry>0
+sq209_cave_nekkers.w2comm:                            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq209_weregild/characters/sq209_cave_nekker.w2ent
+sq209_cave_nekkers.w2comm:                            appearances (array:CName) : # array:CName
+sq209_cave_nekkers.w2comm:                                0 (CName) : nekker_big_01
+sq209_cave_nekkers.w2comm:                            entitySpawnTags (TagList) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_first_encounter_nekker
+sq209_cave_nekkers.w2comm:                            initializers (ptr:CCommunityInitializers) : CCommunityInitializers #7
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : a5fb3c06-5649-45ad-95c8-d4938fe99965
+sq209_cave_nekkers.w2comm:                    storyPhases (array:CSStoryPhaseEntry) : # array:CSStoryPhaseEntry
+sq209_cave_nekkers.w2comm:                        0 (CSStoryPhaseEntry) : <CSStoryPhaseEntry>0
+sq209_cave_nekkers.w2comm:                            guid (CGUID) : 100a15a3-0d51-45f1-bce5-4b7135dfba42
+sq209_cave_nekkers.w2comm:                            storyPhaseName (CSStoryPhaseNames) : <CSStoryPhaseNames>storyPhaseName
+sq209_cave_nekkers.w2comm:                                tags (TagList) : sq209_cave
+sq209_cave_nekkers.w2comm:                                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                        0 (CName) : sq209_cave
+sq209_cave_nekkers.w2comm:                            spawnTimetable (array:CSStoryPhaseSpawnTimetableEntry) : # array:CSStoryPhaseSpawnTimetableEntry
+sq209_cave_nekkers.w2comm:                                0 (CSStoryPhaseSpawnTimetableEntry) : <CSStoryPhaseSpawnTimetableEntry>0
+sq209_cave_nekkers.w2comm:                            spawnPointTags (TagList) : sq209_nekkers_04_wp
+sq209_cave_nekkers.w2comm:                                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+sq209_cave_nekkers.w2comm:                                    0 (CName) : sq209_nekkers_04_wp
+sq209_cave_nekkers.w2comm:                            cachedMapPinPosition (Vector) : <Vector>cachedMapPinPosition
+sq209_cave_nekkers.w2comm:                                X (Float) : 173.8132
+sq209_cave_nekkers.w2comm:                                Y (Float) : -1311.6370
+sq209_cave_nekkers.w2comm:                                Z (Float) : -14.1292
+sq209_cave_nekkers.w2comm:                                W (Float) : 1.0000
+sq209_cave_nekkers.w2comm:                    guid (CGUID) : e64f36a6-3747-4457-8fe4-10f561ea332f
+sq209_cave_nekkers.w2comm:    CCommunityInitializers #1 (CCommunityInitializers) : 
+sq209_cave_nekkers.w2comm:        CCommunityInitializers (CCommunityInitializers) : <CCommunityInitializers>CCommunityInitializers
+sq209_cave_nekkers.w2comm:            initializers (array:ptr:ISpawnTreeInitializer) : # array:ptr:ISpawnTreeInitializer
+sq209_cave_nekkers.w2comm:                0 (ptr:ISpawnTreeInitializer) : CSpawnTreeInitializerGuardArea #2
+sq209_cave_nekkers.w2comm:    CSpawnTreeInitializerGuardArea #2 (CSpawnTreeInitializerGuardArea) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:        CSpawnTreeInitializerGuardArea (CSpawnTreeInitializerGuardArea) : <CSpawnTreeInitializerGuardArea>CSpawnTreeInitializerGuardArea
+sq209_cave_nekkers.w2comm:            guardAreaTag (CName) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:    CCommunityInitializers #3 (CCommunityInitializers) : 
+sq209_cave_nekkers.w2comm:        CCommunityInitializers (CCommunityInitializers) : <CCommunityInitializers>CCommunityInitializers
+sq209_cave_nekkers.w2comm:            initializers (array:ptr:ISpawnTreeInitializer) : # array:ptr:ISpawnTreeInitializer
+sq209_cave_nekkers.w2comm:                0 (ptr:ISpawnTreeInitializer) : CSpawnTreeInitializerGuardArea #4
+sq209_cave_nekkers.w2comm:    CSpawnTreeInitializerGuardArea #4 (CSpawnTreeInitializerGuardArea) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:        CSpawnTreeInitializerGuardArea (CSpawnTreeInitializerGuardArea) : <CSpawnTreeInitializerGuardArea>CSpawnTreeInitializerGuardArea
+sq209_cave_nekkers.w2comm:            guardAreaTag (CName) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:    CCommunityInitializers #5 (CCommunityInitializers) : 
+sq209_cave_nekkers.w2comm:        CCommunityInitializers (CCommunityInitializers) : <CCommunityInitializers>CCommunityInitializers
+sq209_cave_nekkers.w2comm:            initializers (array:ptr:ISpawnTreeInitializer) : # array:ptr:ISpawnTreeInitializer
+sq209_cave_nekkers.w2comm:                0 (ptr:ISpawnTreeInitializer) : CSpawnTreeInitializerGuardArea #6
+sq209_cave_nekkers.w2comm:    CSpawnTreeInitializerGuardArea #6 (CSpawnTreeInitializerGuardArea) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:        CSpawnTreeInitializerGuardArea (CSpawnTreeInitializerGuardArea) : <CSpawnTreeInitializerGuardArea>CSpawnTreeInitializerGuardArea
+sq209_cave_nekkers.w2comm:            guardAreaTag (CName) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:    CCommunityInitializers #7 (CCommunityInitializers) : 
+sq209_cave_nekkers.w2comm:        CCommunityInitializers (CCommunityInitializers) : <CCommunityInitializers>CCommunityInitializers
+sq209_cave_nekkers.w2comm:            initializers (array:ptr:ISpawnTreeInitializer) : # array:ptr:ISpawnTreeInitializer
+sq209_cave_nekkers.w2comm:                0 (ptr:ISpawnTreeInitializer) : CSpawnTreeInitializerGuardArea #8
+sq209_cave_nekkers.w2comm:    CSpawnTreeInitializerGuardArea #8 (CSpawnTreeInitializerGuardArea) : sq209_cave_nekkers_guard_area_tr
+sq209_cave_nekkers.w2comm:        CSpawnTreeInitializerGuardArea (CSpawnTreeInitializerGuardArea) : <CSpawnTreeInitializerGuardArea>CSpawnTreeInitializerGuardArea
+sq209_cave_nekkers.w2comm:            guardAreaTag (CName) : sq209_cave_nekkers_guard_area_tr

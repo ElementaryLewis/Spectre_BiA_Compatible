@@ -1,0 +1,2037 @@
+dettlaff_veiny_002.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CDettlaffColumn
+dettlaff_veiny_002.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+dettlaff_veiny_002.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+dettlaff_veiny_002.w2ent:                0 (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/dettlaff/monster/dettlaff_column_base.w2ent
+dettlaff_veiny_002.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+dettlaff_veiny_002.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+dettlaff_veiny_002.w2ent:                    componentName (CName) : column_base
+dettlaff_veiny_002.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+dettlaff_veiny_002.w2ent:                    overriddenProperties (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                        0 (CName) : movementAdjustor
+dettlaff_veiny_002.w2ent:            properOverrides (Bool) : true
+dettlaff_veiny_002.w2ent:            entityClass (CName) : CDettlaffColumn
+dettlaff_veiny_002.w2ent:            entityObject (ptr:CEntity) : CDettlaffColumn #1
+dettlaff_veiny_002.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+dettlaff_veiny_002.w2ent:                0 (CEntityAppearance) : alive
+dettlaff_veiny_002.w2ent:                    name (CName) : alive
+dettlaff_veiny_002.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+dettlaff_veiny_002.w2ent:                        0 (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_heart_alive.w2ent
+dettlaff_veiny_002.w2ent:                1 (CEntityAppearance) : dead
+dettlaff_veiny_002.w2ent:                    name (CName) : dead
+dettlaff_veiny_002.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+dettlaff_veiny_002.w2ent:                        0 (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_heart_dead.w2ent
+dettlaff_veiny_002.w2ent:            usedAppearances (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                0 (CName) : alive
+dettlaff_veiny_002.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+dettlaff_veiny_002.w2ent:                0 (EntitySlot) : hit_slot
+dettlaff_veiny_002.w2ent:                    name (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                    componentName (CName) : t02_heart
+dettlaff_veiny_002.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+dettlaff_veiny_002.w2ent:                        X (Float) : -0.2500
+dettlaff_veiny_002.w2ent:                        Y (Float) : -0.3800
+dettlaff_veiny_002.w2ent:                        Z (Float) : 0.3000
+dettlaff_veiny_002.w2ent:                1 (EntitySlot) : support_end
+dettlaff_veiny_002.w2ent:                    wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:                    name (CName) : support_end
+dettlaff_veiny_002.w2ent:                    freeRotation (Bool) : true
+dettlaff_veiny_002.w2ent:                2 (EntitySlot) : support_effects
+dettlaff_veiny_002.w2ent:                    wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:                    name (CName) : support_effects
+dettlaff_veiny_002.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+dettlaff_veiny_002.w2ent:                0 (ptr:CEntityTemplateParam) : CAttackableArea #7
+dettlaff_veiny_002.w2ent:                1 (ptr:CEntityTemplateParam) : CCharacterControllerParam #8
+dettlaff_veiny_002.w2ent:                2 (ptr:CEntityTemplateParam) : CCharacterStatsParam #9
+dettlaff_veiny_002.w2ent:                3 (ptr:CEntityTemplateParam) : CMonsterParam #10
+dettlaff_veiny_002.w2ent:                4 (ptr:CEntityTemplateParam) : CAIProfile #11
+dettlaff_veiny_002.w2ent:                5 (ptr:CEntityTemplateParam) : CBuffImmunityParam #14
+dettlaff_veiny_002.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+dettlaff_veiny_002.w2ent:                CDettlaffColumn #0 (CDettlaffColumn) : PreviewEntity
+dettlaff_veiny_002.w2ent:                    CDettlaffColumn (CDettlaffColumn) : PreviewEntity
+dettlaff_veiny_002.w2ent:                        tags (TagList) : arena_support
+dettlaff_veiny_002.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+dettlaff_veiny_002.w2ent:                                0 (CName) : arena_support
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+dettlaff_veiny_002.w2ent:                            Bufferdata (CByteArray) : 2058 bytes, MD5: cb2d612723e7f83ea82700e24c54c641
+dettlaff_veiny_002.w2ent:                            CMeshComponent #0 (CMeshComponent) : veins_02
+dettlaff_veiny_002.w2ent:                                CMeshComponent (CMeshComponent) : veins_02
+dettlaff_veiny_002.w2ent:                                    guid (CGUID) : ee7d24b9-5ff3-4f45-9ada-2f5c73ecf9ab
+dettlaff_veiny_002.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    name (String) : "veins_02"
+dettlaff_veiny_002.w2ent:                                    graphPositionX (Int16) : 249
+dettlaff_veiny_002.w2ent:                                    graphPositionY (Int16) : 247
+dettlaff_veiny_002.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                                        Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                            X (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            Y (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            Z (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                            X (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            Y (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            Z (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:                                    defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                                        X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                                        W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/veins_02.w2mesh
+dettlaff_veiny_002.w2ent:                            CStaticMeshComponent #1 (CStaticMeshComponent) : capsule_cloth
+dettlaff_veiny_002.w2ent:                                CStaticMeshComponent (CStaticMeshComponent) : capsule_cloth
+dettlaff_veiny_002.w2ent:                                    transform (EngineTransform) : <EngineTransform>transform
+dettlaff_veiny_002.w2ent:                                        Scale_x (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                                        Scale_y (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                                        Scale_z (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                                        X (Float) : 0.1563
+dettlaff_veiny_002.w2ent:                                        Y (Float) : 0.2479
+dettlaff_veiny_002.w2ent:                                        Z (Float) : -1.4678
+dettlaff_veiny_002.w2ent:                                    guid (CGUID) : 4a0b861d-fec2-42dd-9c5c-79556f615448
+dettlaff_veiny_002.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    name (String) : "capsule_cloth"
+dettlaff_veiny_002.w2ent:                                    graphPositionX (Int16) : -116
+dettlaff_veiny_002.w2ent:                                    graphPositionY (Int16) : 203
+dettlaff_veiny_002.w2ent:                                    boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                                        Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                            X (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            Y (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            Z (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                            W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                            X (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            Y (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            Z (Float) : NaN
+dettlaff_veiny_002.w2ent:                                            W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    drawableFlags (EDrawableFlags) : 
+dettlaff_veiny_002.w2ent:                                    mesh (handle:CMesh) : dlc/bob/data/environment/blockout_base/capsule_cloth.w2mesh
+dettlaff_veiny_002.w2ent:                                    pathLibCollisionType (EPathLibCollision) : PLC_Disabled
+dettlaff_veiny_002.w2ent:                                    physicalCollisionType (CPhysicalCollision) : <CPhysicalCollision>physicalCollisionType
+dettlaff_veiny_002.w2ent:                                        Unk1 (Uint32) : 2
+dettlaff_veiny_002.w2ent:                                        Collisiontypes (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+dettlaff_veiny_002.w2ent:                                            0 (CName) : Camera
+dettlaff_veiny_002.w2ent:                                        Data (CBytes) : 16 bytes, MD5: 57b7bd530b78878fc8b2d56f4ab594ce
+dettlaff_veiny_002.w2ent:                            CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_veiny_002.w2ent:                                CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_veiny_002.w2ent:                                    guid (CGUID) : d24e1557-c352-4d4e-b5e9-fdda7f12088b
+dettlaff_veiny_002.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                                    name (String) : "CSoundEmitterComponent0"
+dettlaff_veiny_002.w2ent:                                    graphPositionX (Int16) : -244
+dettlaff_veiny_002.w2ent:                                    graphPositionY (Int16) : 70
+dettlaff_veiny_002.w2ent:                                    loopStart (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_LP
+dettlaff_veiny_002.w2ent:                                    loopStop (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_LP_stop
+dettlaff_veiny_002.w2ent:                                    banksDependency (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                        0 (CName) : monster_dettlaff_monster.bnk
+dettlaff_veiny_002.w2ent:                        streamingDistance (Uint8) : 35
+dettlaff_veiny_002.w2ent:                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+dettlaff_veiny_002.w2ent:                        name (String) : "PreviewEntity"
+dettlaff_veiny_002.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+dettlaff_veiny_002.w2ent:                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
+dettlaff_veiny_002.w2ent:                            1 (ptr:CComponent) : CMeshComponent #2
+dettlaff_veiny_002.w2ent:                            2 (ptr:CComponent) : CMeshComponent #3
+dettlaff_veiny_002.w2ent:                            3 (ptr:CComponent) : CAppearanceComponent #4
+dettlaff_veiny_002.w2ent:                            4 (ptr:CComponent) : W3SummonedEntityComponent #5
+dettlaff_veiny_002.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+dettlaff_veiny_002.w2ent:                            0 (SEntityBufferType1) : 
+dettlaff_veiny_002.w2ent:                                ComponentName (CName) : 
+dettlaff_veiny_002.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+dettlaff_veiny_002.w2ent:                        idTag (IdTag) :  c08fe1db-d931-4971-a062-c32615a487dc
+dettlaff_veiny_002.w2ent:                        displayName (LocalizedString) : Dettlaff
+dettlaff_veiny_002.w2ent:                        aimVector (Vector) : <Vector>aimVector
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Z (Float) : 0.5000
+dettlaff_veiny_002.w2ent:                            W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        iconOffset (Vector) : <Vector>iconOffset
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Z (Float) : 1.5000
+dettlaff_veiny_002.w2ent:                            W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        level (Int32) : 49
+dettlaff_veiny_002.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : column_base
+dettlaff_veiny_002.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : column_base
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : cb2e1201-7d61-4d3f-9455-8a4895716e00
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "column_base"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : 22
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 32
+dettlaff_veiny_002.w2ent:                CMeshComponent #2 (CMeshComponent) : t02_tendon
+dettlaff_veiny_002.w2ent:                    CMeshComponent (CMeshComponent) : t02_tendon
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : 3dbb359a-e40c-43fa-bf55-70d870003572
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "t02_tendon"
+dettlaff_veiny_002.w2ent:                        isStreamed (Bool) : false
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : 307
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 109
+dettlaff_veiny_002.w2ent:                        boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                            Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                X (Float) : -13.6483
+dettlaff_veiny_002.w2ent:                                Y (Float) : -13.4440
+dettlaff_veiny_002.w2ent:                                Z (Float) : -1.1469
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                X (Float) : 10.9420
+dettlaff_veiny_002.w2ent:                                Y (Float) : 3.2731
+dettlaff_veiny_002.w2ent:                                Z (Float) : 14.4250
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:                        defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                            W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_tendon.w2mesh
+dettlaff_veiny_002.w2ent:                CMeshComponent #3 (CMeshComponent) : t02_veins
+dettlaff_veiny_002.w2ent:                    CMeshComponent (CMeshComponent) : t02_veins
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : 167f6cd8-07f4-49dd-a0b1-93a5d67831da
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "t02_veins"
+dettlaff_veiny_002.w2ent:                        isStreamed (Bool) : false
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : 312
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 174
+dettlaff_veiny_002.w2ent:                        boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                            Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                X (Float) : -14.7847
+dettlaff_veiny_002.w2ent:                                Y (Float) : -22.4946
+dettlaff_veiny_002.w2ent:                                Z (Float) : -0.9926
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                X (Float) : 12.2755
+dettlaff_veiny_002.w2ent:                                Y (Float) : 2.5375
+dettlaff_veiny_002.w2ent:                                Z (Float) : 16.6520
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:                        defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                            W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_veins.w2mesh
+dettlaff_veiny_002.w2ent:                CAppearanceComponent #4 (CAppearanceComponent) : CAppearanceComponent0
+dettlaff_veiny_002.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : 06e1e3bd-f6b4-44c0-9aaf-1329bfe99a4c
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "CAppearanceComponent0"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : -64
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 359
+dettlaff_veiny_002.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+dettlaff_veiny_002.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+dettlaff_veiny_002.w2ent:                                0 (SAttachmentReplacement) : proxy_W3SummonedEntityComponent0_B6CE1FED-46E9BE9F-EC0343A2-CE60C817
+dettlaff_veiny_002.w2ent:                                    oldName (CName) : proxy_W3SummonedEntityComponent0_B6CE1FED-46E9BE9F-EC0343A2-CE60C817
+dettlaff_veiny_002.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+dettlaff_veiny_002.w2ent:                                    newName (CName) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:                                    newClass (CName) : W3SummonedEntityComponent
+dettlaff_veiny_002.w2ent:                W3SummonedEntityComponent #5 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:                    W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : 9a692e10-9dca-4eaf-9fa4-a936f910aaa0
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "W3SummonedEntityComponent0"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : -18
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : -44
+dettlaff_veiny_002.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+dettlaff_veiny_002.w2ent:                0 (CEntityTemplateCookedEffect) : pumping
+dettlaff_veiny_002.w2ent:                    name (CName) : pumping
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 2527 bytes, MD5: d178bfb062e92d04a4bb9b7f071eb52d
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : pumping
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : pumping
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.3767
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 0.6278
+dettlaff_veiny_002.w2ent:                                name (CName) : pumping
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                                isLooped (Bool) : true
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
+dettlaff_veiny_002.w2ent:                                name (String) : "light"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 213
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 214
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 251
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : light
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : light
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+dettlaff_veiny_002.w2ent:                                name (String) : "light"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+dettlaff_veiny_002.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+dettlaff_veiny_002.w2ent:                                buffername (CName) : DynamicLight
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 2
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.0713964> <0.3178684> <0.7878407> <1.529737> <2.591982> <2.963416> <3.011765> <2.84048
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0714
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.3179
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.7878
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.5297
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 2.5920
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 2.9634
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 3.0118
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 2.8405
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 2.8606
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 2.8976
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 2.6104
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.8937
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0307
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.3049
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                color (Color) : <Color>color
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 255
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 112
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 6
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 255
+dettlaff_veiny_002.w2ent:                                radius (Float) : 8.0000
+dettlaff_veiny_002.w2ent:                                brightness (Float) : 2.0000
+dettlaff_veiny_002.w2ent:                                attenuation (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 2.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 202
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 196
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 157
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t03_veins
+dettlaff_veiny_002.w2ent:                        CFXTrack #6 (CFXTrack) : pumping
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : pumping
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #7
+dettlaff_veiny_002.w2ent:                                name (String) : "pumping"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #7 (CFXTrackItemParameterFloat) : MeshEffectScalar0
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.1851852> <0.3703704> <0.5555556> <0.7407408> <0.9259259> <1> <1> <1> <1> <0.9009008> 
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.1852
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.3704
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.5556
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.7407
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.9259
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.9009
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.7207
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.5405
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.3604
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.1802
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar0
+dettlaff_veiny_002.w2ent:                                allComponents (Bool) : true
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                                name (String) : "sound"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 127
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 144
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 189
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #9 (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #11
+dettlaff_veiny_002.w2ent:                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
+dettlaff_veiny_002.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 0
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 0
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_veiny_002.w2ent:                                soundEventName (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_fast_LP
+dettlaff_veiny_002.w2ent:                        CFXTrackItemSoundEvent #11 (CFXTrackItemSoundEvent) : 
+dettlaff_veiny_002.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.6897
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 0
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 0
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_veiny_002.w2ent:                                soundEventName (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_fast_LP_stop
+dettlaff_veiny_002.w2ent:                1 (CEntityTemplateCookedEffect) : growing
+dettlaff_veiny_002.w2ent:                    name (CName) : growing
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 2281 bytes, MD5: 68259960cae201cc984b8926112511a3
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : growing
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : growing
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+dettlaff_veiny_002.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #10
+dettlaff_veiny_002.w2ent:                                length (Float) : 20.1302
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.0442
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 5.0951
+dettlaff_veiny_002.w2ent:                                name (CName) : growing
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : little_veins
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : little_veins
+dettlaff_veiny_002.w2ent:                                name (String) : "little_veins"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 139
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 176
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 131
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : veins_02
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : little_veins
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : little_veins
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+dettlaff_veiny_002.w2ent:                                name (String) : "little_veins"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0800
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 17.9548
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.009999037> <0.03840912> <0.08284973> <0.1409403> <0.2103003> <0.2885492> <0.3733063> 
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0100
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.0384
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.0828
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.1409
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.2103
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 0.2885
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.3733
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.4622
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.5528
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.6428
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.7298
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.8114
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.8852
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.9489
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 136
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 206
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 168
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_veins
+dettlaff_veiny_002.w2ent:                        CFXTrack #5 (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #6
+dettlaff_veiny_002.w2ent:                                name (String) : "veins"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #6 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0842
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 19.8592
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.08232359> <0.1685875> <0.2573663> <0.3472345> <0.4367666> <0.5245371> <0.6091206> <0.
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0823
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.1686
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.2574
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.3472
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.4368
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 0.5245
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.6091
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.6891
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.7630
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.8295
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.8871
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.9343
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.9699
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.9922
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                                name (String) : "heart"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 147
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 236
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 233
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_heart
+dettlaff_veiny_002.w2ent:                        CFXTrack #8 (CFXTrack) : heart_mat
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : heart_mat
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #9
+dettlaff_veiny_002.w2ent:                                name (String) : "heart_mat"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #9 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0701
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 9.6776
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.0952381> <0.1904762> <0.2857143> <0.3809524> <0.4761905> <0.5714286> <0.6666667> <0.7
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0952
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.1905
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.2857
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.3810
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.4762
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 0.5714
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.6667
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.7619
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.8571
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.9524
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #10 (CFXTrackGroup) : tendon_mat
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : tendon_mat
+dettlaff_veiny_002.w2ent:                                name (String) : "tendon_mat"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #11
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 232
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 148
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 177
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_tendon
+dettlaff_veiny_002.w2ent:                        CFXTrack #11 (CFXTrack) : tendon
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : tendon
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #12
+dettlaff_veiny_002.w2ent:                                name (String) : "tendon"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #12 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0800
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 17.9548
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.009999037> <0.03840912> <0.08284973> <0.1409403> <0.2103003> <0.2885492> <0.3733063> 
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0100
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.0384
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.0828
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.1409
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.2103
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 0.2885
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.3733
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.4622
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.5528
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.6428
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.7298
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.8114
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.8852
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.9489
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                2 (CEntityTemplateCookedEffect) : disappearing
+dettlaff_veiny_002.w2ent:                    name (CName) : disappearing
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 3227 bytes, MD5: aef96983b0308dc8296d86e11262284e
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : disappearing
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : disappearing
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+dettlaff_veiny_002.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+dettlaff_veiny_002.w2ent:                                    4 (ptr:CFXTrackGroup) : CFXTrackGroup #14
+dettlaff_veiny_002.w2ent:                                length (Float) : 14.1918
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.0442
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 5.0951
+dettlaff_veiny_002.w2ent:                                name (CName) : disappearing
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : little_veins
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : little_veins
+dettlaff_veiny_002.w2ent:                                name (String) : "little_veins"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 127
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 230
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 198
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : veins_02
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : little_veins
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : little_veins
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+dettlaff_veiny_002.w2ent:                                name (String) : "little_veins"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0800
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 11.4000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <-1> <-0.8107991> <-0.6567958> <-0.5339094> <-0.4380593> <-0.3651645> <-0.3111443> <-0.27191
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : -1.0000
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -0.8108
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.6568
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.5339
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.4381
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.3652
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.3111
+dettlaff_veiny_002.w2ent:                                        7 (Float) : -0.2719
+dettlaff_veiny_002.w2ent:                                        8 (Float) : -0.2434
+dettlaff_veiny_002.w2ent:                                        9 (Float) : -0.2215
+dettlaff_veiny_002.w2ent:                                        10 (Float) : -0.2022
+dettlaff_veiny_002.w2ent:                                        11 (Float) : -0.1813
+dettlaff_veiny_002.w2ent:                                        12 (Float) : -0.1549
+dettlaff_veiny_002.w2ent:                                        13 (Float) : -0.1187
+dettlaff_veiny_002.w2ent:                                        14 (Float) : -0.0688
+dettlaff_veiny_002.w2ent:                                        15 (Float) : -0.0010
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 146
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 235
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 134
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #5 (CFXTrack) : stripes
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : stripes
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+dettlaff_veiny_002.w2ent:                                name (String) : "stripes"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 5.1070
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/stripes_heart_02.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    Y (Float) : -2.0000
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 136
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 206
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 168
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_veins
+dettlaff_veiny_002.w2ent:                        CFXTrack #9 (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #10
+dettlaff_veiny_002.w2ent:                                name (String) : "veins"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #10 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0842
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 13.0000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <-1> <-0.8538046> <-0.7212927> <-0.6019308> <-0.4951852> <-0.4005219> <-0.3174073> <-0.24530
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : -1.0000
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -0.8538
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.7213
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.6019
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.4952
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.4005
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.3174
+dettlaff_veiny_002.w2ent:                                        7 (Float) : -0.2453
+dettlaff_veiny_002.w2ent:                                        8 (Float) : -0.1837
+dettlaff_veiny_002.w2ent:                                        9 (Float) : -0.1320
+dettlaff_veiny_002.w2ent:                                        10 (Float) : -0.0898
+dettlaff_veiny_002.w2ent:                                        11 (Float) : -0.0564
+dettlaff_veiny_002.w2ent:                                        12 (Float) : -0.0314
+dettlaff_veiny_002.w2ent:                                        13 (Float) : -0.0141
+dettlaff_veiny_002.w2ent:                                        14 (Float) : -0.0042
+dettlaff_veiny_002.w2ent:                                        15 (Float) : -0.0010
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                                name (String) : "heart"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 147
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 236
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 233
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_heart
+dettlaff_veiny_002.w2ent:                        CFXTrack #12 (CFXTrack) : heart_mat
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : heart_mat
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #13
+dettlaff_veiny_002.w2ent:                                name (String) : "heart_mat"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #13 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0701
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 10.0000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <-1> <-0.8246325> <-0.6709858> <-0.5376333> <-0.4231481> <-0.3261034> <-0.2450725> <-0.17862
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : -1.0000
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -0.8246
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.6710
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.5376
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.4231
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.3261
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.2451
+dettlaff_veiny_002.w2ent:                                        7 (Float) : -0.1786
+dettlaff_veiny_002.w2ent:                                        8 (Float) : -0.1253
+dettlaff_veiny_002.w2ent:                                        9 (Float) : -0.0838
+dettlaff_veiny_002.w2ent:                                        10 (Float) : -0.0526
+dettlaff_veiny_002.w2ent:                                        11 (Float) : -0.0302
+dettlaff_veiny_002.w2ent:                                        12 (Float) : -0.0153
+dettlaff_veiny_002.w2ent:                                        13 (Float) : -0.0064
+dettlaff_veiny_002.w2ent:                                        14 (Float) : -0.0021
+dettlaff_veiny_002.w2ent:                                        15 (Float) : -0.0010
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #14 (CFXTrackGroup) : tendon_mat
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : tendon_mat
+dettlaff_veiny_002.w2ent:                                name (String) : "tendon_mat"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #15
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 232
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 148
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 177
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_tendon
+dettlaff_veiny_002.w2ent:                        CFXTrack #15 (CFXTrack) : tendon
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : tendon
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #16
+dettlaff_veiny_002.w2ent:                                name (String) : "tendon"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #16 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0800
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 11.4000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <-1> <-0.8107991> <-0.6567958> <-0.5339094> <-0.4380593> <-0.3651645> <-0.3111443> <-0.27191
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : -1.0000
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -0.8108
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.6568
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.5339
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.4381
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.3652
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.3111
+dettlaff_veiny_002.w2ent:                                        7 (Float) : -0.2719
+dettlaff_veiny_002.w2ent:                                        8 (Float) : -0.2434
+dettlaff_veiny_002.w2ent:                                        9 (Float) : -0.2215
+dettlaff_veiny_002.w2ent:                                        10 (Float) : -0.2022
+dettlaff_veiny_002.w2ent:                                        11 (Float) : -0.1813
+dettlaff_veiny_002.w2ent:                                        12 (Float) : -0.1549
+dettlaff_veiny_002.w2ent:                                        13 (Float) : -0.1187
+dettlaff_veiny_002.w2ent:                                        14 (Float) : -0.0688
+dettlaff_veiny_002.w2ent:                                        15 (Float) : -0.0010
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                3 (CEntityTemplateCookedEffect) : reset
+dettlaff_veiny_002.w2ent:                    name (CName) : reset
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 1139 bytes, MD5: c3e2c0e453ebefb172d2338b42eac0a5
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : reset
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : reset
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                name (CName) : reset
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 136
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 206
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 168
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_veins
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : veins
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+dettlaff_veiny_002.w2ent:                                name (String) : "veins"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1>>
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar2
+dettlaff_veiny_002.w2ent:                                allComponents (Bool) : true
+dettlaff_veiny_002.w2ent:                4 (CEntityTemplateCookedEffect) : hit
+dettlaff_veiny_002.w2ent:                    name (CName) : hit
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 2432 bytes, MD5: d5c78087dccb9a9f72eadce1cb47e8b9
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : hit
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : hit
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+dettlaff_veiny_002.w2ent:                                length (Float) : 2.5222
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.0225
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 1.0507
+dettlaff_veiny_002.w2ent:                                name (CName) : hit
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 159
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 155
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 184
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_heart
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : material
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : material
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : MeshEffectScalar1
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <-0.9999872> <-0.719472> <-0.3791996> <-0.1628863> <-0.1296891> <-0.4907255> <0.4556698>
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.7195
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.3792
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.1629
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.1297
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.4907
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.4557
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar1
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                                name (String) : "sound"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 166
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 194
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 132
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #5 (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #6
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
+dettlaff_veiny_002.w2ent:                        CFXTrackItemSoundEvent #6 (CFXTrackItemSoundEvent) : 
+dettlaff_veiny_002.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0025
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 0
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 0
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_veiny_002.w2ent:                                soundEventName (StringAnsi) : cmb_play_hit_heavy
+dettlaff_veiny_002.w2ent:                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
+dettlaff_veiny_002.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0001
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 0
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 0
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_veiny_002.w2ent:                                soundEventName (StringAnsi) : monster_dettlaff_monster_vein_hit_blood
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 136
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 231
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 240
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #9 (CFXTrack) : hit
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : hit
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #10
+dettlaff_veiny_002.w2ent:                                name (String) : "hit"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #10 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 2.5000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/dettlaff_support_hit.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #11
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #11 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                5 (CEntityTemplateCookedEffect) : critical_burning
+dettlaff_veiny_002.w2ent:                    name (CName) : critical_burning
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 1772 bytes, MD5: 37ee323cee60af38016626817bb33050
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_burning
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : critical_burning
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                length (Float) : 3.0905
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.6236
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 1.1097
+dettlaff_veiny_002.w2ent:                                name (CName) : critical_burning
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 150.0000
+dettlaff_veiny_002.w2ent:                                isLooped (Bool) : true
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 196
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 233
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 163
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : burning
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : burning
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+dettlaff_veiny_002.w2ent:                                name (String) : "burning"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 3.0000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/arena_burning.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.3500
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.5000
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.5000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                6 (CEntityTemplateCookedEffect) : igni_cone_hit
+dettlaff_veiny_002.w2ent:                    name (CName) : igni_cone_hit
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 1626 bytes, MD5: fcc7c1c7a8c153fa7a5adb19ed41f937
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : igni_cone_hit
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : igni_cone_hit
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                name (CName) : igni_cone_hit
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 150.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 166
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 137
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 163
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : burning
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : burning
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+dettlaff_veiny_002.w2ent:                                name (String) : "burning"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/arena_igni_hit.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.3500
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.5000
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.2500
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                7 (CEntityTemplateCookedEffect) : dying_out
+dettlaff_veiny_002.w2ent:                    name (CName) : dying_out
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 2740 bytes, MD5: 029443168c95ca9efcc7acb7e6fb1297
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : dying_out
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : dying_out
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+dettlaff_veiny_002.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+dettlaff_veiny_002.w2ent:                                length (Float) : 2.5567
+dettlaff_veiny_002.w2ent:                                loopStart (Float) : 0.0628
+dettlaff_veiny_002.w2ent:                                name (CName) : dying_out
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : heart
+dettlaff_veiny_002.w2ent:                                name (String) : "heart"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 234
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 190
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 230
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : t02_heart
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : material
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : material
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #3
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #3 (CFXTrackItemParameterFloat) : MeshEffectScalar0
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 2.5260
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <-0.1133333> <-0.17> <-0.17> <-0.17> <-0.17> <-0.17> <-0.17> <-0.17> <-0.17> <-0.17> <-0
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : -0.1133
+dettlaff_veiny_002.w2ent:                                        2 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        3 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        4 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        5 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        6 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        7 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        8 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        9 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        10 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        11 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        12 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        13 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        14 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                        15 (Float) : -0.1700
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar0
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 179
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 224
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 155
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #5 (CFXTrack) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : fx
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 2.7176
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 2.5000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/dettlaff_support_death.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
+dettlaff_veiny_002.w2ent:                                name (String) : "sound"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 176
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 130
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 231
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #9 (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : 
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
+dettlaff_veiny_002.w2ent:                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
+dettlaff_veiny_002.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.0634
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 0
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 0
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+dettlaff_veiny_002.w2ent:                                soundEventName (StringAnsi) : monster_dettlaff_monster_vein_dies
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+dettlaff_veiny_002.w2ent:                                name (String) : "material"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 245
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 238
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 155
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                                componentName (CName) : tree_001
+dettlaff_veiny_002.w2ent:                        CFXTrack #12 (CFXTrack) : dying_out
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : dying_out
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParameterFloat #13
+dettlaff_veiny_002.w2ent:                                name (String) : "dying_out"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParameterFloat #13 (CFXTrackItemParameterFloat) : MeshEffectScalar3
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParameterFloat (CFXTrackItemParameterFloat) : <CFXTrackItemParameterFloat>CFXTrackItemParameterFloat
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 2.5261
+dettlaff_veiny_002.w2ent:                                buffername (CName) : 
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 1
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.06666667> <0.1333333> <0.2> <0.2666667> <0.3333333> <0.4> <0.4666667> <0.5333334> <0.
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        1 (Float) : 0.0667
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 0.1333
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 0.2000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 0.2667
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 0.3333
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 0.4000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 0.4667
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 0.5333
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 0.6000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 0.6667
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 0.7333
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 0.8000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 0.8667
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 0.9333
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                parameterName (CName) : MeshEffectScalar3
+dettlaff_veiny_002.w2ent:                                allComponents (Bool) : true
+dettlaff_veiny_002.w2ent:                8 (CEntityTemplateCookedEffect) : blood_in
+dettlaff_veiny_002.w2ent:                    name (CName) : blood_in
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 2800 bytes, MD5: 0f9031b513e6426147d315695cc4e7af
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : blood_in
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : blood_in
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                length (Float) : 2.4719
+dettlaff_veiny_002.w2ent:                                name (CName) : blood_in
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 150.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #5
+dettlaff_veiny_002.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #8
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 154
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 135
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 134
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : blood_03
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : blood_03
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+dettlaff_veiny_002.w2ent:                                name (String) : "blood_03"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.3892
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 1.6047
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.2500
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.2500
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                relativeRot (EulerAngles) : <EulerAngles>relativeRot
+dettlaff_veiny_002.w2ent:                                    Pitch (Float) : -35.0000
+dettlaff_veiny_002.w2ent:                                    Yaw (Float) : 35.0000
+dettlaff_veiny_002.w2ent:                                    Roll (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        CFXTrack #5 (CFXTrack) : blood_02
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : blood_02
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+dettlaff_veiny_002.w2ent:                                name (String) : "blood_02"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeBegin (Float) : 0.2117
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 1.4067
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.2500
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.2500
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                relativeRot (EulerAngles) : <EulerAngles>relativeRot
+dettlaff_veiny_002.w2ent:                                    Pitch (Float) : -35.0000
+dettlaff_veiny_002.w2ent:                                    Yaw (Float) : 270.0000
+dettlaff_veiny_002.w2ent:                                    Roll (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        CFXTrack #8 (CFXTrack) : blood_in
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : blood_in
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+dettlaff_veiny_002.w2ent:                                name (String) : "blood_in"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 1.4886
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/blood_into_heart.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #10
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #10 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.2500
+dettlaff_veiny_002.w2ent:                                    Y (Float) : -0.2500
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                relativeRot (EulerAngles) : <EulerAngles>relativeRot
+dettlaff_veiny_002.w2ent:                                    Pitch (Float) : -35.0000
+dettlaff_veiny_002.w2ent:                                    Yaw (Float) : 90.0000
+dettlaff_veiny_002.w2ent:                                    Roll (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                9 (CEntityTemplateCookedEffect) : boom
+dettlaff_veiny_002.w2ent:                    name (CName) : boom
+dettlaff_veiny_002.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+dettlaff_veiny_002.w2ent:                        Bufferdata (CByteArray) : 1704 bytes, MD5: 846d96b2ad1f3f0e47bb1c2a5fa732f0
+dettlaff_veiny_002.w2ent:                        CFXDefinition #0 (CFXDefinition) : boom
+dettlaff_veiny_002.w2ent:                            CFXDefinition (CFXDefinition) : boom
+dettlaff_veiny_002.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+dettlaff_veiny_002.w2ent:                                length (Float) : 1.5000
+dettlaff_veiny_002.w2ent:                                loopEnd (Float) : 1.5000
+dettlaff_veiny_002.w2ent:                                name (CName) : boom
+dettlaff_veiny_002.w2ent:                                showDistance (Float) : 250.0000
+dettlaff_veiny_002.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+dettlaff_veiny_002.w2ent:                                name (String) : "fx"
+dettlaff_veiny_002.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+dettlaff_veiny_002.w2ent:                                isExpanded (Bool) : true
+dettlaff_veiny_002.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+dettlaff_veiny_002.w2ent:                                    Red (Uint8) : 212
+dettlaff_veiny_002.w2ent:                                    Green (Uint8) : 243
+dettlaff_veiny_002.w2ent:                                    Blue (Uint8) : 192
+dettlaff_veiny_002.w2ent:                                    Alpha (Uint8) : 100
+dettlaff_veiny_002.w2ent:                        CFXTrack #2 (CFXTrack) : partikle
+dettlaff_veiny_002.w2ent:                            CFXTrack (CFXTrack) : partikle
+dettlaff_veiny_002.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+dettlaff_veiny_002.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+dettlaff_veiny_002.w2ent:                                name (String) : "partikle"
+dettlaff_veiny_002.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+dettlaff_veiny_002.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+dettlaff_veiny_002.w2ent:                                timeDuration (Float) : 1.5000
+dettlaff_veiny_002.w2ent:                                buffername (CName) : Particles
+dettlaff_veiny_002.w2ent:                                count (CDynamicInt) : 3
+dettlaff_veiny_002.w2ent:                                unk (Uint8) : 1
+dettlaff_veiny_002.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+dettlaff_veiny_002.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+dettlaff_veiny_002.w2ent:                                        0 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        2 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        3 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        4 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        5 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        6 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        7 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        8 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        9 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        10 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        11 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        12 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        13 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        14 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                        15 (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/support_boom.w2p
+dettlaff_veiny_002.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+dettlaff_veiny_002.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+dettlaff_veiny_002.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+dettlaff_veiny_002.w2ent:                                slotNames (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                                    0 (CName) : hit_slot
+dettlaff_veiny_002.w2ent:                                relativePos (Vector) : <Vector>relativePos
+dettlaff_veiny_002.w2ent:                                    X (Float) : -0.2000
+dettlaff_veiny_002.w2ent:                                    Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    Z (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                                    W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:            cookedEffectsVersion (Uint32) : 1
+dettlaff_veiny_002.w2ent:            Unk1 (Uint32) : 0
+dettlaff_veiny_002.w2ent:    CDettlaffColumn #1 (CDettlaffColumn) : 
+dettlaff_veiny_002.w2ent:        CDettlaffColumn (CDettlaffColumn) : 
+dettlaff_veiny_002.w2ent:            tags (TagList) : arena_support
+dettlaff_veiny_002.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+dettlaff_veiny_002.w2ent:                    0 (CName) : arena_support
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+dettlaff_veiny_002.w2ent:                Bufferdata (CByteArray) : 2058 bytes, MD5: ac5d0307a08e3ae9e1d5af392872bd48
+dettlaff_veiny_002.w2ent:                CMeshComponent #0 (CMeshComponent) : veins_02
+dettlaff_veiny_002.w2ent:                    CMeshComponent (CMeshComponent) : veins_02
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : ee7d24b9-5ff3-4f45-9ada-2f5c73ecf9ab
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "veins_02"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : 249
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 247
+dettlaff_veiny_002.w2ent:                        boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                            Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                X (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                Y (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                Z (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                X (Float) : NaN
+dettlaff_veiny_002.w2ent:                                Y (Float) : NaN
+dettlaff_veiny_002.w2ent:                                Z (Float) : NaN
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:                        defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                            Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                            W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                        mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/veins_02.w2mesh
+dettlaff_veiny_002.w2ent:                CStaticMeshComponent #1 (CStaticMeshComponent) : capsule_cloth
+dettlaff_veiny_002.w2ent:                    CStaticMeshComponent (CStaticMeshComponent) : capsule_cloth
+dettlaff_veiny_002.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+dettlaff_veiny_002.w2ent:                            Scale_x (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                            Scale_y (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                            Scale_z (Float) : 8.8940
+dettlaff_veiny_002.w2ent:                            X (Float) : 0.1563
+dettlaff_veiny_002.w2ent:                            Y (Float) : 0.2479
+dettlaff_veiny_002.w2ent:                            Z (Float) : -1.4678
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : 4a0b861d-fec2-42dd-9c5c-79556f615448
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "capsule_cloth"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : -116
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 203
+dettlaff_veiny_002.w2ent:                        boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                            Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                                X (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                Y (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                Z (Float) : 340282300000000000000000000000000000000.0000
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                            Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                                X (Float) : NaN
+dettlaff_veiny_002.w2ent:                                Y (Float) : NaN
+dettlaff_veiny_002.w2ent:                                Z (Float) : NaN
+dettlaff_veiny_002.w2ent:                                W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                        drawableFlags (EDrawableFlags) : 
+dettlaff_veiny_002.w2ent:                        mesh (handle:CMesh) : dlc/bob/data/environment/blockout_base/capsule_cloth.w2mesh
+dettlaff_veiny_002.w2ent:                        pathLibCollisionType (EPathLibCollision) : PLC_Disabled
+dettlaff_veiny_002.w2ent:                        physicalCollisionType (CPhysicalCollision) : <CPhysicalCollision>physicalCollisionType
+dettlaff_veiny_002.w2ent:                            Unk1 (Uint32) : 2
+dettlaff_veiny_002.w2ent:                            Collisiontypes (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+dettlaff_veiny_002.w2ent:                                0 (CName) : Camera
+dettlaff_veiny_002.w2ent:                            Data (CBytes) : 16 bytes, MD5: 57b7bd530b78878fc8b2d56f4ab594ce
+dettlaff_veiny_002.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_veiny_002.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+dettlaff_veiny_002.w2ent:                        guid (CGUID) : d24e1557-c352-4d4e-b5e9-fdda7f12088b
+dettlaff_veiny_002.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:                        name (String) : "CSoundEmitterComponent0"
+dettlaff_veiny_002.w2ent:                        graphPositionX (Int16) : -244
+dettlaff_veiny_002.w2ent:                        graphPositionY (Int16) : 70
+dettlaff_veiny_002.w2ent:                        loopStart (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_LP
+dettlaff_veiny_002.w2ent:                        loopStop (StringAnsi) : monster_dettlaff_monster_vein_beating_heart_LP_stop
+dettlaff_veiny_002.w2ent:                        banksDependency (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                            0 (CName) : monster_dettlaff_monster.bnk
+dettlaff_veiny_002.w2ent:            streamingDistance (Uint8) : 35
+dettlaff_veiny_002.w2ent:            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+dettlaff_veiny_002.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+dettlaff_veiny_002.w2ent:                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+dettlaff_veiny_002.w2ent:                1 (ptr:CComponent) : CMeshComponent #3
+dettlaff_veiny_002.w2ent:                2 (ptr:CComponent) : CMeshComponent #4
+dettlaff_veiny_002.w2ent:                3 (ptr:CComponent) : CAppearanceComponent #5
+dettlaff_veiny_002.w2ent:                4 (ptr:CComponent) : W3SummonedEntityComponent #6
+dettlaff_veiny_002.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+dettlaff_veiny_002.w2ent:                0 (SEntityBufferType1) : 
+dettlaff_veiny_002.w2ent:                    ComponentName (CName) : 
+dettlaff_veiny_002.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+dettlaff_veiny_002.w2ent:            idTag (IdTag) :  c08fe1db-d931-4971-a062-c32615a487dc
+dettlaff_veiny_002.w2ent:            displayName (LocalizedString) : Dettlaff
+dettlaff_veiny_002.w2ent:            aimVector (Vector) : <Vector>aimVector
+dettlaff_veiny_002.w2ent:                X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Z (Float) : 0.5000
+dettlaff_veiny_002.w2ent:                W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:            iconOffset (Vector) : <Vector>iconOffset
+dettlaff_veiny_002.w2ent:                X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Y (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Z (Float) : 1.5000
+dettlaff_veiny_002.w2ent:                W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:            level (Int32) : 49
+dettlaff_veiny_002.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : column_base
+dettlaff_veiny_002.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : column_base
+dettlaff_veiny_002.w2ent:            guid (CGUID) : cb2e1201-7d61-4d3f-9455-8a4895716e00
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            name (String) : "column_base"
+dettlaff_veiny_002.w2ent:    CMeshComponent #3 (CMeshComponent) : t02_tendon
+dettlaff_veiny_002.w2ent:        CMeshComponent (CMeshComponent) : t02_tendon
+dettlaff_veiny_002.w2ent:            guid (CGUID) : 3dbb359a-e40c-43fa-bf55-70d870003572
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            name (String) : "t02_tendon"
+dettlaff_veiny_002.w2ent:            isStreamed (Bool) : false
+dettlaff_veiny_002.w2ent:            boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                    X (Float) : -13.6483
+dettlaff_veiny_002.w2ent:                    Y (Float) : -13.4440
+dettlaff_veiny_002.w2ent:                    Z (Float) : -1.1469
+dettlaff_veiny_002.w2ent:                    W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                    X (Float) : 10.9420
+dettlaff_veiny_002.w2ent:                    Y (Float) : 3.2731
+dettlaff_veiny_002.w2ent:                    Z (Float) : 14.4250
+dettlaff_veiny_002.w2ent:                    W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:            defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:            mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_tendon.w2mesh
+dettlaff_veiny_002.w2ent:    CMeshComponent #4 (CMeshComponent) : t02_veins
+dettlaff_veiny_002.w2ent:        CMeshComponent (CMeshComponent) : t02_veins
+dettlaff_veiny_002.w2ent:            guid (CGUID) : 167f6cd8-07f4-49dd-a0b1-93a5d67831da
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            name (String) : "t02_veins"
+dettlaff_veiny_002.w2ent:            isStreamed (Bool) : false
+dettlaff_veiny_002.w2ent:            boundingBox (Box) : <Box>boundingBox
+dettlaff_veiny_002.w2ent:                Min (Vector) : <Vector>Min
+dettlaff_veiny_002.w2ent:                    X (Float) : -14.7847
+dettlaff_veiny_002.w2ent:                    Y (Float) : -22.4946
+dettlaff_veiny_002.w2ent:                    Z (Float) : -0.9926
+dettlaff_veiny_002.w2ent:                    W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                Max (Vector) : <Vector>Max
+dettlaff_veiny_002.w2ent:                    X (Float) : 12.2755
+dettlaff_veiny_002.w2ent:                    Y (Float) : 2.5375
+dettlaff_veiny_002.w2ent:                    Z (Float) : 16.6520
+dettlaff_veiny_002.w2ent:                    W (Float) : 1.0000
+dettlaff_veiny_002.w2ent:            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_NoDissolves,DF_Collapsed
+dettlaff_veiny_002.w2ent:            defaultEffectParams (Vector) : <Vector>defaultEffectParams
+dettlaff_veiny_002.w2ent:                X (Float) : 0.0000
+dettlaff_veiny_002.w2ent:                Y (Float) : 1.0000
+dettlaff_veiny_002.w2ent:                Z (Float) : 0.0010
+dettlaff_veiny_002.w2ent:                W (Float) : 0.0000
+dettlaff_veiny_002.w2ent:            mesh (handle:CMesh) : dlc/bob/data/fx/monsters/dettlaff/monster/third_phase/tree_002/t02_veins.w2mesh
+dettlaff_veiny_002.w2ent:    CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
+dettlaff_veiny_002.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+dettlaff_veiny_002.w2ent:            guid (CGUID) : 06e1e3bd-f6b4-44c0-9aaf-1329bfe99a4c
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            name (String) : "CAppearanceComponent0"
+dettlaff_veiny_002.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+dettlaff_veiny_002.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+dettlaff_veiny_002.w2ent:                    0 (SAttachmentReplacement) : proxy_W3SummonedEntityComponent0_B6CE1FED-46E9BE9F-EC0343A2-CE60C817
+dettlaff_veiny_002.w2ent:                        oldName (CName) : proxy_W3SummonedEntityComponent0_B6CE1FED-46E9BE9F-EC0343A2-CE60C817
+dettlaff_veiny_002.w2ent:                        oldClass (CName) : CExternalProxyComponent
+dettlaff_veiny_002.w2ent:                        newName (CName) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:                        newClass (CName) : W3SummonedEntityComponent
+dettlaff_veiny_002.w2ent:    W3SummonedEntityComponent #6 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:        W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+dettlaff_veiny_002.w2ent:            guid (CGUID) : 9a692e10-9dca-4eaf-9fa4-a936f910aaa0
+dettlaff_veiny_002.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+dettlaff_veiny_002.w2ent:            name (String) : "W3SummonedEntityComponent0"
+dettlaff_veiny_002.w2ent:    CAttackableArea #7 (CAttackableArea) : attackableArea
+dettlaff_veiny_002.w2ent:        CAttackableArea (CAttackableArea) : attackableArea
+dettlaff_veiny_002.w2ent:            name (String) : "attackableArea"
+dettlaff_veiny_002.w2ent:            radius (Float) : 1.7500
+dettlaff_veiny_002.w2ent:            height (Float) : 2.0000
+dettlaff_veiny_002.w2ent:    CCharacterControllerParam #8 (CCharacterControllerParam) : column_capsule
+dettlaff_veiny_002.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : column_capsule
+dettlaff_veiny_002.w2ent:            wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:            name (String) : "column_capsule"
+dettlaff_veiny_002.w2ent:            height (Float) : 1.0000
+dettlaff_veiny_002.w2ent:            physicalRadius (Float) : 1.5000
+dettlaff_veiny_002.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Max_Unpushable
+dettlaff_veiny_002.w2ent:            collisionType (CPhysicalCollision) : <CPhysicalCollision>collisionType
+dettlaff_veiny_002.w2ent:                Unk1 (Uint32) : 2
+dettlaff_veiny_002.w2ent:                Collisiontypes (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+dettlaff_veiny_002.w2ent:                    0 (CName) : Character
+dettlaff_veiny_002.w2ent:                    1 (CName) : Camera
+dettlaff_veiny_002.w2ent:                    2 (CName) : CameraOccludable
+dettlaff_veiny_002.w2ent:                Data (CBytes) : 16 bytes, MD5: 9b0c5fced4afa70669459ef290967565
+dettlaff_veiny_002.w2ent:    CCharacterStatsParam #9 (CCharacterStatsParam) : column_character_stats
+dettlaff_veiny_002.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : column_character_stats
+dettlaff_veiny_002.w2ent:            wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:            name (String) : "column_character_stats"
+dettlaff_veiny_002.w2ent:            abilities (array:CName) : # array:CName
+dettlaff_veiny_002.w2ent:                0 (CName) : mon_dettlaff_column_strong
+dettlaff_veiny_002.w2ent:                1 (CName) : InstantKillImmune
+dettlaff_veiny_002.w2ent:    CMonsterParam #10 (CMonsterParam) : column_monster_params
+dettlaff_veiny_002.w2ent:        CMonsterParam (CMonsterParam) : column_monster_params
+dettlaff_veiny_002.w2ent:            wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:            name (String) : "column_monster_params"
+dettlaff_veiny_002.w2ent:            monsterCategory (Int32) : 1
+dettlaff_veiny_002.w2ent:    CAIProfile #11 (CAIProfile) : AG_katakan
+dettlaff_veiny_002.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+dettlaff_veiny_002.w2ent:            wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #12
+dettlaff_veiny_002.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #13
+dettlaff_veiny_002.w2ent:            attitudeGroup (CName) : AG_katakan
+dettlaff_veiny_002.w2ent:    CAISenseParams #12 (CAISenseParams) : 
+dettlaff_veiny_002.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+dettlaff_veiny_002.w2ent:    CAISenseParams #13 (CAISenseParams) : 
+dettlaff_veiny_002.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+dettlaff_veiny_002.w2ent:            rangeMax (Float) : 20.0000
+dettlaff_veiny_002.w2ent:            rangeAngle (Float) : 360.0000
+dettlaff_veiny_002.w2ent:            testLOS (Bool) : false
+dettlaff_veiny_002.w2ent:    CBuffImmunityParam #14 (CBuffImmunityParam) : column_buff_immunity
+dettlaff_veiny_002.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : column_buff_immunity
+dettlaff_veiny_002.w2ent:            wasIncluded (Bool) : true
+dettlaff_veiny_002.w2ent:            name (String) : "column_buff_immunity"
+dettlaff_veiny_002.w2ent:            immunityTo (array:Int32) : # array:Int32
+dettlaff_veiny_002.w2ent:                0 (Int32) : 18
+dettlaff_veiny_002.w2ent:                1 (Int32) : 16
+dettlaff_veiny_002.w2ent:                2 (Int32) : 19
+dettlaff_veiny_002.w2ent:            flags (EImmunityFlags) : IF_Potion,IF_Positive,IF_Negative,IF_Neutral,IF_Immobilize,IF_Confuse,IF_Damage

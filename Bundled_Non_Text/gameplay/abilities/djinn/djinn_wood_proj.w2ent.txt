@@ -1,0 +1,444 @@
+djinn_wood_proj.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3BoulderProjectile
+djinn_wood_proj.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+djinn_wood_proj.w2ent:            properOverrides (Bool) : true
+djinn_wood_proj.w2ent:            entityClass (CName) : W3BoulderProjectile
+djinn_wood_proj.w2ent:            entityObject (ptr:CEntity) : W3BoulderProjectile #1
+djinn_wood_proj.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+djinn_wood_proj.w2ent:                0 (CEntityAppearance) : default
+djinn_wood_proj.w2ent:                    name (CName) : default
+djinn_wood_proj.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+djinn_wood_proj.w2ent:                        0 (handle:CEntityTemplate) : fx/monsters/djinn/djinn_wood_small.w2ent
+djinn_wood_proj.w2ent:                1 (CEntityAppearance) : empty
+djinn_wood_proj.w2ent:                    name (CName) : empty
+djinn_wood_proj.w2ent:            usedAppearances (array:CName) : # array:CName
+djinn_wood_proj.w2ent:                0 (CName) : default
+djinn_wood_proj.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+djinn_wood_proj.w2ent:                W3BoulderProjectile #0 (W3BoulderProjectile) : PreviewEntity
+djinn_wood_proj.w2ent:                    W3BoulderProjectile (W3BoulderProjectile) : PreviewEntity
+djinn_wood_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        streamingDistance (Uint8) : 0
+djinn_wood_proj.w2ent:                        entityStaticFlags (EEntityStaticFlags) : 
+djinn_wood_proj.w2ent:                        name (String) : "PreviewEntity"
+djinn_wood_proj.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+djinn_wood_proj.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
+djinn_wood_proj.w2ent:                            1 (ptr:CComponent) : CEffectDummyComponent #2
+djinn_wood_proj.w2ent:                            2 (ptr:CComponent) : CSoundEmitterComponent #3
+djinn_wood_proj.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+djinn_wood_proj.w2ent:                            0 (SEntityBufferType1) : 
+djinn_wood_proj.w2ent:                                ComponentName (CName) : 
+djinn_wood_proj.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+djinn_wood_proj.w2ent:                        idTag (IdTag) :  fdf5c6ac-94b9-4a19-b853-0d305893999b
+djinn_wood_proj.w2ent:                        radius (Float) : 0.1000
+djinn_wood_proj.w2ent:                        projSpeed (Float) : 40.0000
+djinn_wood_proj.w2ent:                        projDMG (Float) : 100.0000
+djinn_wood_proj.w2ent:                        ignoreArmor (Bool) : false
+djinn_wood_proj.w2ent:                        onCollisionFxName (CName) : impact
+djinn_wood_proj.w2ent:                        onCollisionAppearanceName (CName) : empty
+djinn_wood_proj.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+djinn_wood_proj.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+djinn_wood_proj.w2ent:                        guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+djinn_wood_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        name (String) : "CAppearanceComponent0"
+djinn_wood_proj.w2ent:                        graphPositionX (Int16) : 111
+djinn_wood_proj.w2ent:                        graphPositionY (Int16) : 53
+djinn_wood_proj.w2ent:                        forcedAppearance (CName) : default
+djinn_wood_proj.w2ent:                CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:                        guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+djinn_wood_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        name (String) : "CEffectDummyComponent0"
+djinn_wood_proj.w2ent:                        graphPositionX (Int16) : -171
+djinn_wood_proj.w2ent:                        graphPositionY (Int16) : 110
+djinn_wood_proj.w2ent:                CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+djinn_wood_proj.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+djinn_wood_proj.w2ent:                        guid (CGUID) : 8f988483-1948-482d-a8f5-a4a32287ceae
+djinn_wood_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:                        name (String) : "CSoundEmitterComponent0"
+djinn_wood_proj.w2ent:                        isStreamed (Bool) : false
+djinn_wood_proj.w2ent:                        graphPositionX (Int16) : -260
+djinn_wood_proj.w2ent:                        banksDependency (array:CName) : # array:CName
+djinn_wood_proj.w2ent:                            0 (CName) : magic_djinn.bnk
+djinn_wood_proj.w2ent:                        maxDistance (Float) : 50.0000
+djinn_wood_proj.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+djinn_wood_proj.w2ent:                0 (CEntityTemplateCookedEffect) : impact
+djinn_wood_proj.w2ent:                    name (CName) : impact
+djinn_wood_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+djinn_wood_proj.w2ent:                        Bufferdata (CByteArray) : 1913 bytes, MD5: 6aa289f707da585e596ce1f27d1611b1
+djinn_wood_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : impact
+djinn_wood_proj.w2ent:                            CFXDefinition (CFXDefinition) : impact
+djinn_wood_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+djinn_wood_proj.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+djinn_wood_proj.w2ent:                                length (Float) : 5.0000
+djinn_wood_proj.w2ent:                                loopEnd (Float) : 5.0000
+djinn_wood_proj.w2ent:                                name (CName) : impact
+djinn_wood_proj.w2ent:                                showDistance (Float) : 50.0000
+djinn_wood_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+djinn_wood_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+djinn_wood_proj.w2ent:                                name (String) : "audio"
+djinn_wood_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+djinn_wood_proj.w2ent:                                isExpanded (Bool) : true
+djinn_wood_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+djinn_wood_proj.w2ent:                                    Red (Uint8) : 200
+djinn_wood_proj.w2ent:                                    Green (Uint8) : 242
+djinn_wood_proj.w2ent:                                    Blue (Uint8) : 150
+djinn_wood_proj.w2ent:                                    Alpha (Uint8) : 100
+djinn_wood_proj.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+djinn_wood_proj.w2ent:                            CFXTrack (CFXTrack) : sfx
+djinn_wood_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+djinn_wood_proj.w2ent:                                name (String) : "sfx"
+djinn_wood_proj.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+djinn_wood_proj.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+djinn_wood_proj.w2ent:                                timeBegin (Float) : 0.0137
+djinn_wood_proj.w2ent:                                buffername (CName) : 
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 0
+djinn_wood_proj.w2ent:                                unk (Uint8) : 0
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+djinn_wood_proj.w2ent:                                soundEventName (StringAnsi) : magic_djinn_vfx_impact
+djinn_wood_proj.w2ent:                                maxDistance (Float) : 50.0000
+djinn_wood_proj.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : particles
+djinn_wood_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
+djinn_wood_proj.w2ent:                                name (String) : "particles"
+djinn_wood_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+djinn_wood_proj.w2ent:                                isExpanded (Bool) : true
+djinn_wood_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+djinn_wood_proj.w2ent:                                    Red (Uint8) : 194
+djinn_wood_proj.w2ent:                                    Green (Uint8) : 241
+djinn_wood_proj.w2ent:                                    Blue (Uint8) : 169
+djinn_wood_proj.w2ent:                                    Alpha (Uint8) : 100
+djinn_wood_proj.w2ent:                        CFXTrack #5 (CFXTrack) : fx
+djinn_wood_proj.w2ent:                            CFXTrack (CFXTrack) : fx
+djinn_wood_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+djinn_wood_proj.w2ent:                                name (String) : "fx"
+djinn_wood_proj.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+djinn_wood_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+djinn_wood_proj.w2ent:                                timeBegin (Float) : -0.0091
+djinn_wood_proj.w2ent:                                timeDuration (Float) : 5.0000
+djinn_wood_proj.w2ent:                                buffername (CName) : Particles
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 3
+djinn_wood_proj.w2ent:                                unk (Uint8) : 1
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+djinn_wood_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/djinn/djinn_proj_impact.w2p
+djinn_wood_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+djinn_wood_proj.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+djinn_wood_proj.w2ent:                                componentName (CName) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:                1 (CEntityTemplateCookedEffect) : glow
+djinn_wood_proj.w2ent:                    name (CName) : glow
+djinn_wood_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+djinn_wood_proj.w2ent:                        Bufferdata (CByteArray) : 2738 bytes, MD5: 402944da59ca4a8cff735b9ec06822ac
+djinn_wood_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : glow
+djinn_wood_proj.w2ent:                            CFXDefinition (CFXDefinition) : glow
+djinn_wood_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+djinn_wood_proj.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+djinn_wood_proj.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #9
+djinn_wood_proj.w2ent:                                loopStart (Float) : 0.1722
+djinn_wood_proj.w2ent:                                loopEnd (Float) : 0.3313
+djinn_wood_proj.w2ent:                                name (CName) : glow
+djinn_wood_proj.w2ent:                                showDistance (Float) : 200.0000
+djinn_wood_proj.w2ent:                                isLooped (Bool) : true
+djinn_wood_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+djinn_wood_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+djinn_wood_proj.w2ent:                                name (String) : "audio"
+djinn_wood_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+djinn_wood_proj.w2ent:                                isExpanded (Bool) : true
+djinn_wood_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+djinn_wood_proj.w2ent:                                    Red (Uint8) : 231
+djinn_wood_proj.w2ent:                                    Green (Uint8) : 235
+djinn_wood_proj.w2ent:                                    Blue (Uint8) : 188
+djinn_wood_proj.w2ent:                                    Alpha (Uint8) : 100
+djinn_wood_proj.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+djinn_wood_proj.w2ent:                            CFXTrack (CFXTrack) : sfx
+djinn_wood_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+djinn_wood_proj.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+djinn_wood_proj.w2ent:                                name (String) : "sfx"
+djinn_wood_proj.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+djinn_wood_proj.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+djinn_wood_proj.w2ent:                                timeBegin (Float) : 0.0082
+djinn_wood_proj.w2ent:                                buffername (CName) : 
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 0
+djinn_wood_proj.w2ent:                                unk (Uint8) : 0
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+djinn_wood_proj.w2ent:                                soundEventName (StringAnsi) : magic_djinn_vfx_glow_loop_start
+djinn_wood_proj.w2ent:                                maxDistance (Float) : 50.0000
+djinn_wood_proj.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+djinn_wood_proj.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+djinn_wood_proj.w2ent:                                timeBegin (Float) : 0.3405
+djinn_wood_proj.w2ent:                                buffername (CName) : 
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 0
+djinn_wood_proj.w2ent:                                unk (Uint8) : 0
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+djinn_wood_proj.w2ent:                                soundEventName (StringAnsi) : magic_djinn_vfx_glow_loop_stop
+djinn_wood_proj.w2ent:                                maxDistance (Float) : 50.0000
+djinn_wood_proj.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : particle
+djinn_wood_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
+djinn_wood_proj.w2ent:                                name (String) : "particle"
+djinn_wood_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+djinn_wood_proj.w2ent:                                isExpanded (Bool) : true
+djinn_wood_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+djinn_wood_proj.w2ent:                                    Red (Uint8) : 185
+djinn_wood_proj.w2ent:                                    Green (Uint8) : 129
+djinn_wood_proj.w2ent:                                    Blue (Uint8) : 127
+djinn_wood_proj.w2ent:                                    Alpha (Uint8) : 100
+djinn_wood_proj.w2ent:                        CFXTrack #6 (CFXTrack) : ds
+djinn_wood_proj.w2ent:                            CFXTrack (CFXTrack) : ds
+djinn_wood_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+djinn_wood_proj.w2ent:                                name (String) : "ds"
+djinn_wood_proj.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+djinn_wood_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+djinn_wood_proj.w2ent:                                timeBegin (Float) : -0.0078
+djinn_wood_proj.w2ent:                                buffername (CName) : Particles
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 3
+djinn_wood_proj.w2ent:                                unk (Uint8) : 1
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+djinn_wood_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 0.9037
+djinn_wood_proj.w2ent:                                        7 (Float) : 0.7322
+djinn_wood_proj.w2ent:                                        8 (Float) : 0.5607
+djinn_wood_proj.w2ent:                                        9 (Float) : 0.3891
+djinn_wood_proj.w2ent:                                        10 (Float) : 0.2176
+djinn_wood_proj.w2ent:                                        11 (Float) : 0.0461
+djinn_wood_proj.w2ent:                                        12 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        1 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.1000
+djinn_wood_proj.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/keira_metz/lvitation_glow.w2p
+djinn_wood_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+djinn_wood_proj.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CMeshComponent0
+djinn_wood_proj.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+djinn_wood_proj.w2ent:                                componentName (CName) : CMeshComponent0
+djinn_wood_proj.w2ent:                                attach (Bool) : true
+djinn_wood_proj.w2ent:                        CFXTrackGroup #9 (CFXTrackGroup) : material
+djinn_wood_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
+djinn_wood_proj.w2ent:                                name (String) : "material"
+djinn_wood_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #10
+djinn_wood_proj.w2ent:                                isExpanded (Bool) : true
+djinn_wood_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+djinn_wood_proj.w2ent:                                    Red (Uint8) : 179
+djinn_wood_proj.w2ent:                                    Green (Uint8) : 239
+djinn_wood_proj.w2ent:                                    Blue (Uint8) : 167
+djinn_wood_proj.w2ent:                                    Alpha (Uint8) : 100
+djinn_wood_proj.w2ent:                        CFXTrack #10 (CFXTrack) : asd
+djinn_wood_proj.w2ent:                            CFXTrack (CFXTrack) : asd
+djinn_wood_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+djinn_wood_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #11
+djinn_wood_proj.w2ent:                                name (String) : "asd"
+djinn_wood_proj.w2ent:                        CFXTrackItemMaterialOverride #11 (CFXTrackItemMaterialOverride) : MaterialOverride
+djinn_wood_proj.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+djinn_wood_proj.w2ent:                                timeBegin (Float) : 0.0078
+djinn_wood_proj.w2ent:                                buffername (CName) : MaterialOverride
+djinn_wood_proj.w2ent:                                count (CDynamicInt) : 4
+djinn_wood_proj.w2ent:                                unk (Uint8) : 1
+djinn_wood_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.4331808> <0.8663617> <1> <1> <1> <0.8649281> <0.5606695> <0.2564107> <0> <0> <0> <0> 
+djinn_wood_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        1 (Float) : 0.4332
+djinn_wood_proj.w2ent:                                        2 (Float) : 0.8664
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 0.8649
+djinn_wood_proj.w2ent:                                        7 (Float) : 0.5607
+djinn_wood_proj.w2ent:                                        8 (Float) : 0.2564
+djinn_wood_proj.w2ent:                                        9 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 0.8159
+djinn_wood_proj.w2ent:                                        8 (Float) : 0.6012
+djinn_wood_proj.w2ent:                                        9 (Float) : 0.3864
+djinn_wood_proj.w2ent:                                        10 (Float) : 0.1716
+djinn_wood_proj.w2ent:                                        11 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 0.0000
+djinn_wood_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+djinn_wood_proj.w2ent:                                        0 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        2 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        3 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        4 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        5 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        6 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        7 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        8 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        9 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        10 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        11 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        12 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        13 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        14 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                        15 (Float) : 1.0000
+djinn_wood_proj.w2ent:                                material (handle:IMaterial) : fx/characters/keira_metz/levitation_shader.w2mg
+djinn_wood_proj.w2ent:                                drawOriginal (Bool) : true
+djinn_wood_proj.w2ent:            cookedEffectsVersion (Uint32) : 1
+djinn_wood_proj.w2ent:            Unk1 (Uint32) : 0
+djinn_wood_proj.w2ent:    W3BoulderProjectile #1 (W3BoulderProjectile) : impact
+djinn_wood_proj.w2ent:        W3BoulderProjectile (W3BoulderProjectile) : 
+djinn_wood_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            streamingDistance (Uint8) : 0
+djinn_wood_proj.w2ent:            entityStaticFlags (EEntityStaticFlags) : 
+djinn_wood_proj.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+djinn_wood_proj.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
+djinn_wood_proj.w2ent:                1 (ptr:CComponent) : CEffectDummyComponent #3
+djinn_wood_proj.w2ent:                2 (ptr:CComponent) : CSoundEmitterComponent #4
+djinn_wood_proj.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+djinn_wood_proj.w2ent:                0 (SEntityBufferType1) : 
+djinn_wood_proj.w2ent:                    ComponentName (CName) : 
+djinn_wood_proj.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+djinn_wood_proj.w2ent:            idTag (IdTag) :  fdf5c6ac-94b9-4a19-b853-0d305893999b
+djinn_wood_proj.w2ent:            radius (Float) : 0.1000
+djinn_wood_proj.w2ent:            projSpeed (Float) : 40.0000
+djinn_wood_proj.w2ent:            projDMG (Float) : 100.0000
+djinn_wood_proj.w2ent:            ignoreArmor (Bool) : false
+djinn_wood_proj.w2ent:            onCollisionFxName (CName) : impact
+djinn_wood_proj.w2ent:            onCollisionAppearanceName (CName) : empty
+djinn_wood_proj.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+djinn_wood_proj.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+djinn_wood_proj.w2ent:            guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+djinn_wood_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            name (String) : "CAppearanceComponent0"
+djinn_wood_proj.w2ent:            forcedAppearance (CName) : default
+djinn_wood_proj.w2ent:    CEffectDummyComponent #3 (CEffectDummyComponent) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+djinn_wood_proj.w2ent:            guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+djinn_wood_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            name (String) : "CEffectDummyComponent0"
+djinn_wood_proj.w2ent:    CSoundEmitterComponent #4 (CSoundEmitterComponent) : CSoundEmitterComponent0
+djinn_wood_proj.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+djinn_wood_proj.w2ent:            guid (CGUID) : 8f988483-1948-482d-a8f5-a4a32287ceae
+djinn_wood_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+djinn_wood_proj.w2ent:            name (String) : "CSoundEmitterComponent0"
+djinn_wood_proj.w2ent:            isStreamed (Bool) : false
+djinn_wood_proj.w2ent:            banksDependency (array:CName) : # array:CName
+djinn_wood_proj.w2ent:                0 (CName) : magic_djinn.bnk
+djinn_wood_proj.w2ent:            maxDistance (Float) : 50.0000

@@ -1,0 +1,391 @@
+templates:
+  scolopendromorph_venom_projectile.w2ent:
+    ".type": CEntityTemplate
+    ## properOverrides: true
+    ## entityClass: PoisonProjectile
+    entityObject:
+      ".type": PoisonProjectile
+      attachments: # array:handle:IAttachment
+      streamingDistance: 0
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CEffectDummyComponent
+          guid: 18febab9-37fa-4ee8-92e8-8289a568b2b5
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+        - ".type": CSoundEmitterComponent
+          guid: ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+          attachments: # array:handle:IAttachment
+          name: "CSoundEmitterComponent0"
+          isStreamed: false
+          banksDependency:  #array:2,0,CName
+            - monster_scolopendromorph.bnk
+          maxDistance: 50.0000
+      idTag:  d117829a-786b-42c7-b90f-2766f2684ac1
+      radius: 0.3000
+      projSpeed: 16.0000
+      projAngle: 0.0000
+      projDMG: 400.0000
+      initFxName: venom
+      onCollisionFxName: venom_hit
+      spawnEntityOnGround: true
+      spawnEntityTemplate: dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_poison_area.w2ent
+    effects:
+      #buffer: 3347 bytes, MD5: 3cd8d202a27b508001a63106d24e39c3
+      venom:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0024
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.2471
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP_stop
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.1012
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    useDistanceParameter: true
+                    latchDistanceParameterBelow: 4.0000
+                    latchEvent: monster_scolopendromorph_combat_venom_flyby
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 205, 221, 139, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              "3":
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0028
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx2.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "3"
+              dasd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0000
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_gass_col.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "dasd"
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0044
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.9222, 1.0000 ]
+                      - [ 0.0000, 0.7545, 1.0000 ]
+                      - [ 0.0000, 0.5869, 1.0000 ]
+                      - [ 0.0000, 0.4192, 1.0000 ]
+                      - [ 0.0000, 0.2515, 1.0000 ]
+                      - [ 0.0000, 0.0838, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 208, 197, 209, 100 ]
+        length: 2.8192
+        loopStart: 0.1258
+        loopEnd: 0.2359
+        ## name: venom
+        showDistance: 44.0000
+        isLooped: true
+      #buffer: 2140 bytes, MD5: 1bc0128741f135538a511f0fa686d5c3
+      venom_hit:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0056
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_hit
+                    maxDistance: 40.0000
+                    boneName: ( no parameters available )
+                    speed: 0.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 151, 161, 254, 100 ]
+          asd:
+            ".type": CFXTrackGroup
+            ## name: "asd"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0161
+                    timeDuration: 2.8847
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                      - [ 1.0000, 1.0000, 1.5000 ]
+                    particleSystem: dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_explode.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 155, 150, 164, 100 ]
+        length: 2.9774
+        loopStart: 0.0987
+        loopEnd: 0.1791
+        ## name: venom_hit
+        showDistance: 22.0000
+      #buffer: 2142 bytes, MD5: 60bf4676b7648a50c761452ad17f1fc5
+      venom_copy:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0024
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.2463
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP_stop
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 169, 235, 127, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0044
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.5011, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/monsters/arachas/venom/venom_proj_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 208, 197, 209, 100 ]
+        length: 2.3090
+        loopStart: 0.1258
+        loopEnd: 0.2359
+        ## name: venom_copy
+        isLooped: true
+      #buffer: 2156 bytes, MD5: f18aea802900caafe9fa281e3eec35cf
+      venom_copy_small:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          audio:
+            ".type": CFXTrackGroup
+            ## name: "audio"
+            tracks:  #array:2,0,ptr:CFXTrack
+              sfx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.0032
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP
+                    maxDistance: 40.0000
+                  - ".type": CFXTrackItemSoundEvent
+                    timeBegin: 0.2479
+                    ## buffername: 
+                    ## count: 0
+                    ## unk: 0
+                    soundEventName: monster_scolopendromorph_combat_venom_projectile_LP_stop
+                    maxDistance: 40.0000
+                ## name: "sfx"
+            isExpanded: true
+            trackGroupColor: [ 250, 169, 222, 100 ]
+          fx:
+            ".type": CFXTrackGroup
+            ## name: "fx"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0044
+                    timeDuration: 2.8273
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.5011, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000 ]
+                    particleSystem: fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                      copyRotation: false
+                      attach: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 208, 197, 209, 100 ]
+        length: 2.3090
+        loopStart: 0.1258
+        loopEnd: 0.2359
+        ## name: venom_copy_small
+        isLooped: true
+    ## cookedEffectsVersion: 1

@@ -1,0 +1,165 @@
+templates:
+  lynx_rock_witch_rock.w2ent:
+    ".type": CEntityTemplate
+    ## properOverrides: true
+    ## entityClass: W3BoulderProjectile
+    entityObject:
+      ".type": W3BoulderProjectile
+      attachments: # array:handle:IAttachment
+      streamingDistance: 0
+      #entityStaticFlags: <empty value>
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CAppearanceComponent
+          guid: 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+          attachments: # array:handle:IAttachment
+          name: "CAppearanceComponent0"
+          forcedAppearance: default
+        - ".type": CEffectDummyComponent
+          guid: 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+          attachments: # array:handle:IAttachment
+          name: "CEffectDummyComponent0"
+      idTag:  5789fb1b-7f28-49b6-9bd5-d89a509a8795
+      radius: 0.3000
+      projSpeed: 40.0000
+      projDMG: 200.0000
+      ignoreArmor: false
+      onCollisionFxName: impact
+      onCollisionAppearanceName: empty
+    appearances:  #array:2,0,CEntityAppearance
+      default:
+        ".type": CEntityAppearance
+        ## name: default
+        includedTemplates:  #array:2,0,handle:CEntityTemplate
+          - fx/monsters/elemental/earth/elemental_stone/elemental_stone_small.w2ent
+      empty:
+        ".type": CEntityAppearance
+        ## name: empty
+    usedAppearances:  #array:2,0,CName
+      - default
+    effects:
+      #buffer: 1572 bytes, MD5: 401e88766e96427fd2d40e8cfbda2025
+      impact:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particles:
+            ".type": CFXTrackGroup
+            ## name: "particles"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0091
+                    timeDuration: 5.0000
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/characters/keira_metz/keira_proj_impact.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CEffectDummyComponent0
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 194, 241, 169, 100 ]
+        length: 5.0000
+        loopEnd: 5.0000
+        ## name: impact
+        showDistance: 50.0000
+      #buffer: 2316 bytes, MD5: 1641c4b40da23e53bff00def86c06d52
+      glow:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              ds:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0078
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 1.0000, 1.1000 ]
+                      - [ 1.0000, 0.9037, 1.1000 ]
+                      - [ 1.0000, 0.7322, 1.1000 ]
+                      - [ 1.0000, 0.5607, 1.1000 ]
+                      - [ 1.0000, 0.3891, 1.1000 ]
+                      - [ 1.0000, 0.2176, 1.1000 ]
+                      - [ 1.0000, 0.0461, 1.1000 ]
+                      - [ 1.0000, 0.0000, 1.1000 ]
+                      - [ 1.0000, 0.0000, 1.1000 ]
+                      - [ 1.0000, 0.0000, 1.1000 ]
+                      - [ 1.0000, 0.0000, 1.1000 ]
+                    particleSystem: dlc/bob/data/fx/characters/lynx_rock_mage/rock_levitation.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: CMeshComponent0
+                      attach: true
+                ## name: "ds"
+            isExpanded: true
+            trackGroupColor: [ 185, 129, 127, 100 ]
+          material:
+            ".type": CFXTrackGroup
+            ## name: "material"
+            tracks:  #array:2,0,ptr:CFXTrack
+              asd:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeBegin: 0.0078
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4332, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8664, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8649, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5607, 0.8159, 1.0000, 1.0000 ]
+                      - [ 0.2564, 0.6012, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.3864, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.1716, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 0.0000, 1.0000, 1.0000 ]
+                    material: dlc/bob/data/fx/characters/lynx_rock_mage/rock_glow.w2mi
+                    drawOriginal: true
+                ## name: "asd"
+            isExpanded: true
+            trackGroupColor: [ 179, 239, 167, 100 ]
+        loopStart: 0.1722
+        loopEnd: 0.3313
+        ## name: glow
+        showDistance: 200.0000
+        isLooped: true
+    ## cookedEffectsVersion: 1

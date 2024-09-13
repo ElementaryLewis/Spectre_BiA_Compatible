@@ -1,0 +1,69 @@
+templates:
+  bestiarymonsterhuntmh302.journal:
+    ".type": CJournalResource
+    entry:
+      ".type": CJournalCreature
+      guid: 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+      baseName: "Leszy"
+      order: 4286578686
+      uniqueScriptIdentifier: Leszy 8CCA7A96-4BD5C339-42B6F291-07412A2D
+      parentGuid: 5919978f-5689-428a-be0e-f2fee6d80cdb
+      children:  #array:2,0,ptr:CJournalContainerEntry
+        - ".type": CJournalCreatureDescriptionGroup
+          guid: ee84df35-b736-452c-b122-dbe21d26c85f
+          baseName: "Descriptions"
+          order: 2147483647
+          uniqueScriptIdentifier: Descriptions EE84DF35-452CB736-E2DB22B1-5FC8261D
+          parentGuid: 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+          children:  #array:2,0,ptr:CJournalContainerEntry
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 24115160-241d-4134-b176-1a05f042d0dd
+              baseName: "Kernun Final"
+              order: 1073741823
+              uniqueScriptIdentifier: Kernun Final 24115160-4134241D-051A76B1-DDD042F0
+              parentGuid: ee84df35-b736-452c-b122-dbe21d26c85f
+              description: <br>Geralt of Rivia was only able to finally put an end to this leshen after a long and exhausting battle. Once the beast died, the way was clear for loggers to move into its former domain. The woods will now gradually fall to the ax. Perhaps one day they'll disappear altogether - and their monstrous denizens along with them.
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 9ebf8ecd-eee7-4bb3-9a1f-f5cecab35d84
+              baseName: "Quote"
+              order: 536870911
+              uniqueScriptIdentifier: Quote 9EBF8ECD-4BB3EEE7-CEF51F9A-845DB3CA
+              parentGuid: ee84df35-b736-452c-b122-dbe21d26c85f
+              index: 1
+              description: <i>We told the prick something lurked in them woods, but he refused to believe it...</i><br>– Louis Closster, woodcutter<br>
+            - ".type": CJournalCreatureDescriptionEntry
+              guid: 04a56c91-9682-43b5-bf92-bf68daf1b9a1
+              baseName: "Kernun Precombat"
+              order: 805306366
+              uniqueScriptIdentifier: Kernun Precombat 04A56C91-43B59682-68BF92BF-A1B9F1DA
+              parentGuid: ee84df35-b736-452c-b122-dbe21d26c85f
+              index: 2
+              description: lacerating them with razor-sharp claws, sending strangling plants shooting out of the ground or feeding them to packs of hungry wolves. If not for its vulnerability to fire, the Igni Sign included, and the protection of the Quen Sign, one could wager not even the toughest witcher would be able to slay the beast.
+        - ".type": CJournalCreatureHuntingClueGroup
+          guid: dd33a6f3-5941-4aff-8aec-0d6113225202
+          baseName: "Hunting Clues"
+          order: 3221225470
+          uniqueScriptIdentifier: Hunting Clues DD33A6F3-4AFF5941-610DEC8A-02522213
+          parentGuid: 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+          index: 1
+        - ".type": CJournalCreatureGameplayHintGroup
+          guid: 7ea06434-617d-4f43-94ac-5be0abd60749
+          baseName: "Gameplay Hints"
+          order: 3758096382
+          uniqueScriptIdentifier: Gameplay Hints 7EA06434-4F43617D-E05BAC94-4907D6AB
+          parentGuid: 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+          index: 2
+        - ".type": CJournalCreatureVitalSpotGroup
+          guid: 401eef22-7d17-4219-aced-ff3eb21141cb
+          baseName: "Vital spots"
+          order: 4026531838
+          uniqueScriptIdentifier: Vital spots 401EEF22-42197D17-3EFFEDAC-CB4111B2
+          parentGuid: 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+          index: 3
+      name: Kernun
+      image: "bestiary_leshenmh302.png"
+      entityTemplate: quests/generic_quests/novigrad/quest_files/mh302_leshy/characters/mh302_leshy.w2ent
+      itemsUsedAgainstCreature:  #array:2,0,CName
+        - Silver Dust Bomb 1
+        - Relic Oil 1
+        - Igni

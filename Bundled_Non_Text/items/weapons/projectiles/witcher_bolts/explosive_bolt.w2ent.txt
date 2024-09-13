@@ -1,0 +1,760 @@
+explosive_bolt.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3ExplosiveBolt
+explosive_bolt.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+explosive_bolt.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+explosive_bolt.w2ent:                0 (handle:CEntityTemplate) : items/weapons/projectiles/witcher_bolts/base/bolt_base.w2ent
+explosive_bolt.w2ent:            properOverrides (Bool) : true
+explosive_bolt.w2ent:            entityClass (CName) : W3ExplosiveBolt
+explosive_bolt.w2ent:            entityObject (ptr:CEntity) : W3ExplosiveBolt #1
+explosive_bolt.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+explosive_bolt.w2ent:                0 (EntitySlot) : trail_point
+explosive_bolt.w2ent:                    name (CName) : trail_point
+explosive_bolt.w2ent:                    componentName (CName) : bolt
+explosive_bolt.w2ent:                1 (EntitySlot) : fire_point
+explosive_bolt.w2ent:                    name (CName) : fire_point
+explosive_bolt.w2ent:                    componentName (CName) : bolt
+explosive_bolt.w2ent:                2 (EntitySlot) : explode
+explosive_bolt.w2ent:                    name (CName) : explode
+explosive_bolt.w2ent:                    componentName (CName) : CPhantomComponent0
+explosive_bolt.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
+explosive_bolt.w2ent:                        X (Float) : 0.0000
+explosive_bolt.w2ent:                        Y (Float) : 0.3000
+explosive_bolt.w2ent:                        Z (Float) : 0.0000
+explosive_bolt.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+explosive_bolt.w2ent:                W3ExplosiveBolt #0 (W3ExplosiveBolt) : PreviewEntity
+explosive_bolt.w2ent:                    W3ExplosiveBolt (W3ExplosiveBolt) : PreviewEntity
+explosive_bolt.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        streamingDistance (Uint8) : 0
+explosive_bolt.w2ent:                        name (String) : "PreviewEntity"
+explosive_bolt.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+explosive_bolt.w2ent:                            0 (ptr:CComponent) : CMeshComponent #1
+explosive_bolt.w2ent:                            1 (ptr:CComponent) : CTriggerActivatorComponent #2
+explosive_bolt.w2ent:                            2 (ptr:CComponent) : CTriggerActivatorComponent #3
+explosive_bolt.w2ent:                            3 (ptr:CComponent) : CPhantomComponent #4
+explosive_bolt.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+explosive_bolt.w2ent:                            0 (SEntityBufferType1) : 
+explosive_bolt.w2ent:                                ComponentName (CName) : 
+explosive_bolt.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+explosive_bolt.w2ent:                        idTag (IdTag) :  f63db1d9-43ce-415a-851b-d19a54660fc6
+explosive_bolt.w2ent:                        projectileName (CName) : arrow
+explosive_bolt.w2ent:                        projSpeed (Float) : 60.0000
+explosive_bolt.w2ent:                        dismemberOnKill (Bool) : true
+explosive_bolt.w2ent:                        explosionRange (Float) : 3.0000
+explosive_bolt.w2ent:                CMeshComponent #1 (CMeshComponent) : bolt
+explosive_bolt.w2ent:                    CMeshComponent (CMeshComponent) : bolt
+explosive_bolt.w2ent:                        guid (CGUID) : 92e5b638-2eca-4910-aeee-f3f24136e3bb
+explosive_bolt.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        name (String) : "bolt"
+explosive_bolt.w2ent:                        isStreamed (Bool) : false
+explosive_bolt.w2ent:                        graphPositionX (Int16) : 194
+explosive_bolt.w2ent:                        graphPositionY (Int16) : 209
+explosive_bolt.w2ent:                        boundingBox (Box) : <Box>boundingBox
+explosive_bolt.w2ent:                            Min (Vector) : <Vector>Min
+explosive_bolt.w2ent:                                X (Float) : -0.0231
+explosive_bolt.w2ent:                                Y (Float) : -0.0006
+explosive_bolt.w2ent:                                Z (Float) : -0.0123
+explosive_bolt.w2ent:                                W (Float) : 1.0000
+explosive_bolt.w2ent:                            Max (Vector) : <Vector>Max
+explosive_bolt.w2ent:                                X (Float) : 0.0231
+explosive_bolt.w2ent:                                Y (Float) : 0.3084
+explosive_bolt.w2ent:                                Z (Float) : 0.0123
+explosive_bolt.w2ent:                                W (Float) : 1.0000
+explosive_bolt.w2ent:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_DynamicGeometry
+explosive_bolt.w2ent:                        lightChannels (ELightChannel) : LC_Characters
+explosive_bolt.w2ent:                        mesh (handle:CMesh) : items/weapons/projectiles/witcher_bolts/model/witcher_bolt_01.w2mesh
+explosive_bolt.w2ent:                CTriggerActivatorComponent #2 (CTriggerActivatorComponent) : toxic gas activator
+explosive_bolt.w2ent:                    CTriggerActivatorComponent (CTriggerActivatorComponent) : toxic gas activator
+explosive_bolt.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+explosive_bolt.w2ent:                            X (Float) : 0.0000
+explosive_bolt.w2ent:                            Y (Float) : 0.1500
+explosive_bolt.w2ent:                            Z (Float) : 0.0000
+explosive_bolt.w2ent:                        guid (CGUID) : 6c64bf7d-7862-4dcf-b7b7-a08676028043
+explosive_bolt.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        name (String) : "toxic gas activator"
+explosive_bolt.w2ent:                        graphPositionX (Int16) : 176
+explosive_bolt.w2ent:                        graphPositionY (Int16) : 124
+explosive_bolt.w2ent:                        radius (Float) : 0.2000
+explosive_bolt.w2ent:                        height (Float) : 0.2000
+explosive_bolt.w2ent:                CTriggerActivatorComponent #3 (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+explosive_bolt.w2ent:                    CTriggerActivatorComponent (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+explosive_bolt.w2ent:                        guid (CGUID) : 8d70a5b2-cfa4-4a07-868b-7f00ab5d2ddd
+explosive_bolt.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        name (String) : "CTriggerActivatorComponent0"
+explosive_bolt.w2ent:                        graphPositionX (Int16) : 270
+explosive_bolt.w2ent:                        graphPositionY (Int16) : 312
+explosive_bolt.w2ent:                CPhantomComponent #4 (CPhantomComponent) : CPhantomComponent0
+explosive_bolt.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+explosive_bolt.w2ent:                        guid (CGUID) : f89be687-e410-4236-ab99-b8be39e656a3
+explosive_bolt.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:                        name (String) : "CPhantomComponent0"
+explosive_bolt.w2ent:                        graphPositionX (Int16) : 312
+explosive_bolt.w2ent:                        graphPositionY (Int16) : 224
+explosive_bolt.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                            0 (CName) : Character
+explosive_bolt.w2ent:                            1 (CName) : Static
+explosive_bolt.w2ent:                            2 (CName) : Debris
+explosive_bolt.w2ent:                            3 (CName) : Ragdoll
+explosive_bolt.w2ent:                            4 (CName) : Destructible
+explosive_bolt.w2ent:                            5 (CName) : Terrain
+explosive_bolt.w2ent:                            6 (CName) : Phantom
+explosive_bolt.w2ent:                            7 (CName) : Dangles
+explosive_bolt.w2ent:                            8 (CName) : Weapon
+explosive_bolt.w2ent:                            9 (CName) : Water
+explosive_bolt.w2ent:                            10 (CName) : Foliage
+explosive_bolt.w2ent:                            11 (CName) : CommunityCollidables
+explosive_bolt.w2ent:                            12 (CName) : Boat
+explosive_bolt.w2ent:                            13 (CName) : Door
+explosive_bolt.w2ent:                            14 (CName) : Platforms
+explosive_bolt.w2ent:                            15 (CName) : Corpse
+explosive_bolt.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+explosive_bolt.w2ent:                            X (Float) : 0.0596
+explosive_bolt.w2ent:                            Y (Float) : 0.0586
+explosive_bolt.w2ent:                            Z (Float) : 0.0833
+explosive_bolt.w2ent:                            W (Float) : 0.0000
+explosive_bolt.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+explosive_bolt.w2ent:                0 (CEntityTemplateCookedEffect) : explosion
+explosive_bolt.w2ent:                    name (CName) : explosion
+explosive_bolt.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+explosive_bolt.w2ent:                        Bufferdata (CByteArray) : 3718 bytes, MD5: 8253acb5b33231b5a2e3c4bda4ade919
+explosive_bolt.w2ent:                        CFXDefinition #0 (CFXDefinition) : explosion
+explosive_bolt.w2ent:                            CFXDefinition (CFXDefinition) : explosion
+explosive_bolt.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+explosive_bolt.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+explosive_bolt.w2ent:                                length (Float) : 4.0000
+explosive_bolt.w2ent:                                name (CName) : explosion
+explosive_bolt.w2ent:                                showDistance (Float) : 300.0000
+explosive_bolt.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+explosive_bolt.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+explosive_bolt.w2ent:                                name (String) : "audio"
+explosive_bolt.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+explosive_bolt.w2ent:                                isExpanded (Bool) : true
+explosive_bolt.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+explosive_bolt.w2ent:                                    Red (Uint8) : 166
+explosive_bolt.w2ent:                                    Green (Uint8) : 251
+explosive_bolt.w2ent:                                    Blue (Uint8) : 251
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 100
+explosive_bolt.w2ent:                        CFXTrack #2 (CFXTrack) : explosion
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : explosion
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+explosive_bolt.w2ent:                                name (String) : "explosion"
+explosive_bolt.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+explosive_bolt.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+explosive_bolt.w2ent:                                timeBegin (Float) : 0.0051
+explosive_bolt.w2ent:                                buffername (CName) : 
+explosive_bolt.w2ent:                                count (CDynamicInt) : 0
+explosive_bolt.w2ent:                                unk (Uint8) : 0
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+explosive_bolt.w2ent:                                soundEventName (StringAnsi) : cmb_explosive_bolt_explosion
+explosive_bolt.w2ent:                                maxDistance (Float) : 50.0000
+explosive_bolt.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : fx
+explosive_bolt.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+explosive_bolt.w2ent:                                name (String) : "fx"
+explosive_bolt.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+explosive_bolt.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #9
+explosive_bolt.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #12
+explosive_bolt.w2ent:                                isExpanded (Bool) : true
+explosive_bolt.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+explosive_bolt.w2ent:                                    Red (Uint8) : 142
+explosive_bolt.w2ent:                                    Green (Uint8) : 144
+explosive_bolt.w2ent:                                    Blue (Uint8) : 245
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 100
+explosive_bolt.w2ent:                        CFXTrack #5 (CFXTrack) : flare
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : flare
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemFlare #6
+explosive_bolt.w2ent:                                name (String) : "flare"
+explosive_bolt.w2ent:                        CFXTrackItemFlare #6 (CFXTrackItemFlare) : 
+explosive_bolt.w2ent:                            CFXTrackItemFlare (CFXTrackItemFlare) : <CFXTrackItemFlare>CFXTrackItemFlare
+explosive_bolt.w2ent:                                buffername (CName) : 
+explosive_bolt.w2ent:                                count (CDynamicInt) : 1
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <2> <1.979507> <1.827237> <1.674967> <1.522698> <1.370428> <1.218158> <1.065888> <0.9136
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        1 (Float) : 2.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.9795
+explosive_bolt.w2ent:                                        3 (Float) : 1.8272
+explosive_bolt.w2ent:                                        4 (Float) : 1.6750
+explosive_bolt.w2ent:                                        5 (Float) : 1.5227
+explosive_bolt.w2ent:                                        6 (Float) : 1.3704
+explosive_bolt.w2ent:                                        7 (Float) : 1.2182
+explosive_bolt.w2ent:                                        8 (Float) : 1.0659
+explosive_bolt.w2ent:                                        9 (Float) : 0.9136
+explosive_bolt.w2ent:                                        10 (Float) : 0.7613
+explosive_bolt.w2ent:                                        11 (Float) : 0.6091
+explosive_bolt.w2ent:                                        12 (Float) : 0.4568
+explosive_bolt.w2ent:                                        13 (Float) : 0.3045
+explosive_bolt.w2ent:                                        14 (Float) : 0.1523
+explosive_bolt.w2ent:                                        15 (Float) : 0.0000
+explosive_bolt.w2ent:                                material (handle:CMaterialInstance) : CMaterialInstance #7
+explosive_bolt.w2ent:                                parameters (SFlareParameters) : <SFlareParameters>parameters
+explosive_bolt.w2ent:                                    occlusionExtent (Float) : 0.3000
+explosive_bolt.w2ent:                                    flareRadius (Float) : 6.0000
+explosive_bolt.w2ent:                                    fadeInMaxSpeed (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeOutMaxSpeed (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeInAccel (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeOutAccel (Float) : 9999.0000
+explosive_bolt.w2ent:                                    visibilityFullDist (Float) : 40.0000
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #8
+explosive_bolt.w2ent:                        CMaterialInstance #7 (CMaterialInstance) : CMaterialGraph:fx\shaders\flares_fx_mat.w2mg
+explosive_bolt.w2ent:                            CMaterialInstance (CMaterialInstance) : <CMaterialInstance>CMaterialInstance
+explosive_bolt.w2ent:                                baseMaterial (handle:IMaterial) : fx/shaders/flares_fx_mat.w2mg
+explosive_bolt.w2ent:                                InstanceParameters (array:CVariantSizeNameType) : # array:CVariantSizeNameType
+explosive_bolt.w2ent:                                    color (Color) : <Color>color
+explosive_bolt.w2ent:                                        Red (Uint8) : 255
+explosive_bolt.w2ent:                                        Green (Uint8) : 154
+explosive_bolt.w2ent:                                        Blue (Uint8) : 109
+explosive_bolt.w2ent:                                        Alpha (Uint8) : 255
+explosive_bolt.w2ent:                                    blend_far_end (Float) : 50.0000
+explosive_bolt.w2ent:                                    blend_far_start (Float) : 30.0000
+explosive_bolt.w2ent:                                    color_scale (Float) : 3.0000
+explosive_bolt.w2ent:                        CFXSimpleSpawner #8 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                        CFXTrack #9 (CFXTrack) : light
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : light
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #10
+explosive_bolt.w2ent:                                name (String) : "light"
+explosive_bolt.w2ent:                        CFXTrackItemDynamicLight #10 (CFXTrackItemDynamicLight) : DynamicLight
+explosive_bolt.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+explosive_bolt.w2ent:                                timeDuration (Float) : 0.7000
+explosive_bolt.w2ent:                                buffername (CName) : DynamicLight
+explosive_bolt.w2ent:                                count (CDynamicInt) : 2
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <6.666667> <9.629629> <8.888888> <8.148148> <7.407407> <6.666667> <5.925926> <5.185185> 
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        1 (Float) : 6.6667
+explosive_bolt.w2ent:                                        2 (Float) : 9.6296
+explosive_bolt.w2ent:                                        3 (Float) : 8.8889
+explosive_bolt.w2ent:                                        4 (Float) : 8.1481
+explosive_bolt.w2ent:                                        5 (Float) : 7.4074
+explosive_bolt.w2ent:                                        6 (Float) : 6.6667
+explosive_bolt.w2ent:                                        7 (Float) : 5.9259
+explosive_bolt.w2ent:                                        8 (Float) : 5.1852
+explosive_bolt.w2ent:                                        9 (Float) : 4.4444
+explosive_bolt.w2ent:                                        10 (Float) : 3.7037
+explosive_bolt.w2ent:                                        11 (Float) : 2.9630
+explosive_bolt.w2ent:                                        12 (Float) : 2.2222
+explosive_bolt.w2ent:                                        13 (Float) : 1.4815
+explosive_bolt.w2ent:                                        14 (Float) : 0.7407
+explosive_bolt.w2ent:                                        15 (Float) : 0.0000
+explosive_bolt.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                color (Color) : <Color>color
+explosive_bolt.w2ent:                                    Red (Uint8) : 255
+explosive_bolt.w2ent:                                    Green (Uint8) : 200
+explosive_bolt.w2ent:                                    Blue (Uint8) : 150
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 255
+explosive_bolt.w2ent:                                radius (Float) : 25.0000
+explosive_bolt.w2ent:                                brightness (Float) : 50.0000
+explosive_bolt.w2ent:                                attenuation (Float) : 1.0000
+explosive_bolt.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+explosive_bolt.w2ent:                                    flickerStrength (Float) : 0.4000
+explosive_bolt.w2ent:                                    flickerPeriod (Float) : 0.0500
+explosive_bolt.w2ent:                                autoHideDistance (Float) : 40.0000
+explosive_bolt.w2ent:                                autoHideRange (Float) : 10.0000
+explosive_bolt.w2ent:                                colorGroup (EEnvColorGroup) : ECG_FX_FireLight
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #11
+explosive_bolt.w2ent:                        CFXSimpleSpawner #11 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                                relativePos (Vector) : <Vector>relativePos
+explosive_bolt.w2ent:                                    X (Float) : 0.0000
+explosive_bolt.w2ent:                                    Y (Float) : 0.0000
+explosive_bolt.w2ent:                                    Z (Float) : 1.0000
+explosive_bolt.w2ent:                                    W (Float) : 0.0000
+explosive_bolt.w2ent:                        CFXTrack #12 (CFXTrack) : ad
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : ad
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
+explosive_bolt.w2ent:                                name (String) : "ad"
+explosive_bolt.w2ent:                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
+explosive_bolt.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+explosive_bolt.w2ent:                                timeDuration (Float) : 4.0000
+explosive_bolt.w2ent:                                buffername (CName) : Particles
+explosive_bolt.w2ent:                                count (CDynamicInt) : 3
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/explode_arrow/explode_arrow.w2p
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #14
+explosive_bolt.w2ent:                        CFXSimpleSpawner #14 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                1 (CEntityTemplateCookedEffect) : explode_water
+explosive_bolt.w2ent:                    name (CName) : explode_water
+explosive_bolt.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+explosive_bolt.w2ent:                        Bufferdata (CByteArray) : 4285 bytes, MD5: 3f732e4596cfb370039f92bacf18e006
+explosive_bolt.w2ent:                        CFXDefinition #0 (CFXDefinition) : explode_water
+explosive_bolt.w2ent:                            CFXDefinition (CFXDefinition) : explode_water
+explosive_bolt.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+explosive_bolt.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+explosive_bolt.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+explosive_bolt.w2ent:                                length (Float) : 4.0000
+explosive_bolt.w2ent:                                name (CName) : explode_water
+explosive_bolt.w2ent:                                showDistance (Float) : 300.0000
+explosive_bolt.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : explode_water
+explosive_bolt.w2ent:                            CFXTrackGroup (CFXTrackGroup) : explode_water
+explosive_bolt.w2ent:                                name (String) : "explode_water"
+explosive_bolt.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+explosive_bolt.w2ent:                                isExpanded (Bool) : true
+explosive_bolt.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+explosive_bolt.w2ent:                                    Red (Uint8) : 229
+explosive_bolt.w2ent:                                    Green (Uint8) : 153
+explosive_bolt.w2ent:                                    Blue (Uint8) : 204
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 100
+explosive_bolt.w2ent:                        CFXTrack #2 (CFXTrack) : d
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : d
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+explosive_bolt.w2ent:                                name (String) : "d"
+explosive_bolt.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+explosive_bolt.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+explosive_bolt.w2ent:                                timeBegin (Float) : 0.0313
+explosive_bolt.w2ent:                                timeDuration (Float) : 4.0000
+explosive_bolt.w2ent:                                buffername (CName) : Particles
+explosive_bolt.w2ent:                                count (CDynamicInt) : 3
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/explode_arrow/explode_arrow_water.w2p
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+explosive_bolt.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : audio
+explosive_bolt.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+explosive_bolt.w2ent:                                name (String) : "audio"
+explosive_bolt.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+explosive_bolt.w2ent:                                isExpanded (Bool) : true
+explosive_bolt.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+explosive_bolt.w2ent:                                    Red (Uint8) : 166
+explosive_bolt.w2ent:                                    Green (Uint8) : 251
+explosive_bolt.w2ent:                                    Blue (Uint8) : 251
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 100
+explosive_bolt.w2ent:                        CFXTrack #6 (CFXTrack) : explosion
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : explosion
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
+explosive_bolt.w2ent:                                name (String) : "explosion"
+explosive_bolt.w2ent:                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
+explosive_bolt.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+explosive_bolt.w2ent:                                timeBegin (Float) : 0.0051
+explosive_bolt.w2ent:                                buffername (CName) : 
+explosive_bolt.w2ent:                                count (CDynamicInt) : 0
+explosive_bolt.w2ent:                                unk (Uint8) : 0
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+explosive_bolt.w2ent:                                soundEventName (StringAnsi) : cmb_explosive_bolt_explosion
+explosive_bolt.w2ent:                                maxDistance (Float) : 50.0000
+explosive_bolt.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : fx
+explosive_bolt.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+explosive_bolt.w2ent:                                name (String) : "fx"
+explosive_bolt.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
+explosive_bolt.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #13
+explosive_bolt.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #16
+explosive_bolt.w2ent:                                isExpanded (Bool) : true
+explosive_bolt.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+explosive_bolt.w2ent:                                    Red (Uint8) : 142
+explosive_bolt.w2ent:                                    Green (Uint8) : 144
+explosive_bolt.w2ent:                                    Blue (Uint8) : 245
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 100
+explosive_bolt.w2ent:                        CFXTrack #9 (CFXTrack) : flare
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : flare
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemFlare #10
+explosive_bolt.w2ent:                                name (String) : "flare"
+explosive_bolt.w2ent:                        CFXTrackItemFlare #10 (CFXTrackItemFlare) : 
+explosive_bolt.w2ent:                            CFXTrackItemFlare (CFXTrackItemFlare) : <CFXTrackItemFlare>CFXTrackItemFlare
+explosive_bolt.w2ent:                                buffername (CName) : 
+explosive_bolt.w2ent:                                count (CDynamicInt) : 1
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <2> <1.979507> <1.827237> <1.674967> <1.522698> <1.370428> <1.218158> <1.065888> <0.9136
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        1 (Float) : 2.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.9795
+explosive_bolt.w2ent:                                        3 (Float) : 1.8272
+explosive_bolt.w2ent:                                        4 (Float) : 1.6750
+explosive_bolt.w2ent:                                        5 (Float) : 1.5227
+explosive_bolt.w2ent:                                        6 (Float) : 1.3704
+explosive_bolt.w2ent:                                        7 (Float) : 1.2182
+explosive_bolt.w2ent:                                        8 (Float) : 1.0659
+explosive_bolt.w2ent:                                        9 (Float) : 0.9136
+explosive_bolt.w2ent:                                        10 (Float) : 0.7613
+explosive_bolt.w2ent:                                        11 (Float) : 0.6091
+explosive_bolt.w2ent:                                        12 (Float) : 0.4568
+explosive_bolt.w2ent:                                        13 (Float) : 0.3045
+explosive_bolt.w2ent:                                        14 (Float) : 0.1523
+explosive_bolt.w2ent:                                        15 (Float) : 0.0000
+explosive_bolt.w2ent:                                material (handle:CMaterialInstance) : CMaterialInstance #11
+explosive_bolt.w2ent:                                parameters (SFlareParameters) : <SFlareParameters>parameters
+explosive_bolt.w2ent:                                    occlusionExtent (Float) : 0.3000
+explosive_bolt.w2ent:                                    flareRadius (Float) : 6.0000
+explosive_bolt.w2ent:                                    fadeInMaxSpeed (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeOutMaxSpeed (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeInAccel (Float) : 9999.0000
+explosive_bolt.w2ent:                                    fadeOutAccel (Float) : 9999.0000
+explosive_bolt.w2ent:                                    visibilityFullDist (Float) : 40.0000
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #12
+explosive_bolt.w2ent:                        CMaterialInstance #11 (CMaterialInstance) : CMaterialGraph:fx\shaders\flares_fx_mat.w2mg
+explosive_bolt.w2ent:                            CMaterialInstance (CMaterialInstance) : <CMaterialInstance>CMaterialInstance
+explosive_bolt.w2ent:                                baseMaterial (handle:IMaterial) : fx/shaders/flares_fx_mat.w2mg
+explosive_bolt.w2ent:                                InstanceParameters (array:CVariantSizeNameType) : # array:CVariantSizeNameType
+explosive_bolt.w2ent:                                    color (Color) : <Color>color
+explosive_bolt.w2ent:                                        Red (Uint8) : 255
+explosive_bolt.w2ent:                                        Green (Uint8) : 154
+explosive_bolt.w2ent:                                        Blue (Uint8) : 109
+explosive_bolt.w2ent:                                        Alpha (Uint8) : 255
+explosive_bolt.w2ent:                                    blend_far_end (Float) : 50.0000
+explosive_bolt.w2ent:                                    blend_far_start (Float) : 30.0000
+explosive_bolt.w2ent:                                    color_scale (Float) : 3.0000
+explosive_bolt.w2ent:                        CFXSimpleSpawner #12 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                        CFXTrack #13 (CFXTrack) : light
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : light
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #14
+explosive_bolt.w2ent:                                name (String) : "light"
+explosive_bolt.w2ent:                        CFXTrackItemDynamicLight #14 (CFXTrackItemDynamicLight) : DynamicLight
+explosive_bolt.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+explosive_bolt.w2ent:                                timeDuration (Float) : 0.7000
+explosive_bolt.w2ent:                                buffername (CName) : DynamicLight
+explosive_bolt.w2ent:                                count (CDynamicInt) : 2
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <6.666667> <9.629629> <8.888888> <8.148148> <7.407407> <6.666667> <5.925926> <5.185185> 
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        1 (Float) : 6.6667
+explosive_bolt.w2ent:                                        2 (Float) : 9.6296
+explosive_bolt.w2ent:                                        3 (Float) : 8.8889
+explosive_bolt.w2ent:                                        4 (Float) : 8.1481
+explosive_bolt.w2ent:                                        5 (Float) : 7.4074
+explosive_bolt.w2ent:                                        6 (Float) : 6.6667
+explosive_bolt.w2ent:                                        7 (Float) : 5.9259
+explosive_bolt.w2ent:                                        8 (Float) : 5.1852
+explosive_bolt.w2ent:                                        9 (Float) : 4.4444
+explosive_bolt.w2ent:                                        10 (Float) : 3.7037
+explosive_bolt.w2ent:                                        11 (Float) : 2.9630
+explosive_bolt.w2ent:                                        12 (Float) : 2.2222
+explosive_bolt.w2ent:                                        13 (Float) : 1.4815
+explosive_bolt.w2ent:                                        14 (Float) : 0.7407
+explosive_bolt.w2ent:                                        15 (Float) : 0.0000
+explosive_bolt.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                color (Color) : <Color>color
+explosive_bolt.w2ent:                                    Red (Uint8) : 255
+explosive_bolt.w2ent:                                    Green (Uint8) : 200
+explosive_bolt.w2ent:                                    Blue (Uint8) : 150
+explosive_bolt.w2ent:                                    Alpha (Uint8) : 255
+explosive_bolt.w2ent:                                radius (Float) : 25.0000
+explosive_bolt.w2ent:                                brightness (Float) : 50.0000
+explosive_bolt.w2ent:                                attenuation (Float) : 1.0000
+explosive_bolt.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+explosive_bolt.w2ent:                                    flickerStrength (Float) : 0.4000
+explosive_bolt.w2ent:                                    flickerPeriod (Float) : 0.0500
+explosive_bolt.w2ent:                                autoHideDistance (Float) : 40.0000
+explosive_bolt.w2ent:                                autoHideRange (Float) : 10.0000
+explosive_bolt.w2ent:                                colorGroup (EEnvColorGroup) : ECG_FX_FireLight
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #15
+explosive_bolt.w2ent:                        CFXSimpleSpawner #15 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:                                relativePos (Vector) : <Vector>relativePos
+explosive_bolt.w2ent:                                    X (Float) : 0.0000
+explosive_bolt.w2ent:                                    Y (Float) : 0.0000
+explosive_bolt.w2ent:                                    Z (Float) : 1.0000
+explosive_bolt.w2ent:                                    W (Float) : 0.0000
+explosive_bolt.w2ent:                        CFXTrack #16 (CFXTrack) : ad
+explosive_bolt.w2ent:                            CFXTrack (CFXTrack) : ad
+explosive_bolt.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+explosive_bolt.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #17
+explosive_bolt.w2ent:                                name (String) : "ad"
+explosive_bolt.w2ent:                        CFXTrackItemParticles #17 (CFXTrackItemParticles) : Particles
+explosive_bolt.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+explosive_bolt.w2ent:                                timeBegin (Float) : 0.0078
+explosive_bolt.w2ent:                                timeDuration (Float) : 4.0000
+explosive_bolt.w2ent:                                buffername (CName) : Particles
+explosive_bolt.w2ent:                                count (CDynamicInt) : 3
+explosive_bolt.w2ent:                                unk (Uint8) : 1
+explosive_bolt.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+explosive_bolt.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+explosive_bolt.w2ent:                                        0 (Float) : 1.0000
+explosive_bolt.w2ent:                                        2 (Float) : 1.0000
+explosive_bolt.w2ent:                                        3 (Float) : 1.0000
+explosive_bolt.w2ent:                                        4 (Float) : 1.0000
+explosive_bolt.w2ent:                                        5 (Float) : 1.0000
+explosive_bolt.w2ent:                                        6 (Float) : 1.0000
+explosive_bolt.w2ent:                                        7 (Float) : 1.0000
+explosive_bolt.w2ent:                                        8 (Float) : 1.0000
+explosive_bolt.w2ent:                                        9 (Float) : 1.0000
+explosive_bolt.w2ent:                                        10 (Float) : 1.0000
+explosive_bolt.w2ent:                                        11 (Float) : 1.0000
+explosive_bolt.w2ent:                                        12 (Float) : 1.0000
+explosive_bolt.w2ent:                                        13 (Float) : 1.0000
+explosive_bolt.w2ent:                                        14 (Float) : 1.0000
+explosive_bolt.w2ent:                                        15 (Float) : 1.0000
+explosive_bolt.w2ent:                                particleSystem (soft:CParticleSystem) : fx/weapons/explode_arrow/explode_arrow.w2p
+explosive_bolt.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #18
+explosive_bolt.w2ent:                        CFXSimpleSpawner #18 (CFXSimpleSpawner) : 
+explosive_bolt.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+explosive_bolt.w2ent:                                slotNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                                    0 (CName) : explode
+explosive_bolt.w2ent:            cookedEffectsVersion (Uint32) : 1
+explosive_bolt.w2ent:            Unk1 (Uint32) : 0
+explosive_bolt.w2ent:    W3ExplosiveBolt #1 (W3ExplosiveBolt) : arrow
+explosive_bolt.w2ent:        W3ExplosiveBolt (W3ExplosiveBolt) : 
+explosive_bolt.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            streamingDistance (Uint8) : 0
+explosive_bolt.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+explosive_bolt.w2ent:                0 (ptr:CComponent) : CMeshComponent #2
+explosive_bolt.w2ent:                1 (ptr:CComponent) : CTriggerActivatorComponent #3
+explosive_bolt.w2ent:                2 (ptr:CComponent) : CTriggerActivatorComponent #4
+explosive_bolt.w2ent:                3 (ptr:CComponent) : CPhantomComponent #5
+explosive_bolt.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+explosive_bolt.w2ent:                0 (SEntityBufferType1) : 
+explosive_bolt.w2ent:                    ComponentName (CName) : 
+explosive_bolt.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+explosive_bolt.w2ent:            idTag (IdTag) :  f63db1d9-43ce-415a-851b-d19a54660fc6
+explosive_bolt.w2ent:            projectileName (CName) : arrow
+explosive_bolt.w2ent:            projSpeed (Float) : 60.0000
+explosive_bolt.w2ent:            dismemberOnKill (Bool) : true
+explosive_bolt.w2ent:            explosionRange (Float) : 3.0000
+explosive_bolt.w2ent:    CMeshComponent #2 (CMeshComponent) : bolt
+explosive_bolt.w2ent:        CMeshComponent (CMeshComponent) : bolt
+explosive_bolt.w2ent:            guid (CGUID) : 92e5b638-2eca-4910-aeee-f3f24136e3bb
+explosive_bolt.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            name (String) : "bolt"
+explosive_bolt.w2ent:            isStreamed (Bool) : false
+explosive_bolt.w2ent:            boundingBox (Box) : <Box>boundingBox
+explosive_bolt.w2ent:                Min (Vector) : <Vector>Min
+explosive_bolt.w2ent:                    X (Float) : -0.0231
+explosive_bolt.w2ent:                    Y (Float) : -0.0006
+explosive_bolt.w2ent:                    Z (Float) : -0.0123
+explosive_bolt.w2ent:                    W (Float) : 1.0000
+explosive_bolt.w2ent:                Max (Vector) : <Vector>Max
+explosive_bolt.w2ent:                    X (Float) : 0.0231
+explosive_bolt.w2ent:                    Y (Float) : 0.3084
+explosive_bolt.w2ent:                    Z (Float) : 0.0123
+explosive_bolt.w2ent:                    W (Float) : 1.0000
+explosive_bolt.w2ent:            drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows,DF_DynamicGeometry
+explosive_bolt.w2ent:            lightChannels (ELightChannel) : LC_Characters
+explosive_bolt.w2ent:            mesh (handle:CMesh) : items/weapons/projectiles/witcher_bolts/model/witcher_bolt_01.w2mesh
+explosive_bolt.w2ent:    CTriggerActivatorComponent #3 (CTriggerActivatorComponent) : toxic gas activator
+explosive_bolt.w2ent:        CTriggerActivatorComponent (CTriggerActivatorComponent) : toxic gas activator
+explosive_bolt.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+explosive_bolt.w2ent:                X (Float) : 0.0000
+explosive_bolt.w2ent:                Y (Float) : 0.1500
+explosive_bolt.w2ent:                Z (Float) : 0.0000
+explosive_bolt.w2ent:            guid (CGUID) : 6c64bf7d-7862-4dcf-b7b7-a08676028043
+explosive_bolt.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            name (String) : "toxic gas activator"
+explosive_bolt.w2ent:            radius (Float) : 0.2000
+explosive_bolt.w2ent:            height (Float) : 0.2000
+explosive_bolt.w2ent:    CTriggerActivatorComponent #4 (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+explosive_bolt.w2ent:        CTriggerActivatorComponent (CTriggerActivatorComponent) : CTriggerActivatorComponent0
+explosive_bolt.w2ent:            guid (CGUID) : 8d70a5b2-cfa4-4a07-868b-7f00ab5d2ddd
+explosive_bolt.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            name (String) : "CTriggerActivatorComponent0"
+explosive_bolt.w2ent:    CPhantomComponent #5 (CPhantomComponent) : CPhantomComponent0
+explosive_bolt.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+explosive_bolt.w2ent:            guid (CGUID) : f89be687-e410-4236-ab99-b8be39e656a3
+explosive_bolt.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+explosive_bolt.w2ent:            name (String) : "CPhantomComponent0"
+explosive_bolt.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
+explosive_bolt.w2ent:                0 (CName) : Character
+explosive_bolt.w2ent:                1 (CName) : Static
+explosive_bolt.w2ent:                2 (CName) : Debris
+explosive_bolt.w2ent:                3 (CName) : Ragdoll
+explosive_bolt.w2ent:                4 (CName) : Destructible
+explosive_bolt.w2ent:                5 (CName) : Terrain
+explosive_bolt.w2ent:                6 (CName) : Phantom
+explosive_bolt.w2ent:                7 (CName) : Dangles
+explosive_bolt.w2ent:                8 (CName) : Weapon
+explosive_bolt.w2ent:                9 (CName) : Water
+explosive_bolt.w2ent:                10 (CName) : Foliage
+explosive_bolt.w2ent:                11 (CName) : CommunityCollidables
+explosive_bolt.w2ent:                12 (CName) : Boat
+explosive_bolt.w2ent:                13 (CName) : Door
+explosive_bolt.w2ent:                14 (CName) : Platforms
+explosive_bolt.w2ent:                15 (CName) : Corpse
+explosive_bolt.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+explosive_bolt.w2ent:                X (Float) : 0.0596
+explosive_bolt.w2ent:                Y (Float) : 0.0586
+explosive_bolt.w2ent:                Z (Float) : 0.0833
+explosive_bolt.w2ent:                W (Float) : 0.0000

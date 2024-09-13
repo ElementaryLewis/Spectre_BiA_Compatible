@@ -1,0 +1,1320 @@
+q309_rats_sewers.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3Rat
+q309_rats_sewers.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+q309_rats_sewers.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+q309_rats_sewers.w2ent:                0 (handle:CEntityTemplate) : characters/npc_entities/animals/rat_aggressive.w2ent
+q309_rats_sewers.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+q309_rats_sewers.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+q309_rats_sewers.w2ent:                    componentName (CName) : CAppearanceComponent0
+q309_rats_sewers.w2ent:                    className (CName) : CAppearanceComponent
+q309_rats_sewers.w2ent:                    overriddenProperties (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                        0 (CName) : attachmentReplacements
+q309_rats_sewers.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+q309_rats_sewers.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
+q309_rats_sewers.w2ent:                    overriddenProperties (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                        0 (CName) : movementAdjustor
+q309_rats_sewers.w2ent:            properOverrides (Bool) : true
+q309_rats_sewers.w2ent:            entityClass (CName) : W3Rat
+q309_rats_sewers.w2ent:            entityObject (ptr:CEntity) : W3Rat #1
+q309_rats_sewers.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+q309_rats_sewers.w2ent:                0 (CEntityAppearance) : rat_01
+q309_rats_sewers.w2ent:                    name (CName) : rat_01
+q309_rats_sewers.w2ent:                    wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+q309_rats_sewers.w2ent:                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_01__rat.w2ent
+q309_rats_sewers.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
+q309_rats_sewers.w2ent:                0 (EntitySlot) : blood_point
+q309_rats_sewers.w2ent:                    wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:                    name (CName) : blood_point
+q309_rats_sewers.w2ent:                    componentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                    boneName (CName) : torso2
+q309_rats_sewers.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+q309_rats_sewers.w2ent:                0 (ptr:CEntityTemplateParam) : CAIProfile #8
+q309_rats_sewers.w2ent:                1 (ptr:CEntityTemplateParam) : CCharacterStatsParam #9
+q309_rats_sewers.w2ent:                2 (ptr:CEntityTemplateParam) : CAnimGlobalParam #10
+q309_rats_sewers.w2ent:                3 (ptr:CEntityTemplateParam) : CAIProfile #11
+q309_rats_sewers.w2ent:                4 (ptr:CEntityTemplateParam) : CInventoryDefinition #13
+q309_rats_sewers.w2ent:                5 (ptr:CEntityTemplateParam) : CAnimGlobalParam #16
+q309_rats_sewers.w2ent:                6 (ptr:CEntityTemplateParam) : CCharacterStatsParam #17
+q309_rats_sewers.w2ent:                7 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #18
+q309_rats_sewers.w2ent:                8 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #19
+q309_rats_sewers.w2ent:                9 (ptr:CEntityTemplateParam) : CAIProfile #20
+q309_rats_sewers.w2ent:                10 (ptr:CEntityTemplateParam) : CCharacterStatsParam #23
+q309_rats_sewers.w2ent:                11 (ptr:CEntityTemplateParam) : CCharacterControllerParam #24
+q309_rats_sewers.w2ent:                12 (ptr:CEntityTemplateParam) : CMonsterParam #25
+q309_rats_sewers.w2ent:                13 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #26
+q309_rats_sewers.w2ent:                14 (ptr:CEntityTemplateParam) : CAttackRangeParam #65
+q309_rats_sewers.w2ent:                15 (ptr:CEntityTemplateParam) : CAnimGlobalParam #67
+q309_rats_sewers.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
+q309_rats_sewers.w2ent:                W3Rat #0 (W3Rat) : PreviewEntity
+q309_rats_sewers.w2ent:                    W3Rat (W3Rat) : PreviewEntity
+q309_rats_sewers.w2ent:                        tags (TagList) : softLock_Bolt, NoMapPin
+q309_rats_sewers.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+q309_rats_sewers.w2ent:                                0 (CName) : softLock_Bolt
+q309_rats_sewers.w2ent:                                1 (CName) : NoMapPin
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        streamingDistance (Uint8) : 0
+q309_rats_sewers.w2ent:                        name (String) : "PreviewEntity"
+q309_rats_sewers.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+q309_rats_sewers.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
+q309_rats_sewers.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+q309_rats_sewers.w2ent:                            2 (ptr:CComponent) : CInventoryComponent #3
+q309_rats_sewers.w2ent:                            3 (ptr:CComponent) : CGameplayEffectsComponent #4
+q309_rats_sewers.w2ent:                            4 (ptr:CComponent) : CPhantomComponent #5
+q309_rats_sewers.w2ent:                            5 (ptr:CComponent) : CSoundEmitterComponent #6
+q309_rats_sewers.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+q309_rats_sewers.w2ent:                            0 (SEntityBufferType1) : 
+q309_rats_sewers.w2ent:                                ComponentName (CName) : 
+q309_rats_sewers.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+q309_rats_sewers.w2ent:                        idTag (IdTag) :  d689f420-b7bb-4dab-bbb5-e438866c5b19
+q309_rats_sewers.w2ent:                        displayName (LocalizedString) : Rat
+q309_rats_sewers.w2ent:                        isInvulnerable (Bool) : true
+q309_rats_sewers.w2ent:                        level (Int32) : 1
+q309_rats_sewers.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+q309_rats_sewers.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+q309_rats_sewers.w2ent:                        guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "CAppearanceComponent0"
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 166
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 363
+q309_rats_sewers.w2ent:                        forcedAppearance (CName) : rat_01
+q309_rats_sewers.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+q309_rats_sewers.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+q309_rats_sewers.w2ent:                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_EB5E46C7-45EA7E04-117F6B87-651334D9
+q309_rats_sewers.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_EB5E46C7-45EA7E04-117F6B87-651334D9
+q309_rats_sewers.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q309_rats_sewers.w2ent:                                    newName (CName) : CInventoryComponent0
+q309_rats_sewers.w2ent:                                    newClass (CName) : CInventoryComponent
+q309_rats_sewers.w2ent:                                1 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_C6BE4092-4147D9D8-D34D1DA5-D9F6AAA1
+q309_rats_sewers.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_C6BE4092-4147D9D8-D34D1DA5-D9F6AAA1
+q309_rats_sewers.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q309_rats_sewers.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+q309_rats_sewers.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+q309_rats_sewers.w2ent:                            0 (SAppearanceAttachments) : rat_01
+q309_rats_sewers.w2ent:                                appearance (CName) : rat_01
+q309_rats_sewers.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+q309_rats_sewers.w2ent:                                    0 (SAppearanceAttachment) : t_01__rat
+q309_rats_sewers.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
+q309_rats_sewers.w2ent:                                        parentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                                        childClass (CName) : CMeshComponent
+q309_rats_sewers.w2ent:                                        childName (CName) : t_01__rat
+q309_rats_sewers.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+q309_rats_sewers.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+q309_rats_sewers.w2ent:                CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+q309_rats_sewers.w2ent:                            Scale_x (Float) : 1.7500
+q309_rats_sewers.w2ent:                            Scale_y (Float) : 1.7500
+q309_rats_sewers.w2ent:                            Scale_z (Float) : 1.7500
+q309_rats_sewers.w2ent:                        guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "CMovingPhysicalAgentComponent0"
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 395
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 281
+q309_rats_sewers.w2ent:                        skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+q309_rats_sewers.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q309_rats_sewers.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Exploration
+q309_rats_sewers.w2ent:                                instanceName (CName) : Exploration
+q309_rats_sewers.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q309_rats_sewers.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+q309_rats_sewers.w2ent:                                instanceName (CName) : Cutscene
+q309_rats_sewers.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q309_rats_sewers.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+q309_rats_sewers.w2ent:                CInventoryComponent #3 (CInventoryComponent) : CInventoryComponent0
+q309_rats_sewers.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+q309_rats_sewers.w2ent:                        guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "CInventoryComponent0"
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 679
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 458
+q309_rats_sewers.w2ent:                CGameplayEffectsComponent #4 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q309_rats_sewers.w2ent:                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q309_rats_sewers.w2ent:                        guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "CGameplayEffectsComponent0"
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 445
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 182
+q309_rats_sewers.w2ent:                CPhantomComponent #5 (CPhantomComponent) : Character_PhantomComponent
+q309_rats_sewers.w2ent:                    CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+q309_rats_sewers.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
+q309_rats_sewers.w2ent:                            Scale_x (Float) : 2.5445
+q309_rats_sewers.w2ent:                            Scale_y (Float) : 3.0750
+q309_rats_sewers.w2ent:                            Scale_z (Float) : 1.8624
+q309_rats_sewers.w2ent:                            X (Float) : 0.0000
+q309_rats_sewers.w2ent:                            Y (Float) : 0.0000
+q309_rats_sewers.w2ent:                            Z (Float) : 0.1000
+q309_rats_sewers.w2ent:                        guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "Character_PhantomComponent"
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 255
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 354
+q309_rats_sewers.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
+q309_rats_sewers.w2ent:                            X (Float) : 0.0500
+q309_rats_sewers.w2ent:                            Y (Float) : 0.0500
+q309_rats_sewers.w2ent:                            Z (Float) : 0.0500
+q309_rats_sewers.w2ent:                            W (Float) : 1.0000
+q309_rats_sewers.w2ent:                CSoundEmitterComponent #6 (CSoundEmitterComponent) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:                        guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+q309_rats_sewers.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:                        name (String) : "CSoundEmitterComponent0"
+q309_rats_sewers.w2ent:                        isStreamed (Bool) : false
+q309_rats_sewers.w2ent:                        graphPositionX (Int16) : 122
+q309_rats_sewers.w2ent:                        graphPositionY (Int16) : 148
+q309_rats_sewers.w2ent:                        banksDependency (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                            0 (CName) : animals_rat.bnk
+q309_rats_sewers.w2ent:                        maxDistance (Float) : 31.0000
+q309_rats_sewers.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+q309_rats_sewers.w2ent:                0 (CEntityTemplateCookedEffect) : light_hit
+q309_rats_sewers.w2ent:                    name (CName) : light_hit
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 1655 bytes, MD5: b608b8447e9c90f7fda28783e4c36461
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : light_hit
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                length (Float) : 6.0231
+q309_rats_sewers.w2ent:                                name (CName) : light_hit
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                                name (String) : "blood_fx"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 142
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 194
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 224
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : fx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q309_rats_sewers.w2ent:                                name (String) : "fx"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 1.9198
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : blood_point
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q309_rats_sewers.w2ent:                                    Pitch (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Yaw (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Roll (Float) : 90.0000
+q309_rats_sewers.w2ent:                1 (CEntityTemplateCookedEffect) : heavy_hit
+q309_rats_sewers.w2ent:                    name (CName) : heavy_hit
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 2034 bytes, MD5: 826a843c527df5f963b87e239711cb36
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+q309_rats_sewers.w2ent:                                length (Float) : 5.9196
+q309_rats_sewers.w2ent:                                name (CName) : heavy_hit
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+q309_rats_sewers.w2ent:                                name (String) : "sounds"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 143
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 243
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 184
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q309_rats_sewers.w2ent:                                name (String) : "sfx"
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.0100
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_blood_outflow_small_short
+q309_rats_sewers.w2ent:                                maxDistance (Float) : 6.0000
+q309_rats_sewers.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                                name (String) : "blood_fx"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 142
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 194
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 224
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #5 (CFXTrack) : fx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : fx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+q309_rats_sewers.w2ent:                                name (String) : "fx"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.0039
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 1.9198
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.7000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/heavy_hit/blood_heavy_hit.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : blood_point
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : blood_point
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q309_rats_sewers.w2ent:                                    Pitch (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Yaw (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Roll (Float) : 90.0000
+q309_rats_sewers.w2ent:                2 (CEntityTemplateCookedEffect) : critical_burning
+q309_rats_sewers.w2ent:                    name (CName) : critical_burning
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 2796 bytes, MD5: b4b414bc5bec82e74a908890cda5775c
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_burning
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : critical_burning
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+q309_rats_sewers.w2ent:                                length (Float) : 6.0109
+q309_rats_sewers.w2ent:                                loopStart (Float) : 0.5216
+q309_rats_sewers.w2ent:                                name (CName) : critical_burning
+q309_rats_sewers.w2ent:                                showDistance (Float) : 50.0000
+q309_rats_sewers.w2ent:                                isLooped (Bool) : true
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
+q309_rats_sewers.w2ent:                                name (String) : "sounds"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 232
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 132
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 227
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+q309_rats_sewers.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+q309_rats_sewers.w2ent:                                    3 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #6
+q309_rats_sewers.w2ent:                                name (String) : "sfx"
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.0157
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_begin
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.1662
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 1.0737
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop_end
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #6 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 1.1999
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_fire_burning_strong_end
+q309_rats_sewers.w2ent:                        CFXTrackGroup #7 (CFXTrackGroup) : leg
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : leg
+q309_rats_sewers.w2ent:                                name (String) : "leg"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #8
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #11
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 190
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 254
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 242
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #8 (CFXTrack) : 4
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : 4
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+q309_rats_sewers.w2ent:                                name (String) : "4"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 6.1973
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 3.0070
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.8704
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6770
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.4836
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.2901
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.0967
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/man_base/critical/arson/fire_detail_mat.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                parentSlotName (CName) : spine3
+q309_rats_sewers.w2ent:                                freeRotation (Bool) : true
+q309_rats_sewers.w2ent:                        CFXTrack #11 (CFXTrack) : 3
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : 3
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
+q309_rats_sewers.w2ent:                                name (String) : "3"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.0354
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 3.0070
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.8704
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6770
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.4836
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.2901
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.0967
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/animals/boids/arson_boids_fx1.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                parentSlotName (CName) : torso2
+q309_rats_sewers.w2ent:                                freeRotation (Bool) : true
+q309_rats_sewers.w2ent:                3 (CEntityTemplateCookedEffect) : light_hit_back
+q309_rats_sewers.w2ent:                    name (CName) : light_hit_back
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: 5f0c1fc4fe89c5a73b86703b680d7ee8
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit_back
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : light_hit_back
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                length (Float) : 6.0231
+q309_rats_sewers.w2ent:                                name (CName) : light_hit_back
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                                name (String) : "blood_fx"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 142
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 194
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 224
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : fx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q309_rats_sewers.w2ent:                                name (String) : "fx"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 1.9198
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : blood_point
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q309_rats_sewers.w2ent:                                    Pitch (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Yaw (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Roll (Float) : 90.0000
+q309_rats_sewers.w2ent:                4 (CEntityTemplateCookedEffect) : heavy_hit_back
+q309_rats_sewers.w2ent:                    name (CName) : heavy_hit_back
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 1660 bytes, MD5: f5e9f13450fc07e76d78bc593c0293ee
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit_back
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit_back
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                length (Float) : 6.0231
+q309_rats_sewers.w2ent:                                name (CName) : heavy_hit_back
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+q309_rats_sewers.w2ent:                                name (String) : "blood_fx"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 142
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 194
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 224
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : fx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : fx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+q309_rats_sewers.w2ent:                                name (String) : "fx"
+q309_rats_sewers.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+q309_rats_sewers.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 1.9198
+q309_rats_sewers.w2ent:                                buffername (CName) : Particles
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 3
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        7 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        8 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        9 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.6000
+q309_rats_sewers.w2ent:                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+q309_rats_sewers.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+q309_rats_sewers.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+q309_rats_sewers.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+q309_rats_sewers.w2ent:                                componentName (CName) : blood_point
+q309_rats_sewers.w2ent:                                copyRotation (Bool) : false
+q309_rats_sewers.w2ent:                                attach (Bool) : true
+q309_rats_sewers.w2ent:                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+q309_rats_sewers.w2ent:                                    Pitch (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Yaw (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    Roll (Float) : 90.0000
+q309_rats_sewers.w2ent:                5 (CEntityTemplateCookedEffect) : critical_frozen
+q309_rats_sewers.w2ent:                    name (CName) : critical_frozen
+q309_rats_sewers.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+q309_rats_sewers.w2ent:                        Bufferdata (CByteArray) : 2044 bytes, MD5: 673e5167e08627318cbcc2dfe2493424
+q309_rats_sewers.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_frozen
+q309_rats_sewers.w2ent:                            CFXDefinition (CFXDefinition) : critical_frozen
+q309_rats_sewers.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+q309_rats_sewers.w2ent:                                length (Float) : 4.5000
+q309_rats_sewers.w2ent:                                loopStart (Float) : 1.9376
+q309_rats_sewers.w2ent:                                loopEnd (Float) : 2.4989
+q309_rats_sewers.w2ent:                                name (CName) : critical_frozen
+q309_rats_sewers.w2ent:                                showDistance (Float) : 35.0000
+q309_rats_sewers.w2ent:                                isLooped (Bool) : true
+q309_rats_sewers.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
+q309_rats_sewers.w2ent:                                name (String) : "audio"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 200
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 186
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 244
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : sfx
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+q309_rats_sewers.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+q309_rats_sewers.w2ent:                                name (String) : "sfx"
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 0.0155
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_start
+q309_rats_sewers.w2ent:                                maxDistance (Float) : 25.0000
+q309_rats_sewers.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+q309_rats_sewers.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+q309_rats_sewers.w2ent:                                timeBegin (Float) : 2.6152
+q309_rats_sewers.w2ent:                                buffername (CName) : 
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 0
+q309_rats_sewers.w2ent:                                unk (Uint8) : 0
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+q309_rats_sewers.w2ent:                                soundEventName (StringAnsi) : fx_critical_frozen_loop_stop
+q309_rats_sewers.w2ent:                                maxDistance (Float) : 25.0000
+q309_rats_sewers.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+q309_rats_sewers.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
+q309_rats_sewers.w2ent:                                name (String) : "fx"
+q309_rats_sewers.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
+q309_rats_sewers.w2ent:                                isExpanded (Bool) : true
+q309_rats_sewers.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
+q309_rats_sewers.w2ent:                                    Red (Uint8) : 232
+q309_rats_sewers.w2ent:                                    Green (Uint8) : 241
+q309_rats_sewers.w2ent:                                    Blue (Uint8) : 164
+q309_rats_sewers.w2ent:                                    Alpha (Uint8) : 100
+q309_rats_sewers.w2ent:                        CFXTrack #6 (CFXTrack) : asd
+q309_rats_sewers.w2ent:                            CFXTrack (CFXTrack) : asd
+q309_rats_sewers.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+q309_rats_sewers.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+q309_rats_sewers.w2ent:                                name (String) : "asd"
+q309_rats_sewers.w2ent:                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+q309_rats_sewers.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+q309_rats_sewers.w2ent:                                timeDuration (Float) : 4.3039
+q309_rats_sewers.w2ent:                                buffername (CName) : MaterialOverride
+q309_rats_sewers.w2ent:                                count (CDynamicInt) : 4
+q309_rats_sewers.w2ent:                                unk (Uint8) : 1
+q309_rats_sewers.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0.2> <0.2791193> <0.3582385> <0.4373578> <0.5383589> <0.7225504> <0.9067419> <1> <1> <1> <0
+q309_rats_sewers.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 0.2000
+q309_rats_sewers.w2ent:                                        1 (Float) : 0.2791
+q309_rats_sewers.w2ent:                                        2 (Float) : 0.3582
+q309_rats_sewers.w2ent:                                        3 (Float) : 0.4374
+q309_rats_sewers.w2ent:                                        4 (Float) : 0.5384
+q309_rats_sewers.w2ent:                                        5 (Float) : 0.7226
+q309_rats_sewers.w2ent:                                        6 (Float) : 0.9067
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 0.7287
+q309_rats_sewers.w2ent:                                        11 (Float) : 0.4557
+q309_rats_sewers.w2ent:                                        12 (Float) : 0.1827
+q309_rats_sewers.w2ent:                                        13 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 0.0000
+q309_rats_sewers.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+q309_rats_sewers.w2ent:                                        0 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        2 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        3 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        4 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        5 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        6 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        7 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        8 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        9 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        10 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        11 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        12 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        13 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        14 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                        15 (Float) : 1.0000
+q309_rats_sewers.w2ent:                                material (handle:IMaterial) : fx/gameplay/states/freezing/freezing_shader_old.w2mg
+q309_rats_sewers.w2ent:                                drawOriginal (Bool) : true
+q309_rats_sewers.w2ent:                                forceMeshAlternatives (Bool) : true
+q309_rats_sewers.w2ent:            cookedEffectsVersion (Uint32) : 1
+q309_rats_sewers.w2ent:            Unk1 (Uint32) : 0
+q309_rats_sewers.w2ent:    W3Rat #1 (W3Rat) : 
+q309_rats_sewers.w2ent:        W3Rat (W3Rat) : 
+q309_rats_sewers.w2ent:            tags (TagList) : softLock_Bolt, NoMapPin
+q309_rats_sewers.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+q309_rats_sewers.w2ent:                    0 (CName) : softLock_Bolt
+q309_rats_sewers.w2ent:                    1 (CName) : NoMapPin
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            streamingDistance (Uint8) : 0
+q309_rats_sewers.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
+q309_rats_sewers.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
+q309_rats_sewers.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #3
+q309_rats_sewers.w2ent:                2 (ptr:CComponent) : CInventoryComponent #4
+q309_rats_sewers.w2ent:                3 (ptr:CComponent) : CGameplayEffectsComponent #5
+q309_rats_sewers.w2ent:                4 (ptr:CComponent) : CPhantomComponent #6
+q309_rats_sewers.w2ent:                5 (ptr:CComponent) : CSoundEmitterComponent #7
+q309_rats_sewers.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+q309_rats_sewers.w2ent:                0 (SEntityBufferType1) : 
+q309_rats_sewers.w2ent:                    ComponentName (CName) : 
+q309_rats_sewers.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+q309_rats_sewers.w2ent:            idTag (IdTag) :  d689f420-b7bb-4dab-bbb5-e438866c5b19
+q309_rats_sewers.w2ent:            displayName (LocalizedString) : Rat
+q309_rats_sewers.w2ent:            isInvulnerable (Bool) : true
+q309_rats_sewers.w2ent:            level (Int32) : 1
+q309_rats_sewers.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+q309_rats_sewers.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+q309_rats_sewers.w2ent:            guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "CAppearanceComponent0"
+q309_rats_sewers.w2ent:            forcedAppearance (CName) : rat_01
+q309_rats_sewers.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+q309_rats_sewers.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+q309_rats_sewers.w2ent:                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_EB5E46C7-45EA7E04-117F6B87-651334D9
+q309_rats_sewers.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_EB5E46C7-45EA7E04-117F6B87-651334D9
+q309_rats_sewers.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q309_rats_sewers.w2ent:                        newName (CName) : CInventoryComponent0
+q309_rats_sewers.w2ent:                        newClass (CName) : CInventoryComponent
+q309_rats_sewers.w2ent:                    1 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_C6BE4092-4147D9D8-D34D1DA5-D9F6AAA1
+q309_rats_sewers.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_C6BE4092-4147D9D8-D34D1DA5-D9F6AAA1
+q309_rats_sewers.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q309_rats_sewers.w2ent:                        newName (CName) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:                        newClass (CName) : CSoundEmitterComponent
+q309_rats_sewers.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+q309_rats_sewers.w2ent:                0 (SAppearanceAttachments) : rat_01
+q309_rats_sewers.w2ent:                    appearance (CName) : rat_01
+q309_rats_sewers.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+q309_rats_sewers.w2ent:                        0 (SAppearanceAttachment) : t_01__rat
+q309_rats_sewers.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
+q309_rats_sewers.w2ent:                            parentName (CName) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:                            childClass (CName) : CMeshComponent
+q309_rats_sewers.w2ent:                            childName (CName) : t_01__rat
+q309_rats_sewers.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+q309_rats_sewers.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+q309_rats_sewers.w2ent:    CMovingPhysicalAgentComponent #3 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+q309_rats_sewers.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+q309_rats_sewers.w2ent:                Scale_x (Float) : 1.7500
+q309_rats_sewers.w2ent:                Scale_y (Float) : 1.7500
+q309_rats_sewers.w2ent:                Scale_z (Float) : 1.7500
+q309_rats_sewers.w2ent:            guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "CMovingPhysicalAgentComponent0"
+q309_rats_sewers.w2ent:            skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+q309_rats_sewers.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q309_rats_sewers.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+q309_rats_sewers.w2ent:                    instanceName (CName) : Exploration
+q309_rats_sewers.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q309_rats_sewers.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+q309_rats_sewers.w2ent:                    instanceName (CName) : Cutscene
+q309_rats_sewers.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q309_rats_sewers.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+q309_rats_sewers.w2ent:    CInventoryComponent #4 (CInventoryComponent) : CInventoryComponent0
+q309_rats_sewers.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+q309_rats_sewers.w2ent:            guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "CInventoryComponent0"
+q309_rats_sewers.w2ent:    CGameplayEffectsComponent #5 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q309_rats_sewers.w2ent:        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+q309_rats_sewers.w2ent:            guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "CGameplayEffectsComponent0"
+q309_rats_sewers.w2ent:    CPhantomComponent #6 (CPhantomComponent) : Character_PhantomComponent
+q309_rats_sewers.w2ent:        CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+q309_rats_sewers.w2ent:            transform (EngineTransform) : <EngineTransform>transform
+q309_rats_sewers.w2ent:                Scale_x (Float) : 2.5445
+q309_rats_sewers.w2ent:                Scale_y (Float) : 3.0750
+q309_rats_sewers.w2ent:                Scale_z (Float) : 1.8624
+q309_rats_sewers.w2ent:                X (Float) : 0.0000
+q309_rats_sewers.w2ent:                Y (Float) : 0.0000
+q309_rats_sewers.w2ent:                Z (Float) : 0.1000
+q309_rats_sewers.w2ent:            guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "Character_PhantomComponent"
+q309_rats_sewers.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
+q309_rats_sewers.w2ent:                X (Float) : 0.0500
+q309_rats_sewers.w2ent:                Y (Float) : 0.0500
+q309_rats_sewers.w2ent:                Z (Float) : 0.0500
+q309_rats_sewers.w2ent:                W (Float) : 1.0000
+q309_rats_sewers.w2ent:    CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+q309_rats_sewers.w2ent:            guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+q309_rats_sewers.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q309_rats_sewers.w2ent:            name (String) : "CSoundEmitterComponent0"
+q309_rats_sewers.w2ent:            isStreamed (Bool) : false
+q309_rats_sewers.w2ent:            banksDependency (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                0 (CName) : animals_rat.bnk
+q309_rats_sewers.w2ent:            maxDistance (Float) : 31.0000
+q309_rats_sewers.w2ent:    CAIProfile #8 (CAIProfile) : q309_rat
+q309_rats_sewers.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q309_rats_sewers.w2ent:            attitudeGroup (CName) : q309_rat
+q309_rats_sewers.w2ent:    CCharacterStatsParam #9 (CCharacterStatsParam) : additional abilities
+q309_rats_sewers.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional abilities
+q309_rats_sewers.w2ent:            name (String) : "additional abilities"
+q309_rats_sewers.w2ent:            abilities (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                0 (CName) : q309_rats
+q309_rats_sewers.w2ent:    CAnimGlobalParam #10 (CAnimGlobalParam) : sfx_rat
+q309_rats_sewers.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q309_rats_sewers.w2ent:            sfxTag (CName) : sfx_rat
+q309_rats_sewers.w2ent:    CAIProfile #11 (CAIProfile) : hostile_to_player
+q309_rats_sewers.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #12
+q309_rats_sewers.w2ent:            attitudeGroup (CName) : hostile_to_player
+q309_rats_sewers.w2ent:    CAISenseParams #12 (CAISenseParams) : 
+q309_rats_sewers.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q309_rats_sewers.w2ent:    CInventoryDefinition #13 (CInventoryDefinition) : 
+q309_rats_sewers.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+q309_rats_sewers.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #14
+q309_rats_sewers.w2ent:    CInventoryDefinitionEntry #14 (CInventoryDefinitionEntry) : monster_weapon
+q309_rats_sewers.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+q309_rats_sewers.w2ent:            category (CName) : monster_weapon
+q309_rats_sewers.w2ent:            isMount (Bool) : true
+q309_rats_sewers.w2ent:            isLootable (Bool) : false
+q309_rats_sewers.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #15
+q309_rats_sewers.w2ent:    CInventoryInitializerUniform #15 (CInventoryInitializerUniform) : mon_rat_weapon
+q309_rats_sewers.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+q309_rats_sewers.w2ent:            itemName (CName) : mon_rat_weapon
+q309_rats_sewers.w2ent:    CAnimGlobalParam #16 (CAnimGlobalParam) : sfx_rat
+q309_rats_sewers.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            sfxTag (CName) : sfx_rat
+q309_rats_sewers.w2ent:    CCharacterStatsParam #17 (CCharacterStatsParam) : additional abilities
+q309_rats_sewers.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional abilities
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "additional abilities"
+q309_rats_sewers.w2ent:            abilities (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                0 (CName) : q100_Ratzz
+q309_rats_sewers.w2ent:    CAnimBehaviorsParam #18 (CAnimBehaviorsParam) : animal
+q309_rats_sewers.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : animal
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "animal"
+q309_rats_sewers.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+q309_rats_sewers.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+q309_rats_sewers.w2ent:                0 (SBehaviorGraphInstanceSlot) : Exploration
+q309_rats_sewers.w2ent:                    instanceName (CName) : Exploration
+q309_rats_sewers.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+q309_rats_sewers.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
+q309_rats_sewers.w2ent:                    instanceName (CName) : Cutscene
+q309_rats_sewers.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+q309_rats_sewers.w2ent:    CAnimAnimsetsParam #19 (CAnimAnimsetsParam) : animal
+q309_rats_sewers.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : animal
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "animal"
+q309_rats_sewers.w2ent:            componentName (String) : "CMovingPhysicalAgentComponent0"
+q309_rats_sewers.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+q309_rats_sewers.w2ent:                0 (handle:CSkeletalAnimationSet) : animations/animals/rat/rat_animation.w2anims
+q309_rats_sewers.w2ent:    CAIProfile #20 (CAIProfile) : AG_small_animals
+q309_rats_sewers.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #21
+q309_rats_sewers.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #22
+q309_rats_sewers.w2ent:            attitudeGroup (CName) : AG_small_animals
+q309_rats_sewers.w2ent:    CAISenseParams #21 (CAISenseParams) : 
+q309_rats_sewers.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q309_rats_sewers.w2ent:            enabled (Bool) : false
+q309_rats_sewers.w2ent:            rangeMax (Float) : 6.0000
+q309_rats_sewers.w2ent:            rangeAngle (Float) : 360.0000
+q309_rats_sewers.w2ent:            testLOS (Bool) : false
+q309_rats_sewers.w2ent:    CAISenseParams #22 (CAISenseParams) : 
+q309_rats_sewers.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+q309_rats_sewers.w2ent:            rangeMax (Float) : 6.0000
+q309_rats_sewers.w2ent:            rangeAngle (Float) : 360.0000
+q309_rats_sewers.w2ent:            testLOS (Bool) : false
+q309_rats_sewers.w2ent:    CCharacterStatsParam #23 (CCharacterStatsParam) : rat_params
+q309_rats_sewers.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : rat_params
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "rat_params"
+q309_rats_sewers.w2ent:            abilities (array:CName) : # array:CName
+q309_rats_sewers.w2ent:                0 (CName) : animal_rat_base
+q309_rats_sewers.w2ent:                1 (CName) : NPCDoNotGainBoost
+q309_rats_sewers.w2ent:                2 (CName) : NoAdaptBalance
+q309_rats_sewers.w2ent:    CCharacterControllerParam #24 (CCharacterControllerParam) : rat_character_controller_params
+q309_rats_sewers.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : rat_character_controller_params
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "rat_character_controller_params"
+q309_rats_sewers.w2ent:            height (Float) : 0.9000
+q309_rats_sewers.w2ent:            physicalRadius (Float) : 0.2000
+q309_rats_sewers.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_0
+q309_rats_sewers.w2ent:    CMonsterParam #25 (CMonsterParam) : monster_params
+q309_rats_sewers.w2ent:        CMonsterParam (CMonsterParam) : monster_params
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "monster_params"
+q309_rats_sewers.w2ent:            canBeStrafed (Bool) : false
+q309_rats_sewers.w2ent:            monsterCategory (Int32) : 14
+q309_rats_sewers.w2ent:            soundMonsterName (CName) : Rat
+q309_rats_sewers.w2ent:    CAIBaseTreeTemplateParam #26 (CAIBaseTreeTemplateParam) : 
+q309_rats_sewers.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #27
+q309_rats_sewers.w2ent:    CAIMonsterBase #27 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIRatDefaults #28
+q309_rats_sewers.w2ent:    CAIRatDefaults #28 (CAIRatDefaults) : 
+q309_rats_sewers.w2ent:        CAIRatDefaults (CAIRatDefaults) : <CAIRatDefaults>CAIRatDefaults
+q309_rats_sewers.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #29
+q309_rats_sewers.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #31
+q309_rats_sewers.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #47
+q309_rats_sewers.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #63
+q309_rats_sewers.w2ent:    CAIMonsterAxii #29 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #30
+q309_rats_sewers.w2ent:    CAIMonsterAxiiParams #30 (CAIMonsterAxiiParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+q309_rats_sewers.w2ent:    CAIMonsterIdleDecorator #31 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #32
+q309_rats_sewers.w2ent:    CAIMonsterIdleDecoratorParams #32 (CAIMonsterIdleDecoratorParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+q309_rats_sewers.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #33
+q309_rats_sewers.w2ent:    CAIMonsterReactionsTree #33 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #34
+q309_rats_sewers.w2ent:    CAIMonsterReactionsTreeParams #34 (CAIMonsterReactionsTreeParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+q309_rats_sewers.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+q309_rats_sewers.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #35
+q309_rats_sewers.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #37
+q309_rats_sewers.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #39
+q309_rats_sewers.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #41
+q309_rats_sewers.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #43
+q309_rats_sewers.w2ent:                5 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #45
+q309_rats_sewers.w2ent:    CAIActionSearchForTarget #35 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #36
+q309_rats_sewers.w2ent:    CAINpcReactionSearchTarget #36 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+q309_rats_sewers.w2ent:    CAIActionAllySearchesTarget #37 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #38
+q309_rats_sewers.w2ent:    CAINpcReactionJoinSearchForTarget #38 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+q309_rats_sewers.w2ent:    CAIActionPlayWithTarget #39 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #40
+q309_rats_sewers.w2ent:    CAINpcReactionPlayWithTarget #40 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+q309_rats_sewers.w2ent:    CAIActionMoveInPack #41 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #42
+q309_rats_sewers.w2ent:    CAINpcReactionMoveInPack #42 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+q309_rats_sewers.w2ent:    CAIActionRunWildInPack #43 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #44
+q309_rats_sewers.w2ent:    CAINpcReactionRunWildInPack #44 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+q309_rats_sewers.w2ent:    CAIActionLeadEscape #45 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #46
+q309_rats_sewers.w2ent:            actionEventName (CName) : FireDanger
+q309_rats_sewers.w2ent:    CAINpcReactionLeadEscape #46 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:    CAIMonsterCombat #47 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #48
+q309_rats_sewers.w2ent:    CAIMonsterCombatParams #48 (CAIMonsterCombatParams) : MonsterHitReaction
+q309_rats_sewers.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+q309_rats_sewers.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIRatCombatLogic #49
+q309_rats_sewers.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #51
+q309_rats_sewers.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
+q309_rats_sewers.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #53
+q309_rats_sewers.w2ent:    CAIRatCombatLogic #49 (CAIRatCombatLogic) : CBehTree:gameplay\trees\monsters\monster_rat_logic.w2behtree
+q309_rats_sewers.w2ent:        CAIRatCombatLogic (CAIRatCombatLogic) : <CAIRatCombatLogic>CAIRatCombatLogic
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/monsters/monster_rat_logic.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #50
+q309_rats_sewers.w2ent:    CAIMonsterCombatLogicParams #50 (CAIMonsterCombatLogicParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+q309_rats_sewers.w2ent:    CAIMonsterDamageReactionTree #51 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #52
+q309_rats_sewers.w2ent:    CAIDamageReactionTreeParams #52 (CAIDamageReactionTreeParams) : 
+q309_rats_sewers.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+q309_rats_sewers.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
+q309_rats_sewers.w2ent:    CAIMonsterCombatReactionsTree #53 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #54
+q309_rats_sewers.w2ent:    CAIMonsterReactionsTreeParams #54 (CAIMonsterReactionsTreeParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+q309_rats_sewers.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+q309_rats_sewers.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #55
+q309_rats_sewers.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #57
+q309_rats_sewers.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #59
+q309_rats_sewers.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #45
+q309_rats_sewers.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #61
+q309_rats_sewers.w2ent:    CAIActionLeadEscape #55 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #56
+q309_rats_sewers.w2ent:    CAINpcReactionLeadEscape #56 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:    CAIActionLeadEscape #57 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #58
+q309_rats_sewers.w2ent:            actionEventName (CName) : FearsomeEvent
+q309_rats_sewers.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
+q309_rats_sewers.w2ent:    CAINpcReactionLeadEscape #58 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:    CAIActionEscapeInPack #59 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #60
+q309_rats_sewers.w2ent:    CAINpcReactionEscapeInPack #60 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+q309_rats_sewers.w2ent:    CAIActionLeadEscape #61 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q309_rats_sewers.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+q309_rats_sewers.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #62
+q309_rats_sewers.w2ent:            actionEventName (CName) : CastSignAction
+q309_rats_sewers.w2ent:    CAINpcReactionLeadEscape #62 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+q309_rats_sewers.w2ent:    CAIMonsterDeath #63 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+q309_rats_sewers.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+q309_rats_sewers.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+q309_rats_sewers.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #64
+q309_rats_sewers.w2ent:    CAIMonsterDeathParams #64 (CAIMonsterDeathParams) : 
+q309_rats_sewers.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+q309_rats_sewers.w2ent:    CAttackRangeParam #65 (CAttackRangeParam) : attack_ranges
+q309_rats_sewers.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            name (String) : "attack_ranges"
+q309_rats_sewers.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+q309_rats_sewers.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #66
+q309_rats_sewers.w2ent:    CConeAttackRange #66 (CConeAttackRange) : basic_strike
+q309_rats_sewers.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
+q309_rats_sewers.w2ent:            name (CName) : basic_strike
+q309_rats_sewers.w2ent:            rangeMax (Float) : 0.5000
+q309_rats_sewers.w2ent:            height (Float) : 0.4000
+q309_rats_sewers.w2ent:            rangeAngle (Float) : 70.0000
+q309_rats_sewers.w2ent:    CAnimGlobalParam #67 (CAnimGlobalParam) : sfx_rat
+q309_rats_sewers.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+q309_rats_sewers.w2ent:            wasIncluded (Bool) : true
+q309_rats_sewers.w2ent:            sfxTag (CName) : sfx_rat
