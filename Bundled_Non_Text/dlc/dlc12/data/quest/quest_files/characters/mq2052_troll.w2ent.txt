@@ -99,6 +99,8 @@ mq2052_troll.w2ent:                16 (ptr:CEntityTemplateParam) : CBuffImmunity
 mq2052_troll.w2ent:                17 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #41
 mq2052_troll.w2ent:                18 (ptr:CEntityTemplateParam) : CAnimMimicParam #84
 mq2052_troll.w2ent:                19 (ptr:CEntityTemplateParam) : CEntityDismemberment #85
+mq2052_troll.w2ent:                20 (ptr:CEntityTemplateParam) : CInventoryDefinition #87
+mq2052_troll.w2ent:                21 (ptr:CEntityTemplateParam) : CR4LootParam #90
 mq2052_troll.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 mq2052_troll.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 mq2052_troll.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -125,7 +127,7 @@ mq2052_troll.w2ent:                            0 (SEntityBufferType1) :
 mq2052_troll.w2ent:                                ComponentName (CName) : 
 mq2052_troll.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 mq2052_troll.w2ent:                        idTag (IdTag) :  af082371-c107-4aa4-abbe-987aa171cb38
-mq2052_troll.w2ent:                        displayName (LocalizedString) : Ice Troll
+mq2052_troll.w2ent:                        displayName (LocalizedString) : Poldy
 mq2052_troll.w2ent:                        voiceTag (CName) : TROLL_3
 mq2052_troll.w2ent:                        level (Int32) : 28
 mq2052_troll.w2ent:                CInteractionComponent #1 (CInteractionComponent) : talk
@@ -6560,7 +6562,7 @@ mq2052_troll.w2ent:                0 (SEntityBufferType1) :
 mq2052_troll.w2ent:                    ComponentName (CName) : 
 mq2052_troll.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 mq2052_troll.w2ent:            idTag (IdTag) :  af082371-c107-4aa4-abbe-987aa171cb38
-mq2052_troll.w2ent:            displayName (LocalizedString) : Ice Troll
+mq2052_troll.w2ent:            displayName (LocalizedString) : Poldy
 mq2052_troll.w2ent:            voiceTag (CName) : TROLL_3
 mq2052_troll.w2ent:            level (Int32) : 28
 mq2052_troll.w2ent:    CInteractionComponent #2 (CInteractionComponent) : talk
@@ -7202,3 +7204,22 @@ mq2052_troll.w2ent:                    X (Float) : 0.0000
 mq2052_troll.w2ent:                    Y (Float) : -0.2000
 mq2052_troll.w2ent:                depthFadePower (Float) : -0.2000
 mq2052_troll.w2ent:                applyToFillMesh (Bool) : false
+mq2052_troll.w2ent:    CInventoryDefinition #87 (CInventoryDefinition) : 
+mq2052_troll.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+mq2052_troll.w2ent:            wasIncluded (Bool) : true
+mq2052_troll.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+mq2052_troll.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #88
+mq2052_troll.w2ent:    CInventoryDefinitionEntry #88 (CInventoryDefinitionEntry) : alchemy_ingredient
+mq2052_troll.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+mq2052_troll.w2ent:            category (CName) : alchemy_ingredient
+mq2052_troll.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #89
+mq2052_troll.w2ent:    CInventoryInitializerUniform #89 (CInventoryInitializerUniform) : Troll mutagen
+mq2052_troll.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+mq2052_troll.w2ent:            itemName (CName) : Troll mutagen
+mq2052_troll.w2ent:    CR4LootParam #90 (CR4LootParam) : loot
+mq2052_troll.w2ent:        CR4LootParam (CR4LootParam) : loot
+mq2052_troll.w2ent:            wasIncluded (Bool) : true
+mq2052_troll.w2ent:            name (String) : "loot"
+mq2052_troll.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+mq2052_troll.w2ent:                0 (CR4LootContainerParam) : _monster__Ice troll
+mq2052_troll.w2ent:                    name (CName) : _monster__Ice troll

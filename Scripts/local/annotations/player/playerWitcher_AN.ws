@@ -306,11 +306,8 @@ private saved var enemiesKilledByType				: array<int>;
 	{
 		
 		ForceSetStat(BCS_Toxicity, 0);
-		wolf = GetBuff(EET_WolfHour);
-		if(wolf)
-			exceptions.PushBack(wolf);
 			
-		RemoveAllPotionEffects(exceptions);
+		RemoveAllPotionEffects();
 		
 
 		AddTimer('NGE_FixSkillPoints',1.0f,false);
@@ -6312,4 +6309,105 @@ var blockSprintTimestamp : float;
 	FactsRemove( "StandAloneEP2" );
 	
 	theGame.GetJournalManager().ForceUntrackingQuestForEP1Savegame();
+}
+
+@wrapMethod( W3PlayerWitcher ) function OnSpawned( spawnData : SEntitySpawnData )
+{
+	wrappedMethod(spawnData);
+
+	if( spawnData.restored )
+	{
+		AddTimer('spectreDelayedLevelUpEquipped', 0.1, false);
+	}
+}
+
+@addMethod( W3PlayerWitcher ) timer function spectreDelayedLevelUpEquipped( dt : float, id : int )
+{
+	spectreLevelUpEquipped();
+}
+
+@wrapMethod( W3PlayerWitcher ) function EquipItemInGivenSlot(item : SItemUniqueId, slot : EEquipmentSlots, ignoreMounting : bool, optional toHand : bool) : bool
+{
+	wrappedMethod(item, slot, ignoreMounting, toHand);
+
+	spectreLevelUpEquipped();
+
+	return true;
+}
+
+@wrapMethod( W3PlayerWitcher ) function OnLevelGained(currentLevel : int, show : bool)
+{
+	spectreLevelUpEquipped();
+
+	wrappedMethod(currentLevel, show);
+}
+
+function spectreLevelUpEquipped()
+{
+	var inventory : CInventoryComponent;
+	var item : SItemUniqueId;
+	var playerLevel, itemLevel, levelDiff, i, k : int;
+	var slots : array<EEquipmentSlots>;
+	var configValueString : string;
+	
+	if( !GetWitcherPlayer() )
+	{
+		return;
+	}
+
+	configValueString = theGame.GetInGameConfigWrapper().GetVarValue('EHmodMiscSettings', 'EHmodDisableItemAutoscale');
+
+	if(configValueString)
+	{
+		return;
+	}
+	
+	inventory = GetWitcherPlayer().inv;
+	playerLevel = GetWitcherPlayer().GetLevel();
+	
+	slots.PushBack(EES_SteelSword);
+	slots.PushBack(EES_SilverSword);
+	slots.PushBack(EES_Armor);
+	slots.PushBack(EES_Gloves);
+	slots.PushBack(EES_Pants);
+	slots.PushBack(EES_Boots);
+	
+	for( k = 0; k < slots.Size(); k += 1 )
+	{
+		if( inventory.GetItemEquippedOnSlot(slots[k], item) )
+		{
+			itemLevel = inventory.GetItemLevel(item);
+			levelDiff = playerLevel - itemLevel;
+			for( i = 0; i < levelDiff; i += 1 )
+			{
+				spectreLevelUpItem(item, inventory);
+			}
+		}
+	}
+}
+
+function spectreLevelUpItem(item : SItemUniqueId, inventory : CInventoryComponent)
+{
+	var dmgBoost : float;
+
+	if( inventory.ItemHasTag( item, 'PlayerSteelWeapon' ) || inventory.GetItemCategory( item ) == 'steelsword' )
+	{
+		inventory.AddItemCraftedAbility(item, 'autogen_fixed_steel_dmg', true );		
+	}
+	else if( inventory.ItemHasTag( item, 'PlayerSilverWeapon' ) || inventory.GetItemCategory( item ) == 'silversword' )
+	{
+		inventory.AddItemCraftedAbility(item, 'autogen_fixed_silver_dmg', true );		
+	}
+	else if( inventory.GetItemCategory( item ) == 'armor' )
+	{
+		inventory.AddItemCraftedAbility(item, 'autogen_fixed_armor_armor', true );		
+	}
+	else if( inventory.GetItemCategory( item ) == 'boots' || inventory.GetItemCategory( item ) == 'pants' )
+	{
+		inventory.AddItemCraftedAbility(item, 'autogen_fixed_pants_armor', true ); 
+	}
+	else if( inventory.GetItemCategory( item ) == 'gloves' )
+	{
+		inventory.AddItemCraftedAbility(item, 'autogen_fixed_gloves_armor', true );
+	}
 }

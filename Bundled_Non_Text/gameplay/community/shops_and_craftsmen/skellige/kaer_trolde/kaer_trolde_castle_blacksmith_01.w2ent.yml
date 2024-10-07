@@ -36,8 +36,7 @@ templates:
     entityObject:
       ".type": W3MerchantNPC
       tags:
-        - Blacksmith
-        - Specialist
+        - fixBlacksmithMapPin
       attachments: # array:handle:IAttachment
       streamingDistance: 11
       Components:  #array:0,0,ptr:CComponent
@@ -2556,7 +2555,7 @@ templates:
                     scaleRelativeMode: ECurveRelativeMode_None
                     hasInitialParentTransform: true
       idTag:  06c2424a-f852-411b-babe-1bc6973009b6
-      displayName: Blacksmith
+      displayName: Yanne the Blacksmith
     appearances:  #array:2,0,CEntityAppearance
       craftsman_craite_08:
         ".type": CEntityAppearance

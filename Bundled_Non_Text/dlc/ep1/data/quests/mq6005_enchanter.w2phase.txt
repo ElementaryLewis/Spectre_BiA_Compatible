@@ -1706,6 +1706,9 @@ mq6005_enchanter.w2phase:                    blocks (array:SBlockDesc) : # array
 mq6005_enchanter.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
 mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestMappinStateBlock #159
 mq6005_enchanter.w2phase:                            putName (CName) : Disable
+mq6005_enchanter.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
+mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #187
+mq6005_enchanter.w2phase:                            putName (CName) : NoPainiteHere
 mq6005_enchanter.w2phase:            questCondition (ptr:IQuestCondition) : CQuestFactsDBCondition #165
 mq6005_enchanter.w2phase:    CJournalQuestMappinStateBlock #147 (CJournalQuestMappinStateBlock) : 
 mq6005_enchanter.w2phase:        CJournalQuestMappinStateBlock (CJournalQuestMappinStateBlock) : 
@@ -1859,6 +1862,9 @@ mq6005_enchanter.w2phase:                    blocks (array:SBlockDesc) : # array
 mq6005_enchanter.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
 mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestMappinStateBlock #147
 mq6005_enchanter.w2phase:                            putName (CName) : Disable
+mq6005_enchanter.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
+mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #187
+mq6005_enchanter.w2phase:                            putName (CName) : NoPainiteHere
 mq6005_enchanter.w2phase:            questCondition (ptr:IQuestCondition) : CQuestFactsDBCondition #170
 mq6005_enchanter.w2phase:    CQuestFactsDBCondition #170 (CQuestFactsDBCondition) : mq6005_novigrad_market_trader_01_painite_enable
 mq6005_enchanter.w2phase:        CQuestFactsDBCondition (CQuestFactsDBCondition) : 
@@ -1919,6 +1925,9 @@ mq6005_enchanter.w2phase:                    blocks (array:SBlockDesc) : # array
 mq6005_enchanter.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
 mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestMappinStateBlock #153
 mq6005_enchanter.w2phase:                            putName (CName) : Disable
+mq6005_enchanter.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
+mq6005_enchanter.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #187
+mq6005_enchanter.w2phase:                            putName (CName) : NoPainiteHere
 mq6005_enchanter.w2phase:            questCondition (ptr:IQuestCondition) : CQuestFactsDBCondition #176
 mq6005_enchanter.w2phase:    CQuestFactsDBCondition #176 (CQuestFactsDBCondition) : mq6005_novigrad_market_trader_03_painite_enable
 mq6005_enchanter.w2phase:        CQuestFactsDBCondition (CQuestFactsDBCondition) : 

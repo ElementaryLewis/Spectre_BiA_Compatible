@@ -1969,7 +1969,7 @@ protected var tempTransferredItems : array< SItemUniqueId >;
 			
 			if( !isItemShematic && ( this.ItemHasTag( itemId, 'ReadableItem' ) || this.ItemHasTag( itemId, 'Painting' ) ) && !this.ItemHasTag( itemId, 'NoNotification' ) )
 			{
-				hud = (CR4ScriptedHud)theGame.GetHud();
+				thePlayer.inv.ReadSchematicsAndRecipes(itemId);
 				if( hud )
 				{
 					journalUpdateModule = (CR4HudModuleJournalUpdate)hud.GetHudModule( "JournalUpdateModule" );

@@ -143,6 +143,7 @@ golem_lvl1_boss.w2ent:                11 (ptr:CEntityTemplateParam) : CAnimBehav
 golem_lvl1_boss.w2ent:                12 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #38
 golem_lvl1_boss.w2ent:                13 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #39
 golem_lvl1_boss.w2ent:                14 (ptr:CEntityTemplateParam) : CBuffImmunityParam #86
+golem_lvl1_boss.w2ent:                15 (ptr:CEntityTemplateParam) : CR4LootParam #87
 golem_lvl1_boss.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 golem_lvl1_boss.w2ent:                CNewNPC #0 (CNewNPC) : default_fx
 golem_lvl1_boss.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -175,7 +176,6 @@ golem_lvl1_boss.w2ent:                        torsoBoneName (CName) : k_torso2_g
 golem_lvl1_boss.w2ent:                        headBoneName (CName) : k_head_g
 golem_lvl1_boss.w2ent:                        level (Int32) : 19
 golem_lvl1_boss.w2ent:                        isMiniBossLevel (Bool) : true
-golem_lvl1_boss.w2ent:                        isMonsterType_Group (Bool) : true
 golem_lvl1_boss.w2ent:                        useSoundValue (Bool) : true
 golem_lvl1_boss.w2ent:                        soundValue (Int32) : 75
 golem_lvl1_boss.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : elemental_base
@@ -8384,7 +8384,6 @@ golem_lvl1_boss.w2ent:            torsoBoneName (CName) : k_torso2_g
 golem_lvl1_boss.w2ent:            headBoneName (CName) : k_head_g
 golem_lvl1_boss.w2ent:            level (Int32) : 19
 golem_lvl1_boss.w2ent:            isMiniBossLevel (Bool) : true
-golem_lvl1_boss.w2ent:            isMonsterType_Group (Bool) : true
 golem_lvl1_boss.w2ent:            useSoundValue (Bool) : true
 golem_lvl1_boss.w2ent:            soundValue (Int32) : 75
 golem_lvl1_boss.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : elemental_base
@@ -8910,3 +8909,9 @@ golem_lvl1_boss.w2ent:                2 (Int32) : 18
 golem_lvl1_boss.w2ent:                3 (Int32) : 19
 golem_lvl1_boss.w2ent:                4 (Int32) : 16
 golem_lvl1_boss.w2ent:                5 (Int32) : 45
+golem_lvl1_boss.w2ent:    CR4LootParam #87 (CR4LootParam) : loot
+golem_lvl1_boss.w2ent:        CR4LootParam (CR4LootParam) : loot
+golem_lvl1_boss.w2ent:            name (String) : "loot"
+golem_lvl1_boss.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+golem_lvl1_boss.w2ent:                0 (CR4LootContainerParam) : _monster__Golem
+golem_lvl1_boss.w2ent:                    name (CName) : _monster__Golem

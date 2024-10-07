@@ -13728,6 +13728,13 @@ templates:
             initializer:
               ".type": CInventoryInitializerUniform
               itemName: fists
+          - ".type": CInventoryDefinitionEntry
+            category: steelsword
+            isMount: false
+            isLootable: false
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: NPC EP1 Steel Sword 2
       - ".type": CAIProfile
         wasIncluded: true
         senseVisionParams:

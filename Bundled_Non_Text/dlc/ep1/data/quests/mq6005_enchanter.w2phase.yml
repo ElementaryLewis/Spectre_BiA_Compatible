@@ -1485,6 +1485,31 @@ templates:
                                                                                         ".type": CJournalPath
                                                                                         guid: 99cb856e-5568-4b5c-92b2-5829da97cf4a
                                                                             putName: Disable
+                                                                          - ".type": SBlockDesc
+                                                                            ock:
+                                                                              ".type": CQuestSceneBlock
+                                                                              guid: 786ce235-5d4f-48de-a391-e68f984a5e47
+                                                                              cachedConnections:  #array:2,0,SCachedConnections
+                                                                                - ".type": SCachedConnections
+                                                                                  socketId: Output
+                                                                              scene: dlc/ep1/data/quests/quest_files/mq6005_enchanter/pickup_scenes/mq6005_geralt_oneliners.w2scene
+                                                                              shouldFadeOnLoading_NamesCooked:  #array:2,0,CName
+                                                                                - SampleNotGoodEnough1
+                                                                                - SampleNotGoodEnough2
+                                                                                - AboutPainite
+                                                                                - NephriteFound
+                                                                                - AboutNephrite
+                                                                                - NoPainiteHere
+                                                                                - PainiteFound
+                                                                              shouldFadeOnLoading_ValuesCooked:  #array:2,0,Bool
+                                                                                - false
+                                                                                - false
+                                                                                - false
+                                                                                - false
+                                                                                - false
+                                                                                - false
+                                                                                - false
+                                                                            putName: NoPainiteHere
                                                                     questCondition:
                                                                       ".type": CQuestFactsDBCondition
                                                                       factId: "mq6005_novi_rich_dist_general_store_01_painite_enable"
@@ -1535,6 +1560,9 @@ templates:
                                                                                                         - ".type": SBlockDesc
                                                                                                           #ock: (looped reference) CJournalQuestMappinStateBlock #147
                                                                                                           putName: Disable
+                                                                                                        - ".type": SBlockDesc
+                                                                                                          #ock: (looped reference) CQuestSceneBlock #187
+                                                                                                          putName: NoPainiteHere
                                                                                                   questCondition:
                                                                                                     ".type": CQuestFactsDBCondition
                                                                                                     factId: "mq6005_novigrad_market_trader_01_painite_enable"
@@ -1593,6 +1621,9 @@ templates:
                                                                                                         - ".type": SBlockDesc
                                                                                                           #ock: (looped reference) CJournalQuestMappinStateBlock #153
                                                                                                           putName: Disable
+                                                                                                        - ".type": SBlockDesc
+                                                                                                          #ock: (looped reference) CQuestSceneBlock #187
+                                                                                                          putName: NoPainiteHere
                                                                                                   questCondition:
                                                                                                     ".type": CQuestFactsDBCondition
                                                                                                     factId: "mq6005_novigrad_market_trader_03_painite_enable"
@@ -1703,29 +1734,7 @@ templates:
                                                                                 - ".type": SCachedConnections
                                                                                   blocks:  #array:2,0,SBlockDesc
                                                                                     - ".type": SBlockDesc
-                                                                                      ock:
-                                                                                        ".type": CQuestSceneBlock
-                                                                                        guid: 786ce235-5d4f-48de-a391-e68f984a5e47
-                                                                                        cachedConnections:  #array:2,0,SCachedConnections
-                                                                                          - ".type": SCachedConnections
-                                                                                            socketId: Output
-                                                                                        scene: dlc/ep1/data/quests/quest_files/mq6005_enchanter/pickup_scenes/mq6005_geralt_oneliners.w2scene
-                                                                                        shouldFadeOnLoading_NamesCooked:  #array:2,0,CName
-                                                                                          - SampleNotGoodEnough1
-                                                                                          - SampleNotGoodEnough2
-                                                                                          - AboutPainite
-                                                                                          - NephriteFound
-                                                                                          - AboutNephrite
-                                                                                          - NoPainiteHere
-                                                                                          - PainiteFound
-                                                                                        shouldFadeOnLoading_ValuesCooked:  #array:2,0,Bool
-                                                                                          - false
-                                                                                          - false
-                                                                                          - false
-                                                                                          - false
-                                                                                          - false
-                                                                                          - false
-                                                                                          - false
+                                                                                      #ock: (looped reference) CQuestSceneBlock #187
                                                                                       putName: AboutPainite
                                                                               conditions:  #array:2,0,ptr:IQuestCondition
                                                                                 - ".type": CQuestHiResRealtimeDelayCondition

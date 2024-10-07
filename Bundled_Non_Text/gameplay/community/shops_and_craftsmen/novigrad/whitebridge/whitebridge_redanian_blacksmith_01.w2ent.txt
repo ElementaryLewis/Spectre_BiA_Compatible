@@ -533,6 +533,7 @@ whitebridge_redanian_blacksmith_01.w2ent:                            14 (ptr:CCo
 whitebridge_redanian_blacksmith_01.w2ent:                            15 (ptr:CComponent) : CR4HumanoidCombatComponent #21
 whitebridge_redanian_blacksmith_01.w2ent:                            16 (ptr:CComponent) : CWetnessComponent #22
 whitebridge_redanian_blacksmith_01.w2ent:                            17 (ptr:CComponent) : CDropPhysicsComponent #23
+whitebridge_redanian_blacksmith_01.w2ent:                            18 (ptr:CComponent) : CStorySceneComponent #36
 whitebridge_redanian_blacksmith_01.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
 whitebridge_redanian_blacksmith_01.w2ent:                            0 (SEntityBufferType1) : 
 whitebridge_redanian_blacksmith_01.w2ent:                                ComponentName (CName) : 
@@ -4932,6 +4933,13 @@ whitebridge_redanian_blacksmith_01.w2ent:                                    tra
 whitebridge_redanian_blacksmith_01.w2ent:                                    rotationRelativeMode (ECurveRelativeMode) : ECurveRelativeMode_None
 whitebridge_redanian_blacksmith_01.w2ent:                                    scaleRelativeMode (ECurveRelativeMode) : ECurveRelativeMode_None
 whitebridge_redanian_blacksmith_01.w2ent:                                    hasInitialParentTransform (Bool) : true
+whitebridge_redanian_blacksmith_01.w2ent:                CStorySceneComponent #36 (CStorySceneComponent) : voiceset_redanian blacksmith 01
+whitebridge_redanian_blacksmith_01.w2ent:                    CStorySceneComponent (CStorySceneComponent) : voiceset_redanian blacksmith 01
+whitebridge_redanian_blacksmith_01.w2ent:                        guid (CGUID) : 7b2adabb-8d71-4d6a-9e48-54e7e499f80f
+whitebridge_redanian_blacksmith_01.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+whitebridge_redanian_blacksmith_01.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+whitebridge_redanian_blacksmith_01.w2ent:                        name (String) : "voiceset_redanian blacksmith 01"
+whitebridge_redanian_blacksmith_01.w2ent:                        storyScene (soft:CStoryScene) : gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene
 whitebridge_redanian_blacksmith_01.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
 whitebridge_redanian_blacksmith_01.w2ent:                0 (CEntityTemplateCookedEffect) : axii_hipnotize
 whitebridge_redanian_blacksmith_01.w2ent:                    name (CName) : axii_hipnotize
@@ -22885,6 +22893,7 @@ whitebridge_redanian_blacksmith_01.w2ent:                14 (ptr:CComponent) : C
 whitebridge_redanian_blacksmith_01.w2ent:                15 (ptr:CComponent) : CR4HumanoidCombatComponent #22
 whitebridge_redanian_blacksmith_01.w2ent:                16 (ptr:CComponent) : CWetnessComponent #23
 whitebridge_redanian_blacksmith_01.w2ent:                17 (ptr:CComponent) : CDropPhysicsComponent #24
+whitebridge_redanian_blacksmith_01.w2ent:                18 (ptr:CComponent) : CStorySceneComponent #210
 whitebridge_redanian_blacksmith_01.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
 whitebridge_redanian_blacksmith_01.w2ent:                0 (SEntityBufferType1) : 
 whitebridge_redanian_blacksmith_01.w2ent:                    ComponentName (CName) : 
@@ -28849,3 +28858,10 @@ whitebridge_redanian_blacksmith_01.w2ent:        CBloodTrailEffect (CBloodTrailE
 whitebridge_redanian_blacksmith_01.w2ent:            wasIncluded (Bool) : true
 whitebridge_redanian_blacksmith_01.w2ent:            name (String) : "blood_trail"
 whitebridge_redanian_blacksmith_01.w2ent:            effect (CName) : default_blood_trail
+whitebridge_redanian_blacksmith_01.w2ent:    CStorySceneComponent #210 (CStorySceneComponent) : voiceset_redanian blacksmith 01
+whitebridge_redanian_blacksmith_01.w2ent:        CStorySceneComponent (CStorySceneComponent) : voiceset_redanian blacksmith 01
+whitebridge_redanian_blacksmith_01.w2ent:            guid (CGUID) : 7b2adabb-8d71-4d6a-9e48-54e7e499f80f
+whitebridge_redanian_blacksmith_01.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+whitebridge_redanian_blacksmith_01.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+whitebridge_redanian_blacksmith_01.w2ent:            name (String) : "voiceset_redanian blacksmith 01"
+whitebridge_redanian_blacksmith_01.w2ent:            storyScene (soft:CStoryScene) : gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene

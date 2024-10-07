@@ -102,8 +102,8 @@ q202_troll_1.w2ent:                19 (ptr:CEntityTemplateParam) : CMonsterParam
 q202_troll_1.w2ent:                20 (ptr:CEntityTemplateParam) : CCharacterControllerParam #48
 q202_troll_1.w2ent:                21 (ptr:CEntityTemplateParam) : CBuffImmunityParam #49
 q202_troll_1.w2ent:                22 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #50
-q202_troll_1.w2ent:                23 (ptr:CEntityTemplateParam) : CAnimMimicParam #93
-q202_troll_1.w2ent:                24 (ptr:CEntityTemplateParam) : CEntityDismemberment #94
+q202_troll_1.w2ent:                23 (ptr:CEntityTemplateParam) : CAnimMimicParam #100
+q202_troll_1.w2ent:                24 (ptr:CEntityTemplateParam) : CEntityDismemberment #101
 q202_troll_1.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 q202_troll_1.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 q202_troll_1.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -239,126 +239,126 @@ q202_troll_1.w2ent:                        graphPositionY (Int16) : 288
 q202_troll_1.w2ent:                        forcedAppearance (CName) : cave_troll_ice_01
 q202_troll_1.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
 q202_troll_1.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-q202_troll_1.w2ent:                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CInventoryComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                                1 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CEffectDummyComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                                2 (SAttachmentReplacement) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : grassCollider
-q202_troll_1.w2ent:                                    newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                                3 (SAttachmentReplacement) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CDismembermentComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                                4 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
-q202_troll_1.w2ent:                                5 (SAttachmentReplacement) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : torso3effect
-q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                                6 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CCreatureDataComponent1
-q202_troll_1.w2ent:                                    newClass (CName) : CCreatureDataComponent
-q202_troll_1.w2ent:                                7 (SAttachmentReplacement) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
-q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                8 (SAttachmentReplacement) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
-q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                9 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CSoundEmitterComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CSoundEmitterComponent
-q202_troll_1.w2ent:                                10 (SAttachmentReplacement) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CInventoryComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                                11 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CEffectDummyComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                                12 (SAttachmentReplacement) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : grassCollider
-q202_troll_1.w2ent:                                    newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                                13 (SAttachmentReplacement) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : CDismembermentComponent0
-q202_troll_1.w2ent:                                    newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                                14 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
+q202_troll_1.w2ent:                                0 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CCreatureDataComponent1
 q202_troll_1.w2ent:                                    newClass (CName) : CCreatureDataComponent
-q202_troll_1.w2ent:                                15 (SAttachmentReplacement) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
-q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                16 (SAttachmentReplacement) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
-q202_troll_1.w2ent:                                    oldName (CName) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
-q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                    newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
-q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                                17 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
+q202_troll_1.w2ent:                                1 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CSoundEmitterComponent0
 q202_troll_1.w2ent:                                    newClass (CName) : CSoundEmitterComponent
-q202_troll_1.w2ent:                                18 (SAttachmentReplacement) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
+q202_troll_1.w2ent:                                2 (SAttachmentReplacement) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CInventoryComponent0
 q202_troll_1.w2ent:                                    newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                                19 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
+q202_troll_1.w2ent:                                3 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CEffectDummyComponent0
 q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                                20 (SAttachmentReplacement) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
+q202_troll_1.w2ent:                                4 (SAttachmentReplacement) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : grassCollider
 q202_troll_1.w2ent:                                    newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                                21 (SAttachmentReplacement) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
+q202_troll_1.w2ent:                                5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CDismembermentComponent0
 q202_troll_1.w2ent:                                    newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                                22 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
+q202_troll_1.w2ent:                                6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
 q202_troll_1.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
-q202_troll_1.w2ent:                                23 (SAttachmentReplacement) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
+q202_troll_1.w2ent:                                7 (SAttachmentReplacement) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
 q202_troll_1.w2ent:                                    oldName (CName) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
 q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                                    newName (CName) : torso3effect
 q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                                8 (SAttachmentReplacement) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CInventoryComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CInventoryComponent
+q202_troll_1.w2ent:                                9 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CEffectDummyComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                                10 (SAttachmentReplacement) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : grassCollider
+q202_troll_1.w2ent:                                    newClass (CName) : CDynamicColliderComponent
+q202_troll_1.w2ent:                                11 (SAttachmentReplacement) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CDismembermentComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CDismembermentComponent
+q202_troll_1.w2ent:                                12 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
+q202_troll_1.w2ent:                                13 (SAttachmentReplacement) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : torso3effect
+q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                                14 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CCreatureDataComponent1
+q202_troll_1.w2ent:                                    newClass (CName) : CCreatureDataComponent
+q202_troll_1.w2ent:                                15 (SAttachmentReplacement) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
+q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                16 (SAttachmentReplacement) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
+q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                17 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CSoundEmitterComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CSoundEmitterComponent
+q202_troll_1.w2ent:                                18 (SAttachmentReplacement) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CInventoryComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CInventoryComponent
+q202_troll_1.w2ent:                                19 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CEffectDummyComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                                20 (SAttachmentReplacement) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : grassCollider
+q202_troll_1.w2ent:                                    newClass (CName) : CDynamicColliderComponent
+q202_troll_1.w2ent:                                21 (SAttachmentReplacement) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : CDismembermentComponent0
+q202_troll_1.w2ent:                                    newClass (CName) : CDismembermentComponent
+q202_troll_1.w2ent:                                22 (SAttachmentReplacement) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
+q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                23 (SAttachmentReplacement) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
+q202_troll_1.w2ent:                                    oldName (CName) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
+q202_troll_1.w2ent:                                    oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                                    newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
+q202_troll_1.w2ent:                                    newClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
 q202_troll_1.w2ent:                            0 (SAppearanceAttachments) : cave_troll_01
 q202_troll_1.w2ent:                                appearance (CName) : cave_troll_01
@@ -475,7 +475,7 @@ q202_troll_1.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect)
 q202_troll_1.w2ent:                0 (CEntityTemplateCookedEffect) : r_trail
 q202_troll_1.w2ent:                    name (CName) : r_trail
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1486 bytes, MD5: 9bab67a33dead02e12899f82ce22f10a
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1486 bytes, MD5: 82c621cf171b896a990a213c8738e7c7
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : r_trail
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : r_trail
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -563,7 +563,7 @@ q202_troll_1.w2ent:                                attach (Bool) : true
 q202_troll_1.w2ent:                1 (CEntityTemplateCookedEffect) : l_trail
 q202_troll_1.w2ent:                    name (CName) : l_trail
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1486 bytes, MD5: b0352d9bde90e64294b47a520d760be5
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1486 bytes, MD5: 1a5f916e863944a72717a4a24da32c07
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : l_trail
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : l_trail
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -651,7 +651,7 @@ q202_troll_1.w2ent:                                attach (Bool) : true
 q202_troll_1.w2ent:                2 (CEntityTemplateCookedEffect) : charge_fx
 q202_troll_1.w2ent:                    name (CName) : charge_fx
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1699 bytes, MD5: fc5715121a607c060950e1acd2183b1f
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1699 bytes, MD5: 3a95a021fe3e3918209121211863f341
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : charge_fx
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : charge_fx
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -744,7 +744,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                3 (CEntityTemplateCookedEffect) : smash_fx
 q202_troll_1.w2ent:                    name (CName) : smash_fx
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2319 bytes, MD5: 05fceb997ee407b3a6f96b7f1ed2f34f
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2319 bytes, MD5: e6e348096f0340175637363e2fbf59aa
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : smash_fx
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : smash_fx
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -927,7 +927,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                4 (CEntityTemplateCookedEffect) : hit_back
 q202_troll_1.w2ent:                    name (CName) : hit_back
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2323 bytes, MD5: 924650631539f688017a821c384f2102
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2323 bytes, MD5: fb31c3127016969bb6f6e618688a600f
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : hit_back
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : hit_back
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -1088,7 +1088,7 @@ q202_troll_1.w2ent:                                    Roll (Float) : 90.0000
 q202_troll_1.w2ent:                5 (CEntityTemplateCookedEffect) : igni_cone_hit
 q202_troll_1.w2ent:                    name (CName) : igni_cone_hit
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 5226 bytes, MD5: b1393be126f99409458f05a314ba9780
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 5226 bytes, MD5: 6362ba079779a2daca677656ac3f13d7
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : igni_cone_hit
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : igni_cone_hit
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -1663,7 +1663,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : tors
 q202_troll_1.w2ent:                6 (CEntityTemplateCookedEffect) : critical_burning
 q202_troll_1.w2ent:                    name (CName) : critical_burning
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 8386 bytes, MD5: 2278a509b767d5ba670961426704618c
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 8386 bytes, MD5: eb4d04f165900ab972fa45ad9f9692ce
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_burning
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : critical_burning
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -2665,7 +2665,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                7 (CEntityTemplateCookedEffect) : light_hit
 q202_troll_1.w2ent:                    name (CName) : light_hit
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2150 bytes, MD5: cd47b9c11086f148501c66d66c1b3130
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2150 bytes, MD5: c3698e0164d6dc96646889d7d9273635
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : light_hit
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -2830,7 +2830,7 @@ q202_troll_1.w2ent:                                    Roll (Float) : 90.0000
 q202_troll_1.w2ent:                8 (CEntityTemplateCookedEffect) : heavy_hit
 q202_troll_1.w2ent:                    name (CName) : heavy_hit
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2150 bytes, MD5: aeeab1855e8dd1aaaf8a7a17bf44558e
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2150 bytes, MD5: 3874eb5b64c9864f081fdb8ddf2b27e4
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -2995,7 +2995,7 @@ q202_troll_1.w2ent:                                    Roll (Float) : 90.0000
 q202_troll_1.w2ent:                9 (CEntityTemplateCookedEffect) : light_hit_back_parried
 q202_troll_1.w2ent:                    name (CName) : light_hit_back_parried
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2337 bytes, MD5: dda4b9788acdced83b30189ac424b418
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2337 bytes, MD5: 4862da9effa60372db2259770cfb8dbc
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit_back_parried
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : light_hit_back_parried
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -3156,7 +3156,7 @@ q202_troll_1.w2ent:                                    Roll (Float) : 90.0000
 q202_troll_1.w2ent:                10 (CEntityTemplateCookedEffect) : heavy_hit_back_parried
 q202_troll_1.w2ent:                    name (CName) : heavy_hit_back_parried
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2337 bytes, MD5: 7d121b4652c469508b0abc8a316492fb
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2337 bytes, MD5: 193811aa1c629b6dfba3dd0a43e690c4
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit_back_parried
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit_back_parried
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -3317,7 +3317,7 @@ q202_troll_1.w2ent:                                    Roll (Float) : 90.0000
 q202_troll_1.w2ent:                11 (CEntityTemplateCookedEffect) : light_hit_parried
 q202_troll_1.w2ent:                    name (CName) : light_hit_parried
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2370 bytes, MD5: 854d8b70618800c62865802d79f1c467
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2370 bytes, MD5: e88e9641703b1ea78cfb768431913ac9
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : light_hit_parried
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : light_hit_parried
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -3480,7 +3480,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : l_ha
 q202_troll_1.w2ent:                12 (CEntityTemplateCookedEffect) : heavy_hit_parried
 q202_troll_1.w2ent:                    name (CName) : heavy_hit_parried
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2370 bytes, MD5: dfaf01f30e39671c81ef7cc7c2d68369
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2370 bytes, MD5: 1e970748aac279f7cdb1499c7548ed13
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : heavy_hit_parried
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : heavy_hit_parried
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -3643,7 +3643,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : l_ha
 q202_troll_1.w2ent:                13 (CEntityTemplateCookedEffect) : focus_sound_fx
 q202_troll_1.w2ent:                    name (CName) : focus_sound_fx
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1720 bytes, MD5: 884b4b1cf7f7448f9fc1de727d00504a
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1720 bytes, MD5: aea05f58e583fde9060c9ee9bea60691
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : focus_sound_fx
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : focus_sound_fx
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -3737,7 +3737,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                14 (CEntityTemplateCookedEffect) : fire_hit
 q202_troll_1.w2ent:                    name (CName) : fire_hit
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 7707 bytes, MD5: f42db98d956d095f566902580b95664f
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 7707 bytes, MD5: 233ef30aa0f1ed6fbcbd85bb7075c463
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : fire_hit
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : fire_hit
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -4605,7 +4605,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                15 (CEntityTemplateCookedEffect) : hit_electric
 q202_troll_1.w2ent:                    name (CName) : hit_electric
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2879 bytes, MD5: 39f68d9c1ee109a49ef9e4b2d37ae99b
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2879 bytes, MD5: e390f84ffa54bac9c440e47811d07b24
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : hit_electric
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : hit_electric
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -4798,7 +4798,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : neck
 q202_troll_1.w2ent:                16 (CEntityTemplateCookedEffect) : yrden_shock
 q202_troll_1.w2ent:                    name (CName) : yrden_shock
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3363 bytes, MD5: ccec8412feb66e98143064d43f529f1b
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3363 bytes, MD5: feb54c24c73933bf5b1f3d9e89243fc4
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : yrden_shock
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : yrden_shock
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5058,7 +5058,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : tors
 q202_troll_1.w2ent:                17 (CEntityTemplateCookedEffect) : yrden_slowdown
 q202_troll_1.w2ent:                    name (CName) : yrden_slowdown
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2114 bytes, MD5: 15b2a11d12e990ce9ccbfe200bece209
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2114 bytes, MD5: 7096f77b05c5f6e5e270b6d7d165285e
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : yrden_slowdown
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : yrden_slowdown
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5187,7 +5187,7 @@ q202_troll_1.w2ent:                                soundEventName (StringAnsi) :
 q202_troll_1.w2ent:                18 (CEntityTemplateCookedEffect) : axii_confusion
 q202_troll_1.w2ent:                    name (CName) : axii_confusion
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3202 bytes, MD5: 10a0afcbf485d6e001a94c106c63d8e9
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3202 bytes, MD5: a239e7014fc9c3e22a28c421f28d76bd
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : axii_confusion
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : axii_confusion
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5385,7 +5385,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : head
 q202_troll_1.w2ent:                19 (CEntityTemplateCookedEffect) : axii_guardian
 q202_troll_1.w2ent:                    name (CName) : axii_guardian
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3201 bytes, MD5: 0d5caae39b1ffecc7fa18c7f0dc2f860
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3201 bytes, MD5: 5191fb6a47f61931d253bbbf268b09be
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : axii_guardian
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : axii_guardian
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5585,7 +5585,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : head
 q202_troll_1.w2ent:                20 (CEntityTemplateCookedEffect) : focus_sound_red_fx
 q202_troll_1.w2ent:                    name (CName) : focus_sound_red_fx
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1725 bytes, MD5: be01c24cf0d83ae873848ac59704d4e5
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1725 bytes, MD5: e03c1ae5d1994f7b77815d607810d65a
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : focus_sound_red_fx
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : focus_sound_red_fx
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5679,7 +5679,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : pelv
 q202_troll_1.w2ent:                21 (CEntityTemplateCookedEffect) : critical_frozen
 q202_troll_1.w2ent:                    name (CName) : critical_frozen
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2901 bytes, MD5: 0ed5f307af82e79043dcd16e287c37e1
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2901 bytes, MD5: eca7e6f821c3949ec24c33778b1585f9
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : critical_frozen
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : critical_frozen
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5900,7 +5900,7 @@ q202_troll_1.w2ent:                                forceMeshAlternatives (Bool) 
 q202_troll_1.w2ent:                22 (CEntityTemplateCookedEffect) : axii_slowdown
 q202_troll_1.w2ent:                    name (CName) : axii_slowdown
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1684 bytes, MD5: 1dccc32f37dc69b955fbf7c70ffdeef2
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1684 bytes, MD5: f969db9452877afda0d11aef2e50e7a7
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : axii_slowdown
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : axii_slowdown
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -5994,7 +5994,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : tors
 q202_troll_1.w2ent:                23 (CEntityTemplateCookedEffect) : hit_electric_quen
 q202_troll_1.w2ent:                    name (CName) : hit_electric_quen
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2933 bytes, MD5: 09bda3415a4ee01a3cb78b9c989ccd32
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 2933 bytes, MD5: cbdaca112a2980099e347b88266b36f9
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : hit_electric_quen
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : hit_electric_quen
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -6191,7 +6191,7 @@ q202_troll_1.w2ent:                                parentSlotName (CName) : tors
 q202_troll_1.w2ent:                24 (CEntityTemplateCookedEffect) : water_death
 q202_troll_1.w2ent:                    name (CName) : water_death
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1497 bytes, MD5: 6957efee8e8b6f70ba7f507ab01ba735
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 1497 bytes, MD5: 81edc0e37daf6a3d976fb2ff6e30eeb9
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : water_death
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : water_death
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -6279,7 +6279,7 @@ q202_troll_1.w2ent:                            CFXWaterSpawner (CFXWaterSpawner)
 q202_troll_1.w2ent:                25 (CEntityTemplateCookedEffect) : demonic_possession
 q202_troll_1.w2ent:                    name (CName) : demonic_possession
 q202_troll_1.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3414 bytes, MD5: 29884e3918b9dbb0800c5bbfa5fba5b1
+q202_troll_1.w2ent:                        Bufferdata (CByteArray) : 3414 bytes, MD5: 8c4ed761acc3b62b42631eee02bc1d5e
 q202_troll_1.w2ent:                        CFXDefinition #0 (CFXDefinition) : demonic_possession
 q202_troll_1.w2ent:                            CFXDefinition (CFXDefinition) : demonic_possession
 q202_troll_1.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
@@ -6684,126 +6684,126 @@ q202_troll_1.w2ent:            name (String) : "appearances"
 q202_troll_1.w2ent:            forcedAppearance (CName) : cave_troll_ice_01
 q202_troll_1.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
 q202_troll_1.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-q202_troll_1.w2ent:                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CInventoryComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                    1 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CEffectDummyComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                    2 (SAttachmentReplacement) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
-q202_troll_1.w2ent:                        oldName (CName) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : grassCollider
-q202_troll_1.w2ent:                        newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                    3 (SAttachmentReplacement) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CDismembermentComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                    4 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CGameplayEffectsComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CGameplayEffectsComponent
-q202_troll_1.w2ent:                    5 (SAttachmentReplacement) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
-q202_troll_1.w2ent:                        oldName (CName) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : torso3effect
-q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                    6 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CCreatureDataComponent1
-q202_troll_1.w2ent:                        newClass (CName) : CCreatureDataComponent
-q202_troll_1.w2ent:                    7 (SAttachmentReplacement) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
-q202_troll_1.w2ent:                        oldName (CName) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
-q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                    8 (SAttachmentReplacement) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
-q202_troll_1.w2ent:                        oldName (CName) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
-q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                    9 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CSoundEmitterComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CSoundEmitterComponent
-q202_troll_1.w2ent:                    10 (SAttachmentReplacement) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CInventoryComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                    11 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CEffectDummyComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                    12 (SAttachmentReplacement) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
-q202_troll_1.w2ent:                        oldName (CName) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : grassCollider
-q202_troll_1.w2ent:                        newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                    13 (SAttachmentReplacement) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
-q202_troll_1.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : CDismembermentComponent0
-q202_troll_1.w2ent:                        newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                    14 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
+q202_troll_1.w2ent:                    0 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CCreatureDataComponent1_8A2E5058-45419CC1-FBC683A5-B117CA0A
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CCreatureDataComponent1
 q202_troll_1.w2ent:                        newClass (CName) : CCreatureDataComponent
-q202_troll_1.w2ent:                    15 (SAttachmentReplacement) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
-q202_troll_1.w2ent:                        oldName (CName) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
-q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                    16 (SAttachmentReplacement) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
-q202_troll_1.w2ent:                        oldName (CName) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
-q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                        newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
-q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
-q202_troll_1.w2ent:                    17 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
+q202_troll_1.w2ent:                    1 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_4D706F08-48FC4C4D-32701FA4-9E89834F
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CSoundEmitterComponent0
 q202_troll_1.w2ent:                        newClass (CName) : CSoundEmitterComponent
-q202_troll_1.w2ent:                    18 (SAttachmentReplacement) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
+q202_troll_1.w2ent:                    2 (SAttachmentReplacement) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_ABC1B74C-46A5E1C9-31693282-C93DC86C
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CInventoryComponent0
 q202_troll_1.w2ent:                        newClass (CName) : CInventoryComponent
-q202_troll_1.w2ent:                    19 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
+q202_troll_1.w2ent:                    3 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CEffectDummyComponent0_6D569113-49001976-769E3BB0-EA22DF6A
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CEffectDummyComponent0
 q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
-q202_troll_1.w2ent:                    20 (SAttachmentReplacement) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
+q202_troll_1.w2ent:                    4 (SAttachmentReplacement) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
 q202_troll_1.w2ent:                        oldName (CName) : proxy_grassCollider_B8575419-41C2B337-BDA48C91-430DADB6
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : grassCollider
 q202_troll_1.w2ent:                        newClass (CName) : CDynamicColliderComponent
-q202_troll_1.w2ent:                    21 (SAttachmentReplacement) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
+q202_troll_1.w2ent:                    5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_1594ACED-4C1FE8CE-992076B0-0C265665
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CDismembermentComponent0
 q202_troll_1.w2ent:                        newClass (CName) : CDismembermentComponent
-q202_troll_1.w2ent:                    22 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
+q202_troll_1.w2ent:                    6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
 q202_troll_1.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_3A846C05-4F7090C7-14CF179B-8F353DA9
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : CGameplayEffectsComponent0
 q202_troll_1.w2ent:                        newClass (CName) : CGameplayEffectsComponent
-q202_troll_1.w2ent:                    23 (SAttachmentReplacement) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
+q202_troll_1.w2ent:                    7 (SAttachmentReplacement) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
 q202_troll_1.w2ent:                        oldName (CName) : proxy_torso3effect_1F191D35-46512408-AC863EAB-68C93B2C
 q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:                        newName (CName) : torso3effect
 q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                    8 (SAttachmentReplacement) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_27FA7E34-4FE82F95-CA76CD9D-9DC6E6CC
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CInventoryComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CInventoryComponent
+q202_troll_1.w2ent:                    9 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CEffectDummyComponent0_7607D9A4-4E1245A5-7300EB96-5842C940
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CEffectDummyComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                    10 (SAttachmentReplacement) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
+q202_troll_1.w2ent:                        oldName (CName) : proxy_grassCollider_E3747F95-49660555-E6A1309F-7C1112B2
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : grassCollider
+q202_troll_1.w2ent:                        newClass (CName) : CDynamicColliderComponent
+q202_troll_1.w2ent:                    11 (SAttachmentReplacement) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_D738D6F7-4D972213-9B03AC97-D2C96146
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CDismembermentComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CDismembermentComponent
+q202_troll_1.w2ent:                    12 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_559A69BF-4C38800D-D0FEEC87-F4C45B98
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CGameplayEffectsComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CGameplayEffectsComponent
+q202_troll_1.w2ent:                    13 (SAttachmentReplacement) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
+q202_troll_1.w2ent:                        oldName (CName) : proxy_torso3effect_768DF8DD-41BF72D0-D03A2B99-888F919A
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : torso3effect
+q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                    14 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CCreatureDataComponent1_F4E5B9CF-4B30E08F-ADF69CB3-445C7719
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CCreatureDataComponent1
+q202_troll_1.w2ent:                        newClass (CName) : CCreatureDataComponent
+q202_troll_1.w2ent:                    15 (SAttachmentReplacement) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
+q202_troll_1.w2ent:                        oldName (CName) : proxy_t_03__cave_troll_29845E66-4E8746CF-F1F3EDA2-22CF6D8F
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
+q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                    16 (SAttachmentReplacement) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
+q202_troll_1.w2ent:                        oldName (CName) : proxy_h_03_tm__troll_6AAD9303-43CB993F-AE7ADB99-57B9CB10
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
+q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                    17 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_FDC8FB7D-4B5C8927-74451185-2555F73A
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CSoundEmitterComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CSoundEmitterComponent
+q202_troll_1.w2ent:                    18 (SAttachmentReplacement) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_35CE3736-4EFC2593-E9279498-EE1B69E8
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CInventoryComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CInventoryComponent
+q202_troll_1.w2ent:                    19 (SAttachmentReplacement) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CEffectDummyComponent0_9EB1156F-45F3BE9A-BD484CAC-29813DB8
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CEffectDummyComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CEffectDummyComponent
+q202_troll_1.w2ent:                    20 (SAttachmentReplacement) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
+q202_troll_1.w2ent:                        oldName (CName) : proxy_grassCollider_2353187D-4E6A717E-68D9E9B0-58C7F24A
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : grassCollider
+q202_troll_1.w2ent:                        newClass (CName) : CDynamicColliderComponent
+q202_troll_1.w2ent:                    21 (SAttachmentReplacement) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
+q202_troll_1.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_57253166-426EE547-DF703A96-17A40F5E
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : CDismembermentComponent0
+q202_troll_1.w2ent:                        newClass (CName) : CDismembermentComponent
+q202_troll_1.w2ent:                    22 (SAttachmentReplacement) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
+q202_troll_1.w2ent:                        oldName (CName) : proxy_t_03__cave_troll_4EDB2AD9-47D3B2B7-9B0F7B88-401CC5BC
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : proxy_t_03__cave_troll_113E6A13-42051617-7C481EA5-697A9468
+q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                    23 (SAttachmentReplacement) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
+q202_troll_1.w2ent:                        oldName (CName) : proxy_h_03_tm__troll_DD316785-4A99AC6B-5B6CC5BD-847BFF43
+q202_troll_1.w2ent:                        oldClass (CName) : CExternalProxyComponent
+q202_troll_1.w2ent:                        newName (CName) : proxy_h_03_tm__troll_CF6FB8B4-48B8C96C-C4F66C9D-F8A3CD3F
+q202_troll_1.w2ent:                        newClass (CName) : CExternalProxyComponent
 q202_troll_1.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
 q202_troll_1.w2ent:                0 (SAppearanceAttachments) : cave_troll_01
 q202_troll_1.w2ent:                    appearance (CName) : cave_troll_01
@@ -7105,8 +7105,8 @@ q202_troll_1.w2ent:            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSp
 q202_troll_1.w2ent:            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #55
 q202_troll_1.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #57
 q202_troll_1.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorTroll #59
-q202_troll_1.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #75
-q202_troll_1.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #91
+q202_troll_1.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #82
+q202_troll_1.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #98
 q202_troll_1.w2ent:    CAIMonsterSpawnDefault #53 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
 q202_troll_1.w2ent:        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
@@ -7133,7 +7133,7 @@ q202_troll_1.w2ent:    CAIMonsterIdleDecoratorParams #60 (CAIMonsterIdleDecorato
 q202_troll_1.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
 q202_troll_1.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #61
 q202_troll_1.w2ent:            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
-q202_troll_1.w2ent:                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleStretch #73
+q202_troll_1.w2ent:                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleStretch #80
 q202_troll_1.w2ent:    CAIMonsterReactionsTree #61 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
 q202_troll_1.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
@@ -7146,6 +7146,9 @@ q202_troll_1.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActio
 q202_troll_1.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #67
 q202_troll_1.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #69
 q202_troll_1.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #71
+q202_troll_1.w2ent:                5 (handle:CAIMonsterActionSubtree) : CAIActionMonsterBumpTree #73
+q202_troll_1.w2ent:                6 (handle:CAIMonsterActionSubtree) : CAIActionMonsterPlayerPresence #75
+q202_troll_1.w2ent:                7 (handle:CAIMonsterActionSubtree) : CAIActionMonsterRain #77
 q202_troll_1.w2ent:    CAIActionSearchForTarget #63 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
 q202_troll_1.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
@@ -7181,85 +7184,111 @@ q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINp
 q202_troll_1.w2ent:    CAINpcReactionRunWildInPack #72 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
 q202_troll_1.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
-q202_troll_1.w2ent:    CAIMonsterIdleStretch #73 (CAIMonsterIdleStretch) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
+q202_troll_1.w2ent:    CAIActionMonsterBumpTree #73 (CAIActionMonsterBumpTree) : 
+q202_troll_1.w2ent:        unknownBytes (CBytes) : 112 bytes, MD5: 649df6c8d08a372c0a4d5a46626386f0
+q202_troll_1.w2ent:    CAINpcReactionBump #74 (CAINpcReactionBump) : CBehTree:gameplay\trees\reactions\reaction_monster_bump.w2behtree
+q202_troll_1.w2ent:        CAINpcReactionBump (CAINpcReactionBump) : <CAINpcReactionBump>CAINpcReactionBump
+q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_bump.w2behtree
+q202_troll_1.w2ent:            voiceSet (String) : "bump"
+q202_troll_1.w2ent:    CAIActionMonsterPlayerPresence #75 (CAIActionMonsterPlayerPresence) : 
+q202_troll_1.w2ent:        unknownBytes (CBytes) : 100 bytes, MD5: c2cf96d28170ea2178f3b3e53ecfcb84
+q202_troll_1.w2ent:    CAINpcReactionStopAndComment #76 (CAINpcReactionStopAndComment) : CBehTree:gameplay\trees\reactions\reaction_stop_and_comment.w2behtree
+q202_troll_1.w2ent:        CAINpcReactionStopAndComment (CAINpcReactionStopAndComment) : <CAINpcReactionStopAndComment>CAINpcReactionStopAndComment
+q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_stop_and_comment.w2behtree
+q202_troll_1.w2ent:            voiceSet (String) : "reaction_to_geralt"
+q202_troll_1.w2ent:            stopDuration (Float) : 6.0000
+q202_troll_1.w2ent:            activationChance (Int32) : 100
+q202_troll_1.w2ent:            distanceToInterrupt (Int32) : 10
+q202_troll_1.w2ent:    CAIActionMonsterRain #77 (CAIActionMonsterRain) : 
+q202_troll_1.w2ent:        unknownBytes (CBytes) : 91 bytes, MD5: 0e32c25bc9424d9dc481b92b725a7f3a
+q202_troll_1.w2ent:    CAINpcReactionRain #78 (CAINpcReactionRain) : CBehTree:gameplay\trees\reactions\reaction_rain.w2behtree
+q202_troll_1.w2ent:        CAINpcReactionRain (CAINpcReactionRain) : <CAINpcReactionRain>CAINpcReactionRain
+q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_rain.w2behtree
+q202_troll_1.w2ent:            voiceSet (String) : "rain"
+q202_troll_1.w2ent:            actionPointSelector (handle:CRainActionPointSelector) : CRainActionPointSelector #79
+q202_troll_1.w2ent:    CRainActionPointSelector #79 (CRainActionPointSelector) : 
+q202_troll_1.w2ent:        CRainActionPointSelector (CRainActionPointSelector) : <CRainActionPointSelector>CRainActionPointSelector
+q202_troll_1.w2ent:            radius (Float) : 30.0000
+q202_troll_1.w2ent:            chooseClosestAP (Bool) : true
+q202_troll_1.w2ent:    CAIMonsterIdleStretch #80 (CAIMonsterIdleStretch) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
 q202_troll_1.w2ent:        CAIMonsterIdleStretch (CAIMonsterIdleStretch) : <CAIMonsterIdleStretch>CAIMonsterIdleStretch
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
-q202_troll_1.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #74
-q202_troll_1.w2ent:    CAIMonsterIdleActionParams #74 (CAIMonsterIdleActionParams) : Stretch
+q202_troll_1.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #81
+q202_troll_1.w2ent:    CAIMonsterIdleActionParams #81 (CAIMonsterIdleActionParams) : Stretch
 q202_troll_1.w2ent:        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
 q202_troll_1.w2ent:            actionName (CName) : Stretch
-q202_troll_1.w2ent:    CAIMonsterCombat #75 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+q202_troll_1.w2ent:    CAIMonsterCombat #82 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
 q202_troll_1.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
-q202_troll_1.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #76
-q202_troll_1.w2ent:    CAIMonsterCombatParams #76 (CAIMonsterCombatParams) : MonsterHitReaction
+q202_troll_1.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #83
+q202_troll_1.w2ent:    CAIMonsterCombatParams #83 (CAIMonsterCombatParams) : MonsterHitReaction
 q202_troll_1.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
-q202_troll_1.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAITrollCombatLogic #77
-q202_troll_1.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #79
+q202_troll_1.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAITrollCombatLogic #84
+q202_troll_1.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #86
 q202_troll_1.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
 q202_troll_1.w2ent:            IncreaseHitCounterOnlyOnMelee (Bool) : false
-q202_troll_1.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #81
-q202_troll_1.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #83
-q202_troll_1.w2ent:    CAITrollCombatLogic #77 (CAITrollCombatLogic) : CBehTree:gameplay\trees\monsters\monster_cave_troll_logic.w2behtree
+q202_troll_1.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #88
+q202_troll_1.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #90
+q202_troll_1.w2ent:    CAITrollCombatLogic #84 (CAITrollCombatLogic) : CBehTree:gameplay\trees\monsters\monster_cave_troll_logic.w2behtree
 q202_troll_1.w2ent:        CAITrollCombatLogic (CAITrollCombatLogic) : <CAITrollCombatLogic>CAITrollCombatLogic
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/monsters/monster_cave_troll_logic.w2behtree
-q202_troll_1.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #78
-q202_troll_1.w2ent:    CAIMonsterCombatLogicParams #78 (CAIMonsterCombatLogicParams) : 
+q202_troll_1.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #85
+q202_troll_1.w2ent:    CAIMonsterCombatLogicParams #85 (CAIMonsterCombatLogicParams) : 
 q202_troll_1.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
-q202_troll_1.w2ent:    CAIMonsterDamageReactionTree #79 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+q202_troll_1.w2ent:    CAIMonsterDamageReactionTree #86 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
 q202_troll_1.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
-q202_troll_1.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #80
-q202_troll_1.w2ent:    CAIDamageReactionTreeParams #80 (CAIDamageReactionTreeParams) : 
+q202_troll_1.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #87
+q202_troll_1.w2ent:    CAIDamageReactionTreeParams #87 (CAIDamageReactionTreeParams) : 
 q202_troll_1.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
 q202_troll_1.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
-q202_troll_1.w2ent:    CAINpcCriticalState #81 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+q202_troll_1.w2ent:    CAINpcCriticalState #88 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
 q202_troll_1.w2ent:        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
-q202_troll_1.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #82
-q202_troll_1.w2ent:    CAINpcCriticalStateParams #82 (CAINpcCriticalStateParams) : 
+q202_troll_1.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #89
+q202_troll_1.w2ent:    CAINpcCriticalStateParams #89 (CAINpcCriticalStateParams) : 
 q202_troll_1.w2ent:        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
-q202_troll_1.w2ent:    CAIMonsterCombatReactionsTree #83 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+q202_troll_1.w2ent:    CAIMonsterCombatReactionsTree #90 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
 q202_troll_1.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-q202_troll_1.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #84
-q202_troll_1.w2ent:    CAIMonsterReactionsTreeParams #84 (CAIMonsterReactionsTreeParams) : 
+q202_troll_1.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #91
+q202_troll_1.w2ent:    CAIMonsterReactionsTreeParams #91 (CAIMonsterReactionsTreeParams) : 
 q202_troll_1.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
 q202_troll_1.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-q202_troll_1.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #85
-q202_troll_1.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #87
-q202_troll_1.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #89
-q202_troll_1.w2ent:    CAIActionLeadEscape #85 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q202_troll_1.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #92
+q202_troll_1.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #94
+q202_troll_1.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #96
+q202_troll_1.w2ent:    CAIActionLeadEscape #92 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
 q202_troll_1.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #86
-q202_troll_1.w2ent:    CAINpcReactionLeadEscape #86 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #93
+q202_troll_1.w2ent:    CAINpcReactionLeadEscape #93 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
 q202_troll_1.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-q202_troll_1.w2ent:    CAIActionLeadEscape #87 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q202_troll_1.w2ent:    CAIActionLeadEscape #94 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
 q202_troll_1.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #88
+q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #95
 q202_troll_1.w2ent:            actionEventName (CName) : FearsomeEvent
 q202_troll_1.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
-q202_troll_1.w2ent:    CAINpcReactionLeadEscape #88 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+q202_troll_1.w2ent:    CAINpcReactionLeadEscape #95 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
 q202_troll_1.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-q202_troll_1.w2ent:    CAIActionEscapeInPack #89 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+q202_troll_1.w2ent:    CAIActionEscapeInPack #96 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
 q202_troll_1.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #90
-q202_troll_1.w2ent:    CAINpcReactionEscapeInPack #90 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+q202_troll_1.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #97
+q202_troll_1.w2ent:    CAINpcReactionEscapeInPack #97 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
 q202_troll_1.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
-q202_troll_1.w2ent:    CAIMonsterDeath #91 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+q202_troll_1.w2ent:    CAIMonsterDeath #98 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
 q202_troll_1.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
 q202_troll_1.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
-q202_troll_1.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #92
-q202_troll_1.w2ent:    CAIMonsterDeathParams #92 (CAIMonsterDeathParams) : 
+q202_troll_1.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #99
+q202_troll_1.w2ent:    CAIMonsterDeathParams #99 (CAIMonsterDeathParams) : 
 q202_troll_1.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
 q202_troll_1.w2ent:            disableCollisionOnAnim (Bool) : true
-q202_troll_1.w2ent:    CAnimMimicParam #93 (CAnimMimicParam) : 
+q202_troll_1.w2ent:    CAnimMimicParam #100 (CAnimMimicParam) : 
 q202_troll_1.w2ent:        CAnimMimicParam (CAnimMimicParam) : <CAnimMimicParam>CAnimMimicParam
 q202_troll_1.w2ent:            wasIncluded (Bool) : true
 q202_troll_1.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
@@ -7272,12 +7301,12 @@ q202_troll_1.w2ent:                    graph (handle:CBehaviorGraph) : animation
 q202_troll_1.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
 q202_troll_1.w2ent:                    instanceName (CName) : Cutscene
 q202_troll_1.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-q202_troll_1.w2ent:    CEntityDismemberment #94 (CEntityDismemberment) : 
+q202_troll_1.w2ent:    CEntityDismemberment #101 (CEntityDismemberment) : 
 q202_troll_1.w2ent:        CEntityDismemberment (CEntityDismemberment) : <CEntityDismemberment>CEntityDismemberment
 q202_troll_1.w2ent:            wasIncluded (Bool) : true
 q202_troll_1.w2ent:            wounds (array:ptr:CDismembermentWound) : # array:ptr:CDismembermentWound
-q202_troll_1.w2ent:                0 (ptr:CDismembermentWound) : CDismembermentWound #95
-q202_troll_1.w2ent:    CDismembermentWound #95 (CDismembermentWound) : cave_troll_trophy_head
+q202_troll_1.w2ent:                0 (ptr:CDismembermentWound) : CDismembermentWound #102
+q202_troll_1.w2ent:    CDismembermentWound #102 (CDismembermentWound) : cave_troll_trophy_head
 q202_troll_1.w2ent:        CDismembermentWound (CDismembermentWound) : cave_troll_trophy_head
 q202_troll_1.w2ent:            name (CName) : cave_troll_trophy_head
 q202_troll_1.w2ent:            transform (EngineTransform) : <EngineTransform>transform

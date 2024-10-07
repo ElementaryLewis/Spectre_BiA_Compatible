@@ -14,7 +14,7 @@
 		<quality type="add" min="4" max="4"/>
       </ability>
 	  
-      <!-- modSigns -->
+      <!-- modSpectre -->
 	  <ability name="MutationTrigger_stats">
         <ammo type="add" min="3" />
 		<quality type="add" min="4" max="4"/>
@@ -757,7 +757,7 @@
         </base_abilities>
       </item>
 	  
-	  <!-- modSigns -->
+	  <!-- modSpectre -->
 	  <item name="Mutation Trigger" category="potion" price="100" grid_size="1" ability_slots="0" stackable="1000" icon_path="icons/inventory/potions/de_vries_extract_64x64.png" localisation_key_name="item_name_mutation_trigger" localisation_key_description="item_desc_mutation_trigger">
         <tags>Potion, SingletonItem, mod_nosale</tags>
         <base_abilities>

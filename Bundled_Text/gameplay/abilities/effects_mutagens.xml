@@ -3,31 +3,26 @@
 	<definitions>
 		<abilities>
 		
-			<!-- modSigns: reworked -->
 			<ability name="Mutagen01Effect">
 				<critical_hit_chance type="add" min="0.05"/>
 				<mutagen01_max_stack type="add" min="5" />
 			</ability>
 			
-			<!-- modSigns -->
 			<ability name="KatakanBonusEffect">
 				<critical_hit_damage_bonus type="add" min="0.5"/>
 			</ability>
 			
-			<!-- modSigns: added to enemies -->
 			<ability name="Mutagen02Effect">
-				<!-- <resistGainRate type="add" min="0.15"/> -->
 				<mutagen02_resist_reduction type="add" min="0.01"/> 
 				<mutagen02_max_stack type="add" min="10" />
 			</ability>
 			
 			<ability name="Mutagen04Effect">
-				<healthReductionPerc type="add" min="0.001"/> <!-- modSigns -->
-				<attackCostIncrease type="add" min="0.5"/> <!-- modSigns -->
+				<healthReductionPerc type="add" min="0.001"/>
+				<attackCostIncrease type="add" min="0.5"/>
 			</ability>
 			
 			<ability name="Mutagen05Effect">
-				<!-- modSigns -->
 				<attack_power type="mult" min="0.005" />
 				<mutagen05_max_stack type="add" min="200" />
 				<mutagen05_buff_rate type="add" min="20" />
@@ -39,86 +34,73 @@
 			</ability>
 			
 			<ability name="Mutagen07Effect">
-				<lifeLeech type="add" min="0.1"/> <!-- modSigns -->
+				<lifeLeech type="add" min="0.1"/>
 			</ability>
 			
 			<ability name="Mutagen08Effect">
 			</ability>
 			
 			<ability name="Mutagen09Effect">
-				<!-- modSigns -->
-				<!-- <spell_power type="mult" min="0.20" /> -->
 				<mutagen09_bonus_lesser type="add" min="10"/>
 				<mutagen09_bonus_medium type="add" min="17.5"/>
 				<mutagen09_bonus_greater type="add" min="25"/>
 			</ability>
 			
-			<!-- modSigns -->
 			<ability name="Mutagen10Effect">
 				<attack_power type="mult" min="0.167" />
 				<mutagen10_max_stack type="add" min="3" />
 			</ability>
 			
 			<ability name="Mutagen11Effect">
-				<damageIncrease type="add" min="0.5"/> <!-- modSigns -->
+				<damageIncrease type="add" min="0.5"/>
 			</ability>
 			
 			<ability name="Mutagen12Effect">
-				<!-- modSigns -->
 				<vitalityRegen type="add" min="100"/>
 				<vitalityCombatRegen type="add" min="20"/>
 				<m12_threshold type="add" min="0.333"/>
 			</ability>
 			
-			<!-- modSigns -->
 			<ability name="TrollBonusEffect">
 				<vitalityCombatRegen type="add" min="80"/>
 			</ability>
 			
 			<ability name="Mutagen13Effect">
-				<!-- modSigns -->
 				<staminaRegen type="add" min="1"/>
 				<mutagen13_max_stack type="add" min="10"/>
 			</ability>
 			
 			<ability name="Mutagen14Effect">
-				<mutagen14_bonus type="add" min="0.5" /> <!-- modSigns -->
+				<mutagen14_bonus type="add" min="0.5" />
 			</ability>
 			
 			<ability name="Mutagen15Effect">
-				<!-- modSigns -->
 				<focus_gain type="add" min="0.005" />
 				<mutagen15_max_stack type="add" min="100" />
 				<mutagen15_buff_rate type="add" min="20" />
 				<mutagen15_debuff_rate type="add" min="1" />
 			</ability>
 			
-			<!-- modSigns: new effect -->
 			<ability name="Mutagen16Effect">
-				<!-- <encumbrance type="add" min="20"/> -->
 				<mutagen16_health_prc type="add" min="0.15"/>
 			</ability>
 			
-			<!-- modSigns -->
 			<ability name="Mutagen17Effect">
 				<spell_power type="mult" min="0.1" />
 				<mutagen17_max_stack type="add" min="5"/>
 			</ability>
 			
 			<ability name="Mutagen18Effect">
-				<!-- modSigns -->
 				<vitalityRegen type="add" min="5"/>
 				<vitalityCombatRegen type="add" min="5"/>
 				<mutagen18_max_stack type="add" min="10"/>
 			</ability>
 			
 			<ability name="Mutagen19Effect">
-				<!-- <max_hp_perc_trigger type="add" min="0.3"/> --> <!-- modSigns: reworked -->
-				<quen_power_bonus type="mult" min="0.5" /> <!-- modSigns -->
+				<quen_power_bonus type="mult" min="0.5" />
 			</ability>
 			
 			<ability name="Mutagen20Effect">
-				<!-- modSigns -->
 				<fire_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 				<burning_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 				<burning_DoT_damage_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
@@ -129,25 +111,22 @@
 			</ability>
 			
 			<ability name="Mutagen21Effect">
-				<healingRatio type="add" min="0.001"/> <!-- modSigns: per 1 pt of stamina -->
+				<healingRatio type="add" min="0.001"/>
 			</ability>
 			
 			<ability name="Mutagen22Effect">
-				<!-- modSigns -->
 				<spell_power type="mult" min="0.005" />
 				<mutagen22_max_stack type="add" min="100" />
 				<mutagen22_buff_rate type="add" min="20" />
 				<mutagen22_debuff_rate type="add" min="1" />
 			</ability>
 			
-			<!-- modSigns -->
 			<ability name="Mutagen23Effect">
 				<vitalityRegen type="add" min="4"/>
 				<vitalityCombatRegen type="add" min="4"/>
 			</ability>
 			
 			<ability name="Mutagen24Effect">
-				<!-- modSigns -->
 				<attack_power type="mult" min="0.5" />
 				<spell_power type="mult" min="0.5" />
 				<staminaRegen type="add" min="5"/>
@@ -157,38 +136,21 @@
 			</ability>
 			
 			<ability name="Mutagen25Effect">
-				<!-- <attack_power type="mult" min="0.5"/> -->
 				<mutagen25_bonus_lesser type="add" min="0.025"/>
 				<mutagen25_bonus_medium type="add" min="0.0375"/>
 				<mutagen25_bonus_greater type="add" min="0.05"/>
 			</ability>
 			
 			<ability name="Mutagen26Effect">
-				<returned_damage type="mult" min="0.25" /> <!-- modSigns -->
+				<returned_damage type="mult" min="0.25" />
 			</ability>
 			
-			<!-- modSigns: reworked -->
 			<ability name="Mutagen27Effect">
-				<!-- <slashing_resistance_perc type="add" min="0.02" />
-				<piercing_resistance_perc type="add" min="0.02" />
-				<bludgeoning_resistance_perc type="add" min="0.02" />
-				<rending_resistance_perc type="add" min="0.02" />
-				<elemental_resistance_perc type="add" min="0.02" />
-				
-				<mutagen27_max_stack type="add" min="10" /> -->
 				<mutagen27_bonus_duration type="add" min="2.0" />
 				<mutagen27_dmg_window type="add" min="1.0" />
 			</ability>
 			
-			<!-- modSigns: reworked -->
-			<ability name="Mutagen28Effect">
-				<!-- <vsSpecter_attack_power type="mult" min="0.1" />
-				
-				<slashing_resistance_perc type="add" min="0.15" />
-				<piercing_resistance_perc type="add" min="0.15" />
-				<bludgeoning_resistance_perc type="add" min="0.15" />
-				<rending_resistance_perc type="add" min="0.15" />
-				<elemental_resistance_perc type="add" min="0.15" />	-->			
+			<ability name="Mutagen28Effect">	
 				<mutagen28_dmg_mult type="add" min="0.6" />
 				<mutagen28_dmg_reduction type="add" min="0.5" />
 			</ability>

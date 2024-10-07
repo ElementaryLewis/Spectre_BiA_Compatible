@@ -2664,6 +2664,11 @@ templates:
                     rotationRelativeMode: ECurveRelativeMode_None
                     scaleRelativeMode: ECurveRelativeMode_None
                     hasInitialParentTransform: true
+        - ".type": CStorySceneComponent
+          guid: 0a0f3254-196c-4cce-85d9-c3818e99981a
+          attachments: # array:handle:IAttachment
+          name: "voiceset_redanian blacksmith 01"
+          storyScene: gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene
       idTag:  da64b29d-0313-4fc6-8a22-bb84585d9c64
       displayName: Quartermaster
     appearances:  #array:2,0,CEntityAppearance

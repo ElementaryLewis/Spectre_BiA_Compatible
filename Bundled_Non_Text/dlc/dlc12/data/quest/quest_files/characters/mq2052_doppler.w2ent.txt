@@ -598,6 +598,7 @@ mq2052_doppler.w2ent:                20 (ptr:CEntityTemplateParam) : CVitalSpots
 mq2052_doppler.w2ent:                21 (ptr:CEntityTemplateParam) : CMonsterParam #241
 mq2052_doppler.w2ent:                22 (ptr:CEntityTemplateParam) : CAnimGlobalParam #242
 mq2052_doppler.w2ent:                23 (ptr:CEntityTemplateParam) : CBloodTrailEffect #243
+mq2052_doppler.w2ent:                24 (ptr:CEntityTemplateParam) : CInventoryDefinition #244
 mq2052_doppler.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 mq2052_doppler.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 mq2052_doppler.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -651,7 +652,7 @@ mq2052_doppler.w2ent:                            0 (SEntityBufferType1) :
 mq2052_doppler.w2ent:                                ComponentName (CName) : 
 mq2052_doppler.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 mq2052_doppler.w2ent:                        idTag (IdTag) :  7dc27a53-f37c-4065-88df-2c9ad335fbe6
-mq2052_doppler.w2ent:                        displayName (LocalizedString) : Skelliger
+mq2052_doppler.w2ent:                        displayName (LocalizedString) : Doppler
 mq2052_doppler.w2ent:                        level (Int32) : 28
 mq2052_doppler.w2ent:                        dontUseReactionOneLiners (Bool) : true
 mq2052_doppler.w2ent:                CStorySceneComponent #1 (CStorySceneComponent) : voiceset_skellige warrior 02
@@ -22750,7 +22751,7 @@ mq2052_doppler.w2ent:                0 (SEntityBufferType1) :
 mq2052_doppler.w2ent:                    ComponentName (CName) : 
 mq2052_doppler.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 mq2052_doppler.w2ent:            idTag (IdTag) :  7dc27a53-f37c-4065-88df-2c9ad335fbe6
-mq2052_doppler.w2ent:            displayName (LocalizedString) : Skelliger
+mq2052_doppler.w2ent:            displayName (LocalizedString) : Doppler
 mq2052_doppler.w2ent:            level (Int32) : 28
 mq2052_doppler.w2ent:            dontUseReactionOneLiners (Bool) : true
 mq2052_doppler.w2ent:    CStorySceneComponent #2 (CStorySceneComponent) : voiceset_skellige warrior 02
@@ -28111,3 +28112,15 @@ mq2052_doppler.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : blood_trail
 mq2052_doppler.w2ent:            wasIncluded (Bool) : true
 mq2052_doppler.w2ent:            name (String) : "blood_trail"
 mq2052_doppler.w2ent:            effect (CName) : default_blood_trail
+mq2052_doppler.w2ent:    CInventoryDefinition #244 (CInventoryDefinition) : 
+mq2052_doppler.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+mq2052_doppler.w2ent:            wasIncluded (Bool) : true
+mq2052_doppler.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+mq2052_doppler.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #245
+mq2052_doppler.w2ent:    CInventoryDefinitionEntry #245 (CInventoryDefinitionEntry) : alchemy_ingredient
+mq2052_doppler.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+mq2052_doppler.w2ent:            category (CName) : alchemy_ingredient
+mq2052_doppler.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #246
+mq2052_doppler.w2ent:    CInventoryInitializerUniform #246 (CInventoryInitializerUniform) : Doppler mutagen
+mq2052_doppler.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+mq2052_doppler.w2ent:            itemName (CName) : Doppler mutagen

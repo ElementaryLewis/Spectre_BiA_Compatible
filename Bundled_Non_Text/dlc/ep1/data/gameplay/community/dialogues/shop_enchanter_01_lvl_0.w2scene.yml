@@ -1169,7 +1169,17 @@ templates:
                             #sceneElement: (looped reference) CStorySceneLine #263
                             GUID: bce42422-9b4c-4e88-9a42-f8a9461ebdd4
                             linkParentGUID: 5871b40b-ced5-44c0-961c-29cb7f90c842
-                    #nextLinkElement: (looped reference) CStorySceneSection #5
+                    nextLinkElement:
+                      ".type": CStorySceneScript
+                      linkedElements:  #array:2,0,ptr:CStorySceneLinkElement
+                        #"0": (looped reference) CStorySceneScript #6
+                      #nextLinkElement: (looped reference) CStorySceneSection #5
+                      comment: "mq6005_painite_enabled +1"
+                      functionName: AddFact_S
+                      BufferParameters:  #CCompressedBuffer:CVariant
+                        factName: mq6005_painite_enabled
+                        value: 1
+                        validFor: -1
                     comment: "enchanter_01_met +1"
                     functionName: AddFact_S
                     BufferParameters:  #CCompressedBuffer:CVariant
@@ -10847,6 +10857,7 @@ templates:
           - ".type": CStorySceneVoicetagMapping
             voicetag: HAKLAND ENCHANTER
       #"19": (looped reference) CStorySceneSection #620
+      #"20": (looped reference) CStorySceneScript #634
     sections:  #array:2,0,ptr:CStorySceneSection
       #"0": (looped reference) CStorySceneSection #11
       #"1": (looped reference) CStorySceneSection #4

@@ -2517,8 +2517,7 @@ templates:
       - ".type": CBuffImmunityParam
         name: "NoKnockdownStagger"
         overrideInherited: true
-        immunityTo:  #array:2,0,Int32
-          - 6
+        immunityTo: # array:Int32
         flags: IF_Immobilize
       - ".type": CAnimGlobalParam
         sfxTag: sfx_siren

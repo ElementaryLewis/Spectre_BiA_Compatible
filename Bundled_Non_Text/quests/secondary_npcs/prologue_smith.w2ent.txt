@@ -434,6 +434,9 @@ prologue_smith.w2ent:                13 (ptr:CEntityTemplateParam) : CAnimConstr
 prologue_smith.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 prologue_smith.w2ent:                W3MerchantNPC #0 (W3MerchantNPC) : PreviewEntity
 prologue_smith.w2ent:                    W3MerchantNPC (W3MerchantNPC) : PreviewEntity
+prologue_smith.w2ent:                        tags (TagList) : fixWillisMapPin
+prologue_smith.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+prologue_smith.w2ent:                                0 (CName) : fixWillisMapPin
 prologue_smith.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 prologue_smith.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
 prologue_smith.w2ent:                        streamingDistance (Uint8) : 11
@@ -6133,6 +6136,9 @@ prologue_smith.w2ent:            cookedEffectsVersion (Uint32) : 1
 prologue_smith.w2ent:            Unk1 (Uint32) : 0
 prologue_smith.w2ent:    W3MerchantNPC #1 (W3MerchantNPC) : DWARF MAN 02
 prologue_smith.w2ent:        W3MerchantNPC (W3MerchantNPC) : 
+prologue_smith.w2ent:            tags (TagList) : fixWillisMapPin
+prologue_smith.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+prologue_smith.w2ent:                    0 (CName) : fixWillisMapPin
 prologue_smith.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 prologue_smith.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
 prologue_smith.w2ent:            streamingDistance (Uint8) : 11

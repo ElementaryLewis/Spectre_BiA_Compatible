@@ -860,10 +860,21 @@ var cachedIsSpecter : int;
 		{
 			LogDMHits("Non-player character dodge - no damage dealt", damageData);
 		}
-		damageData.SetWasDodged();
-		damageData.SetAllProcessedDamageAs(0);
-		damageData.ClearEffects();
-		damageData.SetHitAnimationPlayType(EAHA_ForceNo);
+
+		//damageData.SetWasDodged();
+		//damageData.SetAllProcessedDamageAs(0);
+		//damageData.ClearEffects();
+
+		if (this.UsesVitality())
+		{
+			damageData.processedDmg.vitalityDamage -= damageData.processedDmg.vitalityDamage * 0.5;
+		}
+		else if (this.UsesEssence())
+		{
+			damageData.processedDmg.essenceDamage -= damageData.processedDmg.essenceDamage * 0.5;
+		}
+
+		damageData.SetHitAnimationPlayType(EAHA_ForceYes);
 	}
 }
 

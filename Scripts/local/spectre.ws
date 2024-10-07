@@ -1240,171 +1240,171 @@ function spectreAddset_internal( set : EItemSetType, optional equip : bool, opti
 	switch( set )
 	{
 		case EIST_Lynx:
-			if(equip)
-			{
-				witcher.AddAndEquipItem( 'Lynx Armor 4' );
-				witcher.AddAndEquipItem( 'Lynx Pants 5' );
-				witcher.AddAndEquipItem( 'Lynx Gloves 5' );
-				witcher.AddAndEquipItem( 'Lynx Boots 5' );
-				witcher.AddAndEquipItem( 'Lynx School steel sword 4' );
-				witcher.AddAndEquipItem( 'Lynx School silver sword 4' );
-			}
-			else
-			{
-				thePlayer.inv.AddAnItem( 'Lynx Armor 4' );
-				thePlayer.inv.AddAnItem( 'Lynx Pants 5' );
-				thePlayer.inv.AddAnItem( 'Lynx Gloves 5' );
-				thePlayer.inv.AddAnItem( 'Lynx Boots 5' );
-				thePlayer.inv.AddAnItem( 'Lynx School steel sword 4' );
-				thePlayer.inv.AddAnItem( 'Lynx School silver sword 4' );
-			}
-			break;
+		if(equip)
+		{
+			witcher.AddAndEquipItem( 'Lynx Armor 4' );
+			witcher.AddAndEquipItem( 'Lynx Pants 5' );
+			witcher.AddAndEquipItem( 'Lynx Gloves 5' );
+			witcher.AddAndEquipItem( 'Lynx Boots 5' );
+			witcher.AddAndEquipItem( 'Lynx School steel sword 4' );
+			witcher.AddAndEquipItem( 'Lynx School silver sword 4' );
+		}
+		else
+		{
+			thePlayer.inv.AddAnItem( 'Lynx Armor 4' );
+			thePlayer.inv.AddAnItem( 'Lynx Pants 5' );
+			thePlayer.inv.AddAnItem( 'Lynx Gloves 5' );
+			thePlayer.inv.AddAnItem( 'Lynx Boots 5' );
+			thePlayer.inv.AddAnItem( 'Lynx School steel sword 4' );
+			thePlayer.inv.AddAnItem( 'Lynx School silver sword 4' );
+		}
+		break;
 		case EIST_Gryphon:
-			if(equip)
-			{
-				witcher.AddAndEquipItem( 'Gryphon Armor 4' );
-				witcher.AddAndEquipItem( 'Gryphon Pants 5' );
-				witcher.AddAndEquipItem( 'Gryphon Gloves 5' );
-				witcher.AddAndEquipItem( 'Gryphon Boots 5' );
-				witcher.AddAndEquipItem( 'Gryphon School steel sword 4' );
-				witcher.AddAndEquipItem( 'Gryphon School silver sword 4' );
-			}
-			else
-			{
-				thePlayer.inv.AddAnItem( 'Gryphon Armor 4' );
-				thePlayer.inv.AddAnItem( 'Gryphon Pants 5' );
-				thePlayer.inv.AddAnItem( 'Gryphon Gloves 5' );
-				thePlayer.inv.AddAnItem( 'Gryphon Boots 5' );
-				thePlayer.inv.AddAnItem( 'Gryphon School steel sword 4' );
-				thePlayer.inv.AddAnItem( 'Gryphon School silver sword 4' );
-			}
-			break;
-		case EIST_Bear:
-			//witcher.Debug_BearSetBonusQuenSkills();
-			if(equip)
-			{
-				witcher.AddAndEquipItem( 'Bear Armor 4' );
-				witcher.AddAndEquipItem( 'Bear Pants 5' );
-				witcher.AddAndEquipItem( 'Bear Gloves 5' );
-				witcher.AddAndEquipItem( 'Bear Boots 5' );
-				witcher.AddAndEquipItem( 'Bear School steel sword 4' );
-				witcher.AddAndEquipItem( 'Bear School silver sword 4' );
-			}
-			else
-			{
-				thePlayer.inv.AddAnItem( 'Bear Armor 4' );
-				thePlayer.inv.AddAnItem( 'Bear Pants 5' );
-				thePlayer.inv.AddAnItem( 'Bear Gloves 5' );
-				thePlayer.inv.AddAnItem( 'Bear Boots 5' );
-				thePlayer.inv.AddAnItem( 'Bear School steel sword 4' );
-				thePlayer.inv.AddAnItem( 'Bear School silver sword 4' );
-			}
-			break;
+		if(equip)
+		{
+			witcher.AddAndEquipItem( 'Gryphon Armor 4' );
+			witcher.AddAndEquipItem( 'Gryphon Pants 5' );
+			witcher.AddAndEquipItem( 'Gryphon Gloves 5' );
+			witcher.AddAndEquipItem( 'Gryphon Boots 5' );
+			witcher.AddAndEquipItem( 'Gryphon School steel sword 4' );
+			witcher.AddAndEquipItem( 'Gryphon School silver sword 4' );
+		}
+		else
+		{
+			thePlayer.inv.AddAnItem( 'Gryphon Armor 4' );
+			thePlayer.inv.AddAnItem( 'Gryphon Pants 5' );
+			thePlayer.inv.AddAnItem( 'Gryphon Gloves 5' );
+			thePlayer.inv.AddAnItem( 'Gryphon Boots 5' );
+			thePlayer.inv.AddAnItem( 'Gryphon School steel sword 4' );
+			thePlayer.inv.AddAnItem( 'Gryphon School silver sword 4' );
+		}
+		break;
+	case EIST_Bear:
+		//witcher.Debug_BearSetBonusQuenSkills();
+		if(equip)
+		{
+			witcher.AddAndEquipItem( 'Bear Armor 4' );
+			witcher.AddAndEquipItem( 'Bear Pants 5' );
+			witcher.AddAndEquipItem( 'Bear Gloves 5' );
+			witcher.AddAndEquipItem( 'Bear Boots 5' );
+			witcher.AddAndEquipItem( 'Bear School steel sword 4' );
+			witcher.AddAndEquipItem( 'Bear School silver sword 4' );
+		}
+		else
+		{
+			thePlayer.inv.AddAnItem( 'Bear Armor 4' );
+			thePlayer.inv.AddAnItem( 'Bear Pants 5' );
+			thePlayer.inv.AddAnItem( 'Bear Gloves 5' );
+			thePlayer.inv.AddAnItem( 'Bear Boots 5' );
+			thePlayer.inv.AddAnItem( 'Bear School steel sword 4' );
+			thePlayer.inv.AddAnItem( 'Bear School silver sword 4' );
+		}
+		break;
 		case EIST_Wolf:
-			/*witcher.inv.AddAnItem( 'Grapeshot 2' );
-			witcher.inv.AddAnItem( 'Dancing Star 2' );
-			witcher.inv.AddAnItem( 'Hybrid Oil 2' );
-			witcher.inv.AddAnItem( 'Cursed Oil 2' );
-			witcher.inv.AddAnItem( 'Magical Oil 2' );
-			witcher.inv.AddAnItem( 'Specter Oil 2' );*/
-			if(equip)
-			{
-				witcher.AddAndEquipItem( 'Wolf Armor 4' );
-				witcher.AddAndEquipItem( 'Wolf Pants 5' );
-				witcher.AddAndEquipItem( 'Wolf Gloves 5' );
-				witcher.AddAndEquipItem( 'Wolf Boots 5' );
-				witcher.AddAndEquipItem( 'Wolf School steel sword 4' );
-				witcher.AddAndEquipItem( 'Wolf School silver sword 4' );
-			}
-			else
-			{
-				thePlayer.inv.AddAnItem( 'Wolf Armor 4' );
-				thePlayer.inv.AddAnItem( 'Wolf Pants 5' );
-				thePlayer.inv.AddAnItem( 'Wolf Gloves 5' );
-				thePlayer.inv.AddAnItem( 'Wolf Boots 5' );
-				thePlayer.inv.AddAnItem( 'Wolf School steel sword 4' );
-				thePlayer.inv.AddAnItem( 'Wolf School silver sword 4' );
-			}
-			break;
+		/*witcher.inv.AddAnItem( 'Grapeshot 2' );
+		witcher.inv.AddAnItem( 'Dancing Star 2' );
+		witcher.inv.AddAnItem( 'Hybrid Oil 2' );
+		witcher.inv.AddAnItem( 'Cursed Oil 2' );
+		witcher.inv.AddAnItem( 'Magical Oil 2' );
+		witcher.inv.AddAnItem( 'Specter Oil 2' );*/
+		if(equip)
+		{
+			witcher.AddAndEquipItem( 'Wolf Armor 4' );
+			witcher.AddAndEquipItem( 'Wolf Pants 5' );
+			witcher.AddAndEquipItem( 'Wolf Gloves 5' );
+			witcher.AddAndEquipItem( 'Wolf Boots 5' );
+			witcher.AddAndEquipItem( 'Wolf School steel sword 4' );
+			witcher.AddAndEquipItem( 'Wolf School silver sword 4' );
+		}
+		else
+		{
+			thePlayer.inv.AddAnItem( 'Wolf Armor 4' );
+			thePlayer.inv.AddAnItem( 'Wolf Pants 5' );
+			thePlayer.inv.AddAnItem( 'Wolf Gloves 5' );
+			thePlayer.inv.AddAnItem( 'Wolf Boots 5' );
+			thePlayer.inv.AddAnItem( 'Wolf School steel sword 4' );
+			thePlayer.inv.AddAnItem( 'Wolf School silver sword 4' );
+		}
+		break;
 		case EIST_RedWolf:
-			/*witcher.inv.AddAnItem( 'Black Blood 2' );
-			witcher.inv.AddAnItem( 'Swallow 2' );
-			witcher.inv.AddAnItem( 'Grapeshot 2' );*/
-			if(equip)
-			{
-				witcher.AddAndEquipItem( 'Red Wolf Armor 1' );
-				witcher.AddAndEquipItem( 'Red Wolf Pants 1' );
-				witcher.AddAndEquipItem( 'Red Wolf Gloves 1' );
-				witcher.AddAndEquipItem( 'Red Wolf Boots 1' );
-				witcher.AddAndEquipItem( 'Red Wolf School steel sword 1' );
-				witcher.AddAndEquipItem( 'Red Wolf School silver sword 1' );
-			}
-			else
-			{
-				thePlayer.inv.AddAnItem( 'Red Wolf Armor 1' );
-				thePlayer.inv.AddAnItem( 'Red Wolf Pants 1' );
-				thePlayer.inv.AddAnItem( 'Red Wolf Gloves 1' );
-				thePlayer.inv.AddAnItem( 'Red Wolf Boots 1' );
-				thePlayer.inv.AddAnItem( 'Red Wolf School steel sword 1' );
-				thePlayer.inv.AddAnItem( 'Red Wolf School silver sword 1' );
-			}
-			break;
+		/*witcher.inv.AddAnItem( 'Black Blood 2' );
+		witcher.inv.AddAnItem( 'Swallow 2' );
+		witcher.inv.AddAnItem( 'Grapeshot 2' );*/
+		if(equip)
+		{
+			witcher.AddAndEquipItem( 'Red Wolf Armor 1' );
+			witcher.AddAndEquipItem( 'Red Wolf Pants 1' );
+			witcher.AddAndEquipItem( 'Red Wolf Gloves 1' );
+			witcher.AddAndEquipItem( 'Red Wolf Boots 1' );
+			witcher.AddAndEquipItem( 'Red Wolf School steel sword 1' );
+			witcher.AddAndEquipItem( 'Red Wolf School silver sword 1' );
+		}
+		else
+		{
+			thePlayer.inv.AddAnItem( 'Red Wolf Armor 1' );
+			thePlayer.inv.AddAnItem( 'Red Wolf Pants 1' );
+			thePlayer.inv.AddAnItem( 'Red Wolf Gloves 1' );
+			thePlayer.inv.AddAnItem( 'Red Wolf Boots 1' );
+			thePlayer.inv.AddAnItem( 'Red Wolf School steel sword 1' );
+			thePlayer.inv.AddAnItem( 'Red Wolf School silver sword 1' );
+		}
+		break;
 		case EIST_Vampire:
-			if( equip )
-			{
-				witcher.AddAndEquipItem( 'q702_vampire_boots' );
-				witcher.AddAndEquipItem( 'q702_vampire_gloves' );
-				witcher.AddAndEquipItem( 'q702_vampire_pants' );
-				witcher.AddAndEquipItem( 'q702_vampire_armor' );
-				witcher.AddAndEquipItem( 'q702 vampire steel sword' );
-				witcher.AddAndEquipItem( 'q702_vampire_mask' );
-			}
-			else
-			{
-				witcher.inv.AddAnItem( 'q702_vampire_boots' );
-				witcher.inv.AddAnItem( 'q702_vampire_gloves' );
-				witcher.inv.AddAnItem( 'q702_vampire_pants' );
-				witcher.inv.AddAnItem( 'q702_vampire_armor' );
-				witcher.inv.AddAnItem( 'q702_vampire_mask' );
-				witcher.inv.AddAnItem( 'q702 vampire steel sword' );
-			}
-			break;
+		if( equip )
+		{
+			witcher.AddAndEquipItem( 'q702_vampire_boots' );
+			witcher.AddAndEquipItem( 'q702_vampire_gloves' );
+			witcher.AddAndEquipItem( 'q702_vampire_pants' );
+			witcher.AddAndEquipItem( 'q702_vampire_armor' );
+			witcher.AddAndEquipItem( 'q702 vampire steel sword' );
+			witcher.AddAndEquipItem( 'q702_vampire_mask' );
+		}
+		else
+		{
+			witcher.inv.AddAnItem( 'q702_vampire_boots' );
+			witcher.inv.AddAnItem( 'q702_vampire_gloves' );
+			witcher.inv.AddAnItem( 'q702_vampire_pants' );
+			witcher.inv.AddAnItem( 'q702_vampire_armor' );
+			witcher.inv.AddAnItem( 'q702_vampire_mask' );
+			witcher.inv.AddAnItem( 'q702 vampire steel sword' );
+		}
+		break;
 		case EIST_Viper: //modSpectre
-			if( equip )
-			{
-				witcher.AddAndEquipItem('EP1 Witcher Armor');
-				witcher.AddAndEquipItem('EP1 Witcher Boots');
-				witcher.AddAndEquipItem('EP1 Witcher Gloves');
-				witcher.AddAndEquipItem('EP1 Witcher Pants');
-				witcher.AddAndEquipItem('EP1 Viper School steel sword');
-				witcher.AddAndEquipItem('EP1 Viper School silver sword');
-			}
-			else
-			{
-				witcher.inv.AddAnItem('EP1 Witcher Armor');
-				witcher.inv.AddAnItem('EP1 Witcher Boots');
-				witcher.inv.AddAnItem('EP1 Witcher Gloves');
-				witcher.inv.AddAnItem('EP1 Witcher Pants');
-				witcher.inv.AddAnItem('EP1 Viper School steel sword');
-				witcher.inv.AddAnItem('EP1 Viper School silver sword');
-			}
-			break;
+		if( equip )
+		{
+			witcher.AddAndEquipItem('EP1 Witcher Armor');
+			witcher.AddAndEquipItem('EP1 Witcher Boots');
+			witcher.AddAndEquipItem('EP1 Witcher Gloves');
+			witcher.AddAndEquipItem('EP1 Witcher Pants');
+			witcher.AddAndEquipItem('EP1 Viper School steel sword');
+			witcher.AddAndEquipItem('EP1 Viper School silver sword');
+		}
+		else
+		{
+			witcher.inv.AddAnItem('EP1 Witcher Armor');
+			witcher.inv.AddAnItem('EP1 Witcher Boots');
+			witcher.inv.AddAnItem('EP1 Witcher Gloves');
+			witcher.inv.AddAnItem('EP1 Witcher Pants');
+			witcher.inv.AddAnItem('EP1 Viper School steel sword');
+			witcher.inv.AddAnItem('EP1 Viper School silver sword');
+		}
+		break;
 		case EIST_KaerMorhen: //modSpectre
-			if( equip )
-			{
-				witcher.AddAndEquipItem('Kaer Morhen Armor 3');
-				witcher.AddAndEquipItem('Kaer Morhen Pants 3');
-				witcher.AddAndEquipItem('Kaer Morhen Boots 3');
-				witcher.AddAndEquipItem('Kaer Morhen Gloves 3');
-			}
-			else
-			{
-				witcher.inv.AddAnItem('Kaer Morhen Armor 3');
-				witcher.inv.AddAnItem('Kaer Morhen Pants 3');
-				witcher.inv.AddAnItem('Kaer Morhen Boots 3');
-				witcher.inv.AddAnItem('Kaer Morhen Gloves 3');
-			}
-			break;
+		if( equip )
+		{
+			witcher.AddAndEquipItem('Kaer Morhen Armor 3');
+			witcher.AddAndEquipItem('Kaer Morhen Pants 3');
+			witcher.AddAndEquipItem('Kaer Morhen Boots 3');
+			witcher.AddAndEquipItem('Kaer Morhen Gloves 3');
+		}
+		else
+		{
+			witcher.inv.AddAnItem('Kaer Morhen Armor 3');
+			witcher.inv.AddAnItem('Kaer Morhen Pants 3');
+			witcher.inv.AddAnItem('Kaer Morhen Boots 3');
+			witcher.inv.AddAnItem('Kaer Morhen Gloves 3');
+		}
+		break;
 	}
 }
 

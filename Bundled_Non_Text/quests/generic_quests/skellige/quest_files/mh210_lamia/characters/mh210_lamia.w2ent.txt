@@ -12574,7 +12574,6 @@ mh210_lamia.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : NoKnockdownS
 mh210_lamia.w2ent:            name (String) : "NoKnockdownStagger"
 mh210_lamia.w2ent:            overrideInherited (Bool) : true
 mh210_lamia.w2ent:            immunityTo (array:Int32) : # array:Int32
-mh210_lamia.w2ent:                0 (Int32) : 6
 mh210_lamia.w2ent:            flags (EImmunityFlags) : IF_Immobilize
 mh210_lamia.w2ent:    CAnimGlobalParam #40 (CAnimGlobalParam) : sfx_siren
 mh210_lamia.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam

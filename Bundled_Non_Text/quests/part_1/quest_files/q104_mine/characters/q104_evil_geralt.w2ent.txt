@@ -342,7 +342,7 @@ q104_evil_geralt.w2ent:                            0 (SEntityBufferType1) :
 q104_evil_geralt.w2ent:                                ComponentName (CName) : 
 q104_evil_geralt.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 q104_evil_geralt.w2ent:                        idTag (IdTag) :  62434ca2-0e9b-450b-a24c-9bed596fb1f6
-q104_evil_geralt.w2ent:                        displayName (LocalizedString) : Wraith
+q104_evil_geralt.w2ent:                        displayName (LocalizedString) : Geralt of Rivia
 q104_evil_geralt.w2ent:                        voiceTag (CName) : ABEL LUPO
 q104_evil_geralt.w2ent:                        willBeUnconscious (Bool) : true
 q104_evil_geralt.w2ent:                        level (Int32) : 6
@@ -22607,7 +22607,7 @@ q104_evil_geralt.w2ent:                0 (SEntityBufferType1) :
 q104_evil_geralt.w2ent:                    ComponentName (CName) : 
 q104_evil_geralt.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 q104_evil_geralt.w2ent:            idTag (IdTag) :  62434ca2-0e9b-450b-a24c-9bed596fb1f6
-q104_evil_geralt.w2ent:            displayName (LocalizedString) : Wraith
+q104_evil_geralt.w2ent:            displayName (LocalizedString) : Geralt of Rivia
 q104_evil_geralt.w2ent:            voiceTag (CName) : ABEL LUPO
 q104_evil_geralt.w2ent:            willBeUnconscious (Bool) : true
 q104_evil_geralt.w2ent:            level (Int32) : 6
@@ -28004,3 +28004,19 @@ q104_evil_geralt.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : blood_tra
 q104_evil_geralt.w2ent:            wasIncluded (Bool) : true
 q104_evil_geralt.w2ent:            name (String) : "blood_trail"
 q104_evil_geralt.w2ent:            effect (CName) : default_blood_trail
+q104_evil_geralt.w2ent:    CInventoryDefinitionEntry #253 (CInventoryDefinitionEntry) : steelsword
+q104_evil_geralt.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+q104_evil_geralt.w2ent:            category (CName) : steelsword
+q104_evil_geralt.w2ent:            isMount (Bool) : true
+q104_evil_geralt.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #255
+q104_evil_geralt.w2ent:    CInventoryDefinitionEntry #254 (CInventoryDefinitionEntry) : silversword
+q104_evil_geralt.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+q104_evil_geralt.w2ent:            category (CName) : silversword
+q104_evil_geralt.w2ent:            isMount (Bool) : true
+q104_evil_geralt.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #256
+q104_evil_geralt.w2ent:    CInventoryInitializerUniform #255 (CInventoryInitializerUniform) : NPC Witcher Steel Sword
+q104_evil_geralt.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+q104_evil_geralt.w2ent:            itemName (CName) : NPC Witcher Steel Sword
+q104_evil_geralt.w2ent:    CInventoryInitializerUniform #256 (CInventoryInitializerUniform) : NPC Witcher Silver Sword
+q104_evil_geralt.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+q104_evil_geralt.w2ent:            itemName (CName) : NPC Witcher Silver Sword

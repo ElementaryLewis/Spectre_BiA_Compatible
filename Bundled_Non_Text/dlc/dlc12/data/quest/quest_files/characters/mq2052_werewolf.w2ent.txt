@@ -106,6 +106,7 @@ mq2052_werewolf.w2ent:                19 (ptr:CEntityTemplateParam) : CEntityDis
 mq2052_werewolf.w2ent:                20 (ptr:CEntityTemplateParam) : CAnimMimicParam #137
 mq2052_werewolf.w2ent:                21 (ptr:CEntityTemplateParam) : CAnimGlobalParam #138
 mq2052_werewolf.w2ent:                22 (ptr:CEntityTemplateParam) : CBloodTrailEffect #139
+mq2052_werewolf.w2ent:                23 (ptr:CEntityTemplateParam) : CInventoryDefinition #140
 mq2052_werewolf.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 mq2052_werewolf.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 mq2052_werewolf.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -16879,3 +16880,15 @@ mq2052_werewolf.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : blood_trai
 mq2052_werewolf.w2ent:            wasIncluded (Bool) : true
 mq2052_werewolf.w2ent:            name (String) : "blood_trail"
 mq2052_werewolf.w2ent:            effect (CName) : default_blood_trail
+mq2052_werewolf.w2ent:    CInventoryDefinition #140 (CInventoryDefinition) : 
+mq2052_werewolf.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+mq2052_werewolf.w2ent:            wasIncluded (Bool) : true
+mq2052_werewolf.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+mq2052_werewolf.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #141
+mq2052_werewolf.w2ent:    CInventoryDefinitionEntry #141 (CInventoryDefinitionEntry) : alchemy_ingredient
+mq2052_werewolf.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+mq2052_werewolf.w2ent:            category (CName) : alchemy_ingredient
+mq2052_werewolf.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #142
+mq2052_werewolf.w2ent:    CInventoryInitializerUniform #142 (CInventoryInitializerUniform) : Werewolf mutagen
+mq2052_werewolf.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+mq2052_werewolf.w2ent:            itemName (CName) : Werewolf mutagen

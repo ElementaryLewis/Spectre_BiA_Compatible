@@ -177,7 +177,7 @@
         <health_final_multiplier type="add" min="1" />
       </ability>
       <!-- difficulty levels -->
-	  <!-- modSigns: rebalanced to fit damage formula changes -->
+	  <!-- modSpectre: rebalanced to fit damage formula changes -->
       <ability name="difficulty_CommonEasy">
         <tags>DifficultyModeAbility, Easy</tags>
         <health_final_multiplier type="add" min="-0.50" /> <!-- 50% of default health -->

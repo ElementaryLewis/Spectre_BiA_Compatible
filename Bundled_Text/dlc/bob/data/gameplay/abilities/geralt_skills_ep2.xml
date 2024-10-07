@@ -2,7 +2,7 @@
 <redxml>
   <definitions>
     <abilities>
-          <!-- Foodie: modSigns - changed -->
+          <!-- Foodie: modSpectre - changed -->
           <ability name="perk_15">
             <tags>perk_15</tags>
             <duration_bonus type="mult" min="1.0"/>
@@ -15,7 +15,7 @@
             <dmg_multiplier type="mult" min="1.0" />
           </ability>
 
-          <!-- DEFENSE: modSigns - redone -->
+          <!-- DEFENSE: modSpectre - redone -->
           <ability name="perk_21">
               <tags>perk_21</tags>
               <!-- <parry type="add" min="0.1" />
@@ -28,18 +28,18 @@
           </ability>
 
           <!-- ######################### ITEM SET BONUS ABILITIES ######################## -->
-          <ability name="setBonusAbilityBear_1"> <!-- modSigns -->
+          <ability name="setBonusAbilityBear_1"> <!-- modSpectre -->
               <tags>setBonusAbilityBear_1</tags>
               <bonus_focus_gain type="add" min="0.035" /> <!-- points per piece -->
 			  <attack_power type="mult" min="0.035" /> <!-- granted per each focus point per piece -->
           </ability>
 
-          <ability name="setBonusAbilityBear_2"> <!-- modSigns -->
+          <ability name="setBonusAbilityBear_2"> <!-- modSpectre -->
 			  <tags>setBonusAbilityBear_2</tags>
 			  <stamina_attack type="add" min="0.334" /> <!-- attack cost prc restored -->
           </ability>
 
-          <ability name="setBonusAbilityRedWolf_1"> <!-- modSigns -->
+          <ability name="setBonusAbilityRedWolf_1"> <!-- modSpectre -->
               <tags>setBonusAbilityRedWolf_1</tags>
 			  <per_redwolf_piece_crit_chance_bonus type="add" min="0.05" />
 			  <per_redwolf_piece_crit_power_bonus type="add" min="0.10" />
@@ -50,7 +50,7 @@
               <amount type="add" min="1" />
           </ability>
 
-          <ability name="setBonusAbilityLynx_2"> <!-- modSigns: no longer used -->
+          <ability name="setBonusAbilityLynx_2"> <!-- modSpectre: no longer used -->
             <tags>setBonusAbilityLynx_2</tags>
             <!-- <lynx_2_dmg_boost type="add" min="0.50"/> -->
             <!-- <lynx_2_stun_duration type="add" min="3" /> -->
@@ -59,15 +59,15 @@
 
           <ability name="setBonusAbilityVampire">
             <tags>setBonusAbilityVampire</tags>
-            <life_percent type="add" min="0.5"/> <!-- modSigns -->
+            <life_percent type="add" min="0.5"/> <!-- modSpectre -->
           </ability>
 		
-		  <ability name="SetBonusAbilityWolf_1"> <!-- modSigns -->
+		  <ability name="SetBonusAbilityWolf_1"> <!-- modSpectre -->
 		  	<tags>SetBonusAbilityWolf_1</tags>
 		  	<per_piece_oil_bonus type="add" min="0.167" />
 		  </ability>
 		  
-		  <ability name="SetBonusAbilityWolf_2"> <!-- modSigns -->
+		  <ability name="SetBonusAbilityWolf_2"> <!-- modSpectre -->
 		  	<tags>SetBonusAbilityWolf_2</tags>
 		  	<max_oils_count type="add" min="3" />
 		  	<per_oil_crit_chance_bonus type="add" min="0.05" />

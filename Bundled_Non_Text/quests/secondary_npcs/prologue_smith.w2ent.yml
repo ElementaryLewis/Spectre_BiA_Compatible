@@ -33,6 +33,8 @@ templates:
     ## entityClass: W3MerchantNPC
     entityObject:
       ".type": W3MerchantNPC
+      tags:
+        - fixWillisMapPin
       attachments: # array:handle:IAttachment
       streamingDistance: 11
       Components:  #array:0,0,ptr:CComponent

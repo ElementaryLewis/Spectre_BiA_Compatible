@@ -3,33 +3,33 @@
   <definitions>
     <abilities>
 	
-	  <!-- modSigns: add health abilities -->
-      <ability name="ModSignsAdditionalHealth">
+	  <!-- modSpectre: add health abilities -->
+      <ability name="modSpectreAdditionalHealth">
         <health_final_multiplier type="add" min="0.1" />
       </ability>
-      <ability name="ModSignsAdditionalHealthNegative">
+      <ability name="modSpectreAdditionalHealthNegative">
         <health_final_multiplier type="add" min="-0.1" />
       </ability>
-      <ability name="ModSignsMaxHealthNegative">
+      <ability name="modSpectreMaxHealthNegative">
         <health_final_multiplier type="add" min="-0.99" />
       </ability>
-	  <!-- modSigns: add dmg abilities -->
-      <ability name="ModSignsAdditionalDamage">
+	  <!-- modSpectre: add dmg abilities -->
+      <ability name="modSpectreAdditionalDamage">
         <damage_final_multiplier type="add" min="0.1" />
       </ability>
-      <ability name="ModSignsAdditionalDamageNegative">
+      <ability name="modSpectreAdditionalDamageNegative">
         <damage_final_multiplier type="add" min="-0.1" />
       </ability>
 	  
-	  <!-- modSigns: displayed level as a separate ability -->
+	  <!-- modSpectre: displayed level as a separate ability -->
       <ability name="DisplayedLevelAbl">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
       </ability>
 	  
-	  <!-- modSigns: the player can gain +11 armor and +10 silver damage per level -->
+	  <!-- modSpectre: the player can gain +11 armor and +10 silver damage per level -->
 	
-	  <!-- modSigns: animal level bonus -->
+	  <!-- modSpectre: animal level bonus -->
       <ability name="AnimalLevelBonus">
         <tags> "base" </tags>
 		<experience type="base" always_random="false" min="1" max="1" />
@@ -171,7 +171,7 @@
 		<frost_resistance type="add" always_random="false" min="0" max="0" />
       </ability>
 	
-      <ability name="MonsterMHBoss"> <!-- czart in Velen, he also has MiniBoss and qmh210_lamia abilities - modSigns: removed -->
+      <ability name="MonsterMHBoss"> <!-- czart in Velen, he also has MiniBoss and qmh210_lamia abilities - modSpectre: removed -->
         <tags> "base", "InstantKillImmune" </tags>	
       </ability>	  
 	  
@@ -193,7 +193,7 @@
 		<bleeding_DoT_damage_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
       </ability>	  	  
 	  
-      <ability name="BossNGPLevelBonus"> <!-- not used in modSigns, bosses scale properly -->
+      <ability name="BossNGPLevelBonus"> <!-- not used in modSpectre, bosses scale properly -->
         <tags> "base", "InstantKillImmune" </tags>
       </ability>		  
 	  
@@ -209,7 +209,7 @@
    	  <ability name="_Monster_solo_base _Stats"> <!-- unused? -->
 	  </ability>
 
-	  <ability name="PrologModifier"> <!-- modSigns: removed -->
+	  <ability name="PrologModifier"> <!-- modSpectre: removed -->
       </ability>
 	  
     </abilities>

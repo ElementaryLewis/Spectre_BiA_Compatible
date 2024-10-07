@@ -150,6 +150,7 @@ q210_vault_golem.w2ent:                14 (ptr:CEntityTemplateParam) : CAnimBeha
 q210_vault_golem.w2ent:                15 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #41
 q210_vault_golem.w2ent:                16 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #42
 q210_vault_golem.w2ent:                17 (ptr:CEntityTemplateParam) : CBuffImmunityParam #89
+q210_vault_golem.w2ent:                18 (ptr:CEntityTemplateParam) : CR4LootParam #90
 q210_vault_golem.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 q210_vault_golem.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 q210_vault_golem.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -9029,3 +9030,9 @@ q210_vault_golem.w2ent:                2 (Int32) : 18
 q210_vault_golem.w2ent:                3 (Int32) : 19
 q210_vault_golem.w2ent:                4 (Int32) : 16
 q210_vault_golem.w2ent:                5 (Int32) : 45
+q210_vault_golem.w2ent:    CR4LootParam #90 (CR4LootParam) : loot
+q210_vault_golem.w2ent:        CR4LootParam (CR4LootParam) : loot
+q210_vault_golem.w2ent:            name (String) : "loot"
+q210_vault_golem.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+q210_vault_golem.w2ent:                0 (CR4LootContainerParam) : _monster__Golem
+q210_vault_golem.w2ent:                    name (CName) : _monster__Golem

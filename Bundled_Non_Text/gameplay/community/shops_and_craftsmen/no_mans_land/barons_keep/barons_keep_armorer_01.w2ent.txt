@@ -507,10 +507,9 @@ barons_keep_armorer_01.w2ent:                24 (ptr:CEntityTemplateParam) : CBl
 barons_keep_armorer_01.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 barons_keep_armorer_01.w2ent:                W3MerchantNPC #0 (W3MerchantNPC) : PreviewEntity
 barons_keep_armorer_01.w2ent:                    W3MerchantNPC (W3MerchantNPC) : PreviewEntity
-barons_keep_armorer_01.w2ent:                        tags (TagList) : Armorer, Specialist
+barons_keep_armorer_01.w2ent:                        tags (TagList) : fixArmorerMapPin
 barons_keep_armorer_01.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-barons_keep_armorer_01.w2ent:                                0 (CName) : Armorer
-barons_keep_armorer_01.w2ent:                                1 (CName) : Specialist
+barons_keep_armorer_01.w2ent:                                0 (CName) : fixArmorerMapPin
 barons_keep_armorer_01.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 barons_keep_armorer_01.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
 barons_keep_armorer_01.w2ent:                        streamingDistance (Uint8) : 11
@@ -22610,10 +22609,9 @@ barons_keep_armorer_01.w2ent:            cookedEffectsVersion (Uint32) : 1
 barons_keep_armorer_01.w2ent:            Unk1 (Uint32) : 0
 barons_keep_armorer_01.w2ent:    W3MerchantNPC #1 (W3MerchantNPC) : BARON BANDIT STRONG 03
 barons_keep_armorer_01.w2ent:        W3MerchantNPC (W3MerchantNPC) : 
-barons_keep_armorer_01.w2ent:            tags (TagList) : Armorer, Specialist
+barons_keep_armorer_01.w2ent:            tags (TagList) : fixArmorerMapPin
 barons_keep_armorer_01.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-barons_keep_armorer_01.w2ent:                    0 (CName) : Armorer
-barons_keep_armorer_01.w2ent:                    1 (CName) : Specialist
+barons_keep_armorer_01.w2ent:                    0 (CName) : fixArmorerMapPin
 barons_keep_armorer_01.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 barons_keep_armorer_01.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
 barons_keep_armorer_01.w2ent:            streamingDistance (Uint8) : 11

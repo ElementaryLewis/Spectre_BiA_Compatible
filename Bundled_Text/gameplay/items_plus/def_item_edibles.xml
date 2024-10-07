@@ -49,7 +49,7 @@
 	</ability>
 
 <!-- BEVERAGE QUALITY no longer regenerates stamina but we need to keep it for backward compatibility-->
-<!-- modSigns: separate effect restored -->
+<!-- modSpectre: separate effect restored -->
 	<ability name="BeverageQuality_1">
 		<WellHydratedEffect_Level1 is_ability="true" />
 	</ability>
@@ -62,7 +62,7 @@
 		<WellHydratedEffect_Level3 is_ability="true" />
 	</ability>
 
-<!-- TOXICITY QUALITY. modSigns: uncooked food and strong alcohol add toxicity; duration has no effect on drunk fx! -->
+<!-- TOXICITY QUALITY. modSpectre: uncooked food and strong alcohol add toxicity; duration has no effect on drunk fx! -->
 	<ability name="alco_toxicity">
 		<duration min="0" max="0" type="add" />
 		<toxicity min="5" max="5" type="add" />

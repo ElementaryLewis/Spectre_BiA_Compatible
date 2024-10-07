@@ -2492,7 +2492,7 @@ templates:
                     scaleRelativeMode: ECurveRelativeMode_None
                     hasInitialParentTransform: true
       idTag:  62434ca2-0e9b-450b-a24c-9bed596fb1f6
-      displayName: Wraith
+      displayName: Geralt of Rivia
       voiceTag: ABEL LUPO
       willBeUnconscious: true
       level: 6
@@ -13609,3 +13609,17 @@ templates:
         ## name: critical_poison
         isLooped: true
     ## cookedEffectsVersion: 1
+  q104_evil_geralt.w2ent:
+    ".type": CInventoryDefinitionEntry
+    category: steelsword
+    isMount: true
+    initializer:
+      ".type": CInventoryInitializerUniform
+      itemName: NPC Witcher Steel Sword
+  q104_evil_geralt.w2ent:
+    ".type": CInventoryDefinitionEntry
+    category: silversword
+    isMount: true
+    initializer:
+      ".type": CInventoryInitializerUniform
+      itemName: NPC Witcher Silver Sword

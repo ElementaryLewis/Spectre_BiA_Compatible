@@ -3763,6 +3763,14 @@ templates:
         wasIncluded: true
         name: "blood_trail"
         effect: default_blood_trail
+      - ".type": CInventoryDefinition
+        wasIncluded: true
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: alchemy_ingredient
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: Werewolf mutagen
     streamedAttachments:  #array:2,0,SStreamedAttachment
       - ".type": SStreamedAttachment
         parentName: CAnimDangleBufferComponent0

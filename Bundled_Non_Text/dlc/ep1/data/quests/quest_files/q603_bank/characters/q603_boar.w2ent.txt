@@ -74,6 +74,7 @@ q603_boar.w2ent:                10 (ptr:CEntityTemplateParam) : CMonsterParam #7
 q603_boar.w2ent:                11 (ptr:CEntityTemplateParam) : CAttackRangeParam #72
 q603_boar.w2ent:                12 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #76
 q603_boar.w2ent:                13 (ptr:CEntityTemplateParam) : CBuffImmunityParam #77
+q603_boar.w2ent:                14 (ptr:CEntityTemplateParam) : CFocusSoundParam #78
 q603_boar.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 q603_boar.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
 q603_boar.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -6926,3 +6927,9 @@ q603_boar.w2ent:            wasIncluded (Bool) : true
 q603_boar.w2ent:            name (String) : "immunes"
 q603_boar.w2ent:            immunityTo (array:Int32) : # array:Int32
 q603_boar.w2ent:                0 (Int32) : 52
+q603_boar.w2ent:    CFocusSoundParam #78 (CFocusSoundParam) : Focus_Sound
+q603_boar.w2ent:        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
+q603_boar.w2ent:            wasIncluded (Bool) : true
+q603_boar.w2ent:            name (String) : "Focus_Sound"
+q603_boar.w2ent:            eventStart (CName) : animals_wolf_focus_100m_start
+q603_boar.w2ent:            eventStop (CName) : animals_wolf_focus_100m_stop

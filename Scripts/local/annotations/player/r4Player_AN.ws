@@ -1486,3 +1486,13 @@ protected var parryingWithNotEnoughStamina : bool;
 {
 
 } 
+
+@wrapMethod( CR4Player ) function HasRequiredLevelToEquipItem(item : SItemUniqueId) : bool
+{
+	if (false)
+	{
+		wrappedMethod(item);
+	}
+	
+	return true;
+}

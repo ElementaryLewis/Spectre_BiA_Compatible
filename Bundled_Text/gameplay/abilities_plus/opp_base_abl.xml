@@ -214,6 +214,41 @@
         <attack_heavy is_ability="true" />
 	  </ability>
 	  
+	  <ability name="mq1060_Reinald">
+        <!-- man_base-->
+        <tags> "base" </tags>
+        <level type="add" always_random="false" min="1" max="1" />
+        <vitality type="base" always_random="false" min="25" max="25" />
+        <essence type="base" always_random="false" min="0" max="0" />
+        <stamina type="base" always_random="false" min="100" max="100" />
+        <morale type="base" always_random="false" min="100" max="100" />
+        <camera_weight type="add" always_random="false" min="0" max="0" />
+        <humanoid type="add" always_random="false" min="1.0" max="1.0" />
+        <vitalityRegen type="mult" always_random="false" min="0" max="0" />
+        <essenceRegen type="mult" always_random="false" min="0" max="0" />
+        <staminaRegen type="mult" always_random="false" min="0.07" max="0.07" />
+        <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
+        <physical_resistance type="add" always_random="false" min="0" max="0" />
+        <physical_resistance type="mult" always_random="false" min="0" max="0" />
+        <fire_resistance type="add" always_random="false" min="0" max="0" />
+        <fire_resistance type="mult" always_random="false" min="0" max="0" />
+		    <fire_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
+        <frost_resistance type="add" always_random="false" min="0" max="0" />
+        <frost_resistance type="mult" always_random="false" min="0" max="0" />
+        <force_resistance type="add" always_random="false" min="0" max="0" />
+        <force_resistance type="mult" always_random="false" min="0" max="0" />
+        <shock_resistance type="add" always_random="false" min="0" max="0" />
+        <shock_resistance type="mult" always_random="false" min="0" max="0" />
+        <poison_resistance type="add" always_random="false" min="0" max="0" />
+        <poison_resistance type="mult" always_random="false" min="0" max="0" />
+        <bleeding_resistance type="add" always_random="false" min="0" max="0" />
+        <bleeding_resistance type="mult" always_random="false" min="0" max="0" />
+		    <taunt_chance type="base" always_random="false" min="0" max="0"/>
+        <!-- skills -->
+        <attack_light is_ability="true" />
+        <attack_heavy is_ability="true" />
+      </ability>
+	  
 	  <!-- unused (?) abilities -->
       <ability name="ConFrail"> <!-- unused? -->
         <tags> "base" </tags>
@@ -309,7 +344,7 @@
         <vitality type="base" always_random="false" min="500" max="500" />
 		<attack_power type="mult" always_random="false" min="0.25" max="0.25" /> 
 		<attack_power type="add" always_random="false" min="50" max="50" />
-		<!-- modSigns: damage resistances -->
+		<!-- modSpectre: damage resistances -->
 		<!-- damage -->
 		<physical_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<slashing_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
@@ -339,7 +374,7 @@
         <vitality type="base" always_random="false" min="1000" max="1000" />
 		<attack_power type="mult" always_random="false" min="0.5" max="0.5" /> 
 		<attack_power type="add" always_random="false" min="100" max="100" />
-		<!-- modSigns: damage resistances -->
+		<!-- modSpectre: damage resistances -->
 		<!-- damage -->
 		<physical_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<slashing_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
@@ -369,7 +404,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="25" max="25" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="25" max="25" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="25" max="25" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -404,7 +439,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -439,7 +474,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -474,7 +509,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="2" max="2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -509,7 +544,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -544,7 +579,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -579,7 +614,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -614,7 +649,7 @@
 		<experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -650,7 +685,7 @@
         <threat_level type="add" always_random="false" min="2" max="2" />
 		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -686,7 +721,7 @@
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.1" max="0.1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -722,7 +757,7 @@
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -757,7 +792,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="2" max="2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -793,7 +828,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -828,7 +863,7 @@
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -864,7 +899,7 @@
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -930,13 +965,13 @@
         <taunt_chance type="add" always_random="false" min="0.05" max="0.05" />
       </ability>
       <ability name="SkillSorceress">
-	    <!-- modSigns -->
+	    <!-- modSpectre -->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1098,7 +1133,7 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
-		<!-- modSigns -->
+		<!-- modSpectre -->
 		<shock_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<burning_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<fire_resistance_perc type="add" always_random="false" min="0.2" max="0.2"/>
@@ -1113,7 +1148,7 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
-		<!-- modSigns -->
+		<!-- modSpectre -->
 		<shock_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<burning_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<fire_resistance_perc type="add" always_random="false" min="0.3" max="0.3"/>
@@ -1128,7 +1163,7 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
-		<!-- modSigns -->
+		<!-- modSpectre -->
 		<will_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<force_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 	  </ability>
@@ -1142,7 +1177,7 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
-		<!-- modSigns -->
+		<!-- modSpectre -->
 		<will_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<force_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<bleeding_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
@@ -1157,7 +1192,7 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
-		<!-- modSigns -->
+		<!-- modSpectre -->
 		<will_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<force_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<bleeding_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
@@ -1239,13 +1274,13 @@
 	  
 	  <!--FistFighters-->
       <ability name="SkillFistsHard">
-	    <!-- modSigns -->
+	    <!-- modSpectre -->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.33" max="0.33" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1274,13 +1309,13 @@
         <taunt_chance type="add" always_random="false" min="0.1" max="0.1" />
       </ability>
       <ability name="SkillFistsMedium">
-	    <!-- modSigns -->
+	    <!-- modSpectre -->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1309,13 +1344,13 @@
         <taunt_chance type="add" always_random="false" min="0.1" max="0.1" />
       </ability>
       <ability name="SkillFistsEasy">
-	    <!-- modSigns -->
+	    <!-- modSpectre -->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->

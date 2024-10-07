@@ -52,7 +52,7 @@
 				<vitality type="add" min="1700" max="1700"/>
 			</ability>
 			
-			<!-- GOLDEN ORIOLE: modSigns - resistances changed -->
+			<!-- GOLDEN ORIOLE -->
 			<ability name="GoldenOrioleEffect_Level1">
 				<tags>passive</tags>
 				<poison_resistance_perc type="add" min="0.20" max="0.20"/>
@@ -121,7 +121,7 @@
 			<ability name="PheromoneEffect_Drowner" />
 			<ability name="PheromoneEffect_Nekker" />
 			
-			<!-- SWALLOW: modSigns - bleeding res -->
+			<!-- SWALLOW -->
 			<ability name="SwallowEffect_Level1">
 				<tags>passive</tags>
 				<vitalityRegen type="add" max="40" min="40" always_random="false"/>
@@ -203,7 +203,14 @@
 			
 			<!-- WOLF HOUR -->
 			<ability name="WolfHourEffect">
+				<tags>passive</tags>
 				<duration min="3600" type="add" />
+				<vitality min="1000" type="add" />
+				<attack_power type="add" min="1000"/>
+				<spell_power type="add" min="1000" max="1000"/>
+				<staminaRegen type="add" min="1000" />
+				<vitalityRegen type="add" max="1000" min="1000" always_random="false"/>
+				<vitalityCombatRegen type="add" min="1000" max="1000" always_random="false"/>
 			</ability>
 			
 			<!-- mq1060 - Reinalds Philter -->

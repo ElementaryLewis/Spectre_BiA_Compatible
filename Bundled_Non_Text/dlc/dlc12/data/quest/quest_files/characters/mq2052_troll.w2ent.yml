@@ -268,7 +268,7 @@ templates:
           name: "CGameplayEffectsComponent0"
         #"11": (looped reference) CEffectDummyComponent #7
       idTag:  af082371-c107-4aa4-abbe-987aa171cb38
-      displayName: Ice Troll
+      displayName: Poldy
       voiceTag: TROLL_3
       level: 28
     appearances:  #array:2,0,CEntityAppearance
@@ -610,6 +610,21 @@ templates:
                 Y: -0.2000
               depthFadePower: -0.2000
               applyToFillMesh: false
+      - ".type": CInventoryDefinition
+        wasIncluded: true
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: alchemy_ingredient
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: Troll mutagen
+      - ".type": CR4LootParam
+        wasIncluded: true
+        name: "loot"
+        containers:  #array:2,0,CR4LootContainerParam
+          _monster__Ice troll:
+            ".type": CR4LootContainerParam
+            ## name: _monster__Ice troll
     streamedAttachments:  #array:2,0,SStreamedAttachment
       - ".type": SStreamedAttachment
         parentName: Character

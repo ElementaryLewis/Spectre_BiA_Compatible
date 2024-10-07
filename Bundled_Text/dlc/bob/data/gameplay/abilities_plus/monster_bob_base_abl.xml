@@ -26,7 +26,7 @@
         <dodge_melee_heavy_chance type="add" always_random="false" min="-0.5" max="-0.5" />
 		<staminaRegen type="mult" always_random="false" min="-0.2" max="-0.2" />
     </ability>
-	<ability name="Mutation4BloodDebuff" on_added="" on_ended=""> <!-- modSigns: now applied to all opponents -->
+	<ability name="Mutation4BloodDebuff" on_added="" on_ended=""> <!-- modSpectre: now applied to all opponents -->
 		<tags> "BlackBloodDebuff" </tags>
 		<staminaRegen type="mult" always_random="false" min="-0.1" max="-0.1" />
 		<!-- <essenceRegen type="add" min="-2000" /> -->
@@ -205,7 +205,7 @@
         <staminaRegen type="mult" always_random="false" min="0.30" max="0.30" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -299,7 +299,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -365,7 +365,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -454,7 +454,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -541,7 +541,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -619,7 +619,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -729,7 +729,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -801,7 +801,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -875,7 +875,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -950,7 +950,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1059,7 +1059,7 @@
 		<swarm_attack_damage_vitality type="base" always_random="false" min="10" max="10" /> <!-- damage = swarm_attack_damage_vitality * birdCount * deltaTime -->
         <swarm_attack_damage_essence type="base" always_random="false" min="10" max="10" /> <!-- damage = swarm_attack_damage_essence * birdCount * deltaTime -->
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1182,7 +1182,7 @@
 		<essence type="base" always_random="false" min="150" max="150" />
 		<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1302,7 +1302,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
 		<moraleRegen type="mult" always_random="false" min="0.1" max="0.1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1365,7 +1365,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
 		<moraleRegen type="mult" always_random="false" min="0.1" max="0.1" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1466,7 +1466,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1519,7 +1519,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2094,7 +2094,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
 		<moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
 		<!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->

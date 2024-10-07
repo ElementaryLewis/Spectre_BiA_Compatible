@@ -2516,7 +2516,7 @@ templates:
                     scaleRelativeMode: ECurveRelativeMode_None
                     hasInitialParentTransform: true
       idTag:  7dc27a53-f37c-4065-88df-2c9ad335fbe6
-      displayName: Skelliger
+      displayName: Doppler
       level: 28
       dontUseReactionOneLiners: true
     appearances:  #array:2,0,CEntityAppearance
@@ -4372,6 +4372,14 @@ templates:
         wasIncluded: true
         name: "blood_trail"
         effect: default_blood_trail
+      - ".type": CInventoryDefinition
+        wasIncluded: true
+        entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+          - ".type": CInventoryDefinitionEntry
+            category: alchemy_ingredient
+            initializer:
+              ".type": CInventoryInitializerUniform
+              itemName: Doppler mutagen
     streamedAttachments:  #array:2,0,SStreamedAttachment
       - ".type": SStreamedAttachment
         parentName: head

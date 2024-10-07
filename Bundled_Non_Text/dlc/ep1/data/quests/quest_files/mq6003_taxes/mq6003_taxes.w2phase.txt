@@ -140,6 +140,7 @@ mq6003_taxes.w2phase:                8 (ptr:CGraphBlock) : CQuestPauseConditionB
 mq6003_taxes.w2phase:                9 (ptr:CGraphBlock) : CQuestInteractionDialogBlock #30
 mq6003_taxes.w2phase:                10 (ptr:CGraphBlock) : CQuestPhaseInputBlock #32
 mq6003_taxes.w2phase:                11 (ptr:CGraphBlock) : CQuestFactsDBChangingBlock #33
+mq6003_taxes.w2phase:                12 (ptr:CGraphBlock) : CJournalQuestBlock #98
 mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
 mq6003_taxes.w2phase:    CJournalQuestBlock #15 (CJournalQuestBlock) : 
 mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
@@ -299,6 +300,9 @@ mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBl
 mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
 mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #15
 mq6003_taxes.w2phase:                            putName (CName) : Success
+mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
+mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #98
+mq6003_taxes.w2phase:                            putName (CName) : Activate
 mq6003_taxes.w2phase:            factID (String) : "mq6003_fact_taxes_paid"
 mq6003_taxes.w2phase:            value (Int32) : 1
 mq6003_taxes.w2phase:    CQuestPauseConditionBlock #29 (CQuestPauseConditionBlock) : 1s
@@ -859,3 +863,28 @@ mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBl
 mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
 mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #92
 mq6003_taxes.w2phase:                            putName (CName) : In
+mq6003_taxes.w2phase:    CJournalQuestBlock #98 (CJournalQuestBlock) : 
+mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
+mq6003_taxes.w2phase:            guid (CGUID) : 48d467e1-5fa2-4d50-8c6e-ba1071a3f43f
+mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
+mq6003_taxes.w2phase:                    socketId (CName) : Out
+mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #99
+mq6003_taxes.w2phase:            showInfoOnScreen (Bool) : true
+mq6003_taxes.w2phase:    CJournalPath #99 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #100
+mq6003_taxes.w2phase:    CJournalPath #100 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #101
+mq6003_taxes.w2phase:    CJournalPath #101 (CJournalPath) : 
+mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+mq6003_taxes.w2phase:            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #102
+mq6003_taxes.w2phase:    CJournalPath #102 (CJournalPath) : 
+mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+mq6003_taxes.w2phase:            guid (CGUID) : a0015d40-4f34-4e5d-bc79-4b3891c1c984

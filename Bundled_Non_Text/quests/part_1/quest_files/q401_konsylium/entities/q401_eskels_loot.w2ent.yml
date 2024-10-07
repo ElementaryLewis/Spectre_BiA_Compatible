@@ -1,0 +1,313 @@
+templates:
+  q401_eskels_loot.w2ent:
+    ".type": CEntityTemplate
+    includes:  #array:2,0,handle:CEntityTemplate
+      - gameplay/containers/container_template_no_los_360.w2ent
+    ## properOverrides: true
+    ## entityClass: W3Container
+    entityObject:
+      ".type": W3Container
+      tags:
+        - HighlightedByMedalionFX
+      attachments: # array:handle:IAttachment
+      streamingDistance: 2
+      Components:  #array:0,0,ptr:CComponent
+        - ".type": CInventoryComponent
+          guid: a7711718-d6a8-4456-96d2-1b1be678b0c4
+          attachments: # array:handle:IAttachment
+          name: "container"
+        - ".type": CInventoryDefinition
+          entries:  #array:2,0,ptr:CInventoryDefinitionEntry
+            - ".type": CInventoryDefinitionEntry
+              category: alchemy_recipe
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Recipe for Draconide Oil 2
+            - ".type": CInventoryDefinitionEntry
+              category: misc
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Bear fat
+            - ".type": CInventoryDefinitionEntry
+              category: misc
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Wyvern egg
+            - ".type": CInventoryDefinitionEntry
+              category: misc
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Moleyarrow
+            - ".type": CInventoryDefinitionEntry
+              category: misc
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Arenaria
+            - ".type": CInventoryDefinitionEntry
+              category: misc
+              initializer:
+                ".type": CInventoryInitializerUniform
+                itemName: Bryonia
+      idTag:  acb74dd8-7641-4d9d-b7f6-ccca07f08a5f
+      displayName: 153017
+      isEnabled: true
+    bodyParts:  #array:2,0,CEntityBodyPart
+      CMeshComponent chest_wooden_red_opened:
+        ".type": CEntityBodyPart
+        ## name: CMeshComponent chest_wooden_red_opened
+        states:  #array:2,0,CEntityBodyPartState
+          - ".type": CEntityBodyPartState
+            name: Default
+            componentsInUse:  #array:2,0,CComponentReference
+              - ".type": CComponentReference
+                name: "CMeshComponent chest_wooden_red_opened"
+                className: CMeshComponent
+      CStaticMeshComponent chest_wooden_red_closed:
+        ".type": CEntityBodyPart
+        ## name: CStaticMeshComponent chest_wooden_red_closed
+        states:  #array:2,0,CEntityBodyPartState
+          - ".type": CEntityBodyPartState
+            name: Default
+            componentsInUse:  #array:2,0,CComponentReference
+              - ".type": CComponentReference
+                name: "CStaticMeshComponent chest_wooden_red_closed"
+                className: CStaticMeshComponent
+    appearances:  #array:2,0,CEntityAppearance
+      1_full:
+        ".type": CEntityAppearance
+        ## name: 1_full
+      2_empty:
+        ".type": CEntityAppearance
+        ## name: 2_empty
+    usedAppearances:  #array:2,0,CName
+      - 1_full
+      - 2_empty
+    slots:  #array:2,0,EntitySlot
+      fx_point:
+        ".type": EntitySlot
+        ## name: fx_point
+        transform:
+          pos: [ 0.0000, 0.0000, 0.5848 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+    templateParams:  #array:2,0,ptr:CEntityTemplateParam
+      #"0": (looped reference) CInventoryDefinition #4
+    effects:
+      #buffer: 1645 bytes, MD5: a74424bf4ce7558cbb70fe506a5d8d9f
+      quest_highlight_fx:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: 0.0174
+                    timeDuration: 4.1434
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.8670, 1.0000, 1.0000 ]
+                      - [ 0.9253, 1.0000, 1.0000 ]
+                      - [ 0.9835, 1.0000, 1.0000 ]
+                      - [ 0.5793, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/quest_highlight/highlight_fx1.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                      copyRotation: false
+                      attach: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 185, 141, 137, 100 ]
+        length: 2.8519
+        loopStart: 0.3095
+        loopEnd: 0.7450
+        ## name: quest_highlight_fx
+        isLooped: true
+      #buffer: 2312 bytes, MD5: 130c91c5f4cb1f3cd5a92feab967da0a
+      medalion_fx:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0076
+                    timeDuration: 2.9905
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9744, 1.0000, 1.0000 ]
+                      - [ 0.2991, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/medalion_highlight/medalion_highlight.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 153, 183, 171, 100 ]
+          shader:
+            ".type": CFXTrackGroup
+            ## name: "shader"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeBegin: 0.0076
+                    timeDuration: 3.0284
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5031, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8773, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7446, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.6119, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4793, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3466, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2139, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0813, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                    material: fx/gameplay/medalion_highlight/medalion_shader.w2mg
+                    drawOriginal: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 232, 169, 191, 100 ]
+        length: 3.0284
+        loopStart: 0.6208
+        loopEnd: 1.0675
+        ## name: medalion_fx
+        isLooped: true
+      #buffer: 2322 bytes, MD5: a7682ec4017cedcd3efd48954733a171
+      medalion_detection_fx:
+        ".type": CFXDefinition
+        trackGroups:  #array:2,0,ptr:CFXTrackGroup
+          particle:
+            ".type": CFXTrackGroup
+            ## name: "particle"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemParticles
+                    timeBegin: -0.0076
+                    timeDuration: 2.9905
+                    ## buffername: Particles
+                    ## count: 3
+                    ## unk: 1
+                    interpolation:
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.9744, 1.0000, 1.0000 ]
+                      - [ 0.2991, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000 ]
+                    particleSystem: fx/gameplay/medalion_highlight/medalion_highlight.w2p
+                    spawner:
+                      ".type": CFXSpawnerComponent
+                      componentName: fx_point
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 153, 183, 171, 100 ]
+          shader:
+            ".type": CFXTrackGroup
+            ## name: "shader"
+            tracks:  #array:2,0,ptr:CFXTrack
+              fx:
+                ".type": CFXTrack
+                trackItems:  #array:2,0,ptr:CFXTrackItem
+                  - ".type": CFXTrackItemMaterialOverride
+                    timeBegin: 0.0076
+                    timeDuration: 3.0284
+                    ## buffername: MaterialOverride
+                    ## count: 4
+                    ## unk: 1
+                    interpolation:
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.5031, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 1.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.8773, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.7446, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.6119, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.4793, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.3466, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.2139, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0813, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                      - [ 0.0000, 1.0000, 1.0000, 1.0000 ]
+                    material: fx/gameplay/medalion_highlight/medalion_shader.w2mg
+                    drawOriginal: true
+                ## name: "fx"
+            isExpanded: true
+            trackGroupColor: [ 232, 169, 191, 100 ]
+        length: 3.0284
+        loopStart: 0.6208
+        loopEnd: 1.0675
+        ## name: medalion_detection_fx
+        isLooped: true
+    ## cookedEffectsVersion: 1
+  q401_eskels_loot.w2ent:
+    ".type": CR4LootParam
+    name: "loot"
+    containers:  #array:2,0,CR4LootContainerParam
+      q401_eskels_loot:
+        ".type": CR4LootContainerParam
+        ## name: q401_eskels_loot

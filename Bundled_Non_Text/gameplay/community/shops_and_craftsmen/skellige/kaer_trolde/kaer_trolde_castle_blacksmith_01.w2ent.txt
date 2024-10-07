@@ -517,10 +517,9 @@ kaer_trolde_castle_blacksmith_01.w2ent:                23 (ptr:CEntityTemplatePa
 kaer_trolde_castle_blacksmith_01.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 kaer_trolde_castle_blacksmith_01.w2ent:                W3MerchantNPC #0 (W3MerchantNPC) : PreviewEntity
 kaer_trolde_castle_blacksmith_01.w2ent:                    W3MerchantNPC (W3MerchantNPC) : PreviewEntity
-kaer_trolde_castle_blacksmith_01.w2ent:                        tags (TagList) : Blacksmith, Specialist
+kaer_trolde_castle_blacksmith_01.w2ent:                        tags (TagList) : fixBlacksmithMapPin
 kaer_trolde_castle_blacksmith_01.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-kaer_trolde_castle_blacksmith_01.w2ent:                                0 (CName) : Blacksmith
-kaer_trolde_castle_blacksmith_01.w2ent:                                1 (CName) : Specialist
+kaer_trolde_castle_blacksmith_01.w2ent:                                0 (CName) : fixBlacksmithMapPin
 kaer_trolde_castle_blacksmith_01.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 kaer_trolde_castle_blacksmith_01.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
 kaer_trolde_castle_blacksmith_01.w2ent:                        streamingDistance (Uint8) : 11
@@ -549,7 +548,7 @@ kaer_trolde_castle_blacksmith_01.w2ent:                            0 (SEntityBuf
 kaer_trolde_castle_blacksmith_01.w2ent:                                ComponentName (CName) : 
 kaer_trolde_castle_blacksmith_01.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 kaer_trolde_castle_blacksmith_01.w2ent:                        idTag (IdTag) :  06c2424a-f852-411b-babe-1bc6973009b6
-kaer_trolde_castle_blacksmith_01.w2ent:                        displayName (LocalizedString) : Blacksmith
+kaer_trolde_castle_blacksmith_01.w2ent:                        displayName (LocalizedString) : Yanne the Blacksmith
 kaer_trolde_castle_blacksmith_01.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : man_base
 kaer_trolde_castle_blacksmith_01.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : man_base
 kaer_trolde_castle_blacksmith_01.w2ent:                        guid (CGUID) : 0e5ebd6e-3209-4377-8278-9a45ec7e278c
@@ -22461,10 +22460,9 @@ kaer_trolde_castle_blacksmith_01.w2ent:            cookedEffectsVersion (Uint32)
 kaer_trolde_castle_blacksmith_01.w2ent:            Unk1 (Uint32) : 0
 kaer_trolde_castle_blacksmith_01.w2ent:    W3MerchantNPC #1 (W3MerchantNPC) : 
 kaer_trolde_castle_blacksmith_01.w2ent:        W3MerchantNPC (W3MerchantNPC) : 
-kaer_trolde_castle_blacksmith_01.w2ent:            tags (TagList) : Blacksmith, Specialist
+kaer_trolde_castle_blacksmith_01.w2ent:            tags (TagList) : fixBlacksmithMapPin
 kaer_trolde_castle_blacksmith_01.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-kaer_trolde_castle_blacksmith_01.w2ent:                    0 (CName) : Blacksmith
-kaer_trolde_castle_blacksmith_01.w2ent:                    1 (CName) : Specialist
+kaer_trolde_castle_blacksmith_01.w2ent:                    0 (CName) : fixBlacksmithMapPin
 kaer_trolde_castle_blacksmith_01.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
 kaer_trolde_castle_blacksmith_01.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
 kaer_trolde_castle_blacksmith_01.w2ent:            streamingDistance (Uint8) : 11
@@ -22492,7 +22490,7 @@ kaer_trolde_castle_blacksmith_01.w2ent:                0 (SEntityBufferType1) :
 kaer_trolde_castle_blacksmith_01.w2ent:                    ComponentName (CName) : 
 kaer_trolde_castle_blacksmith_01.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
 kaer_trolde_castle_blacksmith_01.w2ent:            idTag (IdTag) :  06c2424a-f852-411b-babe-1bc6973009b6
-kaer_trolde_castle_blacksmith_01.w2ent:            displayName (LocalizedString) : Blacksmith
+kaer_trolde_castle_blacksmith_01.w2ent:            displayName (LocalizedString) : Yanne the Blacksmith
 kaer_trolde_castle_blacksmith_01.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : man_base
 kaer_trolde_castle_blacksmith_01.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : man_base
 kaer_trolde_castle_blacksmith_01.w2ent:            guid (CGUID) : 0e5ebd6e-3209-4377-8278-9a45ec7e278c

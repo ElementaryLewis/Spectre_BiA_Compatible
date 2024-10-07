@@ -44,8 +44,7 @@ templates:
     entityObject:
       ".type": W3MerchantNPC
       tags:
-        - Armorer
-        - Specialist
+        - fixArmorerMapPin
       attachments: # array:handle:IAttachment
       streamingDistance: 11
       Components:  #array:0,0,ptr:CComponent

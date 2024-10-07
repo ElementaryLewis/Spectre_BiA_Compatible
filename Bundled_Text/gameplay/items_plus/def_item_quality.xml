@@ -94,7 +94,7 @@
 			
 			<!-- MAGICAL ABILITIES -->
 			
-			<!-- modSigns: removed (script) -->
+			<!-- modSpectre: removed (script) -->
 			<ability name="MA_Armor" > 
 				<armor type="base" min="0" max="0"/> <!-- set to 0 because it's breaking item levels -->
 			</ability>
@@ -105,7 +105,7 @@
 				<staminaRegen type="mult" min="0.0"/>
 			</ability>
 
-			<!-- modSigns: common armor abilities (script, chest armor only) - 1 ability per 10 levels -->
+			<!-- modSpectre: common armor abilities (script, chest armor only) - 1 ability per 10 levels -->
 			<ability name="MA_SlashingResistance" >
 				<slashing_resistance_perc type="base" min="0.03" max="0.05"/>
 			</ability>
@@ -122,7 +122,7 @@
 				<elemental_resistance_perc type="base" min="0.03" max="0.05"/>
 			</ability>
 			
-			<!-- modSigns: mastercrafted armor abilities (script, all armors) - 1 ability per 10 levels -->
+			<!-- modSpectre: mastercrafted armor abilities (script, all armors) - 1 ability per 10 levels -->
 			<ability name="MA_PoisonResistance" >
 				<poison_resistance_perc type="base" min="0.05" max="0.1"/>
 			</ability>
@@ -139,7 +139,7 @@
 				<focus_gain type="add" min="0.03" max="0.05" />
 			</ability>
 			
-			<!-- modSigns: magic armor abilities (script) - 1 ability per 10 levels -->
+			<!-- modSpectre: magic armor abilities (script) - 1 ability per 10 levels -->
 			<ability name="MA_AardIntensity" >
 				<spell_power_aard type="mult" min="0.03" max="0.05"/>
 			</ability>
@@ -156,7 +156,7 @@
 				<spell_power_axii type="mult" min="0.03" max="0.05"/>
 			</ability>
 			
-			<!-- modSigns: common weapon abilities (script) - 1 ability per 10 levels -->
+			<!-- modSpectre: common weapon abilities (script) - 1 ability per 10 levels -->
 			<ability name="MA_ArmorPenetration" >
 				<armor_reduction min="10" max="20"/>
 			</ability>
@@ -174,7 +174,7 @@
 			</ability>
 			<!-- and adrenaline gain -->
 
-			<!-- modSigns: mastercrafted weapon abilities (script) - 1 ability per 10 levels -->
+			<!-- modSpectre: mastercrafted weapon abilities (script) - 1 ability per 10 levels -->
 			<ability name="MA_BleedingChance" >
 				<BleedingEffect is_ability="true" />
 				<buff_apply_chance type="add" min="0.03"  max="0.05"/>
@@ -206,7 +206,7 @@
 				<desc_staggerchance_mult type="add" min="0.03" max="0.05"/>
 			</ability>
 			
-			<!-- modSigns: magic weapon abilities (script) - 1 ability per 10 levels -->
+			<!-- modSpectre: magic weapon abilities (script) - 1 ability per 10 levels -->
 			<!-- same as magic armor abilities -->
 			
 			<!-- not used as random quality abilities -->
@@ -228,10 +228,10 @@
 				<quen_chance_on_projectile type="add" min="0.01" max="0.05"/>
 			</ability>
 			<ability name="MA_Precision" >
-				<instant_kill_chance type="add" min="0.01" max="0.02"/> <!-- modSigns -->
+				<instant_kill_chance type="add" min="0.01" max="0.02"/> <!-- modSpectre -->
 			</ability>
 			<ability name="MA_Gore" >
-				<dismember_chance type="add" min="0.01" max="0.02" /> <!-- modSigns -->
+				<dismember_chance type="add" min="0.01" max="0.02" /> <!-- modSpectre -->
 			</ability>
 			<ability name="MA_HtH" >
 				<MA_HtH_stats is_ability="true" />

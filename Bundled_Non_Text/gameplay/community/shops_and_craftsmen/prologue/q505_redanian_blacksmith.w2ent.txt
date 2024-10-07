@@ -479,6 +479,7 @@ q505_redanian_blacksmith.w2ent:                            14 (ptr:CComponent) :
 q505_redanian_blacksmith.w2ent:                            15 (ptr:CComponent) : CR4HumanoidCombatComponent #21
 q505_redanian_blacksmith.w2ent:                            16 (ptr:CComponent) : CWetnessComponent #22
 q505_redanian_blacksmith.w2ent:                            17 (ptr:CComponent) : CDropPhysicsComponent #23
+q505_redanian_blacksmith.w2ent:                            18 (ptr:CComponent) : CStorySceneComponent #36
 q505_redanian_blacksmith.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
 q505_redanian_blacksmith.w2ent:                            0 (SEntityBufferType1) : 
 q505_redanian_blacksmith.w2ent:                                ComponentName (CName) : 
@@ -4120,6 +4121,13 @@ q505_redanian_blacksmith.w2ent:                                    translationRe
 q505_redanian_blacksmith.w2ent:                                    rotationRelativeMode (ECurveRelativeMode) : ECurveRelativeMode_None
 q505_redanian_blacksmith.w2ent:                                    scaleRelativeMode (ECurveRelativeMode) : ECurveRelativeMode_None
 q505_redanian_blacksmith.w2ent:                                    hasInitialParentTransform (Bool) : true
+q505_redanian_blacksmith.w2ent:                CStorySceneComponent #36 (CStorySceneComponent) : voiceset_redanian blacksmith 01
+q505_redanian_blacksmith.w2ent:                    CStorySceneComponent (CStorySceneComponent) : voiceset_redanian blacksmith 01
+q505_redanian_blacksmith.w2ent:                        guid (CGUID) : 8ba5b5e2-12df-47f1-ad11-1a6e9ab031d1
+q505_redanian_blacksmith.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q505_redanian_blacksmith.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+q505_redanian_blacksmith.w2ent:                        name (String) : "voiceset_redanian blacksmith 01"
+q505_redanian_blacksmith.w2ent:                        storyScene (soft:CStoryScene) : gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene
 q505_redanian_blacksmith.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
 q505_redanian_blacksmith.w2ent:                0 (CEntityTemplateCookedEffect) : axii_hipnotize
 q505_redanian_blacksmith.w2ent:                    name (CName) : axii_hipnotize
@@ -22372,6 +22380,7 @@ q505_redanian_blacksmith.w2ent:                14 (ptr:CComponent) : CReactionSc
 q505_redanian_blacksmith.w2ent:                15 (ptr:CComponent) : CR4HumanoidCombatComponent #22
 q505_redanian_blacksmith.w2ent:                16 (ptr:CComponent) : CWetnessComponent #23
 q505_redanian_blacksmith.w2ent:                17 (ptr:CComponent) : CDropPhysicsComponent #24
+q505_redanian_blacksmith.w2ent:                18 (ptr:CComponent) : CStorySceneComponent #208
 q505_redanian_blacksmith.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
 q505_redanian_blacksmith.w2ent:                0 (SEntityBufferType1) : 
 q505_redanian_blacksmith.w2ent:                    ComponentName (CName) : 
@@ -27539,3 +27548,10 @@ q505_redanian_blacksmith.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : b
 q505_redanian_blacksmith.w2ent:            wasIncluded (Bool) : true
 q505_redanian_blacksmith.w2ent:            name (String) : "blood_trail"
 q505_redanian_blacksmith.w2ent:            effect (CName) : default_blood_trail
+q505_redanian_blacksmith.w2ent:    CStorySceneComponent #208 (CStorySceneComponent) : voiceset_redanian blacksmith 01
+q505_redanian_blacksmith.w2ent:        CStorySceneComponent (CStorySceneComponent) : voiceset_redanian blacksmith 01
+q505_redanian_blacksmith.w2ent:            guid (CGUID) : 8ba5b5e2-12df-47f1-ad11-1a6e9ab031d1
+q505_redanian_blacksmith.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+q505_redanian_blacksmith.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
+q505_redanian_blacksmith.w2ent:            name (String) : "voiceset_redanian blacksmith 01"
+q505_redanian_blacksmith.w2ent:            storyScene (soft:CStoryScene) : gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene

@@ -599,8 +599,9 @@ templates:
                 Y: -0.2000
               depthFadePower: -0.2000
               applyToFillMesh: false
+      #"25": <empty value>
     effects:
-      #buffer: 1486 bytes, MD5: 9bab67a33dead02e12899f82ce22f10a
+      #buffer: 1486 bytes, MD5: 82c621cf171b896a990a213c8738e7c7
       r_trail:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -643,7 +644,7 @@ templates:
             isExpanded: true
             trackGroupColor: [ 184, 185, 220, 100 ]
         ## name: r_trail
-      #buffer: 1486 bytes, MD5: b0352d9bde90e64294b47a520d760be5
+      #buffer: 1486 bytes, MD5: 1a5f916e863944a72717a4a24da32c07
       l_trail:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -686,7 +687,7 @@ templates:
             isExpanded: true
             trackGroupColor: [ 184, 185, 220, 100 ]
         ## name: l_trail
-      #buffer: 1699 bytes, MD5: fc5715121a607c060950e1acd2183b1f
+      #buffer: 1699 bytes, MD5: 3a95a021fe3e3918209121211863f341
       charge_fx:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -735,7 +736,7 @@ templates:
         ## name: charge_fx
         showDistance: 35.0000
         isLooped: true
-      #buffer: 2319 bytes, MD5: 05fceb997ee407b3a6f96b7f1ed2f34f
+      #buffer: 2319 bytes, MD5: e6e348096f0340175637363e2fbf59aa
       smash_fx:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -818,7 +819,7 @@ templates:
         loopEnd: 0.6213
         ## name: smash_fx
         showDistance: 25.0000
-      #buffer: 2323 bytes, MD5: 924650631539f688017a821c384f2102
+      #buffer: 2323 bytes, MD5: fb31c3127016969bb6f6e618688a600f
       hit_back:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -903,7 +904,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 2.2601
         ## name: hit_back
-      #buffer: 5226 bytes, MD5: b1393be126f99409458f05a314ba9780
+      #buffer: 5226 bytes, MD5: 6362ba079779a2daca677656ac3f13d7
       igni_cone_hit:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -1184,7 +1185,7 @@ templates:
         length: 6.7383
         loopStart: 0.5216
         ## name: igni_cone_hit
-      #buffer: 8386 bytes, MD5: 2278a509b767d5ba670961426704618c
+      #buffer: 8386 bytes, MD5: eb4d04f165900ab972fa45ad9f9692ce
       critical_burning:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -1682,7 +1683,7 @@ templates:
         ## name: critical_burning
         showDistance: 35.0000
         isLooped: true
-      #buffer: 2150 bytes, MD5: cd47b9c11086f148501c66d66c1b3130
+      #buffer: 2150 bytes, MD5: c3698e0164d6dc96646889d7d9273635
       light_hit:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -1761,7 +1762,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 3.1405
         ## name: light_hit
-      #buffer: 2150 bytes, MD5: aeeab1855e8dd1aaaf8a7a17bf44558e
+      #buffer: 2150 bytes, MD5: 3874eb5b64c9864f081fdb8ddf2b27e4
       heavy_hit:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -1840,7 +1841,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 3.1405
         ## name: heavy_hit
-      #buffer: 2337 bytes, MD5: dda4b9788acdced83b30189ac424b418
+      #buffer: 2337 bytes, MD5: 4862da9effa60372db2259770cfb8dbc
       light_hit_back_parried:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -1925,7 +1926,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 2.2601
         ## name: light_hit_back_parried
-      #buffer: 2337 bytes, MD5: 7d121b4652c469508b0abc8a316492fb
+      #buffer: 2337 bytes, MD5: 193811aa1c629b6dfba3dd0a43e690c4
       heavy_hit_back_parried:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2010,7 +2011,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 2.2601
         ## name: heavy_hit_back_parried
-      #buffer: 2370 bytes, MD5: 854d8b70618800c62865802d79f1c467
+      #buffer: 2370 bytes, MD5: e88e9641703b1ea78cfb768431913ac9
       light_hit_parried:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2097,7 +2098,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 2.2601
         ## name: light_hit_parried
-      #buffer: 2370 bytes, MD5: dfaf01f30e39671c81ef7cc7c2d68369
+      #buffer: 2370 bytes, MD5: 1e970748aac279f7cdb1499c7548ed13
       heavy_hit_parried:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2184,7 +2185,7 @@ templates:
             trackGroupColor: [ 142, 194, 224, 100 ]
         length: 2.2601
         ## name: heavy_hit_parried
-      #buffer: 1720 bytes, MD5: 884b4b1cf7f7448f9fc1de727d00504a
+      #buffer: 1720 bytes, MD5: aea05f58e583fde9060c9ee9bea60691
       focus_sound_fx:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2234,7 +2235,7 @@ templates:
         ## name: focus_sound_fx
         showDistance: 300.0000
         isLooped: true
-      #buffer: 7707 bytes, MD5: f42db98d956d095f566902580b95664f
+      #buffer: 7707 bytes, MD5: 233ef30aa0f1ed6fbcbd85bb7075c463
       fire_hit:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2688,7 +2689,7 @@ templates:
         loopStart: 0.5216
         ## name: fire_hit
         showDistance: 55.0000
-      #buffer: 2879 bytes, MD5: 39f68d9c1ee109a49ef9e4b2d37ae99b
+      #buffer: 2879 bytes, MD5: e390f84ffa54bac9c440e47811d07b24
       hit_electric:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2799,7 +2800,7 @@ templates:
         loopEnd: 0.4593
         ## name: hit_electric
         showDistance: 55.0000
-      #buffer: 3363 bytes, MD5: ccec8412feb66e98143064d43f529f1b
+      #buffer: 3363 bytes, MD5: feb54c24c73933bf5b1f3d9e89243fc4
       yrden_shock:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -2939,7 +2940,7 @@ templates:
         loopStart: 0.2370
         loopEnd: 0.7364
         ## name: yrden_shock
-      #buffer: 2114 bytes, MD5: 15b2a11d12e990ce9ccbfe200bece209
+      #buffer: 2114 bytes, MD5: 7096f77b05c5f6e5e270b6d7d165285e
       yrden_slowdown:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3011,7 +3012,7 @@ templates:
         ## name: yrden_slowdown
         showDistance: 30.0000
         isLooped: true
-      #buffer: 3202 bytes, MD5: 10a0afcbf485d6e001a94c106c63d8e9
+      #buffer: 3202 bytes, MD5: a239e7014fc9c3e22a28c421f28d76bd
       axii_confusion:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3138,7 +3139,7 @@ templates:
         ## name: axii_confusion
         showDistance: 70.0000
         isLooped: true
-      #buffer: 3201 bytes, MD5: 0d5caae39b1ffecc7fa18c7f0dc2f860
+      #buffer: 3201 bytes, MD5: 5191fb6a47f61931d253bbbf268b09be
       axii_guardian:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3264,7 +3265,7 @@ templates:
         ## name: axii_guardian
         showDistance: 70.0000
         isLooped: true
-      #buffer: 1725 bytes, MD5: be01c24cf0d83ae873848ac59704d4e5
+      #buffer: 1725 bytes, MD5: e03c1ae5d1994f7b77815d607810d65a
       focus_sound_red_fx:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3314,7 +3315,7 @@ templates:
         ## name: focus_sound_red_fx
         showDistance: 300.0000
         isLooped: true
-      #buffer: 2901 bytes, MD5: 0ed5f307af82e79043dcd16e287c37e1
+      #buffer: 2901 bytes, MD5: eca7e6f821c3949ec24c33778b1585f9
       critical_frozen:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3422,7 +3423,7 @@ templates:
         ## name: critical_frozen
         showDistance: 35.0000
         isLooped: true
-      #buffer: 1684 bytes, MD5: 1dccc32f37dc69b955fbf7c70ffdeef2
+      #buffer: 1684 bytes, MD5: f969db9452877afda0d11aef2e50e7a7
       axii_slowdown:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3471,7 +3472,7 @@ templates:
         ## name: axii_slowdown
         showDistance: 30.0000
         isLooped: true
-      #buffer: 2933 bytes, MD5: 09bda3415a4ee01a3cb78b9c989ccd32
+      #buffer: 2933 bytes, MD5: cbdaca112a2980099e347b88266b36f9
       hit_electric_quen:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3582,7 +3583,7 @@ templates:
         loopEnd: 0.4593
         ## name: hit_electric_quen
         showDistance: 55.0000
-      #buffer: 1497 bytes, MD5: 6957efee8e8b6f70ba7f507ab01ba735
+      #buffer: 1497 bytes, MD5: 81edc0e37daf6a3d976fb2ff6e30eeb9
       water_death:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3626,7 +3627,7 @@ templates:
         loopStart: 0.1515
         loopEnd: 0.3553
         ## name: water_death
-      #buffer: 3414 bytes, MD5: 29884e3918b9dbb0800c5bbfa5fba5b1
+      #buffer: 3414 bytes, MD5: 8c4ed761acc3b62b42631eee02bc1d5e
       demonic_possession:
         ".type": CFXDefinition
         trackGroups:  #array:2,0,ptr:CFXTrackGroup
@@ -3772,3 +3773,22 @@ templates:
         showDistance: 70.0000
         isLooped: true
     ## cookedEffectsVersion: 1
+  q202_troll_3.w2ent:
+    ".type": CAINpcReactionBump
+    tree: gameplay/trees/reactions/reaction_monster_bump.w2behtree
+    voiceSet: "bump"
+  q202_troll_3.w2ent:
+    ".type": CAINpcReactionStopAndComment
+    tree: gameplay/trees/reactions/reaction_stop_and_comment.w2behtree
+    voiceSet: "reaction_to_geralt"
+    stopDuration: 6.0000
+    activationChance: 100
+    distanceToInterrupt: 10
+  q202_troll_3.w2ent:
+    ".type": CAINpcReactionRain
+    tree: gameplay/trees/reactions/reaction_rain.w2behtree
+    voiceSet: "rain"
+    actionPointSelector:
+      ".type": CRainActionPointSelector
+      radius: 30.0000
+      chooseClosestAP: true

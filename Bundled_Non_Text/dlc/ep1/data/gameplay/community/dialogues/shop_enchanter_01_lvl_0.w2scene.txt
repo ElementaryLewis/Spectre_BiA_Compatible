@@ -21,6 +21,7 @@ shop_enchanter_01_lvl_0.w2scene:                16 (ptr:CStorySceneControlPart) 
 shop_enchanter_01_lvl_0.w2scene:                17 (ptr:CStorySceneControlPart) : CStorySceneScript #191
 shop_enchanter_01_lvl_0.w2scene:                18 (ptr:CStorySceneControlPart) : CStorySceneInput #619
 shop_enchanter_01_lvl_0.w2scene:                19 (ptr:CStorySceneControlPart) : CStorySceneSection #620
+shop_enchanter_01_lvl_0.w2scene:                20 (ptr:CStorySceneControlPart) : CStorySceneScript #634
 shop_enchanter_01_lvl_0.w2scene:            sections (array:ptr:CStorySceneSection) : # array:ptr:CStorySceneSection
 shop_enchanter_01_lvl_0.w2scene:                0 (ptr:CStorySceneSection) : CStorySceneSection #11
 shop_enchanter_01_lvl_0.w2scene:                1 (ptr:CStorySceneSection) : CStorySceneSection #4
@@ -1074,7 +1075,7 @@ shop_enchanter_01_lvl_0.w2scene:    CStorySceneScript #6 (CStorySceneScript) : e
 shop_enchanter_01_lvl_0.w2scene:        CStorySceneScript (CStorySceneScript) : <CStorySceneScript>CStorySceneScript
 shop_enchanter_01_lvl_0.w2scene:            linkedElements (array:ptr:CStorySceneLinkElement) : # array:ptr:CStorySceneLinkElement
 shop_enchanter_01_lvl_0.w2scene:                0 (ptr:CStorySceneLinkElement) : CStorySceneSection #7
-shop_enchanter_01_lvl_0.w2scene:            nextLinkElement (ptr:CStorySceneLinkElement) : CStorySceneSection #5
+shop_enchanter_01_lvl_0.w2scene:            nextLinkElement (ptr:CStorySceneLinkElement) : CStorySceneScript #634
 shop_enchanter_01_lvl_0.w2scene:            comment (String) : "enchanter_01_met +1"
 shop_enchanter_01_lvl_0.w2scene:            functionName (CName) : AddFact_S
 shop_enchanter_01_lvl_0.w2scene:            BufferParameters (CCompressedBuffer:CVariant) : <enchanter_01_met> <1> <-1>
@@ -14588,3 +14589,14 @@ shop_enchanter_01_lvl_0.w2scene:                Z (Float) : 0.0000
 shop_enchanter_01_lvl_0.w2scene:            actorName (CName) : HAKLAND ENCHANTER
 shop_enchanter_01_lvl_0.w2scene:            actorMimicsEmotionalState (CName) : Sad
 shop_enchanter_01_lvl_0.w2scene:            ID (CGUID) : fb7dea7d-addb-46b8-b9ab-50cc5f1059da
+shop_enchanter_01_lvl_0.w2scene:    CStorySceneScript #634 (CStorySceneScript) : mq6005_painite_enabled +1
+shop_enchanter_01_lvl_0.w2scene:        CStorySceneScript (CStorySceneScript) : <CStorySceneScript>CStorySceneScript
+shop_enchanter_01_lvl_0.w2scene:            linkedElements (array:ptr:CStorySceneLinkElement) : # array:ptr:CStorySceneLinkElement
+shop_enchanter_01_lvl_0.w2scene:                0 (ptr:CStorySceneLinkElement) : CStorySceneScript #6
+shop_enchanter_01_lvl_0.w2scene:            nextLinkElement (ptr:CStorySceneLinkElement) : CStorySceneSection #5
+shop_enchanter_01_lvl_0.w2scene:            comment (String) : "mq6005_painite_enabled +1"
+shop_enchanter_01_lvl_0.w2scene:            functionName (CName) : AddFact_S
+shop_enchanter_01_lvl_0.w2scene:            BufferParameters (CCompressedBuffer:CVariant) : <mq6005_painite_enabled> <1> <-1>
+shop_enchanter_01_lvl_0.w2scene:                factName (CVariant) : mq6005_painite_enabled
+shop_enchanter_01_lvl_0.w2scene:                value (CVariant) : 1
+shop_enchanter_01_lvl_0.w2scene:                validFor (CVariant) : -1

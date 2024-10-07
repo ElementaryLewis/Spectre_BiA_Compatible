@@ -22,7 +22,7 @@
         <weight type="base" min="0.1" />
       </ability>
 	  	  
-      <!-- DANCING STAR: modSigns -->
+      <!-- DANCING STAR: modSpectre -->
 	  <!-- has both impact and loop effects: damage on impact, !!continuous!! burning application inside the affected area -->
       <ability name="DancingStar_1_impact">
         <tags>PetardImpactParams</tags>
@@ -65,7 +65,7 @@
         <duration type="add" min="5" max="5" />
       </ability>
 	  
-      <!-- DEVILS PUFFBALL: modSigns -->
+      <!-- DEVILS PUFFBALL: modSpectre -->
 	  <!-- has both impact and loop effects: damage on impact, !!continuous!! poisoning application inside the affected area -->
       <ability name="DevilsPuffball_1_impact">
         <tags>PetardImpactParams</tags>
@@ -108,7 +108,7 @@
         <duration type="add" min="5" max="5" />
       </ability>
 	  
-      <!-- DRAGONS DREAM: modSigns - duration and damages changed -->
+      <!-- DRAGONS DREAM: modSpectre - duration and damages changed -->
       <ability name="DragonsDream_1">
         <tags>PetardLoopParams</tags>
         <FireDamage type="add" min="300" max="300" />
@@ -143,7 +143,7 @@
 		<quality type="add" min="4" max="4"/>
       </ability>
 	  
-      <!-- Dwimeritium BOMB: modSigns - changed -->
+      <!-- Dwimeritium BOMB: modSpectre - changed -->
       <ability name="DwimeritiumBomb_1">
         <tags>PetardLoopParams</tags>
         <duration type="add" min="5" />
@@ -173,7 +173,7 @@
 		<quality type="add" min="4" max="4"/>
       </ability>
 	  	  
-      <!-- GRAPESHOT: modSigns - damages changed -->
+      <!-- GRAPESHOT: modSpectre - damages changed -->
       <ability name="Grapeshot_1">
         <tags>PetardImpactParams</tags>
         <PhysicalDamage type="add" min="300" max="300" />
@@ -238,7 +238,7 @@
         <BlindnessEffect_Samum_3 is_ability="true" />
         <Samum_2 is_ability="true" />
         <level type="add" min="3" />
-		<!-- <critical_hit_chance type="add" min="1" /> --> <!-- modSigns: moved to the effect itself -->
+		<!-- <critical_hit_chance type="add" min="1" /> --> <!-- modSpectre: moved to the effect itself -->
 		<quality type="add" min="4" max="4"/>
 		<!-- <BiesHypnosis is_ability="true" /> -->
 		<!-- <Hypnosis is_ability="true" /> -->

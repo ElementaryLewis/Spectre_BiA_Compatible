@@ -161,7 +161,6 @@ templates:
       torsoBoneName: k_torso2_g
       headBoneName: k_head_g
       level: 29
-      isMonsterType_Group: true
       useSoundValue: true
       soundValue: 75
     appearances:  #array:2,0,CEntityAppearance
@@ -532,6 +531,12 @@ templates:
           - 19
           - 16
           - 45
+      - ".type": CR4LootParam
+        name: "loot"
+        containers:  #array:2,0,CR4LootContainerParam
+          _monster__Golem:
+            ".type": CR4LootContainerParam
+            ## name: _monster__Golem
     effects:
       #buffer: 1581 bytes, MD5: c3d06ce2fc50e52c2b320d7e1712ea21
       fx_walk_right:

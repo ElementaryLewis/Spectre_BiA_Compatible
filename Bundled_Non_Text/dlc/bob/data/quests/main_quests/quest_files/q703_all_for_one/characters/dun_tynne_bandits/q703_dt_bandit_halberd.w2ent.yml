@@ -2598,7 +2598,6 @@ templates:
       bob_raider_lvl1_01:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_01
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_beggar/legs/l0_01_ma__novigrad_beggar.w2ent
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
@@ -2613,21 +2612,19 @@ templates:
       bob_raider_lvl1_02:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_02
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_bandits/dress/d_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_guard/legs/l0_01_ma__novigrad_guard.w2ent
           - characters/models/crowd_npc/skellige_fisherman/shoes/s_01_ma__skellige_fisherman.w2ent
           - characters/models/common/man_average/body/n_01_ma__body.w2ent
-          - characters/models/crowd_npc/novigrad_guard/arms/a_01_ma__novigrad_guard.w2ent
-          - characters/models/crowd_npc/skellige_fisherman/gloves/g_02_ma__skellige_fisherman.w2ent
           - characters/models/crowd_npc/nilfgaard_squire/caps/c_05_ma__nilfgaard_squire.w2ent
           - characters/models/common/man_average/heads/h_38_ma__novigrad_citizen_02.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_06_ma__novigrad_citizen.w2ent
+          - characters/models/common/man_average/body/g_01_ma__body_dirty_d02.w2ent
+          - characters/models/crowd_npc/scoiatael_elf_man/arms/a_01_ma__scoiatael_elf.w2ent
         collapsedComponents:  #array:2,0,CName
-          - a_01_mb__novigrad_guard
           - mimic
           - h_38_ma__novigrad_citizen_02
           - he_38_ma__novigrad_citizen
@@ -2635,7 +2632,6 @@ templates:
       bob_raider_lvl1_10:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_10
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
@@ -2657,7 +2653,6 @@ templates:
       bob_raider_lvl1_03:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_03
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/caps/c_02_ma__novigrad_bandit.w2ent
           - characters/models/common/man_average/heads/h_14_ma__novigrad_citizen_03_01.w2ent
@@ -2674,7 +2669,6 @@ templates:
       bob_raider_lvl1_11:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_11
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
@@ -2698,7 +2692,6 @@ templates:
       bob_raider_lvl1_04:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_04
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_guard/shoes/s_01_ma__novigrad_guard.w2ent
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
@@ -2712,7 +2705,6 @@ templates:
       bob_raider_lvl1_12:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_12
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/temeria_guard/legs/l0_01_ma__temeria_guard.w2ent
           - characters/models/crowd_npc/nml_ baron_thug_lvl2/shoes/s_01_mb__nml_baron_thug_lvl2.w2ent
@@ -2729,7 +2721,6 @@ templates:
       bob_raider_lvl1_05:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_05
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_bandits/dress/d_01_ma__novigrad_bandit.w2ent
@@ -2750,7 +2741,6 @@ templates:
       bob_raider_lvl1_13:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_13
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/temeria_guard/legs/l0_01_ma__temeria_guard.w2ent
           - characters/models/crowd_npc/nml_ baron_thug_lvl2/shoes/s_01_mb__nml_baron_thug_lvl2.w2ent
@@ -2772,7 +2762,6 @@ templates:
       bob_raider_lvl1_06:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_06
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_bandits/dress/d_01_ma__novigrad_bandit.w2ent
@@ -2785,7 +2774,6 @@ templates:
       bob_raider_lvl1_20:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_20
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_guard/legs/l0_01_ma__novigrad_guard.w2ent
@@ -2803,7 +2791,6 @@ templates:
       bob_raider_lvl1_14:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_14
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
           - characters/models/common/man_average/body/n_01_ma__body.w2ent
@@ -2827,7 +2814,6 @@ templates:
       bob_raider_lvl1_07:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_07
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_01_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
@@ -2850,7 +2836,6 @@ templates:
       bob_raider_lvl1_21:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_21
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/skellige_fisherman/dress/d_02_ma__skellige_fisherman.w2ent
@@ -2872,7 +2857,6 @@ templates:
       bob_raider_lvl1_15:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_15
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_guard/torso/t2_01_mb__novigrad_guard.w2ent
           - characters/models/crowd_npc/scoiatael_elf_man/arms/a_01_ma__scoiatael_elf.w2ent
@@ -2886,7 +2870,6 @@ templates:
       bob_raider_lvl1_08:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_08
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/heads/h_14_ma__novigrad_citizen_03_01.w2ent
           - characters/models/crowd_npc/novigrad_guard/torso/t2_01_mb__novigrad_guard.w2ent
@@ -2904,7 +2887,6 @@ templates:
       bob_raider_lvl1_22:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_22
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/body/n_01_ma__body.w2ent
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_02_ma__novigrad_bandit.w2ent
@@ -2925,7 +2907,6 @@ templates:
       bob_raider_lvl1_23:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_23
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/nilfgaard_squire/shoes/s_01_ma_nilfgaard_squire.w2ent
@@ -2939,7 +2920,6 @@ templates:
       bob_raider_lvl1_16:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_16
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
           - characters/models/common/man_average/body/n_01_ma__body.w2ent
@@ -2958,7 +2938,6 @@ templates:
       bob_raider_lvl1_09:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_09
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/nilfgaard_squire/shoes/s_01_ma_nilfgaard_squire.w2ent
@@ -2977,8 +2956,6 @@ templates:
       __q703_nazairi_01:
         ".type": CEntityAppearance
         ## name: __q703_nazairi_01
-        voicetag: SYANNAS BANDIT 05
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/heads/h_33_ma__citizen_young_04_01.w2ent
           - dlc/bob/data/characters/models/crowd_npc/bob_citizen/torso/t2_07_ma__bob.w2ent
@@ -2994,7 +2971,6 @@ templates:
       bob_raider_lvl1_17:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_17
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_bandits/torso/t1_03_ma__novigrad_bandit.w2ent
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
@@ -3012,8 +2988,6 @@ templates:
       __q703_nazairi_02:
         ".type": CEntityAppearance
         ## name: __q703_nazairi_02
-        voicetag: SYANNAS BANDIT 06
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - dlc/bob/data/characters/models/crowd_npc/bob_citizen/torso/t2_09_ma__bob.w2ent
           - characters/models/common/man_average/heads/h_26_ma__novigrad_citizen_03_01.w2ent
@@ -3029,7 +3003,6 @@ templates:
       bob_raider_lvl1_18:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_18
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/heads/h_14_ma__novigrad_citizen_03_01.w2ent
           - characters/models/crowd_npc/novigrad_guard/torso/t2_01_mb__novigrad_guard.w2ent
@@ -3051,8 +3024,6 @@ templates:
       __q703_nazairi_03:
         ".type": CEntityAppearance
         ## name: __q703_nazairi_03
-        voicetag: SYANNAS BANDIT 07
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/heads/h_18_ma__skellige_villager_07_01.w2ent
           - dlc/bob/data/characters/models/crowd_npc/bob_citizen/torso/t2_08_ma__bob.w2ent
@@ -3073,7 +3044,6 @@ templates:
       bob_raider_lvl1_19:
         ".type": CEntityAppearance
         ## name: bob_raider_lvl1_19
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/crowd_npc/novigrad_citizen/items/i_04_ma__novigrad_citizen.w2ent
           - characters/models/common/man_average/body/n_01_ma__body.w2ent
@@ -3087,8 +3057,6 @@ templates:
       __q703_nazairi_04:
         ".type": CEntityAppearance
         ## name: __q703_nazairi_04
-        voicetag: SYANNAS BANDIT 08
-        wasIncluded: true
         includedTemplates:  #array:2,0,handle:CEntityTemplate
           - characters/models/common/man_average/heads/h_14_ma__novigrad_citizen_04_02.w2ent
           - characters/models/crowd_npc/skellige_warrior_lvl1/caps/c_02a_ma__skellige_warrior_lvl1.w2ent
@@ -4680,6 +4648,1122 @@ templates:
         wasIncluded: true
         name: "blood_trail"
         effect: default_blood_trail
+    coloringEntries:  #array:2,0,SEntityTemplateColoringEntry
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_01
+        componentName: l0_01_ma__novigrad_beggar
+        colorShift1:  #CColorShift
+          hue: 142
+          saturation: -86
+          luminance: -35
+        colorShift2:  #CColorShift
+          hue: 173
+          saturation: -100
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_01
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_01
+        componentName: a_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_01
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_01
+        componentName: c_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 322
+          saturation: -59
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_02
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+        colorShift2:  #CColorShift
+          luminance: 13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_02
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_02
+        componentName: l0_01_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 129
+          saturation: -80
+          luminance: 1
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_10
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 291
+          saturation: -94
+          luminance: 19
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_10
+        componentName: a_04_ma__skellige_fisherman
+        colorShift1:  #CColorShift
+          hue: 291
+          saturation: -94
+          luminance: 19
+        colorShift2:  #CColorShift
+          hue: 336
+          saturation: -73
+          luminance: -15
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_10
+        componentName: l2_03_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 135
+          saturation: -94
+          luminance: 19
+        colorShift2:  #CColorShift
+          hue: 101
+          saturation: -83
+          luminance: -47
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_10
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 291
+          saturation: -94
+          luminance: 19
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_03
+        componentName: c_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 8
+          saturation: -92
+          luminance: -34
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_03
+        componentName: t2_01_mb__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -100
+          luminance: 14
+        colorShift2:  #CColorShift
+          hue: 348
+          saturation: -100
+          luminance: -34
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_03
+        componentName: a_01_mb__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: -32
+        colorShift2:  #CColorShift
+          hue: 331
+          saturation: -100
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_03
+        componentName: l3s_07_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: -17
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_11
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 305
+          saturation: -91
+          luminance: -9
+        colorShift2:  #CColorShift
+          luminance: 13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_11
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 305
+          saturation: -91
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_11
+        componentName: a_01_ma__skellige_warrior_lvl1
+        colorShift1:  #CColorShift
+          hue: 305
+          saturation: -91
+          luminance: -32
+        colorShift2:  #CColorShift
+          hue: 360
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_11
+        componentName: l0_01_mb__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 336
+          saturation: -68
+          luminance: -41
+        colorShift2:  #CColorShift
+          hue: 336
+          saturation: -99
+          luminance: -40
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_11
+        componentName: c_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 317
+          saturation: -25
+          luminance: -35
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -45
+        colorShift2:  #CColorShift
+          hue: 323
+          saturation: -82
+          luminance: 61
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -45
+        colorShift2:  #CColorShift
+          hue: 323
+          saturation: -82
+          luminance: 61
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: a_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -45
+        colorShift2:  #CColorShift
+          hue: 323
+          saturation: -82
+          luminance: 61
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: g_03_ma__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 304
+          saturation: -95
+          luminance: 41
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: i_02_ma__novigrad_rowdy
+        colorShift1:  #CColorShift
+          hue: 351
+          saturation: -37
+          luminance: 36
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_04
+        componentName: l0_02_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 333
+          saturation: -87
+          luminance: 85
+        colorShift2:  #CColorShift
+          hue: 346
+          saturation: -84
+          luminance: -3
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_12
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 94
+          saturation: -89
+          luminance: -10
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_12
+        componentName: t1_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: -17
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_12
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: -17
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_12
+        componentName: a_02_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: 15
+        colorShift2:  #CColorShift
+          hue: 93
+          saturation: -95
+          luminance: -50
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_12
+        componentName: c_01_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 93
+          saturation: -95
+          luminance: -41
+        colorShift2:  #CColorShift
+          hue: 360
+          saturation: -86
+          luminance: -17
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_05
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+        colorShift2:  #CColorShift
+          luminance: 13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_05
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_05
+        componentName: a_01_mb__nml_baron_thug_lvl2
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: 10
+        colorShift2:  #CColorShift
+          hue: 94
+          saturation: -70
+          luminance: -20
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_05
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 321
+          saturation: -46
+        colorShift2:  #CColorShift
+          saturation: -31
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_13
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 94
+          saturation: -89
+          luminance: -10
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_13
+        componentName: t1_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: -17
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_13
+        componentName: d_02_ma__skellige_fisherman
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -89
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_13
+        componentName: c_01a_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          saturation: -80
+          luminance: -58
+        colorShift2:  #CColorShift
+          hue: 360
+          saturation: -100
+          luminance: -19
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_13
+        componentName: a_01_mb__nml_baron_thug_lvl2
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -86
+          luminance: 3
+        colorShift2:  #CColorShift
+          hue: 33
+          saturation: -31
+          luminance: -53
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_06
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_06
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_06
+        componentName: l2_01_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 154
+          saturation: -86
+          luminance: -33
+        colorShift2:  #CColorShift
+          hue: 168
+          saturation: -95
+          luminance: 26
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_06
+        componentName: ag_03_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 326
+          saturation: -75
+          luminance: -27
+        colorShift2:  #CColorShift
+          hue: 168
+          saturation: -95
+          luminance: 26
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_06
+        componentName: c_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 327
+          saturation: -70
+          luminance: -20
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_20
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 360
+          saturation: -89
+          luminance: -36
+        colorShift2:  #CColorShift
+          luminance: 13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_20
+        componentName: l0_01_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 127
+          saturation: -80
+          luminance: 1
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_20
+        componentName: a_01_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 315
+          saturation: -90
+        colorShift2:  #CColorShift
+          hue: 360
+          saturation: -89
+          luminance: -44
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_20
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 360
+          saturation: -89
+          luminance: -36
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_14
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_14
+        componentName: a_01_ma__scoiatael_elf
+        colorShift1:  #CColorShift
+          hue: 135
+          saturation: -87
+          luminance: -41
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_14
+        componentName: t1_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_14
+        componentName: l1_06_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 135
+          saturation: -87
+          luminance: -38
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_07
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+        colorShift2:  #CColorShift
+          luminance: 13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_07
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 93
+          saturation: -67
+        colorShift2:  #CColorShift
+          saturation: -1
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_07
+        componentName: a_04_ma__skellige_fisherman
+        colorShift1:  #CColorShift
+          hue: 322
+          saturation: -90
+          luminance: -9
+        colorShift2:  #CColorShift
+          hue: 117
+          saturation: -100
+          luminance: -42
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_07
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_21
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_21
+        componentName: d_02_ma__skellige_fisherman
+        colorShift1:  #CColorShift
+          hue: 324
+          saturation: -85
+          luminance: 9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_21
+        componentName: l0_01_mb__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 266
+          saturation: -86
+          luminance: -17
+        colorShift2:  #CColorShift
+          hue: 314
+          saturation: -74
+          luminance: -34
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_21
+        componentName: a_04_ma__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 324
+          saturation: -85
+          luminance: 9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_21
+        componentName: i_04a_ma__novigrad_rowdy
+        colorShift1:  #CColorShift
+          hue: 334
+          saturation: -95
+          luminance: -15
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_15
+        componentName: t2_01_mb__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 123
+          saturation: -81
+          luminance: -5
+        colorShift2:  #CColorShift
+          hue: 129
+          saturation: -79
+          luminance: -47
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_15
+        componentName: a_01_ma__scoiatael_elf
+        colorShift1:  #CColorShift
+          hue: 123
+          saturation: -81
+          luminance: -50
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_15
+        componentName: l0_03_mb__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 336
+          saturation: -69
+          luminance: -37
+        colorShift2:  #CColorShift
+          hue: 58
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_15
+        componentName: g_02_mb__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 336
+          saturation: -92
+          luminance: -26
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_08
+        componentName: t2_01_mb__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 122
+          saturation: -98
+          luminance: 2
+        colorShift2:  #CColorShift
+          hue: 130
+          saturation: -93
+          luminance: -30
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_08
+        componentName: c_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 326
+          saturation: -42
+          luminance: -44
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_08
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 346
+          saturation: -41
+          luminance: -25
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_08
+        componentName: a_02_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 122
+          saturation: -94
+          luminance: 2
+        colorShift2:  #CColorShift
+          hue: 319
+          saturation: -100
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_22
+        componentName: t1_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -45
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_22
+        componentName: a_04_ma__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -38
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_22
+        componentName: l2_01_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 102
+          saturation: -93
+          luminance: -45
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_22
+        componentName: c_04_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 324
+          saturation: -75
+          luminance: -37
+        colorShift2:  #CColorShift
+          hue: 360
+          saturation: -93
+          luminance: -22
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_22
+        componentName: i_02_ma__novigrad_rowdy
+        colorShift1:  #CColorShift
+          hue: 346
+          saturation: -44
+          luminance: 51
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_23
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_23
+        componentName: a_02_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -76
+          luminance: -38
+        colorShift2:  #CColorShift
+          hue: 153
+          saturation: -89
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_23
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 125
+          saturation: -84
+          luminance: -13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_23
+        componentName: d_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_23
+        componentName: c_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -10
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_16
+        componentName: a_01_ma__scoiatael_elf
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -89
+          luminance: -16
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_16
+        componentName: t1_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_16
+        componentName: d_01_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -86
+          luminance: -9
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_16
+        componentName: l0_03_ma__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 120
+          saturation: -80
+          luminance: -49
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: a_02_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -76
+          luminance: -38
+        colorShift2:  #CColorShift
+          hue: 153
+          saturation: -89
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: l0_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 125
+          saturation: -84
+          luminance: -13
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: h_10_ma__nml_villager_05_01
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: he_10_ma__nml_villager
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_09
+        componentName: hb_10_ma__beard_05_01
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: t2_07_ma__bob
+        colorShift1:  #CColorShift
+          hue: 100
+          saturation: 5
+          luminance: -66
+        colorShift2:  #CColorShift
+          hue: 6
+          luminance: -54
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: s_06_ma__bob
+        colorShift1:  #CColorShift
+          hue: 337
+          saturation: -79
+          luminance: -62
+        colorShift2:  #CColorShift
+          hue: 310
+          saturation: -90
+          luminance: -3
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: a_11_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          saturation: -43
+          luminance: -54
+        colorShift2:  #CColorShift
+          hue: 320
+          saturation: -88
+          luminance: 57
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: c_02a_ma__skellige_warrior_lvl1
+        colorShift1:  #CColorShift
+          hue: 339
+          saturation: -97
+          luminance: -73
+        colorShift2:  #CColorShift
+          luminance: 18
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: l0_02_ma__bob
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -93
+          luminance: -49
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_01
+        componentName: i_32_ma__bob
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: t1_03_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -79
+          luminance: -28
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: a_02_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -76
+          luminance: -38
+        colorShift2:  #CColorShift
+          hue: 153
+          saturation: -89
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: d_02_ma__skellige_fisherman
+        colorShift1:  #CColorShift
+          hue: 153
+          saturation: -91
+          luminance: -25
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: l0_01_mb__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 266
+          saturation: -86
+          luminance: -17
+        colorShift2:  #CColorShift
+          hue: 314
+          saturation: -74
+          luminance: -34
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: c_01_ma__temeria_guard
+        colorShift1:  #CColorShift
+          hue: 245
+        colorShift2:  #CColorShift
+          hue: 211
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_17
+        componentName: g_02_mb__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -83
+          luminance: -33
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: t2_09_ma__bob
+        colorShift1:  #CColorShift
+          hue: 4
+          saturation: -21
+          luminance: -65
+        colorShift2:  #CColorShift
+          hue: 92
+          saturation: -16
+          luminance: -60
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: a_04_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 4
+          saturation: -21
+          luminance: -65
+        colorShift2:  #CColorShift
+          hue: 329
+          saturation: -85
+          luminance: 61
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: l2_06_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 329
+          saturation: -95
+          luminance: -71
+        colorShift2:  #CColorShift
+          hue: 100
+          saturation: -46
+          luminance: -73
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: s_01_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          saturation: -84
+          luminance: -77
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: c_02_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 323
+          saturation: -94
+          luminance: 77
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_02
+        componentName: i_32_ma__bob
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_18
+        componentName: t2_01_mb__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 326
+          saturation: -77
+          luminance: 13
+        colorShift2:  #CColorShift
+          hue: 346
+          saturation: -77
+          luminance: -29
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_18
+        componentName: a_04_ma__skellige_villager
+        colorShift1:  #CColorShift
+          hue: 122
+          saturation: -79
+          luminance: -46
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_18
+        componentName: l0_02_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          hue: 122
+          saturation: -79
+          luminance: -58
+        colorShift2:  #CColorShift
+          hue: 321
+          saturation: -84
+          luminance: -57
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: t2_08_ma__bob
+        colorShift1:  #CColorShift
+          hue: 92
+          saturation: -20
+          luminance: -60
+        colorShift2:  #CColorShift
+          hue: 4
+          saturation: -29
+          luminance: -70
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: s_01_ma__skellige_warrior_lvl2
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -90
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: c_03_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 312
+          saturation: -92
+          luminance: 51
+        colorShift2:  #CColorShift
+          hue: 345
+          saturation: -94
+          luminance: -40
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: l0_01_ma__novigrad_guard
+        colorShift1:  #CColorShift
+          hue: 329
+          saturation: -95
+          luminance: -55
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: a_09_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 4
+          saturation: -21
+          luminance: -58
+        colorShift2:  #CColorShift
+          hue: 337
+          saturation: -87
+          luminance: 62
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_03
+        componentName: i_32_ma__bob
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_19
+        componentName: t1_02_ma__novigrad_bandit
+        colorShift1:  #CColorShift
+          hue: 129
+          saturation: -83
+          luminance: -47
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_19
+        componentName: ag_04_ma__nilfgaard_squire
+        colorShift1:  #CColorShift
+          hue: 129
+          saturation: -84
+          luminance: -47
+        colorShift2:  #CColorShift
+          hue: 321
+          saturation: -90
+          luminance: -27
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_19
+        componentName: l3d_01_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 117
+          saturation: -97
+          luminance: -58
+        colorShift2:  #CColorShift
+          hue: 308
+          saturation: -94
+          luminance: 10
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_19
+        componentName: s_03_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 336
+          saturation: -40
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_19
+        componentName: i_04_ma__novigrad_rowdy
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -88
+          luminance: -48
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: c_02a_ma__skellige_warrior_lvl1
+        colorShift1:  #CColorShift
+          hue: 325
+          saturation: -97
+          luminance: -72
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: l2_06_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 331
+          saturation: -93
+          luminance: -66
+        colorShift2:  #CColorShift
+          hue: 331
+          saturation: -93
+          luminance: -66
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: a_12_ma__novigrad_citizen
+        colorShift1:  #CColorShift
+          hue: 98
+          saturation: -47
+          luminance: -63
+        colorShift2:  #CColorShift
+          hue: 8
+          saturation: -11
+          luminance: -63
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: a_01_ma__novigrad_rowdy
+        colorShift1:  #CColorShift
+          saturation: -65
+          luminance: -46
+        colorShift2:  #CColorShift
+          saturation: -57
+          luminance: -47
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: ag_01_ma__rowdy_body
+        colorShift1:  #CColorShift
+          saturation: -65
+          luminance: -46
+        colorShift2:  #CColorShift
+          saturation: -57
+          luminance: -47
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: t2_09_ma__bob
+        colorShift1:  #CColorShift
+          hue: 98
+          saturation: -28
+          luminance: -60
+        colorShift2:  #CColorShift
+          hue: 8
+          saturation: -11
+          luminance: -70
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: s_02_ma__bob
+        colorShift1:  #CColorShift
+          hue: 341
+          saturation: -88
+          luminance: -61
+        colorShift2:  #CColorShift
+          hue: 325
+          saturation: -91
+          luminance: -25
+      - ".type": SEntityTemplateColoringEntry
+        appearance: __q703_nazairi_04
+        componentName: i_32_ma__bob
+        colorShift1:  #CColorShift
+          saturation: -64
+          luminance: -32
+      - ".type": SEntityTemplateColoringEntry
+        appearance: bob_raider_lvl1_02
+        componentName: a_01_ma__scoiatael_elf
+        colorShift1:  #CColorShift
+          hue: 335
+          saturation: -89
+          luminance: -16
     effects:
       #buffer: 2717 bytes, MD5: ca3a4a0ff40b234d4f94e02f26e767c7
       axii_hipnotize:

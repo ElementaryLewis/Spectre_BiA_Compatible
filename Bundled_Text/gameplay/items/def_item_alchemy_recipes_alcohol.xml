@@ -5,7 +5,7 @@
 <!-- ######################## ITEM DEFINITIONS ######################## -->
 <items>     			
 	<!-- Potion Bases to provide a use for non-alchemical alcohol -->
-	<!-- modSigns: recipe for Mandrake cordial -->
+	<!-- modSpectre: recipe for Mandrake cordial -->
 	<item
 		name							="Recipe for Mandrake cordial 1"
 		category						="alchemy_recipe"
@@ -21,7 +21,7 @@
 		<base_abilities>				
 		</base_abilities>
 	</item>
-	<!-- modSigns: recipe for Mahakam spirit -->
+	<!-- modSpectre: recipe for Mahakam spirit -->
 	<item
 		name							="Recipe for Mahakam spirit 1"
 		category						="alchemy_recipe"
@@ -92,7 +92,7 @@
 
 <alchemy_recipes>
 <!-- POTION BASES -->
-<!-- modSigns: MANDRAKE CORDIAL -->
+<!-- modSpectre: MANDRAKE CORDIAL -->
 	<recipe
 		name_name						="Recipe for Mandrake cordial 1"
 		level							="1"
@@ -108,7 +108,7 @@
 		</ingredients>
 	</recipe>
 
-<!-- modSigns: MAHAKAM SPIRIT -->
+<!-- modSpectre: MAHAKAM SPIRIT -->
 	<recipe
 		name_name						="Recipe for Mahakam spirit 1"
 		level							="1"

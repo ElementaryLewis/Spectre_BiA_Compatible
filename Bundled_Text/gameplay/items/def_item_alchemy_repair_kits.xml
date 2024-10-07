@@ -17,7 +17,7 @@
 		<quality						type="add"	min="2"		max="2"		/>
 	</ability>
 	
-	<!-- modSigns -->
+	<!-- modSpectre -->
 	<ability name="WeaponRepairKit_1_Stats">
 		<quality						type="add"	min="1"		max="1"		/>
 	</ability>
@@ -50,7 +50,7 @@
 		<quality						type="add"	min="4"		max="4"		/>
 	</ability>
 	
-	<!-- modSigns -->
+	<!-- modSpectre -->
 
 	<ability name="GearDismantleKit_1_Stats">
 		<quality						type="add"	min="1"		max="1"		/>
@@ -86,7 +86,7 @@
 		<repairValue					type="mult"	min="0.3"				/>
 	</ability>
 
-	<ability name="WeaponRepairKit_4"> <!-- modSigns -->
+	<ability name="WeaponRepairKit_4"> <!-- modSpectre -->
 		<tags>							RepairValue
 		</tags>
 		<weight							type="base"	min="0.4"				/>
@@ -120,7 +120,7 @@
 		<repairValue					type="mult"	min="0.3"				/>
 	</ability>
 
-	<ability name="ArmorRepairKit_4"> <!-- modSigns -->
+	<ability name="ArmorRepairKit_4"> <!-- modSpectre -->
 		<tags>							RepairValue
 		</tags>
 		<weight							type="base"	min="0.4"				/>
@@ -128,7 +128,7 @@
 		<repairValue					type="mult"	min="1.0"				/>
 	</ability>
 	
-	<!-- modSigns -->
+	<!-- modSpectre -->
 
 	<ability name="GearDismantleKit_1">
 		<weight							type="base"	min="0.01"				/>
@@ -209,7 +209,7 @@
 		</recycling_parts> 
 	</item>
 
-	<!-- modSigns -->
+	<!-- modSpectre -->
 	<item
 		name							="weapon_repair_kit_4"
 		category						="tool"
@@ -292,7 +292,7 @@
 		</recycling_parts>
 	</item>
 
-	<!-- modSigns -->
+	<!-- modSpectre -->
 	<item
 		name							="armor_repair_kit_4"
 		category						="tool"
@@ -312,7 +312,7 @@
 		</base_abilities>
 	</item>
 
-	<!-- modSigns -->
+	<!-- modSpectre -->
  	<item
 		name							="gear_dismantle_kit_1"
 		category						="misc"
@@ -332,7 +332,7 @@
 		</base_abilities>
 	</item>
 
-	<!-- modSigns -->
+	<!-- modSpectre -->
  	<item
 		name							="alchemy_dismantle_kit_1"
 		category						="misc"

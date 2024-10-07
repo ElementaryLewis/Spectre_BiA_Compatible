@@ -215,7 +215,7 @@
 		<quen_chance_on_projectile		type="add"	min="0.25"				/>
 	</ability>
 	
-	<!-- modSigns -->
+	<!-- modSpectre -->
 	<ability name="Oathbreaker armor crafted _Stats"> <!-- Oathbreaker Armor - q4, lvl 16, 3 slots  -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add"	min="4"		max="4"		/>
@@ -466,7 +466,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
 	</ability>
 	
-<!-- modSigns: Kaer Morhen Armor -->
+<!-- modSpectre: Kaer Morhen Armor -->
 	<ability name="Kaer Morhen Armor _Stats"> <!-- lvl 2 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
@@ -1128,7 +1128,7 @@
 		</variants>
 	</item>
 
-<!-- modSigns: Oathbreaker armor - medium relic armor -->
+<!-- modSpectre: Oathbreaker armor - medium relic armor -->
 
 	<item
 		name							="Oathbreaker armor crafted"
@@ -1551,7 +1551,7 @@
 		</variants>
 	</item>
 	
-<!-- modSigns: Kaer Morhen Armor -->
+<!-- modSpectre: Kaer Morhen Armor -->
 	<item
 		name							="Kaer Morhen Armor"
 		category						="armor"

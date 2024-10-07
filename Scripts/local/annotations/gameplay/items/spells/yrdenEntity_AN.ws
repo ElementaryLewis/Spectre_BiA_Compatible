@@ -241,3 +241,29 @@ protected var isEntanglement	: bool;
 	
 	OnSignAborted();
 }
+
+@wrapMethod(YrdenShock) function OnEnterState( prevStateName : name )
+{
+	var skillLevel : int;
+
+	if(false) 
+	{
+		wrappedMethod(prevStateName);
+	}
+	
+	super.OnEnterState( prevStateName );
+	
+	skillLevel = caster.GetSkillLevel(parent.skillEnum);
+	
+	if(skillLevel == 1)
+		usedShockAreaName = 'Shock_lvl_1';
+	else if(skillLevel == 2)
+		usedShockAreaName = 'Shock_lvl_2';
+	else if(skillLevel >= 3)
+		usedShockAreaName = 'Shock_lvl_3';
+		
+	parent.GetComponent(usedShockAreaName).SetEnabled( true );
+	
+	ActivateShock();
+	parent.NotifyGameplayEntitiesInArea( usedShockAreaName );
+}

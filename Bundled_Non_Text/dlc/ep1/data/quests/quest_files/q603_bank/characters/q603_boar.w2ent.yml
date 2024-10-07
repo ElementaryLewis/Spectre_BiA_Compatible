@@ -613,6 +613,11 @@ templates:
         name: "immunes"
         immunityTo:  #array:2,0,Int32
           - 52
+      - ".type": CFocusSoundParam
+        wasIncluded: true
+        name: "Focus_Sound"
+        eventStart: animals_wolf_focus_100m_start
+        eventStop: animals_wolf_focus_100m_stop
     streamedAttachments:  #array:2,0,SStreamedAttachment
       - ".type": SStreamedAttachment
         parentName: wild_boar_base

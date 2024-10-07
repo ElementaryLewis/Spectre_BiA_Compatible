@@ -1,0 +1,234 @@
+templates:
+  spire_path.w2l:
+    ".type": CLayer
+    entities:  #array:32,0,ptr:CEntity
+      - ".type": CEncounter
+        tags:
+          - spire_bear_encounter
+        transform:
+          pos: [ -163.5083, -51.1748, 127.8731 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 154.8067, 154.8067, 40.2701 ]
+        guid: 91b7e09f-8747-465d-9adc-b88ba39f4915
+        attachments: # array:handle:IAttachment
+        streamingDistance: 0
+        Components:  #array:0,0,ptr:CComponent
+          - ".type": CTriggerAreaComponent
+            tags:
+              - spire_bear_encounter
+            guid: 3eda5d88-9587-481b-af06-66305d4b8b9c
+            attachments: # array:handle:IAttachment
+            name: "spire_bear_encounter"
+            boundingBox:  #Box
+              Min: [ -238.3528, -125.1398, 127.8731, 1.0000 ]
+              Max: [ -84.7447, 49.0450, 208.4133, 1.0000 ]
+            localPoints:  #array:2,0,Vector
+              - [ -0.4145, 0.3061, 0.0000, 1.0000 ]
+              - [ -0.4835, 0.0459, 0.0000, 1.0000 ]
+              - [ -0.3451, -0.1899, 0.0000, 1.0000 ]
+              - [ -0.1572, -0.3694, 0.0000, 1.0000 ]
+              - [ 0.0166, -0.4655, 0.0000, 1.0000 ]
+              - [ 0.2402, -0.4778, 0.0000, 1.0000 ]
+              - [ 0.4668, -0.4614, 0.0000, 1.0000 ]
+              - [ 0.5088, -0.3855, 0.0000, 1.0000 ]
+              - [ 0.4676, -0.2909, 0.0000, 1.0000 ]
+              - [ 0.2359, -0.2642, 0.0000, 1.0000 ]
+              - [ 0.0815, -0.1465, 0.0000, 1.0000 ]
+              - [ 0.1599, 0.1342, 0.0000, 1.0000 ]
+              - [ 0.1562, 0.3844, 0.0000, 1.0000 ]
+              - [ -0.1069, 0.6474, 0.0000, 1.0000 ]
+              - [ -0.2317, 0.5567, 0.0000, 1.0000 ]
+            worldPoints:  #array:2,0,Vector
+              - [ -227.6739, -3.7914, 127.8731, 1.0000 ]
+              - [ -238.3528, -44.0759, 127.8731, 1.0000 ]
+              - [ -216.9397, -80.5737, 127.8731, 1.0000 ]
+              - [ -187.8439, -108.3607, 127.8731, 1.0000 ]
+              - [ -160.9415, -123.2377, 127.8731, 1.0000 ]
+              - [ -126.3177, -125.1398, 127.8731, 1.0000 ]
+              - [ -91.2369, -122.6100, 127.8731, 1.0000 ]
+              - [ -84.7447, -110.8504, 127.8731, 1.0000 ]
+              - [ -91.1153, -96.2118, 127.8731, 1.0000 ]
+              - [ -126.9908, -92.0687, 127.8731, 1.0000 ]
+              - [ -150.8877, -73.8579, 127.8731, 1.0000 ]
+              - [ -138.7502, -30.3924, 127.8731, 1.0000 ]
+              - [ -139.3307, 8.3398, 127.8731, 1.0000 ]
+              - [ -180.0573, 49.0450, 127.8731, 1.0000 ]
+              - [ -199.3787, 35.0033, 127.8731, 1.0000 ]
+            Bufferdata: 6007 bytes, MD5: 4b17ba5855f5703eb6148f1e67cdc6c5
+        idTag:  df5bf631-b9a4-4399-ba3c-fa0178ed73fa
+        spawnTree:
+          ".type": CSpawnTreeQuestNode
+          id: 1032666338565567293
+          spawnPhases:  #array:2,0,ptr:CSpawnTreeQuestPhase
+            - ".type": CSpawnTreeQuestPhase
+              id: 867404756485331108
+              childNodes:  #array:2,0,ptr:ISpawnTreeBaseNode
+                - ".type": CSpawnTreeNode
+                  id: 563812805570995370
+                  childNodes:  #array:2,0,ptr:ISpawnTreeBaseNode
+                    - ".type": CSpawnTreeTimetableEntry
+                      id: 82609775097917441
+                      entries:  #array:2,0,ptr:ISpawnTreeBaseNode
+                        - ".type": CCreatureEntry
+                          id: 745492575910929127
+                          quantityMin: 2
+                          quantityMax: 3
+                          randomizeRotation: true
+                          baseSpawner:  #CSpawnTreeWaypointSpawner
+                            visibility: STSV_SPAWN_HIDEN
+                            spawnpointDelay: 2.0000
+                            tags:
+                              - spire_sp_bear
+                            useLocationTest: false
+                          creatureDefinition: bear
+        creatureDefinition:  #array:2,0,ptr:CEncounterCreatureDefinition
+          - ".type": CEncounterCreatureDefinition
+            definitionName: bear
+            entityTemplate: characters/npc_entities/monsters/bear_berserker_lvl1.w2ent
+            totalSpawnLimit: 3
+            maxSpawnedAtOnce: 2
+            tags:
+              - spire_bear
+        fullRespawnDelay:  #GameTime
+          m_seconds: 60
+      - ".type": CEntity
+        tags:
+          - spire_sp_bear
+        transform:
+          pos: [ -157.3587, -103.7508, 176.5886 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        guid: c4264ee7-36ec-4823-a77b-7aecb3a19f52
+        attachments: # array:handle:IAttachment
+        streamingDistance: 0
+        Components:  #array:0,0,ptr:CComponent
+          - ".type": CSpawnPointComponent
+            tags:
+              - spire_sp_bear
+            guid: bec02c1a-1eab-41b4-aa99-9b4e5e401d56
+            attachments: # array:handle:IAttachment
+            name: "spire_sp_bear"
+      - ".type": CEntity
+        tags:
+          - spire_sp_bear
+        transform:
+          pos: [ -186.0671, -60.0778, 189.1696 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        guid: de5ff9e8-c61a-4317-b1f6-1c49d5a8df61
+        attachments: # array:handle:IAttachment
+        streamingDistance: 0
+        Components:  #array:0,0,ptr:CComponent
+          - ".type": CSpawnPointComponent
+            tags:
+              - spire_sp_bear
+            guid: 6e78e00a-5c4a-4ba1-a10b-54470c1d99a1
+            attachments: # array:handle:IAttachment
+            name: "spire_sp_bear"
+      - ".type": CEntity
+        tags:
+          - spire_sp_bear
+        transform:
+          pos: [ -149.5025, -7.4535, 156.9382 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        guid: 5363445e-98f4-4727-b81c-eb4237b2be53
+        attachments: # array:handle:IAttachment
+        streamingDistance: 0
+        Components:  #array:0,0,ptr:CComponent
+          - ".type": CSpawnPointComponent
+            tags:
+              - spire_sp_bear
+            guid: 60ecf8c9-0db7-43be-baf3-2dc9428676c8
+            attachments: # array:handle:IAttachment
+            name: "spire_sp_bear"
+      #"4": <empty value>
+    nameCount: 1
+  spire_path.w2l:
+    ".type": W3WeatherShrine
+    tags:
+      - InteractiveEntity
+    transform:
+      pos: [ -102.1081, -125.2055, 185.0328 ]
+      rot: [ 0.0000, 0.0000, 82.4892 ]
+      scale: [ 0.0000, 0.0000, 0.0000 ]
+    guid: e1c218ec-1a8e-49d3-9c24-9ddb383b2b31
+    attachments: # array:handle:IAttachment
+    streamingDataBuffer:  #SharedDataBuffer
+      Bufferdata: 1985 bytes, MD5: fbf1812f612338285bc1699ca3508595
+      streamingDataBuffer:
+        ".type": CInteractionComponent
+        guid: f40e655c-b476-4dfc-ab80-ee07a38b6d4d
+        attachments: # array:handle:IAttachment
+        name: "PrayForSun"
+        isStreamed: true
+        graphPositionX: -49
+        graphPositionY: 285
+        rangeAngle: 135
+        performScriptedTest: true
+        actionName: "PrayForSun"
+        reportToScript: true
+      streamingDataBuffer:
+        ".type": CInteractionComponent
+        transform:
+          pos: [ 0.0000, 0.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 180.0000 ]
+          scale: [ 0.0000, 0.0000, 0.0000 ]
+        guid: 0d8e8452-85d4-4c19-b201-c7dd831ee45f
+        attachments: # array:handle:IAttachment
+        name: "PrayForStorm"
+        isStreamed: true
+        graphPositionX: 66
+        graphPositionY: 239
+        rangeAngle: 135
+        performScriptedTest: true
+        actionName: "PrayForStorm"
+        reportToScript: true
+      streamingDataBuffer:
+        ".type": CMeshComponent
+        transform:
+          pos: [ 0.0000, 0.1000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 180.0000 ]
+          scale: [ 2.0000, 2.0000, 2.0000 ]
+        guid: ffe0d3f6-cea4-44b6-82aa-9a0044b2e2c5
+        attachments: # array:handle:IAttachment
+        name: "CMeshComponent0"
+        graphPositionX: 90
+        graphPositionY: 366
+        boundingBox:  #Box
+          Min: [ -102.5541, -125.7585, 185.0518, 1.0000 ]
+          Max: [ -101.9681, -124.6135, 188.0019, 1.0000 ]
+        drawableFlags:
+          - DF_IsVisible
+          - DF_CastShadows
+        lightChannels:
+          - LC_Interactive
+        mesh: environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_wood.w2mesh
+      streamingDataBuffer:
+        ".type": CMeshComponent
+        transform:
+          pos: [ 0.0000, 0.0000, 0.0000 ]
+          rot: [ 0.0000, 0.0000, 0.0000 ]
+          scale: [ 2.0000, 2.0000, 2.0000 ]
+        guid: 3d9c5560-028d-428f-8828-890cbe357f60
+        attachments: # array:handle:IAttachment
+        name: "CMeshComponent1"
+        graphPositionX: -23
+        graphPositionY: 97
+        boundingBox:  #Box
+          Min: [ -102.3472, -125.7844, 185.0518, 1.0000 ]
+          Max: [ -101.7612, -124.6394, 188.0019, 1.0000 ]
+        drawableFlags:
+          - DF_IsVisible
+          - DF_CastShadows
+        lightChannels:
+          - LC_Interactive
+        mesh: environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_rock.w2mesh
+    streamingDistance: 5
+    Components:  #array:0,0,ptr:CComponent
+      - ".type": CFocusActionComponent
+        guid: 43a0ac97-60b0-4651-bd93-b849df159267
+        attachments: # array:handle:IAttachment
+        name: "CFocusActionComponent0"
+        actionName: Use
+    idTag:  236153c6-46c8-48e2-a6fd-10ccc1b5fa09

@@ -2506,6 +2506,11 @@ templates:
                     rotationRelativeMode: ECurveRelativeMode_None
                     scaleRelativeMode: ECurveRelativeMode_None
                     hasInitialParentTransform: true
+        - ".type": CStorySceneComponent
+          guid: 8ba5b5e2-12df-47f1-ad11-1a6e9ab031d1
+          attachments: # array:handle:IAttachment
+          name: "voiceset_redanian blacksmith 01"
+          storyScene: gameplay/community/dialogues/oxenfurt/voicesets/vset_redanian_blacksmith_01.w2scene
       idTag:  125d7a9e-f28f-4c2a-97bc-4c516064145a
       displayName: Smith
     appearances:  #array:2,0,CEntityAppearance

@@ -14,201 +14,201 @@ golem_lvl2.w2ent:        Size: 2206
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
 golem_lvl2.w2ent:        Handle: engine\materials\graphs\pbr_std_colorshift.w2mg
 golem_lvl2.w2ent:    (3):
-golem_lvl2.w2ent:        Index: 22
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_move_in_pack.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 4199
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 4??
-golem_lvl2.w2ent:    (4):
-golem_lvl2.w2ent:        Index: 12
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_base.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 2553
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: characters\models\monsters\elemental\model\i_02__elemental_px.redcloth
-golem_lvl2.w2ent:    (5):
-golem_lvl2.w2ent:        Index: 3
-golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_base.w2rig
-golem_lvl2.w2ent:        ImportClass: CSkeleton
-golem_lvl2.w2ent:        Size: 5166
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\behaviors\npc\steering\animation_steering_bies.w2steer
-golem_lvl2.w2ent:    (6):
-golem_lvl2.w2ent:        Index: 2
-golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_ragdoll.w2ragdoll
-golem_lvl2.w2ent:        ImportClass: CRagdoll
-golem_lvl2.w2ent:        Size: 33390
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\behaviors\npc\behaviorgraph\monster_golem_combat.w2beh
-golem_lvl2.w2ent:    (7):
-golem_lvl2.w2ent:        Index: 20
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 5044
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: maxDistance
-golem_lvl2.w2ent:    (8):
-golem_lvl2.w2ent:        Index: 19
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_search_target.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 4470
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: banksDependency
-golem_lvl2.w2ent:    (9):
 golem_lvl2.w2ent:        Index: 23
 golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
 golem_lvl2.w2ent:        Size: 2338
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: entityClass
-golem_lvl2.w2ent:    (10):
-golem_lvl2.w2ent:        Index: 26
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monsters\monster_golem_logic.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 24381
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+golem_lvl2.w2ent:    (4):
+golem_lvl2.w2ent:        Index: 3
+golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_base.w2rig
+golem_lvl2.w2ent:        ImportClass: CSkeleton
+golem_lvl2.w2ent:        Size: 5166
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: ptr:CEntity
-golem_lvl2.w2ent:    (11):
-golem_lvl2.w2ent:        Index: 21
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_play_around.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 3558
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: properOverrides
-golem_lvl2.w2ent:    (12):
+golem_lvl2.w2ent:        Handle: characters\base_entities\elemental_base\elemental_base.w2rig
+golem_lvl2.w2ent:    (5):
 golem_lvl2.w2ent:        Index: 16
 golem_lvl2.w2ent:        ImportPath: gameplay\trees\idle\monster_idle_decorator.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
 golem_lvl2.w2ent:        Size: 4886
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 
+golem_lvl2.w2ent:        Handle: gameplay\trees\idle\monster_idle_decorator.w2behtree
+golem_lvl2.w2ent:    (6):
+golem_lvl2.w2ent:        Index: 19
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_search_target.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 4470
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_search_target.w2behtree
+golem_lvl2.w2ent:    (7):
+golem_lvl2.w2ent:        Index: 29
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 8260
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+golem_lvl2.w2ent:    (8):
+golem_lvl2.w2ent:        Index: 20
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 5044
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+golem_lvl2.w2ent:    (9):
+golem_lvl2.w2ent:        Index: 31
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\death\death.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 3892
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\death\death.w2behtree
+golem_lvl2.w2ent:    (10):
+golem_lvl2.w2ent:        Index: 21
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_play_around.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 3558
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_play_around.w2behtree
+golem_lvl2.w2ent:    (11):
+golem_lvl2.w2ent:        Index: 2
+golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_ragdoll.w2ragdoll
+golem_lvl2.w2ent:        ImportClass: CRagdoll
+golem_lvl2.w2ent:        Size: 33390
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: characters\base_entities\elemental_base\elemental_ragdoll.w2ragdoll
+golem_lvl2.w2ent:    (12):
+golem_lvl2.w2ent:        Index: 8
+golem_lvl2.w2ent:        ImportPath: items\remains\remains__monster_01\remains__monster_01.w2ent
+golem_lvl2.w2ent:        ImportClass: CEntityTemplate
+golem_lvl2.w2ent:        Size: 7718
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: items\remains\remains__monster_01\remains__monster_01.w2ent
 golem_lvl2.w2ent:    (13):
-golem_lvl2.w2ent:        Index: 14
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_basetaunt.w2behtree
+golem_lvl2.w2ent:        Index: 13
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_spawn_default.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 8931
+golem_lvl2.w2ent:        Size: 2348
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: ???ng
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_spawn_default.w2behtree
 golem_lvl2.w2ent:    (14):
-golem_lvl2.w2ent:        Index: 18
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\npc_reaction.w2behtree
+golem_lvl2.w2ent:        Index: 26
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monsters\monster_golem_logic.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 3712
+golem_lvl2.w2ent:        Size: 24381
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: eventsOnAttach
+golem_lvl2.w2ent:        Handle: gameplay\trees\monsters\monster_golem_logic.w2behtree
 golem_lvl2.w2ent:    (15):
-golem_lvl2.w2ent:        Index: 25
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_basecombat.w2behtree
+golem_lvl2.w2ent:        Index: 24
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\idle\monster_idle_action_slot.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 14269
+golem_lvl2.w2ent:        Size: 2937
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 
+golem_lvl2.w2ent:        Handle: gameplay\trees\idle\monster_idle_action_slot.w2behtree
 golem_lvl2.w2ent:    (16):
 golem_lvl2.w2ent:        Index: 27
 golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_damage_reaction.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
 golem_lvl2.w2ent:        Size: 853
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: streamingDistance
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_damage_reaction.w2behtree
 golem_lvl2.w2ent:    (17):
-golem_lvl2.w2ent:        Index: 31
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\death\death.w2behtree
+golem_lvl2.w2ent:        Index: 15
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_baseaxii.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 3892
+golem_lvl2.w2ent:        Size: 5195
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: U[n{
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_baseaxii.w2behtree
 golem_lvl2.w2ent:    (18):
-golem_lvl2.w2ent:        Index: 24
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\idle\monster_idle_action_slot.w2behtree
+golem_lvl2.w2ent:        Index: 18
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\npc_reaction.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 2937
+golem_lvl2.w2ent:        Size: 3712
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: CNewNPC
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\npc_reaction.w2behtree
 golem_lvl2.w2ent:    (19):
+golem_lvl2.w2ent:        Index: 12
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_base.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 2553
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_base.w2behtree
+golem_lvl2.w2ent:    (20):
+golem_lvl2.w2ent:        Index: 17
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\monster_base_reactions.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 862
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\monster_base_reactions.w2behtree
+golem_lvl2.w2ent:    (21):
+golem_lvl2.w2ent:        Index: 22
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 4199
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+golem_lvl2.w2ent:    (22):
+golem_lvl2.w2ent:        Index: 25
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_basecombat.w2behtree
+golem_lvl2.w2ent:        ImportClass: CBehTree
+golem_lvl2.w2ent:        Size: 14269
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_basecombat.w2behtree
+golem_lvl2.w2ent:    (23):
 golem_lvl2.w2ent:        Index: 28
 golem_lvl2.w2ent:        ImportPath: gameplay\trees\npc_critical_state.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
 golem_lvl2.w2ent:        Size: 1767
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 
-golem_lvl2.w2ent:    (20):
+golem_lvl2.w2ent:        Handle: gameplay\trees\npc_critical_state.w2behtree
+golem_lvl2.w2ent:    (24):
 golem_lvl2.w2ent:        Index: 1
 golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_base.w2ent
 golem_lvl2.w2ent:        ImportClass: CEntityTemplate
 golem_lvl2.w2ent:        Size: 3112
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
 golem_lvl2.w2ent:        Handle: characters\models\monsters\elemental\model\i_02__elemental_px.redcloth
-golem_lvl2.w2ent:    (21):
-golem_lvl2.w2ent:        Index: 29
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+golem_lvl2.w2ent:    (25):
+golem_lvl2.w2ent:        Index: 14
+golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_basetaunt.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 8260
+golem_lvl2.w2ent:        Size: 8931
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: autoPlayEffectName
-golem_lvl2.w2ent:    (22):
-golem_lvl2.w2ent:        Index: 17
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\monster_base_reactions.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 862
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 
-golem_lvl2.w2ent:    (23):
+golem_lvl2.w2ent:        Handle: gameplay\trees\monster_basetaunt.w2behtree
+golem_lvl2.w2ent:    (26):
 golem_lvl2.w2ent:        Index: 30
 golem_lvl2.w2ent:        ImportPath: gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
 golem_lvl2.w2ent:        ImportClass: CBehTree
 golem_lvl2.w2ent:        Size: 877
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: default_fx
-golem_lvl2.w2ent:    (24):
-golem_lvl2.w2ent:        Index: 13
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_spawn_default.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 2348
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 4??
-golem_lvl2.w2ent:    (25):
-golem_lvl2.w2ent:        Index: 8
-golem_lvl2.w2ent:        ImportPath: items\remains\remains__monster_01\remains__monster_01.w2ent
-golem_lvl2.w2ent:        ImportClass: CEntityTemplate
-golem_lvl2.w2ent:        Size: 7718
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_move_in_pack.w2behtree
-golem_lvl2.w2ent:    (26):
-golem_lvl2.w2ent:        Index: 15
-golem_lvl2.w2ent:        ImportPath: gameplay\trees\monster_baseaxii.w2behtree
-golem_lvl2.w2ent:        ImportClass: CBehTree
-golem_lvl2.w2ent:        Size: 5195
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: 
+golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
 golem_lvl2.w2ent:    (27):
-golem_lvl2.w2ent:        Index: 7
-golem_lvl2.w2ent:        ImportPath: gameplay\behaviors\npc\steering\animation_steering_bies.w2steer
-golem_lvl2.w2ent:        ImportClass: CMoveSteeringBehavior
-golem_lvl2.w2ent:        Size: 2336
-golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\trees\reactions\reaction_search_target.w2behtree
-golem_lvl2.w2ent:    (28):
 golem_lvl2.w2ent:        Index: 1
 golem_lvl2.w2ent:        ImportPath: characters\base_entities\elemental_base\elemental_base.w2ent
 golem_lvl2.w2ent:        ImportClass: CEntityTemplate
 golem_lvl2.w2ent:        Size: 71267
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
 golem_lvl2.w2ent:        Handle: characters\base_entities\elemental_base\elemental_base.w2ent
-golem_lvl2.w2ent:    (29):
-golem_lvl2.w2ent:        Index: 10
-golem_lvl2.w2ent:        ImportPath: characters\models\monsters\elemental\i_02__elemental.w2ent
-golem_lvl2.w2ent:        ImportClass: CEntityTemplate
-golem_lvl2.w2ent:        Size: 2830
+golem_lvl2.w2ent:    (28):
+golem_lvl2.w2ent:        Index: 7
+golem_lvl2.w2ent:        ImportPath: gameplay\behaviors\npc\steering\animation_steering_bies.w2steer
+golem_lvl2.w2ent:        ImportClass: CMoveSteeringBehavior
+golem_lvl2.w2ent:        Size: 2336
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\trees\npc_critical_state.w2behtree
-golem_lvl2.w2ent:    (30):
+golem_lvl2.w2ent:        Handle: gameplay\behaviors\npc\steering\animation_steering_bies.w2steer
+golem_lvl2.w2ent:    (29):
 golem_lvl2.w2ent:        Index: 9
 golem_lvl2.w2ent:        ImportPath: characters\models\monsters\elemental\t_02__elemental.w2ent
 golem_lvl2.w2ent:        ImportClass: CEntityTemplate
 golem_lvl2.w2ent:        Size: 3855
 golem_lvl2.w2ent:        ClassName: <failed to get class name>
-golem_lvl2.w2ent:        Handle: gameplay\trees\monster_basecombat.w2behtree
+golem_lvl2.w2ent:        Handle: characters\models\monsters\elemental\t_02__elemental.w2ent
+golem_lvl2.w2ent:    (30):
+golem_lvl2.w2ent:        Index: 10
+golem_lvl2.w2ent:        ImportPath: characters\models\monsters\elemental\i_02__elemental.w2ent
+golem_lvl2.w2ent:        ImportClass: CEntityTemplate
+golem_lvl2.w2ent:        Size: 2830
+golem_lvl2.w2ent:        ClassName: <failed to get class name>
+golem_lvl2.w2ent:        Handle: characters\models\monsters\elemental\i_02__elemental.w2ent
 golem_lvl2.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
 golem_lvl2.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
 golem_lvl2.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
@@ -354,6 +354,7 @@ golem_lvl2.w2ent:                11 (ptr:CEntityTemplateParam) : CAnimBehaviorsP
 golem_lvl2.w2ent:                12 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #38
 golem_lvl2.w2ent:                13 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #39
 golem_lvl2.w2ent:                14 (ptr:CEntityTemplateParam) : CBuffImmunityParam #86
+golem_lvl2.w2ent:                15 (ptr:CEntityTemplateParam) : CR4LootParam #87
 golem_lvl2.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
 golem_lvl2.w2ent:                CNewNPC #0 (CNewNPC) : default_fx
 golem_lvl2.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
@@ -385,7 +386,6 @@ golem_lvl2.w2ent:                        pelvisBoneName (CName) : k_pelvis_g
 golem_lvl2.w2ent:                        torsoBoneName (CName) : k_torso2_g
 golem_lvl2.w2ent:                        headBoneName (CName) : k_head_g
 golem_lvl2.w2ent:                        level (Int32) : 29
-golem_lvl2.w2ent:                        isMonsterType_Group (Bool) : true
 golem_lvl2.w2ent:                        useSoundValue (Bool) : true
 golem_lvl2.w2ent:                        soundValue (Int32) : 75
 golem_lvl2.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : elemental_base
@@ -8593,7 +8593,6 @@ golem_lvl2.w2ent:            pelvisBoneName (CName) : k_pelvis_g
 golem_lvl2.w2ent:            torsoBoneName (CName) : k_torso2_g
 golem_lvl2.w2ent:            headBoneName (CName) : k_head_g
 golem_lvl2.w2ent:            level (Int32) : 29
-golem_lvl2.w2ent:            isMonsterType_Group (Bool) : true
 golem_lvl2.w2ent:            useSoundValue (Bool) : true
 golem_lvl2.w2ent:            soundValue (Int32) : 75
 golem_lvl2.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : elemental_base
@@ -9119,3 +9118,9 @@ golem_lvl2.w2ent:                2 (Int32) : 18
 golem_lvl2.w2ent:                3 (Int32) : 19
 golem_lvl2.w2ent:                4 (Int32) : 16
 golem_lvl2.w2ent:                5 (Int32) : 45
+golem_lvl2.w2ent:    CR4LootParam #87 (CR4LootParam) : loot
+golem_lvl2.w2ent:        CR4LootParam (CR4LootParam) : loot
+golem_lvl2.w2ent:            name (String) : "loot"
+golem_lvl2.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+golem_lvl2.w2ent:                0 (CR4LootContainerParam) : _monster__Golem
+golem_lvl2.w2ent:                    name (CName) : _monster__Golem

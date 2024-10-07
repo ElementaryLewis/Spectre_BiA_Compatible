@@ -566,4 +566,9 @@ templates:
         name: "immunes"
         immunityTo:  #array:2,0,Int32
           - 52
+      - ".type": CFocusSoundParam
+        wasIncluded: true
+        name: "Focus_Sound"
+        eventStart: animals_wolf_focus_100m_start
+        eventStop: animals_wolf_focus_100m_stop
     ## cookedEffectsVersion: 1

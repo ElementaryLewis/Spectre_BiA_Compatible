@@ -26,16 +26,8 @@ class W3Potion_WhiteHoney extends CBaseGameplayEffect
 	
 	function CleanupToxicity()
 	{
-		var exceptions : array<CBaseGameplayEffect>;
-		var wolf : CBaseGameplayEffect;
-		
 		target.ForceSetStat(BCS_Toxicity, 0);
-		
-		exceptions.PushBack(this);
-		wolf = thePlayer.GetBuff(EET_WolfHour);
-		if(wolf)
-			exceptions.PushBack(wolf);
 			
-		thePlayer.RemoveAllPotionEffects(exceptions);
+		thePlayer.RemoveAllPotionEffects();
 	}
 }

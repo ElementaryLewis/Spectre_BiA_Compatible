@@ -433,7 +433,7 @@
 		requiredLevel = "";
 	}
 	
-	tooltipData.SetMemberFlashString("RequiredLevel", requiredLevel);
+	//tooltipData.SetMemberFlashString("RequiredLevel", requiredLevel);
 	
 	if (categoryName == 'alchemy_recipe' )
 	{

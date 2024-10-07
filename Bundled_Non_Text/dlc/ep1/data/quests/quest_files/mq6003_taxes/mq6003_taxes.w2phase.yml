@@ -223,6 +223,29 @@ templates:
                                           - ".type": SBlockDesc
                                             #ock: (looped reference) CJournalQuestBlock #15
                                             putName: Success
+                                          - ".type": SBlockDesc
+                                            ock:
+                                              ".type": CJournalQuestBlock
+                                              guid: 48d467e1-5fa2-4d50-8c6e-ba1071a3f43f
+                                              cachedConnections:  #array:2,0,SCachedConnections
+                                                - ".type": SCachedConnections
+                                                  socketId: Out
+                                              questEntry:
+                                                ".type": CJournalPath
+                                                guid: ab4175ca-b83a-4159-9b6d-36164aa3f042
+                                                resource: dlc/ep1/journal/quests/ep1.journal
+                                                child:
+                                                  ".type": CJournalPath
+                                                  guid: 7e6e5238-e640-4f4b-8911-ada7138f39b6
+                                                  resource: dlc/ep1/journal/quests/mq6003taxcollector.journal
+                                                  child:
+                                                    ".type": CJournalPath
+                                                    guid: 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+                                                    child:
+                                                      ".type": CJournalPath
+                                                      guid: a0015d40-4f34-4e5d-bc79-4b3891c1c984
+                                              showInfoOnScreen: true
+                                            putName: Activate
                                     factID: "mq6003_fact_taxes_paid"
                                     value: 1
                                   putName: In
@@ -305,6 +328,7 @@ templates:
                                     value: 1
                                   putName: In
                         #"11": (looped reference) CQuestFactsDBChangingBlock #33
+                        #"12": (looped reference) CJournalQuestBlock #98
                       sourceDataRemoved: true
                   putName: In
           embeddedGraph:

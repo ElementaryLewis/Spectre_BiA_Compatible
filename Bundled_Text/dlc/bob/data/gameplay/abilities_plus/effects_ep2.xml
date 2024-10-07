@@ -4,7 +4,7 @@
     <!-- ######################## ABILITY DEFINITIONS ######################## -->
     <abilities>
 
-      <ability name="AcidEffect"> <!-- modSigns: redone -->
+      <ability name="AcidEffect"> <!-- modSpectre: redone -->
         <tags></tags>
         <duration type="add" min="5"/>
 		<DirectDamage type="add" min="1.5" max="1.5" /> <!-- X pts of damage per second for 1pt in Toxicity level -->
@@ -18,7 +18,7 @@
       </ability>
       
 
-      <ability name="GryphonSetBonusEffect"> <!-- modSigns: changed -->
+      <ability name="GryphonSetBonusEffect"> <!-- modSpectre: changed -->
         <tags>setBonusAbilityGryphon_1</tags>
         <duration type="add" min="2.5" />
         <gryphon_tier1_bonus type="add" min="0.05" />
@@ -27,9 +27,9 @@
       <ability name="GryphonSetBonusYrdenEffect">
         <tags>setBonusAbilityGryphon_2</tags>
         <duration type="add" min="-1" />
-        <!-- <staminaRegen type="mult" min="0.05" /> --> <!-- modSigns: removed -->
-        <spell_power type="mult" min="0.5" /> <!-- modSigns: reduced -->
-        <!-- <gryphon_set_bns_dmg_reduction type="add" min="0.15" /> --> <!-- modSigns: reduced -->
+        <!-- <staminaRegen type="mult" min="0.05" /> --> <!-- modSpectre: removed -->
+        <spell_power type="mult" min="0.5" /> <!-- modSpectre: reduced -->
+        <!-- <gryphon_set_bns_dmg_reduction type="add" min="0.15" /> --> <!-- modSpectre: reduced -->
 		<slashing_resistance_perc type="add" min="0.15" />
 		<piercing_resistance_perc type="add" min="0.15" />
 		<bludgeoning_resistance_perc type="add" min="0.15" />
@@ -43,7 +43,7 @@
         <trigger_scale type="add" min="1.4" />
       </ability>
 
-	  <!-- modSigns -->
+	  <!-- modSpectre -->
       <ability name="LynxSetBonusEffect">
         <tags>LynxSetBonusEffect</tags>
         <duration type="add" min="-1" />
@@ -51,7 +51,7 @@
         <lynx_boost_max type="add" min="0.60" />
       </ability>
 
-	  <!-- modSigns -->
+	  <!-- modSpectre -->
       <ability name="KaerMorhenSetBonusEffect">
         <tags>KaerMorhenSetBonusEffect</tags>
 		<duration type="add" min="-1" />
@@ -68,8 +68,8 @@
       </ability>
 	  
 	  <ability name="Mutation5Effect">
-		<DirectDamage type="add" min="1" max="1" /> <!-- modSigns: actual damage is set in scripts -->
-		<duration type="add" min="1" max="1" /> <!-- modSigns: actual duration is set in scripts -->
+		<DirectDamage type="add" min="1" max="1" /> <!-- modSpectre: actual damage is set in scripts -->
+		<duration type="add" min="1" max="1" /> <!-- modSpectre: actual duration is set in scripts -->
       </ability>
 	  
       <ability name="Mutation7BuffEffect">
@@ -82,20 +82,20 @@
 
       <ability name="Mutation10Effect">
         <duration type="add" min="-1"/>
-        <!-- <mutation10_stat_boost type="mult" min="0.005"/> --> <!-- modSigns: redone -->
+        <!-- <mutation10_stat_boost type="mult" min="0.005"/> --> <!-- modSpectre: redone -->
         <mutation10_factor type="mult" min="0.75"/>
       </ability>
 
       <ability name="Mutation11BuffEffect">
         <duration type="add" min="6"/>
-		<!-- modSigns: redone -->
+		<!-- modSpectre: redone -->
 		<!-- match regen to duration of animation, should gain 100% max hp during the entire animation -->
         <!-- <vitalityRegen type="mult" min="0.167"/> -->
 		<!-- <vitalityCombatRegen type="mult" min="0.167"/> -->
       </ability>
 
       <ability name="Mutation11DebuffEffect">
-        <duration type="add" min="90"/> <!-- modSigns -->
+        <duration type="add" min="90"/> <!-- modSpectre -->
       </ability>
 	  
 	  <ability name="Mutation11ImmortalEffect">
@@ -136,7 +136,7 @@
     </ability>
 
     <ability name="AerondightEffect">
-	  <!-- modSigns -->
+	  <!-- modSpectre -->
       <duration type="add" min="-1" />
       <crit_dmg_bonus type="add" min="1"/>
       <dmg_boost_per_enemy type="add" min="10"/>

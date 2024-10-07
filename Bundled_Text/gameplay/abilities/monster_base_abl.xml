@@ -88,7 +88,7 @@
 	  <ability name="DisableSpecialIfCountered" on_added="" on_ended="">
         <tags> "DisableSpecialIfCountered" </tags>
       </ability>
-	  <ability name="DjinnRage" on_added="" on_ended=""> <!-- modSigns -->
+	  <ability name="DjinnRage" on_added="" on_ended=""> <!-- modSpectre -->
         <tags> "DjinnRage", MonsterSkill </tags>
 		<staminaRegen type="mult" min="0.1" max="0.1" />
 		<attack_power type="mult" min="0.5" max="0.5" />
@@ -586,6 +586,12 @@
 		<poison_DoT_damage_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 		<bleeding_DoT_damage_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
       </ability>
+	  
+	  <ability name="mh303_suc">
+        <tags> "base" </tags>
+        <essence type="add" always_random="false" min="550" max="550" />
+		    <vitality type="mult" always_random="false" min="-1" max="-1" />		
+      </ability>
 	    
 	  <ability name="qmh304_ekima"> <!-- katakan from Oxenfurt -->
 	  <tags> "base" </tags>
@@ -790,7 +796,7 @@
 	  
 	  <ability name="sq209_eredin"> <!-- eredin vision during cave of dreams quest on Skellige -->
         <tags> "base" </tags>
-		<!-- modSigns: fake level was used (lvl 17 -> lvl 47), changed w2ent to lvl 30 instead -->
+		<!-- modSpectre: fake level was used (lvl 17 -> lvl 47), changed w2ent to lvl 30 instead -->
 		<!-- <level type="add" always_random="false" min="30" max="30" /> -->
       </ability>
 	  
@@ -813,7 +819,7 @@
 	  
 	  <ability name="mq3035"> <!-- halberd in Novigrad -->
 		<tags> "base" </tags>
-		<!-- modSigns: fake level was used instead of debuff (lvl 20 soldiers appeared as lvl 29) -->
+		<!-- modSpectre: fake level was used instead of debuff (lvl 20 soldiers appeared as lvl 29) -->
 		<!-- <level type="add" always_random="false" min="9" max="9" /> -->
 		<vitality type="mult" always_random="false" min="-0.75" max="-0.75" />
 		<attack_power type="mult" always_random="false" min="-0.75" max="-0.75" />
@@ -1394,7 +1400,7 @@
 	  
 	  <!-- ENDRIAGA VARIANTS -->
 	  
-      <!-- Endriaga worker - modSigns -->
+      <!-- Endriaga worker - modSpectre -->
       <ability name="mon_endriaga_worker">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -1411,7 +1417,7 @@
         <elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
       </ability>
 	  
-      <!-- Endriaga soldier tailed - modSigns -->
+      <!-- Endriaga soldier tailed - modSpectre -->
       <ability name="mon_endriaga_soldier_tailed">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -1428,7 +1434,7 @@
         <elemental_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
 	  
-      <!-- Endriaga soldier spikey - modSigns -->
+      <!-- Endriaga soldier spikey - modSpectre -->
       <ability name="mon_endriaga_soldier_spikey">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -1445,7 +1451,7 @@
         <elemental_resistance_perc type="base" always_random="false" min="0.35" max="0.35" />
       </ability>
 	  
-	  <!-- Endriaga base - modSigns -->
+	  <!-- Endriaga base - modSpectre -->
       <ability name="mon_endriaga_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -1464,7 +1470,7 @@
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Additional skills -->
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1498,7 +1504,7 @@
 	  
 	  <!-- END OF ENDRIAGA VARIANTS -->
 	  
-	  <!-- FUGAS VARIANTS - modSigns -->	  
+	  <!-- FUGAS VARIANTS - modSpectre -->	  
       <!-- Fugas -->
       <ability name="mon_fugas">
         <level type="add" always_random="false" min="1" max="1" />
@@ -1516,7 +1522,7 @@
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
       </ability>
 	  
-	  <!-- Fugas (lesser) - modSigns -->
+	  <!-- Fugas (lesser) - modSpectre -->
       <ability name="mon_fugas_lesser">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
@@ -1534,7 +1540,7 @@
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
       </ability>
 	  
-	  <!-- Gargoyle - modSigns -->
+	  <!-- Gargoyle - modSpectre -->
       <ability name="mon_gargoyle">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -1559,7 +1565,7 @@
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
 	  
-	  <!-- Fugas base - modSigns -->
+	  <!-- Fugas base - modSpectre -->
       <ability name="mon_fugas_base">
         <tags> "base" </tags>		
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -1577,7 +1583,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1610,8 +1616,8 @@
 	  
 	  <!-- END OF FUGAS VARIANTS -->
 	  
-	  <!-- ARACHAS VARIANTS - modSigns -->	  
-      <!-- Arachas - modSigns -->
+	  <!-- ARACHAS VARIANTS - modSpectre -->	  
+      <!-- Arachas - modSpectre -->
       <ability name="mon_arachas">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1620,7 +1626,7 @@
         <armor type="base" always_random="false" min="60" max="60" />
       </ability>
 	  
-	  <!-- Arachas armored - modSigns -->
+	  <!-- Arachas armored - modSpectre -->
       <ability name="mon_arachas_armored">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1632,7 +1638,7 @@
         <armor type="base" always_random="false" min="120" max="120" />
       </ability>
 	  
-      <!-- Poison Arachas - modSigns -->
+      <!-- Poison Arachas - modSpectre -->
       <ability name="mon_poison_arachas">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1646,7 +1652,7 @@
         <armor type="base" always_random="false" min="60" max="60" />
       </ability>
 	 
-	  <!-- Arachas base - modSigns -->
+	  <!-- Arachas base - modSpectre -->
       <ability name="mon_arachas_base">
         <tags> "base" </tags>		
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -1664,7 +1670,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1714,7 +1720,7 @@
 	  <!-- END ARACHAS VARIANTS -->
 	  
 	  
-	  <!-- BEAR VARIANTS - modSigns -->
+	  <!-- BEAR VARIANTS - modSpectre -->
 	  
       <!-- Bear_Berserker - check -->
 		<ability name="mon_bear_berserker">
@@ -1724,9 +1730,9 @@
         <essence type="base" always_random="false" min="1350" max="1350" />
 		<essenceRegen type="add" always_random="false" min="5" max="5" />
       </ability>
-      <!-- Bear_Fistfight - modSigns -->
+      <!-- Bear_Fistfight - modSpectre -->
       <ability name="mon_bear_fistfight">
-	    <!-- modSigns: fake level removed -->
+	    <!-- modSpectre: fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
         <vitality type="base" always_random="false" min="1000" max="1000" />
@@ -1776,7 +1782,7 @@
 		<rending_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
       </ability>
 	  
-      <!-- Bear base - modSigns -->
+      <!-- Bear base - modSpectre -->
       <ability name="mon_bear_base">
         <tags> "base" </tags>		
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -1793,7 +1799,7 @@
         <staminaRegen type="mult" always_random="false" min="0.34" max="0.34" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1829,9 +1835,9 @@
 	  
 	  <!-- END OF BEAR VARIANTS -->	  
 	  
-	  <!-- WEREWOLF VARIANTS - modSigns -->
+	  <!-- WEREWOLF VARIANTS - modSpectre -->
 	  
-	  <!-- Werewolf (lesser) - modSigns -->
+	  <!-- Werewolf (lesser) - modSpectre -->
       <ability name="mon_werewolf_lesser">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1842,7 +1848,7 @@
 		<shock_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Werewolf - modSigns -->
+      <!-- Werewolf - modSpectre -->
       <ability name="mon_werewolf">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1854,7 +1860,7 @@
 		<shock_resistance_perc type="base" always_random="false" min="0.5" max="0.5" />
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Lycanthrope - modSigns -->
+      <!-- Lycanthrope - modSpectre -->
       <ability name="mon_lycanthrope">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -1892,7 +1898,7 @@
 		<WeatherBonusEffect_vampire is_ability="true" />
       </ability>
 	  
-      <!-- Werewolf base - modSigns -->
+      <!-- Werewolf base - modSpectre -->
       <ability name="mon_werewolf_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -1910,7 +1916,7 @@
         <staminaRegen type="mult" always_random="false" min="0.34" max="0.34" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -1951,7 +1957,7 @@
 	  
 	  <!-- END OF WEREWOLF VARIANTS -->
 	  
-	  <!-- TROLL VARIANTS - modSigns -->
+	  <!-- TROLL VARIANTS - modSpectre -->
 	  
       <!-- Black Troll -->
       <ability name="mon_black_troll">
@@ -2013,7 +2019,7 @@
 		<burning_resistance_perc type="base" always_random="false" min="0.8" max="0.8" />
 		<bleeding_resistance_perc type="base" always_random="false" min="0.8" max="0.8" />
       </ability>
-	  <!-- Ice Troll - modSigns - all ice trolls also have mon_cave_troll ability -->
+	  <!-- Ice Troll - modSpectre - all ice trolls also have mon_cave_troll ability -->
 	  <ability name="mon_ice_troll">
 		<!-- Weather bonus -->
 		<WeatherBonusEffect_Dawn_Snow is_ability="true" />
@@ -2029,7 +2035,7 @@
         <elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Fistfight Troll - modSigns -->
+      <!-- Fistfight Troll - modSpectre -->
       <ability name="mon_troll_fistfight">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -2080,7 +2086,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2111,9 +2117,9 @@
 	  
 	  <!-- END OF TROLL VARIANTS -->
 	  
-	  <!-- GOLEM VARIANTS - modSigns -->
+	  <!-- GOLEM VARIANTS - modSpectre -->
 	  
-	  <!-- Golem lvl 1 - modSigns -->
+	  <!-- Golem lvl 1 - modSpectre -->
       <ability name="mon_golem_lvl1">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -2138,7 +2144,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Golem - modSigns -->
+      <!-- Golem - modSpectre -->
       <ability name="mon_golem">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -2164,7 +2170,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-	  <!-- Elemental Dao (lesser) - modSigns -->
+	  <!-- Elemental Dao (lesser) - modSpectre -->
       <ability name="mon_elemental_dao_lesser">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -2190,7 +2196,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Elemental Dao - modSigns -->
+      <!-- Elemental Dao - modSpectre -->
       <ability name="mon_elemental_dao">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -2216,7 +2222,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-	<!-- Ice Golem - Caranthir - modSigns -->
+	<!-- Ice Golem - Caranthir - modSpectre -->
       <ability name="mon_ice_golem">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -2246,7 +2252,7 @@
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-	  <!-- Fire Elemental (Ifryt) - modSigns -->
+	  <!-- Fire Elemental (Ifryt) - modSpectre -->
       <ability name="mon_elemental_fire">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="5" max="5" />
@@ -2272,7 +2278,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Fire Elemental Quest - modSigns -->
+      <!-- Fire Elemental Quest - modSpectre -->
       <ability name="mon_elemental_fire_q211"> <!-- unused? -->
         <threat_level type="add" always_random="false" min="5" max="5" />
         <essence type="base" always_random="false" min="1300" max="1300" />
@@ -2316,7 +2322,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2348,9 +2354,9 @@
 	  
 	  <!-- END OF GOLEM VARIANTS -->
 	  
-	  <!-- BIES VARIANTS - modSigns -->
+	  <!-- BIES VARIANTS - modSpectre -->
 	  
-      <!-- Bies - modSigns -->
+      <!-- Bies - modSpectre -->
       <ability name="mon_bies">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="5" max="5" />
@@ -2380,7 +2386,7 @@
         <tags> "BiesCustomHypnosis" </tags>
       </ability>
 	  
-	  <!-- Bies - lesser - modSigns -->
+	  <!-- Bies - lesser - modSpectre -->
       <ability name="mon_bies_lesser">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="5" max="5" />
@@ -2400,7 +2406,7 @@
 		<shock_resistance_perc type="base" always_random="false" min="0.8" max="0.8" />
       </ability>
 	  
-      <!-- Czart - modSigns -->
+      <!-- Czart - modSpectre -->
       <ability name="mon_czart">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -2439,7 +2445,7 @@
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
 		<essenceRegen type="add" always_random="false" min="20" max="20" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2472,7 +2478,7 @@
 	  
 	  <!-- END OF BIES VARIANTS -->
 	  
-	  <!-- GIANT VARIANTS - modSigns -->
+	  <!-- GIANT VARIANTS - modSpectre -->
 	  
       <!-- Ice Giant -->
       <ability name="mon_ice_giant">
@@ -2500,7 +2506,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2544,7 +2550,7 @@
 		<!-- other -->
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Cyclops - modSigns -->
+      <!-- Cyclops - modSpectre -->
       <ability name="mon_cyclops">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
@@ -2565,7 +2571,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2610,9 +2616,9 @@
 	  
 	  <!-- END OF GIANT VARIANTS -->
 	  
-	  <!-- SIREN VARIANTS - modSigns -->
+	  <!-- SIREN VARIANTS - modSpectre -->
 	  
-      <!-- Siren - modSigns-->
+      <!-- Siren - modSpectre-->
       <ability name="mon_siren">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -2639,7 +2645,7 @@
         <healthLossToForceLand_perc type="base" always_random="false" min="0.0" max="0.0" />
       </ability>	  
 	  
-	  <!-- Siren base - modSigns -->
+	  <!-- Siren base - modSpectre -->
       <ability name="mon_siren_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="20" max="20" />
@@ -2657,7 +2663,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2693,7 +2699,7 @@
 	  
 	  <!-- END OF SIREN VARIANTS -->
 	  
-	  <!-- HARPY VARIANTS - modSigns -->
+	  <!-- HARPY VARIANTS - modSpectre -->
 	  
       <!-- Harpy -->
       <ability name="mon_harpy">
@@ -2726,7 +2732,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2761,7 +2767,7 @@
       </ability>
 	  <!-- END OF HARPY VARIANTS -->
 	  
-	  <!-- WRAITH VARIANTS - modSigns -->	  
+	  <!-- WRAITH VARIANTS - modSpectre -->	  
       <!-- Wraith - check-->
       <ability name="mon_wraith">
         <level type="add" always_random="false" min="1" max="1" />
@@ -2796,7 +2802,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2839,7 +2845,7 @@
 	  
 	  <!-- END OF WRAITH VARIANTS -->	  
 	  
-	  <!-- NOONWRAITH VARIANTS - modSigns -->
+	  <!-- NOONWRAITH VARIANTS - modSpectre -->
       <!-- Nightwraith -->
       <ability name="mon_nightwraith">
         <level type="add" always_random="false" min="1" max="1" />
@@ -2883,7 +2889,7 @@
         <essence type="base" always_random="false" min="750" max="750" />
       </ability>
 	  
-      <!-- Noonwraith base - modSigns-->
+      <!-- Noonwraith base - modSpectre-->
       <ability name="mon_noonwraith_base">
         <tags> "base" </tags>
         <combat_ticket_priority type="add" always_random="false" min="25" max="25" />
@@ -2900,7 +2906,7 @@
         <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -2945,7 +2951,7 @@
 	  
 	  <!-- END OF NOONWRAITH VARIANTS -->
 	  
-	  <!-- NEKKER VARIANTS - modSigns -->
+	  <!-- NEKKER VARIANTS - modSpectre -->
 	  
       <!-- Nekker -->
       <ability name="mon_nekker">
@@ -2979,7 +2985,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3011,9 +3017,9 @@
 	  
 	  <!-- END OF NEKKER VARIANTS -->
 	  
-      <!-- DROWNER VARIANTS - modSigns -->
+      <!-- DROWNER VARIANTS - modSpectre -->
 	  
-      <!-- Drowner - modSigns-->
+      <!-- Drowner - modSpectre-->
       <ability name="mon_drowner">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -3027,7 +3033,7 @@
 		<WeatherBonusEffect_Dawn_Rain is_ability="true" />
       </ability>
 	  
-	  <!-- Drowner - underwater combat - modSigns -->
+	  <!-- Drowner - underwater combat - modSpectre -->
       <ability name="mon_drowner_underwater">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -3041,7 +3047,7 @@
 		<WeatherBonusEffect_Dawn_Rain is_ability="true" />
       </ability>
 	  
-      <!-- Drowner dead - modSigns -->
+      <!-- Drowner dead - modSpectre -->
       <ability name="mon_drowneddead">	  
 		<level type="add" always_random="false" min="1" max="1" />
 		<threat_level type="add" always_random="false" min="3" max="3" />
@@ -3056,7 +3062,7 @@
 		<WeatherBonusEffect_Dawn_Rain is_ability="false" />
       </ability>
 	  
-      <!-- Rotfiend - modSigns -->
+      <!-- Rotfiend - modSpectre -->
       <ability name="mon_rotfiend">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -3075,7 +3081,7 @@
         <rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
       </ability>
 	  
-      <!-- Rotfiend Large - modSigns -->
+      <!-- Rotfiend Large - modSpectre -->
       <ability name="mon_rotfiend_large">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3094,7 +3100,7 @@
         <rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
       </ability>
 	  
-	  <!-- Drowner base - modSigns -->
+	  <!-- Drowner base - modSpectre -->
 	  <ability name="mon_drowner_base">
         <tags> "base" </tags>
         <combat_ticket_priority type="add" always_random="false" min="25" max="25" />
@@ -3111,7 +3117,7 @@
         <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3151,9 +3157,9 @@
 	  
 	  <!-- END OF DROWNER VARIANTS -->
 	  
-	  <!-- GHOUL VARIANTS - modSigns -->
+	  <!-- GHOUL VARIANTS - modSpectre -->
 	  
-      <!-- Alghoul - modSigns -->
+      <!-- Alghoul - modSpectre -->
       <ability name="mon_alghoul">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3230,7 +3236,7 @@
 		<will_resistance_perc type="base" min="1" max="1" />
       </ability>
 	  
-      <!-- Lesser Wild hunt minion - modSigns -->
+      <!-- Lesser Wild hunt minion - modSpectre -->
       <ability name="mon_wild_hunt_minion_lesser">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3251,7 +3257,7 @@
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
 	  
-      <!-- Wild hunt minion - modSigns -->
+      <!-- Wild hunt minion - modSpectre -->
       <ability name="mon_wild_hunt_minion">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3272,7 +3278,7 @@
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
 	  
-	  <!-- Wild hunt minionMH - modSigns -->
+	  <!-- Wild hunt minionMH - modSpectre -->
       <ability name="mon_wild_hunt_minionMH"> <!-- wild hunt minion monster hunt in Novigrad (halflings), also has mh307_Minion ability -->
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3302,7 +3308,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.5" max="0.5" />
       </ability>
 	  
-	  <!-- Ghoul base - modSigns-->
+	  <!-- Ghoul base - modSpectre-->
       <ability name="mon_ghoul_base">
         <tags> "base" </tags>		
         <combat_ticket_priority type="add" always_random="false" min="25" max="25" />
@@ -3318,7 +3324,7 @@
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3353,7 +3359,7 @@
 	  
 	  <!-- END OF GHOUL VARIANTS-->
 	  
-	  <!-- GRYPHON VARIANTS - modSigns -->
+	  <!-- GRYPHON VARIANTS - modSpectre -->
 	  
       <!-- Gryphon -->
 	   <ability name="mon_gryphon_lesser">
@@ -3374,7 +3380,7 @@
         <essence type="base" always_random="false" min="1200" max="1200" />
         <armor type="base" always_random="false" min="30" max="30" />
       </ability>
-      <!-- Gryphon Volcanic - modSigns -->
+      <!-- Gryphon Volcanic - modSpectre -->
       <ability name="mon_gryphon_volcanic">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3395,7 +3401,7 @@
 		<poison_resistance_perc type="base" always_random="false" min="1" max="1" />
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
-      <!-- Cockatrice - modSigns -->
+      <!-- Cockatrice - modSpectre -->
       <ability name="mon_cockatrice">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3406,7 +3412,7 @@
 		<poison_DoT_damage_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
   
-	  <!-- Gryphon base - modSigns -->
+	  <!-- Gryphon base - modSpectre -->
       <ability name="mon_gryphon_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="15" max="15" />
@@ -3424,7 +3430,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3473,9 +3479,9 @@
 	  
 	  <!-- END OF GRYPHON VARIANTS -->
 	  
-	  <!-- LESSOG VARIANTS - modSigns -->
+	  <!-- LESSOG VARIANTS - modSpectre -->
 	  
-      <!-- Lessog - modSigns -->
+      <!-- Lessog - modSpectre -->
       <ability name="mon_lessog">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3484,7 +3490,7 @@
         <armor type="base" always_random="false" min="30" max="30" />
 		<shock_resistance_perc type="base" always_random="false" min="0.8" max="0.8" />
       </ability>
-      <!-- Lessog Ancient - modSigns -->
+      <!-- Lessog Ancient - modSpectre -->
       <ability name="mon_lessog_ancient">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3493,7 +3499,7 @@
         <armor type="base" always_random="false" min="60" max="60" />
 		<shock_resistance_perc type="base" always_random="false" min="0.8" max="0.8" />
       </ability>
-      <!-- Him - modSigns -->
+      <!-- Him - modSpectre -->
       <ability name="mon_him"> <!-- Him on Skellige, also has q202_him ability -->
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3509,7 +3515,7 @@
 		<frost_resistance_perc type="base" always_random="false" min="1" max="1" />
       </ability>
 	  
-      <!-- Lessog base - modSigns -->
+      <!-- Lessog base - modSpectre -->
       <ability name="mon_lessog_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="15" max="15" />
@@ -3530,7 +3536,7 @@
 		<swarm_attack_damage_vitality type="base" always_random="false" min="10" max="10" /> <!-- damage = swarm_attack_damage_vitality * birdCount * deltaTime -->
         <swarm_attack_damage_essence type="base" always_random="false" min="10" max="10" /> <!-- damage = swarm_attack_damage_essence * birdCount * deltaTime -->
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3578,9 +3584,9 @@
 	  
 	  <!-- END OF LESSOG VARIANTS -->
 	  
-	  <!-- WOLF VARIANTS - modSigns -->
+	  <!-- WOLF VARIANTS - modSpectre -->
 	  
-      <!-- Wolf - modSigns -->
+      <!-- Wolf - modSpectre -->
       <ability name="mon_wolf">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -3589,14 +3595,14 @@
         <!-- Resistances group -->
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Evil dog - modSigns -->
+      <!-- Evil dog - modSpectre -->
       <ability name="mon_evil_dog">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="1" max="1" />
         <vitality type="base" always_random="false" min="80" max="80" />
         <essence type="base" always_random="false" min="0" max="0" />
       </ability>
-      <!-- Evil dog - modSigns -->
+      <!-- Evil dog - modSpectre -->
       <ability name="mon_evil_dog_lvl12">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -3604,7 +3610,7 @@
         <vitality type="base" always_random="false" min="90" max="90" />
         <essence type="base" always_random="false" min="0" max="0" />
       </ability>
-      <!-- Lvl 9 dog - modSigns -->
+      <!-- Lvl 9 dog - modSpectre -->
       <ability name="wild_dog_lvl9">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -3612,7 +3618,7 @@
         <vitality type="base" always_random="false" min="100" max="100" />
         <essence type="base" always_random="false" min="0" max="0" />
       </ability>	  
-      <!-- Wolf Summon - modSigns -->
+      <!-- Wolf Summon - modSpectre -->
       <ability name="mon_wolf_summon">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -3622,7 +3628,7 @@
 		<!-- other effects -->
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Wolf Summon - modSigns -->
+      <!-- Wolf Summon - modSpectre -->
       <ability name="mon_wolf_summon_were">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -3632,7 +3638,7 @@
 		<!-- other effects -->
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Wolf Alpha - modSigns-->
+      <!-- Wolf Alpha - modSpectre-->
       <ability name="mon_wolf_alpha">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -3658,7 +3664,7 @@
         <!-- Resistances group -->
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
-      <!-- Wolf White - modSigns -->
+      <!-- Wolf White - modSpectre -->
       <ability name="mon_wolf_white">
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -3669,7 +3675,7 @@
 		<frost_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
       </ability>
 	  
-	  <!-- Wolf base - modSigns -->
+	  <!-- Wolf base - modSpectre -->
       <ability name="mon_wolf_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="25" max="25" />
@@ -3687,7 +3693,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3717,9 +3723,9 @@
 	  <!-- END OF WOLF VARIANTS -->
 	  
 	  
-	  <!-- WYVERN VARIANTS - modSigns -->
+	  <!-- WYVERN VARIANTS - modSpectre -->
 	  
-      <!-- Wyvern - modSigns -->
+      <!-- Wyvern - modSpectre -->
       <ability name="mon_wyvern">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3729,7 +3735,7 @@
 	    <staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
       </ability>
 	  
-      <!-- Forktail - modSigns -->
+      <!-- Forktail - modSpectre -->
       <ability name="mon_forktail">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3748,7 +3754,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.33" max="0.33" />
       </ability>
 	  
-	  <!-- Forktail (young) - modSigns -->
+	  <!-- Forktail (young) - modSpectre -->
       <ability name="mon_forktail_young">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3758,7 +3764,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
       </ability>
 	  
-	  <!-- Wyvern base - modSigns -->
+	  <!-- Wyvern base - modSpectre -->
       <ability name="mon_wyvern_base">
         <tags> "base" </tags>
         <combat_ticket_weight type="add" always_random="false" min="50" max="50" />
@@ -3775,7 +3781,7 @@
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -3824,9 +3830,9 @@
 	  
 	  <!-- END OF WYVERN VARIANTS -->
 	  
-	  <!-- GRAVEHAG VARIANTS - modSigns -->
+	  <!-- GRAVEHAG VARIANTS - modSpectre -->
 	  
-      <!-- Gravehag - modSigns -->
+      <!-- Gravehag - modSpectre -->
       <ability name="mon_gravehag">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
@@ -3840,7 +3846,7 @@
 		<WeatherBonusEffect_Dawn is_ability="true" />
       </ability>
 	  
-      <!-- Fogling - modSigns -->
+      <!-- Fogling - modSpectre -->
       <ability name="mon_fogling_lesser">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3881,7 +3887,7 @@
         <elemental_resistance_perc type="base" always_random="false" min="0.5" max="0.5" />
       </ability>	  
 	  
-      <!-- Fogling Doppelganger - modSigns -->
+      <!-- Fogling Doppelganger - modSpectre -->
       <ability name="mon_fogling_doppelganger">
 		<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
@@ -3890,7 +3896,7 @@
 		<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
       </ability>
 	  
-      <!-- Waterhag - modSigns -->
+      <!-- Waterhag - modSpectre -->
       <ability name="mon_waterhag">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3905,7 +3911,7 @@
 		
       </ability>
 	  
-      <!-- Waterhag greater - modSigns -->
+      <!-- Waterhag greater - modSpectre -->
       <ability name="mon_waterhag_greater">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="4" max="4" />
@@ -3921,7 +3927,7 @@
 		<WeatherBonusEffect_drowners_rain3 is_ability="true" />
       </ability>
 	  
-      <!-- Barons Wife - modSigns -->
+      <!-- Barons Wife - modSpectre -->
       <ability name="mon_baronswife"> <!-- unused? -->
 		<!-- fake level removed -->
         <level type="add" always_random="false" min="1" max="1" />
@@ -3934,7 +3940,7 @@
 		<will_resistance_perc type="add" always_random="false" min="1" max="1" />
       </ability>
 	  
-	  <!-- Gravehag base - modSigns -->
+	  <!-- Gravehag base - modSpectre -->
       <ability name="mon_gravehag_base">
         <tags> "base" </tags>		
         <combat_ticket_weight type="add" always_random="false" min="20" max="20" />
@@ -3951,7 +3957,7 @@
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
         <moraleRegen type="mult" always_random="false" min="0.05" max="0.05" />
         <!-- Stamina group -->
-        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSigns: used for all attacks that don't have stamina cost set -->
+        <light_action_stamina_cost type="base" always_random="false" min="16" max="16" /> <!-- modSpectre: used for all attacks that don't have stamina cost set -->
         <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" /> <!-- is sometimes used by some attacks -->
         <heavy_special_stamina_cost type="base" always_random="false" min="33" max="33" /> <!-- is sometimes used by some attacks -->
@@ -4179,7 +4185,7 @@
 		<flying_swarm_resistance type="base" min="1" max="1" />
       </ability>
 	  
-	  <ability name="mon_witch3_NGP"> <!-- not used by modSigns -->
+	  <ability name="mon_witch3_NGP"> <!-- not used by modSpectre -->
         <tags> "base" </tags>
 	  </ability>
 	  
@@ -4335,7 +4341,7 @@
 	  
 	  <ability name="WildHunt_Eredin">
 	  <tags> "Boss" </tags>
-	    <!-- modSigns: level is set inside w2ent, boosts and NG+ level are allowed -->
+	    <!-- modSpectre: level is set inside w2ent, boosts and NG+ level are allowed -->
         <!-- <level type="add" min="29" max="29" /> -->
 		<essence type="base" min="2500" max="2500" />
         <experience type="add" min="100" max="100" />
@@ -4380,7 +4386,7 @@
 	  
 	  <ability name="WildHunt_Imlerith">
 	   <tags> "Boss" </tags>
-	    <!-- modSigns: level is set inside w2ent, boosts and NG+ level are allowed -->
+	    <!-- modSpectre: level is set inside w2ent, boosts and NG+ level are allowed -->
         <!-- <level type="add" min="25" max="25" /> -->
 		<essence type="base" min="2500" max="2500" />
         <experience type="add" min="100" max="100" />
@@ -4422,7 +4428,7 @@
 	  
 	  <ability name="WildHunt_Caranthir">
 	  <tags> "Boss" </tags>
-	    <!-- modSigns: level is set inside w2ent, boosts and NG+ level are allowed -->
+	    <!-- modSpectre: level is set inside w2ent, boosts and NG+ level are allowed -->
         <!-- <level type="add" min="29" max="29" /> -->
 		<essence type="base" min="2000" max="2000" />
         <experience type="add" min="100" max="100" />
