@@ -75,7 +75,7 @@
 	<ability name="Long Steel Sword _Stats"> <!-- starting steel sword -->
 		<weight							type="base"	min="4"					/>
 		<quality						type="add"	min="1"					/>
-		<SlashingDamage 				type="base"	min="265" 	max="265"	/>
+		<SlashingDamage 				type="base"	min="24" 	max="24"	/>
 		<SilverDamage					type="base"	min="1"					/>
 	</ability>
 	
@@ -183,11 +183,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage 					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"				/>
-		<critical_hit_chance			type="add"	min="0.35"				/>
+		<armor_reduction				type="base"	min="60"				/>
+		<critical_hit_chance			type="add"	min="0.25"				/>
 		<critical_hit_damage_bonus		type="add"	min="0.75"				/>
-		<desc_confusionchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<desc_confusionchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	
@@ -228,11 +228,11 @@
 		<weight							type="base"	min="6"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage 					type="base"	min="1"					/>
-		<FrostDamage 					type="add"  min="45" 	max="45"	/>
-		<spell_power_aard				type="mult"	min="0.25"	max="0.25"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.75"				/>
-		<buff_apply_chance 				type="add" 	min="0.25" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.25" 				/>
+		<FrostDamage 					type="add"  min="35" 	max="35"	/>
+		<spell_power_aard				type="mult"	min="0.15"	max="0.15"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.60"				/>
+		<buff_apply_chance 				type="add" 	min="0.15" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.15" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	
@@ -311,9 +311,9 @@
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<SilverDamage 					type="base"	min="1"					/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"				/>
-		<buff_apply_chance 				type="add" 	min="0.2" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2" 				/>
+		<critical_hit_damage_bonus		type="add"	min="0.2"				/>
+		<buff_apply_chance 				type="add" 	min="0.05" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.05" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	
@@ -322,11 +322,11 @@
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage 					type="base"	min="1"					/>
-		<spell_power_aard				type="mult"	min="0.25"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"				/>
-		<FrostDamage 					type="add"  min="45"				/>
-		<buff_apply_chance 				type="add" 	min="0.25" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.25" 				/>
+		<spell_power_aard				type="mult"	min="0.08"				/>
+		<critical_hit_damage_bonus		type="add"	min="0.25"				/>
+		<FrostDamage 					type="add"  min="20"				/>
+		<buff_apply_chance 				type="add" 	min="0.08" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.08" 				/>
 		<SlowdownFrostEffect			is_ability="true" 					/>
 	</ability>
 
@@ -335,9 +335,9 @@
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<SilverDamage 					type="base"	min="1"					/>
-		<critical_hit_damage_bonus		type="add"	min="0.7"				/>
-		<buff_apply_chance 				type="add" 	min="0.2" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2" 				/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"				/>
+		<buff_apply_chance 				type="add" 	min="0.1" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.1" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	
@@ -346,11 +346,11 @@
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="3"		max="3"		/>
 		<SilverDamage 					type="base"	min="1"					/>
-		<critical_hit_damage_bonus		type="add"	min="0.7"				/>
-		<buff_apply_chance 				type="add" 	min="0.2" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2" 				/>
+		<critical_hit_damage_bonus		type="add"	min="0.35"				/>
+		<buff_apply_chance 				type="add" 	min="0.1" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.1" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
-		<spell_power_aard				type="mult"	min="0.2"				/>
+		<spell_power_aard				type="mult"	min="0.1"				/>
 	</ability>
 
 <!-- SILVER -->
@@ -358,7 +358,7 @@
 		<weight							type="base"	min="2"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
-		<SilverDamage 					type="base"	min="390" 	max="390"	/>
+		<SilverDamage 					type="base"	min="90" 	max="90"	/>
 	</ability>
 
 	<ability name="Silver sword 1 _Stats"> <!-- q1-2, 0 slots -->
@@ -456,13 +456,13 @@
 		<weight							type="base"	min="3"					/>
 		<quality						type="add"	min="4"					/>
 		<SlashingDamage 				type="base"	min="1"					/>	
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.30"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.30"	max="0.60"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<BleedingEffect					is_ability="true"					/>
-		<spell_power					type="mult"	min="0.2"	max="0.25"	/>
-		<focus_gain 					type="add"	min="0.2"	max="0.25"	/>
+		<spell_power					type="mult"	min="0.10"	max="0.15"	/>
+		<focus_gain 					type="add"	min="0.10"	max="0.15"	/>
 	</ability>
 
 <!-- QUEST -->
@@ -495,7 +495,7 @@
 	<ability name="NPC_Witcher_Steel_Sword _Stats">
 		<weight							type="base"	min="4"					/>
 		<quality						type="add"	min="1"		max="1"		/>
-		<PhysicalDamage					type="base"	min="290"				/>
+		<PhysicalDamage					type="base"	min="50"				/>
 		<SilverDamage 					type="base"	min="10"				/>
 	</ability>
 
@@ -504,7 +504,7 @@
 		<weight							type="base"	min="4"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<PhysicalDamage					type="base"	min="10"				/>
-		<SilverDamage 					type="base"	min="350"				/>
+		<SilverDamage 					type="base"	min="50"				/>
 	</ability>
 
 <!-- NPC witcher silver sword upgrade (q403)--> <!-- KM battle upgraded swords -->
@@ -512,7 +512,7 @@
 		<weight							type="base"	min="4"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<PhysicalDamage					type="base"	min="10"				/>
-		<SilverDamage 					type="base"	min="400"				/>
+		<SilverDamage 					type="base"	min="100"				/>
 	</ability>
 	
 <!-- Caranthir's Staff -->
@@ -4453,7 +4453,7 @@
 		<player_override><bound_items>					<item>scabbard_silver_2_03</item>  
 		</bound_items></player_override>
 	</item>
-
+	
 <!-- DLC10 (Wolf gear) additional sword lvl 21 -->
 	<item
 		name							="DLC10_Remorse"

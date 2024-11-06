@@ -3,6 +3,26 @@
 	<definitions>	
 		<items>     
 			<!-- HACK this name must be the same as the one under custom definition -->
+			<item category ="alchemy_recipe" name	="Recipe for Lesser mutagen red" stackable ="100" price ="100" weight ="0.1" icon_path ="icons/inventory/scrolls/scroll6.dds" localisation_key_name	="item_name_lesser_red_mutagen"	localisation_key_description = "item_desc_red_mutagen" >
+				<tags>ReadableItem, mod_alchemy</tags>
+					<base_abilities>
+						<a>Magic _Stats</a>
+					</base_abilities>
+			</item>
+			
+			<item category ="alchemy_recipe" name	="Recipe for Lesser mutagen green" stackable ="100" price ="100" weight ="0.1" icon_path ="icons/inventory/scrolls/scroll6.dds" localisation_key_name ="item_name_lesser_green_mutagen"	localisation_key_description = "item_desc_green_mutagen" >
+				<tags>ReadableItem, mod_alchemy</tags>
+					<base_abilities>
+						<a>Magic _Stats</a>
+					</base_abilities>
+			</item>
+			
+			<item category ="alchemy_recipe" name	="Recipe for Lesser mutagen blue" stackable ="100" price ="100" weight ="0.1" icon_path ="icons/inventory/scrolls/scroll6.dds" localisation_key_name = "item_name_lesser_blue_mutagen"	localisation_key_description = "item_desc_blue_mutagen" >
+				<tags>ReadableItem, mod_alchemy</tags>
+					<base_abilities>
+						<a>Magic _Stats</a>
+					</base_abilities>
+			</item>
 			<!-- Normal Mutagens -->
 			<item category="alchemy_recipe" name="Recipe for Mutagen red" stackable="100" price="50" weight="0.1" icon_path="icons/inventory/scrolls/scroll6.dds" localisation_key_name = "item_name_recipe_for_mutagen_red" localisation_key_description = "item_desc_red_mutagen" >
 				<tags>ReadableItem, mod_alchemy</tags>
@@ -247,6 +267,24 @@
 
 	<custom>
 		<alchemy_recipes>
+			<recipe name_name="Recipe for Lesser mutagen green" type_name="Mutagen1" level="1" cookedItem_name="Lesser mutagen green" cookedItemType="Substance" cookedItemQuantity="1" localisation_key_name = "">
+				<ingredients>
+					<ingredient item_name="Alcohest" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+				</ingredients>
+			</recipe>	
+			<recipe name_name="Recipe for Lesser mutagen blue" type_name="Mutagen1" level="1" cookedItem_name="Lesser mutagen blue" cookedItemType="Substance" cookedItemQuantity="6" localisation_key_name = "">
+				<ingredients>
+					<ingredient item_name="Alcohest" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="1" />
+				</ingredients>
+			</recipe>			
+			<recipe name_name="Recipe for Lesser mutagen red" type_name="Mutagen1" level="1" cookedItem_name="Lesser mutagen red" cookedItemType="Substance" cookedItemQuantity="6" localisation_key_name = "">
+				<ingredients>
+					<ingredient item_name="Alcohest" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+				</ingredients>
+			</recipe>																																																   
 			<recipe name_name="Recipe for Mutagen red" type_name="Mutagen1" level="1" cookedItem_name="Mutagen red" cookedItemType="Substance" cookedItemQuantity="1" localisation_key_name = "">
 				<ingredients>
 					<ingredient item_name="Lesser mutagen red" quantity="3" />
@@ -285,6 +323,9 @@
 					<ingredient item_name="Katakan mutagen" quantity="1" />
 					<ingredient item_name="Verbena" quantity="1" />
 					<ingredient item_name="Arenaria" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="2" />
+					<ingredient item_name="Quebrith" quantity="3" />
+					<ingredient item_name="Aether" quantity="3" />
 				</ingredients>
 			</recipe>			
 			<recipe name_name="Recipe for Mutagen 2" type_name="Mutagen2" level="1" cookedItem_name="Mutagen 2" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -292,6 +333,8 @@
 					<ingredient item_name="Dwarven spirit" quantity="1" />
 					<ingredient item_name="Arachas mutagen" quantity="1" />
 					<ingredient item_name="White myrtle" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="3" />
+					<ingredient item_name="Vitriol" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 3" type_name="Mutagen3" level="1" cookedItem_name="Mutagen 3" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -299,6 +342,8 @@
 					<ingredient item_name="Dwarven spirit" quantity="1" />
 					<ingredient item_name="Cockatrice mutagen" quantity="1" />
 					<ingredient item_name="Crows eye" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="3" />
+					<ingredient item_name="Vitriol" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 4" type_name="Mutagen4" level="1" cookedItem_name="Mutagen 4" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -307,6 +352,9 @@
 					<ingredient item_name="Volcanic Gryphon mutagen" quantity="1" />
 					<ingredient item_name="Ribleaf" quantity="1" />
 					<ingredient item_name="Blowbill" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="2" />
+					<ingredient item_name="Vitriol" quantity="6" />
+					<ingredient item_name="Rebis" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 5" type_name="Mutagen5" level="1" cookedItem_name="Mutagen 5" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -314,6 +362,8 @@
 					<ingredient item_name="Dwarven spirit" quantity="1" />
 					<ingredient item_name="Water Hag mutagen" quantity="1" />
 					<ingredient item_name="Berbercane fruit" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="3" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 6" type_name="Mutagen6" level="1" cookedItem_name="Mutagen 6" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -322,6 +372,9 @@
 					<ingredient item_name="Nightwraith mutagen" quantity="1" />
 					<ingredient item_name="Mistletoe" quantity="1" />
 					<ingredient item_name="Sewant mushrooms" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="2" />
+					<ingredient item_name="Hydragenum" quantity="6" />
+					<ingredient item_name="Vitriol" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 7" type_name="Mutagen7" level="1" cookedItem_name="Mutagen 7" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -330,6 +383,9 @@
 					<ingredient item_name="Ekimma mutagen" quantity="1" />
 					<ingredient item_name="White myrtle" quantity="1" />
 					<ingredient item_name="Mandrake root" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="2" />
+					<ingredient item_name="Vitriol" quantity="6" />
+					<ingredient item_name="Quebrith" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 8" type_name="Mutagen8" level="1" cookedItem_name="Mutagen 8" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -338,6 +394,8 @@
 					<ingredient item_name="Czart mutagen" quantity="1" />
 					<ingredient item_name="Pigskin puffball" quantity="1" />
 					<ingredient item_name="Cortinarius" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="3" />
+					<ingredient item_name="Hydragenum" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 9" type_name="Mutagen9" level="1" cookedItem_name="Mutagen 9" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -346,6 +404,9 @@
 					<ingredient item_name="Fogling 1 mutagen" quantity="1" />
 					<ingredient item_name="Fools parsley leaves" quantity="1" />
 					<ingredient item_name="Blowbill" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="6" />
+					<ingredient item_name="Rebis" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 10" type_name="Mutagen10" level="1" cookedItem_name="Mutagen 10" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -354,6 +415,9 @@
 					<ingredient item_name="Wyvern mutagen" quantity="1" />
 					<ingredient item_name="Moleyarrow" quantity="1" />
 					<ingredient item_name="Celandine" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="6" />
+					<ingredient item_name="Rebis" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 11" type_name="Mutagen11" level="1" cookedItem_name="Mutagen 11" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -362,6 +426,9 @@
 					<ingredient item_name="Doppler mutagen" quantity="1" />
 					<ingredient item_name="Han" quantity="1" />
 					<ingredient item_name="Longrube" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Rebis" quantity="6" />
+					<ingredient item_name="Vermilion" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 12" type_name="Mutagen12" level="1" cookedItem_name="Mutagen 12" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -370,6 +437,9 @@
 					<ingredient item_name="Troll mutagen" quantity="1" />
 					<ingredient item_name="Crows eye" quantity="1" />
 					<ingredient item_name="Honeysuckle" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+					<ingredient item_name="Vitriol" quantity="6" />
+					<ingredient item_name="Quebrith" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 13" type_name="Mutagen13" level="1" cookedItem_name="Mutagen 13" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -378,6 +448,9 @@
 					<ingredient item_name="Noonwraith mutagen" quantity="1" />
 					<ingredient item_name="Ginatia petals" quantity="1" />
 					<ingredient item_name="Ergot seeds" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+					<ingredient item_name="Aether" quantity="6" />
+					<ingredient item_name="Vermilion" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 14" type_name="Mutagen14" level="1" cookedItem_name="Mutagen 14" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -386,6 +459,9 @@
 					<ingredient item_name="Succubus mutagen" quantity="1" />
 					<ingredient item_name="Green mold" quantity="1" />
 					<ingredient item_name="Allspice root" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Rebis" quantity="6" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 15" type_name="Mutagen15" level="1" cookedItem_name="Mutagen 15" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -394,6 +470,8 @@
 					<ingredient item_name="Lesser mutagen red" quantity="5" />
 					<ingredient item_name="Alghoul bone marrow" quantity="1" />
 					<ingredient item_name="Buckthorn" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="2" />
+					<ingredient item_name="Vermilion" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 16" type_name="Mutagen16" level="1" cookedItem_name="Mutagen 16" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -403,6 +481,9 @@
 					<ingredient item_name="Hellebore petals" quantity="1" />
 					<ingredient item_name="Fools parsley leaves" quantity="1" />
 					<ingredient item_name="Arenaria" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="4" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 17" type_name="Mutagen17" level="1" cookedItem_name="Mutagen 17" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -411,6 +492,9 @@
 					<ingredient item_name="Forktail mutagen" quantity="1" />
 					<ingredient item_name="Moleyarrow" quantity="1" />
 					<ingredient item_name="Bryonia" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="2" />
+					<ingredient item_name="Quebrith" quantity="6" />
+					<ingredient item_name="Vermilion" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 18" type_name="Mutagen18" level="1" cookedItem_name="Mutagen 18" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -419,6 +503,9 @@
 					<ingredient item_name="Grave Hag mutagen" quantity="1" />
 					<ingredient item_name="Longrube" quantity="1" />
 					<ingredient item_name="Cortinarius" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="2" />
+					<ingredient item_name="Vermilion" quantity="6" />
+					<ingredient item_name="Hydragenum" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 19" type_name="Mutagen19" level="1" cookedItem_name="Mutagen 19" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -427,6 +514,9 @@
 					<ingredient item_name="Wraith mutagen" quantity="1" />
 					<ingredient item_name="Blowbill" quantity="1" />
 					<ingredient item_name="Nostrix" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="2" />
+					<ingredient item_name="Rebis" quantity="6" />
+					<ingredient item_name="Hydragenum" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 20" type_name="Mutagen20" level="1" cookedItem_name="Mutagen 20" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -435,6 +525,9 @@
 					<ingredient item_name="Dao mutagen" quantity="1" />
 					<ingredient item_name="Balisse fruit" quantity="1" />
 					<ingredient item_name="Pringrape" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="2" />
+					<ingredient item_name="Vitriol" quantity="6" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 21" type_name="Mutagen21" level="1" cookedItem_name="Mutagen 21" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -443,6 +536,9 @@
 					<ingredient item_name="Lamia mutagen" quantity="1" />
 					<ingredient item_name="Ribleaf" quantity="1" />
 					<ingredient item_name="Berbercane fruit" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="2" />
+					<ingredient item_name="Vitriol" quantity="6" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 22" type_name="Mutagen22" level="1" cookedItem_name="Mutagen 22" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -452,6 +548,10 @@
 					<ingredient item_name="Mandrake root" quantity="1" />
 					<ingredient item_name="Ginatia petals" quantity="1" />
 					<ingredient item_name="Honeysuckle" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="1" />
+					<ingredient item_name="Hydragenum" quantity="4" />
+					<ingredient item_name="Aether" quantity="6" />
+					<ingredient item_name="Quebrith" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 23" type_name="Mutagen23" level="1" cookedItem_name="Mutagen 23" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -461,6 +561,10 @@
 					<ingredient item_name="Blowbill" quantity="1" />
 					<ingredient item_name="Fools parsley leaves" quantity="1" />
 					<ingredient item_name="Beggartick blossoms" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="2" />
+					<ingredient item_name="Rebis" quantity="4" />
+					<ingredient item_name="Quebrith" quantity="2" />
+					<ingredient item_name="Hydragenum" quantity="4" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 24" type_name="Mutagen24" level="1" cookedItem_name="Mutagen 24" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -469,6 +573,9 @@
 					<ingredient item_name="Werewolf mutagen" quantity="1" />
 					<ingredient item_name="Beggartick blossoms" quantity="1" />
 					<ingredient item_name="Hop umbels" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Hydragenum" quantity="6" />
+					<ingredient item_name="Rebis" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 25" type_name="Mutagen25" level="1" cookedItem_name="Mutagen 25" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -477,6 +584,9 @@
 					<ingredient item_name="Nekker Warrior mutagen" quantity="1" />
 					<ingredient item_name="Fools parsley leaves" quantity="1" />
 					<ingredient item_name="Ranogrin" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="6" />
+					<ingredient item_name="Vermilion" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 26" type_name="Mutagen26" level="1" cookedItem_name="Mutagen 26" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -485,6 +595,9 @@
 					<ingredient item_name="Leshy mutagen" quantity="1" />
 					<ingredient item_name="Moleyarrow" quantity="1" />
 					<ingredient item_name="Pringrape" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="1" />
+					<ingredient item_name="Quebrith" quantity="6" />
+					<ingredient item_name="Aether" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 27" type_name="Mutagen27" level="1" cookedItem_name="Mutagen 27" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
@@ -494,15 +607,19 @@
 					<ingredient item_name="Oil" quantity="1" />
 					<ingredient item_name="Bryonia" quantity="1" />
 					<ingredient item_name="Wolf liver" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+					<ingredient item_name="Vermilion" quantity="6" />
+					<ingredient item_name="Quebrith" quantity="6" />
 				</ingredients>
 			</recipe>
 			<recipe name_name="Recipe for Mutagen 28" type_name="Mutagen28" level="1" cookedItem_name="Mutagen 28" cookedItemType="mutagen_potion" cookedItemQuantity="1" localisation_key_name = "">
 				<ingredients>
 					<ingredient item_name="Dwarven spirit" quantity="1" />
-					<ingredient item_name="Mutagen red" quantity="1" />
-					<ingredient item_name="Mutagen green" quantity="1" />
-					<ingredient item_name="Mutagen blue" quantity="1" />
 					<ingredient item_name="Wraith essence" quantity="1" />
+					<ingredient item_name="Lesser mutagen red" quantity="1" />
+					<ingredient item_name="Lesser mutagen green" quantity="1" />
+					<ingredient item_name="Lesser mutagen blue" quantity="1" />
+					<ingredient item_name="Hydragenum" quantity="6" />
 				</ingredients>
 			</recipe>
 		</alchemy_recipes>

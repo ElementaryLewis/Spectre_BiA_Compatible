@@ -1,457 +1,457 @@
-spire_path.w2l:    CLayer #0 (CLayer) : 
-spire_path.w2l:        CLayer (CLayer) : <CLayer>CLayer
-spire_path.w2l:            entities (array:ptr:CEntity) : # array:ptr:CEntity
-spire_path.w2l:                0 (ptr:CEntity) : CEncounter #1
-spire_path.w2l:                1 (ptr:CEntity) : CEntity #9
-spire_path.w2l:                2 (ptr:CEntity) : CEntity #11
-spire_path.w2l:                3 (ptr:CEntity) : CEntity #13
-spire_path.w2l:                4 (ptr:CEntity) : NULL
-spire_path.w2l:            nameCount (Uint32) : 1
-spire_path.w2l:    CEncounter #1 (CEncounter) : 
-spire_path.w2l:        CEncounter (CEncounter) : 
-spire_path.w2l:            tags (TagList) : spire_bear_encounter
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_bear_encounter
-spire_path.w2l:            transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                Scale_x (Float) : 154.8067
-spire_path.w2l:                Scale_y (Float) : 154.8067
-spire_path.w2l:                Scale_z (Float) : 40.2701
-spire_path.w2l:                X (Float) : -163.5083
-spire_path.w2l:                Y (Float) : -51.1748
-spire_path.w2l:                Z (Float) : 127.8731
-spire_path.w2l:            guid (CGUID) : 91b7e09f-8747-465d-9adc-b88ba39f4915
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            streamingDistance (Uint8) : 0
-spire_path.w2l:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-spire_path.w2l:                0 (ptr:CComponent) : CTriggerAreaComponent #8
-spire_path.w2l:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-spire_path.w2l:                0 (SEntityBufferType1) : 
-spire_path.w2l:                    ComponentName (CName) : 
-spire_path.w2l:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-spire_path.w2l:            idTag (IdTag) :  df5bf631-b9a4-4399-ba3c-fa0178ed73fa
-spire_path.w2l:            spawnTree (ptr:ISpawnTreeBranch) : CSpawnTreeQuestNode #2
-spire_path.w2l:            creatureDefinition (array:ptr:CEncounterCreatureDefinition) : # array:ptr:CEncounterCreatureDefinition
-spire_path.w2l:                0 (ptr:CEncounterCreatureDefinition) : CEncounterCreatureDefinition #7
-spire_path.w2l:            fullRespawnDelay (GameTime) : <GameTime>fullRespawnDelay
-spire_path.w2l:                m_seconds (Int32) : 60
-spire_path.w2l:    CSpawnTreeQuestNode #2 (CSpawnTreeQuestNode) : 
-spire_path.w2l:        CSpawnTreeQuestNode (CSpawnTreeQuestNode) : <CSpawnTreeQuestNode>CSpawnTreeQuestNode
-spire_path.w2l:            id (Uint64) : 1032666338565567293
-spire_path.w2l:            spawnPhases (array:ptr:CSpawnTreeQuestPhase) : # array:ptr:CSpawnTreeQuestPhase
-spire_path.w2l:                0 (ptr:CSpawnTreeQuestPhase) : CSpawnTreeQuestPhase #3
-spire_path.w2l:    CSpawnTreeQuestPhase #3 (CSpawnTreeQuestPhase) : 
-spire_path.w2l:        CSpawnTreeQuestPhase (CSpawnTreeQuestPhase) : <CSpawnTreeQuestPhase>CSpawnTreeQuestPhase
-spire_path.w2l:            id (Uint64) : 867404756485331108
-spire_path.w2l:            childNodes (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
-spire_path.w2l:                0 (ptr:ISpawnTreeBaseNode) : CSpawnTreeNode #4
-spire_path.w2l:    CSpawnTreeNode #4 (CSpawnTreeNode) : 
-spire_path.w2l:        CSpawnTreeNode (CSpawnTreeNode) : <CSpawnTreeNode>CSpawnTreeNode
-spire_path.w2l:            id (Uint64) : 563812805570995370
-spire_path.w2l:            childNodes (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
-spire_path.w2l:                0 (ptr:ISpawnTreeBaseNode) : CSpawnTreeTimetableEntry #5
-spire_path.w2l:    CSpawnTreeTimetableEntry #5 (CSpawnTreeTimetableEntry) : 
-spire_path.w2l:        CSpawnTreeTimetableEntry (CSpawnTreeTimetableEntry) : <CSpawnTreeTimetableEntry>CSpawnTreeTimetableEntry
-spire_path.w2l:            id (Uint64) : 82609775097917441
-spire_path.w2l:            entries (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
-spire_path.w2l:                0 (ptr:ISpawnTreeBaseNode) : CCreatureEntry #6
-spire_path.w2l:    CCreatureEntry #6 (CCreatureEntry) : bear
-spire_path.w2l:        CCreatureEntry (CCreatureEntry) : <CCreatureEntry>CCreatureEntry
-spire_path.w2l:            id (Uint64) : 745492575910929127
-spire_path.w2l:            quantityMin (Int32) : 2
-spire_path.w2l:            quantityMax (Int32) : 3
-spire_path.w2l:            randomizeRotation (Bool) : true
-spire_path.w2l:            baseSpawner (CSpawnTreeWaypointSpawner) : <CSpawnTreeWaypointSpawner>baseSpawner
-spire_path.w2l:                visibility (ESpawnTreeSpawnVisibility) : STSV_SPAWN_HIDEN
-spire_path.w2l:                spawnpointDelay (Float) : 2.0000
-spire_path.w2l:                tags (TagList) : spire_sp_bear
-spire_path.w2l:                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                        0 (CName) : spire_sp_bear
-spire_path.w2l:                useLocationTest (Bool) : false
-spire_path.w2l:            creatureDefinition (CName) : bear
-spire_path.w2l:    CEncounterCreatureDefinition #7 (CEncounterCreatureDefinition) : bear
-spire_path.w2l:        CEncounterCreatureDefinition (CEncounterCreatureDefinition) : <CEncounterCreatureDefinition>CEncounterCreatureDefinition
-spire_path.w2l:            definitionName (CName) : bear
-spire_path.w2l:            entityTemplate (soft:CEntityTemplate) : characters/npc_entities/monsters/bear_berserker_lvl1.w2ent
-spire_path.w2l:            totalSpawnLimit (Uint16) : 3
-spire_path.w2l:            maxSpawnedAtOnce (Uint16) : 2
-spire_path.w2l:            tags (TagList) : spire_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_bear
-spire_path.w2l:    CTriggerAreaComponent #8 (CTriggerAreaComponent) : spire_bear_encounter
-spire_path.w2l:        CTriggerAreaComponent (CTriggerAreaComponent) : spire_bear_encounter
-spire_path.w2l:            tags (TagList) : spire_bear_encounter
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_bear_encounter
-spire_path.w2l:            guid (CGUID) : 3eda5d88-9587-481b-af06-66305d4b8b9c
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            name (String) : "spire_bear_encounter"
-spire_path.w2l:            boundingBox (Box) : <Box>boundingBox
-spire_path.w2l:                Min (Vector) : <Vector>Min
-spire_path.w2l:                    X (Float) : -238.3528
-spire_path.w2l:                    Y (Float) : -125.1398
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                Max (Vector) : <Vector>Max
-spire_path.w2l:                    X (Float) : -84.7447
-spire_path.w2l:                    Y (Float) : 49.0450
-spire_path.w2l:                    Z (Float) : 208.4133
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:            localPoints (array:Vector) : # array:Vector
-spire_path.w2l:                0 (Vector) : <Vector>0
-spire_path.w2l:                    X (Float) : -0.4145
-spire_path.w2l:                    Y (Float) : 0.3061
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                1 (Vector) : <Vector>1
-spire_path.w2l:                    X (Float) : -0.4835
-spire_path.w2l:                    Y (Float) : 0.0459
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                2 (Vector) : <Vector>2
-spire_path.w2l:                    X (Float) : -0.3451
-spire_path.w2l:                    Y (Float) : -0.1899
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                3 (Vector) : <Vector>3
-spire_path.w2l:                    X (Float) : -0.1572
-spire_path.w2l:                    Y (Float) : -0.3694
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                4 (Vector) : <Vector>4
-spire_path.w2l:                    X (Float) : 0.0166
-spire_path.w2l:                    Y (Float) : -0.4655
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                5 (Vector) : <Vector>5
-spire_path.w2l:                    X (Float) : 0.2402
-spire_path.w2l:                    Y (Float) : -0.4778
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                6 (Vector) : <Vector>6
-spire_path.w2l:                    X (Float) : 0.4668
-spire_path.w2l:                    Y (Float) : -0.4614
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                7 (Vector) : <Vector>7
-spire_path.w2l:                    X (Float) : 0.5088
-spire_path.w2l:                    Y (Float) : -0.3855
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                8 (Vector) : <Vector>8
-spire_path.w2l:                    X (Float) : 0.4676
-spire_path.w2l:                    Y (Float) : -0.2909
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                9 (Vector) : <Vector>9
-spire_path.w2l:                    X (Float) : 0.2359
-spire_path.w2l:                    Y (Float) : -0.2642
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                10 (Vector) : <Vector>10
-spire_path.w2l:                    X (Float) : 0.0815
-spire_path.w2l:                    Y (Float) : -0.1465
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                11 (Vector) : <Vector>11
-spire_path.w2l:                    X (Float) : 0.1599
-spire_path.w2l:                    Y (Float) : 0.1342
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                12 (Vector) : <Vector>12
-spire_path.w2l:                    X (Float) : 0.1562
-spire_path.w2l:                    Y (Float) : 0.3844
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                13 (Vector) : <Vector>13
-spire_path.w2l:                    X (Float) : -0.1069
-spire_path.w2l:                    Y (Float) : 0.6474
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                14 (Vector) : <Vector>14
-spire_path.w2l:                    X (Float) : -0.2317
-spire_path.w2l:                    Y (Float) : 0.5567
-spire_path.w2l:                    Z (Float) : 0.0000
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:            worldPoints (array:Vector) : # array:Vector
-spire_path.w2l:                0 (Vector) : <Vector>0
-spire_path.w2l:                    X (Float) : -227.6739
-spire_path.w2l:                    Y (Float) : -3.7914
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                1 (Vector) : <Vector>1
-spire_path.w2l:                    X (Float) : -238.3528
-spire_path.w2l:                    Y (Float) : -44.0759
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                2 (Vector) : <Vector>2
-spire_path.w2l:                    X (Float) : -216.9397
-spire_path.w2l:                    Y (Float) : -80.5737
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                3 (Vector) : <Vector>3
-spire_path.w2l:                    X (Float) : -187.8439
-spire_path.w2l:                    Y (Float) : -108.3607
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                4 (Vector) : <Vector>4
-spire_path.w2l:                    X (Float) : -160.9415
-spire_path.w2l:                    Y (Float) : -123.2377
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                5 (Vector) : <Vector>5
-spire_path.w2l:                    X (Float) : -126.3177
-spire_path.w2l:                    Y (Float) : -125.1398
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                6 (Vector) : <Vector>6
-spire_path.w2l:                    X (Float) : -91.2369
-spire_path.w2l:                    Y (Float) : -122.6100
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                7 (Vector) : <Vector>7
-spire_path.w2l:                    X (Float) : -84.7447
-spire_path.w2l:                    Y (Float) : -110.8504
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                8 (Vector) : <Vector>8
-spire_path.w2l:                    X (Float) : -91.1153
-spire_path.w2l:                    Y (Float) : -96.2118
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                9 (Vector) : <Vector>9
-spire_path.w2l:                    X (Float) : -126.9908
-spire_path.w2l:                    Y (Float) : -92.0687
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                10 (Vector) : <Vector>10
-spire_path.w2l:                    X (Float) : -150.8877
-spire_path.w2l:                    Y (Float) : -73.8579
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                11 (Vector) : <Vector>11
-spire_path.w2l:                    X (Float) : -138.7502
-spire_path.w2l:                    Y (Float) : -30.3924
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                12 (Vector) : <Vector>12
-spire_path.w2l:                    X (Float) : -139.3307
-spire_path.w2l:                    Y (Float) : 8.3398
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                13 (Vector) : <Vector>13
-spire_path.w2l:                    X (Float) : -180.0573
-spire_path.w2l:                    Y (Float) : 49.0450
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:                14 (Vector) : <Vector>14
-spire_path.w2l:                    X (Float) : -199.3787
-spire_path.w2l:                    Y (Float) : 35.0033
-spire_path.w2l:                    Z (Float) : 127.8731
-spire_path.w2l:                    W (Float) : 1.0000
-spire_path.w2l:            Bufferdata (CByteArray2) : 6007 bytes, MD5: 4b17ba5855f5703eb6148f1e67cdc6c5
-spire_path.w2l:    CEntity #9 (CEntity) : 
-spire_path.w2l:        CEntity (CEntity) : 
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                X (Float) : -157.3587
-spire_path.w2l:                Y (Float) : -103.7508
-spire_path.w2l:                Z (Float) : 176.5886
-spire_path.w2l:            guid (CGUID) : c4264ee7-36ec-4823-a77b-7aecb3a19f52
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            streamingDistance (Uint8) : 0
-spire_path.w2l:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-spire_path.w2l:                0 (ptr:CComponent) : CSpawnPointComponent #10
-spire_path.w2l:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-spire_path.w2l:                0 (SEntityBufferType1) : 
-spire_path.w2l:                    ComponentName (CName) : 
-spire_path.w2l:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-spire_path.w2l:    CSpawnPointComponent #10 (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            guid (CGUID) : bec02c1a-1eab-41b4-aa99-9b4e5e401d56
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            name (String) : "spire_sp_bear"
-spire_path.w2l:    CEntity #11 (CEntity) : 
-spire_path.w2l:        CEntity (CEntity) : 
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                X (Float) : -186.0671
-spire_path.w2l:                Y (Float) : -60.0778
-spire_path.w2l:                Z (Float) : 189.1696
-spire_path.w2l:            guid (CGUID) : de5ff9e8-c61a-4317-b1f6-1c49d5a8df61
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            streamingDistance (Uint8) : 0
-spire_path.w2l:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-spire_path.w2l:                0 (ptr:CComponent) : CSpawnPointComponent #12
-spire_path.w2l:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-spire_path.w2l:                0 (SEntityBufferType1) : 
-spire_path.w2l:                    ComponentName (CName) : 
-spire_path.w2l:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-spire_path.w2l:    CSpawnPointComponent #12 (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            guid (CGUID) : 6e78e00a-5c4a-4ba1-a10b-54470c1d99a1
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            name (String) : "spire_sp_bear"
-spire_path.w2l:    CEntity #13 (CEntity) : 
-spire_path.w2l:        CEntity (CEntity) : 
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                X (Float) : -149.5025
-spire_path.w2l:                Y (Float) : -7.4535
-spire_path.w2l:                Z (Float) : 156.9382
-spire_path.w2l:            guid (CGUID) : 5363445e-98f4-4727-b81c-eb4237b2be53
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            streamingDistance (Uint8) : 0
-spire_path.w2l:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-spire_path.w2l:                0 (ptr:CComponent) : CSpawnPointComponent #14
-spire_path.w2l:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-spire_path.w2l:                0 (SEntityBufferType1) : 
-spire_path.w2l:                    ComponentName (CName) : 
-spire_path.w2l:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-spire_path.w2l:    CSpawnPointComponent #14 (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
-spire_path.w2l:            tags (TagList) : spire_sp_bear
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : spire_sp_bear
-spire_path.w2l:            guid (CGUID) : 60ecf8c9-0db7-43be-baf3-2dc9428676c8
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            name (String) : "spire_sp_bear"
-spire_path.w2l:    W3WeatherShrine #15 (W3WeatherShrine) : 
-spire_path.w2l:        W3WeatherShrine (W3WeatherShrine) : 
-spire_path.w2l:            tags (TagList) : InteractiveEntity
-spire_path.w2l:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-spire_path.w2l:                    0 (CName) : InteractiveEntity
-spire_path.w2l:            transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                Pitch (Float) : 0.0000
-spire_path.w2l:                Yaw (Float) : 0.0000
-spire_path.w2l:                Roll (Float) : 82.4892
-spire_path.w2l:                X (Float) : -102.1081
-spire_path.w2l:                Y (Float) : -125.2055
-spire_path.w2l:                Z (Float) : 185.0328
-spire_path.w2l:            guid (CGUID) : e1c218ec-1a8e-49d3-9c24-9ddb383b2b31
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-spire_path.w2l:                Bufferdata (CByteArray) : 1985 bytes, MD5: fbf1812f612338285bc1699ca3508595
-spire_path.w2l:                CInteractionComponent #0 (CInteractionComponent) : PrayForSun
-spire_path.w2l:                    CInteractionComponent (CInteractionComponent) : PrayForSun
-spire_path.w2l:                        guid (CGUID) : f40e655c-b476-4dfc-ab80-ee07a38b6d4d
-spire_path.w2l:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        name (String) : "PrayForSun"
-spire_path.w2l:                        isStreamed (Bool) : true
-spire_path.w2l:                        graphPositionX (Int16) : -49
-spire_path.w2l:                        graphPositionY (Int16) : 285
-spire_path.w2l:                        rangeAngle (Uint32) : 135
-spire_path.w2l:                        performScriptedTest (Bool) : true
-spire_path.w2l:                        actionName (String) : "PrayForSun"
-spire_path.w2l:                        reportToScript (Bool) : true
-spire_path.w2l:                CInteractionComponent #1 (CInteractionComponent) : PrayForStorm
-spire_path.w2l:                    CInteractionComponent (CInteractionComponent) : PrayForStorm
-spire_path.w2l:                        transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                            Pitch (Float) : 0.0000
-spire_path.w2l:                            Yaw (Float) : 0.0000
-spire_path.w2l:                            Roll (Float) : 180.0000
-spire_path.w2l:                        guid (CGUID) : 0d8e8452-85d4-4c19-b201-c7dd831ee45f
-spire_path.w2l:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        name (String) : "PrayForStorm"
-spire_path.w2l:                        isStreamed (Bool) : true
-spire_path.w2l:                        graphPositionX (Int16) : 66
-spire_path.w2l:                        graphPositionY (Int16) : 239
-spire_path.w2l:                        rangeAngle (Uint32) : 135
-spire_path.w2l:                        performScriptedTest (Bool) : true
-spire_path.w2l:                        actionName (String) : "PrayForStorm"
-spire_path.w2l:                        reportToScript (Bool) : true
-spire_path.w2l:                CMeshComponent #2 (CMeshComponent) : CMeshComponent0
-spire_path.w2l:                    CMeshComponent (CMeshComponent) : CMeshComponent0
-spire_path.w2l:                        transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                            Pitch (Float) : 0.0000
-spire_path.w2l:                            Yaw (Float) : 0.0000
-spire_path.w2l:                            Roll (Float) : 180.0000
-spire_path.w2l:                            Scale_x (Float) : 2.0000
-spire_path.w2l:                            Scale_y (Float) : 2.0000
-spire_path.w2l:                            Scale_z (Float) : 2.0000
-spire_path.w2l:                            X (Float) : 0.0000
-spire_path.w2l:                            Y (Float) : 0.1000
-spire_path.w2l:                            Z (Float) : 0.0000
-spire_path.w2l:                        guid (CGUID) : ffe0d3f6-cea4-44b6-82aa-9a0044b2e2c5
-spire_path.w2l:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        name (String) : "CMeshComponent0"
-spire_path.w2l:                        graphPositionX (Int16) : 90
-spire_path.w2l:                        graphPositionY (Int16) : 366
-spire_path.w2l:                        boundingBox (Box) : <Box>boundingBox
-spire_path.w2l:                            Min (Vector) : <Vector>Min
-spire_path.w2l:                                X (Float) : -102.5541
-spire_path.w2l:                                Y (Float) : -125.7585
-spire_path.w2l:                                Z (Float) : 185.0518
-spire_path.w2l:                                W (Float) : 1.0000
-spire_path.w2l:                            Max (Vector) : <Vector>Max
-spire_path.w2l:                                X (Float) : -101.9681
-spire_path.w2l:                                Y (Float) : -124.6135
-spire_path.w2l:                                Z (Float) : 188.0019
-spire_path.w2l:                                W (Float) : 1.0000
-spire_path.w2l:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
-spire_path.w2l:                        lightChannels (ELightChannel) : LC_Interactive
-spire_path.w2l:                        mesh (handle:CMesh) : environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_wood.w2mesh
-spire_path.w2l:                CMeshComponent #3 (CMeshComponent) : CMeshComponent1
-spire_path.w2l:                    CMeshComponent (CMeshComponent) : CMeshComponent1
-spire_path.w2l:                        transform (EngineTransform) : <EngineTransform>transform
-spire_path.w2l:                            Scale_x (Float) : 2.0000
-spire_path.w2l:                            Scale_y (Float) : 2.0000
-spire_path.w2l:                            Scale_z (Float) : 2.0000
-spire_path.w2l:                        guid (CGUID) : 3d9c5560-028d-428f-8828-890cbe357f60
-spire_path.w2l:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:                        name (String) : "CMeshComponent1"
-spire_path.w2l:                        graphPositionX (Int16) : -23
-spire_path.w2l:                        graphPositionY (Int16) : 97
-spire_path.w2l:                        boundingBox (Box) : <Box>boundingBox
-spire_path.w2l:                            Min (Vector) : <Vector>Min
-spire_path.w2l:                                X (Float) : -102.3472
-spire_path.w2l:                                Y (Float) : -125.7844
-spire_path.w2l:                                Z (Float) : 185.0518
-spire_path.w2l:                                W (Float) : 1.0000
-spire_path.w2l:                            Max (Vector) : <Vector>Max
-spire_path.w2l:                                X (Float) : -101.7612
-spire_path.w2l:                                Y (Float) : -124.6394
-spire_path.w2l:                                Z (Float) : 188.0019
-spire_path.w2l:                                W (Float) : 1.0000
-spire_path.w2l:                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
-spire_path.w2l:                        lightChannels (ELightChannel) : LC_Interactive
-spire_path.w2l:                        mesh (handle:CMesh) : environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_rock.w2mesh
-spire_path.w2l:            streamingDistance (Uint8) : 5
-spire_path.w2l:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-spire_path.w2l:                0 (ptr:CComponent) : CFocusActionComponent #16
-spire_path.w2l:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-spire_path.w2l:                0 (SEntityBufferType1) : 
-spire_path.w2l:                    ComponentName (CName) : 
-spire_path.w2l:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-spire_path.w2l:            idTag (IdTag) :  236153c6-46c8-48e2-a6fd-10ccc1b5fa09
-spire_path.w2l:    CFocusActionComponent #16 (CFocusActionComponent) : CFocusActionComponent0
-spire_path.w2l:        CFocusActionComponent (CFocusActionComponent) : CFocusActionComponent0
-spire_path.w2l:            guid (CGUID) : 43a0ac97-60b0-4651-bd93-b849df159267
-spire_path.w2l:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-spire_path.w2l:            name (String) : "CFocusActionComponent0"
-spire_path.w2l:            actionName (CName) : Use
+    CLayer #0 (CLayer) : 
+        CLayer (CLayer) : <CLayer>CLayer
+            entities (array:ptr:CEntity) : # array:ptr:CEntity
+                0 (ptr:CEntity) : CEncounter #1
+                1 (ptr:CEntity) : CEntity #9
+                2 (ptr:CEntity) : CEntity #11
+                3 (ptr:CEntity) : CEntity #13
+                4 (ptr:CEntity) : NULL
+            nameCount (Uint32) : 1
+    CEncounter #1 (CEncounter) : 
+        CEncounter (CEncounter) : 
+            tags (TagList) : spire_bear_encounter
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_bear_encounter
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 154.8067
+                Scale_y (Float) : 154.8067
+                Scale_z (Float) : 40.2701
+                X (Float) : -163.5083
+                Y (Float) : -51.1748
+                Z (Float) : 127.8731
+            guid (CGUID) : 91b7e09f-8747-465d-9adc-b88ba39f4915
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CTriggerAreaComponent #8
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  df5bf631-b9a4-4399-ba3c-fa0178ed73fa
+            spawnTree (ptr:ISpawnTreeBranch) : CSpawnTreeQuestNode #2
+            creatureDefinition (array:ptr:CEncounterCreatureDefinition) : # array:ptr:CEncounterCreatureDefinition
+                0 (ptr:CEncounterCreatureDefinition) : CEncounterCreatureDefinition #7
+            fullRespawnDelay (GameTime) : <GameTime>fullRespawnDelay
+                m_seconds (Int32) : 60
+    CSpawnTreeQuestNode #2 (CSpawnTreeQuestNode) : 
+        CSpawnTreeQuestNode (CSpawnTreeQuestNode) : <CSpawnTreeQuestNode>CSpawnTreeQuestNode
+            id (Uint64) : 1032666338565567293
+            spawnPhases (array:ptr:CSpawnTreeQuestPhase) : # array:ptr:CSpawnTreeQuestPhase
+                0 (ptr:CSpawnTreeQuestPhase) : CSpawnTreeQuestPhase #3
+    CSpawnTreeQuestPhase #3 (CSpawnTreeQuestPhase) : 
+        CSpawnTreeQuestPhase (CSpawnTreeQuestPhase) : <CSpawnTreeQuestPhase>CSpawnTreeQuestPhase
+            id (Uint64) : 867404756485331108
+            childNodes (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
+                0 (ptr:ISpawnTreeBaseNode) : CSpawnTreeNode #4
+    CSpawnTreeNode #4 (CSpawnTreeNode) : 
+        CSpawnTreeNode (CSpawnTreeNode) : <CSpawnTreeNode>CSpawnTreeNode
+            id (Uint64) : 563812805570995370
+            childNodes (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
+                0 (ptr:ISpawnTreeBaseNode) : CSpawnTreeTimetableEntry #5
+    CSpawnTreeTimetableEntry #5 (CSpawnTreeTimetableEntry) : 
+        CSpawnTreeTimetableEntry (CSpawnTreeTimetableEntry) : <CSpawnTreeTimetableEntry>CSpawnTreeTimetableEntry
+            id (Uint64) : 82609775097917441
+            entries (array:ptr:ISpawnTreeBaseNode) : # array:ptr:ISpawnTreeBaseNode
+                0 (ptr:ISpawnTreeBaseNode) : CCreatureEntry #6
+    CCreatureEntry #6 (CCreatureEntry) : bear
+        CCreatureEntry (CCreatureEntry) : <CCreatureEntry>CCreatureEntry
+            id (Uint64) : 745492575910929127
+            quantityMin (Int32) : 2
+            quantityMax (Int32) : 3
+            randomizeRotation (Bool) : true
+            baseSpawner (CSpawnTreeWaypointSpawner) : <CSpawnTreeWaypointSpawner>baseSpawner
+                visibility (ESpawnTreeSpawnVisibility) : STSV_SPAWN_HIDEN
+                spawnpointDelay (Float) : 2.0000
+                tags (TagList) : spire_sp_bear
+                    tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                        0 (CName) : spire_sp_bear
+                useLocationTest (Bool) : false
+            creatureDefinition (CName) : bear
+    CEncounterCreatureDefinition #7 (CEncounterCreatureDefinition) : bear
+        CEncounterCreatureDefinition (CEncounterCreatureDefinition) : <CEncounterCreatureDefinition>CEncounterCreatureDefinition
+            definitionName (CName) : bear
+            entityTemplate (soft:CEntityTemplate) : characters/npc_entities/monsters/bear_berserker_lvl1.w2ent
+            totalSpawnLimit (Uint16) : 3
+            maxSpawnedAtOnce (Uint16) : 2
+            tags (TagList) : spire_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_bear
+    CTriggerAreaComponent #8 (CTriggerAreaComponent) : spire_bear_encounter
+        CTriggerAreaComponent (CTriggerAreaComponent) : spire_bear_encounter
+            tags (TagList) : spire_bear_encounter
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_bear_encounter
+            guid (CGUID) : 3eda5d88-9587-481b-af06-66305d4b8b9c
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "spire_bear_encounter"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -238.3528
+                    Y (Float) : -125.1398
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : -84.7447
+                    Y (Float) : 49.0450
+                    Z (Float) : 208.4133
+                    W (Float) : 1.0000
+            localPoints (array:Vector) : # array:Vector
+                0 (Vector) : <Vector>0
+                    X (Float) : -0.4145
+                    Y (Float) : 0.3061
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                1 (Vector) : <Vector>1
+                    X (Float) : -0.4835
+                    Y (Float) : 0.0459
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                2 (Vector) : <Vector>2
+                    X (Float) : -0.3451
+                    Y (Float) : -0.1899
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                3 (Vector) : <Vector>3
+                    X (Float) : -0.1572
+                    Y (Float) : -0.3694
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                4 (Vector) : <Vector>4
+                    X (Float) : 0.0166
+                    Y (Float) : -0.4655
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                5 (Vector) : <Vector>5
+                    X (Float) : 0.2402
+                    Y (Float) : -0.4778
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                6 (Vector) : <Vector>6
+                    X (Float) : 0.4668
+                    Y (Float) : -0.4614
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                7 (Vector) : <Vector>7
+                    X (Float) : 0.5088
+                    Y (Float) : -0.3855
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                8 (Vector) : <Vector>8
+                    X (Float) : 0.4676
+                    Y (Float) : -0.2909
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                9 (Vector) : <Vector>9
+                    X (Float) : 0.2359
+                    Y (Float) : -0.2642
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                10 (Vector) : <Vector>10
+                    X (Float) : 0.0815
+                    Y (Float) : -0.1465
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                11 (Vector) : <Vector>11
+                    X (Float) : 0.1599
+                    Y (Float) : 0.1342
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                12 (Vector) : <Vector>12
+                    X (Float) : 0.1562
+                    Y (Float) : 0.3844
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                13 (Vector) : <Vector>13
+                    X (Float) : -0.1069
+                    Y (Float) : 0.6474
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                14 (Vector) : <Vector>14
+                    X (Float) : -0.2317
+                    Y (Float) : 0.5567
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+            worldPoints (array:Vector) : # array:Vector
+                0 (Vector) : <Vector>0
+                    X (Float) : -227.6739
+                    Y (Float) : -3.7914
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                1 (Vector) : <Vector>1
+                    X (Float) : -238.3528
+                    Y (Float) : -44.0759
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                2 (Vector) : <Vector>2
+                    X (Float) : -216.9397
+                    Y (Float) : -80.5737
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                3 (Vector) : <Vector>3
+                    X (Float) : -187.8439
+                    Y (Float) : -108.3607
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                4 (Vector) : <Vector>4
+                    X (Float) : -160.9415
+                    Y (Float) : -123.2377
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                5 (Vector) : <Vector>5
+                    X (Float) : -126.3177
+                    Y (Float) : -125.1398
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                6 (Vector) : <Vector>6
+                    X (Float) : -91.2369
+                    Y (Float) : -122.6100
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                7 (Vector) : <Vector>7
+                    X (Float) : -84.7447
+                    Y (Float) : -110.8504
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                8 (Vector) : <Vector>8
+                    X (Float) : -91.1153
+                    Y (Float) : -96.2118
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                9 (Vector) : <Vector>9
+                    X (Float) : -126.9908
+                    Y (Float) : -92.0687
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                10 (Vector) : <Vector>10
+                    X (Float) : -150.8877
+                    Y (Float) : -73.8579
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                11 (Vector) : <Vector>11
+                    X (Float) : -138.7502
+                    Y (Float) : -30.3924
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                12 (Vector) : <Vector>12
+                    X (Float) : -139.3307
+                    Y (Float) : 8.3398
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                13 (Vector) : <Vector>13
+                    X (Float) : -180.0573
+                    Y (Float) : 49.0450
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+                14 (Vector) : <Vector>14
+                    X (Float) : -199.3787
+                    Y (Float) : 35.0033
+                    Z (Float) : 127.8731
+                    W (Float) : 1.0000
+            Bufferdata (CByteArray2) : 6007 bytes, MD5: 4b17ba5855f5703eb6148f1e67cdc6c5
+    CEntity #9 (CEntity) : 
+        CEntity (CEntity) : 
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : -157.3587
+                Y (Float) : -103.7508
+                Z (Float) : 176.5886
+            guid (CGUID) : c4264ee7-36ec-4823-a77b-7aecb3a19f52
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CSpawnPointComponent #10
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CSpawnPointComponent #10 (CSpawnPointComponent) : spire_sp_bear
+        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            guid (CGUID) : bec02c1a-1eab-41b4-aa99-9b4e5e401d56
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "spire_sp_bear"
+    CEntity #11 (CEntity) : 
+        CEntity (CEntity) : 
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : -186.0671
+                Y (Float) : -60.0778
+                Z (Float) : 189.1696
+            guid (CGUID) : de5ff9e8-c61a-4317-b1f6-1c49d5a8df61
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CSpawnPointComponent #12
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CSpawnPointComponent #12 (CSpawnPointComponent) : spire_sp_bear
+        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            guid (CGUID) : 6e78e00a-5c4a-4ba1-a10b-54470c1d99a1
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "spire_sp_bear"
+    CEntity #13 (CEntity) : 
+        CEntity (CEntity) : 
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : -149.5025
+                Y (Float) : -7.4535
+                Z (Float) : 156.9382
+            guid (CGUID) : 5363445e-98f4-4727-b81c-eb4237b2be53
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CSpawnPointComponent #14
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+    CSpawnPointComponent #14 (CSpawnPointComponent) : spire_sp_bear
+        CSpawnPointComponent (CSpawnPointComponent) : spire_sp_bear
+            tags (TagList) : spire_sp_bear
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : spire_sp_bear
+            guid (CGUID) : 60ecf8c9-0db7-43be-baf3-2dc9428676c8
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "spire_sp_bear"
+    W3WeatherShrine #15 (W3WeatherShrine) : 
+        W3WeatherShrine (W3WeatherShrine) : 
+            tags (TagList) : InteractiveEntity
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : InteractiveEntity
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 0.0000
+                Yaw (Float) : 0.0000
+                Roll (Float) : 82.4892
+                X (Float) : -102.1081
+                Y (Float) : -125.2055
+                Z (Float) : 185.0328
+            guid (CGUID) : e1c218ec-1a8e-49d3-9c24-9ddb383b2b31
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                Bufferdata (CByteArray) : 1985 bytes, MD5: fbf1812f612338285bc1699ca3508595
+                CInteractionComponent #0 (CInteractionComponent) : PrayForSun
+                    CInteractionComponent (CInteractionComponent) : PrayForSun
+                        guid (CGUID) : f40e655c-b476-4dfc-ab80-ee07a38b6d4d
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "PrayForSun"
+                        isStreamed (Bool) : true
+                        graphPositionX (Int16) : -49
+                        graphPositionY (Int16) : 285
+                        rangeAngle (Uint32) : 135
+                        performScriptedTest (Bool) : true
+                        actionName (String) : "PrayForSun"
+                        reportToScript (Bool) : true
+                CInteractionComponent #1 (CInteractionComponent) : PrayForStorm
+                    CInteractionComponent (CInteractionComponent) : PrayForStorm
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 0.0000
+                            Yaw (Float) : 0.0000
+                            Roll (Float) : 180.0000
+                        guid (CGUID) : 0d8e8452-85d4-4c19-b201-c7dd831ee45f
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "PrayForStorm"
+                        isStreamed (Bool) : true
+                        graphPositionX (Int16) : 66
+                        graphPositionY (Int16) : 239
+                        rangeAngle (Uint32) : 135
+                        performScriptedTest (Bool) : true
+                        actionName (String) : "PrayForStorm"
+                        reportToScript (Bool) : true
+                CMeshComponent #2 (CMeshComponent) : CMeshComponent0
+                    CMeshComponent (CMeshComponent) : CMeshComponent0
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 0.0000
+                            Yaw (Float) : 0.0000
+                            Roll (Float) : 180.0000
+                            Scale_x (Float) : 2.0000
+                            Scale_y (Float) : 2.0000
+                            Scale_z (Float) : 2.0000
+                            X (Float) : 0.0000
+                            Y (Float) : 0.1000
+                            Z (Float) : 0.0000
+                        guid (CGUID) : ffe0d3f6-cea4-44b6-82aa-9a0044b2e2c5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CMeshComponent0"
+                        graphPositionX (Int16) : 90
+                        graphPositionY (Int16) : 366
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -102.5541
+                                Y (Float) : -125.7585
+                                Z (Float) : 185.0518
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : -101.9681
+                                Y (Float) : -124.6135
+                                Z (Float) : 188.0019
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
+                        lightChannels (ELightChannel) : LC_Interactive
+                        mesh (handle:CMesh) : environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_wood.w2mesh
+                CMeshComponent #3 (CMeshComponent) : CMeshComponent1
+                    CMeshComponent (CMeshComponent) : CMeshComponent1
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 2.0000
+                            Scale_y (Float) : 2.0000
+                            Scale_z (Float) : 2.0000
+                        guid (CGUID) : 3d9c5560-028d-428f-8828-890cbe357f60
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CMeshComponent1"
+                        graphPositionX (Int16) : -23
+                        graphPositionY (Int16) : 97
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -102.3472
+                                Y (Float) : -125.7844
+                                Z (Float) : 185.0518
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : -101.7612
+                                Y (Float) : -124.6394
+                                Z (Float) : 188.0019
+                                W (Float) : 1.0000
+                        drawableFlags (EDrawableFlags) : DF_IsVisible,DF_CastShadows
+                        lightChannels (ELightChannel) : LC_Interactive
+                        mesh (handle:CMesh) : environment/decorations/religious/wooden_jedi_sculpture/jedi_sculpture_rock.w2mesh
+            streamingDistance (Uint8) : 5
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CFocusActionComponent #16
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  236153c6-46c8-48e2-a6fd-10ccc1b5fa09
+    CFocusActionComponent #16 (CFocusActionComponent) : CFocusActionComponent0
+        CFocusActionComponent (CFocusActionComponent) : CFocusActionComponent0
+            guid (CGUID) : 43a0ac97-60b0-4651-bd93-b849df159267
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CFocusActionComponent0"
+            actionName (CName) : Use

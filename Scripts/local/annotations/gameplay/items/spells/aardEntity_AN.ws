@@ -49,7 +49,7 @@
 			else
 				attackRange = theGame.GetAttackRangeForEntity( this, 'blast_upgrade2' );
 		}
-		else if(dispersionLevel == 3)
+		else if(dispersionLevel >= 3)
 		{
 			if ( !alternateCast )
 				attackRange = theGame.GetAttackRangeForEntity( this, 'cone_upgrade3' );
@@ -180,7 +180,7 @@
 					PlayEffect( effects[fireMode].throwEffectSoilUpgrade2 );
 			}
 		}
-		else if(dispersionLevel == 3)
+		else if(dispersionLevel >= 3)
 		{			
 			
 			PlayEffect( effects[fireMode].baseCommonThrowEffectUpgrade3 );
@@ -338,4 +338,25 @@
 				((W3Mutagen22_Effect)thePlayer.GetBuff(EET_Mutagen22)).AddMutagen22Ability();
 		}
 	}
+}
+
+@wrapMethod(W3AardEntity) function GetDistance() : float
+{
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	if ( owner.CanUseSkill( S_Magic_s20 ) )
+	{
+		switch( owner.GetSkillLevel( S_Magic_s20 ) )
+		{
+			case 1 : return aspects[ fireMode ].distanceUpgrade1;
+			case 2 : return aspects[ fireMode ].distanceUpgrade2;
+			case 3 : return aspects[ fireMode ].distanceUpgrade3;
+			default : return aspects[ fireMode ].distanceUpgrade3;
+		}
+	}
+	
+	return aspects[ fireMode ].distance;
 }

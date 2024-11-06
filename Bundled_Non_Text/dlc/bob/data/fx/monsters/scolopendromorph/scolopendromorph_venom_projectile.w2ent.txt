@@ -1,743 +1,743 @@
-scolopendromorph_venom_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
-scolopendromorph_venom_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-scolopendromorph_venom_projectile.w2ent:            properOverrides (Bool) : true
-scolopendromorph_venom_projectile.w2ent:            entityClass (CName) : PoisonProjectile
-scolopendromorph_venom_projectile.w2ent:            entityObject (ptr:CEntity) : PoisonProjectile #1
-scolopendromorph_venom_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-scolopendromorph_venom_projectile.w2ent:                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
-scolopendromorph_venom_projectile.w2ent:                    PoisonProjectile (PoisonProjectile) : PreviewEntity
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        streamingDistance (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                        name (String) : "PreviewEntity"
-scolopendromorph_venom_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-scolopendromorph_venom_projectile.w2ent:                            0 (ptr:CComponent) : CEffectDummyComponent #1
-scolopendromorph_venom_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
-scolopendromorph_venom_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-scolopendromorph_venom_projectile.w2ent:                            0 (SEntityBufferType1) : 
-scolopendromorph_venom_projectile.w2ent:                                ComponentName (CName) : 
-scolopendromorph_venom_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-scolopendromorph_venom_projectile.w2ent:                        idTag (IdTag) :  d117829a-786b-42c7-b90f-2766f2684ac1
-scolopendromorph_venom_projectile.w2ent:                        radius (Float) : 0.3000
-scolopendromorph_venom_projectile.w2ent:                        projSpeed (Float) : 16.0000
-scolopendromorph_venom_projectile.w2ent:                        projAngle (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                        projDMG (Float) : 400.0000
-scolopendromorph_venom_projectile.w2ent:                        initFxName (CName) : venom
-scolopendromorph_venom_projectile.w2ent:                        onCollisionFxName (CName) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                        spawnEntityOnGround (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_poison_area.w2ent
-scolopendromorph_venom_projectile.w2ent:                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        name (String) : "CEffectDummyComponent0"
-scolopendromorph_venom_projectile.w2ent:                        graphPositionX (Int16) : 203
-scolopendromorph_venom_projectile.w2ent:                        graphPositionY (Int16) : 312
-scolopendromorph_venom_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-scolopendromorph_venom_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-scolopendromorph_venom_projectile.w2ent:                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
-scolopendromorph_venom_projectile.w2ent:                        isStreamed (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                        graphPositionX (Int16) : 191
-scolopendromorph_venom_projectile.w2ent:                        graphPositionY (Int16) : 217
-scolopendromorph_venom_projectile.w2ent:                        banksDependency (array:CName) : # array:CName
-scolopendromorph_venom_projectile.w2ent:                            0 (CName) : monster_scolopendromorph.bnk
-scolopendromorph_venom_projectile.w2ent:                        maxDistance (Float) : 50.0000
-scolopendromorph_venom_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-scolopendromorph_venom_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : venom
-scolopendromorph_venom_projectile.w2ent:                    name (CName) : venom
-scolopendromorph_venom_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-scolopendromorph_venom_projectile.w2ent:                        Bufferdata (CByteArray) : 3347 bytes, MD5: 3cd8d202a27b508001a63106d24e39c3
-scolopendromorph_venom_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom
-scolopendromorph_venom_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom
-scolopendromorph_venom_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
-scolopendromorph_venom_projectile.w2ent:                                length (Float) : 2.8192
-scolopendromorph_venom_projectile.w2ent:                                loopStart (Float) : 0.1258
-scolopendromorph_venom_projectile.w2ent:                                loopEnd (Float) : 0.2359
-scolopendromorph_venom_projectile.w2ent:                                name (CName) : venom
-scolopendromorph_venom_projectile.w2ent:                                showDistance (Float) : 44.0000
-scolopendromorph_venom_projectile.w2ent:                                isLooped (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "audio"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 205
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 221
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 139
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-scolopendromorph_venom_projectile.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "sfx"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0024
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.2471
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.1012
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                useDistanceParameter (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 4.0000
-scolopendromorph_venom_projectile.w2ent:                                latchEvent (StringAnsi) : monster_scolopendromorph_combat_venom_flyby
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "fx"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #10
-scolopendromorph_venom_projectile.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #13
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 208
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 197
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 209
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #7 (CFXTrack) : 3
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "3"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0028
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8273
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx2.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #10 (CFXTrack) : dasd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : dasd
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #11
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "dasd"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #11 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8273
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_gass_col.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #12
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #12 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #13 (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #14
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "asd"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #14 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0044
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8273
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.9222045> <0
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.9222
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.7545
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.5869
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.4192
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.2515
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0838
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #15
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #15 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                    name (CName) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-scolopendromorph_venom_projectile.w2ent:                        Bufferdata (CByteArray) : 2140 bytes, MD5: 1bc0128741f135538a511f0fa686d5c3
-scolopendromorph_venom_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
-scolopendromorph_venom_projectile.w2ent:                                length (Float) : 2.9774
-scolopendromorph_venom_projectile.w2ent:                                loopStart (Float) : 0.0987
-scolopendromorph_venom_projectile.w2ent:                                loopEnd (Float) : 0.1791
-scolopendromorph_venom_projectile.w2ent:                                name (CName) : venom_hit
-scolopendromorph_venom_projectile.w2ent:                                showDistance (Float) : 22.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "audio"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 151
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 161
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 254
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "sfx"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : ( no parameters available )
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0056
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_hit
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                                boneName (CName) : ( no parameters available )
-scolopendromorph_venom_projectile.w2ent:                                speed (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : asd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : asd
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "asd"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 155
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 150
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 164
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "asd"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0161
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8847
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        1 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.5000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_explode.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                2 (CEntityTemplateCookedEffect) : venom_copy
-scolopendromorph_venom_projectile.w2ent:                    name (CName) : venom_copy
-scolopendromorph_venom_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-scolopendromorph_venom_projectile.w2ent:                        Bufferdata (CByteArray) : 2142 bytes, MD5: 60bf4676b7648a50c761452ad17f1fc5
-scolopendromorph_venom_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy
-scolopendromorph_venom_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy
-scolopendromorph_venom_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-scolopendromorph_venom_projectile.w2ent:                                length (Float) : 2.3090
-scolopendromorph_venom_projectile.w2ent:                                loopStart (Float) : 0.1258
-scolopendromorph_venom_projectile.w2ent:                                loopEnd (Float) : 0.2359
-scolopendromorph_venom_projectile.w2ent:                                name (CName) : venom_copy
-scolopendromorph_venom_projectile.w2ent:                                isLooped (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "audio"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 169
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 235
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 127
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "sfx"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0024
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.2463
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "fx"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 208
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 197
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 209
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "asd"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0044
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8273
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.5011
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                3 (CEntityTemplateCookedEffect) : venom_copy_small
-scolopendromorph_venom_projectile.w2ent:                    name (CName) : venom_copy_small
-scolopendromorph_venom_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-scolopendromorph_venom_projectile.w2ent:                        Bufferdata (CByteArray) : 2156 bytes, MD5: f18aea802900caafe9fa281e3eec35cf
-scolopendromorph_venom_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
-scolopendromorph_venom_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy_small
-scolopendromorph_venom_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-scolopendromorph_venom_projectile.w2ent:                                length (Float) : 2.3090
-scolopendromorph_venom_projectile.w2ent:                                loopStart (Float) : 0.1258
-scolopendromorph_venom_projectile.w2ent:                                loopEnd (Float) : 0.2359
-scolopendromorph_venom_projectile.w2ent:                                name (CName) : venom_copy_small
-scolopendromorph_venom_projectile.w2ent:                                isLooped (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "audio"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 250
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 169
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 222
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-scolopendromorph_venom_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "sfx"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0032
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.2479
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : 
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 0
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-scolopendromorph_venom_projectile.w2ent:                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
-scolopendromorph_venom_projectile.w2ent:                                maxDistance (Float) : 40.0000
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "fx"
-scolopendromorph_venom_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-scolopendromorph_venom_projectile.w2ent:                                isExpanded (Bool) : true
-scolopendromorph_venom_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-scolopendromorph_venom_projectile.w2ent:                                    Red (Uint8) : 208
-scolopendromorph_venom_projectile.w2ent:                                    Green (Uint8) : 197
-scolopendromorph_venom_projectile.w2ent:                                    Blue (Uint8) : 209
-scolopendromorph_venom_projectile.w2ent:                                    Alpha (Uint8) : 100
-scolopendromorph_venom_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-scolopendromorph_venom_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-scolopendromorph_venom_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-scolopendromorph_venom_projectile.w2ent:                                name (String) : "asd"
-scolopendromorph_venom_projectile.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-scolopendromorph_venom_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-scolopendromorph_venom_projectile.w2ent:                                timeBegin (Float) : 0.0044
-scolopendromorph_venom_projectile.w2ent:                                timeDuration (Float) : 2.8273
-scolopendromorph_venom_projectile.w2ent:                                buffername (CName) : Particles
-scolopendromorph_venom_projectile.w2ent:                                count (CDynamicInt) : 3
-scolopendromorph_venom_projectile.w2ent:                                unk (Uint8) : 1
-scolopendromorph_venom_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-scolopendromorph_venom_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 0.5011
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-scolopendromorph_venom_projectile.w2ent:                                        0 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        2 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        3 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        4 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        5 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        6 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        7 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        8 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        9 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        10 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        11 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        12 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        13 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        14 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                        15 (Float) : 1.0000
-scolopendromorph_venom_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
-scolopendromorph_venom_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
-scolopendromorph_venom_projectile.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-scolopendromorph_venom_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:                                copyRotation (Bool) : false
-scolopendromorph_venom_projectile.w2ent:                                attach (Bool) : true
-scolopendromorph_venom_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
-scolopendromorph_venom_projectile.w2ent:            Unk1 (Uint32) : 0
-scolopendromorph_venom_projectile.w2ent:    PoisonProjectile #1 (PoisonProjectile) : venom
-scolopendromorph_venom_projectile.w2ent:        PoisonProjectile (PoisonProjectile) : 
-scolopendromorph_venom_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            streamingDistance (Uint8) : 0
-scolopendromorph_venom_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-scolopendromorph_venom_projectile.w2ent:                0 (ptr:CComponent) : CEffectDummyComponent #2
-scolopendromorph_venom_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
-scolopendromorph_venom_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-scolopendromorph_venom_projectile.w2ent:                0 (SEntityBufferType1) : 
-scolopendromorph_venom_projectile.w2ent:                    ComponentName (CName) : 
-scolopendromorph_venom_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-scolopendromorph_venom_projectile.w2ent:            idTag (IdTag) :  d117829a-786b-42c7-b90f-2766f2684ac1
-scolopendromorph_venom_projectile.w2ent:            radius (Float) : 0.3000
-scolopendromorph_venom_projectile.w2ent:            projSpeed (Float) : 16.0000
-scolopendromorph_venom_projectile.w2ent:            projAngle (Float) : 0.0000
-scolopendromorph_venom_projectile.w2ent:            projDMG (Float) : 400.0000
-scolopendromorph_venom_projectile.w2ent:            initFxName (CName) : venom
-scolopendromorph_venom_projectile.w2ent:            onCollisionFxName (CName) : venom_hit
-scolopendromorph_venom_projectile.w2ent:            spawnEntityOnGround (Bool) : true
-scolopendromorph_venom_projectile.w2ent:            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_poison_area.w2ent
-scolopendromorph_venom_projectile.w2ent:    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-scolopendromorph_venom_projectile.w2ent:            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-scolopendromorph_venom_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            name (String) : "CEffectDummyComponent0"
-scolopendromorph_venom_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
-scolopendromorph_venom_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-scolopendromorph_venom_projectile.w2ent:            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-scolopendromorph_venom_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-scolopendromorph_venom_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
-scolopendromorph_venom_projectile.w2ent:            isStreamed (Bool) : false
-scolopendromorph_venom_projectile.w2ent:            banksDependency (array:CName) : # array:CName
-scolopendromorph_venom_projectile.w2ent:                0 (CName) : monster_scolopendromorph.bnk
-scolopendromorph_venom_projectile.w2ent:            maxDistance (Float) : 50.0000
+    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : PoisonProjectile
+            entityObject (ptr:CEntity) : PoisonProjectile #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
+                    PoisonProjectile (PoisonProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CEffectDummyComponent #1
+                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  d117829a-786b-42c7-b90f-2766f2684ac1
+                        radius (Float) : 0.3000
+                        projSpeed (Float) : 16.0000
+                        projAngle (Float) : 0.0000
+                        projDMG (Float) : 400.0000
+                        initFxName (CName) : venom
+                        onCollisionFxName (CName) : venom_hit
+                        spawnEntityOnGround (Bool) : true
+                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_poison_area.w2ent
+                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : 203
+                        graphPositionY (Int16) : 312
+                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 191
+                        graphPositionY (Int16) : 217
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_scolopendromorph.bnk
+                        maxDistance (Float) : 50.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : venom
+                    name (CName) : venom
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 3347 bytes, MD5: 3cd8d202a27b508001a63106d24e39c3
+                        CFXDefinition #0 (CFXDefinition) : venom
+                            CFXDefinition (CFXDefinition) : venom
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+                                length (Float) : 2.8192
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom
+                                showDistance (Float) : 44.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 205
+                                    Green (Uint8) : 221
+                                    Blue (Uint8) : 139
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2471
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1012
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                useDistanceParameter (Bool) : true
+                                latchDistanceParameterBelow (Float) : 4.0000
+                                latchEvent (StringAnsi) : monster_scolopendromorph_combat_venom_flyby
+                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #7
+                                    1 (ptr:CFXTrack) : CFXTrack #10
+                                    2 (ptr:CFXTrack) : CFXTrack #13
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #7 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+                                name (String) : "3"
+                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0028
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx2.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                        CFXTrack #10 (CFXTrack) : dasd
+                            CFXTrack (CFXTrack) : dasd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #11
+                                name (String) : "dasd"
+                        CFXTrackItemParticles #11 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0000
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_gass_col.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #12
+                        CFXSpawnerComponent #12 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                        CFXTrack #13 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #14
+                                name (String) : "asd"
+                        CFXTrackItemParticles #14 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.9222045> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.9222
+                                        3 (Float) : 0.7545
+                                        4 (Float) : 0.5869
+                                        5 (Float) : 0.4192
+                                        6 (Float) : 0.2515
+                                        7 (Float) : 0.0838
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #15
+                        CFXSpawnerComponent #15 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                1 (CEntityTemplateCookedEffect) : venom_hit
+                    name (CName) : venom_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2140 bytes, MD5: 1bc0128741f135538a511f0fa686d5c3
+                        CFXDefinition #0 (CFXDefinition) : venom_hit
+                            CFXDefinition (CFXDefinition) : venom_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 2.9774
+                                loopStart (Float) : 0.0987
+                                loopEnd (Float) : 0.1791
+                                name (CName) : venom_hit
+                                showDistance (Float) : 22.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 151
+                                    Green (Uint8) : 161
+                                    Blue (Uint8) : 254
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : ( no parameters available )
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0056
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_hit
+                                maxDistance (Float) : 40.0000
+                                boneName (CName) : ( no parameters available )
+                                speed (Float) : 0.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : asd
+                            CFXTrackGroup (CFXTrackGroup) : asd
+                                name (String) : "asd"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 155
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 164
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "asd"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0161
+                                timeDuration (Float) : 2.8847
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.5000
+                                        1 (Float) : 1.5000
+                                        2 (Float) : 1.5000
+                                        3 (Float) : 1.5000
+                                        4 (Float) : 1.5000
+                                        5 (Float) : 1.5000
+                                        6 (Float) : 1.5000
+                                        7 (Float) : 1.5000
+                                        8 (Float) : 1.5000
+                                        9 (Float) : 1.5000
+                                        10 (Float) : 1.5000
+                                        11 (Float) : 1.5000
+                                        12 (Float) : 1.5000
+                                        13 (Float) : 1.5000
+                                        14 (Float) : 1.5000
+                                        15 (Float) : 1.5000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_venom_explode.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                2 (CEntityTemplateCookedEffect) : venom_copy
+                    name (CName) : venom_copy
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2142 bytes, MD5: 60bf4676b7648a50c761452ad17f1fc5
+                        CFXDefinition #0 (CFXDefinition) : venom_copy
+                            CFXDefinition (CFXDefinition) : venom_copy
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 169
+                                    Green (Uint8) : 235
+                                    Blue (Uint8) : 127
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2463
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "asd"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                3 (CEntityTemplateCookedEffect) : venom_copy_small
+                    name (CName) : venom_copy_small
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2156 bytes, MD5: f18aea802900caafe9fa281e3eec35cf
+                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
+                            CFXDefinition (CFXDefinition) : venom_copy_small
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy_small
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 250
+                                    Green (Uint8) : 169
+                                    Blue (Uint8) : 222
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0032
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2479
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_scolopendromorph_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "asd"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    PoisonProjectile #1 (PoisonProjectile) : venom
+        PoisonProjectile (PoisonProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CEffectDummyComponent #2
+                1 (ptr:CComponent) : CSoundEmitterComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  d117829a-786b-42c7-b90f-2766f2684ac1
+            radius (Float) : 0.3000
+            projSpeed (Float) : 16.0000
+            projAngle (Float) : 0.0000
+            projDMG (Float) : 400.0000
+            initFxName (CName) : venom
+            onCollisionFxName (CName) : venom_hit
+            spawnEntityOnGround (Bool) : true
+            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/scolopendromorph/scolopendromorph_poison_area.w2ent
+    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"
+    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_scolopendromorph.bnk
+            maxDistance (Float) : 50.0000

@@ -16,7 +16,8 @@ enum EAlchemyExceptions
 	EAE_CannotCookMore,
 	EAE_CookNotAllowed,
 	EAE_InCombat,
-	EAE_Mounted
+	EAE_Mounted, //modSpectre
+	EAE_Preparations //modSpectre
 }
 
 
@@ -26,10 +27,12 @@ struct SAlchemyRecipe
 	var cookedItemType : EAlchemyCookedItemType;		
 	var cookedItemIconPath : string;
 	var cookedItemQuantity : int;						
+	var cookedItemSubstance : name; //modSpectre
 	var recipeName : name;								
 	var recipeIconPath : string;
 	var typeName : name;								
 	var level : int;									
+	var status : EAlchemyExceptions; //modSpectre
 	var requiredIngredients : array<SItemParts>;		
 };
 
@@ -45,7 +48,10 @@ EACIT_Substance,
 	EACIT_Alcohol,
 	EACIT_Quest,
 	EACIT_Dye,
-	EACIT_Edibles //modSpectre
+	EACIT_Edibles, //modSpectre
+	EACIT_MutagenFused, //modSpectre
+	EACIT_MutagenTrans, //modSpectre
+	EACIT_Other //modSpectre
 }
 
 struct SCookable
@@ -109,12 +115,13 @@ function AlchemyExceptionToString( result : EAlchemyExceptions ) : string
 {
 	switch ( result )
 	{
-		case EAE_NoException:			return "panel_alchemy_exception_item_cooked";
+		//case EAE_NoException:			return "panel_alchemy_exception_item_cooked"; //modSpectre
 		case EAE_MissingIngredient:		return "panel_alchemy_exception_missing_ingridient";
 		case EAE_NotEnoughIngredients:	return "panel_alchemy_exception_missing_ingridients";
 		case EAE_NoRecipe:				return "panel_alchemy_exception_no_recipie";
-		case EAE_CannotCookMore:		return "panel_alchemy_exception_already_cooked";	
-		case EAE_CookNotAllowed:		return "panel_alchemy_exception_cook_not_allowed";
+		case EAE_CannotCookMore:		return "spectre_item_limit";	//modSpectre
+		case EAE_CookNotAllowed:		return "spectre_fire_no_src"; //modSpectre
+		case EAE_Preparations:			return "spectre_preparation"; //modSpectre
 		case EAE_InCombat:				return "panel_hud_message_actionnotallowed_combat";
 		case EAE_Mounted:				return "menu_cannot_perform_action_now";
 	}

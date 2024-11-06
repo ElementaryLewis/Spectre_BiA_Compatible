@@ -331,11 +331,6 @@
 	return (bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreExpOptions', 'spectreNoQuestLevels'));
 }
 
-@addMethod(W3GameParams) function GetspectreVersion() : float
-{
-	return StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('spectreGameplayOptions', 'spectreVersion'));
-}
-
 @addMethod(W3GameParams) function GetBoatSinkOption() : bool
 {
 	return (bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreGameplayOptions', 'spectreSinkBoat'));
@@ -479,7 +474,7 @@ var meleeSpecialCooldown : float;
 	signCooldown = -1000;
 	altSignCooldown = -1000;
 	meleeSpecialCooldown = -1000;
-
+	instantCastingToggle = 0;
 }
 
 @addField(W3GameParams)  
@@ -489,86 +484,10 @@ var instantCastingToggle : int;
 {
 	if(instantCastingToggle == 0)
 	{
-		if((bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreSignInstantCast')))
+		if((bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreGameplayOptions', 'spectreSignInstantCast')))
 			instantCastingToggle = 2;
 		else
 			instantCastingToggle = 1;
 	}
 	return (instantCastingToggle > 1);
-}
-
-@addField(W3GameParams)  
-var lowStaminaSFXThreshold : float;
-
-@addMethod(W3GameParams) function GetLowStaminaSFXThreshold() : float
-{
-	if(lowStaminaSFXThreshold <= -1000)
-	{
-		lowStaminaSFXThreshold = 0.01 * StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreLowStaminaSFX'));
-	}
-	return lowStaminaSFXThreshold;
-}
-
-@addField(W3GameParams)  
-var lowStaminaSFXVolume : float;
-
-@addMethod(W3GameParams) function GetLowStaminaSFXVolume() : float
-{
-	if(lowStaminaSFXVolume <= -1000)
-	{
-		lowStaminaSFXVolume = StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreLowStaminaSFXVolume'));
-	}
-	return lowStaminaSFXVolume;
-}
-
-@addField(W3GameParams)  
-var lowStaminaSFXRate : float;
-
-@addMethod(W3GameParams) function GetLowStaminaSFXRate() : float
-{
-	if(lowStaminaSFXRate <= -1000)
-	{
-		lowStaminaSFXRate = StringToFloat(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreLowStaminaSFXRate'));
-	}
-	return lowStaminaSFXRate;
-}
-
-@addField(W3GameParams)  
-var lowStaminaSFXDynVol : int;
-
-@addMethod(W3GameParams) function GetLowStaminaSFXDynVol() : bool
-{
-	if(lowStaminaSFXDynVol == 0)
-	{
-		if((bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreLowStaminaSFXDynamicVolume')))
-			lowStaminaSFXDynVol = 2;
-		else
-			lowStaminaSFXDynVol = 1;
-	}
-	return (lowStaminaSFXDynVol > 1);
-}
-
-@addField(W3GameParams)  
-var lowStaminaSFXDynRate : int;
-
-@addMethod(W3GameParams) function GetLowStaminaSFXDynRate() : bool
-{
-	if(lowStaminaSFXDynRate == 0)
-	{
-		if((bool)(theGame.GetInGameConfigWrapper().GetVarValue('spectreQOLOptions', 'spectreLowStaminaSFXDynamicRate')))
-			lowStaminaSFXDynRate = 2;
-		else
-			lowStaminaSFXDynRate = 1;
-	}
-	return (lowStaminaSFXDynRate > 1);
-}
-
-@addMethod(W3GameParams) function spectreResetCachedValuesQoL()
-{
-	instantCastingToggle = 0;
-	lowStaminaSFXThreshold = -1000;
-	lowStaminaSFXVolume = -1000;
-	lowStaminaSFXRate = -1000;
-	lowStaminaSFXDynVol = 0;
-	lowStaminaSFXDynRate = 0;
 }

@@ -50,7 +50,7 @@
 	>
 		<tags>							ReadableItem, mod_alchemy
 		</tags>
-		<base_abilities>				
+		<base_abilities>				<a>Magic _Stats</a>
 		</base_abilities>
 	</item>
 
@@ -102,9 +102,7 @@
 		localisation_key_name			="item_name_mandrake_cordial"
 	>
 		<ingredients>					<ingredient quantity="1"	item_name="Empty bottle" 					/>
-										<ingredient quantity="1"	item_name="Temerian Rye" 					/>
-										<ingredient quantity="1"	item_name="Redanian Herbal"					/>
-										<ingredient quantity="1"	item_name="Mandrake root"					/>
+										<ingredient quantity="7"	item_name="Mandrake root"					/>
 		</ingredients>
 	</recipe>
 
@@ -118,7 +116,6 @@
 		localisation_key_name			="item_name_mahakam_spirit"
 	>
 		<ingredients>					<ingredient quantity="1"	item_name="Empty bottle" 					/>
-										<ingredient quantity="1"	item_name="Local pepper vodka" 				/>
 										<ingredient quantity="1"	item_name="Hop umbels"						/>
 										<ingredient quantity="1"	item_name="Sewant mushrooms"				/>
 		</ingredients>
@@ -149,9 +146,11 @@
 		localisation_key_name			="item_name_recipe_for_alcohest"
 	>
 		<ingredients>					<ingredient quantity="1"	item_name="Empty bottle" 					/>
-										<ingredient quantity="1"	item_name="Mahakam Spirit" 					/>
-										<ingredient quantity="1"	item_name="Nilfgaardian Lemon"				/>
-										<ingredient quantity="1"	item_name="Balisse fruit" 					/>
+										<ingredient quantity="3"	item_name="Cherry Cordial"					/>
+										<ingredient quantity="3"	item_name="Nilfgaardian Lemon"				/>
+										<ingredient quantity="5"	item_name="Balisse fruit" 					/>
+										<ingredient quantity="10"	item_name="Aether" 							/>
+										<ingredient quantity="10"	item_name="Hydragenum" 						/>
 		</ingredients>
 	</recipe>
 
@@ -165,10 +164,10 @@
 		cookedItemQuantity				="1"
 		localisation_key_name			="item_name_recipe_for_white_gull"
 	>
-		<ingredients>					<ingredient quantity="1"	item_name="Empty bottle" 					/>
-										<ingredient quantity="1"	item_name="Mandrake cordial" 				/>
-										<ingredient quantity="1"	item_name="Cherry Cordial"					/>
-										<ingredient quantity="1"	item_name="Arenaria" 						/>
+		<ingredients>					<ingredient quantity="3"	item_name="Redanian Herbal" 				/>
+										<ingredient quantity="1"	item_name="Empty bottle" 					/>
+										<ingredient quantity="8"	item_name="Vitriol" 						/>
+										<ingredient quantity="4"	item_name="Rebis" 							/>
 		</ingredients>
 	</recipe>
 

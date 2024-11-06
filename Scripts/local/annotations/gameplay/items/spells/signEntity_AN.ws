@@ -39,11 +39,13 @@ protected	var foaMult				: float;
 			{
 				PlayMutation1CastFX();
 			}
-			else if( witcher.IsMutationActive( EPMT_Mutation6 ) )
+
+			if( witcher.IsMutationActive( EPMT_Mutation6 ) )
 			{
 				theGame.MutationHUDFeedback( MFT_PlayOnce );
 			}
-			else if( witcher.IsMutationActive( EPMT_Mutation10 ) )
+			
+			if( witcher.IsMutationActive( EPMT_Mutation10 ) )
 			{
 				witcher.PlayEffect( 'mutation_10_energy' );
 			}

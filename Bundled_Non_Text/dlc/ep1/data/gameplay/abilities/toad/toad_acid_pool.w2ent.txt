@@ -1,655 +1,655 @@
-toad_acid_pool.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CToadAcidPool
-toad_acid_pool.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-toad_acid_pool.w2ent:            properOverrides (Bool) : true
-toad_acid_pool.w2ent:            entityClass (CName) : CToadAcidPool
-toad_acid_pool.w2ent:            entityObject (ptr:CEntity) : CToadAcidPool #1
-toad_acid_pool.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-toad_acid_pool.w2ent:                0 (EntitySlot) : fx_toxic_cloud
-toad_acid_pool.w2ent:                    name (CName) : fx_toxic_cloud
-toad_acid_pool.w2ent:                1 (EntitySlot) : explode
-toad_acid_pool.w2ent:                    name (CName) : explode
-toad_acid_pool.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-toad_acid_pool.w2ent:                        X (Float) : 0.0000
-toad_acid_pool.w2ent:                        Y (Float) : 0.0000
-toad_acid_pool.w2ent:                        Z (Float) : 0.5000
-toad_acid_pool.w2ent:                2 (EntitySlot) : light
-toad_acid_pool.w2ent:                    name (CName) : light
-toad_acid_pool.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-toad_acid_pool.w2ent:                        X (Float) : 0.0000
-toad_acid_pool.w2ent:                        Y (Float) : 0.0000
-toad_acid_pool.w2ent:                        Z (Float) : 1.2000
-toad_acid_pool.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
-toad_acid_pool.w2ent:                0 (ptr:CEntityTemplateParam) : CAttackableArea #3
-toad_acid_pool.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-toad_acid_pool.w2ent:                CToadAcidPool #0 (CToadAcidPool) : PreviewEntity
-toad_acid_pool.w2ent:                    CToadAcidPool (CToadAcidPool) : PreviewEntity
-toad_acid_pool.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-toad_acid_pool.w2ent:                            Bufferdata (CByteArray) : 481 bytes, MD5: 87fe9c7eeb96c4c03e91c4bee6c056d7
-toad_acid_pool.w2ent:                            CEffectDummyComponent #0 (CEffectDummyComponent) : CEffectDummyComponent0
-toad_acid_pool.w2ent:                                CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-toad_acid_pool.w2ent:                                    guid (CGUID) : ac92b770-ae52-48ec-9ac0-5309e7823998
-toad_acid_pool.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                                    name (String) : "CEffectDummyComponent0"
-toad_acid_pool.w2ent:                                    isStreamed (Bool) : true
-toad_acid_pool.w2ent:                                    graphPositionX (Int16) : -108
-toad_acid_pool.w2ent:                                    graphPositionY (Int16) : 236
-toad_acid_pool.w2ent:                        streamingDistance (Uint8) : 2
-toad_acid_pool.w2ent:                        name (String) : "PreviewEntity"
-toad_acid_pool.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-toad_acid_pool.w2ent:                            0 (ptr:CComponent) : CTriggerAreaComponent #1
-toad_acid_pool.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-toad_acid_pool.w2ent:                            0 (SEntityBufferType1) : 
-toad_acid_pool.w2ent:                                ComponentName (CName) : 
-toad_acid_pool.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-toad_acid_pool.w2ent:                        idTag (IdTag) :  5fd238e8-76e8-4b6d-b07a-153ea772c047
-toad_acid_pool.w2ent:                        poisonDamage (SAbilityAttributeValue) : <SAbilityAttributeValue>poisonDamage
-toad_acid_pool.w2ent:                            valueMultiplicative (Float) : 0.0200
-toad_acid_pool.w2ent:                        despawnTimer (Float) : 15.0000
-toad_acid_pool.w2ent:                        damageVal (Float) : 100.0000
-toad_acid_pool.w2ent:                        explosionRange (Float) : 4.0000
-toad_acid_pool.w2ent:                CTriggerAreaComponent #1 (CTriggerAreaComponent) : PoisonArea
-toad_acid_pool.w2ent:                    CTriggerAreaComponent (CTriggerAreaComponent) : PoisonArea
-toad_acid_pool.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-toad_acid_pool.w2ent:                            Scale_x (Float) : 2.6104
-toad_acid_pool.w2ent:                            Scale_y (Float) : 2.6104
-toad_acid_pool.w2ent:                            Scale_z (Float) : 3.0000
-toad_acid_pool.w2ent:                        guid (CGUID) : e097c918-5bda-4f33-836a-0f0467870191
-toad_acid_pool.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        name (String) : "PoisonArea"
-toad_acid_pool.w2ent:                        graphPositionX (Int16) : -282
-toad_acid_pool.w2ent:                        graphPositionY (Int16) : 114
-toad_acid_pool.w2ent:                        boundingBox (Box) : <Box>boundingBox
-toad_acid_pool.w2ent:                            Min (Vector) : <Vector>Min
-toad_acid_pool.w2ent:                                X (Float) : -1.3052
-toad_acid_pool.w2ent:                                Y (Float) : -1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            Max (Vector) : <Vector>Max
-toad_acid_pool.w2ent:                                X (Float) : 1.3052
-toad_acid_pool.w2ent:                                Y (Float) : 1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 3.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                        height (Float) : 1.0000
-toad_acid_pool.w2ent:                        color (Color) : <Color>color
-toad_acid_pool.w2ent:                            Red (Uint8) : 7
-toad_acid_pool.w2ent:                            Green (Uint8) : 156
-toad_acid_pool.w2ent:                            Blue (Uint8) : 1
-toad_acid_pool.w2ent:                            Alpha (Uint8) : 255
-toad_acid_pool.w2ent:                        localPoints (array:Vector) : # array:Vector
-toad_acid_pool.w2ent:                            0 (Vector) : <Vector>0
-toad_acid_pool.w2ent:                                X (Float) : -0.5000
-toad_acid_pool.w2ent:                                Y (Float) : -0.5000
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            1 (Vector) : <Vector>1
-toad_acid_pool.w2ent:                                X (Float) : 0.5000
-toad_acid_pool.w2ent:                                Y (Float) : -0.5000
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            2 (Vector) : <Vector>2
-toad_acid_pool.w2ent:                                X (Float) : 0.5000
-toad_acid_pool.w2ent:                                Y (Float) : 0.5000
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            3 (Vector) : <Vector>3
-toad_acid_pool.w2ent:                                X (Float) : -0.5000
-toad_acid_pool.w2ent:                                Y (Float) : 0.5000
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                        worldPoints (array:Vector) : # array:Vector
-toad_acid_pool.w2ent:                            0 (Vector) : <Vector>0
-toad_acid_pool.w2ent:                                X (Float) : -1.3052
-toad_acid_pool.w2ent:                                Y (Float) : -1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            1 (Vector) : <Vector>1
-toad_acid_pool.w2ent:                                X (Float) : 1.3052
-toad_acid_pool.w2ent:                                Y (Float) : -1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            2 (Vector) : <Vector>2
-toad_acid_pool.w2ent:                                X (Float) : 1.3052
-toad_acid_pool.w2ent:                                Y (Float) : 1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                            3 (Vector) : <Vector>3
-toad_acid_pool.w2ent:                                X (Float) : -1.3052
-toad_acid_pool.w2ent:                                Y (Float) : 1.3052
-toad_acid_pool.w2ent:                                Z (Float) : 0.0000
-toad_acid_pool.w2ent:                                W (Float) : 1.0000
-toad_acid_pool.w2ent:                        Bufferdata (CByteArray2) : 1299 bytes, MD5: b181ef9e50b1584c4615519c62edb0be
-toad_acid_pool.w2ent:                        includedChannels (ETriggerChannel) : TC_Default,TC_Player,TC_Projectiles
-toad_acid_pool.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-toad_acid_pool.w2ent:                0 (CEntityTemplateCookedEffect) : toxic_gas
-toad_acid_pool.w2ent:                    name (CName) : toxic_gas
-toad_acid_pool.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-toad_acid_pool.w2ent:                        Bufferdata (CByteArray) : 2546 bytes, MD5: 4eb05f929e41593c70a83614f5682974
-toad_acid_pool.w2ent:                        CFXDefinition #0 (CFXDefinition) : toxic_gas
-toad_acid_pool.w2ent:                            CFXDefinition (CFXDefinition) : toxic_gas
-toad_acid_pool.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-toad_acid_pool.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-toad_acid_pool.w2ent:                                length (Float) : 5.0000
-toad_acid_pool.w2ent:                                loopStart (Float) : 1.2500
-toad_acid_pool.w2ent:                                loopEnd (Float) : 1.5000
-toad_acid_pool.w2ent:                                name (CName) : toxic_gas
-toad_acid_pool.w2ent:                                showDistance (Float) : 50.0000
-toad_acid_pool.w2ent:                                isLooped (Bool) : true
-toad_acid_pool.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-toad_acid_pool.w2ent:                                name (String) : "light"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 217
-toad_acid_pool.w2ent:                                    Green (Uint8) : 219
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 219
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                        CFXTrack #2 (CFXTrack) : dynamic
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : dynamic
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-toad_acid_pool.w2ent:                                name (String) : "dynamic"
-toad_acid_pool.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-toad_acid_pool.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-toad_acid_pool.w2ent:                                timeBegin (Float) : 0.0161
-toad_acid_pool.w2ent:                                timeDuration (Float) : 0.7590
-toad_acid_pool.w2ent:                                buffername (CName) : DynamicLight
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 2
-toad_acid_pool.w2ent:                                unk (Uint8) : 1
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.1434308> <0.2868617> <0.4302925> <0.5737233> <0.7171542> <0.860585> <0.7562717> <0.65
-toad_acid_pool.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        1 (Float) : 0.1434
-toad_acid_pool.w2ent:                                        2 (Float) : 0.2869
-toad_acid_pool.w2ent:                                        3 (Float) : 0.4303
-toad_acid_pool.w2ent:                                        4 (Float) : 0.5737
-toad_acid_pool.w2ent:                                        5 (Float) : 0.7172
-toad_acid_pool.w2ent:                                        6 (Float) : 0.8606
-toad_acid_pool.w2ent:                                        7 (Float) : 0.7563
-toad_acid_pool.w2ent:                                        8 (Float) : 0.6520
-toad_acid_pool.w2ent:                                        9 (Float) : 0.5476
-toad_acid_pool.w2ent:                                        10 (Float) : 0.4433
-toad_acid_pool.w2ent:                                        11 (Float) : 0.3390
-toad_acid_pool.w2ent:                                        12 (Float) : 0.2347
-toad_acid_pool.w2ent:                                        13 (Float) : 0.1304
-toad_acid_pool.w2ent:                                        14 (Float) : 0.0261
-toad_acid_pool.w2ent:                                        15 (Float) : 0.0000
-toad_acid_pool.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        1 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 0.0000
-toad_acid_pool.w2ent:                                color (Color) : <Color>color
-toad_acid_pool.w2ent:                                    Red (Uint8) : 226
-toad_acid_pool.w2ent:                                    Green (Uint8) : 220
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 118
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 255
-toad_acid_pool.w2ent:                                brightness (Float) : 70.0000
-toad_acid_pool.w2ent:                                attenuation (Float) : 0.5000
-toad_acid_pool.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
-toad_acid_pool.w2ent:                                    flickerPeriod (Float) : 0.0000
-toad_acid_pool.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
-toad_acid_pool.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
-toad_acid_pool.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-toad_acid_pool.w2ent:                                slotNames (array:CName) : # array:CName
-toad_acid_pool.w2ent:                                    0 (CName) : light
-toad_acid_pool.w2ent:                                relativePos (Vector) : <Vector>relativePos
-toad_acid_pool.w2ent:                                    X (Float) : 0.0000
-toad_acid_pool.w2ent:                                    Y (Float) : 0.0000
-toad_acid_pool.w2ent:                                    Z (Float) : 1.0000
-toad_acid_pool.w2ent:                                    W (Float) : 0.0000
-toad_acid_pool.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : particle
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
-toad_acid_pool.w2ent:                                name (String) : "particle"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 239
-toad_acid_pool.w2ent:                                    Green (Uint8) : 251
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 178
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                        CFXTrack #6 (CFXTrack) : fx
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : fx
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-toad_acid_pool.w2ent:                                name (String) : "fx"
-toad_acid_pool.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-toad_acid_pool.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-toad_acid_pool.w2ent:                                timeDuration (Float) : 5.0000
-toad_acid_pool.w2ent:                                buffername (CName) : Particles
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 3
-toad_acid_pool.w2ent:                                unk (Uint8) : 1
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <0
-toad_acid_pool.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 0.9167
-toad_acid_pool.w2ent:                                        6 (Float) : 0.7500
-toad_acid_pool.w2ent:                                        7 (Float) : 0.5833
-toad_acid_pool.w2ent:                                        8 (Float) : 0.4167
-toad_acid_pool.w2ent:                                        9 (Float) : 0.2500
-toad_acid_pool.w2ent:                                        10 (Float) : 0.0833
-toad_acid_pool.w2ent:                                        11 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 0.0000
-toad_acid_pool.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_toxic_pool.w2p
-toad_acid_pool.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
-toad_acid_pool.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : fx_toxic_cloud
-toad_acid_pool.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-toad_acid_pool.w2ent:                                componentName (CName) : fx_toxic_cloud
-toad_acid_pool.w2ent:                                copyRotation (Bool) : false
-toad_acid_pool.w2ent:                1 (CEntityTemplateCookedEffect) : toxic_gas_explosion
-toad_acid_pool.w2ent:                    name (CName) : toxic_gas_explosion
-toad_acid_pool.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-toad_acid_pool.w2ent:                        Bufferdata (CByteArray) : 3418 bytes, MD5: 761fbfb5560c2a07caded33eed7ccb8e
-toad_acid_pool.w2ent:                        CFXDefinition #0 (CFXDefinition) : toxic_gas_explosion
-toad_acid_pool.w2ent:                            CFXDefinition (CFXDefinition) : toxic_gas_explosion
-toad_acid_pool.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-toad_acid_pool.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-toad_acid_pool.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
-toad_acid_pool.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
-toad_acid_pool.w2ent:                                length (Float) : 5.0000
-toad_acid_pool.w2ent:                                name (CName) : toxic_gas_explosion
-toad_acid_pool.w2ent:                                showDistance (Float) : 50.0000
-toad_acid_pool.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-toad_acid_pool.w2ent:                                name (String) : "light"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 135
-toad_acid_pool.w2ent:                                    Green (Uint8) : 133
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 171
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                        CFXTrack #2 (CFXTrack) : sad
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : sad
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-toad_acid_pool.w2ent:                                name (String) : "sad"
-toad_acid_pool.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-toad_acid_pool.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-toad_acid_pool.w2ent:                                timeBegin (Float) : 0.0500
-toad_acid_pool.w2ent:                                buffername (CName) : DynamicLight
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 2
-toad_acid_pool.w2ent:                                unk (Uint8) : 1
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <54.50041> <75.38316> <50.80935> <26.23554> <20.3036> <16.67473> <13.04585> <9.416976> <
-toad_acid_pool.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        1 (Float) : 54.5004
-toad_acid_pool.w2ent:                                        2 (Float) : 75.3832
-toad_acid_pool.w2ent:                                        3 (Float) : 50.8094
-toad_acid_pool.w2ent:                                        4 (Float) : 26.2355
-toad_acid_pool.w2ent:                                        5 (Float) : 20.3036
-toad_acid_pool.w2ent:                                        6 (Float) : 16.6747
-toad_acid_pool.w2ent:                                        7 (Float) : 13.0459
-toad_acid_pool.w2ent:                                        8 (Float) : 9.4170
-toad_acid_pool.w2ent:                                        9 (Float) : 7.2313
-toad_acid_pool.w2ent:                                        10 (Float) : 5.5616
-toad_acid_pool.w2ent:                                        11 (Float) : 3.8918
-toad_acid_pool.w2ent:                                        12 (Float) : 2.2220
-toad_acid_pool.w2ent:                                        13 (Float) : 0.5523
-toad_acid_pool.w2ent:                                        14 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 0.0000
-toad_acid_pool.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                color (Color) : <Color>color
-toad_acid_pool.w2ent:                                    Red (Uint8) : 255
-toad_acid_pool.w2ent:                                    Green (Uint8) : 169
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 108
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 255
-toad_acid_pool.w2ent:                                radius (Float) : 20.0000
-toad_acid_pool.w2ent:                                brightness (Float) : 50.0000
-toad_acid_pool.w2ent:                                attenuation (Float) : 0.1000
-toad_acid_pool.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
-toad_acid_pool.w2ent:                                    flickerPeriod (Float) : 0.1000
-toad_acid_pool.w2ent:                                autoHideDistance (Float) : 45.0000
-toad_acid_pool.w2ent:                                colorGroup (EEnvColorGroup) : ECG_LightsDefault
-toad_acid_pool.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
-toad_acid_pool.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : light
-toad_acid_pool.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-toad_acid_pool.w2ent:                                componentName (CName) : light
-toad_acid_pool.w2ent:                                copyRotation (Bool) : false
-toad_acid_pool.w2ent:                                attach (Bool) : true
-toad_acid_pool.w2ent:                                relativePosition (Vector) : <Vector>relativePosition
-toad_acid_pool.w2ent:                                    X (Float) : 0.0000
-toad_acid_pool.w2ent:                                    Y (Float) : 0.0000
-toad_acid_pool.w2ent:                                    Z (Float) : 0.5000
-toad_acid_pool.w2ent:                                    W (Float) : 0.0000
-toad_acid_pool.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : colour
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : colour
-toad_acid_pool.w2ent:                                name (String) : "colour"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 225
-toad_acid_pool.w2ent:                                    Green (Uint8) : 187
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 169
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                                componentName (CName) : CEffectDummyComponent0
-toad_acid_pool.w2ent:                        CFXTrack #6 (CFXTrack) : sd
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : sd
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemBrightnessTint #7
-toad_acid_pool.w2ent:                                name (String) : "sd"
-toad_acid_pool.w2ent:                        CFXTrackItemBrightnessTint #7 (CFXTrackItemBrightnessTint) : BrightnessTint
-toad_acid_pool.w2ent:                            CFXTrackItemBrightnessTint (CFXTrackItemBrightnessTint) : <CFXTrackItemBrightnessTint>CFXTrackItemBrightnessTint
-toad_acid_pool.w2ent:                                timeBegin (Float) : 0.0158
-toad_acid_pool.w2ent:                                buffername (CName) : BrightnessTint
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 2
-toad_acid_pool.w2ent:                                unk (Uint8) : 1
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <3.706516> <5.061509> <0.9625334> <0.1655906> <1.198069> <2> <1.772191> <1.544381> <1.31
-toad_acid_pool.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        1 (Float) : 3.7065
-toad_acid_pool.w2ent:                                        2 (Float) : 5.0615
-toad_acid_pool.w2ent:                                        3 (Float) : 0.9625
-toad_acid_pool.w2ent:                                        4 (Float) : 0.1656
-toad_acid_pool.w2ent:                                        5 (Float) : 1.1981
-toad_acid_pool.w2ent:                                        6 (Float) : 2.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.7722
-toad_acid_pool.w2ent:                                        8 (Float) : 1.5444
-toad_acid_pool.w2ent:                                        9 (Float) : 1.3166
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0888
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 0.9333
-toad_acid_pool.w2ent:                                        6 (Float) : 0.8000
-toad_acid_pool.w2ent:                                        7 (Float) : 0.6667
-toad_acid_pool.w2ent:                                        8 (Float) : 0.5333
-toad_acid_pool.w2ent:                                        9 (Float) : 0.4000
-toad_acid_pool.w2ent:                                        10 (Float) : 0.2667
-toad_acid_pool.w2ent:                                        11 (Float) : 0.1333
-toad_acid_pool.w2ent:                                        12 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 0.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 0.0000
-toad_acid_pool.w2ent:                                color (Color) : <Color>color
-toad_acid_pool.w2ent:                                    Red (Uint8) : 255
-toad_acid_pool.w2ent:                                    Green (Uint8) : 191
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 140
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 255
-toad_acid_pool.w2ent:                                range (Float) : 11.0000
-toad_acid_pool.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : sound
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
-toad_acid_pool.w2ent:                                name (String) : "sound"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 210
-toad_acid_pool.w2ent:                                    Green (Uint8) : 222
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 199
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                        CFXTrack #9 (CFXTrack) : asd
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : asd
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
-toad_acid_pool.w2ent:                                name (String) : "asd"
-toad_acid_pool.w2ent:                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
-toad_acid_pool.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-toad_acid_pool.w2ent:                                buffername (CName) : 
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 0
-toad_acid_pool.w2ent:                                unk (Uint8) : 0
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-toad_acid_pool.w2ent:                                soundEventName (StringAnsi) : fx_expl_toxic_gas_explo
-toad_acid_pool.w2ent:                                maxDistance (Float) : 50.0000
-toad_acid_pool.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : fx
-toad_acid_pool.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-toad_acid_pool.w2ent:                                name (String) : "fx"
-toad_acid_pool.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
-toad_acid_pool.w2ent:                                isExpanded (Bool) : true
-toad_acid_pool.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_acid_pool.w2ent:                                    Red (Uint8) : 131
-toad_acid_pool.w2ent:                                    Green (Uint8) : 187
-toad_acid_pool.w2ent:                                    Blue (Uint8) : 178
-toad_acid_pool.w2ent:                                    Alpha (Uint8) : 100
-toad_acid_pool.w2ent:                        CFXTrack #12 (CFXTrack) : fx
-toad_acid_pool.w2ent:                            CFXTrack (CFXTrack) : fx
-toad_acid_pool.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_acid_pool.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
-toad_acid_pool.w2ent:                                name (String) : "fx"
-toad_acid_pool.w2ent:                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
-toad_acid_pool.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-toad_acid_pool.w2ent:                                timeBegin (Float) : 0.0218
-toad_acid_pool.w2ent:                                timeDuration (Float) : 5.0306
-toad_acid_pool.w2ent:                                buffername (CName) : Particles
-toad_acid_pool.w2ent:                                count (CDynamicInt) : 3
-toad_acid_pool.w2ent:                                unk (Uint8) : 1
-toad_acid_pool.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-toad_acid_pool.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_acid_pool.w2ent:                                        0 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        2 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        3 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        4 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        5 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        6 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        7 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        8 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        9 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        10 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        11 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        12 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        13 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        14 (Float) : 1.0000
-toad_acid_pool.w2ent:                                        15 (Float) : 1.0000
-toad_acid_pool.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_acid_pool_explode.w2p
-toad_acid_pool.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
-toad_acid_pool.w2ent:                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : explode
-toad_acid_pool.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-toad_acid_pool.w2ent:                                componentName (CName) : explode
-toad_acid_pool.w2ent:            cookedEffectsVersion (Uint32) : 1
-toad_acid_pool.w2ent:            Unk1 (Uint32) : 0
-toad_acid_pool.w2ent:    CToadAcidPool #1 (CToadAcidPool) : 
-toad_acid_pool.w2ent:        CToadAcidPool (CToadAcidPool) : 
-toad_acid_pool.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-toad_acid_pool.w2ent:                Bufferdata (CByteArray) : 481 bytes, MD5: 4d43391f8f13018ba598f56dfd89f972
-toad_acid_pool.w2ent:                CEffectDummyComponent #0 (CEffectDummyComponent) : CEffectDummyComponent0
-toad_acid_pool.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-toad_acid_pool.w2ent:                        guid (CGUID) : ac92b770-ae52-48ec-9ac0-5309e7823998
-toad_acid_pool.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:                        name (String) : "CEffectDummyComponent0"
-toad_acid_pool.w2ent:                        isStreamed (Bool) : true
-toad_acid_pool.w2ent:                        graphPositionX (Int16) : -108
-toad_acid_pool.w2ent:                        graphPositionY (Int16) : 236
-toad_acid_pool.w2ent:            streamingDistance (Uint8) : 2
-toad_acid_pool.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-toad_acid_pool.w2ent:                0 (ptr:CComponent) : CTriggerAreaComponent #2
-toad_acid_pool.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-toad_acid_pool.w2ent:                0 (SEntityBufferType1) : 
-toad_acid_pool.w2ent:                    ComponentName (CName) : 
-toad_acid_pool.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-toad_acid_pool.w2ent:            idTag (IdTag) :  5fd238e8-76e8-4b6d-b07a-153ea772c047
-toad_acid_pool.w2ent:            poisonDamage (SAbilityAttributeValue) : <SAbilityAttributeValue>poisonDamage
-toad_acid_pool.w2ent:                valueMultiplicative (Float) : 0.0200
-toad_acid_pool.w2ent:            despawnTimer (Float) : 15.0000
-toad_acid_pool.w2ent:            damageVal (Float) : 100.0000
-toad_acid_pool.w2ent:            explosionRange (Float) : 4.0000
-toad_acid_pool.w2ent:    CTriggerAreaComponent #2 (CTriggerAreaComponent) : PoisonArea
-toad_acid_pool.w2ent:        CTriggerAreaComponent (CTriggerAreaComponent) : PoisonArea
-toad_acid_pool.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-toad_acid_pool.w2ent:                Scale_x (Float) : 2.6104
-toad_acid_pool.w2ent:                Scale_y (Float) : 2.6104
-toad_acid_pool.w2ent:                Scale_z (Float) : 3.0000
-toad_acid_pool.w2ent:            guid (CGUID) : e097c918-5bda-4f33-836a-0f0467870191
-toad_acid_pool.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-toad_acid_pool.w2ent:            name (String) : "PoisonArea"
-toad_acid_pool.w2ent:            boundingBox (Box) : <Box>boundingBox
-toad_acid_pool.w2ent:                Min (Vector) : <Vector>Min
-toad_acid_pool.w2ent:                    X (Float) : -1.3052
-toad_acid_pool.w2ent:                    Y (Float) : -1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                Max (Vector) : <Vector>Max
-toad_acid_pool.w2ent:                    X (Float) : 1.3052
-toad_acid_pool.w2ent:                    Y (Float) : 1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 3.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:            height (Float) : 1.0000
-toad_acid_pool.w2ent:            color (Color) : <Color>color
-toad_acid_pool.w2ent:                Red (Uint8) : 7
-toad_acid_pool.w2ent:                Green (Uint8) : 156
-toad_acid_pool.w2ent:                Blue (Uint8) : 1
-toad_acid_pool.w2ent:                Alpha (Uint8) : 255
-toad_acid_pool.w2ent:            localPoints (array:Vector) : # array:Vector
-toad_acid_pool.w2ent:                0 (Vector) : <Vector>0
-toad_acid_pool.w2ent:                    X (Float) : -0.5000
-toad_acid_pool.w2ent:                    Y (Float) : -0.5000
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                1 (Vector) : <Vector>1
-toad_acid_pool.w2ent:                    X (Float) : 0.5000
-toad_acid_pool.w2ent:                    Y (Float) : -0.5000
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                2 (Vector) : <Vector>2
-toad_acid_pool.w2ent:                    X (Float) : 0.5000
-toad_acid_pool.w2ent:                    Y (Float) : 0.5000
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                3 (Vector) : <Vector>3
-toad_acid_pool.w2ent:                    X (Float) : -0.5000
-toad_acid_pool.w2ent:                    Y (Float) : 0.5000
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:            worldPoints (array:Vector) : # array:Vector
-toad_acid_pool.w2ent:                0 (Vector) : <Vector>0
-toad_acid_pool.w2ent:                    X (Float) : -1.3052
-toad_acid_pool.w2ent:                    Y (Float) : -1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                1 (Vector) : <Vector>1
-toad_acid_pool.w2ent:                    X (Float) : 1.3052
-toad_acid_pool.w2ent:                    Y (Float) : -1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                2 (Vector) : <Vector>2
-toad_acid_pool.w2ent:                    X (Float) : 1.3052
-toad_acid_pool.w2ent:                    Y (Float) : 1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:                3 (Vector) : <Vector>3
-toad_acid_pool.w2ent:                    X (Float) : -1.3052
-toad_acid_pool.w2ent:                    Y (Float) : 1.3052
-toad_acid_pool.w2ent:                    Z (Float) : 0.0000
-toad_acid_pool.w2ent:                    W (Float) : 1.0000
-toad_acid_pool.w2ent:            Bufferdata (CByteArray2) : 1299 bytes, MD5: b181ef9e50b1584c4615519c62edb0be
-toad_acid_pool.w2ent:            includedChannels (ETriggerChannel) : TC_Default,TC_Player,TC_Projectiles
-toad_acid_pool.w2ent:    CAttackableArea #3 (CAttackableArea) : attackable
-toad_acid_pool.w2ent:        CAttackableArea (CAttackableArea) : attackable
-toad_acid_pool.w2ent:            name (String) : "attackable"
-toad_acid_pool.w2ent:            radius (Float) : 7.0000
-toad_acid_pool.w2ent:            height (Float) : 3.0000
+    CEntityTemplate #0 (CEntityTemplate) : CToadAcidPool
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : CToadAcidPool
+            entityObject (ptr:CEntity) : CToadAcidPool #1
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : fx_toxic_cloud
+                    name (CName) : fx_toxic_cloud
+                1 (EntitySlot) : explode
+                    name (CName) : explode
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.0000
+                        Y (Float) : 0.0000
+                        Z (Float) : 0.5000
+                2 (EntitySlot) : light
+                    name (CName) : light
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.0000
+                        Y (Float) : 0.0000
+                        Z (Float) : 1.2000
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CAttackableArea #3
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CToadAcidPool #0 (CToadAcidPool) : PreviewEntity
+                    CToadAcidPool (CToadAcidPool) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                            Bufferdata (CByteArray) : 481 bytes, MD5: 87fe9c7eeb96c4c03e91c4bee6c056d7
+                            CEffectDummyComponent #0 (CEffectDummyComponent) : CEffectDummyComponent0
+                                CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                                    guid (CGUID) : ac92b770-ae52-48ec-9ac0-5309e7823998
+                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                                    name (String) : "CEffectDummyComponent0"
+                                    isStreamed (Bool) : true
+                                    graphPositionX (Int16) : -108
+                                    graphPositionY (Int16) : 236
+                        streamingDistance (Uint8) : 2
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CTriggerAreaComponent #1
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  5fd238e8-76e8-4b6d-b07a-153ea772c047
+                        poisonDamage (SAbilityAttributeValue) : <SAbilityAttributeValue>poisonDamage
+                            valueMultiplicative (Float) : 0.0200
+                        despawnTimer (Float) : 15.0000
+                        damageVal (Float) : 100.0000
+                        explosionRange (Float) : 4.0000
+                CTriggerAreaComponent #1 (CTriggerAreaComponent) : PoisonArea
+                    CTriggerAreaComponent (CTriggerAreaComponent) : PoisonArea
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 2.6104
+                            Scale_y (Float) : 2.6104
+                            Scale_z (Float) : 3.0000
+                        guid (CGUID) : e097c918-5bda-4f33-836a-0f0467870191
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "PoisonArea"
+                        graphPositionX (Int16) : -282
+                        graphPositionY (Int16) : 114
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : -1.3052
+                                Y (Float) : -1.3052
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : 1.3052
+                                Y (Float) : 1.3052
+                                Z (Float) : 3.0000
+                                W (Float) : 1.0000
+                        height (Float) : 1.0000
+                        color (Color) : <Color>color
+                            Red (Uint8) : 7
+                            Green (Uint8) : 156
+                            Blue (Uint8) : 1
+                            Alpha (Uint8) : 255
+                        localPoints (array:Vector) : # array:Vector
+                            0 (Vector) : <Vector>0
+                                X (Float) : -0.5000
+                                Y (Float) : -0.5000
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            1 (Vector) : <Vector>1
+                                X (Float) : 0.5000
+                                Y (Float) : -0.5000
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            2 (Vector) : <Vector>2
+                                X (Float) : 0.5000
+                                Y (Float) : 0.5000
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            3 (Vector) : <Vector>3
+                                X (Float) : -0.5000
+                                Y (Float) : 0.5000
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                        worldPoints (array:Vector) : # array:Vector
+                            0 (Vector) : <Vector>0
+                                X (Float) : -1.3052
+                                Y (Float) : -1.3052
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            1 (Vector) : <Vector>1
+                                X (Float) : 1.3052
+                                Y (Float) : -1.3052
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            2 (Vector) : <Vector>2
+                                X (Float) : 1.3052
+                                Y (Float) : 1.3052
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                            3 (Vector) : <Vector>3
+                                X (Float) : -1.3052
+                                Y (Float) : 1.3052
+                                Z (Float) : 0.0000
+                                W (Float) : 1.0000
+                        Bufferdata (CByteArray2) : 1299 bytes, MD5: b181ef9e50b1584c4615519c62edb0be
+                        includedChannels (ETriggerChannel) : TC_Default,TC_Player,TC_Projectiles
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : toxic_gas
+                    name (CName) : toxic_gas
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2546 bytes, MD5: 4eb05f929e41593c70a83614f5682974
+                        CFXDefinition #0 (CFXDefinition) : toxic_gas
+                            CFXDefinition (CFXDefinition) : toxic_gas
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 5.0000
+                                loopStart (Float) : 1.2500
+                                loopEnd (Float) : 1.5000
+                                name (CName) : toxic_gas
+                                showDistance (Float) : 50.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 217
+                                    Green (Uint8) : 219
+                                    Blue (Uint8) : 219
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : dynamic
+                            CFXTrack (CFXTrack) : dynamic
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "dynamic"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0161
+                                timeDuration (Float) : 0.7590
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.1434308> <0.2868617> <0.4302925> <0.5737233> <0.7171542> <0.860585> <0.7562717> <0.65
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.1434
+                                        2 (Float) : 0.2869
+                                        3 (Float) : 0.4303
+                                        4 (Float) : 0.5737
+                                        5 (Float) : 0.7172
+                                        6 (Float) : 0.8606
+                                        7 (Float) : 0.7563
+                                        8 (Float) : 0.6520
+                                        9 (Float) : 0.5476
+                                        10 (Float) : 0.4433
+                                        11 (Float) : 0.3390
+                                        12 (Float) : 0.2347
+                                        13 (Float) : 0.1304
+                                        14 (Float) : 0.0261
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 226
+                                    Green (Uint8) : 220
+                                    Blue (Uint8) : 118
+                                    Alpha (Uint8) : 255
+                                brightness (Float) : 70.0000
+                                attenuation (Float) : 0.5000
+                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+                                    flickerPeriod (Float) : 0.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : light
+                                relativePos (Vector) : <Vector>relativePos
+                                    X (Float) : 0.0000
+                                    Y (Float) : 0.0000
+                                    Z (Float) : 1.0000
+                                    W (Float) : 0.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : particle
+                            CFXTrackGroup (CFXTrackGroup) : particle
+                                name (String) : "particle"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 239
+                                    Green (Uint8) : 251
+                                    Blue (Uint8) : 178
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "fx"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 5.0000
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 0.9167
+                                        6 (Float) : 0.7500
+                                        7 (Float) : 0.5833
+                                        8 (Float) : 0.4167
+                                        9 (Float) : 0.2500
+                                        10 (Float) : 0.0833
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_toxic_pool.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : fx_toxic_cloud
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : fx_toxic_cloud
+                                copyRotation (Bool) : false
+                1 (CEntityTemplateCookedEffect) : toxic_gas_explosion
+                    name (CName) : toxic_gas_explosion
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 3418 bytes, MD5: 761fbfb5560c2a07caded33eed7ccb8e
+                        CFXDefinition #0 (CFXDefinition) : toxic_gas_explosion
+                            CFXDefinition (CFXDefinition) : toxic_gas_explosion
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+                                length (Float) : 5.0000
+                                name (CName) : toxic_gas_explosion
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 135
+                                    Green (Uint8) : 133
+                                    Blue (Uint8) : 171
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sad
+                            CFXTrack (CFXTrack) : sad
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "sad"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0500
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <54.50041> <75.38316> <50.80935> <26.23554> <20.3036> <16.67473> <13.04585> <9.416976> <
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        1 (Float) : 54.5004
+                                        2 (Float) : 75.3832
+                                        3 (Float) : 50.8094
+                                        4 (Float) : 26.2355
+                                        5 (Float) : 20.3036
+                                        6 (Float) : 16.6747
+                                        7 (Float) : 13.0459
+                                        8 (Float) : 9.4170
+                                        9 (Float) : 7.2313
+                                        10 (Float) : 5.5616
+                                        11 (Float) : 3.8918
+                                        12 (Float) : 2.2220
+                                        13 (Float) : 0.5523
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 169
+                                    Blue (Uint8) : 108
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 20.0000
+                                brightness (Float) : 50.0000
+                                attenuation (Float) : 0.1000
+                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+                                    flickerPeriod (Float) : 0.1000
+                                autoHideDistance (Float) : 45.0000
+                                colorGroup (EEnvColorGroup) : ECG_LightsDefault
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : light
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : light
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                relativePosition (Vector) : <Vector>relativePosition
+                                    X (Float) : 0.0000
+                                    Y (Float) : 0.0000
+                                    Z (Float) : 0.5000
+                                    W (Float) : 0.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : colour
+                            CFXTrackGroup (CFXTrackGroup) : colour
+                                name (String) : "colour"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 225
+                                    Green (Uint8) : 187
+                                    Blue (Uint8) : 169
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent0
+                        CFXTrack #6 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemBrightnessTint #7
+                                name (String) : "sd"
+                        CFXTrackItemBrightnessTint #7 (CFXTrackItemBrightnessTint) : BrightnessTint
+                            CFXTrackItemBrightnessTint (CFXTrackItemBrightnessTint) : <CFXTrackItemBrightnessTint>CFXTrackItemBrightnessTint
+                                timeBegin (Float) : 0.0158
+                                buffername (CName) : BrightnessTint
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <3.706516> <5.061509> <0.9625334> <0.1655906> <1.198069> <2> <1.772191> <1.544381> <1.31
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        1 (Float) : 3.7065
+                                        2 (Float) : 5.0615
+                                        3 (Float) : 0.9625
+                                        4 (Float) : 0.1656
+                                        5 (Float) : 1.1981
+                                        6 (Float) : 2.0000
+                                        7 (Float) : 1.7722
+                                        8 (Float) : 1.5444
+                                        9 (Float) : 1.3166
+                                        10 (Float) : 1.0888
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 0.9333
+                                        6 (Float) : 0.8000
+                                        7 (Float) : 0.6667
+                                        8 (Float) : 0.5333
+                                        9 (Float) : 0.4000
+                                        10 (Float) : 0.2667
+                                        11 (Float) : 0.1333
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 191
+                                    Blue (Uint8) : 140
+                                    Alpha (Uint8) : 255
+                                range (Float) : 11.0000
+                        CFXTrackGroup #8 (CFXTrackGroup) : sound
+                            CFXTrackGroup (CFXTrackGroup) : sound
+                                name (String) : "sound"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #9
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 210
+                                    Green (Uint8) : 222
+                                    Blue (Uint8) : 199
+                                    Alpha (Uint8) : 100
+                        CFXTrack #9 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
+                                name (String) : "asd"
+                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_expl_toxic_gas_explo
+                                maxDistance (Float) : 50.0000
+                        CFXTrackGroup #11 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #12
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 131
+                                    Green (Uint8) : 187
+                                    Blue (Uint8) : 178
+                                    Alpha (Uint8) : 100
+                        CFXTrack #12 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
+                                name (String) : "fx"
+                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0218
+                                timeDuration (Float) : 5.0306
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_acid_pool_explode.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
+                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : explode
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : explode
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CToadAcidPool #1 (CToadAcidPool) : 
+        CToadAcidPool (CToadAcidPool) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                Bufferdata (CByteArray) : 481 bytes, MD5: 4d43391f8f13018ba598f56dfd89f972
+                CEffectDummyComponent #0 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : ac92b770-ae52-48ec-9ac0-5309e7823998
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        isStreamed (Bool) : true
+                        graphPositionX (Int16) : -108
+                        graphPositionY (Int16) : 236
+            streamingDistance (Uint8) : 2
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CTriggerAreaComponent #2
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  5fd238e8-76e8-4b6d-b07a-153ea772c047
+            poisonDamage (SAbilityAttributeValue) : <SAbilityAttributeValue>poisonDamage
+                valueMultiplicative (Float) : 0.0200
+            despawnTimer (Float) : 15.0000
+            damageVal (Float) : 100.0000
+            explosionRange (Float) : 4.0000
+    CTriggerAreaComponent #2 (CTriggerAreaComponent) : PoisonArea
+        CTriggerAreaComponent (CTriggerAreaComponent) : PoisonArea
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 2.6104
+                Scale_y (Float) : 2.6104
+                Scale_z (Float) : 3.0000
+            guid (CGUID) : e097c918-5bda-4f33-836a-0f0467870191
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "PoisonArea"
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : -1.3052
+                    Y (Float) : -1.3052
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : 1.3052
+                    Y (Float) : 1.3052
+                    Z (Float) : 3.0000
+                    W (Float) : 1.0000
+            height (Float) : 1.0000
+            color (Color) : <Color>color
+                Red (Uint8) : 7
+                Green (Uint8) : 156
+                Blue (Uint8) : 1
+                Alpha (Uint8) : 255
+            localPoints (array:Vector) : # array:Vector
+                0 (Vector) : <Vector>0
+                    X (Float) : -0.5000
+                    Y (Float) : -0.5000
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                1 (Vector) : <Vector>1
+                    X (Float) : 0.5000
+                    Y (Float) : -0.5000
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                2 (Vector) : <Vector>2
+                    X (Float) : 0.5000
+                    Y (Float) : 0.5000
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                3 (Vector) : <Vector>3
+                    X (Float) : -0.5000
+                    Y (Float) : 0.5000
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+            worldPoints (array:Vector) : # array:Vector
+                0 (Vector) : <Vector>0
+                    X (Float) : -1.3052
+                    Y (Float) : -1.3052
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                1 (Vector) : <Vector>1
+                    X (Float) : 1.3052
+                    Y (Float) : -1.3052
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                2 (Vector) : <Vector>2
+                    X (Float) : 1.3052
+                    Y (Float) : 1.3052
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+                3 (Vector) : <Vector>3
+                    X (Float) : -1.3052
+                    Y (Float) : 1.3052
+                    Z (Float) : 0.0000
+                    W (Float) : 1.0000
+            Bufferdata (CByteArray2) : 1299 bytes, MD5: b181ef9e50b1584c4615519c62edb0be
+            includedChannels (ETriggerChannel) : TC_Default,TC_Player,TC_Projectiles
+    CAttackableArea #3 (CAttackableArea) : attackable
+        CAttackableArea (CAttackableArea) : attackable
+            name (String) : "attackable"
+            radius (Float) : 7.0000
+            height (Float) : 3.0000

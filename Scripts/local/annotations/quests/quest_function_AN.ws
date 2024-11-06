@@ -1,6 +1,58 @@
 @replaceMethod function ProcessMonsterHuntTrophyQuest( trophyName : name, dontTeleportHorse : bool)
 {
+	var playerHorse			 : CNewNPC;
+	var playerPosition 		 : Vector;
+	var newPosition			 : Vector;
+	var playerRotation 		 : EulerAngles;
+	var witcher 			 : W3PlayerWitcher;
+	var ids    				 : array<SItemUniqueId>;
+	var eqId	 			 : SItemUniqueId;
+	var horseManager		 : W3HorseManager;
+	var horse				 : CNewNPC;
+	var current_trophy		 : SItemUniqueId;
+	
+	witcher = GetWitcherPlayer();	
+	playerHorse = (CNewNPC) witcher.GetHorseWithInventory();
+	
+	if( !dontTeleportHorse )
+	{
+		if(playerHorse)
+		{
+			playerPosition = witcher.GetWorldPosition();
+			playerRotation = witcher.GetWorldRotation();
+			
+			newPosition = Vector(playerPosition.X, playerPosition.Y, playerPosition.Z + 0.1);
+			
+			if( theGame.GetWorld().NavigationFindSafeSpot( newPosition, 2.0, 6.0, newPosition ) )
+			{
+				playerHorse.TeleportWithRotation(playerPosition + witcher.GetHeadingVector() * 1.5, EulerNeg(playerRotation, EulerAngles(0.0,-90.0,0.0) ) );
+			}
+		}
+	}
+	
+	ids = witcher.inv.GetItemsByName( trophyName );
+	
+	if( ids.Size() > 0 )
+	{
+		horseManager = witcher.GetHorseManager();
 
+		horse = (CNewNPC)theGame.GetNodeByTag('playerHorse');
+		ids = horse.GetInventory().AddAnItem( trophyName , 1);
+		
+		if(horseManager)
+		{
+			current_trophy = horseManager.GetItemInSlot(EES_HorseTrophy);
+			horse.GetInventory().MountItem( current_trophy );
+			// eqId = witcher.GetHorseManager().MoveItemToHorse(ids[0]);
+			// horseManager.EquipItem(eqId);
+		}
+		else
+		{
+			horse.GetInventory().MountItem( ids[0] );
+		}
+	}
+	
+	Sleep(0.5f);
 }
 
 @replaceMethod function SetGeraltLevelHandsOn()

@@ -1,0 +1,27 @@
+    CSwfResource #0 (CSwfResource) : popup-loot{558bd1f9}.gfx
+        CSwfResource (CSwfResource) : <CSwfResource>CSwfResource
+            linkageName (String) : "popup-loot{558bd1f9}.gfx"
+            textures (array:handle:CSwfTexture) : # array:handle:CSwfTexture
+                0 (handle:CSwfTexture) : CSwfTexture #1
+            imageImportOptions (String) : ""
+            SwfResource (CByteArray) : 175720 bytes, MD5: e832735a05b089fce0fabb7635f1f8af
+            Unk1 (Uint32) : 0
+    CSwfTexture #1 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1024
+            height (Uint32) : 492
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1024
+                    Height (Uint32) : 492
+                    Blocksize (Uint32) : 4096
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 503808
+            Residentmip (CBytes) : 503808 bytes, MD5: e00ccae3467d37a985ea3a7ef430c631
+            linkageName (String) : "popup-loot{558bd1f9}_i3.dds"

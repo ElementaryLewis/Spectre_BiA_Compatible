@@ -1,4 +1,78 @@
-@addMethod(CR4Game) function gmUserSettingsScaling() 
+@addField(CR4Game)
+public var alchexts : AlchemyExtensions; 
+
+@addField(CR4Game)
+public saved var spawnareas : array<S_SpawnArea>;
+
+@wrapMethod(CR4Game) function OnGameStarting(restored : bool )
+{
+	var diff : int;
+
+	if(false) 
+	{
+		wrappedMethod(restored);
+	}
+
+	start_spectre(this);
+
+	if(!restored)
+	{
+		
+		gameplayFacts.Clear();
+		gameplayFactsForRemoval.Clear();
+	}
+	
+	if (!FactsDoesExist("lowest_difficulty_used") || GetLowestDifficultyUsed() == EDM_NotSet)
+	{
+		SetLowestDifficultyUsed(GetDifficultyLevel());
+	}
+		
+	SetHoursPerMinute(0.25);	
+	SetTimescaleSources();
+	
+	
+	isDialogOrCutscenePlaying = false;
+
+	
+	params.Init();
+	
+	
+	witcherLog = new W3GameLog in this;
+			
+	InitGamerProfile();
+		
+	
+	damageMgr = new W3DamageManager in this;
+
+	tooltipSettings = LoadCSV("gameplay\globals\tooltip_settings.csv");
+	minimapSettings = LoadCSV("gameplay\globals\minimap_settings.csv"); 
+	LoadHudSettings();
+	playerStatisticsSettings = LoadCSV("gameplay\globals\player_statistics_settings.csv"); 
+				
+	LoadQuestLevels( "gameplay\globals\quest_levels.csv" );		 
+	
+	expGlobalModifiers = LoadCSV("gameplay\globals\exp_mods.csv"); 
+	expGlobalMod_kills = StringToFloat( expGlobalModifiers.GetValueAt(0,0) );
+	expGlobalMod_quests = StringToFloat( expGlobalModifiers.GetValueAt(1,0) );
+	
+	InitializeEffectManager();
+
+	envMgr = new W3EnvironmentManager in this;
+	envMgr.Initialize();
+	
+	runewordMgr = new W3RunewordManager in this;
+	runewordMgr.Init();
+	
+	theGame.RequestPopup( 'OverlayPopup' );
+	
+	theSound.Initialize();	
+	if(IsLoadingScreenVideoPlaying())
+	{
+		theSound.EnterGameState(ESGS_Movie);
+	}
+}
+
+@addMethod(CR4Game) function spectreUserSettingsScaling() 
 {
 	var i : int;
 	var all : array<CActor>;
@@ -11,7 +85,7 @@
 	}
 }
 
-@addMethod(CR4Game) function gmUserSettingsQuestLevels()
+@addMethod(CR4Game) function spectreUserSettingsQuestLevels()
 {
 	LoadQuestLevels( "gameplay\globals\quest_levels.csv" );
 	if(theGame.GetDLCManager().IsEP1Enabled())
@@ -20,17 +94,10 @@
 		LoadQuestLevels( "dlc\bob\data\gameplay\globals\quest_levels.csv" );
 }
 
-@addMethod(CR4Game) function gmUserSettingsGameplay()
+@addMethod(CR4Game) function spectreUserSettingsGameplay()
 {
 	params.spectreResetCachedValuesGameplay();
 	spectreUpdateRegenEffects();
-}
-
-@addMethod(CR4Game) function gmUserSettingsQoL()
-{
-	params.spectreResetCachedValuesQoL();
-	thePlayer.StopLowStaminaSFX();
-	thePlayer.CheckForLowStamina();
 }
 
 @wrapMethod(CR4Game) function LoadQuestLevels( filePath: string ) : void

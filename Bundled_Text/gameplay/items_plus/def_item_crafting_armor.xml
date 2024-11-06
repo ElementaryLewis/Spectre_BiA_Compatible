@@ -6,10 +6,10 @@
 <abilities>
 
 <!-- ARMOR WITCHER: STARTING UPGRADE, MEDIUM -->
-	<ability name="Starting Armor 1 _Stats"> <!-- q1, lvl 32 -->
+	<ability name="Starting Armor 1 _Stats"> <!-- q1, lvl 2 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="1"					/>
-		<armor							type="base" min="185"				/>
+		<armor							type="base" min="35"				/>
 		<slashing_resistance_perc		type="base" min="0.10"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.02"				/>
 		<piercing_resistance_perc		type="base"	min="0.02"				/>
@@ -18,10 +18,10 @@
 	</ability>
 	
 <!-- ARMOR LIGHT -->
-	<ability name="Light armor 01_crafted _Stats"> <!-- q1, lvl 31 -->
+	<ability name="Light armor 01_crafted _Stats"> <!-- Cidarian Gambeson - q1, lvl 1 -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="1"					/>
-		<armor							type="base"	min="180"				/>
+		<armor							type="base"	min="30"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
@@ -30,10 +30,10 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
 	</ability>
 
-	<ability name="Light armor 02_crafted _Stats"> <!-- q1, lvl 32 -->
+	<ability name="Light armor 02_crafted _Stats"> <!-- Skellige Gambeson - q1, lvl 2 -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="1"					/>
-		<armor							type="base"	min="185"				/>
+		<armor							type="base"	min="35"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
@@ -42,10 +42,10 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
 	</ability>
 
-	<ability name="Light armor 03_crafted _Stats"> <!-- q1, lvl 34, 1 slot -->
+	<ability name="Light armor 03_crafted _Stats"> <!-- Kaedveni Gambeson - q1, lvl 4, 1 slot -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="1"					/>
-		<armor							type="base"	min="195"				/>
+		<armor							type="base"	min="45"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
@@ -54,62 +54,62 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
 	</ability>
 
-	<ability name="Light armor 04_crafted _Stats"> <!-- q2, lvl 36, 1 slot -->
+	<ability name="Light armor 04_crafted _Stats"> <!-- Spikeroog Aketon - q2, lvl 6, 1 slot -->
 		<weight							type="base"	min="6.5" 				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="205"				/>
+		<armor							type="base"	min="55"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
 		<rending_resistance_perc		type="base" min="0.05"				/>
 		<elemental_resistance_perc		type="base" min="0.05"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
-		<focus_gain 					type="add"	min="0.20"				/>
+		<focus_gain 					type="add"	min="0.05"				/>
 	</ability>
 
 <!-- Light armor 02 variant -->
-	<ability name="Light armor 06_crafted _Stats"> <!-- q2, lvl 38, 2 slots -->
+	<ability name="Light armor 06_crafted _Stats"> <!-- Verden Archer's Gambeson - q2, lvl 8, 2 slots -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="215"				/>
+		<armor							type="base"	min="65"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
 		<rending_resistance_perc		type="base" min="0.05"				/>
 		<elemental_resistance_perc		type="base" min="0.05"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
-		<poison_resistance_perc			type="base"	min="0.35"				/>
+		<poison_resistance_perc			type="base"	min="0.15"				/>
 	</ability>
 	
 <!-- Light armor 03 variant -->
-	<ability name="Light armor 07_crafted _Stats"> <!-- q3, lvl 40, 2 slots -->
+	<ability name="Light armor 07_crafted _Stats"> <!-- Bounty Hunter's Gambeson - q3, lvl 10, 2 slots -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="3"					/>
-		<armor							type="base"	min="225"				/>
+		<armor							type="base"	min="75"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
 		<rending_resistance_perc		type="base" min="0.05"				/>
 		<elemental_resistance_perc		type="base" min="0.05"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
-		<spell_power_axii 				type="mult" min="0.20"				/>
+		<spell_power_axii 				type="mult" min="0.1"				/>
 	</ability>
 
 <!-- Light armor 04 variant -->
-	<ability name="Light armor 08_crafted _Stats"> <!-- q3, lvl 45, 3 slots -->
+	<ability name="Light armor 08_crafted _Stats"> <!-- Ard Skellig Aketon - q3, lvl 15, 3 slots -->
 		<weight							type="base"	min="6.5" 				/>
 		<quality						type="add"	min="3"					/>
-		<armor							type="base"	min="250"				/>
+		<armor							type="base"	min="100"				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
 		<rending_resistance_perc		type="base" min="0.05"				/>
 		<elemental_resistance_perc		type="base" min="0.05"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
-		<spell_power_yrden 				type="mult" min="0.20"				/>
+		<spell_power_yrden 				type="mult" min="0.15"				/>
 	</ability>
 			
-	<ability name="q108 Light armor 09_crafted _Stats"> <!-- q4, lvl 54, 3 slots -->
+	<ability name="q108 Light armor 09_crafted _Stats"> <!-- Freya's Warriors' Armor - q4, lvl 24, 3 slots -->
 		<weight							type="base" min="6.5"				/>
 		<quality						type="add"	min="4"					/>
 		<armor							type="base"	min="145"				/>
@@ -118,31 +118,31 @@
 		<bludgeoning_resistance_perc	type="base"	min="0.07"				/>
 		<rending_resistance_perc		type="base"	min="0.08"				/>
 		<elemental_resistance_perc		type="base"	min="0.08"				/>
-		<vitality 						type="base" min="500"				/>
+		<vitality 						type="base" min="200"				/>
 		<quen_chance_on_projectile		type="add"	min="1.0"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
 	</ability>
 
-<!-- RELIC LIGHT: Shiadhal -->
-	<ability name="Light armor 05_crafted _Stats"> <!-- q4, lvl 50, 3 slots -->
+<!-- RELIC LIGHT -->
+	<ability name="Light armor 05_crafted _Stats"> <!-- Shiadhal's Armor - q4, lvl 20, 3 slots -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="4"					/>
-		<armor							type="base"	min="275" 				/>
+		<armor							type="base"	min="125" 				/>
 		<slashing_resistance_perc		type="base"	min="0.05"				/>
 		<piercing_resistance_perc		type="base"	min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.04"				/>
 		<rending_resistance_perc		type="base" min="0.05"				/>
 		<elemental_resistance_perc		type="base" min="0.05"				/>
 		<burning_resistance_perc		type="base"	min="0.50"				/>
-		<spell_power_igni				type="mult"	min="0.30"				/>
+		<spell_power_igni				type="mult"	min="0.1"				/>
 		<staminaRegen_armor_mod			type="mult"	min="0.07"				/>
 	</ability>
 	
 <!-- ARMOR MEDIUM -->
-	<ability name="Medium armor 01_crafted _Stats"> <!-- q1, lvl 34, 1 slot -->
+	<ability name="Medium armor 01_crafted _Stats"> <!-- Salmian Brigandine - q1, lvl 4, 1 slot -->
 		<weight							type="base"	min="13.5"				/>
 		<quality 						type="add"	min="1"					/>
-		<armor							type="base"	min="195"				/>
+		<armor							type="base"	min="45"				/>
 		<slashing_resistance_perc		type="base"	min="0.12"				/>
 		<piercing_resistance_perc		type="base"	min="0.05"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.05"				/>
@@ -150,34 +150,34 @@
 		<elemental_resistance_perc		type="base" min="0.12"				/>
 	</ability>
 	
-	<ability name="Medium armor 02_crafted _Stats"> <!-- q2, lvl 36, 1 slot -->
+	<ability name="Medium armor 02_crafted _Stats"> <!-- Cidarian Cavalry Armor - q2, lvl 6, 1 slot -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="205"				/>
+		<armor							type="base"	min="55"				/>
 		<slashing_resistance_perc		type="base"	min="0.12"				/>
 		<piercing_resistance_perc		type="base"	min="0.06"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.06"				/>
 		<rending_resistance_perc		type="base" min="0.12"				/>
 		<elemental_resistance_perc		type="base" min="0.12"				/>
-		<bleeding_resistance_perc		type="base"	min="0.35"				/>
+		<bleeding_resistance_perc		type="base"	min="0.15"				/>
 	</ability>
 	
-	<ability name="Medium armor 03_crafted _Stats"> <!-- q2, lvl 38, 2 slots -->
+	<ability name="Medium armor 03_crafted _Stats"> <!-- Redanian Halberdier's Armor - q2, lvl 8, 2 slots -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="215"				/>
+		<armor							type="base"	min="65"				/>
 		<slashing_resistance_perc		type="base"	min="0.14"				/>
 		<piercing_resistance_perc		type="base"	min="0.06"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.06"				/>
 		<rending_resistance_perc		type="base" min="0.14"				/>
 		<elemental_resistance_perc		type="base" min="0.14"				/>
-		<burning_resistance_perc		type="base"	min="0.35"				/>
+		<burning_resistance_perc		type="base"	min="0.15"				/>
 	</ability>
 	
-	<ability name="q108 Medium armor 03_crafted _Stats"> <!-- q4, lvl 54, 3 slots -->
+	<ability name="q108 Medium armor 03_crafted _Stats"> <!-- Redanian Halberdier's Armor - q4, lvl 24, 3 slots -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="4"					/>
-		<armor							type="base"	min="295"				/>
+		<armor							type="base"	min="145"				/>
 		<slashing_resistance_perc		type="base"	min="0.17"				/>
 		<piercing_resistance_perc		type="base"	min="0.09"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>
@@ -186,40 +186,40 @@
 		<poison_resistance_perc 		type="base" min="0.50"				/>
 		<bleeding_resistance_perc 		type="base" min="0.50"				/>
 		<burning_resistance_perc 		type="base" min="0.50"				/>
-		<vitality 						type="base" min="1000"				/>
+		<vitality 						type="base" min="300"				/>
 	</ability>
 	
-	<ability name="Medium armor 04_crafted _Stats"> <!-- q3, lvl 40, 2 slots -->
+	<ability name="Medium armor 04_crafted _Stats"> <!-- Angrenian Cuirass - q3, lvl 10, 2 slots -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="3"					/>
-		<armor							type="base" min="225"				/>
+		<armor							type="base" min="75"				/>
 		<slashing_resistance_perc		type="base"	min="0.14"				/>
 		<piercing_resistance_perc		type="base"	min="0.06"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.06"				/>
 		<rending_resistance_perc		type="base" min="0.14"				/>
 		<elemental_resistance_perc		type="base" min="0.14"				/>
-		<quen_chance_on_projectile		type="add"	min="0.25"				/>
+		<quen_chance_on_projectile		type="add"	min="0.2"				/>
 	</ability>
 	
 <!-- RELIC MEDIUM -->
-	<ability name="Thyssen armor crafted _Stats"> <!-- q4, lvl 45, 3 slots -->
+	<ability name="Thyssen armor crafted _Stats"> <!-- Thyssen Armor - q4, lvl 15, 3 slots -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="4"					/>
-		<armor							type="base"	min="250"				/>
+		<armor							type="base"	min="100"				/>
 		<slashing_resistance_perc		type="base"	min="0.14"				/>
 		<piercing_resistance_perc		type="base"	min="0.06"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.06"				/>
 		<rending_resistance_perc		type="base" min="0.14"				/>
 		<elemental_resistance_perc		type="base" min="0.14"				/>
 		<poison_resistance_perc			type="base"	min="0.50"				/>
-		<quen_chance_on_projectile		type="add"	min="0.35"				/>
+		<quen_chance_on_projectile		type="add"	min="0.25"				/>
 	</ability>
 	
 	<!-- modSpectre -->
-	<ability name="Oathbreaker armor crafted _Stats"> <!-- Oathbreaker Armor - q4, lvl 46, 3 slots  -->
+	<ability name="Oathbreaker armor crafted _Stats"> <!-- Oathbreaker Armor - q4, lvl 16, 3 slots  -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add"	min="4"		max="4"		/>
-		<armor							type="base"	min="255"				/>
+		<armor							type="base"	min="105"				/>
 		<slashing_resistance_perc		type="base"	min="0.14"				/>
 		<piercing_resistance_perc		type="base"	min="0.06"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.06"				/>
@@ -230,10 +230,10 @@
 	</ability>
 
 <!-- ARMOR HEAVY -->
-	<ability name="Heavy armor 01_crafted _Stats"> <!-- q1, lvl 33 -->
+	<ability name="Heavy armor 01_crafted _Stats"> <!-- Mag Deira Cuirass - q1, lvl 3 -->
 		<weight							type="base"	min="16.0"				/>
 		<quality						type="add"	min="1"					/>
-		<armor							type="base"	min="190"				/>
+		<armor							type="base"	min="40"				/>
 		<slashing_resistance_perc		type="base"	min="0.18"				/>
 		<piercing_resistance_perc		type="base"	min="0.18"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.18"				/>
@@ -242,278 +242,77 @@
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
 	</ability>
 
-	<ability name="Heavy armor 02_crafted _Stats"> <!-- q2, lvl 36, 1 slot -->
+	<ability name="Heavy armor 02_crafted _Stats"> <!-- Ban Ard Breastplate - q2, lvl 6, 1 slot -->
 		<weight							type="base"	min="17.5"				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="205"				/>
+		<armor							type="base"	min="55"				/>
 		<slashing_resistance_perc		type="base"	min="0.22"				/>
 		<piercing_resistance_perc		type="base"	min="0.22"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
 		<rending_resistance_perc		type="base" min="0.22"				/>
 		<elemental_resistance_perc		type="base" min="0.22"				/>
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
-		<vitality 						type="base" min="1250"				/>
+		<vitality 						type="base" min="250"				/>
 	</ability>
 
-	<ability name="Heavy armor 03_crafted _Stats"> <!-- q2, lvl 39, 2 slots -->
+	<ability name="Heavy armor 03_crafted _Stats"> <!-- Nilfgaardian Guardsman Armor - q2, lvl 9, 2 slots -->
 		<weight							type="base"	min="17.5"				/>
 		<quality						type="add"	min="2"					/>
-		<armor							type="base"	min="220"				/>
+		<armor							type="base"	min="70"				/>
 		<slashing_resistance_perc		type="base"	min="0.22"				/>
 		<piercing_resistance_perc		type="base"	min="0.22"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
 		<rending_resistance_perc		type="base" min="0.22"				/>
 		<elemental_resistance_perc		type="base" min="0.22"				/>
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
-		<focus_gain 					type="add"	min="0.20"				/>
+		<focus_gain 					type="add"	min="0.05"				/>
 	</ability>
 
-	<ability name="Heavy armor 04_crafted _Stats"> <!-- q3, lvl 42, 2 slots -->
+	<ability name="Heavy armor 04_crafted _Stats"> <!-- Hindarfjall Heavy Armor - q3, lvl 12, 2 slots -->
 		<weight							type="base"	min="17.5"				/>
 		<quality						type="add"	min="3"					/>
-		<armor							type="base"	min="235"				/>
+		<armor							type="base"	min="85"				/>
 		<slashing_resistance_perc		type="base"	min="0.22"				/>
 		<piercing_resistance_perc		type="base"	min="0.22"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
 		<rending_resistance_perc		type="base" min="0.22"				/>
 		<elemental_resistance_perc		type="base" min="0.22"				/>
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
-		<spell_power_quen				type="mult" min="0.20"				/>
+		<spell_power_quen				type="mult" min="0.1"				/>
 	</ability>
 
-	<ability name="q108 Heavy armor 04_crafted _Stats"> <!-- q4, lvl 24, 3 slots -->
+	<ability name="q108 Heavy armor 04_crafted _Stats"> <!-- Hindarfjall Heavy Armor - q4, lvl 24, 3 slots -->
 		<weight							type="base" min="17.5"				/>
 		<quality 						type="add"	min="4"					/>
-		<armor							type="base"	min="295"				/>
+		<armor							type="base"	min="145"				/>
 		<slashing_resistance_perc		type="base"	min="0.22"				/>
 		<piercing_resistance_perc 		type="base" min="0.22"				/>
 		<bludgeoning_resistance_perc 	type="base" min="0.22"				/>
 		<rending_resistance_perc 		type="base" min="0.22"				/>
 		<elemental_resistance_perc 		type="base" min="0.22"				/>
 		<frost_resistance_perc			type="add"	min="1.0"				/>
-		<vitality 						type="base" min="1400"				/>
+		<vitality 						type="base" min="400"				/>
 		<staminaRegen_armor_mod 		type="mult" min="-0.20"				/>
 	</ability>
 
 <!-- RELIC HEAVY -->
-	<ability name="Relic Heavy 3 armor crafted _Stats"> <!-- q4, lvl 45, 3 slots -->
+	<ability name="Relic Heavy 3 armor crafted _Stats"> <!-- Impera Brigade Armor - q4, lvl 15, 3 slots -->
 		<weight							type="base"	min="17.5"				/>
 		<quality						type="add"	min="4"					/>
-		<armor							type="base"	min="250"				/>
+		<armor							type="base"	min="100"				/>
 		<slashing_resistance_perc		type="base"	min="0.22"				/>
 		<piercing_resistance_perc		type="base"	min="0.22"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
 		<rending_resistance_perc		type="base" min="0.22"				/>
 		<elemental_resistance_perc		type="base" min="0.22"				/>
-		<spell_power_aard				type="mult"	min="0.20"				/>
+		<spell_power_aard				type="mult"	min="0.10"				/>
 		<staminaRegen_armor_mod 		type="mult" min="-0.20"				/>
 	</ability>
 
 <!-- WITCHER ARMOR -->
 	
-<!-- Lynx armor: 30% to attack power + 5% per level, up to 45% attack power bonus -->
-	<ability name="Lynx Armor _Stats"> <!-- lvl 49 -> 47 -->
-		<weight							type="base"	min="5"					/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base" min="260"	max="260"	/>
-		<slashing_resistance_perc		type="base" min="0.08"				/>
-		<piercing_resistance_perc		type="base" min="0.07"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.07"				/>
-		<rending_resistance_perc		type="base" min="0.08"				/>
-		<elemental_resistance_perc		type="base" min="0.08"				/>
-		<attack_power					type="mult"	min="0.30"				/>
-		<staminaRegen_armor_mod			type="mult" min="0.10"				/>
-	</ability>
-	
-	<ability name="Lynx Armor 1 _Stats"> <!-- lvl 55 -> 53 -->
-		<weight							type="base"	min="5"					/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="290"	max="290"	/>
-		<slashing_resistance_perc		type="base" min="0.08"				/>
-		<piercing_resistance_perc		type="base" min="0.07"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.07"				/>
-		<rending_resistance_perc		type="base" min="0.08"				/>
-		<elemental_resistance_perc		type="base" min="0.08"				/>
-		<attack_power					type="mult"	min="0.35"				/>
-		<staminaRegen_armor_mod			type="mult"	min="0.10"				/>
-	</ability>
-
-	<ability name="Lynx Armor 2 _Stats"> <!-- lvl 61 -> 59 -->
-		<weight							type="base"	min="5"					/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="320"	max="320"	/>
-		<slashing_resistance_perc		type="base" min="0.08"				/>
-		<piercing_resistance_perc		type="base" min="0.07"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.07"				/>
-		<rending_resistance_perc		type="base" min="0.08"				/>
-		<elemental_resistance_perc		type="base" min="0.08"				/>
-		<attack_power					type="mult"	min="0.40"				/>
-		<staminaRegen_armor_mod			type="mult"	min="0.10"				/>
-	</ability>
-	
-	<ability name="Lynx Armor 3 _Stats"> <!-- lvl 66 -> 64 -->
-		<weight							type="base"	min="5" 				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="345" 	max="345"	/>
-		<slashing_resistance_perc		type="base" min="0.08"				/>
-		<piercing_resistance_perc		type="base" min="0.07"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.07"				/>
-		<rending_resistance_perc		type="base" min="0.08"				/>
-		<elemental_resistance_perc		type="base" min="0.08"				/>
-		<attack_power					type="mult"	min="0.45"				/>
-		<staminaRegen_armor_mod			type="mult"	min="0.10"				/>
-	</ability>
-
-<!-- Gryphon armor: 30% to spell power + 5% per level, up to 45% spell power bonus -->
-	<ability name="Gryphon Armor _Stats"> <!-- lvl 43 -> 41 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="230"	max="230"	/>
-		<slashing_resistance_perc		type="base" min="0.17"				/>
-		<piercing_resistance_perc		type="base" min="0.09"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>
-		<rending_resistance_perc		type="base" min="0.17"				/>
-		<elemental_resistance_perc		type="base" min="0.17"				/>
-		<spell_power					type="mult"	min="0.30"				/>
-	</ability>
-	
-	<ability name="Gryphon Armor 1 _Stats"> <!-- lvl 50 -> 48 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="265"	max="265"	/>
-		<slashing_resistance_perc		type="base" min="0.17"				/>
-		<piercing_resistance_perc		type="base" min="0.09"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>
-		<rending_resistance_perc		type="base" min="0.17"				/>
-		<elemental_resistance_perc		type="base" min="0.17"				/>
-		<spell_power					type="mult" min="0.35"				/>
-	</ability>
-	
-	<ability name="Gryphon Armor 2 _Stats"> <!-- lvl 58 -> 56 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor 							type="base"	min="305"	max="305"	/>
-		<slashing_resistance_perc		type="base" min="0.17"				/>
-		<piercing_resistance_perc		type="base" min="0.09"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>
-		<rending_resistance_perc		type="base" min="0.17"				/>
-		<elemental_resistance_perc		type="base" min="0.17"				/>
-		<spell_power					type="mult" min="0.40"				/>
-	</ability>
-	
-	<ability name="Gryphon Armor 3 _Stats"> <!-- lvl 66 -> 64 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5" 	max="5"		/>
-		<armor							type="base"	min="345"	max="345"	/>
-		<slashing_resistance_perc		type="base" min="0.17"				/>
-		<piercing_resistance_perc		type="base" min="0.09"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>
-		<rending_resistance_perc		type="base" min="0.17"				/>
-		<elemental_resistance_perc		type="base" min="0.17"				/>
-		<spell_power 					type="mult"	min="0.45"				/>
-	</ability>
-
-<!-- Bear armor: 30% to focus gain + 5% per level, up to 45% focus gain bonus -->
-	<ability name="Bear Armor _Stats"> <!-- lvl 52 -> 50 -->
-		<weight							type="base"	min="15"				/>
-		<quality						type="add" 	min="5" 	max="5"		/>
-		<armor							type="base"	min="275"	max="275"	/>
-		<slashing_resistance_perc		type="base" min="0.22"				/>
-		<piercing_resistance_perc		type="base" min="0.22"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
-		<rending_resistance_perc		type="base" min="0.22"				/>
-		<elemental_resistance_perc		type="base" min="0.22"				/>
-		<focus_gain 					type="base" min="0.30" 				/>
-		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
-	</ability>
-	
-	<ability name="Bear Armor 1 _Stats"> <!-- lvl 57 -> 55 -->
-		<weight							type="base"	min="15"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="300"	max="300"	/>
-		<slashing_resistance_perc		type="base" min="0.22"				/>
-		<piercing_resistance_perc		type="base" min="0.22"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
-		<rending_resistance_perc		type="base" min="0.22"				/>
-		<elemental_resistance_perc		type="base" min="0.22"				/>
-		<focus_gain 					type="base" min="0.35" 				/>
-		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
-	</ability>
-	
-	<ability name="Bear Armor 2 _Stats"> <!-- lvl 62 -> 60 -->
-		<weight							type="base"	min="15"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base" min="325"	max="325"	/>
-		<slashing_resistance_perc		type="base" min="0.22"				/>
-		<piercing_resistance_perc		type="base" min="0.22"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
-		<rending_resistance_perc		type="base" min="0.22"				/>
-		<elemental_resistance_perc		type="base" min="0.22"				/>
-		<focus_gain 					type="base" min="0.40" 				/>
-		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
-	</ability>
-	
-	<ability name="Bear Armor 3 _Stats"> <!-- lvl 66 -> 64 -->
-		<weight							type="base"	min="15"				/>
-		<quality						type="add"	min="5" 	max="5"		/>
-		<armor							type="base"	min="345"	max="345"	/>
-		<slashing_resistance_perc		type="base" min="0.22"				/>
-		<piercing_resistance_perc		type="base" min="0.22"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.22"				/>
-		<rending_resistance_perc		type="base" min="0.22"				/>
-		<elemental_resistance_perc		type="base" min="0.22"				/>
-		<focus_gain 					type="base" min="0.45" 				/>
-		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
-	</ability>
-	
-<!-- modSpectre: Kaer Morhen Armor -->
-	<ability name="Kaer Morhen Armor _Stats"> <!-- lvl 32 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="185"	max="185"	/>
-		<slashing_resistance_perc		type="base" min="0.2"				/>
-		<piercing_resistance_perc		type="base" min="0.1"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.1"				/>
-		<rending_resistance_perc		type="base" min="0.2"				/>
-		<elemental_resistance_perc		type="base" min="0.2"				/>
-	</ability>
-	
-	<ability name="Kaer Morhen Armor 1 _Stats"> <!-- lvl 39 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="220"	max="220"	/>
-		<slashing_resistance_perc		type="base" min="0.2"				/>
-		<piercing_resistance_perc		type="base" min="0.1"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.1"				/>
-		<rending_resistance_perc		type="base" min="0.2"				/>
-		<elemental_resistance_perc		type="base" min="0.2"				/>
-	</ability>
-	
-	<ability name="Kaer Morhen Armor 2 _Stats"> <!-- lvl 49 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5"		max="5"		/>
-		<armor 							type="base"	min="270"	max="270"	/>
-		<slashing_resistance_perc		type="base" min="0.2"				/>
-		<piercing_resistance_perc		type="base" min="0.1"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.1"				/>
-		<rending_resistance_perc		type="base" min="0.2"				/>
-		<elemental_resistance_perc		type="base" min="0.2"				/>
-	</ability>
-	
-	<ability name="Kaer Morhen Armor 3 _Stats"> <!-- lvl 57 -->
-		<weight							type="base"	min="10"				/>
-		<quality						type="add"	min="5" 	max="5"		/>
-		<armor							type="base"	min="310"	max="310"	/>
-		<slashing_resistance_perc		type="base" min="0.2"				/>
-		<piercing_resistance_perc		type="base" min="0.1"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.1"				/>
-		<rending_resistance_perc		type="base" min="0.2"				/>
-		<elemental_resistance_perc		type="base" min="0.2"				/>
-	</ability>
-
-<!-- Base Game Lynx armor -->
 <!-- Lynx armor: 10% to attack power + 5% per level, up to 25% attack power bonus -->
-	<ability name="Base Lynx Armor _Stats"> <!-- lvl 19 -> 17 -->
+	<ability name="Lynx Armor _Stats"> <!-- lvl 19 -> 17 -->
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base" min="110"	max="110"	/>
@@ -526,7 +325,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.10"				/>
 	</ability>
 	
-	<ability name="Base Lynx Armor 1 _Stats"> <!-- lvl 25 -> 23 -->
+	<ability name="Lynx Armor 1 _Stats"> <!-- lvl 25 -> 23 -->
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="140"	max="140"	/>
@@ -539,7 +338,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.10"				/>
 	</ability>
 
-	<ability name="Base Lynx Armor 2 _Stats"> <!-- lvl 31 -> 29 -->
+	<ability name="Lynx Armor 2 _Stats"> <!-- lvl 31 -> 29 -->
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="170"	max="170"	/>
@@ -552,7 +351,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.10"				/>
 	</ability>
 	
-	<ability name="Base Lynx Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
+	<ability name="Lynx Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
 		<weight							type="base"	min="5" 				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="195" 	max="195"	/>
@@ -566,7 +365,7 @@
 	</ability>
 
 <!-- Gryphon armor: 10% to spell power + 5% per level, up to 25% spell power bonus -->
-	<ability name="Base Gryphon Armor _Stats"> <!-- lvl 13 -> 11 -->
+	<ability name="Gryphon Armor _Stats"> <!-- lvl 13 -> 11 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="80"	max="80"	/>
@@ -578,7 +377,7 @@
 		<spell_power					type="mult"	min="0.10"				/>
 	</ability>
 	
-	<ability name="Base Gryphon Armor 1 _Stats"> <!-- lvl 20 -> 18 -->
+	<ability name="Gryphon Armor 1 _Stats"> <!-- lvl 20 -> 18 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="115"	max="115"	/>
@@ -590,7 +389,7 @@
 		<spell_power					type="mult" min="0.15"				/>
 	</ability>
 	
-	<ability name="Base Gryphon Armor 2 _Stats"> <!-- lvl 28 -> 26 -->
+	<ability name="Gryphon Armor 2 _Stats"> <!-- lvl 28 -> 26 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor 							type="base"	min="155"	max="155"	/>
@@ -602,7 +401,7 @@
 		<spell_power					type="mult" min="0.20"				/>
 	</ability>
 	
-	<ability name="Base Gryphon Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
+	<ability name="Gryphon Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5" 	max="5"		/>
 		<armor							type="base"	min="195"	max="195"	/>
@@ -615,7 +414,7 @@
 	</ability>
 
 <!-- Bear armor: 10% to focus gain + 5% per level, up to 25% focus gain bonus -->
-	<ability name="Base Bear Armor _Stats"> <!-- lvl 22 -> 20 -->
+	<ability name="Bear Armor _Stats"> <!-- lvl 22 -> 20 -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add" 	min="5" 	max="5"		/>
 		<armor							type="base"	min="125"	max="125"	/>
@@ -628,7 +427,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
 	</ability>
 	
-	<ability name="Base Bear Armor 1 _Stats"> <!-- lvl 27 -> 25 -->
+	<ability name="Bear Armor 1 _Stats"> <!-- lvl 27 -> 25 -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="150"	max="150"	/>
@@ -641,7 +440,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
 	</ability>
 	
-	<ability name="Base Bear Armor 2 _Stats"> <!-- lvl 32 -> 30 -->
+	<ability name="Bear Armor 2 _Stats"> <!-- lvl 32 -> 30 -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base" min="175"	max="175"	/>
@@ -654,7 +453,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
 	</ability>
 	
-	<ability name="Base Bear Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
+	<ability name="Bear Armor 3 _Stats"> <!-- lvl 36 -> 34 -->
 		<weight							type="base"	min="15"				/>
 		<quality						type="add"	min="5" 	max="5"		/>
 		<armor							type="base"	min="195"	max="195"	/>
@@ -666,9 +465,9 @@
 		<focus_gain 					type="base" min="0.25" 				/>
 		<staminaRegen_armor_mod			type="mult" min="-0.20"				/>			
 	</ability>
-
+	
 <!-- modSpectre: Kaer Morhen Armor -->
-	<ability name="Base Kaer Morhen Armor _Stats"> <!-- lvl 2 -->
+	<ability name="Kaer Morhen Armor _Stats"> <!-- lvl 2 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="35"	max="35"	/>
@@ -679,7 +478,7 @@
 		<elemental_resistance_perc		type="base" min="0.14"				/>
 	</ability>
 	
-	<ability name="Base Kaer Morhen Armor 1 _Stats"> <!-- lvl 9 -->
+	<ability name="Kaer Morhen Armor 1 _Stats"> <!-- lvl 9 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor							type="base"	min="70"	max="70"	/>
@@ -690,7 +489,7 @@
 		<elemental_resistance_perc		type="base" min="0.16"				/>
 	</ability>
 	
-	<ability name="Base Kaer Morhen Armor 2 _Stats"> <!-- lvl 19 -->
+	<ability name="Kaer Morhen Armor 2 _Stats"> <!-- lvl 19 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5"		max="5"		/>
 		<armor 							type="base"	min="120"	max="120"	/>
@@ -701,7 +500,7 @@
 		<elemental_resistance_perc		type="base" min="0.18"				/>
 	</ability>
 	
-	<ability name="Base Kaer Morhen Armor 3 _Stats"> <!-- lvl 27 -->
+	<ability name="Kaer Morhen Armor 3 _Stats"> <!-- lvl 27 -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="5" 	max="5"		/>
 		<armor							type="base"	min="160"	max="160"	/>
@@ -891,7 +690,7 @@
 		</variants>
 	</item>
 
-<!-- Light armor 5 -->
+	<!-- Light armor 5 -->
 	<item
 		name							="Light armor 05_crafted"
 		category						="armor"
@@ -1328,7 +1127,7 @@
 		<variants>						<variant equip_template="t_02a_mg__common_medium_lvl2" category="gloves"></variant>
 		</variants>
 	</item>
-	
+
 <!-- modSpectre: Oathbreaker armor - medium relic armor -->
 
 	<item
@@ -1399,7 +1198,7 @@
 		price							="375"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1408,7 +1207,7 @@
 		localisation_key_description	="item_category_light_armor_description"
 		icon_path						="icons/inventory/armors/lynx_armor_64x128.png"
 	>
-		<tags>							Armor, LightArmor, LynxSet, mod_armor, DoNotEnhance, mod_legendary, Sleevless, SetBonusPiece
+		<tags>							Armor,LightArmor,LynxSetMinor, mod_armor, DoNotEnhance, mod_legendary, Sleevless, SetBonusPiece
 		</tags>
 		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
 										<parts count="1">Hardened leather</parts>
@@ -1427,7 +1226,7 @@
 		price							="852"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="2"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1436,7 +1235,7 @@
 		localisation_key_description	="item_category_light_armor_description"
 		icon_path						="icons/inventory/armors/lynx_armor_1_64x128.png"
 	>
-		<tags>							Armor, LightArmor, LynxSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, LightArmor, LynxSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Lynx Armor 1 _Stats</a>
@@ -1465,7 +1264,7 @@
 		localisation_key_description	="item_category_light_armor_description"
 		icon_path						="icons/inventory/armors/lynx_armor_2_64x128.png"
 	>
-		<tags>							Armor, LightArmor,LynxSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, LightArmor,LynxSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Lynx Armor 2 _Stats</a>
@@ -1494,7 +1293,7 @@
 		localisation_key_description	="item_category_light_armor_description"
 		icon_path						="icons/inventory/armors/lynx_armor_3_64x128.png"
 	>
-		<tags>							Armor, LightArmor, LynxSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, LightArmor, LynxSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Lynx Armor 3 _Stats</a>
@@ -1514,7 +1313,7 @@
 		price							="565"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1523,7 +1322,7 @@
 		localisation_key_description	="item_category_medium_armor_description"
 		icon_path						="icons/inventory/armors/gryphon_armor_64x128.png"
 	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, MediumArmor, GryphonSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Gryphon Armor _Stats</a>
@@ -1544,7 +1343,7 @@
 		price							="865"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="2"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1553,7 +1352,7 @@
 		localisation_key_description	="item_category_medium_armor_description"
 		icon_path						="icons/inventory/armors/gryphon_armor_1_64x128.png"
 	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, MediumArmor, GryphonSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Gryphon Armor 1 _Stats</a>
@@ -1584,7 +1383,7 @@
 		localisation_key_description	="item_category_medium_armor_description"
 		icon_path						="icons/inventory/armors/gryphon_armor_2_64x128.png"
 	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, MediumArmor, GryphonSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Gryphon Armor 2 _Stats</a>
@@ -1615,7 +1414,7 @@
 		localisation_key_description	="item_category_medium_armor_description"
 		icon_path						="icons/inventory/armors/gryphon_armor_3_64x128.png"
 	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor, MediumArmor, GryphonSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>
 										<a>Default armor _Stats</a>
@@ -1638,7 +1437,7 @@
 		price							="1195"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1647,7 +1446,7 @@
 		localisation_key_description	="item_category_heavy_armor_description"
 		icon_path						="icons/inventory/armors/bear_armor_64x128.png"
 	>
-		<tags>							Armor ,HeavyArmor, BearSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor,HeavyArmor,BearSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Bear Armor _Stats</a>
@@ -1668,7 +1467,7 @@
 		price							="1851"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="2"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1677,7 +1476,7 @@
 		localisation_key_description	="item_category_heavy_armor_description"
 		icon_path						="icons/inventory/armors/bear_armor_1_64x128.png"
 	>
-		<tags>							Armor, HeavyArmor, BearSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor,HeavyArmor,BearSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Bear Armor 1 _Stats</a>
@@ -1708,7 +1507,7 @@
 		localisation_key_description	="item_category_heavy_armor_description"
 		icon_path						="icons/inventory/armors/bear_armor_2_64x128.png"
 	>
-		<tags>							Armor, HeavyArmor, BearSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor,HeavyArmor,BearSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>		
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Bear Armor 2 _Stats</a>
@@ -1738,7 +1537,7 @@
 		localisation_key_description	="item_category_heavy_armor_description"
 		icon_path						="icons/inventory/armors/bear_armor_3_64x128.png"
 	>
-		<tags>							Armor, HeavyArmor, BearSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
+		<tags>							Armor,HeavyArmor,BearSetMinor, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
 		</tags>
 		<base_abilities>				<a>Default armor _Stats</a>
 										<a>Bear Armor 3 _Stats</a>
@@ -1759,7 +1558,7 @@
 		price							="150"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="0"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1788,7 +1587,7 @@
 		price							="450"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1817,7 +1616,7 @@
 		price							="1000"
 		initial_durability				="100"
 		max_durability					="100" 
-		enhancement_slots				="3"
+		enhancement_slots				="2"
 		stackable						="1"
 		grid_size						="2"
 		ability_mode					="OnMount"
@@ -1860,483 +1659,6 @@
 		<base_abilities>
 										<a>Default armor _Stats</a>
 										<a>Kaer Morhen Armor 3 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silk</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__viper_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- BASE ARMOR CRAFTED WITCHER LYNX -->
-	<item
-		name							="NGP Lynx Armor"
-		category						="armor"
-		price							="375"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="1"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__lynx_lvl1"
-		localisation_key_name			="item_name_lynx_armor"
-		localisation_key_description	="item_category_light_armor_description"
-		icon_path						="icons/inventory/armors/lynx_armor_64x128.png"
-	>
-		<tags>							Armor,LightArmor,LynxSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Lynx Armor _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-		</recycling_parts>
-		<variants>						<!-- this armor does not have arms, no variants needed -->
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Lynx Armor 1"
-		category						="armor"
-		price							="852"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="2"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__lynx_lvl2"
-		localisation_key_name			="item_name_lynx_armor_1"
-		localisation_key_description	="item_category_light_armor_description"
-		icon_path						="icons/inventory/armors/lynx_armor_1_64x128.png"
-	>
-		<tags>							Armor, LightArmor, LynxSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Lynx Armor 1 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Chitin scale</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__lynx_lvl2" category="gloves"></variant>	
-		</variants>
-	</item>
-
-<!-- Upgrade -->
-	<item
-		name							="NGP Lynx Armor 2"
-		category						="armor"
-		price							="1798"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__lynx_lvl3"
-		localisation_key_name			="item_name_lynx_armor_2"
-		localisation_key_description	="item_category_light_armor_description"
-		icon_path						="icons/inventory/armors/lynx_armor_2_64x128.png"
-	>
-		<tags>							Armor, LightArmor,LynxSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Lynx Armor 2 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__lynx_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- Upgrade -->
-	<item
-		name							="NGP Lynx Armor 3"
-		category						="armor"
-		price							="2937"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__lynx_lvl4"
-		localisation_key_name			="item_name_lynx_armor_3"
-		localisation_key_description	="item_category_light_armor_description"
-		icon_path						="icons/inventory/armors/lynx_armor_3_64x128.png"
-	>
-		<tags>							Armor, LightArmor, LynxSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Lynx Armor 3 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__lynx_lvl4" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- WITCHER GRYPHON -->
-	<item
-		name							="NGP Gryphon Armor"
-		category						="armor"
-		price							="565"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="1"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__gryphon_lvl1"
-		localisation_key_name			="item_name_gryphon_armor"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/gryphon_armor_64x128.png"
-	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Gryphon Armor _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silver ingot</parts>
-										<parts count="1">Monstrous hide</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__gryphon_lvl1" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Gryphon Armor 1"
-		category						="armor"
-		price							="865"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="2"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__gryphon_lvl2"
-		localisation_key_name			="item_name_gryphon_armor_1"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/gryphon_armor_1_64x128.png"
-	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Gryphon Armor 1 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silver ingot</parts>
-										<parts count="1">Meteorite ingot</parts>
-										<parts count="1">Monstrous hide</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__gryphon_lvl2" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Gryphon Armor 2"
-		category						="armor"
-		price							="1875"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__gryphon_lvl3"
-		localisation_key_name			="item_name_gryphon_armor_2"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/gryphon_armor_2_64x128.png"
-	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Gryphon Armor 2 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Glowing ingot</parts>
-										<parts count="1">Meteorite ingot</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__gryphon_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- Upgrade -->
-	<item
-		name							="NGP Gryphon Armor 3"
-		category						="armor"
-		price							="3193"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__gryphon_lvl4"
-		localisation_key_name			="item_name_gryphon_armor_3"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/gryphon_armor_3_64x128.png"
-	>
-		<tags>							Armor, MediumArmor, GryphonSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>
-										<a>Default armor _Stats</a>
-										<a>Base Gryphon Armor 3 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Dwimeryte ingot</parts>
-										<parts count="1">Meteorite ingot</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__gryphon_lvl4" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- WITCHER BEAR -->
-	<item
-		name							="NGP Bear Armor"
-		category						="armor"
-		price							="1195"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="1"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__bear_lvl1"
-		localisation_key_name			="item_name_bear_armor"
-		localisation_key_description	="item_category_heavy_armor_description"
-		icon_path						="icons/inventory/armors/bear_armor_64x128.png"
-	>
-		<tags>							Armor,HeavyArmor,BearSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Bear Armor _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silver plate</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__bear_lvl1" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Bear Armor 1"
-		category						="armor"
-		price							="1851"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="2"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__bear_lvl2"
-		localisation_key_name			="item_name_bear_armor_1"
-		localisation_key_description	="item_category_heavy_armor_description"
-		icon_path						="icons/inventory/armors/bear_armor_1_64x128.png"
-	>
-		<tags>							Armor,HeavyArmor,BearSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Bear Armor 1 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silver plate</parts>
-										<parts count="1">Meteorite plate</parts>
-										<parts count="1">Draconide leather</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__bear_lvl2" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- Upgrade -->
-	<item
-		name							="NGP Bear Armor 2"
-		category						="armor"
-		price							="3081"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__bear_lvl3"
-		localisation_key_name			="item_name_bear_armor_2"
-		localisation_key_description	="item_category_heavy_armor_description"
-		icon_path						="icons/inventory/armors/bear_armor_2_64x128.png"
-	>
-		<tags>							Armor,HeavyArmor,BearSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>		
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Bear Armor 2 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Meteorite silver plate</parts>
-										<parts count="1">Monstrous plate</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__bear_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Bear Armor 3"
-		category						="armor"
-		price							="4908"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__bear_lvl4"
-		localisation_key_name			="item_name_bear_armor_3"
-		localisation_key_description	="item_category_heavy_armor_description"
-		icon_path						="icons/inventory/armors/bear_armor_3_64x128.png"
-	>
-		<tags>							Armor,HeavyArmor,BearSet, mod_armor, DoNotEnhance, mod_legendary
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Bear Armor 3 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Dwimeryte plate</parts>
-										<parts count="1">Monstrous plate</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__bear_lvl4" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- modSpectre: Kaer Morhen Armor -->
-	<item
-		name							="NGP Kaer Morhen Armor"
-		category						="armor"
-		price							="150"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="0"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__viper_lvl3"
-		localisation_key_name			="item_name_kaer_morhen_armor"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/armor-01.png"
-	>
-		<tags>							Armor, MediumArmor, KaerMorhenSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Kaer Morhen Armor _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Leather squares</parts>
-										<parts count="1">Linen</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__viper_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Kaer Morhen Armor 1"
-		category						="armor"
-		price							="450"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="1"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__viper_lvl3"
-		localisation_key_name			="item_name_kaer_morhen_armor_1"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/armor-01.png"
-	>
-		<tags>							Armor, MediumArmor, KaerMorhenSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Kaer Morhen Armor 1 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Leather</parts>
-										<parts count="1">Linen</parts>
-		</recycling_parts>
-		<variants>						<variant equip_template="t_01a_mg__viper_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-	
-<!-- Upgrade -->
-	<item
-		name							="NGP Kaer Morhen Armor 2"
-		category						="armor"
-		price							="1000"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="2"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__viper_lvl3"
-		localisation_key_name			="item_name_kaer_morhen_armor_2"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/armor-01.png"
-	>
-		<tags>							Armor, MediumArmor, KaerMorhenSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
-		</tags>
-		<base_abilities>				<a>Default armor _Stats</a>
-										<a>Base Kaer Morhen Armor 2 _Stats</a>
-		</base_abilities>
-		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
-										<parts count="1">Hardened leather</parts>
-										<parts count="1">Silk</parts>
-		</recycling_parts> 				
-		<variants>						<variant equip_template="t_01a_mg__viper_lvl3" category="gloves"></variant>
-		</variants>
-	</item>
-
-<!-- Upgrade -->
-	<item
-		name							="NGP Kaer Morhen Armor 3"
-		category						="armor"
-		price							="1700"
-		initial_durability				="100"
-		max_durability					="100" 
-		enhancement_slots				="3"
-		stackable						="1"
-		grid_size						="2"
-		ability_mode					="OnMount"
-		equip_template					="t_01_mg__viper_lvl3"
-		localisation_key_name			="item_name_kaer_morhen_armor_3"
-		localisation_key_description	="item_category_medium_armor_description"
-		icon_path						="icons/inventory/armors/armor-01.png"
-	>
-		<tags>							Armor, MediumArmor, KaerMorhenSet, mod_armor, DoNotEnhance, mod_legendary, SetBonusPiece
-		</tags>
-		<base_abilities>
-										<a>Default armor _Stats</a>
-										<a>Base Kaer Morhen Armor 3 _Stats</a>
 		</base_abilities>
 		<recycling_parts>				<parts count="1">Geralt Shirt</parts>
 										<parts count="1">Hardened leather</parts>

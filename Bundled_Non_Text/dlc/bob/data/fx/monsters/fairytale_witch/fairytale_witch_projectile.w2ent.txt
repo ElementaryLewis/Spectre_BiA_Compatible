@@ -1,776 +1,776 @@
-fairytale_witch_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
-fairytale_witch_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-fairytale_witch_projectile.w2ent:            properOverrides (Bool) : true
-fairytale_witch_projectile.w2ent:            entityClass (CName) : PoisonProjectile
-fairytale_witch_projectile.w2ent:            entityObject (ptr:CEntity) : PoisonProjectile #1
-fairytale_witch_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-fairytale_witch_projectile.w2ent:                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
-fairytale_witch_projectile.w2ent:                    PoisonProjectile (PoisonProjectile) : PreviewEntity
-fairytale_witch_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        streamingDistance (Uint8) : 0
-fairytale_witch_projectile.w2ent:                        name (String) : "PreviewEntity"
-fairytale_witch_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-fairytale_witch_projectile.w2ent:                            0 (ptr:CComponent) : CEffectDummyComponent #1
-fairytale_witch_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
-fairytale_witch_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-fairytale_witch_projectile.w2ent:                            0 (SEntityBufferType1) : 
-fairytale_witch_projectile.w2ent:                                ComponentName (CName) : 
-fairytale_witch_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-fairytale_witch_projectile.w2ent:                        idTag (IdTag) :  44a1575b-4f4a-47f1-8959-98f252a0556e
-fairytale_witch_projectile.w2ent:                        displayName (LocalizedString) : 1214062
-fairytale_witch_projectile.w2ent:                        radius (Float) : 0.3000
-fairytale_witch_projectile.w2ent:                        projSpeed (Float) : 19.0000
-fairytale_witch_projectile.w2ent:                        projAngle (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                        projDMG (Float) : 500.0000
-fairytale_witch_projectile.w2ent:                        initFxName (CName) : venom
-fairytale_witch_projectile.w2ent:                        onCollisionFxName (CName) : venom_hit
-fairytale_witch_projectile.w2ent:                        spawnEntityOnGround (Bool) : true
-fairytale_witch_projectile.w2ent:                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_poison_area.w2ent
-fairytale_witch_projectile.w2ent:                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-fairytale_witch_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        name (String) : "CEffectDummyComponent0"
-fairytale_witch_projectile.w2ent:                        graphPositionX (Int16) : 192
-fairytale_witch_projectile.w2ent:                        graphPositionY (Int16) : 287
-fairytale_witch_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-fairytale_witch_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-fairytale_witch_projectile.w2ent:                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-fairytale_witch_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
-fairytale_witch_projectile.w2ent:                        isStreamed (Bool) : false
-fairytale_witch_projectile.w2ent:                        graphPositionX (Int16) : 191
-fairytale_witch_projectile.w2ent:                        graphPositionY (Int16) : 217
-fairytale_witch_projectile.w2ent:                        banksDependency (array:CName) : # array:CName
-fairytale_witch_projectile.w2ent:                            0 (CName) : monster_fairytale_witch.bnk
-fairytale_witch_projectile.w2ent:                        maxDistance (Float) : 50.0000
-fairytale_witch_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-fairytale_witch_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : venom
-fairytale_witch_projectile.w2ent:                    name (CName) : venom
-fairytale_witch_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-fairytale_witch_projectile.w2ent:                        Bufferdata (CByteArray) : 3103 bytes, MD5: fba9c140cb921ff2977cf325b217be8c
-fairytale_witch_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom
-fairytale_witch_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom
-fairytale_witch_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #10
-fairytale_witch_projectile.w2ent:                                length (Float) : 2.8192
-fairytale_witch_projectile.w2ent:                                loopStart (Float) : 0.1589
-fairytale_witch_projectile.w2ent:                                loopEnd (Float) : 0.2359
-fairytale_witch_projectile.w2ent:                                name (CName) : venom
-fairytale_witch_projectile.w2ent:                                showDistance (Float) : 44.0000
-fairytale_witch_projectile.w2ent:                                isLooped (Bool) : true
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-fairytale_witch_projectile.w2ent:                                name (String) : "light"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 205
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 206
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 136
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-fairytale_witch_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0026
-fairytale_witch_projectile.w2ent:                                buffername (CName) : DynamicLight
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 2
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        1 (Float) : 1.1526
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 2.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.7864
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.3573
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                color (Color) : <Color>color
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 255
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 184
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 69
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 255
-fairytale_witch_projectile.w2ent:                                radius (Float) : 3.0000
-fairytale_witch_projectile.w2ent:                                brightness (Float) : 4.0000
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                                attach (Bool) : true
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                                name (String) : "audio"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 205
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 221
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 139
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #8
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #9
-fairytale_witch_projectile.w2ent:                                name (String) : "sfx"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0024
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #8 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.2471
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #9 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.1100
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                stopFadeTime (Float) : 99.0000
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                                useDistanceParameter (Bool) : true
-fairytale_witch_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 3.0000
-fairytale_witch_projectile.w2ent:                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #10 (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                                name (String) : "fx"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #11
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #14
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #15
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 208
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 197
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 209
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #11 (CFXTrack) : 3
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
-fairytale_witch_projectile.w2ent:                                name (String) : "3"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
-fairytale_witch_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0054
-fairytale_witch_projectile.w2ent:                                timeDuration (Float) : 2.8273
-fairytale_witch_projectile.w2ent:                                buffername (CName) : Particles
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 3
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_acid_projectile.w2p
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                                copyRotation (Bool) : false
-fairytale_witch_projectile.w2ent:                                attach (Bool) : true
-fairytale_witch_projectile.w2ent:                        CFXTrack #14 (CFXTrack) : dasd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : dasd
-fairytale_witch_projectile.w2ent:                                name (String) : "dasd"
-fairytale_witch_projectile.w2ent:                        CFXTrack #15 (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : venom_hit
-fairytale_witch_projectile.w2ent:                    name (CName) : venom_hit
-fairytale_witch_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-fairytale_witch_projectile.w2ent:                        Bufferdata (CByteArray) : 2648 bytes, MD5: f858ca7c3dcd44bd896a3357a6b8ac81
-fairytale_witch_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_hit
-fairytale_witch_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_hit
-fairytale_witch_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
-fairytale_witch_projectile.w2ent:                                length (Float) : 2.9774
-fairytale_witch_projectile.w2ent:                                loopStart (Float) : 0.0987
-fairytale_witch_projectile.w2ent:                                loopEnd (Float) : 0.1791
-fairytale_witch_projectile.w2ent:                                name (CName) : venom_hit
-fairytale_witch_projectile.w2ent:                                showDistance (Float) : 55.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-fairytale_witch_projectile.w2ent:                                name (String) : "light"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 185
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 128
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 158
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : ads
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : ads
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-fairytale_witch_projectile.w2ent:                                name (String) : "ads"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-fairytale_witch_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0028
-fairytale_witch_projectile.w2ent:                                buffername (CName) : DynamicLight
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 2
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        1 (Float) : 2.5536
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 7.5042
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 3.4491
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                color (Color) : <Color>color
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 255
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 184
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 69
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 255
-fairytale_witch_projectile.w2ent:                                radius (Float) : 12.0000
-fairytale_witch_projectile.w2ent:                                brightness (Float) : 8.0000
-fairytale_witch_projectile.w2ent:                                autoHideDistance (Float) : 45.0000
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                                copyRotation (Bool) : false
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                                name (String) : "audio"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 151
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 161
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 254
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
-fairytale_witch_projectile.w2ent:                                name (String) : "sfx"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0056
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_hit
-fairytale_witch_projectile.w2ent:                                stopFadeTime (Float) : 99.0000
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : asd
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 155
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 150
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 164
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #9 (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #10
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemParticles #10 (CFXTrackItemParticles) : Particles
-fairytale_witch_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : -0.0032
-fairytale_witch_projectile.w2ent:                                timeDuration (Float) : 2.8847
-fairytale_witch_projectile.w2ent:                                buffername (CName) : Particles
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 3
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        1 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.5000
-fairytale_witch_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/fairytale_witch/witch_acid_exp.w2p
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #11
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #11 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                2 (CEntityTemplateCookedEffect) : venom_copy
-fairytale_witch_projectile.w2ent:                    name (CName) : venom_copy
-fairytale_witch_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-fairytale_witch_projectile.w2ent:                        Bufferdata (CByteArray) : 2385 bytes, MD5: 8e13e6e92583e048dbe6a17b519338d4
-fairytale_witch_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy
-fairytale_witch_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy
-fairytale_witch_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
-fairytale_witch_projectile.w2ent:                                length (Float) : 2.3090
-fairytale_witch_projectile.w2ent:                                loopStart (Float) : 0.1258
-fairytale_witch_projectile.w2ent:                                loopEnd (Float) : 0.2359
-fairytale_witch_projectile.w2ent:                                name (CName) : venom_copy
-fairytale_witch_projectile.w2ent:                                isLooped (Bool) : true
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                                name (String) : "audio"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 169
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 235
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 127
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
-fairytale_witch_projectile.w2ent:                                name (String) : "sfx"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0024
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.2463
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.1105
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                stopFadeTime (Float) : 99.0000
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                                useDistanceParameter (Bool) : true
-fairytale_witch_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 3.0000
-fairytale_witch_projectile.w2ent:                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                                name (String) : "fx"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 208
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 197
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 209
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #7 (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
-fairytale_witch_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0044
-fairytale_witch_projectile.w2ent:                                timeDuration (Float) : 2.8273
-fairytale_witch_projectile.w2ent:                                buffername (CName) : Particles
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 3
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.5011
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                                copyRotation (Bool) : false
-fairytale_witch_projectile.w2ent:                                attach (Bool) : true
-fairytale_witch_projectile.w2ent:                3 (CEntityTemplateCookedEffect) : venom_copy_small
-fairytale_witch_projectile.w2ent:                    name (CName) : venom_copy_small
-fairytale_witch_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-fairytale_witch_projectile.w2ent:                        Bufferdata (CByteArray) : 2399 bytes, MD5: 34d3d61d9e76d6f11da0c87df81adc00
-fairytale_witch_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
-fairytale_witch_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy_small
-fairytale_witch_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
-fairytale_witch_projectile.w2ent:                                length (Float) : 2.3090
-fairytale_witch_projectile.w2ent:                                loopStart (Float) : 0.1258
-fairytale_witch_projectile.w2ent:                                loopEnd (Float) : 0.2359
-fairytale_witch_projectile.w2ent:                                name (CName) : venom_copy_small
-fairytale_witch_projectile.w2ent:                                isLooped (Bool) : true
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-fairytale_witch_projectile.w2ent:                                name (String) : "audio"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 250
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 169
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 222
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-fairytale_witch_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-fairytale_witch_projectile.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
-fairytale_witch_projectile.w2ent:                                name (String) : "sfx"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0032
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.2479
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
-fairytale_witch_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0927
-fairytale_witch_projectile.w2ent:                                buffername (CName) : 
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 0
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 0
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-fairytale_witch_projectile.w2ent:                                stopFadeTime (Float) : 99.0000
-fairytale_witch_projectile.w2ent:                                maxDistance (Float) : 40.0000
-fairytale_witch_projectile.w2ent:                                useDistanceParameter (Bool) : true
-fairytale_witch_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 3.0000
-fairytale_witch_projectile.w2ent:                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
-fairytale_witch_projectile.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-fairytale_witch_projectile.w2ent:                                name (String) : "fx"
-fairytale_witch_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
-fairytale_witch_projectile.w2ent:                                isExpanded (Bool) : true
-fairytale_witch_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-fairytale_witch_projectile.w2ent:                                    Red (Uint8) : 208
-fairytale_witch_projectile.w2ent:                                    Green (Uint8) : 197
-fairytale_witch_projectile.w2ent:                                    Blue (Uint8) : 209
-fairytale_witch_projectile.w2ent:                                    Alpha (Uint8) : 100
-fairytale_witch_projectile.w2ent:                        CFXTrack #7 (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-fairytale_witch_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-fairytale_witch_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
-fairytale_witch_projectile.w2ent:                                name (String) : "asd"
-fairytale_witch_projectile.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
-fairytale_witch_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-fairytale_witch_projectile.w2ent:                                timeBegin (Float) : 0.0044
-fairytale_witch_projectile.w2ent:                                timeDuration (Float) : 2.8273
-fairytale_witch_projectile.w2ent:                                buffername (CName) : Particles
-fairytale_witch_projectile.w2ent:                                count (CDynamicInt) : 3
-fairytale_witch_projectile.w2ent:                                unk (Uint8) : 1
-fairytale_witch_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-fairytale_witch_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 0.5011
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 0.0000
-fairytale_witch_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-fairytale_witch_projectile.w2ent:                                        0 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        2 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        3 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        4 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        5 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        6 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        7 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        8 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        9 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        10 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        11 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        12 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        13 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        14 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                        15 (Float) : 1.0000
-fairytale_witch_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
-fairytale_witch_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
-fairytale_witch_projectile.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-fairytale_witch_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:                                copyRotation (Bool) : false
-fairytale_witch_projectile.w2ent:                                attach (Bool) : true
-fairytale_witch_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
-fairytale_witch_projectile.w2ent:            Unk1 (Uint32) : 0
-fairytale_witch_projectile.w2ent:    PoisonProjectile #1 (PoisonProjectile) : venom
-fairytale_witch_projectile.w2ent:        PoisonProjectile (PoisonProjectile) : 
-fairytale_witch_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            streamingDistance (Uint8) : 0
-fairytale_witch_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-fairytale_witch_projectile.w2ent:                0 (ptr:CComponent) : CEffectDummyComponent #2
-fairytale_witch_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
-fairytale_witch_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-fairytale_witch_projectile.w2ent:                0 (SEntityBufferType1) : 
-fairytale_witch_projectile.w2ent:                    ComponentName (CName) : 
-fairytale_witch_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-fairytale_witch_projectile.w2ent:            idTag (IdTag) :  44a1575b-4f4a-47f1-8959-98f252a0556e
-fairytale_witch_projectile.w2ent:            displayName (LocalizedString) : 1214062
-fairytale_witch_projectile.w2ent:            radius (Float) : 0.3000
-fairytale_witch_projectile.w2ent:            projSpeed (Float) : 19.0000
-fairytale_witch_projectile.w2ent:            projAngle (Float) : 0.0000
-fairytale_witch_projectile.w2ent:            projDMG (Float) : 500.0000
-fairytale_witch_projectile.w2ent:            initFxName (CName) : venom
-fairytale_witch_projectile.w2ent:            onCollisionFxName (CName) : venom_hit
-fairytale_witch_projectile.w2ent:            spawnEntityOnGround (Bool) : true
-fairytale_witch_projectile.w2ent:            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_poison_area.w2ent
-fairytale_witch_projectile.w2ent:    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-fairytale_witch_projectile.w2ent:            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-fairytale_witch_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            name (String) : "CEffectDummyComponent0"
-fairytale_witch_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
-fairytale_witch_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-fairytale_witch_projectile.w2ent:            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-fairytale_witch_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-fairytale_witch_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
-fairytale_witch_projectile.w2ent:            isStreamed (Bool) : false
-fairytale_witch_projectile.w2ent:            banksDependency (array:CName) : # array:CName
-fairytale_witch_projectile.w2ent:                0 (CName) : monster_fairytale_witch.bnk
-fairytale_witch_projectile.w2ent:            maxDistance (Float) : 50.0000
+    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : PoisonProjectile
+            entityObject (ptr:CEntity) : PoisonProjectile #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
+                    PoisonProjectile (PoisonProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CEffectDummyComponent #1
+                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  44a1575b-4f4a-47f1-8959-98f252a0556e
+                        displayName (LocalizedString) : 1214062
+                        radius (Float) : 0.3000
+                        projSpeed (Float) : 19.0000
+                        projAngle (Float) : 0.0000
+                        projDMG (Float) : 500.0000
+                        initFxName (CName) : venom
+                        onCollisionFxName (CName) : venom_hit
+                        spawnEntityOnGround (Bool) : true
+                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_poison_area.w2ent
+                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : 192
+                        graphPositionY (Int16) : 287
+                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 191
+                        graphPositionY (Int16) : 217
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_fairytale_witch.bnk
+                        maxDistance (Float) : 50.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : venom
+                    name (CName) : venom
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 3103 bytes, MD5: fba9c140cb921ff2977cf325b217be8c
+                        CFXDefinition #0 (CFXDefinition) : venom
+                            CFXDefinition (CFXDefinition) : venom
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #10
+                                length (Float) : 2.8192
+                                loopStart (Float) : 0.1589
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom
+                                showDistance (Float) : 44.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 205
+                                    Green (Uint8) : 206
+                                    Blue (Uint8) : 136
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "asd"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0026
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 1.1526
+                                        3 (Float) : 2.0000
+                                        4 (Float) : 1.7864
+                                        5 (Float) : 0.3573
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 184
+                                    Blue (Uint8) : 69
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 3.0000
+                                brightness (Float) : 4.0000
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                attach (Bool) : true
+                        CFXTrackGroup #5 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 205
+                                    Green (Uint8) : 221
+                                    Blue (Uint8) : 139
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #8
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #9
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #8 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2471
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #9 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1100
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                stopFadeTime (Float) : 99.0000
+                                maxDistance (Float) : 40.0000
+                                useDistanceParameter (Bool) : true
+                                latchDistanceParameterBelow (Float) : 3.0000
+                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
+                        CFXTrackGroup #10 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #11
+                                    1 (ptr:CFXTrack) : CFXTrack #14
+                                    2 (ptr:CFXTrack) : CFXTrack #15
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #11 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
+                                name (String) : "3"
+                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0054
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_acid_projectile.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                        CFXTrack #14 (CFXTrack) : dasd
+                            CFXTrack (CFXTrack) : dasd
+                                name (String) : "dasd"
+                        CFXTrack #15 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                name (String) : "asd"
+                1 (CEntityTemplateCookedEffect) : venom_hit
+                    name (CName) : venom_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2648 bytes, MD5: f858ca7c3dcd44bd896a3357a6b8ac81
+                        CFXDefinition #0 (CFXDefinition) : venom_hit
+                            CFXDefinition (CFXDefinition) : venom_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                length (Float) : 2.9774
+                                loopStart (Float) : 0.0987
+                                loopEnd (Float) : 0.1791
+                                name (CName) : venom_hit
+                                showDistance (Float) : 55.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 185
+                                    Green (Uint8) : 128
+                                    Blue (Uint8) : 158
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : ads
+                            CFXTrack (CFXTrack) : ads
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "ads"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0028
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 2.5536
+                                        2 (Float) : 7.5042
+                                        3 (Float) : 3.4491
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 184
+                                    Blue (Uint8) : 69
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 12.0000
+                                brightness (Float) : 8.0000
+                                autoHideDistance (Float) : 45.0000
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                        CFXTrackGroup #5 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 151
+                                    Green (Uint8) : 161
+                                    Blue (Uint8) : 254
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0056
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_hit
+                                stopFadeTime (Float) : 99.0000
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #8 (CFXTrackGroup) : asd
+                            CFXTrackGroup (CFXTrackGroup) : asd
+                                name (String) : "asd"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #9
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 155
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 164
+                                    Alpha (Uint8) : 100
+                        CFXTrack #9 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #10
+                                name (String) : "asd"
+                        CFXTrackItemParticles #10 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : -0.0032
+                                timeDuration (Float) : 2.8847
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.5000
+                                        1 (Float) : 1.5000
+                                        2 (Float) : 1.5000
+                                        3 (Float) : 1.5000
+                                        4 (Float) : 1.5000
+                                        5 (Float) : 1.5000
+                                        6 (Float) : 1.5000
+                                        7 (Float) : 1.5000
+                                        8 (Float) : 1.5000
+                                        9 (Float) : 1.5000
+                                        10 (Float) : 1.5000
+                                        11 (Float) : 1.5000
+                                        12 (Float) : 1.5000
+                                        13 (Float) : 1.5000
+                                        14 (Float) : 1.5000
+                                        15 (Float) : 1.5000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/fairytale_witch/witch_acid_exp.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #11
+                        CFXSpawnerComponent #11 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                2 (CEntityTemplateCookedEffect) : venom_copy
+                    name (CName) : venom_copy
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2385 bytes, MD5: 8e13e6e92583e048dbe6a17b519338d4
+                        CFXDefinition #0 (CFXDefinition) : venom_copy
+                            CFXDefinition (CFXDefinition) : venom_copy
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 169
+                                    Green (Uint8) : 235
+                                    Blue (Uint8) : 127
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2463
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1105
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                stopFadeTime (Float) : 99.0000
+                                maxDistance (Float) : 40.0000
+                                useDistanceParameter (Bool) : true
+                                latchDistanceParameterBelow (Float) : 3.0000
+                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
+                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #7
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #7 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+                                name (String) : "asd"
+                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                3 (CEntityTemplateCookedEffect) : venom_copy_small
+                    name (CName) : venom_copy_small
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2399 bytes, MD5: 34d3d61d9e76d6f11da0c87df81adc00
+                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
+                            CFXDefinition (CFXDefinition) : venom_copy_small
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy_small
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 250
+                                    Green (Uint8) : 169
+                                    Blue (Uint8) : 222
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0032
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2479
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_fairytale_witch_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0927
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                stopFadeTime (Float) : 99.0000
+                                maxDistance (Float) : 40.0000
+                                useDistanceParameter (Bool) : true
+                                latchDistanceParameterBelow (Float) : 3.0000
+                                latchEvent (StringAnsi) : monster_fairytale_witch_combat_venom_flyby
+                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #7
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #7 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+                                name (String) : "asd"
+                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    PoisonProjectile #1 (PoisonProjectile) : venom
+        PoisonProjectile (PoisonProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CEffectDummyComponent #2
+                1 (ptr:CComponent) : CSoundEmitterComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  44a1575b-4f4a-47f1-8959-98f252a0556e
+            displayName (LocalizedString) : 1214062
+            radius (Float) : 0.3000
+            projSpeed (Float) : 19.0000
+            projAngle (Float) : 0.0000
+            projDMG (Float) : 500.0000
+            initFxName (CName) : venom
+            onCollisionFxName (CName) : venom_hit
+            spawnEntityOnGround (Bool) : true
+            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/fairytale_witch/fairytale_poison_area.w2ent
+    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"
+    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_fairytale_witch.bnk
+            maxDistance (Float) : 50.0000

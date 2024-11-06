@@ -209,7 +209,7 @@
 	else
 	{
 		_defaultInventoryState = IMS_Player;
-		spectreFixQuestItems();				  
+		spectreFixQuestItems_internal();				  
 	}
 	
 	defaultTab = SetInitialTabNewFlags( hasNewItems );
@@ -236,7 +236,7 @@
 	m_previewSlots.Resize( EnumGetMax( 'EEquipmentSlots' ) + 1 );		
 }
 
-@addMethod(CR4InventoryMenu) function UpdateFace()
+@addMethod(CR4InventoryMenu) function spectreUpdateFace()
 {
 	PlayPaperdollAnimation( 'armor' );
 	UpdateGuiSceneEntityItems();
@@ -453,6 +453,13 @@
 	
 	if (_inv.GetItemEquippedOnSlot(targetSlot, curItemInSlot))
 	{
+		if ( !( _inv.GetItemName(itemId) == 'weapon_repair_kit_4' || _inv.GetItemName(itemId) == 'armor_repair_kit_4' ) && _inv.GetItemDurability( curItemInSlot ) == 100 )
+		{
+			OnPlaySoundEvent( "gui_global_denied" );
+			showNotification(GetLocStringByKeyExt("menu_cannot_perform_action_now"));
+			return;
+		}
+
 		GetWitcherPlayer().RepairItem (itemId, curItemInSlot);
 		if (_inv.IsIdValid(itemId) && _inv.GetItemQuantity( itemId ) > 0)
 		{

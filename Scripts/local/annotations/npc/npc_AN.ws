@@ -18,8 +18,7 @@ private var animSpeedMult						: int;
 @wrapMethod(CNewNPC) function OnPreAttackEvent(animEventName : name, animEventType : EAnimationEventType, data : CPreAttackEventData, animInfo : SAnimationEventAnimInfo )
 {
 	var witcher : W3PlayerWitcher;
-	var levelDiff : int;
-	
+
 	if(false) 
 	{
 		wrappedMethod(animEventName, animEventType, data, animInfo );
@@ -37,11 +36,9 @@ private var animSpeedMult						: int;
 		
 		if(GetTarget() == witcher )
 		{
-			levelDiff = GetLevel() - witcher.GetLevel();
-			
 			this.SetDodgeFeedback( true );
 		}
-
+		return ((spectreAbilityManager)GetWitcherPlayer().abilityManager).ApplyHeightenedReflexes(this);
 		if(GetTarget() == witcher && witcher.CanUseSkill(S_Alchemy_s16) && witcher.GetStat(BCS_Toxicity) > 0)
 		{
 			if(IsCountering())
@@ -65,115 +62,7 @@ private var animSpeedMult						: int;
 
 	wrappedMethod(spawnData);
 
-	npcPath = GetReadableName();
-
-	switch(npcPath)
-	{
-		case "characters\npc_entities\crowd_npc\succubus\succubus.w2ent":
-		case "characters\npc_entities\crowd_npc\succubus\succubus_censored.w2ent":
-		case "characters\npc_entities\secondary_npc\doppler_guard.w2ent":
-		case "quests\generic_quests\novigrad\quest_files\mh303_succubus\characters\mh303_succbus_v2.w2ent":
-		case "quests\generic_quests\novigrad\quest_files\mh305_doppler\characters\mh305_doppler_01.w2ent":
-		case "quests\generic_quests\novigrad\quest_files\mh305_doppler\characters\mh305_doppler_02.w2ent":
-		case "quests\generic_quests\novigrad\quest_files\mh305_doppler\characters\mh305_doppler_03_v2.w2ent":
-		case "quests\minor_quests\skellige\quest_files\mq2024_curse_of_the_arena\characters\mq2024_spirit_warrior.w2ent":
-		case "":
-		AddAbility('ConHumanoidMonster');
-		break;
-
-		case "quests\epilogues\quest_files\q503_ciri_dead_new\characters\q503_bandit.w2ent":
-		case "quests\epilogues\quest_files\q503_ciri_dead_new\characters\q503_bandit_01.w2ent":
-		case "quests\epilogues\quest_files\q503_ciri_dead_new\characters\q503_bandit_02.w2ent":
-		case "quests\epilogues\quest_files\q503_ciri_dead_new\characters\q503_bandit_pitchfork.w2ent":
-		case "quests\minor_quests\kaer_morhen\quest_files\mq4006_armor\characters\mq4006_ifryt.w2ent":
-		case "quests\minor_quests\kaer_morhen\quest_files\mq4006_armor\characters\mq4006_dao.w2ent":
-		case "quests\minor_quests\kaer_morhen\quest_files\mq4002_anomaly\characters\mq4002_creature.w2ent":
-		case "":
-		case "":
-		SetLevel(30);
-		break;
-
-		case "quests\generic_quests\novigrad\quest_files\ff301_georg\characters\ff301_georg.w2ent":
-		SetLevel(18);
-		break;
-
-		case "quests\generic_quests\novigrad\quest_files\ff302_gypsy\characters\ff302_gypsy.w2ent":
-		SetLevel(20);
-		break;
-
-		case "quests\generic_quests\novigrad\quest_files\ff303_guardcaptain\characters\ff303_guardcaptain.w2ent":
-		case "quests\generic_quests\novigrad\quest_files\ff304_tailor\characters\ff304_tailor.w2ent":
-		case "quests\minor_quests\kaer_morhen\quest_files\mq4005_sword\characters\mq4005_czart.w2ent":
-		case "quests\minor_quests\kaer_morhen\quest_files\mq4003_lake\characters\mq4003_troll.w2ent":
-		SetLevel(23);
-		break;
-
-		case "quests\generic_quests\novigrad\quest_files\mh301_gryphon\characters\mh301_gryphon.w2ent":
-		case "quests\main_npcs\witch_weavess_epilogue.w2ent":
-		SetLevel(35);
-		break;
-
-		case "quests\generic_quests\no_mans_land\quest_files\mh102_arachas\characters\mh102_arachas.w2ent":
-		AddAbility('mh102_arachas');
-		break;
-
-		case "quests\generic_quests\no_mans_land\quest_files\mh103_nightwraith\characters\mh103_nighwraith.w2ent":
-		AddAbility('mh103_nightwraith');
-		break;
-
-		case "quests\generic_quests\no_mans_land\quest_files\mh105_wyvern\characters\mh105_wyvern_royal.w2ent":
-		AddAbility('qmh105_wyvern');
-		break;
-
-		case "quests\generic_quests\no_mans_land\quest_files\mh105_wyvern\characters\mh105_wyvern.w2ent":
-		AddAbility('qmh105_wyverns_other');
-		break;
-
-		case "quests\main_npcs\witch_brewess.w2ent":
-		case "quests\main_npcs\witch_weavess.w2ent":
-		case "quests\main_npcs\witch_whispess.w2ent":
-		SetLevel(25);
-		break;
-
-		case "quests\minor_quests\novigrad\quest_files\mq3041_showing_presence\characters\mq3041_skellige_warrior.w2ent":
-		SetLevel(14);
-		break;
-
-		case "quests\minor_quests\no_mans_land\quest_files\mq1007_drunken_rabble\characters\mq1007_drunk_man.w2ent":
-		SetLevel(7);
-		break;
-
-		case "quests\minor_quests\no_mans_land\quest_files\mq1051_monster_hunt_nilfgaard1\characters\mq1051_wyvern.w2ent":
-		AddAbility('mq1051_wyvern');
-		break;
-
-		case "quests\sidequests\novigrad\quest_files\sq304_armorsmith\characters\sq304_sukrus.w2ent":
-		AddAbility('ConAthletic');
-		break;
-
-		case "quests\sidequests\no_mans_land\quest_files\sq108_master_blacksmith\characters\sq108_griffon.w2ent":
-		AddAbility('sq108_Griffon');
-		break;
-
-		case "dog":
-		case "wolf":
-		case "boar":
-		SetLevel(1);
-		break;
-
-		case "":
-		
-		break;
-
-		case "":
-		
-		break;
-
-		default:
-		break;
-	}
-
-	if((IsAnimal() || IsBeast()) )
+	if((IsAnimal() || spectreIsBeast()) )
 	{
 		AddAbility('NPCDoNotGainBoost');
 		AddAbility('NoAdaptBalance');
@@ -569,7 +458,7 @@ private var animSpeedMult						: int;
 	
 	spectreArmorFix(this);
 
-		modSpectreAddBonuses(); 
+	modSpectreAddBonuses(); 
 	
 	if ( HasAbility('NPCDoNotGainBoost') )
 	{
@@ -588,7 +477,7 @@ private var animSpeedMult						: int;
 			scalingType = -1;
 		}
 		
-		if(theGame.params.GetNoAnimalUpscaling() && (IsAnimal() || IsBeast()) && GetStat( BCS_Vitality, true ) > 0)
+		if(theGame.params.GetNoAnimalUpscaling() && (IsAnimal() || spectreIsBeast()) && GetStat( BCS_Vitality, true ) > 0)
 		{
 			if(currentLevel*2 > playerLevel && scalingType > 0)
 				currentLevel = Max(1, playerLevel/2);

@@ -9,7 +9,7 @@
 	<ability name="Starting Boots _Stats"> <!-- medium boots -->
 		<weight							type="base"	min="3.0"				/>
 		<quality						type="add"	min="1"		max="1"		/>
-		<armor							type="base"	min="64"				/>
+		<armor							type="base"	min="4"					/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
 		<piercing_resistance_perc		type="base"	min="0.01"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.01"				/>
@@ -17,8 +17,8 @@
 		<elemental_resistance_perc		type="base"	min="0.03"				/>
 	</ability>
 
-<!-- BOOTS LIGHT --> <!-- low-quality light boots -->
-	<ability name="Boots 01 _Stats">
+<!-- BOOTS LIGHT -->
+	<ability name="Boots 01 _Stats"> <!-- Hunting Boots - low-quality light boots -->
 		<weight							type="base"	min="2.0"				/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.01"				/>
@@ -29,7 +29,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 
-	<ability name="Boots 01 q2 _Stats"> <!-- medium-quality light boots -->
+	<ability name="Boots 01 q2 _Stats"> <!-- Hunting Boots - medium-quality light boots -->
 		<weight							type="base"	min="2.5"				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -40,7 +40,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 
-	<ability name="Boots 03 _Stats"> <!-- low to medium quality light boots -->
+	<ability name="Boots 03 _Stats"> <!-- Tracker's Boots - low to medium quality light boots -->
 		<weight							type="base"	min="2.25"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.01"				/>
@@ -51,7 +51,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 
-	<ability name="Boots 05 _Stats"> <!-- random quality light boots -->
+	<ability name="Boots 05 _Stats"> <!-- Trapper's Boots - random quality light boots -->
 		<weight							type="base"	min="2.5"					/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -63,7 +63,7 @@
 	</ability>
 
 <!-- LIGHT RELIC -->	
-	<ability name="Boots 012 _Stats"> <!-- relic light boots: +2 to resists, focus gain bonus -->
+	<ability name="Boots 012 _Stats"> <!-- Hunting Boots - relic light boots: +2 to resists, focus gain bonus -->
 		<weight							type="base"	min="3"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -75,7 +75,7 @@
 		<focus_gain 					type="add" min="0.05"				/>
 	</ability>
 
-	<ability name="Boots 032 _Stats"> <!-- relic light boots: +2 to resists, +20% burning resistance -->
+	<ability name="Boots 032 _Stats"> <!-- Tracker's Boots - relic light boots: +2 to resists, +20% burning resistance -->
 		<weight							type="base"	min="3"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -87,7 +87,7 @@
 		<burning_resistance_perc		type="base" min="0.20"				/>
 	</ability>
 	
-	<ability name="Boots 04 _Stats"> <!-- relic light boots: +2 to resists -->
+	<ability name="Boots 04 _Stats"> <!-- Assassin's Boots - relic light boots: +2 to resists -->
 		<weight							type="base"	min="3"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -99,7 +99,7 @@
 		<bleeding_resistance_perc		type="base"	min="0.05"	max="0.1"	/>
 	</ability>
 
-	<ability name="Boots 07 _Stats"> <!-- relic light boots: +2 to resists, +20-25% poison resistance -->
+	<ability name="Boots 07 _Stats"> <!-- Mountain Folk Boots - relic light boots: +2 to resists, +20-25% poison resistance -->
 		<weight							type="base"	min="3"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -112,7 +112,7 @@
 	</ability>
 
 <!-- BOOTS MEDIUM -->
-	<ability name="Boots 02 _Stats"> <!-- low quality medium boots -->
+	<ability name="Boots 02 _Stats"> <!-- Cavalry Boots - low quality medium boots -->
 		<weight							type="base"	min="4"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -122,7 +122,7 @@
 		<elemental_resistance_perc		type="base"	min="0.03"				/>
 	</ability>
 
-	<ability name="Boots 06 _Stats"> <!-- medium quality medium boots -->
+	<ability name="Boots 06 _Stats"> <!-- Swordsman's Boots - medium quality medium boots -->
 		<weight							type="base"	min="4.5"				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -132,7 +132,7 @@
 		<elemental_resistance_perc		type="base"	min="0.03"				/>
 	</ability>
 
-	<ability name="Heavy boots 03 _Stats"> <!-- random quality medium boots -->
+	<ability name="Heavy boots 03 _Stats"> <!-- Reaver's Boots - random quality medium boots -->
 		<tags></tags>		
 		<weight							type="base"	min="4.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
@@ -144,7 +144,7 @@
 	</ability>
 
 <!-- MEDIUM RELIC -->
-	<ability name="Boots 022 _Stats"> <!-- relic medium boots: +2 to resists, +20% bleeding resistance -->
+	<ability name="Boots 022 _Stats"> <!-- Cavalry Boots - relic medium boots: +2 to resists, +20% bleeding resistance -->
 		<weight							type="base"	min="5"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.06"				/>
@@ -155,7 +155,7 @@
 		<bleeding_resistance_perc 		type="base" min="0.20"				/>
 	</ability>
 
-	<ability name="Heavy boots 07 _Stats" > <!-- relic medium boots: +2 to resists, +20-30 armor reduction -->
+	<ability name="Heavy boots 07 _Stats" > <!-- Condotierre's Boots - relic medium boots: +2 to resists, +20-30 armor reduction -->
 		<weight	 						type="base" min="5"					/>
 		<quality 						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.06"				/>
@@ -167,7 +167,7 @@
 	</ability>
 
 <!-- BOOTS HEAVY -->
-	<ability name="Heavy boots 01 _Stats"> <!-- low quality heavy boots -->
+	<ability name="Heavy boots 01 _Stats"> <!-- Axeman's Boots - low quality heavy boots -->
 		<weight							type="base"	min="10"				/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.10"				/>
@@ -178,7 +178,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.1"				/>
 	</ability>
 
-	<ability name="Heavy boots 02 _Stats"> <!-- medium quality heavy boots -->
+	<ability name="Heavy boots 02 _Stats"> <!-- Guardsman's Boots - medium quality heavy boots -->
 		<weight							type="base"	min="11"				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -189,7 +189,7 @@
 		<staminaRegen_armor_mod			type="mult" min="-0.1"				/>
 	</ability>
 
-	<ability name="Heavy boots 04 _Stats"> <!-- random quality heavy boots -->
+	<ability name="Heavy boots 04 _Stats"> <!-- Executioner's Boots - random quality heavy boots -->
 		<weight							type="base"	min="10.5"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -200,7 +200,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="-0.1"				/>
 	</ability>
 
-	<ability name="Heavy boots 05 _Stats"> <!-- random quality heavy boots -->
+	<ability name="Heavy boots 05 _Stats"> <!-- Campaigner's Boots - random quality heavy boots -->
 		<weight							type="base"	min="11.5"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -211,7 +211,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="-0.1"				/>
 	</ability>
 
-	<ability name="Heavy boots 06 _Stats"> <!-- random quality heavy boots -->
+	<ability name="Heavy boots 06 _Stats"> <!-- Captain's boots - random quality heavy boots -->
 		<weight							type="base"	min="11"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -223,7 +223,7 @@
 	</ability>
 
 <!-- HEAVY RELIC -->
-	<ability name="Heavy boots 08 _Stats"> <!-- relic heavy boots: +1 to resists, +150-200 to vitality, 50% less stamina penalty -->
+	<ability name="Heavy boots 08 _Stats"> <!-- Alder Folk Boots - relic heavy boots: +1 to resists, +150-200 to vitality, 50% less stamina penalty -->
 		<weight	 						type="base"	min="12"				/>
 		<quality 						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.13"				/>

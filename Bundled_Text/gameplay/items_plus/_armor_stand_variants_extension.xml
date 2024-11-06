@@ -445,6 +445,17 @@
 				</variants>
 			</item_extension>
 
+			<item_extension name="q108 Medium armor 03_crafted"> <!-- modSpectre -->
+				<variants>
+					<variant equip_template="t_01_mg__common_medium_lvl3_armor_stand">
+						<item>_armor_stand</item>
+					</variant>
+					<variant equip_template="t_01a_mg__common_medium_lvl3_armor_stand" category="gloves" all="true">
+						<item>_armor_stand</item>
+					</variant> 
+				</variants>
+			</item_extension>
+
 			<item_extension name="Medium armor 04_crafted">
 				<variants>
 					<variant equip_template="t_01_mg__common_medium_lvl4_armor_stand">
@@ -500,7 +511,7 @@
 				</variants>
 			</item_extension>
 
-			item_extension name="q108 Heavy armor 04_crafted"> <!-- modSpectre -->
+			<item_extension name="q108 Heavy armor 04_crafted"> <!-- modSpectre -->
 				<variants>
 					<variant equip_template="t_01_mg__common_heavy_lvl4_armor_stand">
 						<item>_armor_stand</item>
@@ -990,6 +1001,28 @@
 					</variant>
 				</variants>
 			</item_extension>
+
+			<item_extension name="Beauclair Prison Shirt">
+				<variants>
+					<variant equip_template="t_01_mg__prison_outfit_armor_stand">
+						<item>_armor_stand</item>
+					</variant>
+					<variant equip_template="t_01a_mg__prison_outfit_armor_stand" category="gloves" all="true">
+						<item>_armor_stand</item>
+					</variant>
+				</variants>
+			</item_extension>
+
+			<item_extension name="EP2 Standalone Starting Armor">
+				<variants>
+					<variant equip_template="t_01_mg__viper_lvl3_armor_stand">
+						<item>_armor_stand</item>
+					</variant>
+					<variant equip_template="t_01a_mg__viper_lvl3_armor_stand" category="gloves" all="true">
+						<item>_armor_stand</item>
+					</variant>
+				</variants>
+			</item_extension>
 		
 		<!-- EP2  CRAFTED ##########################################################################################################-->	
 								
@@ -1308,6 +1341,7 @@
 					</variant>					   				 	
 			</variants>
 			</item_extension>	
+
 
 			 <!-- NGE -->
 			<item_extension name="Dol Blathanna Gloves">

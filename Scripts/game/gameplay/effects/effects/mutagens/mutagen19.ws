@@ -30,9 +30,6 @@ class W3Mutagen19_Effect extends W3Mutagen_Effect
 		if(action.IsDoTDamage() && (CBaseGameplayEffect)action.causer)
 			return;
 		
-		if(action.GetBuffSourceName() == "FallingDamage")
-			return;
-		
 		if(action.WasDodged())
 			return;
 		
@@ -57,7 +54,7 @@ class W3Mutagen19_Effect extends W3Mutagen_Effect
 		enemies = witcher.GetHostileEnemies();
 		for(i = 0; i < enemies.Size(); i += 1)
 		{
-			if(enemies[i].IsSpecter())
+			if(enemies[i].spectreIsSpecter())
 			{
 				theGame.GetDefinitionsManager().GetAbilityAttributeValue(abilityName, 'quen_power_bonus', min, max);
 				return GetAttributeRandomizedValue(min, max);

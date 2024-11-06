@@ -1,93 +1,93 @@
-bestiarymonsterhuntmh303.journal:    CJournalResource #0 (CJournalResource) : 
-bestiarymonsterhuntmh303.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
-bestiarymonsterhuntmh303.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
-bestiarymonsterhuntmh303.journal:    CJournalCreature #1 (CJournalCreature) : mh303 : Succubus
-bestiarymonsterhuntmh303.journal:        CJournalCreature (CJournalCreature) : Salma
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Succubus"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 4286578686
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Succubus D68E01B9-4EA4564C-2F363DA3-3A813843
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : 0a6165df-4050-44d6-8569-c8337f1ce26d
-bestiarymonsterhuntmh303.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-bestiarymonsterhuntmh303.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
-bestiarymonsterhuntmh303.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #7
-bestiarymonsterhuntmh303.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #8
-bestiarymonsterhuntmh303.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #9
-bestiarymonsterhuntmh303.journal:            name (LocalizedString) : Salma
-bestiarymonsterhuntmh303.journal:            image (String) : "bestiary_succubusmh303.png"
-bestiarymonsterhuntmh303.journal:            entityTemplate (soft:CEntityTemplate) : quests/generic_quests/novigrad/quest_files/mh303_succubus/characters/mh303_succbus_v2.w2ent
-bestiarymonsterhuntmh303.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
-bestiarymonsterhuntmh303.journal:                0 (CName) : Hybrid Oil 1
-bestiarymonsterhuntmh303.journal:                1 (CName) : Quen
-bestiarymonsterhuntmh303.journal:                2 (CName) : Dwimeritium Bomb 1
-bestiarymonsterhuntmh303.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
-bestiarymonsterhuntmh303.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Descriptions"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 2147483647
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Descriptions 93391E55-43D20AD7-2A4FFDB7-7E24707D
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
-bestiarymonsterhuntmh303.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-bestiarymonsterhuntmh303.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
-bestiarymonsterhuntmh303.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
-bestiarymonsterhuntmh303.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
-bestiarymonsterhuntmh303.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #6
-bestiarymonsterhuntmh303.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Lilith lives
-bestiarymonsterhuntmh303.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : f7ce32a0-4877-4dff-bfd5-2017b03013b5
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Lilith lives"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 2147483647
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Description F7CE32A0-4DFF4877-1720D5BF-B51330B0
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
-bestiarymonsterhuntmh303.journal:            description (LocalizedString) : <br>That is exactly the perplexing question faced by Geralt of Rivia. In the end he believed Salma and decided to let her go free - though he could not shake off the feeling that he might live to regret that decision.
-bestiarymonsterhuntmh303.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Lilith dies
-bestiarymonsterhuntmh303.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : de42a1e0-18c1-4e2c-a93f-a4ce0ba2f0c9
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Lilith dies"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 3221225470
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Lilith dies DE42A1E0-4E2C18C1-CEA43FA9-C9F0A20B
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 1
-bestiarymonsterhuntmh303.journal:            description (LocalizedString) : <br>That is exactly the perplexing question faced by Geralt of Rivia. The succubus Salma claimed she killed out of necessity, that she had had no other choice. While the witcher did have another choice, he chose not to exercise it and killed the succubus instead - figuring this would be the lesser evil.
-bestiarymonsterhuntmh303.journal:    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Lilith Precombat
-bestiarymonsterhuntmh303.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : 8693f568-b2aa-4811-9698-93c0b0a5aef3
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Lilith Precombat"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 1073741823
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Lilith Precombat 8693F568-4811B2AA-C0939896-F3AEA5B0
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 2
-bestiarymonsterhuntmh303.journal:            description (LocalizedString) : does this monster, who wishes men no ill yet all the same often causes harm, deserve death, or mercy?
-bestiarymonsterhuntmh303.journal:    CJournalCreatureDescriptionEntry #6 (CJournalCreatureDescriptionEntry) : Quote
-bestiarymonsterhuntmh303.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : b5661a09-18da-4613-b41a-0c5150a32ac6
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Quote"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 536870911
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Quote B5661A09-461318DA-510C1AB4-C62AA350
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 3
-bestiarymonsterhuntmh303.journal:            description (LocalizedString) : <i>I'm not one to lie. Nor do I kill without reason.</i><br>– Salma, succubus<br>
-bestiarymonsterhuntmh303.journal:    CJournalCreatureHuntingClueGroup #7 (CJournalCreatureHuntingClueGroup) : Hunting Clues
-bestiarymonsterhuntmh303.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : ce7c5aed-7d3e-4950-849f-581c5a2b96ce
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Hunting Clues"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 3221225470
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Hunting Clues CE7C5AED-49507D3E-1C589F84-CE962B5A
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 1
-bestiarymonsterhuntmh303.journal:    CJournalCreatureGameplayHintGroup #8 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
-bestiarymonsterhuntmh303.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : 49c6cc41-b79e-4534-b1ab-1d7d5b0d1fab
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Gameplay Hints"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 3758096382
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 49C6CC41-4534B79E-7D1DABB1-AB1F0D5B
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 2
-bestiarymonsterhuntmh303.journal:    CJournalCreatureVitalSpotGroup #9 (CJournalCreatureVitalSpotGroup) : Vital spots
-bestiarymonsterhuntmh303.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
-bestiarymonsterhuntmh303.journal:            guid (CGUID) : a8445d32-cdba-4543-ad7a-99ba720ddb8b
-bestiarymonsterhuntmh303.journal:            baseName (String) : "Vital spots"
-bestiarymonsterhuntmh303.journal:            order (Uint32) : 4026531838
-bestiarymonsterhuntmh303.journal:            uniqueScriptIdentifier (CName) : Vital spots A8445D32-4543CDBA-BA997AAD-8BDB0D72
-bestiarymonsterhuntmh303.journal:            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
-bestiarymonsterhuntmh303.journal:            index (Uint8) : 3
+    CJournalResource #0 (CJournalResource) : 
+        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+            entry (ptr:CJournalBase) : CJournalCreature #1
+    CJournalCreature #1 (CJournalCreature) : mh303 : Succubus
+        CJournalCreature (CJournalCreature) : Salma
+            guid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
+            baseName (String) : "Succubus"
+            order (Uint32) : 4286578686
+            uniqueScriptIdentifier (CName) : Succubus D68E01B9-4EA4564C-2F363DA3-3A813843
+            parentGuid (CGUID) : 0a6165df-4050-44d6-8569-c8337f1ce26d
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #7
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #8
+                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #9
+            name (LocalizedString) : Salma
+            image (String) : "bestiary_succubusmh303.png"
+            entityTemplate (soft:CEntityTemplate) : quests/generic_quests/novigrad/quest_files/mh303_succubus/characters/mh303_succbus_v2.w2ent
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Hybrid Oil 1
+                1 (CName) : Quen
+                2 (CName) : Dwimeritium Bomb 1
+    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+            guid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+            baseName (String) : "Descriptions"
+            order (Uint32) : 2147483647
+            uniqueScriptIdentifier (CName) : Descriptions 93391E55-43D20AD7-2A4FFDB7-7E24707D
+            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
+                3 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #6
+    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Lilith lives
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : f7ce32a0-4877-4dff-bfd5-2017b03013b5
+            baseName (String) : "Lilith lives"
+            order (Uint32) : 2147483647
+            uniqueScriptIdentifier (CName) : Description F7CE32A0-4DFF4877-1720D5BF-B51330B0
+            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+            description (LocalizedString) : <br>That is exactly the perplexing question faced by Geralt of Rivia. In the end he believed Salma and decided to let her go free - though he could not shake off the feeling that he might live to regret that decision.
+    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Lilith dies
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : de42a1e0-18c1-4e2c-a93f-a4ce0ba2f0c9
+            baseName (String) : "Lilith dies"
+            order (Uint32) : 3221225470
+            uniqueScriptIdentifier (CName) : Lilith dies DE42A1E0-4E2C18C1-CEA43FA9-C9F0A20B
+            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+            index (Uint8) : 1
+            description (LocalizedString) : <br>That is exactly the perplexing question faced by Geralt of Rivia. The succubus Salma claimed she killed out of necessity, that she had had no other choice. While the witcher did have another choice, he chose not to exercise it and killed the succubus instead - figuring this would be the lesser evil.
+    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Lilith Precombat
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 8693f568-b2aa-4811-9698-93c0b0a5aef3
+            baseName (String) : "Lilith Precombat"
+            order (Uint32) : 1073741823
+            uniqueScriptIdentifier (CName) : Lilith Precombat 8693F568-4811B2AA-C0939896-F3AEA5B0
+            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+            index (Uint8) : 2
+            description (LocalizedString) : does this monster, who wishes men no ill yet all the same often causes harm, deserve death, or mercy?
+    CJournalCreatureDescriptionEntry #6 (CJournalCreatureDescriptionEntry) : Quote
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : b5661a09-18da-4613-b41a-0c5150a32ac6
+            baseName (String) : "Quote"
+            order (Uint32) : 536870911
+            uniqueScriptIdentifier (CName) : Quote B5661A09-461318DA-510C1AB4-C62AA350
+            parentGuid (CGUID) : 93391e55-0ad7-43d2-b7fd-4f2a7d70247e
+            index (Uint8) : 3
+            description (LocalizedString) : <i>I'm not one to lie. Nor do I kill without reason.</i><br>– Salma, succubus<br>
+    CJournalCreatureHuntingClueGroup #7 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+            guid (CGUID) : ce7c5aed-7d3e-4950-849f-581c5a2b96ce
+            baseName (String) : "Hunting Clues"
+            order (Uint32) : 3221225470
+            uniqueScriptIdentifier (CName) : Hunting Clues CE7C5AED-49507D3E-1C589F84-CE962B5A
+            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
+            index (Uint8) : 1
+    CJournalCreatureGameplayHintGroup #8 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+            guid (CGUID) : 49c6cc41-b79e-4534-b1ab-1d7d5b0d1fab
+            baseName (String) : "Gameplay Hints"
+            order (Uint32) : 3758096382
+            uniqueScriptIdentifier (CName) : Gameplay Hints 49C6CC41-4534B79E-7D1DABB1-AB1F0D5B
+            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
+            index (Uint8) : 2
+    CJournalCreatureVitalSpotGroup #9 (CJournalCreatureVitalSpotGroup) : Vital spots
+        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+            guid (CGUID) : a8445d32-cdba-4543-ad7a-99ba720ddb8b
+            baseName (String) : "Vital spots"
+            order (Uint32) : 4026531838
+            uniqueScriptIdentifier (CName) : Vital spots A8445D32-4543CDBA-BA997AAD-8BDB0D72
+            parentGuid (CGUID) : d68e01b9-564c-4ea4-a33d-362f4338813a
+            index (Uint8) : 3

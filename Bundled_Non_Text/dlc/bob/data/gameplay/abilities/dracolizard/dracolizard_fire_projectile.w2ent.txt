@@ -1,832 +1,832 @@
-dracolizard_fire_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3DracolizardFireball
-dracolizard_fire_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-dracolizard_fire_projectile.w2ent:            properOverrides (Bool) : true
-dracolizard_fire_projectile.w2ent:            entityClass (CName) : W3DracolizardFireball
-dracolizard_fire_projectile.w2ent:            entityObject (ptr:CEntity) : W3DracolizardFireball #1
-dracolizard_fire_projectile.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-dracolizard_fire_projectile.w2ent:                0 (EntitySlot) : fx
-dracolizard_fire_projectile.w2ent:                    name (CName) : fx
-dracolizard_fire_projectile.w2ent:                    componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-dracolizard_fire_projectile.w2ent:                W3DracolizardFireball #0 (W3DracolizardFireball) : PreviewEntity
-dracolizard_fire_projectile.w2ent:                    W3DracolizardFireball (W3DracolizardFireball) : PreviewEntity
-dracolizard_fire_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        streamingDistance (Uint8) : 0
-dracolizard_fire_projectile.w2ent:                        name (String) : "PreviewEntity"
-dracolizard_fire_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-dracolizard_fire_projectile.w2ent:                            0 (ptr:CComponent) : CEffectDummyComponent #1
-dracolizard_fire_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
-dracolizard_fire_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-dracolizard_fire_projectile.w2ent:                            0 (SEntityBufferType1) : 
-dracolizard_fire_projectile.w2ent:                                ComponentName (CName) : 
-dracolizard_fire_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-dracolizard_fire_projectile.w2ent:                        idTag (IdTag) :  ac25e4ea-0e05-4ddb-b4fd-663c5941148b
-dracolizard_fire_projectile.w2ent:                        displayName (LocalizedString) : 1211408
-dracolizard_fire_projectile.w2ent:                        radius (Float) : 0.3000
-dracolizard_fire_projectile.w2ent:                        projSpeed (Float) : 20.0000
-dracolizard_fire_projectile.w2ent:                        projAngle (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                        projDMG (Float) : 300.0000
-dracolizard_fire_projectile.w2ent:                        projSilverDMG (Float) : 300.0000
-dracolizard_fire_projectile.w2ent:                        initFxName (CName) : venom
-dracolizard_fire_projectile.w2ent:                        onCollisionFxName (CName) : venom_hit
-dracolizard_fire_projectile.w2ent:                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_location.w2ent
-dracolizard_fire_projectile.w2ent:                        range (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                        burningDur (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                        destroyAfter (Float) : 10.0000
-dracolizard_fire_projectile.w2ent:                        surfaceFX (SFXSurfacePostParams) : <SFXSurfacePostParams>surfaceFX
-dracolizard_fire_projectile.w2ent:                            fxFadeInTime (Float) : 0.5000
-dracolizard_fire_projectile.w2ent:                            fxLastingTime (Float) : 10.0000
-dracolizard_fire_projectile.w2ent:                            fxFadeOutTime (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                            fxRadius (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                            fxType (Int32) : 1
-dracolizard_fire_projectile.w2ent:                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-dracolizard_fire_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        name (String) : "CEffectDummyComponent0"
-dracolizard_fire_projectile.w2ent:                        graphPositionX (Int16) : 203
-dracolizard_fire_projectile.w2ent:                        graphPositionY (Int16) : 312
-dracolizard_fire_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-dracolizard_fire_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-dracolizard_fire_projectile.w2ent:                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-dracolizard_fire_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
-dracolizard_fire_projectile.w2ent:                        isStreamed (Bool) : false
-dracolizard_fire_projectile.w2ent:                        graphPositionX (Int16) : 191
-dracolizard_fire_projectile.w2ent:                        graphPositionY (Int16) : 217
-dracolizard_fire_projectile.w2ent:                        banksDependency (array:CName) : # array:CName
-dracolizard_fire_projectile.w2ent:                            0 (CName) : monster_dracolizard.bnk
-dracolizard_fire_projectile.w2ent:                        maxDistance (Float) : 50.0000
-dracolizard_fire_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-dracolizard_fire_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : venom
-dracolizard_fire_projectile.w2ent:                    name (CName) : venom
-dracolizard_fire_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-dracolizard_fire_projectile.w2ent:                        Bufferdata (CByteArray) : 3131 bytes, MD5: 5821817b2dcc21cdf32ed2c657a7e6a6
-dracolizard_fire_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom
-dracolizard_fire_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom
-dracolizard_fire_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-dracolizard_fire_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #8
-dracolizard_fire_projectile.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #11
-dracolizard_fire_projectile.w2ent:                                length (Float) : 2.3090
-dracolizard_fire_projectile.w2ent:                                loopStart (Float) : 0.1258
-dracolizard_fire_projectile.w2ent:                                loopEnd (Float) : 0.2359
-dracolizard_fire_projectile.w2ent:                                name (CName) : venom
-dracolizard_fire_projectile.w2ent:                                showDistance (Float) : 44.0000
-dracolizard_fire_projectile.w2ent:                                isLooped (Bool) : true
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : fire
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fire
-dracolizard_fire_projectile.w2ent:                                name (String) : "fire"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-dracolizard_fire_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #5
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 188
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 149
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 200
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-dracolizard_fire_projectile.w2ent:                                name (String) : "3"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 1.6138
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : DynamicLight
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 2
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 12.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 12.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 10.0139
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 4.0046
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                color (Color) : <Color>color
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 167
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 86
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                radius (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                                brightness (Float) : 35.0000
-dracolizard_fire_projectile.w2ent:                                autoHideDistance (Float) : 25.0000
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
-dracolizard_fire_projectile.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
-dracolizard_fire_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-dracolizard_fire_projectile.w2ent:                                slotNames (array:CName) : # array:CName
-dracolizard_fire_projectile.w2ent:                                    0 (CName) : fx
-dracolizard_fire_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : 12
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : 12
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #6
-dracolizard_fire_projectile.w2ent:                                name (String) : "12"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemDynamicLight #6 (CFXTrackItemDynamicLight) : DynamicLight
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0027
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 1.6138
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : DynamicLight
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 2
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 12.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 12.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 10.0139
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 4.0046
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                color (Color) : <Color>color
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 167
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 86
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                radius (Float) : 8.0000
-dracolizard_fire_projectile.w2ent:                                brightness (Float) : 15.0000
-dracolizard_fire_projectile.w2ent:                                autoHideDistance (Float) : 25.0000
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
-dracolizard_fire_projectile.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
-dracolizard_fire_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-dracolizard_fire_projectile.w2ent:                                slotNames (array:CName) : # array:CName
-dracolizard_fire_projectile.w2ent:                                    0 (CName) : fx
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : audio
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-dracolizard_fire_projectile.w2ent:                                name (String) : "audio"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 205
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 221
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 139
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                        CFXTrack #9 (CFXTrack) : sfx
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
-dracolizard_fire_projectile.w2ent:                                name (String) : "sfx"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.1098
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : 
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 0
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 0
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-dracolizard_fire_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                                latchEvent (StringAnsi) : monster_dracolizard_combat_fireball_flyby
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : fx
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-dracolizard_fire_projectile.w2ent:                                name (String) : "fx"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 208
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 197
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 209
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                        CFXTrack #12 (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0044
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 2.8273
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : Particles
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 3
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.5011
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_fx2.w2p
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
-dracolizard_fire_projectile.w2ent:                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                                copyRotation (Bool) : false
-dracolizard_fire_projectile.w2ent:                                attach (Bool) : true
-dracolizard_fire_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : venom_hit
-dracolizard_fire_projectile.w2ent:                    name (CName) : venom_hit
-dracolizard_fire_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-dracolizard_fire_projectile.w2ent:                        Bufferdata (CByteArray) : 5302 bytes, MD5: 573226ff9f13ac67dd27daef9d3cf4fa
-dracolizard_fire_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_hit
-dracolizard_fire_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_hit
-dracolizard_fire_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-dracolizard_fire_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
-dracolizard_fire_projectile.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
-dracolizard_fire_projectile.w2ent:                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
-dracolizard_fire_projectile.w2ent:                                    4 (ptr:CFXTrackGroup) : CFXTrackGroup #22
-dracolizard_fire_projectile.w2ent:                                length (Float) : 4.5091
-dracolizard_fire_projectile.w2ent:                                loopStart (Float) : 0.0987
-dracolizard_fire_projectile.w2ent:                                loopEnd (Float) : 0.1791
-dracolizard_fire_projectile.w2ent:                                name (CName) : venom_hit
-dracolizard_fire_projectile.w2ent:                                showDistance (Float) : 220.0000
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sound
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sound
-dracolizard_fire_projectile.w2ent:                                name (String) : "sound"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 134
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 240
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 251
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0469
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : 
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 0
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 0
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-dracolizard_fire_projectile.w2ent:                                soundEventName (StringAnsi) : monster_dracolizard_combat_fireball_hit
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : light
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-dracolizard_fire_projectile.w2ent:                                name (String) : "light"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 186
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 244
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 161
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #6
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemDynamicLight #6 (CFXTrackItemDynamicLight) : DynamicLight
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : -0.0015
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : DynamicLight
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 2
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0> <17.50085> <11.01826> <4.535662> <1.860844> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0>>
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 17.5009
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 11.0183
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 4.5357
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.8608
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                color (Color) : <Color>color
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 188
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                radius (Float) : 26.0000
-dracolizard_fire_projectile.w2ent:                                brightness (Float) : 65.0000
-dracolizard_fire_projectile.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
-dracolizard_fire_projectile.w2ent:                                    flickerPeriod (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                autoHideDistance (Float) : 45.0000
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
-dracolizard_fire_projectile.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
-dracolizard_fire_projectile.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-dracolizard_fire_projectile.w2ent:                                slotNames (array:CName) : # array:CName
-dracolizard_fire_projectile.w2ent:                                    0 (CName) : fx
-dracolizard_fire_projectile.w2ent:                                relativePos (Vector) : <Vector>relativePos
-dracolizard_fire_projectile.w2ent:                                    X (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    Y (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    Z (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    W (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : tint
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : tint
-dracolizard_fire_projectile.w2ent:                                name (String) : "tint"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 183
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 186
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 155
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                        CFXTrack #9 (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemBrightnessTint #10
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemBrightnessTint #10 (CFXTrackItemBrightnessTint) : BrightnessTint
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemBrightnessTint (CFXTrackItemBrightnessTint) : <CFXTrackItemBrightnessTint>CFXTrackItemBrightnessTint
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : -0.0056
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 0.6814
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : BrightnessTint
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 2
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <3> <6.714285> <5.285714> <3.857143> <2.428571> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1>>
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 6.7143
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 5.2857
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 3.8571
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 2.4286
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.8571
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.6667
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.4762
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.2857
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0952
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                color (Color) : <Color>color
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 191
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 124
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                range (Float) : 17.0000
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #11 (CFXTrackGroup) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : asd
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #12
-dracolizard_fire_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #15
-dracolizard_fire_projectile.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #18
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 155
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 150
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 164
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                        CFXTrack #12 (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
-dracolizard_fire_projectile.w2ent:                                name (String) : "3"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0209
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 4.4437
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : Particles
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 3
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_explode.w2p
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
-dracolizard_fire_projectile.w2ent:                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                                copyRotation (Bool) : false
-dracolizard_fire_projectile.w2ent:                        CFXTrack #15 (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #16
-dracolizard_fire_projectile.w2ent:                                name (String) : "3"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemParticles #16 (CFXTrackItemParticles) : Particles
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 4.4437
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : Particles
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 3
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        0 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_explode.w2p
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #17
-dracolizard_fire_projectile.w2ent:                        CFXSpawnerComponent #17 (CFXSpawnerComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                                copyRotation (Bool) : false
-dracolizard_fire_projectile.w2ent:                        CFXTrack #18 (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemFlare #19
-dracolizard_fire_projectile.w2ent:                                name (String) : "asd"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemFlare #19 (CFXTrackItemFlare) : 
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemFlare (CFXTrackItemFlare) : <CFXTrackItemFlare>CFXTrackItemFlare
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0018
-dracolizard_fire_projectile.w2ent:                                timeDuration (Float) : 0.5755
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : 
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 1
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <8.270128> <11.12731> <9.537694> <7.948078> <6.358462> <4.768847> <3.179232> <1.589616> 
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 8.2701
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 11.1273
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 9.5377
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 7.9481
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 6.3585
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 4.7688
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 3.1792
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 1.5896
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                material (handle:CMaterialInstance) : CMaterialInstance #20
-dracolizard_fire_projectile.w2ent:                                parameters (SFlareParameters) : <SFlareParameters>parameters
-dracolizard_fire_projectile.w2ent:                                    flareRadius (Float) : 6.0000
-dracolizard_fire_projectile.w2ent:                                    fadeInMaxSpeed (Float) : 9999.0000
-dracolizard_fire_projectile.w2ent:                                    fadeOutMaxSpeed (Float) : 9999.0000
-dracolizard_fire_projectile.w2ent:                                    fadeInAccel (Float) : 9999.0000
-dracolizard_fire_projectile.w2ent:                                    fadeOutAccel (Float) : 9999.0000
-dracolizard_fire_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #21
-dracolizard_fire_projectile.w2ent:                        CMaterialInstance #20 (CMaterialInstance) : CMaterialGraph:fx\shaders\flares_fx_mat.w2mg
-dracolizard_fire_projectile.w2ent:                            CMaterialInstance (CMaterialInstance) : <CMaterialInstance>CMaterialInstance
-dracolizard_fire_projectile.w2ent:                                baseMaterial (handle:IMaterial) : fx/shaders/flares_fx_mat.w2mg
-dracolizard_fire_projectile.w2ent:                                InstanceParameters (array:CVariantSizeNameType) : # array:CVariantSizeNameType
-dracolizard_fire_projectile.w2ent:                                    color (Color) : <Color>color
-dracolizard_fire_projectile.w2ent:                                        Red (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                        Green (Uint8) : 158
-dracolizard_fire_projectile.w2ent:                                        Blue (Uint8) : 92
-dracolizard_fire_projectile.w2ent:                                        Alpha (Uint8) : 255
-dracolizard_fire_projectile.w2ent:                                    blend_far_end (Float) : 120.0000
-dracolizard_fire_projectile.w2ent:                                    blend_far_start (Float) : 60.0000
-dracolizard_fire_projectile.w2ent:                        CFXSpawnerComponent #21 (CFXSpawnerComponent) : fx
-dracolizard_fire_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : fx
-dracolizard_fire_projectile.w2ent:                                copyRotation (Bool) : false
-dracolizard_fire_projectile.w2ent:                        CFXTrackGroup #22 (CFXTrackGroup) : audio
-dracolizard_fire_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-dracolizard_fire_projectile.w2ent:                                name (String) : "audio"
-dracolizard_fire_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #23
-dracolizard_fire_projectile.w2ent:                                isExpanded (Bool) : true
-dracolizard_fire_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-dracolizard_fire_projectile.w2ent:                                    Red (Uint8) : 151
-dracolizard_fire_projectile.w2ent:                                    Green (Uint8) : 161
-dracolizard_fire_projectile.w2ent:                                    Blue (Uint8) : 254
-dracolizard_fire_projectile.w2ent:                                    Alpha (Uint8) : 100
-dracolizard_fire_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:                        CFXTrack #23 (CFXTrack) : sfx
-dracolizard_fire_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-dracolizard_fire_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-dracolizard_fire_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemRadialBlur #24
-dracolizard_fire_projectile.w2ent:                                name (String) : "sfx"
-dracolizard_fire_projectile.w2ent:                        CFXTrackItemRadialBlur #24 (CFXTrackItemRadialBlur) : RadialBlur
-dracolizard_fire_projectile.w2ent:                            CFXTrackItemRadialBlur (CFXTrackItemRadialBlur) : <CFXTrackItemRadialBlur>CFXTrackItemRadialBlur
-dracolizard_fire_projectile.w2ent:                                timeBegin (Float) : 0.0029
-dracolizard_fire_projectile.w2ent:                                buffername (CName) : RadialBlur
-dracolizard_fire_projectile.w2ent:                                count (CDynamicInt) : 4
-dracolizard_fire_projectile.w2ent:                                unk (Uint8) : 1
-dracolizard_fire_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.1666667> <0.1372549> <0.0588235> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0>> <16
-dracolizard_fire_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 0.1667
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.1373
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0588
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-dracolizard_fire_projectile.w2ent:                                        1 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        2 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        3 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        4 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        5 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        6 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        7 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        8 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        9 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        10 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        11 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        12 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        13 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        14 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                        15 (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:                                distanceFromCamera (Float) : 12.0000
-dracolizard_fire_projectile.w2ent:                                centerMultiplier (Float) : 0.3500
-dracolizard_fire_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
-dracolizard_fire_projectile.w2ent:            Unk1 (Uint32) : 0
-dracolizard_fire_projectile.w2ent:    W3DracolizardFireball #1 (W3DracolizardFireball) : venom
-dracolizard_fire_projectile.w2ent:        W3DracolizardFireball (W3DracolizardFireball) : 
-dracolizard_fire_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            streamingDistance (Uint8) : 0
-dracolizard_fire_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-dracolizard_fire_projectile.w2ent:                0 (ptr:CComponent) : CEffectDummyComponent #2
-dracolizard_fire_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
-dracolizard_fire_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-dracolizard_fire_projectile.w2ent:                0 (SEntityBufferType1) : 
-dracolizard_fire_projectile.w2ent:                    ComponentName (CName) : 
-dracolizard_fire_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-dracolizard_fire_projectile.w2ent:            idTag (IdTag) :  ac25e4ea-0e05-4ddb-b4fd-663c5941148b
-dracolizard_fire_projectile.w2ent:            displayName (LocalizedString) : 1211408
-dracolizard_fire_projectile.w2ent:            radius (Float) : 0.3000
-dracolizard_fire_projectile.w2ent:            projSpeed (Float) : 20.0000
-dracolizard_fire_projectile.w2ent:            projAngle (Float) : 0.0000
-dracolizard_fire_projectile.w2ent:            projDMG (Float) : 300.0000
-dracolizard_fire_projectile.w2ent:            projSilverDMG (Float) : 300.0000
-dracolizard_fire_projectile.w2ent:            initFxName (CName) : venom
-dracolizard_fire_projectile.w2ent:            onCollisionFxName (CName) : venom_hit
-dracolizard_fire_projectile.w2ent:            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_location.w2ent
-dracolizard_fire_projectile.w2ent:            range (Float) : 1.5000
-dracolizard_fire_projectile.w2ent:            burningDur (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:            destroyAfter (Float) : 10.0000
-dracolizard_fire_projectile.w2ent:            surfaceFX (SFXSurfacePostParams) : <SFXSurfacePostParams>surfaceFX
-dracolizard_fire_projectile.w2ent:                fxFadeInTime (Float) : 0.5000
-dracolizard_fire_projectile.w2ent:                fxLastingTime (Float) : 10.0000
-dracolizard_fire_projectile.w2ent:                fxFadeOutTime (Float) : 1.0000
-dracolizard_fire_projectile.w2ent:                fxRadius (Float) : 3.0000
-dracolizard_fire_projectile.w2ent:                fxType (Int32) : 1
-dracolizard_fire_projectile.w2ent:    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-dracolizard_fire_projectile.w2ent:            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-dracolizard_fire_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            name (String) : "CEffectDummyComponent0"
-dracolizard_fire_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
-dracolizard_fire_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-dracolizard_fire_projectile.w2ent:            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-dracolizard_fire_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-dracolizard_fire_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
-dracolizard_fire_projectile.w2ent:            isStreamed (Bool) : false
-dracolizard_fire_projectile.w2ent:            banksDependency (array:CName) : # array:CName
-dracolizard_fire_projectile.w2ent:                0 (CName) : monster_dracolizard.bnk
-dracolizard_fire_projectile.w2ent:            maxDistance (Float) : 50.0000
+    CEntityTemplate #0 (CEntityTemplate) : W3DracolizardFireball
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : W3DracolizardFireball
+            entityObject (ptr:CEntity) : W3DracolizardFireball #1
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : fx
+                    name (CName) : fx
+                    componentName (CName) : CEffectDummyComponent0
+            flatCompiledData (array:Uint8) : # array:Uint8
+                W3DracolizardFireball #0 (W3DracolizardFireball) : PreviewEntity
+                    W3DracolizardFireball (W3DracolizardFireball) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CEffectDummyComponent #1
+                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  ac25e4ea-0e05-4ddb-b4fd-663c5941148b
+                        displayName (LocalizedString) : 1211408
+                        radius (Float) : 0.3000
+                        projSpeed (Float) : 20.0000
+                        projAngle (Float) : 0.0000
+                        projDMG (Float) : 300.0000
+                        projSilverDMG (Float) : 300.0000
+                        initFxName (CName) : venom
+                        onCollisionFxName (CName) : venom_hit
+                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_location.w2ent
+                        range (Float) : 1.5000
+                        burningDur (Float) : 3.0000
+                        destroyAfter (Float) : 10.0000
+                        surfaceFX (SFXSurfacePostParams) : <SFXSurfacePostParams>surfaceFX
+                            fxFadeInTime (Float) : 0.5000
+                            fxLastingTime (Float) : 10.0000
+                            fxFadeOutTime (Float) : 1.0000
+                            fxRadius (Float) : 3.0000
+                            fxType (Int32) : 1
+                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : 203
+                        graphPositionY (Int16) : 312
+                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 191
+                        graphPositionY (Int16) : 217
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_dracolizard.bnk
+                        maxDistance (Float) : 50.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : venom
+                    name (CName) : venom
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 3131 bytes, MD5: 5821817b2dcc21cdf32ed2c657a7e6a6
+                        CFXDefinition #0 (CFXDefinition) : venom
+                            CFXDefinition (CFXDefinition) : venom
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom
+                                showDistance (Float) : 44.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : fire
+                            CFXTrackGroup (CFXTrackGroup) : fire
+                                name (String) : "fire"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                    1 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 188
+                                    Green (Uint8) : 149
+                                    Blue (Uint8) : 200
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "3"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeDuration (Float) : 1.6138
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        1 (Float) : 12.0000
+                                        2 (Float) : 12.0000
+                                        3 (Float) : 10.0139
+                                        4 (Float) : 4.0046
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 167
+                                    Blue (Uint8) : 86
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 3.0000
+                                brightness (Float) : 35.0000
+                                autoHideDistance (Float) : 25.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                        CFXTrack #5 (CFXTrack) : 12
+                            CFXTrack (CFXTrack) : 12
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #6
+                                name (String) : "12"
+                        CFXTrackItemDynamicLight #6 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0027
+                                timeDuration (Float) : 1.6138
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        1 (Float) : 12.0000
+                                        2 (Float) : 12.0000
+                                        3 (Float) : 10.0139
+                                        4 (Float) : 4.0046
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 167
+                                    Blue (Uint8) : 86
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 8.0000
+                                brightness (Float) : 15.0000
+                                autoHideDistance (Float) : 25.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                        CFXTrackGroup #8 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #9
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 205
+                                    Green (Uint8) : 221
+                                    Blue (Uint8) : 139
+                                    Alpha (Uint8) : 100
+                        CFXTrack #9 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #10
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #10 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1098
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                latchDistanceParameterBelow (Float) : 3.0000
+                                latchEvent (StringAnsi) : monster_dracolizard_combat_fireball_flyby
+                        CFXTrackGroup #11 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #12
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #12 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
+                                name (String) : "asd"
+                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_fx2.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
+                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                1 (CEntityTemplateCookedEffect) : venom_hit
+                    name (CName) : venom_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 5302 bytes, MD5: 573226ff9f13ac67dd27daef9d3cf4fa
+                        CFXDefinition #0 (CFXDefinition) : venom_hit
+                            CFXDefinition (CFXDefinition) : venom_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #11
+                                    4 (ptr:CFXTrackGroup) : CFXTrackGroup #22
+                                length (Float) : 4.5091
+                                loopStart (Float) : 0.0987
+                                loopEnd (Float) : 0.1791
+                                name (CName) : venom_hit
+                                showDistance (Float) : 220.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : sound
+                            CFXTrackGroup (CFXTrackGroup) : sound
+                                name (String) : "sound"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 134
+                                    Green (Uint8) : 240
+                                    Blue (Uint8) : 251
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent0
+                        CFXTrack #2 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "asd"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0469
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_dracolizard_combat_fireball_hit
+                        CFXTrackGroup #4 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 186
+                                    Green (Uint8) : 244
+                                    Blue (Uint8) : 161
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #6
+                                name (String) : "asd"
+                        CFXTrackItemDynamicLight #6 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : -0.0015
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0> <17.50085> <11.01826> <4.535662> <1.860844> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0>>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 17.5009
+                                        3 (Float) : 11.0183
+                                        4 (Float) : 4.5357
+                                        5 (Float) : 1.8608
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 188
+                                    Blue (Uint8) : 100
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 26.0000
+                                brightness (Float) : 65.0000
+                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+                                    flickerPeriod (Float) : 0.0000
+                                autoHideDistance (Float) : 45.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                                relativePos (Vector) : <Vector>relativePos
+                                    X (Float) : 0.0000
+                                    Y (Float) : 0.0000
+                                    Z (Float) : 1.0000
+                                    W (Float) : 0.0000
+                        CFXTrackGroup #8 (CFXTrackGroup) : tint
+                            CFXTrackGroup (CFXTrackGroup) : tint
+                                name (String) : "tint"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #9
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 183
+                                    Green (Uint8) : 186
+                                    Blue (Uint8) : 155
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent0
+                        CFXTrack #9 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemBrightnessTint #10
+                                name (String) : "asd"
+                        CFXTrackItemBrightnessTint #10 (CFXTrackItemBrightnessTint) : BrightnessTint
+                            CFXTrackItemBrightnessTint (CFXTrackItemBrightnessTint) : <CFXTrackItemBrightnessTint>CFXTrackItemBrightnessTint
+                                timeBegin (Float) : -0.0056
+                                timeDuration (Float) : 0.6814
+                                buffername (CName) : BrightnessTint
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <3> <6.714285> <5.285714> <3.857143> <2.428571> <1> <1> <1> <1> <1> <1> <1> <1> <1> <1>>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        1 (Float) : 3.0000
+                                        2 (Float) : 6.7143
+                                        3 (Float) : 5.2857
+                                        4 (Float) : 3.8571
+                                        5 (Float) : 2.4286
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.8571
+                                        7 (Float) : 0.6667
+                                        8 (Float) : 0.4762
+                                        9 (Float) : 0.2857
+                                        10 (Float) : 0.0952
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 255
+                                    Green (Uint8) : 191
+                                    Blue (Uint8) : 124
+                                    Alpha (Uint8) : 255
+                                range (Float) : 17.0000
+                        CFXTrackGroup #11 (CFXTrackGroup) : asd
+                            CFXTrackGroup (CFXTrackGroup) : asd
+                                name (String) : "asd"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #12
+                                    1 (ptr:CFXTrack) : CFXTrack #15
+                                    2 (ptr:CFXTrack) : CFXTrack #18
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 155
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 164
+                                    Alpha (Uint8) : 100
+                        CFXTrack #12 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #13
+                                name (String) : "3"
+                        CFXTrackItemParticles #13 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0209
+                                timeDuration (Float) : 4.4437
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.5000
+                                        1 (Float) : 1.5000
+                                        2 (Float) : 1.5000
+                                        3 (Float) : 1.5000
+                                        4 (Float) : 1.5000
+                                        5 (Float) : 1.5000
+                                        6 (Float) : 1.5000
+                                        7 (Float) : 1.5000
+                                        8 (Float) : 1.5000
+                                        9 (Float) : 1.5000
+                                        10 (Float) : 1.5000
+                                        11 (Float) : 1.5000
+                                        12 (Float) : 1.5000
+                                        13 (Float) : 1.5000
+                                        14 (Float) : 1.5000
+                                        15 (Float) : 1.5000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_explode.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #14
+                        CFXSpawnerComponent #14 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                        CFXTrack #15 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #16
+                                name (String) : "3"
+                        CFXTrackItemParticles #16 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0000
+                                timeDuration (Float) : 4.4437
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.5000
+                                        1 (Float) : 1.5000
+                                        2 (Float) : 1.5000
+                                        3 (Float) : 1.5000
+                                        4 (Float) : 1.5000
+                                        5 (Float) : 1.5000
+                                        6 (Float) : 1.5000
+                                        7 (Float) : 1.5000
+                                        8 (Float) : 1.5000
+                                        9 (Float) : 1.5000
+                                        10 (Float) : 1.5000
+                                        11 (Float) : 1.5000
+                                        12 (Float) : 1.5000
+                                        13 (Float) : 1.5000
+                                        14 (Float) : 1.5000
+                                        15 (Float) : 1.5000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fireball_explode.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #17
+                        CFXSpawnerComponent #17 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                        CFXTrack #18 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemFlare #19
+                                name (String) : "asd"
+                        CFXTrackItemFlare #19 (CFXTrackItemFlare) : 
+                            CFXTrackItemFlare (CFXTrackItemFlare) : <CFXTrackItemFlare>CFXTrackItemFlare
+                                timeBegin (Float) : 0.0018
+                                timeDuration (Float) : 0.5755
+                                buffername (CName) : 
+                                count (CDynamicInt) : 1
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <8.270128> <11.12731> <9.537694> <7.948078> <6.358462> <4.768847> <3.179232> <1.589616> 
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 8.2701
+                                        2 (Float) : 11.1273
+                                        3 (Float) : 9.5377
+                                        4 (Float) : 7.9481
+                                        5 (Float) : 6.3585
+                                        6 (Float) : 4.7688
+                                        7 (Float) : 3.1792
+                                        8 (Float) : 1.5896
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                material (handle:CMaterialInstance) : CMaterialInstance #20
+                                parameters (SFlareParameters) : <SFlareParameters>parameters
+                                    flareRadius (Float) : 6.0000
+                                    fadeInMaxSpeed (Float) : 9999.0000
+                                    fadeOutMaxSpeed (Float) : 9999.0000
+                                    fadeInAccel (Float) : 9999.0000
+                                    fadeOutAccel (Float) : 9999.0000
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #21
+                        CMaterialInstance #20 (CMaterialInstance) : CMaterialGraph:fx\shaders\flares_fx_mat.w2mg
+                            CMaterialInstance (CMaterialInstance) : <CMaterialInstance>CMaterialInstance
+                                baseMaterial (handle:IMaterial) : fx/shaders/flares_fx_mat.w2mg
+                                InstanceParameters (array:CVariantSizeNameType) : # array:CVariantSizeNameType
+                                    color (Color) : <Color>color
+                                        Red (Uint8) : 255
+                                        Green (Uint8) : 158
+                                        Blue (Uint8) : 92
+                                        Alpha (Uint8) : 255
+                                    blend_far_end (Float) : 120.0000
+                                    blend_far_start (Float) : 60.0000
+                        CFXSpawnerComponent #21 (CFXSpawnerComponent) : fx
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : fx
+                                copyRotation (Bool) : false
+                        CFXTrackGroup #22 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #23
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 151
+                                    Green (Uint8) : 161
+                                    Blue (Uint8) : 254
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent0
+                        CFXTrack #23 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemRadialBlur #24
+                                name (String) : "sfx"
+                        CFXTrackItemRadialBlur #24 (CFXTrackItemRadialBlur) : RadialBlur
+                            CFXTrackItemRadialBlur (CFXTrackItemRadialBlur) : <CFXTrackItemRadialBlur>CFXTrackItemRadialBlur
+                                timeBegin (Float) : 0.0029
+                                buffername (CName) : RadialBlur
+                                count (CDynamicInt) : 4
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.1666667> <0.1372549> <0.0588235> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0> <0>> <16
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.1667
+                                        2 (Float) : 0.1373
+                                        3 (Float) : 0.0588
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                distanceFromCamera (Float) : 12.0000
+                                centerMultiplier (Float) : 0.3500
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    W3DracolizardFireball #1 (W3DracolizardFireball) : venom
+        W3DracolizardFireball (W3DracolizardFireball) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CEffectDummyComponent #2
+                1 (ptr:CComponent) : CSoundEmitterComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  ac25e4ea-0e05-4ddb-b4fd-663c5941148b
+            displayName (LocalizedString) : 1211408
+            radius (Float) : 0.3000
+            projSpeed (Float) : 20.0000
+            projAngle (Float) : 0.0000
+            projDMG (Float) : 300.0000
+            projSilverDMG (Float) : 300.0000
+            initFxName (CName) : venom
+            onCollisionFxName (CName) : venom_hit
+            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/oszluzg/oszluzg_fire_location.w2ent
+            range (Float) : 1.5000
+            burningDur (Float) : 3.0000
+            destroyAfter (Float) : 10.0000
+            surfaceFX (SFXSurfacePostParams) : <SFXSurfacePostParams>surfaceFX
+                fxFadeInTime (Float) : 0.5000
+                fxLastingTime (Float) : 10.0000
+                fxFadeOutTime (Float) : 1.0000
+                fxRadius (Float) : 3.0000
+                fxType (Int32) : 1
+    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"
+    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_dracolizard.bnk
+            maxDistance (Float) : 50.0000

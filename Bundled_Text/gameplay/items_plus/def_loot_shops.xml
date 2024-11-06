@@ -1084,10 +1084,10 @@
 		<loot_entry name="Powdered pearl"							player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 		<loot_entry name="Black pearl dust"							player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 <!-- recipes -->
-		<loot_entry name="Recipe for Nigredo"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Aether"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Nigredo"									player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
+		<loot_entry name="Aether"									player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 		<loot_entry name="Recipe for Alcohest 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for White Gull 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="White Gull 1"								player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 		<loot_entry name="Recipe for Dwarven spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Mahakam spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Mandrake cordial 1"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
@@ -2115,8 +2115,8 @@
 		<loot_entry name="Recipe for Magicals Oil 2"				player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Specter Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Specter Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Albedo"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Hydragenum"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Albedo"									player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
+		<loot_entry name="Hydragenum"								player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 <!-- quest -->
 		<loot_entry name="mq2049_book_4"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 <!-- alchemy -->
@@ -5559,15 +5559,15 @@
 		<loot_entry name="Recipe for Black Blood 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Black Blood 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Black Blood 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Aether"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Albedo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Hydragenum"					player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Nigredo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Quebrith"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Rebis"							player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Rubedo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Vermilion"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Vitriol"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Aether"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Albedo"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Hydragenum"								player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Nigredo"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Quebrith"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Rebis"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Rubedo"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Vermilion"								player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
+		<loot_entry name="Vitriol"									player_level_min="5"	player_level_max="0"	quantity_min="10"	quantity_max="50"	chance="-1"			/>
 		<loot_entry name="Recipe for Bear Pheromone Potion 1"		player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Drowner Pheromone Potion 1"	player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Nekker Pheromone Potion 1"		player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
@@ -6917,11 +6917,11 @@
 		<loot_entry name="Necrophage vol 1"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="lore_conjunction_of_spheres"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="lore_basics_of_magic"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Aether"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Albedo"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Hydragenum"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Aether"									player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
+		<loot_entry name="Albedo"									player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
+		<loot_entry name="Hydragenum"								player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 		<loot_entry name="Recipe for Alcohest 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for White Gull 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="White Gull 1"								player_level_min="0"	player_level_max="0"	quantity_min="5"	quantity_max="10"	chance="-1"			/>
 		<loot_entry name="Recipe for Dwarven spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Mahakam spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Mandrake cordial 1"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>

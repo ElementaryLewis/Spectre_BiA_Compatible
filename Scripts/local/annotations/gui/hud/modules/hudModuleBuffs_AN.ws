@@ -255,7 +255,9 @@
 	var buffState				: int;
 	var format					: int;
 	var quenBuff 				: W3Effect_BasicQuen;
-	var isOilInfinite : bool;
+	var isOilInfinite 			: bool;
+	var iconPath				: string;
+	var locKey					: string;
 	
 	l_flashArray = GetModuleFlashValueStorage()().CreateTempFlashArray();
 	for(i = 0; i < Min(buffDisplayLimit,_currentEffects.Size()); i += 1) 
@@ -281,7 +283,7 @@
 			if(thePlayer.IsSkillEquipped( S_Alchemy_s06 ) && GetWitcherPlayer().CanUseSkill(S_Alchemy_s06) && GetWitcherPlayer().GetSkillLevel(S_Alchemy_s06) > 2)
 				isOilInfinite = true;
 			
-			if ( effectType == EET_Oil && isOilInfinite )
+			if ( effectType == EET_Oil && isOilInfinite || effectType == EET_Oil && thePlayer.IsSkillEquipped( S_Alchemy_s06 ) && thePlayer.GetSkillLevel( S_Alchemy_s06 ) >= 3 )
 			{
 				
 				format = 0;

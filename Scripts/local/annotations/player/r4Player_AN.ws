@@ -10,7 +10,31 @@ public			var castSignHoldTimestamp			: float;
 {
 	wrappedMethod(spawnData);
 	
-	spectreInitializeSettings();
+	spectreInitAttempt();
+
+	AddTimer('spectreWatcher', 0.01f, true);
+}
+
+@addMethod( CR4Player ) timer function spectreWatcher( dt : float, id : int )
+{
+	if ((spectreVersionControl() == 0 || spectreVersionControl() > spectreGetVersion() ) && FactsQuerySum("acs_version_control_toggle") <= 0 )
+	{
+		FactsAdd("spectre_version_control_toggle");
+	}
+	
+	if ( FactsQuerySum("spectre_version_control_toggle") > 0 )
+	{
+		if (spectreVersionControl() == 0)
+		{
+			spectreInitializeSettings();
+		}
+		else
+		{
+			theGame.GetInGameConfigWrapper().SetVarValue('spectreMainOptions', 'spectreVersionControl', spectreGetVersion());
+		}
+
+		FactsRemove("spectre_version_control_toggle");
+	}
 }
 
 @wrapMethod(CR4Player) function ReduceAllOilsAmmo( id : SItemUniqueId )
@@ -460,6 +484,62 @@ public			var castSignHoldTimestamp			: float;
 		return validCounter;
 	}			
 	
+	return false;
+}
+
+@wrapMethod(CR4Player) function CheckCounterSpamming(attacker : CActor) : bool
+{	
+	var counterWindowStartTime : EngineTime;		
+	var i, spamCounter : int;
+	var reflexAction : bool;
+	var testEngineTime : EngineTime;
+
+	if(false) 
+	{
+		wrappedMethod(attacker);
+	}
+
+	if ( thePlayer.GetSkillLevel(S_Sword_s11) == 10 )
+	{
+		return true;
+	}
+	
+	if(!attacker)
+		return false;
+	
+	counterWindowStartTime = ((CNewNPC)attacker).GetCounterWindowStartTime();
+	spamCounter = 0;
+	reflexAction = false;
+	
+	
+	if ( counterWindowStartTime == testEngineTime )
+	{
+		return false;
+	}
+	
+	for(i = counterTimestamps.Size() - 1; i>=0; i-=1)
+	{
+		
+		if(counterTimestamps[i] >= (counterWindowStartTime - EngineTimeFromFloat(0.4)) )
+		{
+			spamCounter += 1;
+		}
+		
+		else
+		{
+			counterTimestamps.Remove(counterTimestamps[i]);
+			continue;
+		}
+		
+		
+		if(!reflexAction && (counterTimestamps[i] >= counterWindowStartTime))
+			reflexAction = true;
+	}
+	
+	
+	if(spamCounter == 1 && reflexAction)
+		return true;
+		
 	return false;
 }
 

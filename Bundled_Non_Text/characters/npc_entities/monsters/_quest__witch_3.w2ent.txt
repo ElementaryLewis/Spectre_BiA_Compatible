@@ -1,0 +1,1718 @@
+    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : characters/base_entities/witch_base/witch_base.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : witch_base
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : movementAdjustor
+                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+                    componentName (CName) : head
+                    className (CName) : CMimicComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : skeleton
+                        1 (CName) : animationSets
+                        2 (CName) : behaviorInstanceSlots
+                2 (SEntityTemplateOverride) : <SEntityTemplateOverride>2
+                    componentName (CName) : CSoundEmitterComponent0
+                    className (CName) : CSoundEmitterComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : eventsOnAttach
+                        1 (CName) : banksDependency
+                        2 (CName) : maxDistance
+            properOverrides (Bool) : true
+            entityClass (CName) : CNewNPC
+            entityObject (ptr:CEntity) : CNewNPC #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : witch_3
+                    name (CName) : witch_3
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : characters/models/monsters/witches/witch3.w2ent
+                        1 (handle:CEntityTemplate) : characters/models/monsters/witches/h_01__witch3.w2ent
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : throw_head_proj
+                    wasIncluded (Bool) : true
+                    name (CName) : throw_head_proj
+                    componentName (CName) : witch_base
+                    boneName (CName) : r_middle_01
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 90.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : 0.0300
+                        Y (Float) : 0.1000
+                        Z (Float) : 0.0000
+                1 (EntitySlot) : throw_hand_proj
+                    wasIncluded (Bool) : true
+                    name (CName) : throw_hand_proj
+                    componentName (CName) : witch_base
+                    boneName (CName) : r_middle_01
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 270.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : 0.0300
+                        Y (Float) : 0.1000
+                        Z (Float) : -0.1500
+                2 (EntitySlot) : throw_foot_proj
+                    wasIncluded (Bool) : true
+                    name (CName) : throw_foot_proj
+                    componentName (CName) : witch_base
+                    boneName (CName) : r_middle_01
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 90.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : 0.0300
+                        Y (Float) : 0.1000
+                        Z (Float) : -0.1000
+                3 (EntitySlot) : drain_fx
+                    wasIncluded (Bool) : true
+                    name (CName) : drain_fx
+                    componentName (CName) : witch_base
+                    boneName (CName) : torso3
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CCharacterStatsParam #29
+                1 (ptr:CEntityTemplateParam) : CAIProfile #30
+                2 (ptr:CEntityTemplateParam) : CInventoryDefinition #31
+                3 (ptr:CEntityTemplateParam) : CAnimMimicParam #34
+                4 (ptr:CEntityTemplateParam) : CR4LootParam #35
+                5 (ptr:CEntityTemplateParam) : CAnimGlobalParam #36
+                6 (ptr:CEntityTemplateParam) : CCharacterStatsParam #37
+                7 (ptr:CEntityTemplateParam) : CAttackRangeParam #38
+                8 (ptr:CEntityTemplateParam) : CCharacterControllerParam #40
+                9 (ptr:CEntityTemplateParam) : CMonsterParam #41
+                10 (ptr:CEntityTemplateParam) : CAutoEffectsParam #42
+                11 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #43
+                12 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #44
+                13 (ptr:CEntityTemplateParam) : CAIProfile #45
+                14 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #48
+                15 (ptr:CEntityTemplateParam) : CBuffImmunityParam #89
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CNewNPC #0 (CNewNPC) : PreviewEntity
+                    CNewNPC (CNewNPC) : PreviewEntity
+                        tags (TagList) : witch
+                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                                0 (CName) : witch
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 14
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
+                            1 (ptr:CComponent) : CAppearanceComponent #23
+                            2 (ptr:CComponent) : CInventoryComponent #24
+                            3 (ptr:CComponent) : CCreatureDataComponent #25
+                            4 (ptr:CComponent) : CBoidPointOfInterestComponent #3
+                            5 (ptr:CComponent) : CBoidPointOfInterestComponent #7
+                            6 (ptr:CComponent) : CBoidPointOfInterestComponent #5
+                            7 (ptr:CComponent) : CBoidPointOfInterestComponent #9
+                            8 (ptr:CComponent) : CBoidPointOfInterestComponent #13
+                            9 (ptr:CComponent) : CBoidPointOfInterestComponent #11
+                            10 (ptr:CComponent) : CSoundEmitterComponent #26
+                            11 (ptr:CComponent) : CDynamicColliderComponent #15
+                            12 (ptr:CComponent) : CDynamicColliderComponent #18
+                            13 (ptr:CComponent) : CDynamicColliderComponent #21
+                            14 (ptr:CComponent) : CGameplayEffectsComponent #27
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  0d1cd78c-fedd-4ade-b7d2-fbf8743bdab4
+                        displayName (LocalizedString) : Weavess
+                        useSoundValue (Bool) : true
+                        soundValue (Int32) : 75
+                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : witch_base
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : witch_base
+                        guid (CGUID) : a04ea278-776b-4f5f-847c-75e0aa172aff
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                            1 (handle:IAttachment) : CHardAttachment #4
+                            2 (handle:IAttachment) : CHardAttachment #6
+                            3 (handle:IAttachment) : CHardAttachment #8
+                            4 (handle:IAttachment) : CHardAttachment #10
+                            5 (handle:IAttachment) : CHardAttachment #12
+                            6 (handle:IAttachment) : CHardAttachment #14
+                            7 (handle:IAttachment) : CHardAttachment #17
+                            8 (handle:IAttachment) : CHardAttachment #20
+                        name (String) : "witch_base"
+                        graphPositionX (Int16) : 23
+                        graphPositionY (Int16) : 252
+                        ragdoll (handle:CRagdoll) : characters/base_entities/witch_base/witch_ragdoll.w2ragdoll
+                        skeleton (handle:CSkeleton) : characters/base_entities/witch_base/witch_base.w2rig
+                        behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : BaseGraph
+                                instanceName (CName) : BaseGraph
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_witch_combat.w2beh
+                            1 (SBehaviorGraphInstanceSlot) : StoryScene
+                                instanceName (CName) : StoryScene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+                            2 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+                CHardAttachment #2 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #3
+                CBoidPointOfInterestComponent #3 (CBoidPointOfInterestComponent) : SpawnH
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnH
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 271.5343
+                            Yaw (Float) : 354.4547
+                            Roll (Float) : 350.6728
+                            X (Float) : 0.4250
+                            Y (Float) : 0.4515
+                            Z (Float) : 1.5111
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #2
+                        guid (CGUID) : 2f9ad25c-fad5-463f-b5df-d35b3822da75
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnH"
+                        graphPositionX (Int16) : -80
+                        graphPositionY (Int16) : 305
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #4 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #5
+                CBoidPointOfInterestComponent #5 (CBoidPointOfInterestComponent) : SpawnLH
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnLH
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 129.5082
+                            Yaw (Float) : 313.8434
+                            Roll (Float) : 216.1603
+                            X (Float) : -0.1867
+                            Y (Float) : 0.1245
+                            Z (Float) : 1.2988
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #4
+                        guid (CGUID) : debd8009-71bd-4a3f-9328-e115d5015a9f
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #4
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnLH"
+                        graphPositionX (Int16) : -135
+                        graphPositionY (Int16) : 373
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #6 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #7
+                CBoidPointOfInterestComponent #7 (CBoidPointOfInterestComponent) : SpawnRH
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnRH
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 115.3991
+                            Yaw (Float) : 293.9240
+                            Roll (Float) : 173.1790
+                            X (Float) : 0.7019
+                            Y (Float) : -0.1039
+                            Z (Float) : 1.3002
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #6
+                        guid (CGUID) : 66b4701c-353d-4bd7-8a7a-6505fd817ff1
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #6
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnRH"
+                        graphPositionX (Int16) : -26
+                        graphPositionY (Int16) : 371
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #8 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #9
+                CBoidPointOfInterestComponent #9 (CBoidPointOfInterestComponent) : SpawnT
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnT
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 97.4203
+                            Yaw (Float) : 284.2956
+                            Roll (Float) : 155.7710
+                            X (Float) : 0.2533
+                            Y (Float) : 0.1291
+                            Z (Float) : 1.4886
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #8
+                        guid (CGUID) : ce59b584-f1d5-4aee-bd16-cbfd37155ca9
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #8
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnT"
+                        graphPositionX (Int16) : -84
+                        graphPositionY (Int16) : 411
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #10 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #11
+                CBoidPointOfInterestComponent #11 (CBoidPointOfInterestComponent) : SpawnLL
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnLL
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 111.8649
+                            Yaw (Float) : 359.8303
+                            Roll (Float) : 353.6769
+                            X (Float) : -0.0437
+                            Y (Float) : 0.5549
+                            Z (Float) : 0.7316
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #10
+                        guid (CGUID) : 897b25a6-4379-408c-aad1-1c3ef52333d9
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #10
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnLL"
+                        graphPositionX (Int16) : -140
+                        graphPositionY (Int16) : 441
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #12 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CBoidPointOfInterestComponent #13
+                CBoidPointOfInterestComponent #13 (CBoidPointOfInterestComponent) : SpawnRL
+                    CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnRL
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 70.2369
+                            Yaw (Float) : 337.6712
+                            Roll (Float) : 278.3311
+                            X (Float) : 0.5970
+                            Y (Float) : -0.0851
+                            Z (Float) : 0.6606
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #12
+                        guid (CGUID) : e4112227-b2b2-4cff-93a6-49b0a644d3b8
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #12
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "SpawnRL"
+                        graphPositionX (Int16) : -17
+                        graphPositionY (Int16) : 445
+                        params.m_type (CName) : BirdMaster
+                CHardAttachment #14 (CHardAttachment) : l_hand
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #15
+                        parentSlotName (CName) : l_hand
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #16
+                CDynamicColliderComponent #15 (CDynamicColliderComponent) : grass_collider_hand_l
+                    CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_hand_l
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 0.5000
+                            Scale_y (Float) : 0.5000
+                            Scale_z (Float) : 0.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #14
+                        guid (CGUID) : 8c39e43b-fe34-4c82-8d62-77ff1ec95d4b
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #14
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "grass_collider_hand_l"
+                        graphPositionX (Int16) : -164
+                        graphPositionY (Int16) : 522
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #16 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 11
+                CHardAttachment #17 (CHardAttachment) : r_hand
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #18
+                        parentSlotName (CName) : r_hand
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #19
+                CDynamicColliderComponent #18 (CDynamicColliderComponent) : grass_collider_hand_r
+                    CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_hand_r
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 0.5000
+                            Scale_y (Float) : 0.5000
+                            Scale_z (Float) : 0.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #17
+                        guid (CGUID) : e970f61f-793d-4f3f-8677-3d78404ac261
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #17
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "grass_collider_hand_r"
+                        graphPositionX (Int16) : -160
+                        graphPositionY (Int16) : 576
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #19 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 34
+                CHardAttachment #20 (CHardAttachment) : pelvis
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #21
+                        parentSlotName (CName) : pelvis
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #22
+                CDynamicColliderComponent #21 (CDynamicColliderComponent) : grass_collider_pelvis
+                    CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_pelvis
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.6000
+                            Scale_y (Float) : 2.0000
+                            Scale_z (Float) : 1.6000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #20
+                        guid (CGUID) : 9f39b471-72e8-4c02-9e8a-b6823ff8779b
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #20
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "grass_collider_pelvis"
+                        graphPositionX (Int16) : -166
+                        graphPositionY (Int16) : 630
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #22 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 2
+                CAppearanceComponent #23 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : d1b73e97-d373-4422-ad52-ec53873617eb
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : 282
+                        graphPositionY (Int16) : 378
+                        forcedAppearance (CName) : witch_3
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_grass_collider_hand_l_F8F83804-4B3E11F8-223F1197-6B1FB8FC
+                                    oldName (CName) : proxy_grass_collider_hand_l_F8F83804-4B3E11F8-223F1197-6B1FB8FC
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : grass_collider_hand_l
+                                    newClass (CName) : CDynamicColliderComponent
+                                1 (SAttachmentReplacement) : proxy_grass_collider_hand_r_299D28CB-47F11177-162F4C89-0C5F1515
+                                    oldName (CName) : proxy_grass_collider_hand_r_299D28CB-47F11177-162F4C89-0C5F1515
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : grass_collider_hand_r
+                                    newClass (CName) : CDynamicColliderComponent
+                                2 (SAttachmentReplacement) : proxy_grass_collider_pelvis_6DE4B697-46986008-05590E92-E1FE1B1F
+                                    oldName (CName) : proxy_grass_collider_pelvis_6DE4B697-46986008-05590E92-E1FE1B1F
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : grass_collider_pelvis
+                                    newClass (CName) : CDynamicColliderComponent
+                                3 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_DFEF4915-4DCE6A3F-7114E2BD-286EB82C
+                                    oldName (CName) : proxy_CGameplayEffectsComponent0_DFEF4915-4DCE6A3F-7114E2BD-286EB82C
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CGameplayEffectsComponent0
+                                    newClass (CName) : CGameplayEffectsComponent
+                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                            0 (SAppearanceAttachments) : witch_3
+                                appearance (CName) : witch_3
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : i_01__witch3
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : witch_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : i_01__witch3
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                                    1 (SAppearanceAttachment) : i_02__witch3
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : witch_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : i_02__witch3
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                                    2 (SAppearanceAttachment) : dyng_i_03__witch3
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : witch_base
+                                        childClass (CName) : CAnimDangleComponent
+                                        childName (CName) : dyng_i_03__witch3
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CAnimatedAttachment) : <CAnimatedAttachment>0
+                                    3 (SAppearanceAttachment) : head
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : witch_base
+                                        childClass (CName) : CMimicComponent
+                                        childName (CName) : head
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CAnimatedAttachment) : <CAnimatedAttachment>0
+                                                parentSlotName (CName) : torso2
+                CInventoryComponent #24 (CInventoryComponent) : container
+                    CInventoryComponent (CInventoryComponent) : container
+                        guid (CGUID) : 830c8335-5b8d-42c6-b28a-82f5263c5d76
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "container"
+                        graphPositionX (Int16) : -217
+                        graphPositionY (Int16) : 214
+                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+                CCreatureDataComponent #25 (CCreatureDataComponent) : CCreatureDataComponent0
+                    CCreatureDataComponent (CCreatureDataComponent) : 
+                        guid (CGUID) : 8eacce03-f65b-4b79-bd55-e523bd506b25
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CCreatureDataComponent0"
+                        graphPositionX (Int16) : -275
+                        graphPositionY (Int16) : 5
+                        itemsUsedAgainstCreature (array:CName) : # array:CName
+                            0 (CName) : Necrophage Oil 1	
+                        skillsUsedAgainstCreature (array:CName) : # array:CName
+                            0 (CName) : magic_3
+                        cameraDistance (Float) : 2.5000
+                        cameraLookAtZ (Float) : 1.0000
+                        cameraRotationYaw (Float) : 190.0000
+                        cameraRotationPitch (Float) : 10.0000
+                        environmentSunRotationYaw (Float) : 330.0000
+                        environmentSunRotationPitch (Float) : 340.0000
+                CSoundEmitterComponent #26 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : 2019e527-ddbe-4f12-9d9a-f89a31a6b1de
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : -226
+                        graphPositionY (Int16) : 153
+                        eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+                            0 (StringAnsi) : set_monster_witch_3_armour_type_flesh
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_witch_3.bnk
+                        maxDistance (Float) : 100.0000
+                CGameplayEffectsComponent #27 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                        guid (CGUID) : 812ac6da-efbb-4a8f-87e1-a251f6432562
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CGameplayEffectsComponent0"
+                        graphPositionX (Int16) : 155
+                        graphPositionY (Int16) : 508
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : disappear
+                    name (CName) : disappear
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1970 bytes, MD5: f241437fa7bbdb13cbbf8d85987fda33
+                        CFXDefinition #0 (CFXDefinition) : disappear
+                            CFXDefinition (CFXDefinition) : disappear
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                length (Float) : 4.6525
+                                name (CName) : disappear
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 213
+                                    Green (Uint8) : 204
+                                    Blue (Uint8) : 241
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0175
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_witch_3_emerge
+                                maxDistance (Float) : 45.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : water
+                            CFXTrackGroup (CFXTrackGroup) : water
+                                name (String) : "water"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                isEnabled (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 225
+                                    Blue (Uint8) : 181
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "asd"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0429
+                                timeDuration (Float) : 4.6005
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <0.8664584> <0.5993751> <0.3322918> <0.06520838> <0> <0> <0> <0> <0> <0>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 0.8665
+                                        6 (Float) : 0.5994
+                                        7 (Float) : 0.3323
+                                        8 (Float) : 0.0652
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/waterhag/waterhag_appear/waterhag_water_p.w2p
+                                spawner (ptr:IFXSpawner) : CFXWaterSpawner #7
+                        CFXWaterSpawner #7 (CFXWaterSpawner) : 
+                            CFXWaterSpawner (CFXWaterSpawner) : <CFXWaterSpawner>CFXWaterSpawner
+                        CFXTrackGroup #8 (CFXTrackGroup) : fz
+                            CFXTrackGroup (CFXTrackGroup) : fz
+                                name (String) : "fz"
+                                isExpanded (Bool) : true
+                                isEnabled (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 188
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 171
+                                    Alpha (Uint8) : 100
+                1 (CEntityTemplateCookedEffect) : appear
+                    name (CName) : appear
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2035 bytes, MD5: 218f65805d8fb0111000200f64d7e0ba
+                        CFXDefinition #0 (CFXDefinition) : appear
+                            CFXDefinition (CFXDefinition) : appear
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #9
+                                length (Float) : 4.6525
+                                name (CName) : appear
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 133
+                                    Green (Uint8) : 253
+                                    Blue (Uint8) : 221
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0526
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_witch_3_emerge
+                                maxDistance (Float) : 45.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : water
+                            CFXTrackGroup (CFXTrackGroup) : water
+                                name (String) : "water"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 176
+                                    Green (Uint8) : 186
+                                    Blue (Uint8) : 231
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "asd"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0424
+                                timeDuration (Float) : 4.7787
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/waterhag/waterhag_appear/waterhag_water_p.w2p
+                                spawner (ptr:IFXSpawner) : CFXWaterSpawner #7
+                        CFXWaterSpawner #7 (CFXWaterSpawner) : 
+                            CFXWaterSpawner (CFXWaterSpawner) : <CFXWaterSpawner>CFXWaterSpawner
+                        CFXTrackGroup #8 (CFXTrackGroup) : chracter
+                            CFXTrackGroup (CFXTrackGroup) : chracter
+                                name (String) : "chracter"
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 232
+                                    Blue (Uint8) : 152
+                                    Alpha (Uint8) : 100
+                        CFXTrackGroup #9 (CFXTrackGroup) : fz
+                            CFXTrackGroup (CFXTrackGroup) : fz
+                                name (String) : "fz"
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 188
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 171
+                                    Alpha (Uint8) : 100
+                2 (CEntityTemplateCookedEffect) : death_dissapear
+                    name (CName) : death_dissapear
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2685 bytes, MD5: 5e8fc4521f3b704624f559a09f194ab5
+                        CFXDefinition #0 (CFXDefinition) : death_dissapear
+                            CFXDefinition (CFXDefinition) : death_dissapear
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #3
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+                                    3 (ptr:CFXTrackGroup) : CFXTrackGroup #9
+                                length (Float) : 6.6113
+                                loopStart (Float) : 0.3296
+                                name (CName) : death_dissapear
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : light1
+                            CFXTrackGroup (CFXTrackGroup) : light1
+                                name (String) : "light1"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 249
+                                    Green (Uint8) : 205
+                                    Blue (Uint8) : 251
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent1
+                        CFXTrack #2 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                name (String) : "sd"
+                        CFXTrackGroup #3 (CFXTrackGroup) : radial_blur
+                            CFXTrackGroup (CFXTrackGroup) : radial_blur
+                                name (String) : "radial_blur"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #4
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 243
+                                    Green (Uint8) : 134
+                                    Blue (Uint8) : 147
+                                    Alpha (Uint8) : 100
+                                componentName (CName) : CEffectDummyComponent1
+                        CFXTrack #4 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemRadialBlur #5
+                                name (String) : "sd"
+                        CFXTrackItemRadialBlur #5 (CFXTrackItemRadialBlur) : RadialBlur
+                            CFXTrackItemRadialBlur (CFXTrackItemRadialBlur) : <CFXTrackItemRadialBlur>CFXTrackItemRadialBlur
+                                timeBegin (Float) : 0.1258
+                                buffername (CName) : RadialBlur
+                                count (CDynamicInt) : 4
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2083333> <0.2877856> <0.3350176> <0.3822495> <0.3747145> <0.3342048> <0.2936951> <0.2
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.2083
+                                        2 (Float) : 0.2878
+                                        3 (Float) : 0.3350
+                                        4 (Float) : 0.3822
+                                        5 (Float) : 0.3747
+                                        6 (Float) : 0.3342
+                                        7 (Float) : 0.2937
+                                        8 (Float) : 0.2532
+                                        9 (Float) : 0.2127
+                                        10 (Float) : 0.1722
+                                        11 (Float) : 0.1317
+                                        12 (Float) : 0.0911
+                                        13 (Float) : 0.0506
+                                        14 (Float) : 0.0101
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                        CFXTrackGroup #6 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #7
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 246
+                                    Green (Uint8) : 186
+                                    Blue (Uint8) : 134
+                                    Alpha (Uint8) : 100
+                        CFXTrack #7 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #8
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #8 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0090
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_witch_3_fx_death_disappear
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #9 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #10
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 133
+                                    Green (Uint8) : 179
+                                    Blue (Uint8) : 206
+                                    Alpha (Uint8) : 100
+                        CFXTrack #10 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #11
+                                name (String) : "sd"
+                        CFXTrackItemParticles #11 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0082
+                                timeDuration (Float) : 6.5696
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/lessun/disappear/lessun_disappear_fx1.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #12
+                        CFXSpawnerComponent #12 (CFXSpawnerComponent) : witch_base
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : witch_base
+                                copyRotation (Bool) : false
+                3 (CEntityTemplateCookedEffect) : spawn_disappear
+                    name (CName) : spawn_disappear
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1993 bytes, MD5: bb010ecb13c8aab2e4cfe8fe5c332139
+                        CFXDefinition #0 (CFXDefinition) : spawn_disappear
+                            CFXDefinition (CFXDefinition) : spawn_disappear
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 10.4345
+                                loopEnd (Float) : 6.0788
+                                name (CName) : spawn_disappear
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 198
+                                    Green (Uint8) : 193
+                                    Blue (Uint8) : 186
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0397
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_witch_3_fx_spawn_disappear
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                    1 (ptr:CFXTrack) : CFXTrack #8
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 215
+                                    Green (Uint8) : 187
+                                    Blue (Uint8) : 181
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : appear
+                            CFXTrack (CFXTrack) : appear
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "appear"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : -0.0066
+                                timeDuration (Float) : 10.8477
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/lessun/appear/appear_fx3.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : witch_base
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : witch_base
+                                copyRotation (Bool) : false
+                        CFXTrack #8 (CFXTrack) : sd
+                            CFXTrack (CFXTrack) : sd
+                                name (String) : "sd"
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CNewNPC #1 (CNewNPC) : 
+        CNewNPC (CNewNPC) : 
+            tags (TagList) : witch
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : witch
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 14
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+                1 (ptr:CComponent) : CAppearanceComponent #24
+                2 (ptr:CComponent) : CInventoryComponent #25
+                3 (ptr:CComponent) : CCreatureDataComponent #26
+                4 (ptr:CComponent) : CBoidPointOfInterestComponent #4
+                5 (ptr:CComponent) : CBoidPointOfInterestComponent #8
+                6 (ptr:CComponent) : CBoidPointOfInterestComponent #6
+                7 (ptr:CComponent) : CBoidPointOfInterestComponent #10
+                8 (ptr:CComponent) : CBoidPointOfInterestComponent #14
+                9 (ptr:CComponent) : CBoidPointOfInterestComponent #12
+                10 (ptr:CComponent) : CSoundEmitterComponent #27
+                11 (ptr:CComponent) : CDynamicColliderComponent #16
+                12 (ptr:CComponent) : CDynamicColliderComponent #19
+                13 (ptr:CComponent) : CDynamicColliderComponent #22
+                14 (ptr:CComponent) : CGameplayEffectsComponent #28
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  0d1cd78c-fedd-4ade-b7d2-fbf8743bdab4
+            displayName (LocalizedString) : Weavess
+            useSoundValue (Bool) : true
+            soundValue (Int32) : 75
+    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : witch_base
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : witch_base
+            guid (CGUID) : a04ea278-776b-4f5f-847c-75e0aa172aff
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+                1 (handle:IAttachment) : CHardAttachment #5
+                2 (handle:IAttachment) : CHardAttachment #7
+                3 (handle:IAttachment) : CHardAttachment #9
+                4 (handle:IAttachment) : CHardAttachment #11
+                5 (handle:IAttachment) : CHardAttachment #13
+                6 (handle:IAttachment) : CHardAttachment #15
+                7 (handle:IAttachment) : CHardAttachment #18
+                8 (handle:IAttachment) : CHardAttachment #21
+            name (String) : "witch_base"
+            ragdoll (handle:CRagdoll) : characters/base_entities/witch_base/witch_ragdoll.w2ragdoll
+            skeleton (handle:CSkeleton) : characters/base_entities/witch_base/witch_base.w2rig
+            behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : BaseGraph
+                    instanceName (CName) : BaseGraph
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_witch_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : StoryScene
+                    instanceName (CName) : StoryScene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+                2 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+    CHardAttachment #3 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #4
+    CBoidPointOfInterestComponent #4 (CBoidPointOfInterestComponent) : SpawnH
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnH
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 271.5343
+                Yaw (Float) : 354.4547
+                Roll (Float) : 350.6728
+                X (Float) : 0.4250
+                Y (Float) : 0.4515
+                Z (Float) : 1.5111
+            transformParent (ptr:CHardAttachment) : CHardAttachment #3
+            guid (CGUID) : 2f9ad25c-fad5-463f-b5df-d35b3822da75
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnH"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #5 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #6
+    CBoidPointOfInterestComponent #6 (CBoidPointOfInterestComponent) : SpawnLH
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnLH
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 129.5082
+                Yaw (Float) : 313.8434
+                Roll (Float) : 216.1603
+                X (Float) : -0.1867
+                Y (Float) : 0.1245
+                Z (Float) : 1.2988
+            transformParent (ptr:CHardAttachment) : CHardAttachment #5
+            guid (CGUID) : debd8009-71bd-4a3f-9328-e115d5015a9f
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #5
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnLH"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #7 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #8
+    CBoidPointOfInterestComponent #8 (CBoidPointOfInterestComponent) : SpawnRH
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnRH
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 115.3991
+                Yaw (Float) : 293.9240
+                Roll (Float) : 173.1790
+                X (Float) : 0.7019
+                Y (Float) : -0.1039
+                Z (Float) : 1.3002
+            transformParent (ptr:CHardAttachment) : CHardAttachment #7
+            guid (CGUID) : 66b4701c-353d-4bd7-8a7a-6505fd817ff1
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #7
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnRH"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #9 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #10
+    CBoidPointOfInterestComponent #10 (CBoidPointOfInterestComponent) : SpawnT
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnT
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 97.4203
+                Yaw (Float) : 284.2956
+                Roll (Float) : 155.7710
+                X (Float) : 0.2533
+                Y (Float) : 0.1291
+                Z (Float) : 1.4886
+            transformParent (ptr:CHardAttachment) : CHardAttachment #9
+            guid (CGUID) : ce59b584-f1d5-4aee-bd16-cbfd37155ca9
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #9
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnT"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #11 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #12
+    CBoidPointOfInterestComponent #12 (CBoidPointOfInterestComponent) : SpawnLL
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnLL
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 111.8649
+                Yaw (Float) : 359.8303
+                Roll (Float) : 353.6769
+                X (Float) : -0.0437
+                Y (Float) : 0.5549
+                Z (Float) : 0.7316
+            transformParent (ptr:CHardAttachment) : CHardAttachment #11
+            guid (CGUID) : 897b25a6-4379-408c-aad1-1c3ef52333d9
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #11
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnLL"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #13 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CBoidPointOfInterestComponent #14
+    CBoidPointOfInterestComponent #14 (CBoidPointOfInterestComponent) : SpawnRL
+        CBoidPointOfInterestComponent (CBoidPointOfInterestComponent) : SpawnRL
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 70.2369
+                Yaw (Float) : 337.6712
+                Roll (Float) : 278.3311
+                X (Float) : 0.5970
+                Y (Float) : -0.0851
+                Z (Float) : 0.6606
+            transformParent (ptr:CHardAttachment) : CHardAttachment #13
+            guid (CGUID) : e4112227-b2b2-4cff-93a6-49b0a644d3b8
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #13
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "SpawnRL"
+            params.m_type (CName) : BirdMaster
+    CHardAttachment #15 (CHardAttachment) : l_hand
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #16
+            parentSlotName (CName) : l_hand
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #17
+    CDynamicColliderComponent #16 (CDynamicColliderComponent) : grass_collider_hand_l
+        CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_hand_l
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 0.5000
+                Scale_y (Float) : 0.5000
+                Scale_z (Float) : 0.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #15
+            guid (CGUID) : 8c39e43b-fe34-4c82-8d62-77ff1ec95d4b
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #15
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "grass_collider_hand_l"
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #17 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 11
+    CHardAttachment #18 (CHardAttachment) : r_hand
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #19
+            parentSlotName (CName) : r_hand
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #20
+    CDynamicColliderComponent #19 (CDynamicColliderComponent) : grass_collider_hand_r
+        CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_hand_r
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 0.5000
+                Scale_y (Float) : 0.5000
+                Scale_z (Float) : 0.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #18
+            guid (CGUID) : e970f61f-793d-4f3f-8677-3d78404ac261
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #18
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "grass_collider_hand_r"
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #20 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 34
+    CHardAttachment #21 (CHardAttachment) : pelvis
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #22
+            parentSlotName (CName) : pelvis
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #23
+    CDynamicColliderComponent #22 (CDynamicColliderComponent) : grass_collider_pelvis
+        CDynamicColliderComponent (CDynamicColliderComponent) : grass_collider_pelvis
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.6000
+                Scale_y (Float) : 2.0000
+                Scale_z (Float) : 1.6000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #21
+            guid (CGUID) : 9f39b471-72e8-4c02-9e8a-b6823ff8779b
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #21
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "grass_collider_pelvis"
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #23 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 2
+    CAppearanceComponent #24 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : d1b73e97-d373-4422-ad52-ec53873617eb
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            forcedAppearance (CName) : witch_3
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_grass_collider_hand_l_F8F83804-4B3E11F8-223F1197-6B1FB8FC
+                        oldName (CName) : proxy_grass_collider_hand_l_F8F83804-4B3E11F8-223F1197-6B1FB8FC
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : grass_collider_hand_l
+                        newClass (CName) : CDynamicColliderComponent
+                    1 (SAttachmentReplacement) : proxy_grass_collider_hand_r_299D28CB-47F11177-162F4C89-0C5F1515
+                        oldName (CName) : proxy_grass_collider_hand_r_299D28CB-47F11177-162F4C89-0C5F1515
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : grass_collider_hand_r
+                        newClass (CName) : CDynamicColliderComponent
+                    2 (SAttachmentReplacement) : proxy_grass_collider_pelvis_6DE4B697-46986008-05590E92-E1FE1B1F
+                        oldName (CName) : proxy_grass_collider_pelvis_6DE4B697-46986008-05590E92-E1FE1B1F
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : grass_collider_pelvis
+                        newClass (CName) : CDynamicColliderComponent
+                    3 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_DFEF4915-4DCE6A3F-7114E2BD-286EB82C
+                        oldName (CName) : proxy_CGameplayEffectsComponent0_DFEF4915-4DCE6A3F-7114E2BD-286EB82C
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CGameplayEffectsComponent0
+                        newClass (CName) : CGameplayEffectsComponent
+            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                0 (SAppearanceAttachments) : witch_3
+                    appearance (CName) : witch_3
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : i_01__witch3
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : witch_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : i_01__witch3
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                        1 (SAppearanceAttachment) : i_02__witch3
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : witch_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : i_02__witch3
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                        2 (SAppearanceAttachment) : dyng_i_03__witch3
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : witch_base
+                            childClass (CName) : CAnimDangleComponent
+                            childName (CName) : dyng_i_03__witch3
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CAnimatedAttachment) : <CAnimatedAttachment>0
+                        3 (SAppearanceAttachment) : head
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : witch_base
+                            childClass (CName) : CMimicComponent
+                            childName (CName) : head
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CAnimatedAttachment) : <CAnimatedAttachment>0
+                                    parentSlotName (CName) : torso2
+    CInventoryComponent #25 (CInventoryComponent) : container
+        CInventoryComponent (CInventoryComponent) : container
+            guid (CGUID) : 830c8335-5b8d-42c6-b28a-82f5263c5d76
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "container"
+            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+    CCreatureDataComponent #26 (CCreatureDataComponent) : CCreatureDataComponent0
+        CCreatureDataComponent (CCreatureDataComponent) : 
+            guid (CGUID) : 8eacce03-f65b-4b79-bd55-e523bd506b25
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CCreatureDataComponent0"
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Necrophage Oil 1	
+            skillsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : magic_3
+            cameraDistance (Float) : 2.5000
+            cameraLookAtZ (Float) : 1.0000
+            cameraRotationYaw (Float) : 190.0000
+            cameraRotationPitch (Float) : 10.0000
+            environmentSunRotationYaw (Float) : 330.0000
+            environmentSunRotationPitch (Float) : 340.0000
+    CSoundEmitterComponent #27 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : 2019e527-ddbe-4f12-9d9a-f89a31a6b1de
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+                0 (StringAnsi) : set_monster_witch_3_armour_type_flesh
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_witch_3.bnk
+            maxDistance (Float) : 100.0000
+    CGameplayEffectsComponent #28 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+            guid (CGUID) : 812ac6da-efbb-4a8f-87e1-a251f6432562
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CGameplayEffectsComponent0"
+    CCharacterStatsParam #29 (CCharacterStatsParam) : additional_abilities
+        CCharacterStatsParam (CCharacterStatsParam) : additional_abilities
+            name (String) : "additional_abilities"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_witch3
+                1 (CName) : MudTeleport
+                2 (CName) : mon_type_huge
+                3 (CName) : InstantKillImmune
+                4 (CName) : Charge
+                5 (CName) : Shapeshifter
+                6 (CName) : ResistCriticalStates
+    CAIProfile #30 (CAIProfile) : monsters
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            attitudeGroup (CName) : monsters
+    CInventoryDefinition #31 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #32
+    CInventoryDefinitionEntry #32 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #33
+    CInventoryInitializerUniform #33 (CInventoryInitializerUniform) : mon_witch3_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_witch3_weapon
+    CAnimMimicParam #34 (CAnimMimicParam) : 
+        CAnimMimicParam (CAnimMimicParam) : <CAnimMimicParam>CAnimMimicParam
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : animations/mimics/ciri_mimic_animation.w2anims
+                1 (handle:CSkeletalAnimationSet) : animations/mimics/ciri_mimic_layers.w2anims
+                2 (handle:CSkeletalAnimationSet) : animations/mimics/weavess_mimic_animation.w2anims
+            behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : mimika
+                    instanceName (CName) : mimika
+                    graph (handle:CBehaviorGraph) : animations/mimics/mimics_behavior.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+    CR4LootParam #35 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Witch3
+                    name (CName) : _monster__Witch3
+    CAnimGlobalParam #36 (CAnimGlobalParam) : sfx_witch_3
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            sfxTag (CName) : sfx_witch_3
+    CCharacterStatsParam #37 (CCharacterStatsParam) : abilities
+        CCharacterStatsParam (CCharacterStatsParam) : abilities
+            wasIncluded (Bool) : true
+            name (String) : "abilities"
+    CAttackRangeParam #38 (CAttackRangeParam) : attack_ranges
+        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+            wasIncluded (Bool) : true
+            name (String) : "attack_ranges"
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #39
+    CConeAttackRange #39 (CConeAttackRange) : base
+        CConeAttackRange (CConeAttackRange) : base
+            name (CName) : base
+            rangeMax (Float) : 1.7000
+            height (Float) : 1.7000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.0000
+                W (Float) : 1.0000
+            checkLineOfSight (Bool) : true
+            rangeAngle (Float) : 60.0000
+    CCharacterControllerParam #40 (CCharacterControllerParam) : character_controller_params
+        CCharacterControllerParam (CCharacterControllerParam) : character_controller_params
+            wasIncluded (Bool) : true
+            name (String) : "character_controller_params"
+            physicalRadius (Float) : 1.0000
+            interactionPriorityEnum (EInteractionPriority) : IP_Max_Unpushable
+    CMonsterParam #41 (CMonsterParam) : monster_params
+        CMonsterParam (CMonsterParam) : monster_params
+            wasIncluded (Bool) : true
+            name (String) : "monster_params"
+            monsterCategory (Int32) : 1
+            soundMonsterName (CName) : Witch
+    CAutoEffectsParam #42 (CAutoEffectsParam) : autobuffs
+        CAutoEffectsParam (CAutoEffectsParam) : autobuffs
+            wasIncluded (Bool) : true
+            name (String) : "autobuffs"
+    CAnimAnimsetsParam #43 (CAnimAnimsetsParam) : character_base
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : character_base
+            wasIncluded (Bool) : true
+            name (String) : "character_base"
+            componentName (String) : "witch_base"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : animations/monsters/monster_witch.w2anims
+                1 (handle:CSkeletalAnimationSet) : animations/woman/dialog/witches/weavess_dialogue_animation.w2anims
+                2 (handle:CSkeletalAnimationSet) : animations/woman/dialog/witches/whispess_dialogue_animation.w2anims
+    CAnimBehaviorsParam #44 (CAnimBehaviorsParam) : character_base
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : character_base
+            wasIncluded (Bool) : true
+            name (String) : "character_base"
+            componentName (String) : "witch_base"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : BaseGraph
+                    instanceName (CName) : BaseGraph
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_witch_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : StoryScene
+                    instanceName (CName) : StoryScene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+    CAIProfile #45 (CAIProfile) : monsters
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #46
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #47
+            attitudeGroup (CName) : monsters
+    CAISenseParams #46 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 50.0000
+            rangeAngle (Float) : 360.0000
+            height (Float) : 4.0000
+            testLOS (Bool) : false
+    CAISenseParams #47 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 3.0000
+            rangeAngle (Float) : 360.0000
+            testLOS (Bool) : false
+    CAIBaseTreeTemplateParam #48 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #49
+    CAIMonsterBase #49 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIWitchDefaults #50
+    CAIWitchDefaults #50 (CAIWitchDefaults) : 
+        CAIWitchDefaults (CAIWitchDefaults) : <CAIWitchDefaults>CAIWitchDefaults
+            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #51
+            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #53
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #55
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #57
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #71
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #87
+    CAIMonsterSpawnDefault #51 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #52
+    CAIMonsterSpawnParams #52 (CAIMonsterSpawnParams) : 
+        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+    CAIMonsterTaunt #53 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #54
+    CAIMonsterTauntParams #54 (CAIMonsterTauntParams) : 
+        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+    CAIMonsterAxii #55 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #56
+    CAIMonsterAxiiParams #56 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecorator #57 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #58
+    CAIMonsterIdleDecoratorParams #58 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #59
+    CAIMonsterReactionsTree #59 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #60
+    CAIMonsterReactionsTreeParams #60 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #61
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #63
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #65
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #67
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #69
+    CAIActionSearchForTarget #61 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #62
+    CAINpcReactionSearchTarget #62 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #63 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #64
+    CAINpcReactionJoinSearchForTarget #64 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #65 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #66
+    CAINpcReactionPlayWithTarget #66 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #67 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #68
+    CAINpcReactionMoveInPack #68 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #69 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #70
+    CAINpcReactionRunWildInPack #70 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIMonsterCombat #71 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #72
+    CAIMonsterCombatParams #72 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIWitchCombatLogic #73
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #75
+            createHitReactionEvent (CName) : MonsterHitReaction
+            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #77
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #79
+    CAIWitchCombatLogic #73 (CAIWitchCombatLogic) : CBehTree:gameplay\trees\monsters\monster_witch_logic.w2behtree
+        CAIWitchCombatLogic (CAIWitchCombatLogic) : <CAIWitchCombatLogic>CAIWitchCombatLogic
+            tree (handle:CBehTree) : gameplay/trees/monsters/monster_witch_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #74
+    CAIMonsterCombatLogicParams #74 (CAIMonsterCombatLogicParams) : 
+        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+    CAIMonsterDamageReactionTree #75 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #76
+    CAIDamageReactionTreeParams #76 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAINpcCriticalState #77 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #78
+    CAINpcCriticalStateParams #78 (CAINpcCriticalStateParams) : 
+        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+    CAIMonsterCombatReactionsTree #79 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #80
+    CAIMonsterReactionsTreeParams #80 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #81
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #83
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #85
+    CAIActionLeadEscape #81 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #82
+    CAINpcReactionLeadEscape #82 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #83 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #84
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #84 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #85 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #86
+    CAINpcReactionEscapeInPack #86 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIMonsterDeath #87 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #88
+    CAIMonsterDeathParams #88 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+    CBuffImmunityParam #89 (CBuffImmunityParam) : buff_immunity
+        CBuffImmunityParam (CBuffImmunityParam) : buff_immunity
+            wasIncluded (Bool) : true
+            name (String) : "buff_immunity"
+            immunityTo (array:Int32) : # array:Int32
+                0 (Int32) : 3

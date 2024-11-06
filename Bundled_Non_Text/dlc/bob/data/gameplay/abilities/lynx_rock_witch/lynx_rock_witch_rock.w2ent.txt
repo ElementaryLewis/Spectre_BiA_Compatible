@@ -1,359 +1,359 @@
-lynx_rock_witch_rock.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3BoulderProjectile
-lynx_rock_witch_rock.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-lynx_rock_witch_rock.w2ent:            properOverrides (Bool) : true
-lynx_rock_witch_rock.w2ent:            entityClass (CName) : W3BoulderProjectile
-lynx_rock_witch_rock.w2ent:            entityObject (ptr:CEntity) : W3BoulderProjectile #1
-lynx_rock_witch_rock.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
-lynx_rock_witch_rock.w2ent:                0 (CEntityAppearance) : default
-lynx_rock_witch_rock.w2ent:                    name (CName) : default
-lynx_rock_witch_rock.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-lynx_rock_witch_rock.w2ent:                        0 (handle:CEntityTemplate) : fx/monsters/elemental/earth/elemental_stone/elemental_stone_small.w2ent
-lynx_rock_witch_rock.w2ent:                1 (CEntityAppearance) : empty
-lynx_rock_witch_rock.w2ent:                    name (CName) : empty
-lynx_rock_witch_rock.w2ent:            usedAppearances (array:CName) : # array:CName
-lynx_rock_witch_rock.w2ent:                0 (CName) : default
-lynx_rock_witch_rock.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-lynx_rock_witch_rock.w2ent:                W3BoulderProjectile #0 (W3BoulderProjectile) : PreviewEntity
-lynx_rock_witch_rock.w2ent:                    W3BoulderProjectile (W3BoulderProjectile) : PreviewEntity
-lynx_rock_witch_rock.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        streamingDistance (Uint8) : 0
-lynx_rock_witch_rock.w2ent:                        entityStaticFlags (EEntityStaticFlags) : 
-lynx_rock_witch_rock.w2ent:                        name (String) : "PreviewEntity"
-lynx_rock_witch_rock.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-lynx_rock_witch_rock.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
-lynx_rock_witch_rock.w2ent:                            1 (ptr:CComponent) : CEffectDummyComponent #2
-lynx_rock_witch_rock.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-lynx_rock_witch_rock.w2ent:                            0 (SEntityBufferType1) : 
-lynx_rock_witch_rock.w2ent:                                ComponentName (CName) : 
-lynx_rock_witch_rock.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-lynx_rock_witch_rock.w2ent:                        idTag (IdTag) :  5789fb1b-7f28-49b6-9bd5-d89a509a8795
-lynx_rock_witch_rock.w2ent:                        radius (Float) : 0.3000
-lynx_rock_witch_rock.w2ent:                        projSpeed (Float) : 40.0000
-lynx_rock_witch_rock.w2ent:                        projDMG (Float) : 200.0000
-lynx_rock_witch_rock.w2ent:                        ignoreArmor (Bool) : false
-lynx_rock_witch_rock.w2ent:                        onCollisionFxName (CName) : impact
-lynx_rock_witch_rock.w2ent:                        onCollisionAppearanceName (CName) : empty
-lynx_rock_witch_rock.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
-lynx_rock_witch_rock.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-lynx_rock_witch_rock.w2ent:                        guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
-lynx_rock_witch_rock.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        name (String) : "CAppearanceComponent0"
-lynx_rock_witch_rock.w2ent:                        graphPositionX (Int16) : 111
-lynx_rock_witch_rock.w2ent:                        graphPositionY (Int16) : 53
-lynx_rock_witch_rock.w2ent:                        forcedAppearance (CName) : default
-lynx_rock_witch_rock.w2ent:                CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:                        guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
-lynx_rock_witch_rock.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:                        name (String) : "CEffectDummyComponent0"
-lynx_rock_witch_rock.w2ent:                        graphPositionX (Int16) : -171
-lynx_rock_witch_rock.w2ent:                        graphPositionY (Int16) : 110
-lynx_rock_witch_rock.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-lynx_rock_witch_rock.w2ent:                0 (CEntityTemplateCookedEffect) : impact
-lynx_rock_witch_rock.w2ent:                    name (CName) : impact
-lynx_rock_witch_rock.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-lynx_rock_witch_rock.w2ent:                        Bufferdata (CByteArray) : 1572 bytes, MD5: 401e88766e96427fd2d40e8cfbda2025
-lynx_rock_witch_rock.w2ent:                        CFXDefinition #0 (CFXDefinition) : impact
-lynx_rock_witch_rock.w2ent:                            CFXDefinition (CFXDefinition) : impact
-lynx_rock_witch_rock.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-lynx_rock_witch_rock.w2ent:                                length (Float) : 5.0000
-lynx_rock_witch_rock.w2ent:                                loopEnd (Float) : 5.0000
-lynx_rock_witch_rock.w2ent:                                name (CName) : impact
-lynx_rock_witch_rock.w2ent:                                showDistance (Float) : 50.0000
-lynx_rock_witch_rock.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particles
-lynx_rock_witch_rock.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
-lynx_rock_witch_rock.w2ent:                                name (String) : "particles"
-lynx_rock_witch_rock.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-lynx_rock_witch_rock.w2ent:                                isExpanded (Bool) : true
-lynx_rock_witch_rock.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-lynx_rock_witch_rock.w2ent:                                    Red (Uint8) : 194
-lynx_rock_witch_rock.w2ent:                                    Green (Uint8) : 241
-lynx_rock_witch_rock.w2ent:                                    Blue (Uint8) : 169
-lynx_rock_witch_rock.w2ent:                                    Alpha (Uint8) : 100
-lynx_rock_witch_rock.w2ent:                        CFXTrack #2 (CFXTrack) : fx
-lynx_rock_witch_rock.w2ent:                            CFXTrack (CFXTrack) : fx
-lynx_rock_witch_rock.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
-lynx_rock_witch_rock.w2ent:                                name (String) : "fx"
-lynx_rock_witch_rock.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
-lynx_rock_witch_rock.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-lynx_rock_witch_rock.w2ent:                                timeBegin (Float) : -0.0091
-lynx_rock_witch_rock.w2ent:                                timeDuration (Float) : 5.0000
-lynx_rock_witch_rock.w2ent:                                buffername (CName) : Particles
-lynx_rock_witch_rock.w2ent:                                count (CDynamicInt) : 3
-lynx_rock_witch_rock.w2ent:                                unk (Uint8) : 1
-lynx_rock_witch_rock.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-lynx_rock_witch_rock.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                particleSystem (soft:CParticleSystem) : fx/characters/keira_metz/keira_proj_impact.w2p
-lynx_rock_witch_rock.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
-lynx_rock_witch_rock.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-lynx_rock_witch_rock.w2ent:                                componentName (CName) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:                1 (CEntityTemplateCookedEffect) : glow
-lynx_rock_witch_rock.w2ent:                    name (CName) : glow
-lynx_rock_witch_rock.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-lynx_rock_witch_rock.w2ent:                        Bufferdata (CByteArray) : 2316 bytes, MD5: 1641c4b40da23e53bff00def86c06d52
-lynx_rock_witch_rock.w2ent:                        CFXDefinition #0 (CFXDefinition) : glow
-lynx_rock_witch_rock.w2ent:                            CFXDefinition (CFXDefinition) : glow
-lynx_rock_witch_rock.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-lynx_rock_witch_rock.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-lynx_rock_witch_rock.w2ent:                                loopStart (Float) : 0.1722
-lynx_rock_witch_rock.w2ent:                                loopEnd (Float) : 0.3313
-lynx_rock_witch_rock.w2ent:                                name (CName) : glow
-lynx_rock_witch_rock.w2ent:                                showDistance (Float) : 200.0000
-lynx_rock_witch_rock.w2ent:                                isLooped (Bool) : true
-lynx_rock_witch_rock.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particle
-lynx_rock_witch_rock.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
-lynx_rock_witch_rock.w2ent:                                name (String) : "particle"
-lynx_rock_witch_rock.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-lynx_rock_witch_rock.w2ent:                                isExpanded (Bool) : true
-lynx_rock_witch_rock.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-lynx_rock_witch_rock.w2ent:                                    Red (Uint8) : 185
-lynx_rock_witch_rock.w2ent:                                    Green (Uint8) : 129
-lynx_rock_witch_rock.w2ent:                                    Blue (Uint8) : 127
-lynx_rock_witch_rock.w2ent:                                    Alpha (Uint8) : 100
-lynx_rock_witch_rock.w2ent:                        CFXTrack #2 (CFXTrack) : ds
-lynx_rock_witch_rock.w2ent:                            CFXTrack (CFXTrack) : ds
-lynx_rock_witch_rock.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
-lynx_rock_witch_rock.w2ent:                                name (String) : "ds"
-lynx_rock_witch_rock.w2ent:                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
-lynx_rock_witch_rock.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-lynx_rock_witch_rock.w2ent:                                timeBegin (Float) : -0.0078
-lynx_rock_witch_rock.w2ent:                                buffername (CName) : Particles
-lynx_rock_witch_rock.w2ent:                                count (CDynamicInt) : 3
-lynx_rock_witch_rock.w2ent:                                unk (Uint8) : 1
-lynx_rock_witch_rock.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-lynx_rock_witch_rock.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 0.9037
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 0.7322
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 0.5607
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 0.3891
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 0.2176
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 0.0461
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        1 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.1000
-lynx_rock_witch_rock.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/characters/lynx_rock_mage/rock_levitation.w2p
-lynx_rock_witch_rock.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
-lynx_rock_witch_rock.w2ent:                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CMeshComponent0
-lynx_rock_witch_rock.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-lynx_rock_witch_rock.w2ent:                                componentName (CName) : CMeshComponent0
-lynx_rock_witch_rock.w2ent:                                attach (Bool) : true
-lynx_rock_witch_rock.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : material
-lynx_rock_witch_rock.w2ent:                            CFXTrackGroup (CFXTrackGroup) : material
-lynx_rock_witch_rock.w2ent:                                name (String) : "material"
-lynx_rock_witch_rock.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-lynx_rock_witch_rock.w2ent:                                isExpanded (Bool) : true
-lynx_rock_witch_rock.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-lynx_rock_witch_rock.w2ent:                                    Red (Uint8) : 179
-lynx_rock_witch_rock.w2ent:                                    Green (Uint8) : 239
-lynx_rock_witch_rock.w2ent:                                    Blue (Uint8) : 167
-lynx_rock_witch_rock.w2ent:                                    Alpha (Uint8) : 100
-lynx_rock_witch_rock.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-lynx_rock_witch_rock.w2ent:                            CFXTrack (CFXTrack) : asd
-lynx_rock_witch_rock.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-lynx_rock_witch_rock.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
-lynx_rock_witch_rock.w2ent:                                name (String) : "asd"
-lynx_rock_witch_rock.w2ent:                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
-lynx_rock_witch_rock.w2ent:                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
-lynx_rock_witch_rock.w2ent:                                timeBegin (Float) : 0.0078
-lynx_rock_witch_rock.w2ent:                                buffername (CName) : MaterialOverride
-lynx_rock_witch_rock.w2ent:                                count (CDynamicInt) : 4
-lynx_rock_witch_rock.w2ent:                                unk (Uint8) : 1
-lynx_rock_witch_rock.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.4331808> <0.8663617> <1> <1> <1> <0.8649281> <0.5606695> <0.2564107> <0> <0> <0> <0> 
-lynx_rock_witch_rock.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        1 (Float) : 0.4332
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 0.8664
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 0.8649
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 0.5607
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 0.2564
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 0.8159
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 0.6012
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 0.3864
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 0.1716
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 0.0000
-lynx_rock_witch_rock.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-lynx_rock_witch_rock.w2ent:                                        0 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        2 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        3 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        4 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        5 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        6 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        7 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        8 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        9 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        10 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        11 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        12 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        13 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        14 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                        15 (Float) : 1.0000
-lynx_rock_witch_rock.w2ent:                                material (handle:IMaterial) : dlc/bob/data/fx/characters/lynx_rock_mage/rock_glow.w2mi
-lynx_rock_witch_rock.w2ent:                                drawOriginal (Bool) : true
-lynx_rock_witch_rock.w2ent:            cookedEffectsVersion (Uint32) : 1
-lynx_rock_witch_rock.w2ent:            Unk1 (Uint32) : 0
-lynx_rock_witch_rock.w2ent:    W3BoulderProjectile #1 (W3BoulderProjectile) : impact
-lynx_rock_witch_rock.w2ent:        W3BoulderProjectile (W3BoulderProjectile) : 
-lynx_rock_witch_rock.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            streamingDistance (Uint8) : 0
-lynx_rock_witch_rock.w2ent:            entityStaticFlags (EEntityStaticFlags) : 
-lynx_rock_witch_rock.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-lynx_rock_witch_rock.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
-lynx_rock_witch_rock.w2ent:                1 (ptr:CComponent) : CEffectDummyComponent #3
-lynx_rock_witch_rock.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-lynx_rock_witch_rock.w2ent:                0 (SEntityBufferType1) : 
-lynx_rock_witch_rock.w2ent:                    ComponentName (CName) : 
-lynx_rock_witch_rock.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-lynx_rock_witch_rock.w2ent:            idTag (IdTag) :  5789fb1b-7f28-49b6-9bd5-d89a509a8795
-lynx_rock_witch_rock.w2ent:            radius (Float) : 0.3000
-lynx_rock_witch_rock.w2ent:            projSpeed (Float) : 40.0000
-lynx_rock_witch_rock.w2ent:            projDMG (Float) : 200.0000
-lynx_rock_witch_rock.w2ent:            ignoreArmor (Bool) : false
-lynx_rock_witch_rock.w2ent:            onCollisionFxName (CName) : impact
-lynx_rock_witch_rock.w2ent:            onCollisionAppearanceName (CName) : empty
-lynx_rock_witch_rock.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
-lynx_rock_witch_rock.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-lynx_rock_witch_rock.w2ent:            guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
-lynx_rock_witch_rock.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            name (String) : "CAppearanceComponent0"
-lynx_rock_witch_rock.w2ent:            forcedAppearance (CName) : default
-lynx_rock_witch_rock.w2ent:    CEffectDummyComponent #3 (CEffectDummyComponent) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-lynx_rock_witch_rock.w2ent:            guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
-lynx_rock_witch_rock.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-lynx_rock_witch_rock.w2ent:            name (String) : "CEffectDummyComponent0"
+    CEntityTemplate #0 (CEntityTemplate) : W3BoulderProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : W3BoulderProjectile
+            entityObject (ptr:CEntity) : W3BoulderProjectile #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : default
+                    name (CName) : default
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : fx/monsters/elemental/earth/elemental_stone/elemental_stone_small.w2ent
+                1 (CEntityAppearance) : empty
+                    name (CName) : empty
+            usedAppearances (array:CName) : # array:CName
+                0 (CName) : default
+            flatCompiledData (array:Uint8) : # array:Uint8
+                W3BoulderProjectile #0 (W3BoulderProjectile) : PreviewEntity
+                    W3BoulderProjectile (W3BoulderProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        entityStaticFlags (EEntityStaticFlags) : 
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CAppearanceComponent #1
+                            1 (ptr:CComponent) : CEffectDummyComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  5789fb1b-7f28-49b6-9bd5-d89a509a8795
+                        radius (Float) : 0.3000
+                        projSpeed (Float) : 40.0000
+                        projDMG (Float) : 200.0000
+                        ignoreArmor (Bool) : false
+                        onCollisionFxName (CName) : impact
+                        onCollisionAppearanceName (CName) : empty
+                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : 111
+                        graphPositionY (Int16) : 53
+                        forcedAppearance (CName) : default
+                CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : -171
+                        graphPositionY (Int16) : 110
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : impact
+                    name (CName) : impact
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1572 bytes, MD5: 401e88766e96427fd2d40e8cfbda2025
+                        CFXDefinition #0 (CFXDefinition) : impact
+                            CFXDefinition (CFXDefinition) : impact
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 5.0000
+                                loopEnd (Float) : 5.0000
+                                name (CName) : impact
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : particles
+                            CFXTrackGroup (CFXTrackGroup) : particles
+                                name (String) : "particles"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 194
+                                    Green (Uint8) : 241
+                                    Blue (Uint8) : 169
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+                                name (String) : "fx"
+                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : -0.0091
+                                timeDuration (Float) : 5.0000
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/characters/keira_metz/keira_proj_impact.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                1 (CEntityTemplateCookedEffect) : glow
+                    name (CName) : glow
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2316 bytes, MD5: 1641c4b40da23e53bff00def86c06d52
+                        CFXDefinition #0 (CFXDefinition) : glow
+                            CFXDefinition (CFXDefinition) : glow
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                loopStart (Float) : 0.1722
+                                loopEnd (Float) : 0.3313
+                                name (CName) : glow
+                                showDistance (Float) : 200.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : particle
+                            CFXTrackGroup (CFXTrackGroup) : particle
+                                name (String) : "particle"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 185
+                                    Green (Uint8) : 129
+                                    Blue (Uint8) : 127
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : ds
+                            CFXTrack (CFXTrack) : ds
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+                                name (String) : "ds"
+                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : -0.0078
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.9037
+                                        7 (Float) : 0.7322
+                                        8 (Float) : 0.5607
+                                        9 (Float) : 0.3891
+                                        10 (Float) : 0.2176
+                                        11 (Float) : 0.0461
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.1000
+                                        1 (Float) : 1.1000
+                                        2 (Float) : 1.1000
+                                        3 (Float) : 1.1000
+                                        4 (Float) : 1.1000
+                                        5 (Float) : 1.1000
+                                        6 (Float) : 1.1000
+                                        7 (Float) : 1.1000
+                                        8 (Float) : 1.1000
+                                        9 (Float) : 1.1000
+                                        10 (Float) : 1.1000
+                                        11 (Float) : 1.1000
+                                        12 (Float) : 1.1000
+                                        13 (Float) : 1.1000
+                                        14 (Float) : 1.1000
+                                        15 (Float) : 1.1000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/characters/lynx_rock_mage/rock_levitation.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : CMeshComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CMeshComponent0
+                                attach (Bool) : true
+                        CFXTrackGroup #5 (CFXTrackGroup) : material
+                            CFXTrackGroup (CFXTrackGroup) : material
+                                name (String) : "material"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 179
+                                    Green (Uint8) : 239
+                                    Blue (Uint8) : 167
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+                                name (String) : "asd"
+                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+                                timeBegin (Float) : 0.0078
+                                buffername (CName) : MaterialOverride
+                                count (CDynamicInt) : 4
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.4331808> <0.8663617> <1> <1> <1> <0.8649281> <0.5606695> <0.2564107> <0> <0> <0> <0> 
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.4332
+                                        2 (Float) : 0.8664
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.8649
+                                        7 (Float) : 0.5607
+                                        8 (Float) : 0.2564
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 0.8159
+                                        8 (Float) : 0.6012
+                                        9 (Float) : 0.3864
+                                        10 (Float) : 0.1716
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                material (handle:IMaterial) : dlc/bob/data/fx/characters/lynx_rock_mage/rock_glow.w2mi
+                                drawOriginal (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    W3BoulderProjectile #1 (W3BoulderProjectile) : impact
+        W3BoulderProjectile (W3BoulderProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            entityStaticFlags (EEntityStaticFlags) : 
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CAppearanceComponent #2
+                1 (ptr:CComponent) : CEffectDummyComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  5789fb1b-7f28-49b6-9bd5-d89a509a8795
+            radius (Float) : 0.3000
+            projSpeed (Float) : 40.0000
+            projDMG (Float) : 200.0000
+            ignoreArmor (Bool) : false
+            onCollisionFxName (CName) : impact
+            onCollisionAppearanceName (CName) : empty
+    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : 04b20f15-8d23-4295-8c65-5e8f572f6bfd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            forcedAppearance (CName) : default
+    CEffectDummyComponent #3 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 35f09b6e-0d09-44a2-b0d1-d8dd4fe1e018
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"

@@ -131,6 +131,15 @@
 		alchRecipe = GetRecipeDataFromXML(itemName);
 		craftItemName = alchRecipe.cookedItemName;
 	}
+	else if (categoryName == 'potion') 
+	{
+		additionalDescription = theGame.alchexts.GetPotionSubstanceDescription(item); 
+	}
+	else 
+	{
+		additionalDescription = theGame.alchexts.ing_mngr.GetIngredientDescription(itemName,,true);
+	}
+	
 	if (craftItemName != '')
 	{
 		
@@ -259,7 +268,7 @@
 		itemInvComponent.GetItemPrimaryStat(item, primaryStatLabel, primaryStatOriginValue);
 	}
 	
-	if( itemInvComponent.IsItemSingletonItem( item ) && ( itemInvComponent.SingletonItemGetMaxAmmo(item) > 0 ) )
+	if( false && itemInvComponent.IsItemSingletonItem( item ) && ( itemInvComponent.SingletonItemGetMaxAmmo(item) > 0 ) )
 	{
 		if( itemInvComponent.IsItemOil( item ) )
 		{

@@ -355,7 +355,7 @@ state Exploration in W3HorseComponent
 		var isMonster : bool;
 		var threatMult : int;
 		
-		if( parentActor.HasAbility( 'DisableHorsePanic' ) /*|| thePlayer.HasBuff( EET_Mutagen25 )*/ /* modSpectre */ )
+		if( parentActor.HasAbility( 'DisableHorsePanic' ) ) //modSpectre
 			return false;
 		
 		actorAttacker = (CNewNPC)action.attacker;
@@ -372,7 +372,7 @@ state Exploration in W3HorseComponent
 	
 	event OnCriticalEffectAdded( criticalEffect : ECriticalStateType )
 	{
-		if( parentActor.HasAbility( 'DisableHorsePanic' ) /*|| thePlayer.HasBuff( EET_Mutagen25 )*/ /* modSpectre */ )
+		if( parentActor.HasAbility( 'DisableHorsePanic' ) ) //modSpectre
 		{
 			if( thePlayer.IsActionAllowed( EIAB_Movement ) )
 			{
@@ -2395,19 +2395,33 @@ state Exploration in W3HorseComponent
 			}
 		}
 	}
-		
-	event OnHorseDismountKeyboard( action : SInputAction )
+	var spectreIsDismountHorseSecondTap : bool; private var spectreDismountPressTimestamp : float;	//modSpectre
+	event OnHorseDismountKeyboard( action : SInputAction ) //modSpectre
 	{
 		if( IsPressed( action ) )
 		{
-			if( !DismountHorse() )
+			if( spectreDismountPressTimestamp + DOUBLE_TAP_WINDOW >= theGame.GetEngineTimeAsSeconds() )
 			{
-				theInput.ForceDeactivateAction('HorseJump');
+				spectreIsDismountHorseSecondTap = true;
 			}
 			else
 			{
-				theGame.GetGuiManager().DisableHudHoldIndicator();
+				spectreIsDismountHorseSecondTap = false;	
 			}
+
+			if (spectreIsDismountHorseSecondTap)
+			{
+				if( !DismountHorse() )
+				{
+					theInput.ForceDeactivateAction('HorseJump');
+				}
+				else
+				{
+					theGame.GetGuiManager().DisableHudHoldIndicator();
+				}
+			}
+
+			spectreDismountPressTimestamp = theGame.GetEngineTimeAsSeconds();
 		}
 	}
 	

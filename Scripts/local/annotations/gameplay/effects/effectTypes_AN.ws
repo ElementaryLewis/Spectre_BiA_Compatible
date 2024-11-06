@@ -1,6 +1,6 @@
 function ModifyKnockdownSeverity(target : CActor, attacker : CGameplayEntity, type : EEffectType) : EEffectType
 {
-	var /*severityReduction,*/ severity : int;
+	var severityReduction, severity : int;
 	var npcTarget : CNewNPC;
 	var witcherTarget, witcherAttacker : W3PlayerWitcher;
 

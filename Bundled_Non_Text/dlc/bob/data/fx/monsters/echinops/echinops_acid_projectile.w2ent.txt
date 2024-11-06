@@ -1,616 +1,616 @@
-echinops_acid_projectile.w2ent:    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
-echinops_acid_projectile.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-echinops_acid_projectile.w2ent:            properOverrides (Bool) : true
-echinops_acid_projectile.w2ent:            entityClass (CName) : PoisonProjectile
-echinops_acid_projectile.w2ent:            entityObject (ptr:CEntity) : PoisonProjectile #1
-echinops_acid_projectile.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-echinops_acid_projectile.w2ent:                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
-echinops_acid_projectile.w2ent:                    PoisonProjectile (PoisonProjectile) : PreviewEntity
-echinops_acid_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        streamingDistance (Uint8) : 0
-echinops_acid_projectile.w2ent:                        name (String) : "PreviewEntity"
-echinops_acid_projectile.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-echinops_acid_projectile.w2ent:                            0 (ptr:CComponent) : CEffectDummyComponent #1
-echinops_acid_projectile.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
-echinops_acid_projectile.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-echinops_acid_projectile.w2ent:                            0 (SEntityBufferType1) : 
-echinops_acid_projectile.w2ent:                                ComponentName (CName) : 
-echinops_acid_projectile.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-echinops_acid_projectile.w2ent:                        idTag (IdTag) :  107b038a-000d-4a2e-bbe3-fc962d864f94
-echinops_acid_projectile.w2ent:                        displayName (LocalizedString) : 1212042
-echinops_acid_projectile.w2ent:                        radius (Float) : 0.1500
-echinops_acid_projectile.w2ent:                        projSpeed (Float) : 25.0000
-echinops_acid_projectile.w2ent:                        projAngle (Float) : 0.0000
-echinops_acid_projectile.w2ent:                        projDMG (Float) : 350.0000
-echinops_acid_projectile.w2ent:                        initFxName (CName) : venom
-echinops_acid_projectile.w2ent:                        onCollisionFxName (CName) : venom_hit
-echinops_acid_projectile.w2ent:                        spawnEntityOnGround (Bool) : true
-echinops_acid_projectile.w2ent:                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/echinops/echinops_acid_area.w2ent
-echinops_acid_projectile.w2ent:                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-echinops_acid_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        name (String) : "CEffectDummyComponent0"
-echinops_acid_projectile.w2ent:                        graphPositionX (Int16) : 192
-echinops_acid_projectile.w2ent:                        graphPositionY (Int16) : 287
-echinops_acid_projectile.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-echinops_acid_projectile.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-echinops_acid_projectile.w2ent:                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-echinops_acid_projectile.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:                        name (String) : "CSoundEmitterComponent0"
-echinops_acid_projectile.w2ent:                        isStreamed (Bool) : false
-echinops_acid_projectile.w2ent:                        graphPositionX (Int16) : 191
-echinops_acid_projectile.w2ent:                        graphPositionY (Int16) : 217
-echinops_acid_projectile.w2ent:                        banksDependency (array:CName) : # array:CName
-echinops_acid_projectile.w2ent:                            0 (CName) : monster_archespor.bnk
-echinops_acid_projectile.w2ent:                        maxDistance (Float) : 50.0000
-echinops_acid_projectile.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-echinops_acid_projectile.w2ent:                0 (CEntityTemplateCookedEffect) : venom
-echinops_acid_projectile.w2ent:                    name (CName) : venom
-echinops_acid_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-echinops_acid_projectile.w2ent:                        Bufferdata (CByteArray) : 2499 bytes, MD5: ce1cbdb95a88d278eeb6acb2d2df98b5
-echinops_acid_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom
-echinops_acid_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom
-echinops_acid_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
-echinops_acid_projectile.w2ent:                                length (Float) : 2.8192
-echinops_acid_projectile.w2ent:                                loopStart (Float) : 0.1258
-echinops_acid_projectile.w2ent:                                loopEnd (Float) : 0.2359
-echinops_acid_projectile.w2ent:                                name (CName) : venom
-echinops_acid_projectile.w2ent:                                showDistance (Float) : 44.0000
-echinops_acid_projectile.w2ent:                                isLooped (Bool) : true
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                                name (String) : "audio"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 205
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 221
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 139
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-echinops_acid_projectile.w2ent:                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
-echinops_acid_projectile.w2ent:                                name (String) : "sfx"
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0024
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.2471
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.1131
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                stopFadeTime (Float) : 99.0000
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                                useDistanceParameter (Bool) : true
-echinops_acid_projectile.w2ent:                                latchDistanceParameterBelow (Float) : 3.0000
-echinops_acid_projectile.w2ent:                                latchEvent (StringAnsi) : monster_archespor_combat_venom_flyby
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #6 (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                                name (String) : "fx"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #7
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #10
-echinops_acid_projectile.w2ent:                                    2 (ptr:CFXTrack) : CFXTrack #11
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 208
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 197
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 209
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #7 (CFXTrack) : 3
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : 3
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
-echinops_acid_projectile.w2ent:                                name (String) : "3"
-echinops_acid_projectile.w2ent:                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
-echinops_acid_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0028
-echinops_acid_projectile.w2ent:                                timeDuration (Float) : 2.8273
-echinops_acid_projectile.w2ent:                                buffername (CName) : Particles
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 3
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 1
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
-echinops_acid_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/echinops/echinops_acid_projectile.w2p
-echinops_acid_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
-echinops_acid_projectile.w2ent:                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-echinops_acid_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                                copyRotation (Bool) : false
-echinops_acid_projectile.w2ent:                                attach (Bool) : true
-echinops_acid_projectile.w2ent:                        CFXTrack #10 (CFXTrack) : dasd
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : dasd
-echinops_acid_projectile.w2ent:                                name (String) : "dasd"
-echinops_acid_projectile.w2ent:                        CFXTrack #11 (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                                name (String) : "asd"
-echinops_acid_projectile.w2ent:                1 (CEntityTemplateCookedEffect) : venom_hit
-echinops_acid_projectile.w2ent:                    name (CName) : venom_hit
-echinops_acid_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-echinops_acid_projectile.w2ent:                        Bufferdata (CByteArray) : 2049 bytes, MD5: ab0093b707220bbd121b73a5fd285c99
-echinops_acid_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_hit
-echinops_acid_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_hit
-echinops_acid_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
-echinops_acid_projectile.w2ent:                                length (Float) : 2.9774
-echinops_acid_projectile.w2ent:                                loopStart (Float) : 0.0987
-echinops_acid_projectile.w2ent:                                loopEnd (Float) : 0.1791
-echinops_acid_projectile.w2ent:                                name (CName) : venom_hit
-echinops_acid_projectile.w2ent:                                showDistance (Float) : 22.0000
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                                name (String) : "audio"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 151
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 161
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 254
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-echinops_acid_projectile.w2ent:                                name (String) : "sfx"
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0056
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_hit
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                                speed (Float) : 0.0000
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : asd
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : asd
-echinops_acid_projectile.w2ent:                                name (String) : "asd"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 155
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 150
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 164
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #5 (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
-echinops_acid_projectile.w2ent:                                name (String) : "asd"
-echinops_acid_projectile.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
-echinops_acid_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0161
-echinops_acid_projectile.w2ent:                                timeDuration (Float) : 2.8847
-echinops_acid_projectile.w2ent:                                buffername (CName) : Particles
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 3
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 1
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-echinops_acid_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        1 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.5000
-echinops_acid_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/echinops/echinops_acid_hit.w2p
-echinops_acid_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
-echinops_acid_projectile.w2ent:                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-echinops_acid_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                                copyRotation (Bool) : false
-echinops_acid_projectile.w2ent:                                attach (Bool) : true
-echinops_acid_projectile.w2ent:                2 (CEntityTemplateCookedEffect) : venom_copy
-echinops_acid_projectile.w2ent:                    name (CName) : venom_copy
-echinops_acid_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-echinops_acid_projectile.w2ent:                        Bufferdata (CByteArray) : 2128 bytes, MD5: d903c068a1e9d7da049020094a5371dc
-echinops_acid_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy
-echinops_acid_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy
-echinops_acid_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-echinops_acid_projectile.w2ent:                                length (Float) : 2.3090
-echinops_acid_projectile.w2ent:                                loopStart (Float) : 0.1258
-echinops_acid_projectile.w2ent:                                loopEnd (Float) : 0.2359
-echinops_acid_projectile.w2ent:                                name (CName) : venom_copy
-echinops_acid_projectile.w2ent:                                isLooped (Bool) : true
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                                name (String) : "audio"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 169
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 235
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 127
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-echinops_acid_projectile.w2ent:                                name (String) : "sfx"
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0024
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.2463
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                                name (String) : "fx"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 208
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 197
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 209
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-echinops_acid_projectile.w2ent:                                name (String) : "asd"
-echinops_acid_projectile.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-echinops_acid_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0044
-echinops_acid_projectile.w2ent:                                timeDuration (Float) : 2.8273
-echinops_acid_projectile.w2ent:                                buffername (CName) : Particles
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 3
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 1
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-echinops_acid_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.5011
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
-echinops_acid_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
-echinops_acid_projectile.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-echinops_acid_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                                copyRotation (Bool) : false
-echinops_acid_projectile.w2ent:                                attach (Bool) : true
-echinops_acid_projectile.w2ent:                3 (CEntityTemplateCookedEffect) : venom_copy_small
-echinops_acid_projectile.w2ent:                    name (CName) : venom_copy_small
-echinops_acid_projectile.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-echinops_acid_projectile.w2ent:                        Bufferdata (CByteArray) : 2142 bytes, MD5: 637e9ce4fb484396135d410195aa3c65
-echinops_acid_projectile.w2ent:                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
-echinops_acid_projectile.w2ent:                            CFXDefinition (CFXDefinition) : venom_copy_small
-echinops_acid_projectile.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-echinops_acid_projectile.w2ent:                                length (Float) : 2.3090
-echinops_acid_projectile.w2ent:                                loopStart (Float) : 0.1258
-echinops_acid_projectile.w2ent:                                loopEnd (Float) : 0.2359
-echinops_acid_projectile.w2ent:                                name (CName) : venom_copy_small
-echinops_acid_projectile.w2ent:                                isLooped (Bool) : true
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : audio
-echinops_acid_projectile.w2ent:                                name (String) : "audio"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 250
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 169
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 222
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : sfx
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-echinops_acid_projectile.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-echinops_acid_projectile.w2ent:                                name (String) : "sfx"
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0032
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-echinops_acid_projectile.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.2479
-echinops_acid_projectile.w2ent:                                buffername (CName) : 
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 0
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 0
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-echinops_acid_projectile.w2ent:                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
-echinops_acid_projectile.w2ent:                                maxDistance (Float) : 40.0000
-echinops_acid_projectile.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-echinops_acid_projectile.w2ent:                                name (String) : "fx"
-echinops_acid_projectile.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-echinops_acid_projectile.w2ent:                                isExpanded (Bool) : true
-echinops_acid_projectile.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-echinops_acid_projectile.w2ent:                                    Red (Uint8) : 208
-echinops_acid_projectile.w2ent:                                    Green (Uint8) : 197
-echinops_acid_projectile.w2ent:                                    Blue (Uint8) : 209
-echinops_acid_projectile.w2ent:                                    Alpha (Uint8) : 100
-echinops_acid_projectile.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                            CFXTrack (CFXTrack) : asd
-echinops_acid_projectile.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-echinops_acid_projectile.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-echinops_acid_projectile.w2ent:                                name (String) : "asd"
-echinops_acid_projectile.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-echinops_acid_projectile.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-echinops_acid_projectile.w2ent:                                timeBegin (Float) : 0.0044
-echinops_acid_projectile.w2ent:                                timeDuration (Float) : 2.8273
-echinops_acid_projectile.w2ent:                                buffername (CName) : Particles
-echinops_acid_projectile.w2ent:                                count (CDynamicInt) : 3
-echinops_acid_projectile.w2ent:                                unk (Uint8) : 1
-echinops_acid_projectile.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
-echinops_acid_projectile.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 0.5011
-echinops_acid_projectile.w2ent:                                        3 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 0.0000
-echinops_acid_projectile.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-echinops_acid_projectile.w2ent:                                        0 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        2 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        3 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        4 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        5 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        6 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        7 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        8 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        9 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        10 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        11 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        12 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        13 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        14 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                        15 (Float) : 1.0000
-echinops_acid_projectile.w2ent:                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
-echinops_acid_projectile.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
-echinops_acid_projectile.w2ent:                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-echinops_acid_projectile.w2ent:                                componentName (CName) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:                                copyRotation (Bool) : false
-echinops_acid_projectile.w2ent:                                attach (Bool) : true
-echinops_acid_projectile.w2ent:            cookedEffectsVersion (Uint32) : 1
-echinops_acid_projectile.w2ent:            Unk1 (Uint32) : 0
-echinops_acid_projectile.w2ent:    PoisonProjectile #1 (PoisonProjectile) : venom
-echinops_acid_projectile.w2ent:        PoisonProjectile (PoisonProjectile) : 
-echinops_acid_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            streamingDistance (Uint8) : 0
-echinops_acid_projectile.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-echinops_acid_projectile.w2ent:                0 (ptr:CComponent) : CEffectDummyComponent #2
-echinops_acid_projectile.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
-echinops_acid_projectile.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-echinops_acid_projectile.w2ent:                0 (SEntityBufferType1) : 
-echinops_acid_projectile.w2ent:                    ComponentName (CName) : 
-echinops_acid_projectile.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-echinops_acid_projectile.w2ent:            idTag (IdTag) :  107b038a-000d-4a2e-bbe3-fc962d864f94
-echinops_acid_projectile.w2ent:            displayName (LocalizedString) : 1212042
-echinops_acid_projectile.w2ent:            radius (Float) : 0.1500
-echinops_acid_projectile.w2ent:            projSpeed (Float) : 25.0000
-echinops_acid_projectile.w2ent:            projAngle (Float) : 0.0000
-echinops_acid_projectile.w2ent:            projDMG (Float) : 350.0000
-echinops_acid_projectile.w2ent:            initFxName (CName) : venom
-echinops_acid_projectile.w2ent:            onCollisionFxName (CName) : venom_hit
-echinops_acid_projectile.w2ent:            spawnEntityOnGround (Bool) : true
-echinops_acid_projectile.w2ent:            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/echinops/echinops_acid_area.w2ent
-echinops_acid_projectile.w2ent:    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-echinops_acid_projectile.w2ent:            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
-echinops_acid_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            name (String) : "CEffectDummyComponent0"
-echinops_acid_projectile.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
-echinops_acid_projectile.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-echinops_acid_projectile.w2ent:            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
-echinops_acid_projectile.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-echinops_acid_projectile.w2ent:            name (String) : "CSoundEmitterComponent0"
-echinops_acid_projectile.w2ent:            isStreamed (Bool) : false
-echinops_acid_projectile.w2ent:            banksDependency (array:CName) : # array:CName
-echinops_acid_projectile.w2ent:                0 (CName) : monster_archespor.bnk
-echinops_acid_projectile.w2ent:            maxDistance (Float) : 50.0000
+    CEntityTemplate #0 (CEntityTemplate) : PoisonProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : PoisonProjectile
+            entityObject (ptr:CEntity) : PoisonProjectile #1
+            flatCompiledData (array:Uint8) : # array:Uint8
+                PoisonProjectile #0 (PoisonProjectile) : PreviewEntity
+                    PoisonProjectile (PoisonProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CEffectDummyComponent #1
+                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  107b038a-000d-4a2e-bbe3-fc962d864f94
+                        displayName (LocalizedString) : 1212042
+                        radius (Float) : 0.1500
+                        projSpeed (Float) : 25.0000
+                        projAngle (Float) : 0.0000
+                        projDMG (Float) : 350.0000
+                        initFxName (CName) : venom
+                        onCollisionFxName (CName) : venom_hit
+                        spawnEntityOnGround (Bool) : true
+                        spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/echinops/echinops_acid_area.w2ent
+                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : 192
+                        graphPositionY (Int16) : 287
+                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 191
+                        graphPositionY (Int16) : 217
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_archespor.bnk
+                        maxDistance (Float) : 50.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : venom
+                    name (CName) : venom
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2499 bytes, MD5: ce1cbdb95a88d278eeb6acb2d2df98b5
+                        CFXDefinition #0 (CFXDefinition) : venom
+                            CFXDefinition (CFXDefinition) : venom
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #6
+                                length (Float) : 2.8192
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom
+                                showDistance (Float) : 44.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 205
+                                    Green (Uint8) : 221
+                                    Blue (Uint8) : 139
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2471
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1131
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                stopFadeTime (Float) : 99.0000
+                                maxDistance (Float) : 40.0000
+                                useDistanceParameter (Bool) : true
+                                latchDistanceParameterBelow (Float) : 3.0000
+                                latchEvent (StringAnsi) : monster_archespor_combat_venom_flyby
+                        CFXTrackGroup #6 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #7
+                                    1 (ptr:CFXTrack) : CFXTrack #10
+                                    2 (ptr:CFXTrack) : CFXTrack #11
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #7 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #8
+                                name (String) : "3"
+                        CFXTrackItemParticles #8 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0028
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0> <0> <0> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/echinops/echinops_acid_projectile.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #9
+                        CFXSpawnerComponent #9 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                        CFXTrack #10 (CFXTrack) : dasd
+                            CFXTrack (CFXTrack) : dasd
+                                name (String) : "dasd"
+                        CFXTrack #11 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                name (String) : "asd"
+                1 (CEntityTemplateCookedEffect) : venom_hit
+                    name (CName) : venom_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2049 bytes, MD5: ab0093b707220bbd121b73a5fd285c99
+                        CFXDefinition #0 (CFXDefinition) : venom_hit
+                            CFXDefinition (CFXDefinition) : venom_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 2.9774
+                                loopStart (Float) : 0.0987
+                                loopEnd (Float) : 0.1791
+                                name (CName) : venom_hit
+                                showDistance (Float) : 22.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 151
+                                    Green (Uint8) : 161
+                                    Blue (Uint8) : 254
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0056
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_hit
+                                maxDistance (Float) : 40.0000
+                                speed (Float) : 0.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : asd
+                            CFXTrackGroup (CFXTrackGroup) : asd
+                                name (String) : "asd"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 155
+                                    Green (Uint8) : 150
+                                    Blue (Uint8) : 164
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "asd"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0161
+                                timeDuration (Float) : 2.8847
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.5000
+                                        1 (Float) : 1.5000
+                                        2 (Float) : 1.5000
+                                        3 (Float) : 1.5000
+                                        4 (Float) : 1.5000
+                                        5 (Float) : 1.5000
+                                        6 (Float) : 1.5000
+                                        7 (Float) : 1.5000
+                                        8 (Float) : 1.5000
+                                        9 (Float) : 1.5000
+                                        10 (Float) : 1.5000
+                                        11 (Float) : 1.5000
+                                        12 (Float) : 1.5000
+                                        13 (Float) : 1.5000
+                                        14 (Float) : 1.5000
+                                        15 (Float) : 1.5000
+                                particleSystem (soft:CParticleSystem) : dlc/bob/data/fx/monsters/echinops/echinops_acid_hit.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                2 (CEntityTemplateCookedEffect) : venom_copy
+                    name (CName) : venom_copy
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2128 bytes, MD5: d903c068a1e9d7da049020094a5371dc
+                        CFXDefinition #0 (CFXDefinition) : venom_copy
+                            CFXDefinition (CFXDefinition) : venom_copy
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 169
+                                    Green (Uint8) : 235
+                                    Blue (Uint8) : 127
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0024
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2463
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "asd"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/arachas/venom/venom_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                3 (CEntityTemplateCookedEffect) : venom_copy_small
+                    name (CName) : venom_copy_small
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2142 bytes, MD5: 637e9ce4fb484396135d410195aa3c65
+                        CFXDefinition #0 (CFXDefinition) : venom_copy_small
+                            CFXDefinition (CFXDefinition) : venom_copy_small
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 2.3090
+                                loopStart (Float) : 0.1258
+                                loopEnd (Float) : 0.2359
+                                name (CName) : venom_copy_small
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 250
+                                    Green (Uint8) : 169
+                                    Blue (Uint8) : 222
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0032
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.2479
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_archespor_combat_venom_projectile_LP_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 208
+                                    Green (Uint8) : 197
+                                    Blue (Uint8) : 209
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "asd"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0044
+                                timeDuration (Float) : 2.8273
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <0.5011315> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.0000
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 0.5011
+                                        3 (Float) : 0.0000
+                                        4 (Float) : 0.0000
+                                        5 (Float) : 0.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : fx/monsters/endriaga/attack_01/endraiga_proj_fx.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #8
+                        CFXSpawnerComponent #8 (CFXSpawnerComponent) : CEffectDummyComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CEffectDummyComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    PoisonProjectile #1 (PoisonProjectile) : venom
+        PoisonProjectile (PoisonProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CEffectDummyComponent #2
+                1 (ptr:CComponent) : CSoundEmitterComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  107b038a-000d-4a2e-bbe3-fc962d864f94
+            displayName (LocalizedString) : 1212042
+            radius (Float) : 0.1500
+            projSpeed (Float) : 25.0000
+            projAngle (Float) : 0.0000
+            projDMG (Float) : 350.0000
+            initFxName (CName) : venom
+            onCollisionFxName (CName) : venom_hit
+            spawnEntityOnGround (Bool) : true
+            spawnEntityTemplate (handle:CEntityTemplate) : dlc/bob/data/fx/monsters/echinops/echinops_acid_area.w2ent
+    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 18febab9-37fa-4ee8-92e8-8289a568b2b5
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"
+    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : ce87ee7b-be7c-420c-8f17-fad00ca3b4fd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_archespor.bnk
+            maxDistance (Float) : 50.0000

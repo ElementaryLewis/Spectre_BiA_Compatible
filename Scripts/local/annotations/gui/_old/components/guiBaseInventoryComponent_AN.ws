@@ -251,36 +251,33 @@
 	
 	flashObject.SetMemberFlashInt( "id", ItemToFlashUInt(item) );
 	
-	if (!_inv.IsItemOil(item))
+	if(_inv.IsItemSingletonItem(item))
 	{
-		if(_inv.IsItemSingletonItem(item))
+		if( thePlayer.inv.SingletonItemGetMaxAmmo(item) > 0 )
 		{
-			if( thePlayer.inv.SingletonItemGetMaxAmmo(item) > 0 )
+			chargesCount = thePlayer.inv.SingletonItemGetAmmo(item);
+			
+			if( chargesCount <= 0 )
 			{
-				chargesCount = thePlayer.inv.SingletonItemGetAmmo(item);
-				
-				if( chargesCount <= 0 )
-				{
-					charges = "<font color=\"#CC0000\">" +  chargesCount + " " +"</font>";
-				}
-				else
-				{
-					charges = "<font color=\"#DEDEDE\">" +  chargesCount +  " " +"</font>";
-				}
+				charges = "<font color=\"#CC0000\">" +  chargesCount + " " +"</font>";
 			}
 			else
 			{
-				charges = "";
+				charges = "<font color=\"#DEDEDE\">" +  chargesCount +  " " +"</font>";
 			}
-			
-			flashObject.SetMemberFlashString( "charges",  charges);
-			flashObject.SetMemberFlashInt( "quantity", quantity);
 		}
 		else
 		{
-			quantity = _inv.GetItemQuantity(item);
-			flashObject.SetMemberFlashInt( "quantity", quantity);
+			charges = "";
 		}
+		
+		flashObject.SetMemberFlashString( "charges",  charges);
+		flashObject.SetMemberFlashInt( "quantity", quantity);
+	}
+	else
+	{
+		quantity = _inv.GetItemQuantity(item);
+		flashObject.SetMemberFlashInt( "quantity", quantity);
 	}
 	
 	itemName = _inv.GetItemName(item); 
@@ -367,9 +364,12 @@
 	
 	if( _inv.HasItemDurability(item) )
 	{
-		
 		curr = RoundMath( _inv.GetItemDurability(item) / _inv.GetItemMaxDurability(item) * 100);
-		
+
+		if ( curr == 100 )
+		{
+			curr = 99.99;
+		}
 		
 		flashObject.SetMemberFlashNumber( "durability", curr );
 		

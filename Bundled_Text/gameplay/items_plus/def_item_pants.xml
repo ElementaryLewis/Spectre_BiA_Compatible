@@ -10,7 +10,7 @@
 	<ability name="Starting Pants _Stats"> <!-- medium pants -->
 		<weight 						type="base" min="2" 				/>
 		<quality 						type="add" 	min="1" 	max="1"		/>
-		<armor 							type="base" min="64" 	max="64" 	/>
+		<armor 							type="base" min="4" 	max="4" 	/>
 		<slashing_resistance_perc 		type="base"	min="0.03"				/>
 		<piercing_resistance_perc 		type="base" min="0.01"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.01"				/>
@@ -19,7 +19,7 @@
 	</ability>
 
 <!-- LIGHT PANTS -->
-	<ability name="Pants 01 _Stats"> <!-- low quality light pants -->
+	<ability name="Pants 01 _Stats"> <!-- Hunting Trousers - low quality light pants -->
 		<weight 						type="base" min="1" 				/>
 		<quality 						type="add"	min="1" 	max="1"		/>
 		<slashing_resistance_perc 		type="base" min="0.01"				/>
@@ -30,7 +30,7 @@
 		<staminaRegen_armor_mod 		type="mult" min="0.01"				/>
 	</ability>
 
-	<ability name="Pants 01 q2 _Stats"> <!-- medium quality light pants -->
+	<ability name="Pants 01 q2 _Stats"> <!-- Hunting Trousers - medium quality light pants -->
 		<weight 						type="base" min="1.5" 				/>
 		<quality 						type="add" 	min="2" 	max="2" 	/>
 		<slashing_resistance_perc 		type="base" min="0.02"				/>
@@ -53,7 +53,7 @@
 	</ability>
 
 <!-- RELIC LIGHT -->
-	<ability name="Pants 04 _Stats"> <!-- relic light pants: +2 to resists, +4-6% to focus gain -->
+	<ability name="Pants 04 _Stats"> <!-- Assassin's Trousers - relic light pants: +2 to resists, +4-6% to focus gain -->
 		<weight 						type="base"	min="2" 				/>
 		<quality 						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc 		type="base"	min="0.05"				/>
@@ -76,7 +76,7 @@
 		<elemental_resistance_perc 		type="base" min="0.03"				/>
 	</ability>
 
-	<ability name="Heavy pants 02 _Stats"> <!-- random quality medium pants -->
+	<ability name="Heavy pants 02 _Stats"> <!-- Sapper's Trousers - random quality medium pants -->
 		<weight 						type="base"	min="3.75" 				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc 		type="base"	min="0.04"				/>
@@ -87,7 +87,7 @@
 	</ability>
 	
 <!-- HEAVY PANTS -->		
-	<ability name="Heavy pants 01 _Stats"> <!-- low quality heavy pants -->
+	<ability name="Heavy pants 01 _Stats"> <!-- Axeman's Trousers - low quality heavy pants -->
 		<weight							type="base" min="5" 				/>
 		<quality 						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc 		type="base"	min="0.05"				/>
@@ -98,7 +98,7 @@
 		<staminaRegen_armor_mod 		type="mult" min="-0.05"				/>
 	</ability>
 	
-	<ability name="Heavy pants 03 _Stats"> <!-- random quality heavy pants -->
+	<ability name="Heavy pants 03 _Stats"> <!-- Lyrian Hardened Leather Trousers - random quality heavy pants -->
 		<weight 						type="base"	min="6.5" 				/>
 		<quality 						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.07"				/>
@@ -110,7 +110,7 @@
 	</ability>
 	
 <!-- RELIC HEAVY -->
-	<ability name="Heavy pants 04 _Stats"> <!-- relic heavy pants: +1 to resists, +150-200 to vitality, 50% less stamina penalty -->
+	<ability name="Heavy pants 04 _Stats"> <!-- Mahakaman Trousers - relic heavy pants: +1 to resists, +150-200 to vitality, 50% less stamina penalty -->
 		<weight							type="base"	min="8" 				/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc 		type="base"	min="0.09"				/>

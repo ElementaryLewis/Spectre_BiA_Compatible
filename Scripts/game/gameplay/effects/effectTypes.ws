@@ -174,7 +174,10 @@ EET_Unused1,
 	EET_WhiteHoney,
 	EET_WhiteRaffardDecoction,
 	EET_KillerWhale,
-	
+	EET_AlbedoDominance, //modSpectre
+	EET_RubedoDominance, //modSpectre
+	EET_NigredoDominance, //modSpectre
+	EET_PotionDigestion, //modSpectre
 	
 	EET_AxiiGuardMe,
 	EET_IgnorePain,

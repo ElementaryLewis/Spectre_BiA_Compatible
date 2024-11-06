@@ -61,7 +61,7 @@
 		case EET_DoTHPRegenReduce : 		effects[effect] = new W3Effect_DoTHPRegenReduce in this; 			break;
 		
 		
-		case EET_Toxicity :					effects[effect] = new W3Effect_Toxicity in this; 					break;
+		case EET_Toxicity :					effects[effect] = new spectreToxicityEffect in this; 				break;
 		case EET_VitalityDrain :			effects[effect] = new W3Effect_VitalityDrain in this; 				break;
 		case EET_AirDrain :					effects[effect] = new W3Effect_AirDrain in this; 					break;
 		case EET_AirDrainDive :				effects[effect] = new W3Effect_AirDrainDive in this;				break;
@@ -114,6 +114,10 @@
 		case EET_AbilityOnLowHealth: 		effects[effect] = new W3Effect_AbilityOnLowHP in this; 				break;
 		case EET_Drowning: 					effects[effect] = new W3Effect_Drowning in this; 					break;
 		case EET_Choking:					effects[effect] = new W3Effect_Choking in this;						break;
+		case EET_NigredoDominance : 		effects[effect] = new W3Effect_NigredoDominance in this; 			break;
+		case EET_AlbedoDominance : 			effects[effect] = new W3Effect_AlbedoDominance in this; 			break;
+		case EET_RubedoDominance : 			effects[effect] = new W3Effect_RubedoDominance in this; 			break;
+		case EET_PotionDigestion : 			effects[effect] = new W3Effect_PotionDigestion in this; 			break;
 		case EET_OverEncumbered: 			effects[effect] = new W3Effect_OverEncumbered in this; 				break;
 		case EET_SilverDust:				effects[effect] = new W3Effect_SilverDust in this; 					break;
 		case EET_WeatherBonus: 				effects[effect] = new W3Effect_WeatherBonus in this; 				break;
@@ -364,6 +368,10 @@
 		case "AbilityOnLowHPEffect" :						type = EET_AbilityOnLowHealth;			break;
 		case "DrowningEffect" :								type = EET_Drowning; 					break;
 		case "ChokingEffect" : 								type = EET_Choking; 					break;
+		case "NigredoDominanceEffect" : 					type = EET_NigredoDominance; 			break;
+		case "AlbedoDominanceEffect" : 						type = EET_AlbedoDominance; 			break;
+		case "RubedoDominanceEffect" : 						type = EET_RubedoDominance;				break;
+		case "PotionDigestionEffect" : 						type = EET_PotionDigestion;				break;	
 		case "WeatherBonusEffect" : 						type = EET_WeatherBonus; 				break;
 		case "OverEncumberedEffect" : 						type = EET_OverEncumbered; 				break;
 		case "SilverDustEffect" : 							type = EET_SilverDust; 					break;

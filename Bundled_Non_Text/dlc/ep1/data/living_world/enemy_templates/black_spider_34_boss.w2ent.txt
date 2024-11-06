@@ -1,993 +1,993 @@
-black_spider_34_boss.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
-black_spider_34_boss.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-black_spider_34_boss.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-black_spider_34_boss.w2ent:                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/black_spider_large.w2ent
-black_spider_34_boss.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
-black_spider_34_boss.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
-black_spider_34_boss.w2ent:                    componentName (CName) : CAppearanceComponent0
-black_spider_34_boss.w2ent:                    className (CName) : CAppearanceComponent
-black_spider_34_boss.w2ent:                    overriddenProperties (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                        0 (CName) : attachmentReplacements
-black_spider_34_boss.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
-black_spider_34_boss.w2ent:                    componentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                    overriddenProperties (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                        0 (CName) : movementAdjustor
-black_spider_34_boss.w2ent:            properOverrides (Bool) : true
-black_spider_34_boss.w2ent:            entityClass (CName) : CNewNPC
-black_spider_34_boss.w2ent:            entityObject (ptr:CEntity) : CNewNPC #1
-black_spider_34_boss.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
-black_spider_34_boss.w2ent:                0 (CEntityAppearance) : black_spider_01
-black_spider_34_boss.w2ent:                    name (CName) : black_spider_01
-black_spider_34_boss.w2ent:                    wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-black_spider_34_boss.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/h_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        1 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/c_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        2 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/t_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        3 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/l_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        4 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/d_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        5 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/a_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        6 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_01__black_spider.w2ent
-black_spider_34_boss.w2ent:                        7 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_02__black_spider.w2ent
-black_spider_34_boss.w2ent:            usedAppearances (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : black_spider_01
-black_spider_34_boss.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-black_spider_34_boss.w2ent:                0 (EntitySlot) : projectile_origin
-black_spider_34_boss.w2ent:                    wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:                    name (CName) : projectile_origin
-black_spider_34_boss.w2ent:                    componentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                    boneName (CName) : head
-black_spider_34_boss.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                        Pitch (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Yaw (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Roll (Float) : 0.0000
-black_spider_34_boss.w2ent:                        X (Float) : -0.2437
-black_spider_34_boss.w2ent:                        Y (Float) : -0.1444
-black_spider_34_boss.w2ent:                        Z (Float) : -0.0469
-black_spider_34_boss.w2ent:                1 (EntitySlot) : death
-black_spider_34_boss.w2ent:                    wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:                    name (CName) : death
-black_spider_34_boss.w2ent:                2 (EntitySlot) : blood_point
-black_spider_34_boss.w2ent:                    wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:                    name (CName) : blood_point
-black_spider_34_boss.w2ent:                    componentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                    boneName (CName) : GlowAnt_BAZA
-black_spider_34_boss.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                        Pitch (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Yaw (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Roll (Float) : 90.0000
-black_spider_34_boss.w2ent:                        X (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Y (Float) : 0.2500
-black_spider_34_boss.w2ent:                        Z (Float) : 0.0100
-black_spider_34_boss.w2ent:                3 (EntitySlot) : hit_ground
-black_spider_34_boss.w2ent:                    wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:                    name (CName) : hit_ground
-black_spider_34_boss.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                        X (Float) : 0.0000
-black_spider_34_boss.w2ent:                        Y (Float) : 0.3000
-black_spider_34_boss.w2ent:                        Z (Float) : 0.0000
-black_spider_34_boss.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
-black_spider_34_boss.w2ent:                0 (ptr:CEntityTemplateParam) : CCharacterStatsParam #15
-black_spider_34_boss.w2ent:                1 (ptr:CEntityTemplateParam) : CAIProfile #16
-black_spider_34_boss.w2ent:                2 (ptr:CEntityTemplateParam) : CInventoryDefinition #17
-black_spider_34_boss.w2ent:                3 (ptr:CEntityTemplateParam) : CAttackRangeParam #20
-black_spider_34_boss.w2ent:                4 (ptr:CEntityTemplateParam) : CCharacterStatsParam #22
-black_spider_34_boss.w2ent:                5 (ptr:CEntityTemplateParam) : CBloodTrailEffect #23
-black_spider_34_boss.w2ent:                6 (ptr:CEntityTemplateParam) : CCharacterControllerParam #24
-black_spider_34_boss.w2ent:                7 (ptr:CEntityTemplateParam) : CR4LootParam #25
-black_spider_34_boss.w2ent:                8 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #26
-black_spider_34_boss.w2ent:                9 (ptr:CEntityTemplateParam) : CAnimGlobalParam #71
-black_spider_34_boss.w2ent:                10 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #72
-black_spider_34_boss.w2ent:                11 (ptr:CEntityTemplateParam) : CAIProfile #73
-black_spider_34_boss.w2ent:                12 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #76
-black_spider_34_boss.w2ent:                13 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #77
-black_spider_34_boss.w2ent:                14 (ptr:CEntityTemplateParam) : CCharacterStatsParam #78
-black_spider_34_boss.w2ent:                15 (ptr:CEntityTemplateParam) : CMonsterParam #79
-black_spider_34_boss.w2ent:                16 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #80
-black_spider_34_boss.w2ent:                17 (ptr:CEntityTemplateParam) : CBloodTrailEffect #81
-black_spider_34_boss.w2ent:                18 (ptr:CEntityTemplateParam) : CFocusSoundParam #82
-black_spider_34_boss.w2ent:                19 (ptr:CEntityTemplateParam) : CAnimGlobalParam #83
-black_spider_34_boss.w2ent:                20 (ptr:CEntityTemplateParam) : CBuffImmunityParam #84
-black_spider_34_boss.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-black_spider_34_boss.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
-black_spider_34_boss.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        streamingDistance (Uint8) : 14
-black_spider_34_boss.w2ent:                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
-black_spider_34_boss.w2ent:                        name (String) : "PreviewEntity"
-black_spider_34_boss.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-black_spider_34_boss.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #1
-black_spider_34_boss.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
-black_spider_34_boss.w2ent:                            2 (ptr:CComponent) : CPhantomComponent #7
-black_spider_34_boss.w2ent:                            3 (ptr:CComponent) : CDecalComponent #8
-black_spider_34_boss.w2ent:                            4 (ptr:CComponent) : CCreatureDataComponent #9
-black_spider_34_boss.w2ent:                            5 (ptr:CComponent) : CInventoryComponent #10
-black_spider_34_boss.w2ent:                            6 (ptr:CComponent) : CDynamicColliderComponent #4
-black_spider_34_boss.w2ent:                            7 (ptr:CComponent) : CDismembermentComponent #11
-black_spider_34_boss.w2ent:                            8 (ptr:CComponent) : CGameplayEffectsComponent #12
-black_spider_34_boss.w2ent:                            9 (ptr:CComponent) : CEffectDummyComponent #6
-black_spider_34_boss.w2ent:                            10 (ptr:CComponent) : CSoundEmitterComponent #13
-black_spider_34_boss.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-black_spider_34_boss.w2ent:                            0 (SEntityBufferType1) : 
-black_spider_34_boss.w2ent:                                ComponentName (CName) : 
-black_spider_34_boss.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-black_spider_34_boss.w2ent:                        idTag (IdTag) :  84716e1a-e828-40e6-9f22-612489492011
-black_spider_34_boss.w2ent:                        displayName (LocalizedString) : Arachnomorph
-black_spider_34_boss.w2ent:                        level (Int32) : 34
-black_spider_34_boss.w2ent:                        isMonsterType_Group (Bool) : true
-black_spider_34_boss.w2ent:                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
-black_spider_34_boss.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-black_spider_34_boss.w2ent:                        guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CAppearanceComponent0"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : -56
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 212
-black_spider_34_boss.w2ent:                        forcedAppearance (CName) : endriaga_worker_01
-black_spider_34_boss.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-black_spider_34_boss.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-black_spider_34_boss.w2ent:                                0 (SAttachmentReplacement) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CPhantomComponent1
-black_spider_34_boss.w2ent:                                    newClass (CName) : CPhantomComponent
-black_spider_34_boss.w2ent:                                1 (SAttachmentReplacement) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CDecalComponent0
-black_spider_34_boss.w2ent:                                    newClass (CName) : CDecalComponent
-black_spider_34_boss.w2ent:                                2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CCreatureDataComponent1
-black_spider_34_boss.w2ent:                                    newClass (CName) : CCreatureDataComponent
-black_spider_34_boss.w2ent:                                3 (SAttachmentReplacement) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CInventoryComponent0
-black_spider_34_boss.w2ent:                                    newClass (CName) : CInventoryComponent
-black_spider_34_boss.w2ent:                                4 (SAttachmentReplacement) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : grassCollider
-black_spider_34_boss.w2ent:                                    newClass (CName) : CDynamicColliderComponent
-black_spider_34_boss.w2ent:                                5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CDismembermentComponent0
-black_spider_34_boss.w2ent:                                    newClass (CName) : CDismembermentComponent
-black_spider_34_boss.w2ent:                                6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:                                    newClass (CName) : CGameplayEffectsComponent
-black_spider_34_boss.w2ent:                                7 (SAttachmentReplacement) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : torso3effect
-black_spider_34_boss.w2ent:                                    newClass (CName) : CEffectDummyComponent
-black_spider_34_boss.w2ent:                                8 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
-black_spider_34_boss.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
-black_spider_34_boss.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                                    newName (CName) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:                                    newClass (CName) : CSoundEmitterComponent
-black_spider_34_boss.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
-black_spider_34_boss.w2ent:                            0 (SAppearanceAttachments) : endriaga_worker_02
-black_spider_34_boss.w2ent:                                appearance (CName) : endriaga_worker_02
-black_spider_34_boss.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                                        parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                                        childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                                        childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                            1 (SAppearanceAttachments) : endriaga_worker_03
-black_spider_34_boss.w2ent:                                appearance (CName) : endriaga_worker_03
-black_spider_34_boss.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                                        parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                                        childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                                        childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                            2 (SAppearanceAttachments) : endriaga_worker_04
-black_spider_34_boss.w2ent:                                appearance (CName) : endriaga_worker_04
-black_spider_34_boss.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                                    0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                                        parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                                        childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                                        childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                            3 (SAppearanceAttachments) : black_spider_01
-black_spider_34_boss.w2ent:                                appearance (CName) : black_spider_01
-black_spider_34_boss.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                                    0 (SAppearanceAttachment) : a_01__black_spider
-black_spider_34_boss.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                                        parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                                        childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                                        childName (CName) : a_01__black_spider
-black_spider_34_boss.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : endriaga_base
-black_spider_34_boss.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
-black_spider_34_boss.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                            Scale_x (Float) : 1.5000
-black_spider_34_boss.w2ent:                            Scale_y (Float) : 1.5000
-black_spider_34_boss.w2ent:                            Scale_z (Float) : 1.5000
-black_spider_34_boss.w2ent:                        guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                            0 (handle:IAttachment) : CHardAttachment #3
-black_spider_34_boss.w2ent:                            1 (handle:IAttachment) : CHardAttachment #5
-black_spider_34_boss.w2ent:                        name (String) : "endriaga_base"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 145
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 533
-black_spider_34_boss.w2ent:                        skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
-black_spider_34_boss.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-black_spider_34_boss.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Combat
-black_spider_34_boss.w2ent:                                instanceName (CName) : Combat
-black_spider_34_boss.w2ent:                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
-black_spider_34_boss.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
-black_spider_34_boss.w2ent:                                instanceName (CName) : Cutscene
-black_spider_34_boss.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-black_spider_34_boss.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
-black_spider_34_boss.w2ent:                CHardAttachment #3 (CHardAttachment) : 
-black_spider_34_boss.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-black_spider_34_boss.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
-black_spider_34_boss.w2ent:                        child (ptr:CNode) : CDynamicColliderComponent #4
-black_spider_34_boss.w2ent:                CDynamicColliderComponent #4 (CDynamicColliderComponent) : grassCollider
-black_spider_34_boss.w2ent:                    CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
-black_spider_34_boss.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                            Scale_x (Float) : 1.5000
-black_spider_34_boss.w2ent:                            Scale_y (Float) : 1.5000
-black_spider_34_boss.w2ent:                            Scale_z (Float) : 2.0000
-black_spider_34_boss.w2ent:                            X (Float) : 0.0000
-black_spider_34_boss.w2ent:                            Y (Float) : 0.0000
-black_spider_34_boss.w2ent:                            Z (Float) : 0.4000
-black_spider_34_boss.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #3
-black_spider_34_boss.w2ent:                        guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                            0 (handle:IAttachment) : CHardAttachment #3
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "grassCollider"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 83
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 614
-black_spider_34_boss.w2ent:                        useInWaterNormal (Bool) : false
-black_spider_34_boss.w2ent:                        useInGrassDisplacement (Bool) : true
-black_spider_34_boss.w2ent:                CHardAttachment #5 (CHardAttachment) : 
-black_spider_34_boss.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-black_spider_34_boss.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
-black_spider_34_boss.w2ent:                        child (ptr:CNode) : CEffectDummyComponent #6
-black_spider_34_boss.w2ent:                CEffectDummyComponent #6 (CEffectDummyComponent) : torso3effect
-black_spider_34_boss.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : torso3effect
-black_spider_34_boss.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                            Pitch (Float) : 269.6780
-black_spider_34_boss.w2ent:                            Yaw (Float) : 9.4358
-black_spider_34_boss.w2ent:                            Roll (Float) : 95.2398
-black_spider_34_boss.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #5
-black_spider_34_boss.w2ent:                        guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                            0 (handle:IAttachment) : CHardAttachment #5
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "torso3effect"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : -59
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 528
-black_spider_34_boss.w2ent:                CPhantomComponent #7 (CPhantomComponent) : CPhantomComponent1
-black_spider_34_boss.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent1
-black_spider_34_boss.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                            Scale_x (Float) : 1.7360
-black_spider_34_boss.w2ent:                            Scale_y (Float) : 1.6629
-black_spider_34_boss.w2ent:                            Scale_z (Float) : 1.0000
-black_spider_34_boss.w2ent:                            X (Float) : 0.0000
-black_spider_34_boss.w2ent:                            Y (Float) : 0.9000
-black_spider_34_boss.w2ent:                            Z (Float) : 0.5000
-black_spider_34_boss.w2ent:                        guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CPhantomComponent1"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 211
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 701
-black_spider_34_boss.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                            0 (CName) : Character
-black_spider_34_boss.w2ent:                        shapeType (EPhantomShape) : PS_Box
-black_spider_34_boss.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-black_spider_34_boss.w2ent:                            X (Float) : 0.7000
-black_spider_34_boss.w2ent:                            Y (Float) : 0.7000
-black_spider_34_boss.w2ent:                            Z (Float) : 1.0000
-black_spider_34_boss.w2ent:                            W (Float) : 0.0000
-black_spider_34_boss.w2ent:                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
-black_spider_34_boss.w2ent:                CDecalComponent #8 (CDecalComponent) : CDecalComponent0
-black_spider_34_boss.w2ent:                    CDecalComponent (CDecalComponent) : CDecalComponent0
-black_spider_34_boss.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                            Scale_x (Float) : 4.0000
-black_spider_34_boss.w2ent:                            Scale_y (Float) : 4.0000
-black_spider_34_boss.w2ent:                            Scale_z (Float) : 1.8000
-black_spider_34_boss.w2ent:                        guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CDecalComponent0"
-black_spider_34_boss.w2ent:                        isStreamed (Bool) : false
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 55
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 144
-black_spider_34_boss.w2ent:                        boundingBox (Box) : <Box>boundingBox
-black_spider_34_boss.w2ent:                            Min (Vector) : <Vector>Min
-black_spider_34_boss.w2ent:                                X (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                                Y (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                                Z (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                                W (Float) : 1.0000
-black_spider_34_boss.w2ent:                            Max (Vector) : <Vector>Max
-black_spider_34_boss.w2ent:                                X (Float) : NaN
-black_spider_34_boss.w2ent:                                Y (Float) : NaN
-black_spider_34_boss.w2ent:                                Z (Float) : NaN
-black_spider_34_boss.w2ent:                                W (Float) : 1.0000
-black_spider_34_boss.w2ent:                        diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
-black_spider_34_boss.w2ent:                        specularColor (Color) : <Color>specularColor
-black_spider_34_boss.w2ent:                            Red (Uint8) : 15
-black_spider_34_boss.w2ent:                            Green (Uint8) : 15
-black_spider_34_boss.w2ent:                            Blue (Uint8) : 15
-black_spider_34_boss.w2ent:                            Alpha (Uint8) : 255
-black_spider_34_boss.w2ent:                        normalThreshold (Float) : 57.6000
-black_spider_34_boss.w2ent:                CCreatureDataComponent #9 (CCreatureDataComponent) : CCreatureDataComponent1
-black_spider_34_boss.w2ent:                    CCreatureDataComponent (CCreatureDataComponent) : 
-black_spider_34_boss.w2ent:                        guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CCreatureDataComponent1"
-black_spider_34_boss.w2ent:                        itemsUsedAgainstCreature (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                            0 (CName) : Necrophage Oil 1	
-black_spider_34_boss.w2ent:                            1 (CName) : Golden Oriole 1
-black_spider_34_boss.w2ent:                        cameraDistance (Float) : 2.5000
-black_spider_34_boss.w2ent:                        cameraLookAtZ (Float) : 1.0000
-black_spider_34_boss.w2ent:                        cameraRotationYaw (Float) : 190.0000
-black_spider_34_boss.w2ent:                        cameraRotationPitch (Float) : 10.0000
-black_spider_34_boss.w2ent:                        environmentSunRotationYaw (Float) : 330.0000
-black_spider_34_boss.w2ent:                        environmentSunRotationPitch (Float) : 340.0000
-black_spider_34_boss.w2ent:                CInventoryComponent #10 (CInventoryComponent) : CInventoryComponent0
-black_spider_34_boss.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-black_spider_34_boss.w2ent:                        guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CInventoryComponent0"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 310
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 391
-black_spider_34_boss.w2ent:                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
-black_spider_34_boss.w2ent:                CDismembermentComponent #11 (CDismembermentComponent) : CDismembermentComponent0
-black_spider_34_boss.w2ent:                    CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
-black_spider_34_boss.w2ent:                        guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CDismembermentComponent0"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 20
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 69
-black_spider_34_boss.w2ent:                CGameplayEffectsComponent #12 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:                        guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CGameplayEffectsComponent0"
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 46
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 268
-black_spider_34_boss.w2ent:                CSoundEmitterComponent #13 (CSoundEmitterComponent) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:                        guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
-black_spider_34_boss.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                        name (String) : "CSoundEmitterComponent0"
-black_spider_34_boss.w2ent:                        isStreamed (Bool) : false
-black_spider_34_boss.w2ent:                        graphPositionX (Int16) : 98
-black_spider_34_boss.w2ent:                        graphPositionY (Int16) : 415
-black_spider_34_boss.w2ent:                        eventsOnAttach (array:StringAnsi) : # array:StringAnsi
-black_spider_34_boss.w2ent:                            0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
-black_spider_34_boss.w2ent:                        banksDependency (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                            0 (CName) : monster_black_spider.bnk
-black_spider_34_boss.w2ent:                        maxDistance (Float) : 100.0000
-black_spider_34_boss.w2ent:            cookedEffectsVersion (Uint32) : 1
-black_spider_34_boss.w2ent:            Unk1 (Uint32) : 0
-black_spider_34_boss.w2ent:    CNewNPC #1 (CNewNPC) : 
-black_spider_34_boss.w2ent:        CNewNPC (CNewNPC) : 
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            streamingDistance (Uint8) : 14
-black_spider_34_boss.w2ent:            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
-black_spider_34_boss.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-black_spider_34_boss.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #2
-black_spider_34_boss.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #3
-black_spider_34_boss.w2ent:                2 (ptr:CComponent) : CPhantomComponent #8
-black_spider_34_boss.w2ent:                3 (ptr:CComponent) : CDecalComponent #9
-black_spider_34_boss.w2ent:                4 (ptr:CComponent) : CCreatureDataComponent #10
-black_spider_34_boss.w2ent:                5 (ptr:CComponent) : CInventoryComponent #11
-black_spider_34_boss.w2ent:                6 (ptr:CComponent) : CDynamicColliderComponent #5
-black_spider_34_boss.w2ent:                7 (ptr:CComponent) : CDismembermentComponent #12
-black_spider_34_boss.w2ent:                8 (ptr:CComponent) : CGameplayEffectsComponent #13
-black_spider_34_boss.w2ent:                9 (ptr:CComponent) : CEffectDummyComponent #7
-black_spider_34_boss.w2ent:                10 (ptr:CComponent) : CSoundEmitterComponent #14
-black_spider_34_boss.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-black_spider_34_boss.w2ent:                0 (SEntityBufferType1) : 
-black_spider_34_boss.w2ent:                    ComponentName (CName) : 
-black_spider_34_boss.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-black_spider_34_boss.w2ent:            idTag (IdTag) :  84716e1a-e828-40e6-9f22-612489492011
-black_spider_34_boss.w2ent:            displayName (LocalizedString) : Arachnomorph
-black_spider_34_boss.w2ent:            level (Int32) : 34
-black_spider_34_boss.w2ent:            isMonsterType_Group (Bool) : true
-black_spider_34_boss.w2ent:    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
-black_spider_34_boss.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-black_spider_34_boss.w2ent:            guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CAppearanceComponent0"
-black_spider_34_boss.w2ent:            forcedAppearance (CName) : endriaga_worker_01
-black_spider_34_boss.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-black_spider_34_boss.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-black_spider_34_boss.w2ent:                    0 (SAttachmentReplacement) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CPhantomComponent1
-black_spider_34_boss.w2ent:                        newClass (CName) : CPhantomComponent
-black_spider_34_boss.w2ent:                    1 (SAttachmentReplacement) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CDecalComponent0
-black_spider_34_boss.w2ent:                        newClass (CName) : CDecalComponent
-black_spider_34_boss.w2ent:                    2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CCreatureDataComponent1
-black_spider_34_boss.w2ent:                        newClass (CName) : CCreatureDataComponent
-black_spider_34_boss.w2ent:                    3 (SAttachmentReplacement) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CInventoryComponent0
-black_spider_34_boss.w2ent:                        newClass (CName) : CInventoryComponent
-black_spider_34_boss.w2ent:                    4 (SAttachmentReplacement) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : grassCollider
-black_spider_34_boss.w2ent:                        newClass (CName) : CDynamicColliderComponent
-black_spider_34_boss.w2ent:                    5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CDismembermentComponent0
-black_spider_34_boss.w2ent:                        newClass (CName) : CDismembermentComponent
-black_spider_34_boss.w2ent:                    6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:                        newClass (CName) : CGameplayEffectsComponent
-black_spider_34_boss.w2ent:                    7 (SAttachmentReplacement) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : torso3effect
-black_spider_34_boss.w2ent:                        newClass (CName) : CEffectDummyComponent
-black_spider_34_boss.w2ent:                    8 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
-black_spider_34_boss.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
-black_spider_34_boss.w2ent:                        oldClass (CName) : CExternalProxyComponent
-black_spider_34_boss.w2ent:                        newName (CName) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:                        newClass (CName) : CSoundEmitterComponent
-black_spider_34_boss.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
-black_spider_34_boss.w2ent:                0 (SAppearanceAttachments) : endriaga_worker_02
-black_spider_34_boss.w2ent:                    appearance (CName) : endriaga_worker_02
-black_spider_34_boss.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                            parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                            childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                            childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                1 (SAppearanceAttachments) : endriaga_worker_03
-black_spider_34_boss.w2ent:                    appearance (CName) : endriaga_worker_03
-black_spider_34_boss.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                            parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                            childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                            childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                2 (SAppearanceAttachments) : endriaga_worker_04
-black_spider_34_boss.w2ent:                    appearance (CName) : endriaga_worker_04
-black_spider_34_boss.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                        0 (SAppearanceAttachment) : a_01__endriaga
-black_spider_34_boss.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                            parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                            childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                            childName (CName) : a_01__endriaga
-black_spider_34_boss.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:                3 (SAppearanceAttachments) : black_spider_01
-black_spider_34_boss.w2ent:                    appearance (CName) : black_spider_01
-black_spider_34_boss.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-black_spider_34_boss.w2ent:                        0 (SAppearanceAttachment) : a_01__black_spider
-black_spider_34_boss.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-black_spider_34_boss.w2ent:                            parentName (CName) : endriaga_base
-black_spider_34_boss.w2ent:                            childClass (CName) : CMeshComponent
-black_spider_34_boss.w2ent:                            childName (CName) : a_01__black_spider
-black_spider_34_boss.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-black_spider_34_boss.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-black_spider_34_boss.w2ent:    CMovingPhysicalAgentComponent #3 (CMovingPhysicalAgentComponent) : endriaga_base
-black_spider_34_boss.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
-black_spider_34_boss.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                Scale_x (Float) : 1.5000
-black_spider_34_boss.w2ent:                Scale_y (Float) : 1.5000
-black_spider_34_boss.w2ent:                Scale_z (Float) : 1.5000
-black_spider_34_boss.w2ent:            guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                0 (handle:IAttachment) : CHardAttachment #4
-black_spider_34_boss.w2ent:                1 (handle:IAttachment) : CHardAttachment #6
-black_spider_34_boss.w2ent:            name (String) : "endriaga_base"
-black_spider_34_boss.w2ent:            skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
-black_spider_34_boss.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-black_spider_34_boss.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
-black_spider_34_boss.w2ent:                    instanceName (CName) : Combat
-black_spider_34_boss.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
-black_spider_34_boss.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
-black_spider_34_boss.w2ent:                    instanceName (CName) : Cutscene
-black_spider_34_boss.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-black_spider_34_boss.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
-black_spider_34_boss.w2ent:    CHardAttachment #4 (CHardAttachment) : 
-black_spider_34_boss.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-black_spider_34_boss.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #3
-black_spider_34_boss.w2ent:            child (ptr:CNode) : CDynamicColliderComponent #5
-black_spider_34_boss.w2ent:    CDynamicColliderComponent #5 (CDynamicColliderComponent) : grassCollider
-black_spider_34_boss.w2ent:        CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
-black_spider_34_boss.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                Scale_x (Float) : 1.5000
-black_spider_34_boss.w2ent:                Scale_y (Float) : 1.5000
-black_spider_34_boss.w2ent:                Scale_z (Float) : 2.0000
-black_spider_34_boss.w2ent:                X (Float) : 0.0000
-black_spider_34_boss.w2ent:                Y (Float) : 0.0000
-black_spider_34_boss.w2ent:                Z (Float) : 0.4000
-black_spider_34_boss.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #4
-black_spider_34_boss.w2ent:            guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                0 (handle:IAttachment) : CHardAttachment #4
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "grassCollider"
-black_spider_34_boss.w2ent:            useInWaterNormal (Bool) : false
-black_spider_34_boss.w2ent:            useInGrassDisplacement (Bool) : true
-black_spider_34_boss.w2ent:    CHardAttachment #6 (CHardAttachment) : 
-black_spider_34_boss.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-black_spider_34_boss.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #3
-black_spider_34_boss.w2ent:            child (ptr:CNode) : CEffectDummyComponent #7
-black_spider_34_boss.w2ent:    CEffectDummyComponent #7 (CEffectDummyComponent) : torso3effect
-black_spider_34_boss.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : torso3effect
-black_spider_34_boss.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                Pitch (Float) : 269.6780
-black_spider_34_boss.w2ent:                Yaw (Float) : 9.4358
-black_spider_34_boss.w2ent:                Roll (Float) : 95.2398
-black_spider_34_boss.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #6
-black_spider_34_boss.w2ent:            guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:                0 (handle:IAttachment) : CHardAttachment #6
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "torso3effect"
-black_spider_34_boss.w2ent:    CPhantomComponent #8 (CPhantomComponent) : CPhantomComponent1
-black_spider_34_boss.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent1
-black_spider_34_boss.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                Scale_x (Float) : 1.7360
-black_spider_34_boss.w2ent:                Scale_y (Float) : 1.6629
-black_spider_34_boss.w2ent:                Scale_z (Float) : 1.0000
-black_spider_34_boss.w2ent:                X (Float) : 0.0000
-black_spider_34_boss.w2ent:                Y (Float) : 0.9000
-black_spider_34_boss.w2ent:                Z (Float) : 0.5000
-black_spider_34_boss.w2ent:            guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CPhantomComponent1"
-black_spider_34_boss.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : Character
-black_spider_34_boss.w2ent:            shapeType (EPhantomShape) : PS_Box
-black_spider_34_boss.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
-black_spider_34_boss.w2ent:                X (Float) : 0.7000
-black_spider_34_boss.w2ent:                Y (Float) : 0.7000
-black_spider_34_boss.w2ent:                Z (Float) : 1.0000
-black_spider_34_boss.w2ent:                W (Float) : 0.0000
-black_spider_34_boss.w2ent:            onTriggerEnteredScriptEvent (CName) : OnActorCollision
-black_spider_34_boss.w2ent:    CDecalComponent #9 (CDecalComponent) : CDecalComponent0
-black_spider_34_boss.w2ent:        CDecalComponent (CDecalComponent) : CDecalComponent0
-black_spider_34_boss.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-black_spider_34_boss.w2ent:                Scale_x (Float) : 4.0000
-black_spider_34_boss.w2ent:                Scale_y (Float) : 4.0000
-black_spider_34_boss.w2ent:                Scale_z (Float) : 1.8000
-black_spider_34_boss.w2ent:            guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CDecalComponent0"
-black_spider_34_boss.w2ent:            isStreamed (Bool) : false
-black_spider_34_boss.w2ent:            boundingBox (Box) : <Box>boundingBox
-black_spider_34_boss.w2ent:                Min (Vector) : <Vector>Min
-black_spider_34_boss.w2ent:                    X (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                    Y (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                    Z (Float) : 340282300000000000000000000000000000000.0000
-black_spider_34_boss.w2ent:                    W (Float) : 1.0000
-black_spider_34_boss.w2ent:                Max (Vector) : <Vector>Max
-black_spider_34_boss.w2ent:                    X (Float) : NaN
-black_spider_34_boss.w2ent:                    Y (Float) : NaN
-black_spider_34_boss.w2ent:                    Z (Float) : NaN
-black_spider_34_boss.w2ent:                    W (Float) : 1.0000
-black_spider_34_boss.w2ent:            diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
-black_spider_34_boss.w2ent:            specularColor (Color) : <Color>specularColor
-black_spider_34_boss.w2ent:                Red (Uint8) : 15
-black_spider_34_boss.w2ent:                Green (Uint8) : 15
-black_spider_34_boss.w2ent:                Blue (Uint8) : 15
-black_spider_34_boss.w2ent:                Alpha (Uint8) : 255
-black_spider_34_boss.w2ent:            normalThreshold (Float) : 57.6000
-black_spider_34_boss.w2ent:    CCreatureDataComponent #10 (CCreatureDataComponent) : CCreatureDataComponent1
-black_spider_34_boss.w2ent:        CCreatureDataComponent (CCreatureDataComponent) : 
-black_spider_34_boss.w2ent:            guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CCreatureDataComponent1"
-black_spider_34_boss.w2ent:            itemsUsedAgainstCreature (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : Necrophage Oil 1	
-black_spider_34_boss.w2ent:                1 (CName) : Golden Oriole 1
-black_spider_34_boss.w2ent:            cameraDistance (Float) : 2.5000
-black_spider_34_boss.w2ent:            cameraLookAtZ (Float) : 1.0000
-black_spider_34_boss.w2ent:            cameraRotationYaw (Float) : 190.0000
-black_spider_34_boss.w2ent:            cameraRotationPitch (Float) : 10.0000
-black_spider_34_boss.w2ent:            environmentSunRotationYaw (Float) : 330.0000
-black_spider_34_boss.w2ent:            environmentSunRotationPitch (Float) : 340.0000
-black_spider_34_boss.w2ent:    CInventoryComponent #11 (CInventoryComponent) : CInventoryComponent0
-black_spider_34_boss.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-black_spider_34_boss.w2ent:            guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CInventoryComponent0"
-black_spider_34_boss.w2ent:            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
-black_spider_34_boss.w2ent:    CDismembermentComponent #12 (CDismembermentComponent) : CDismembermentComponent0
-black_spider_34_boss.w2ent:        CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
-black_spider_34_boss.w2ent:            guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CDismembermentComponent0"
-black_spider_34_boss.w2ent:    CGameplayEffectsComponent #13 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
-black_spider_34_boss.w2ent:            guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CGameplayEffectsComponent0"
-black_spider_34_boss.w2ent:    CSoundEmitterComponent #14 (CSoundEmitterComponent) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-black_spider_34_boss.w2ent:            guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
-black_spider_34_boss.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-black_spider_34_boss.w2ent:            name (String) : "CSoundEmitterComponent0"
-black_spider_34_boss.w2ent:            isStreamed (Bool) : false
-black_spider_34_boss.w2ent:            eventsOnAttach (array:StringAnsi) : # array:StringAnsi
-black_spider_34_boss.w2ent:                0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
-black_spider_34_boss.w2ent:            banksDependency (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : monster_black_spider.bnk
-black_spider_34_boss.w2ent:            maxDistance (Float) : 100.0000
-black_spider_34_boss.w2ent:    CCharacterStatsParam #15 (CCharacterStatsParam) : stats
-black_spider_34_boss.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : stats
-black_spider_34_boss.w2ent:            name (String) : "stats"
-black_spider_34_boss.w2ent:            abilities (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : mon_spiderboss_ep1
-black_spider_34_boss.w2ent:                1 (CName) : InstantKillImmune
-black_spider_34_boss.w2ent:    CAIProfile #16 (CAIProfile) : AG_endriaga_spikey
-black_spider_34_boss.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            attitudeGroup (CName) : AG_endriaga_spikey
-black_spider_34_boss.w2ent:    CInventoryDefinition #17 (CInventoryDefinition) : 
-black_spider_34_boss.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
-black_spider_34_boss.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #18
-black_spider_34_boss.w2ent:    CInventoryDefinitionEntry #18 (CInventoryDefinitionEntry) : monster_weapon
-black_spider_34_boss.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
-black_spider_34_boss.w2ent:            category (CName) : monster_weapon
-black_spider_34_boss.w2ent:            isMount (Bool) : true
-black_spider_34_boss.w2ent:            isLootable (Bool) : false
-black_spider_34_boss.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #19
-black_spider_34_boss.w2ent:    CInventoryInitializerUniform #19 (CInventoryInitializerUniform) : mon_black_spider_large_weapon
-black_spider_34_boss.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-black_spider_34_boss.w2ent:            itemName (CName) : mon_black_spider_large_weapon
-black_spider_34_boss.w2ent:    CAttackRangeParam #20 (CAttackRangeParam) : attack_range_worker
-black_spider_34_boss.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_range_worker
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "attack_range_worker"
-black_spider_34_boss.w2ent:            overrideInherited (Bool) : true
-black_spider_34_boss.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
-black_spider_34_boss.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #21
-black_spider_34_boss.w2ent:    CConeAttackRange #21 (CConeAttackRange) : basic_strike
-black_spider_34_boss.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
-black_spider_34_boss.w2ent:            name (CName) : basic_strike
-black_spider_34_boss.w2ent:            rangeMax (Float) : 1.0000
-black_spider_34_boss.w2ent:            height (Float) : 2.0000
-black_spider_34_boss.w2ent:    CCharacterStatsParam #22 (CCharacterStatsParam) : additional_abilities
-black_spider_34_boss.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional_abilities
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "additional_abilities"
-black_spider_34_boss.w2ent:            abilities (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : Venom
-black_spider_34_boss.w2ent:                1 (CName) : BlackSpiderLarge
-black_spider_34_boss.w2ent:                2 (CName) : mon_black_spider_large
-black_spider_34_boss.w2ent:    CBloodTrailEffect #23 (CBloodTrailEffect) : green_blood_trail
-black_spider_34_boss.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "green_blood_trail"
-black_spider_34_boss.w2ent:            effect (CName) : green_blood_trail
-black_spider_34_boss.w2ent:    CCharacterControllerParam #24 (CCharacterControllerParam) : endriaga_worker_controller_params
-black_spider_34_boss.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : endriaga_worker_controller_params
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "endriaga_worker_controller_params"
-black_spider_34_boss.w2ent:            overrideInherited (Bool) : true
-black_spider_34_boss.w2ent:            height (Float) : 1.5000
-black_spider_34_boss.w2ent:            physicalRadius (Float) : 0.6000
-black_spider_34_boss.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_2
-black_spider_34_boss.w2ent:            significance (Float) : 1.5000
-black_spider_34_boss.w2ent:    CR4LootParam #25 (CR4LootParam) : loot
-black_spider_34_boss.w2ent:        CR4LootParam (CR4LootParam) : loot
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "loot"
-black_spider_34_boss.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
-black_spider_34_boss.w2ent:                0 (CR4LootContainerParam) : _monster__blackSpiderStrong
-black_spider_34_boss.w2ent:                    name (CName) : _monster__blackSpiderStrong
-black_spider_34_boss.w2ent:    CAIBaseTreeTemplateParam #26 (CAIBaseTreeTemplateParam) : 
-black_spider_34_boss.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #27
-black_spider_34_boss.w2ent:    CAIMonsterBase #27 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIEndriagaDefaults #28
-black_spider_34_boss.w2ent:    CAIEndriagaDefaults #28 (CAIEndriagaDefaults) : 
-black_spider_34_boss.w2ent:        CAIEndriagaDefaults (CAIEndriagaDefaults) : <CAIEndriagaDefaults>CAIEndriagaDefaults
-black_spider_34_boss.w2ent:            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #29
-black_spider_34_boss.w2ent:            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #31
-black_spider_34_boss.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #33
-black_spider_34_boss.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorArachas #35
-black_spider_34_boss.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #53
-black_spider_34_boss.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #69
-black_spider_34_boss.w2ent:    CAIMonsterSpawnDefault #29 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #30
-black_spider_34_boss.w2ent:    CAIMonsterSpawnParams #30 (CAIMonsterSpawnParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
-black_spider_34_boss.w2ent:    CAIMonsterTaunt #31 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #32
-black_spider_34_boss.w2ent:    CAIMonsterTauntParams #32 (CAIMonsterTauntParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
-black_spider_34_boss.w2ent:    CAIMonsterAxii #33 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #34
-black_spider_34_boss.w2ent:    CAIMonsterAxiiParams #34 (CAIMonsterAxiiParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
-black_spider_34_boss.w2ent:    CAIMonsterIdleDecoratorArachas #35 (CAIMonsterIdleDecoratorArachas) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterIdleDecoratorArachas (CAIMonsterIdleDecoratorArachas) : <CAIMonsterIdleDecoratorArachas>CAIMonsterIdleDecoratorArachas
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #36
-black_spider_34_boss.w2ent:    CAIMonsterIdleDecoratorParams #36 (CAIMonsterIdleDecoratorParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
-black_spider_34_boss.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #37
-black_spider_34_boss.w2ent:            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #49
-black_spider_34_boss.w2ent:            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
-black_spider_34_boss.w2ent:                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleDig #51
-black_spider_34_boss.w2ent:    CAIMonsterReactionsTree #37 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #38
-black_spider_34_boss.w2ent:    CAIMonsterReactionsTreeParams #38 (CAIMonsterReactionsTreeParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-black_spider_34_boss.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-black_spider_34_boss.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #39
-black_spider_34_boss.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #41
-black_spider_34_boss.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #43
-black_spider_34_boss.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #45
-black_spider_34_boss.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #47
-black_spider_34_boss.w2ent:    CAIActionSearchForTarget #39 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #40
-black_spider_34_boss.w2ent:    CAINpcReactionSearchTarget #40 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
-black_spider_34_boss.w2ent:    CAIActionAllySearchesTarget #41 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #42
-black_spider_34_boss.w2ent:    CAINpcReactionJoinSearchForTarget #42 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
-black_spider_34_boss.w2ent:    CAIActionPlayWithTarget #43 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #44
-black_spider_34_boss.w2ent:    CAINpcReactionPlayWithTarget #44 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
-black_spider_34_boss.w2ent:    CAIActionMoveInPack #45 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #46
-black_spider_34_boss.w2ent:    CAINpcReactionMoveInPack #46 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
-black_spider_34_boss.w2ent:    CAIActionRunWildInPack #47 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #48
-black_spider_34_boss.w2ent:    CAINpcReactionRunWildInPack #48 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
-black_spider_34_boss.w2ent:    CAIMonsterSearchFoodTree #49 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #50
-black_spider_34_boss.w2ent:    CAIMonsterSearchFoodIdleParams #50 (CAIMonsterSearchFoodIdleParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
-black_spider_34_boss.w2ent:            meat (Bool) : true
-black_spider_34_boss.w2ent:    CAIMonsterIdleDig #51 (CAIMonsterIdleDig) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterIdleDig (CAIMonsterIdleDig) : <CAIMonsterIdleDig>CAIMonsterIdleDig
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #52
-black_spider_34_boss.w2ent:    CAIMonsterIdleActionParams #52 (CAIMonsterIdleActionParams) : Dig
-black_spider_34_boss.w2ent:        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
-black_spider_34_boss.w2ent:            loopTime (Float) : 10.0000
-black_spider_34_boss.w2ent:            actionName (CName) : Dig
-black_spider_34_boss.w2ent:    CAIMonsterCombat #53 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #54
-black_spider_34_boss.w2ent:    CAIMonsterCombatParams #54 (CAIMonsterCombatParams) : MonsterHitReaction
-black_spider_34_boss.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
-black_spider_34_boss.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBlackSpiderCombatLogic #55
-black_spider_34_boss.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #57
-black_spider_34_boss.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
-black_spider_34_boss.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #59
-black_spider_34_boss.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #61
-black_spider_34_boss.w2ent:    CAIBlackSpiderCombatLogic #55 (CAIBlackSpiderCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_black_spider_logic.w2behtree
-black_spider_34_boss.w2ent:        CAIBlackSpiderCombatLogic (CAIBlackSpiderCombatLogic) : <CAIBlackSpiderCombatLogic>CAIBlackSpiderCombatLogic
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_black_spider_logic.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIBlackSpiderCombatLogicParams #56
-black_spider_34_boss.w2ent:    CAIBlackSpiderCombatLogicParams #56 (CAIBlackSpiderCombatLogicParams) : 
-black_spider_34_boss.w2ent:        CAIBlackSpiderCombatLogicParams (CAIBlackSpiderCombatLogicParams) : <CAIBlackSpiderCombatLogicParams>CAIBlackSpiderCombatLogicParams
-black_spider_34_boss.w2ent:            minChargeDist (Float) : 7.0000
-black_spider_34_boss.w2ent:            maxChargeDist (Float) : 8.0000
-black_spider_34_boss.w2ent:    CAIMonsterDamageReactionTree #57 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #58
-black_spider_34_boss.w2ent:    CAIDamageReactionTreeParams #58 (CAIDamageReactionTreeParams) : 
-black_spider_34_boss.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
-black_spider_34_boss.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
-black_spider_34_boss.w2ent:    CAINpcCriticalState #59 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
-black_spider_34_boss.w2ent:        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #60
-black_spider_34_boss.w2ent:    CAINpcCriticalStateParams #60 (CAINpcCriticalStateParams) : 
-black_spider_34_boss.w2ent:        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
-black_spider_34_boss.w2ent:    CAIMonsterCombatReactionsTree #61 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #62
-black_spider_34_boss.w2ent:    CAIMonsterReactionsTreeParams #62 (CAIMonsterReactionsTreeParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-black_spider_34_boss.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-black_spider_34_boss.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #63
-black_spider_34_boss.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #65
-black_spider_34_boss.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #67
-black_spider_34_boss.w2ent:    CAIActionLeadEscape #63 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #64
-black_spider_34_boss.w2ent:    CAINpcReactionLeadEscape #64 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-black_spider_34_boss.w2ent:    CAIActionLeadEscape #65 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #66
-black_spider_34_boss.w2ent:            actionEventName (CName) : FearsomeEvent
-black_spider_34_boss.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
-black_spider_34_boss.w2ent:    CAINpcReactionLeadEscape #66 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-black_spider_34_boss.w2ent:    CAIActionEscapeInPack #67 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-black_spider_34_boss.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-black_spider_34_boss.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #68
-black_spider_34_boss.w2ent:    CAINpcReactionEscapeInPack #68 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
-black_spider_34_boss.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
-black_spider_34_boss.w2ent:    CAIMonsterDeath #69 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
-black_spider_34_boss.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
-black_spider_34_boss.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
-black_spider_34_boss.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #70
-black_spider_34_boss.w2ent:    CAIMonsterDeathParams #70 (CAIMonsterDeathParams) : 
-black_spider_34_boss.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
-black_spider_34_boss.w2ent:            disableCollisionOnAnim (Bool) : true
-black_spider_34_boss.w2ent:    CAnimGlobalParam #71 (CAnimGlobalParam) : sfx_endriaga
-black_spider_34_boss.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            sfxTag (CName) : sfx_endriaga
-black_spider_34_boss.w2ent:    CAnimBehaviorsParam #72 (CAnimBehaviorsParam) : scene
-black_spider_34_boss.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : scene
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "scene"
-black_spider_34_boss.w2ent:            componentName (String) : "endriaga_base"
-black_spider_34_boss.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-black_spider_34_boss.w2ent:                0 (SBehaviorGraphInstanceSlot) : StoryScene
-black_spider_34_boss.w2ent:                    instanceName (CName) : StoryScene
-black_spider_34_boss.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
-black_spider_34_boss.w2ent:    CAIProfile #73 (CAIProfile) : monsters
-black_spider_34_boss.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #74
-black_spider_34_boss.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #75
-black_spider_34_boss.w2ent:            attitudeGroup (CName) : monsters
-black_spider_34_boss.w2ent:    CAISenseParams #74 (CAISenseParams) : 
-black_spider_34_boss.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-black_spider_34_boss.w2ent:            rangeMax (Float) : 20.0000
-black_spider_34_boss.w2ent:            rangeAngle (Float) : 240.0000
-black_spider_34_boss.w2ent:    CAISenseParams #75 (CAISenseParams) : 
-black_spider_34_boss.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-black_spider_34_boss.w2ent:            rangeAngle (Float) : 360.0000
-black_spider_34_boss.w2ent:            testLOS (Bool) : false
-black_spider_34_boss.w2ent:    CAnimAnimsetsParam #76 (CAnimAnimsetsParam) : endriaga
-black_spider_34_boss.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : endriaga
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "endriaga"
-black_spider_34_boss.w2ent:            componentName (String) : "endriaga_base"
-black_spider_34_boss.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
-black_spider_34_boss.w2ent:                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/monsters/monster_black_spider.w2anims
-black_spider_34_boss.w2ent:    CAnimBehaviorsParam #77 (CAnimBehaviorsParam) : endriaga
-black_spider_34_boss.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : endriaga
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "endriaga"
-black_spider_34_boss.w2ent:            componentName (String) : "endriaga_base"
-black_spider_34_boss.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-black_spider_34_boss.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
-black_spider_34_boss.w2ent:                    instanceName (CName) : Combat
-black_spider_34_boss.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
-black_spider_34_boss.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
-black_spider_34_boss.w2ent:                    instanceName (CName) : Cutscene
-black_spider_34_boss.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-black_spider_34_boss.w2ent:    CCharacterStatsParam #78 (CCharacterStatsParam) : black_spider_base_abilities
-black_spider_34_boss.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : black_spider_base_abilities
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "black_spider_base_abilities"
-black_spider_34_boss.w2ent:            abilities (array:CName) : # array:CName
-black_spider_34_boss.w2ent:                0 (CName) : mon_black_spider_base
-black_spider_34_boss.w2ent:    CMonsterParam #79 (CMonsterParam) : black_spider_monster_params
-black_spider_34_boss.w2ent:        CMonsterParam (CMonsterParam) : black_spider_monster_params
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "black_spider_monster_params"
-black_spider_34_boss.w2ent:            monsterCategory (Int32) : 5
-black_spider_34_boss.w2ent:            soundMonsterName (CName) : Endriaga
-black_spider_34_boss.w2ent:    CAnimConstraintsParam #80 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\npc\behaviorgraph\monster_endriaga_constraints.w2beh
-black_spider_34_boss.w2ent:        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_endriaga_constraints.w2beh
-black_spider_34_boss.w2ent:    CBloodTrailEffect #81 (CBloodTrailEffect) : green_blood_trail
-black_spider_34_boss.w2ent:        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "green_blood_trail"
-black_spider_34_boss.w2ent:            effect (CName) : green_blood_trail
-black_spider_34_boss.w2ent:    CFocusSoundParam #82 (CFocusSoundParam) : Focus_Sound
-black_spider_34_boss.w2ent:        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "Focus_Sound"
-black_spider_34_boss.w2ent:            overrideInherited (Bool) : true
-black_spider_34_boss.w2ent:            eventStart (CName) : monster_endriaga_focus_clue_100m_start
-black_spider_34_boss.w2ent:            eventStop (CName) : monster_endriaga_focus_clue_100m_stop
-black_spider_34_boss.w2ent:    CAnimGlobalParam #83 (CAnimGlobalParam) : sfx_endriaga
-black_spider_34_boss.w2ent:        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            sfxTag (CName) : sfx_endriaga
-black_spider_34_boss.w2ent:    CBuffImmunityParam #84 (CBuffImmunityParam) : immunes
-black_spider_34_boss.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : immunes
-black_spider_34_boss.w2ent:            wasIncluded (Bool) : true
-black_spider_34_boss.w2ent:            name (String) : "immunes"
-black_spider_34_boss.w2ent:            immunityTo (array:Int32) : # array:Int32
-black_spider_34_boss.w2ent:                0 (Int32) : 19
+    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/black_spider_large.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : CAppearanceComponent0
+                    className (CName) : CAppearanceComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : attachmentReplacements
+                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+                    componentName (CName) : endriaga_base
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : movementAdjustor
+            properOverrides (Bool) : true
+            entityClass (CName) : CNewNPC
+            entityObject (ptr:CEntity) : CNewNPC #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : black_spider_01
+                    name (CName) : black_spider_01
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/h_01__black_spider.w2ent
+                        1 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/c_01__black_spider.w2ent
+                        2 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/t_01__black_spider.w2ent
+                        3 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/l_01__black_spider.w2ent
+                        4 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/d_01__black_spider.w2ent
+                        5 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/a_01__black_spider.w2ent
+                        6 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_01__black_spider.w2ent
+                        7 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/black_spider/i_02__black_spider.w2ent
+            usedAppearances (array:CName) : # array:CName
+                0 (CName) : black_spider_01
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : projectile_origin
+                    wasIncluded (Bool) : true
+                    name (CName) : projectile_origin
+                    componentName (CName) : endriaga_base
+                    boneName (CName) : head
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 0.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : -0.2437
+                        Y (Float) : -0.1444
+                        Z (Float) : -0.0469
+                1 (EntitySlot) : death
+                    wasIncluded (Bool) : true
+                    name (CName) : death
+                2 (EntitySlot) : blood_point
+                    wasIncluded (Bool) : true
+                    name (CName) : blood_point
+                    componentName (CName) : endriaga_base
+                    boneName (CName) : GlowAnt_BAZA
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 0.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 90.0000
+                        X (Float) : 0.0000
+                        Y (Float) : 0.2500
+                        Z (Float) : 0.0100
+                3 (EntitySlot) : hit_ground
+                    wasIncluded (Bool) : true
+                    name (CName) : hit_ground
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.0000
+                        Y (Float) : 0.3000
+                        Z (Float) : 0.0000
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CCharacterStatsParam #15
+                1 (ptr:CEntityTemplateParam) : CAIProfile #16
+                2 (ptr:CEntityTemplateParam) : CInventoryDefinition #17
+                3 (ptr:CEntityTemplateParam) : CAttackRangeParam #20
+                4 (ptr:CEntityTemplateParam) : CCharacterStatsParam #22
+                5 (ptr:CEntityTemplateParam) : CBloodTrailEffect #23
+                6 (ptr:CEntityTemplateParam) : CCharacterControllerParam #24
+                7 (ptr:CEntityTemplateParam) : CR4LootParam #25
+                8 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #26
+                9 (ptr:CEntityTemplateParam) : CAnimGlobalParam #71
+                10 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #72
+                11 (ptr:CEntityTemplateParam) : CAIProfile #73
+                12 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #76
+                13 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #77
+                14 (ptr:CEntityTemplateParam) : CCharacterStatsParam #78
+                15 (ptr:CEntityTemplateParam) : CMonsterParam #79
+                16 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #80
+                17 (ptr:CEntityTemplateParam) : CBloodTrailEffect #81
+                18 (ptr:CEntityTemplateParam) : CFocusSoundParam #82
+                19 (ptr:CEntityTemplateParam) : CAnimGlobalParam #83
+                20 (ptr:CEntityTemplateParam) : CBuffImmunityParam #84
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CNewNPC #0 (CNewNPC) : PreviewEntity
+                    CNewNPC (CNewNPC) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 14
+                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CAppearanceComponent #1
+                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+                            2 (ptr:CComponent) : CPhantomComponent #7
+                            3 (ptr:CComponent) : CDecalComponent #8
+                            4 (ptr:CComponent) : CCreatureDataComponent #9
+                            5 (ptr:CComponent) : CInventoryComponent #10
+                            6 (ptr:CComponent) : CDynamicColliderComponent #4
+                            7 (ptr:CComponent) : CDismembermentComponent #11
+                            8 (ptr:CComponent) : CGameplayEffectsComponent #12
+                            9 (ptr:CComponent) : CEffectDummyComponent #6
+                            10 (ptr:CComponent) : CSoundEmitterComponent #13
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  84716e1a-e828-40e6-9f22-612489492011
+                        displayName (LocalizedString) : Arachnomorph
+                        level (Int32) : 34
+                        isMonsterType_Group (Bool) : true
+                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : -56
+                        graphPositionY (Int16) : 212
+                        forcedAppearance (CName) : endriaga_worker_01
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
+                                    oldName (CName) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CPhantomComponent1
+                                    newClass (CName) : CPhantomComponent
+                                1 (SAttachmentReplacement) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
+                                    oldName (CName) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CDecalComponent0
+                                    newClass (CName) : CDecalComponent
+                                2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
+                                    oldName (CName) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CCreatureDataComponent1
+                                    newClass (CName) : CCreatureDataComponent
+                                3 (SAttachmentReplacement) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
+                                    oldName (CName) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CInventoryComponent0
+                                    newClass (CName) : CInventoryComponent
+                                4 (SAttachmentReplacement) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
+                                    oldName (CName) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : grassCollider
+                                    newClass (CName) : CDynamicColliderComponent
+                                5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
+                                    oldName (CName) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CDismembermentComponent0
+                                    newClass (CName) : CDismembermentComponent
+                                6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
+                                    oldName (CName) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CGameplayEffectsComponent0
+                                    newClass (CName) : CGameplayEffectsComponent
+                                7 (SAttachmentReplacement) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
+                                    oldName (CName) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : torso3effect
+                                    newClass (CName) : CEffectDummyComponent
+                                8 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
+                                    oldName (CName) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CSoundEmitterComponent0
+                                    newClass (CName) : CSoundEmitterComponent
+                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                            0 (SAppearanceAttachments) : endriaga_worker_02
+                                appearance (CName) : endriaga_worker_02
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : a_01__endriaga
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : endriaga_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : a_01__endriaga
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                            1 (SAppearanceAttachments) : endriaga_worker_03
+                                appearance (CName) : endriaga_worker_03
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : a_01__endriaga
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : endriaga_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : a_01__endriaga
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                            2 (SAppearanceAttachments) : endriaga_worker_04
+                                appearance (CName) : endriaga_worker_04
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : a_01__endriaga
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : endriaga_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : a_01__endriaga
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                            3 (SAppearanceAttachments) : black_spider_01
+                                appearance (CName) : black_spider_01
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : a_01__black_spider
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : endriaga_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : a_01__black_spider
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : endriaga_base
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.5000
+                            Scale_y (Float) : 1.5000
+                            Scale_z (Float) : 1.5000
+                        guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #3
+                            1 (handle:IAttachment) : CHardAttachment #5
+                        name (String) : "endriaga_base"
+                        graphPositionX (Int16) : 145
+                        graphPositionY (Int16) : 533
+                        skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : Combat
+                                instanceName (CName) : Combat
+                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+                CHardAttachment #3 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+                        child (ptr:CNode) : CDynamicColliderComponent #4
+                CDynamicColliderComponent #4 (CDynamicColliderComponent) : grassCollider
+                    CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.5000
+                            Scale_y (Float) : 1.5000
+                            Scale_z (Float) : 2.0000
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 0.4000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #3
+                        guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #3
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "grassCollider"
+                        graphPositionX (Int16) : 83
+                        graphPositionY (Int16) : 614
+                        useInWaterNormal (Bool) : false
+                        useInGrassDisplacement (Bool) : true
+                CHardAttachment #5 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+                        child (ptr:CNode) : CEffectDummyComponent #6
+                CEffectDummyComponent #6 (CEffectDummyComponent) : torso3effect
+                    CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Pitch (Float) : 269.6780
+                            Yaw (Float) : 9.4358
+                            Roll (Float) : 95.2398
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #5
+                        guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #5
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "torso3effect"
+                        graphPositionX (Int16) : -59
+                        graphPositionY (Int16) : 528
+                CPhantomComponent #7 (CPhantomComponent) : CPhantomComponent1
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.7360
+                            Scale_y (Float) : 1.6629
+                            Scale_z (Float) : 1.0000
+                            X (Float) : 0.0000
+                            Y (Float) : 0.9000
+                            Z (Float) : 0.5000
+                        guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent1"
+                        graphPositionX (Int16) : 211
+                        graphPositionY (Int16) : 701
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.7000
+                            Y (Float) : 0.7000
+                            Z (Float) : 1.0000
+                            W (Float) : 0.0000
+                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+                CDecalComponent #8 (CDecalComponent) : CDecalComponent0
+                    CDecalComponent (CDecalComponent) : CDecalComponent0
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 4.0000
+                            Scale_y (Float) : 4.0000
+                            Scale_z (Float) : 1.8000
+                        guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CDecalComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 55
+                        graphPositionY (Int16) : 144
+                        boundingBox (Box) : <Box>boundingBox
+                            Min (Vector) : <Vector>Min
+                                X (Float) : 340282300000000000000000000000000000000.0000
+                                Y (Float) : 340282300000000000000000000000000000000.0000
+                                Z (Float) : 340282300000000000000000000000000000000.0000
+                                W (Float) : 1.0000
+                            Max (Vector) : <Vector>Max
+                                X (Float) : NaN
+                                Y (Float) : NaN
+                                Z (Float) : NaN
+                                W (Float) : 1.0000
+                        diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
+                        specularColor (Color) : <Color>specularColor
+                            Red (Uint8) : 15
+                            Green (Uint8) : 15
+                            Blue (Uint8) : 15
+                            Alpha (Uint8) : 255
+                        normalThreshold (Float) : 57.6000
+                CCreatureDataComponent #9 (CCreatureDataComponent) : CCreatureDataComponent1
+                    CCreatureDataComponent (CCreatureDataComponent) : 
+                        guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CCreatureDataComponent1"
+                        itemsUsedAgainstCreature (array:CName) : # array:CName
+                            0 (CName) : Necrophage Oil 1	
+                            1 (CName) : Golden Oriole 1
+                        cameraDistance (Float) : 2.5000
+                        cameraLookAtZ (Float) : 1.0000
+                        cameraRotationYaw (Float) : 190.0000
+                        cameraRotationPitch (Float) : 10.0000
+                        environmentSunRotationYaw (Float) : 330.0000
+                        environmentSunRotationPitch (Float) : 340.0000
+                CInventoryComponent #10 (CInventoryComponent) : CInventoryComponent0
+                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+                        guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CInventoryComponent0"
+                        graphPositionX (Int16) : 310
+                        graphPositionY (Int16) : 391
+                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+                CDismembermentComponent #11 (CDismembermentComponent) : CDismembermentComponent0
+                    CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+                        guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CDismembermentComponent0"
+                        graphPositionX (Int16) : 20
+                        graphPositionY (Int16) : 69
+                CGameplayEffectsComponent #12 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                        guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CGameplayEffectsComponent0"
+                        graphPositionX (Int16) : 46
+                        graphPositionY (Int16) : 268
+                CSoundEmitterComponent #13 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 98
+                        graphPositionY (Int16) : 415
+                        eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+                            0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_black_spider.bnk
+                        maxDistance (Float) : 100.0000
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CNewNPC #1 (CNewNPC) : 
+        CNewNPC (CNewNPC) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 14
+            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CAppearanceComponent #2
+                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #3
+                2 (ptr:CComponent) : CPhantomComponent #8
+                3 (ptr:CComponent) : CDecalComponent #9
+                4 (ptr:CComponent) : CCreatureDataComponent #10
+                5 (ptr:CComponent) : CInventoryComponent #11
+                6 (ptr:CComponent) : CDynamicColliderComponent #5
+                7 (ptr:CComponent) : CDismembermentComponent #12
+                8 (ptr:CComponent) : CGameplayEffectsComponent #13
+                9 (ptr:CComponent) : CEffectDummyComponent #7
+                10 (ptr:CComponent) : CSoundEmitterComponent #14
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  84716e1a-e828-40e6-9f22-612489492011
+            displayName (LocalizedString) : Arachnomorph
+            level (Int32) : 34
+            isMonsterType_Group (Bool) : true
+    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : aabd5bf2-1493-4266-870f-e8ac3db86096
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            forcedAppearance (CName) : endriaga_worker_01
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
+                        oldName (CName) : proxy_CPhantomComponent1_45DDD041-401FF2F5-7BFAC180-4BF1674E
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CPhantomComponent1
+                        newClass (CName) : CPhantomComponent
+                    1 (SAttachmentReplacement) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
+                        oldName (CName) : proxy_CDecalComponent0_6FF0CCF8-46DC9EF7-13460689-24BC793C
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CDecalComponent0
+                        newClass (CName) : CDecalComponent
+                    2 (SAttachmentReplacement) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
+                        oldName (CName) : proxy_CCreatureDataComponent1_5E2C91C2-41225EE7-799E36A4-2CACB9EC
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CCreatureDataComponent1
+                        newClass (CName) : CCreatureDataComponent
+                    3 (SAttachmentReplacement) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
+                        oldName (CName) : proxy_CInventoryComponent0_3BCE1496-4E85D02D-EE949098-A5F36A46
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CInventoryComponent0
+                        newClass (CName) : CInventoryComponent
+                    4 (SAttachmentReplacement) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
+                        oldName (CName) : proxy_grassCollider_831034E6-470A79E3-368EFE96-52012CCB
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : grassCollider
+                        newClass (CName) : CDynamicColliderComponent
+                    5 (SAttachmentReplacement) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
+                        oldName (CName) : proxy_CDismembermentComponent0_CDB91451-4DDCFA53-1B0BDB82-0A6DB414
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CDismembermentComponent0
+                        newClass (CName) : CDismembermentComponent
+                    6 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
+                        oldName (CName) : proxy_CGameplayEffectsComponent0_F9A57358-4E565A6C-A800A891-8357D880
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CGameplayEffectsComponent0
+                        newClass (CName) : CGameplayEffectsComponent
+                    7 (SAttachmentReplacement) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
+                        oldName (CName) : proxy_torso3effect_0A134167-415CB997-1C1D26A0-16F32B0C
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : torso3effect
+                        newClass (CName) : CEffectDummyComponent
+                    8 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
+                        oldName (CName) : proxy_CSoundEmitterComponent0_9A6AB764-44D5A205-306FD692-D4E13AA5
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CSoundEmitterComponent0
+                        newClass (CName) : CSoundEmitterComponent
+            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                0 (SAppearanceAttachments) : endriaga_worker_02
+                    appearance (CName) : endriaga_worker_02
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : a_01__endriaga
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : endriaga_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : a_01__endriaga
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                1 (SAppearanceAttachments) : endriaga_worker_03
+                    appearance (CName) : endriaga_worker_03
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : a_01__endriaga
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : endriaga_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : a_01__endriaga
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                2 (SAppearanceAttachments) : endriaga_worker_04
+                    appearance (CName) : endriaga_worker_04
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : a_01__endriaga
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : endriaga_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : a_01__endriaga
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                3 (SAppearanceAttachments) : black_spider_01
+                    appearance (CName) : black_spider_01
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : a_01__black_spider
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : endriaga_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : a_01__black_spider
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+    CMovingPhysicalAgentComponent #3 (CMovingPhysicalAgentComponent) : endriaga_base
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : endriaga_base
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.5000
+                Scale_y (Float) : 1.5000
+                Scale_z (Float) : 1.5000
+            guid (CGUID) : a2f81c9e-6216-4875-bb86-1fdc25dd8f72
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #4
+                1 (handle:IAttachment) : CHardAttachment #6
+            name (String) : "endriaga_base"
+            skeleton (handle:CSkeleton) : characters/base_entities/endriaga_base/endriaga_base.w2rig
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+    CHardAttachment #4 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #3
+            child (ptr:CNode) : CDynamicColliderComponent #5
+    CDynamicColliderComponent #5 (CDynamicColliderComponent) : grassCollider
+        CDynamicColliderComponent (CDynamicColliderComponent) : grassCollider
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.5000
+                Scale_y (Float) : 1.5000
+                Scale_z (Float) : 2.0000
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 0.4000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #4
+            guid (CGUID) : e9fdf7c1-6ca7-4b82-8b55-1499c8cfa3aa
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #4
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "grassCollider"
+            useInWaterNormal (Bool) : false
+            useInGrassDisplacement (Bool) : true
+    CHardAttachment #6 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #3
+            child (ptr:CNode) : CEffectDummyComponent #7
+    CEffectDummyComponent #7 (CEffectDummyComponent) : torso3effect
+        CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 269.6780
+                Yaw (Float) : 9.4358
+                Roll (Float) : 95.2398
+            transformParent (ptr:CHardAttachment) : CHardAttachment #6
+            guid (CGUID) : 631b3889-744b-49f0-978c-e0f299d88416
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #6
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "torso3effect"
+    CPhantomComponent #8 (CPhantomComponent) : CPhantomComponent1
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.7360
+                Scale_y (Float) : 1.6629
+                Scale_z (Float) : 1.0000
+                X (Float) : 0.0000
+                Y (Float) : 0.9000
+                Z (Float) : 0.5000
+            guid (CGUID) : 59352635-5402-4b21-bae8-b8f94d4e86dd
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent1"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.7000
+                Y (Float) : 0.7000
+                Z (Float) : 1.0000
+                W (Float) : 0.0000
+            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+    CDecalComponent #9 (CDecalComponent) : CDecalComponent0
+        CDecalComponent (CDecalComponent) : CDecalComponent0
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 4.0000
+                Scale_y (Float) : 4.0000
+                Scale_z (Float) : 1.8000
+            guid (CGUID) : c4282a8b-6833-4408-92be-7a37a16b49ef
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CDecalComponent0"
+            isStreamed (Bool) : false
+            boundingBox (Box) : <Box>boundingBox
+                Min (Vector) : <Vector>Min
+                    X (Float) : 340282300000000000000000000000000000000.0000
+                    Y (Float) : 340282300000000000000000000000000000000.0000
+                    Z (Float) : 340282300000000000000000000000000000000.0000
+                    W (Float) : 1.0000
+                Max (Vector) : <Vector>Max
+                    X (Float) : NaN
+                    Y (Float) : NaN
+                    Z (Float) : NaN
+                    W (Float) : 1.0000
+            diffuseTexture (handle:CBitmapTexture) : dlc/ep1/data/fx/textures/blood_splash_black_spider.xbm
+            specularColor (Color) : <Color>specularColor
+                Red (Uint8) : 15
+                Green (Uint8) : 15
+                Blue (Uint8) : 15
+                Alpha (Uint8) : 255
+            normalThreshold (Float) : 57.6000
+    CCreatureDataComponent #10 (CCreatureDataComponent) : CCreatureDataComponent1
+        CCreatureDataComponent (CCreatureDataComponent) : 
+            guid (CGUID) : ef7ca732-e1c1-4af7-9cb4-f8f905f2feb2
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CCreatureDataComponent1"
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Necrophage Oil 1	
+                1 (CName) : Golden Oriole 1
+            cameraDistance (Float) : 2.5000
+            cameraLookAtZ (Float) : 1.0000
+            cameraRotationYaw (Float) : 190.0000
+            cameraRotationPitch (Float) : 10.0000
+            environmentSunRotationYaw (Float) : 330.0000
+            environmentSunRotationPitch (Float) : 340.0000
+    CInventoryComponent #11 (CInventoryComponent) : CInventoryComponent0
+        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+            guid (CGUID) : e95f61bd-4ad5-4e79-af56-224dc66ae8f9
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CInventoryComponent0"
+            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+    CDismembermentComponent #12 (CDismembermentComponent) : CDismembermentComponent0
+        CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+            guid (CGUID) : 63a05574-dd72-4e00-8af4-8accf4ed9d4e
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CDismembermentComponent0"
+    CGameplayEffectsComponent #13 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+            guid (CGUID) : d3ff340e-9922-49ce-935e-3d487ee153bc
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CGameplayEffectsComponent0"
+    CSoundEmitterComponent #14 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : c4830a8e-c0cd-49a3-83ef-460c9284c1ef
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+                0 (StringAnsi) : set_monster_endriaga_armour_type_monster_shell
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_black_spider.bnk
+            maxDistance (Float) : 100.0000
+    CCharacterStatsParam #15 (CCharacterStatsParam) : stats
+        CCharacterStatsParam (CCharacterStatsParam) : stats
+            name (String) : "stats"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_spiderboss_ep1
+                1 (CName) : InstantKillImmune
+    CAIProfile #16 (CAIProfile) : AG_endriaga_spikey
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            attitudeGroup (CName) : AG_endriaga_spikey
+    CInventoryDefinition #17 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            wasIncluded (Bool) : true
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #18
+    CInventoryDefinitionEntry #18 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #19
+    CInventoryInitializerUniform #19 (CInventoryInitializerUniform) : mon_black_spider_large_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_black_spider_large_weapon
+    CAttackRangeParam #20 (CAttackRangeParam) : attack_range_worker
+        CAttackRangeParam (CAttackRangeParam) : attack_range_worker
+            wasIncluded (Bool) : true
+            name (String) : "attack_range_worker"
+            overrideInherited (Bool) : true
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #21
+    CConeAttackRange #21 (CConeAttackRange) : basic_strike
+        CConeAttackRange (CConeAttackRange) : basic_strike
+            name (CName) : basic_strike
+            rangeMax (Float) : 1.0000
+            height (Float) : 2.0000
+    CCharacterStatsParam #22 (CCharacterStatsParam) : additional_abilities
+        CCharacterStatsParam (CCharacterStatsParam) : additional_abilities
+            wasIncluded (Bool) : true
+            name (String) : "additional_abilities"
+            abilities (array:CName) : # array:CName
+                0 (CName) : Venom
+                1 (CName) : BlackSpiderLarge
+                2 (CName) : mon_black_spider_large
+    CBloodTrailEffect #23 (CBloodTrailEffect) : green_blood_trail
+        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
+            wasIncluded (Bool) : true
+            name (String) : "green_blood_trail"
+            effect (CName) : green_blood_trail
+    CCharacterControllerParam #24 (CCharacterControllerParam) : endriaga_worker_controller_params
+        CCharacterControllerParam (CCharacterControllerParam) : endriaga_worker_controller_params
+            wasIncluded (Bool) : true
+            name (String) : "endriaga_worker_controller_params"
+            overrideInherited (Bool) : true
+            height (Float) : 1.5000
+            physicalRadius (Float) : 0.6000
+            interactionPriorityEnum (EInteractionPriority) : IP_Prio_2
+            significance (Float) : 1.5000
+    CR4LootParam #25 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            wasIncluded (Bool) : true
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__blackSpiderStrong
+                    name (CName) : _monster__blackSpiderStrong
+    CAIBaseTreeTemplateParam #26 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #27
+    CAIMonsterBase #27 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIEndriagaDefaults #28
+    CAIEndriagaDefaults #28 (CAIEndriagaDefaults) : 
+        CAIEndriagaDefaults (CAIEndriagaDefaults) : <CAIEndriagaDefaults>CAIEndriagaDefaults
+            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #29
+            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #31
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #33
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorArachas #35
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #53
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #69
+    CAIMonsterSpawnDefault #29 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #30
+    CAIMonsterSpawnParams #30 (CAIMonsterSpawnParams) : 
+        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+    CAIMonsterTaunt #31 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #32
+    CAIMonsterTauntParams #32 (CAIMonsterTauntParams) : 
+        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+    CAIMonsterAxii #33 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #34
+    CAIMonsterAxiiParams #34 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecoratorArachas #35 (CAIMonsterIdleDecoratorArachas) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecoratorArachas (CAIMonsterIdleDecoratorArachas) : <CAIMonsterIdleDecoratorArachas>CAIMonsterIdleDecoratorArachas
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #36
+    CAIMonsterIdleDecoratorParams #36 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #37
+            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #49
+            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
+                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleDig #51
+    CAIMonsterReactionsTree #37 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #38
+    CAIMonsterReactionsTreeParams #38 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #39
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #41
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #43
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #45
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #47
+    CAIActionSearchForTarget #39 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #40
+    CAINpcReactionSearchTarget #40 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #41 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #42
+    CAINpcReactionJoinSearchForTarget #42 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #43 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #44
+    CAINpcReactionPlayWithTarget #44 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #45 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #46
+    CAINpcReactionMoveInPack #46 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #47 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #48
+    CAINpcReactionRunWildInPack #48 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIMonsterSearchFoodTree #49 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
+        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
+            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #50
+    CAIMonsterSearchFoodIdleParams #50 (CAIMonsterSearchFoodIdleParams) : 
+        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
+            meat (Bool) : true
+    CAIMonsterIdleDig #51 (CAIMonsterIdleDig) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
+        CAIMonsterIdleDig (CAIMonsterIdleDig) : <CAIMonsterIdleDig>CAIMonsterIdleDig
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
+            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #52
+    CAIMonsterIdleActionParams #52 (CAIMonsterIdleActionParams) : Dig
+        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
+            loopTime (Float) : 10.0000
+            actionName (CName) : Dig
+    CAIMonsterCombat #53 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #54
+    CAIMonsterCombatParams #54 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBlackSpiderCombatLogic #55
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #57
+            createHitReactionEvent (CName) : MonsterHitReaction
+            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #59
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #61
+    CAIBlackSpiderCombatLogic #55 (CAIBlackSpiderCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_black_spider_logic.w2behtree
+        CAIBlackSpiderCombatLogic (CAIBlackSpiderCombatLogic) : <CAIBlackSpiderCombatLogic>CAIBlackSpiderCombatLogic
+            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_black_spider_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIBlackSpiderCombatLogicParams #56
+    CAIBlackSpiderCombatLogicParams #56 (CAIBlackSpiderCombatLogicParams) : 
+        CAIBlackSpiderCombatLogicParams (CAIBlackSpiderCombatLogicParams) : <CAIBlackSpiderCombatLogicParams>CAIBlackSpiderCombatLogicParams
+            minChargeDist (Float) : 7.0000
+            maxChargeDist (Float) : 8.0000
+    CAIMonsterDamageReactionTree #57 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #58
+    CAIDamageReactionTreeParams #58 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAINpcCriticalState #59 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #60
+    CAINpcCriticalStateParams #60 (CAINpcCriticalStateParams) : 
+        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+    CAIMonsterCombatReactionsTree #61 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #62
+    CAIMonsterReactionsTreeParams #62 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #63
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #65
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #67
+    CAIActionLeadEscape #63 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #64
+    CAINpcReactionLeadEscape #64 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #65 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #66
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #66 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #67 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #68
+    CAINpcReactionEscapeInPack #68 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIMonsterDeath #69 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #70
+    CAIMonsterDeathParams #70 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+            disableCollisionOnAnim (Bool) : true
+    CAnimGlobalParam #71 (CAnimGlobalParam) : sfx_endriaga
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            wasIncluded (Bool) : true
+            sfxTag (CName) : sfx_endriaga
+    CAnimBehaviorsParam #72 (CAnimBehaviorsParam) : scene
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : scene
+            wasIncluded (Bool) : true
+            name (String) : "scene"
+            componentName (String) : "endriaga_base"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : StoryScene
+                    instanceName (CName) : StoryScene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/pc/behaviorgraph/pc_dialog.w2beh
+    CAIProfile #73 (CAIProfile) : monsters
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #74
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #75
+            attitudeGroup (CName) : monsters
+    CAISenseParams #74 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 20.0000
+            rangeAngle (Float) : 240.0000
+    CAISenseParams #75 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeAngle (Float) : 360.0000
+            testLOS (Bool) : false
+    CAnimAnimsetsParam #76 (CAnimAnimsetsParam) : endriaga
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : endriaga
+            wasIncluded (Bool) : true
+            name (String) : "endriaga"
+            componentName (String) : "endriaga_base"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/monsters/monster_black_spider.w2anims
+    CAnimBehaviorsParam #77 (CAnimBehaviorsParam) : endriaga
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : endriaga
+            wasIncluded (Bool) : true
+            name (String) : "endriaga"
+            componentName (String) : "endriaga_base"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_black_spider_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+    CCharacterStatsParam #78 (CCharacterStatsParam) : black_spider_base_abilities
+        CCharacterStatsParam (CCharacterStatsParam) : black_spider_base_abilities
+            wasIncluded (Bool) : true
+            name (String) : "black_spider_base_abilities"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_black_spider_base
+    CMonsterParam #79 (CMonsterParam) : black_spider_monster_params
+        CMonsterParam (CMonsterParam) : black_spider_monster_params
+            wasIncluded (Bool) : true
+            name (String) : "black_spider_monster_params"
+            monsterCategory (Int32) : 5
+            soundMonsterName (CName) : Endriaga
+    CAnimConstraintsParam #80 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\npc\behaviorgraph\monster_endriaga_constraints.w2beh
+        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
+            wasIncluded (Bool) : true
+            graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_endriaga_constraints.w2beh
+    CBloodTrailEffect #81 (CBloodTrailEffect) : green_blood_trail
+        CBloodTrailEffect (CBloodTrailEffect) : green_blood_trail
+            wasIncluded (Bool) : true
+            name (String) : "green_blood_trail"
+            effect (CName) : green_blood_trail
+    CFocusSoundParam #82 (CFocusSoundParam) : Focus_Sound
+        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
+            wasIncluded (Bool) : true
+            name (String) : "Focus_Sound"
+            overrideInherited (Bool) : true
+            eventStart (CName) : monster_endriaga_focus_clue_100m_start
+            eventStop (CName) : monster_endriaga_focus_clue_100m_stop
+    CAnimGlobalParam #83 (CAnimGlobalParam) : sfx_endriaga
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            wasIncluded (Bool) : true
+            sfxTag (CName) : sfx_endriaga
+    CBuffImmunityParam #84 (CBuffImmunityParam) : immunes
+        CBuffImmunityParam (CBuffImmunityParam) : immunes
+            wasIncluded (Bool) : true
+            name (String) : "immunes"
+            immunityTo (array:Int32) : # array:Int32
+                0 (Int32) : 19

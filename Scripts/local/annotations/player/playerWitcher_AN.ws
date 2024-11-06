@@ -8,8 +8,9 @@ private saved var enemiesKilledByType				: array<int>;
 	var items2 			: array<SItemUniqueId>;
 	var horseTemplate 	: CEntityTemplate;
 	var horseManager 	: W3HorseManager;
-	var exceptions : array<CBaseGameplayEffect>;
-	var wolf : CBaseGameplayEffect;
+	var exceptions 		: array<CBaseGameplayEffect>;
+	var wolf 			: CBaseGameplayEffect;
+	var bankMutation6	: string;
 	
 	if(false) 
 	{
@@ -103,12 +104,15 @@ private saved var enemiesKilledByType				: array<int>;
 	{
 		AddTimer('DelayedOnItemMount', 0.1, true);
 		
-		
+		AddTimer('spectreDelayedLevelUpEquipped', 0.1, false);
+
 		CheckHairItem();
 	}
 	
 	
 	AddStartingSchematics();
+
+	theGame.alchexts.OnPlayerSpawned(this);
 
 	super.OnSpawned( spawnData );
 	
@@ -214,8 +218,7 @@ private saved var enemiesKilledByType				: array<int>;
 			NewGamePlusAdjustDLC14SkelligeSet(horseManager.GetInventoryComponent());	
 		}
 	}
-	
-	((W3PlayerAbilityManager)abilityManager).LoadCurrentMutationSoundBank();
+
 	LoadCurrentSetBonusSoundbank();
 	if(IsMutationResearched(EPMT_Mutation11) /*|| IsMutationResearched(EPMT_Mutation12)*/)
 	{
@@ -987,7 +990,7 @@ private saved var enemiesKilledByType				: array<int>;
 	if(!quen)
 		quen = (W3QuenEntity)theGame.CreateEntity(signs[ST_Quen].template, GetWorldPosition(), GetWorldRotation());
 	
-	PlayEffect( 'quen_lasting_shield_back' );
+	PlayEffect( 'acs_quen_lasting_shield_back' );
 	
 	quen.Init(signOwner, signs[ST_Quen].entity, true);
 	quen.freeCast = true;
@@ -1585,22 +1588,24 @@ private saved var enemiesKilledByType				: array<int>;
 	{
 		AddEffectDefault( EET_Mutation3, this, "", false );
 	}
-	else if( IsMutationActive( EPMT_Mutation4 ) )
+
+	if( IsMutationActive( EPMT_Mutation4 ) )
 	{
 		AddEffectDefault( EET_Mutation4, this, "combat start", false );
 	}
 	
-	else if( IsMutationActive( EPMT_Mutation7 ) )
+	if( IsMutationActive( EPMT_Mutation7 ) )
 	{
 		AddEffectDefault( EET_Mutation7Buff, this, "Mutation 7 buff phase" );
 		theGame.MutationHUDFeedback( MFT_PlayRepeat );
 	}
-	else if( IsMutationActive( EPMT_Mutation8 ) )
+
+	if( IsMutationActive( EPMT_Mutation8 ) )
 	{
 		theGame.MutationHUDFeedback( MFT_PlayRepeat );
 	}
 	
-	else if( IsMutationActive( EPMT_Mutation10 ) )
+	if( IsMutationActive( EPMT_Mutation10 ) )
 	{
 		if( GetStatPercents(BCS_Toxicity) >= GetToxicityDamageThreshold() )
 			AddEffectDefault( EET_Mutation10, NULL, "Mutation 10" );
@@ -1660,14 +1665,17 @@ private saved var enemiesKilledByType				: array<int>;
 	RemoveBuff( EET_Mutation4 );
 	RemoveBuff( EET_Mutation7Buff );
 	RemoveBuff( EET_Mutation7Debuff );
+
 	if( IsMutationActive( EPMT_Mutation7 ) )
 	{
 		theGame.MutationHUDFeedback( MFT_PlayHide );
 	}
-	else if( IsMutationActive( EPMT_Mutation8 ) )
+
+	if( IsMutationActive( EPMT_Mutation8 ) )
 	{
 		theGame.MutationHUDFeedback( MFT_PlayHide );
 	}
+
 	RemoveBuff( EET_Mutation10 );
 
 	RemoveBuff( EET_LynxSetBonus );
@@ -1999,45 +2007,6 @@ private saved var enemiesKilledByType				: array<int>;
 	{
 		DisplayActionDisallowedHudMessage(EIAB_Dodge);
 	}
-}
-
-@addField(W3PlayerWitcher)
-public saved var isLowStaminaSFXPlaying : bool;
-
-@addMethod(W3PlayerWitcher) function CheckForLowStamina()
-{
-	var sfxThreshold : float = theGame.params.GetLowStaminaSFXThreshold();
-	var staminaPrc : float = GetStatPercents(BCS_Stamina);
-	var rate : float;
-
-	if(staminaPrc < sfxThreshold && !isLowStaminaSFXPlaying)
-	{
-		isLowStaminaSFXPlaying = true;
-		if(!theSound.SoundIsBankLoaded("heartbeat02a.bnk"))
-			theSound.SoundLoadBank("heartbeat02a.bnk", false);
-		theSound.SoundEvent("play_heartbeat_02a_loop");
-		theSound.SoundParameter("heartbeat_rate", theGame.params.GetLowStaminaSFXRate());
-		theSound.SoundParameter("heartbeat_volume", theGame.params.GetLowStaminaSFXVolume());
-	}
-	else if(staminaPrc >= sfxThreshold && isLowStaminaSFXPlaying)
-	{
-		isLowStaminaSFXPlaying = false;
-		theSound.SoundEvent("stop_heartbeat_02a_loop");
-	}
-	if(isLowStaminaSFXPlaying)
-	{
-		rate = (1.0f - staminaPrc / sfxThreshold) * 100.0f;
-		if(theGame.params.GetLowStaminaSFXDynRate())
-			theSound.SoundParameter("heartbeat_rate", rate);
-		if(theGame.params.GetLowStaminaSFXDynVol())
-			theSound.SoundParameter("heartbeat_volume", rate);
-	}
-}
-
-@addMethod(W3PlayerWitcher) function StopLowStaminaSFX()
-{
-	isLowStaminaSFXPlaying = false;
-	theSound.SoundEvent("stop_heartbeat_02a_loop");
 }
 
 @wrapMethod(W3PlayerWitcher) function OnMutation11Triggered()
@@ -2518,6 +2487,23 @@ public saved var isLowStaminaSFXPlaying : bool;
 	theGame.GetGlobalEventsManager().OnScriptedEvent( SEC_AlchemyRecipe );
 			
 	return true;
+}
+
+@wrapMethod(W3PlayerWitcher) function ToxicityLowEnoughToDrinkPotion( slotid : EEquipmentSlots, optional itemId : SItemUniqueId ) : bool
+{
+	var item 				: SItemUniqueId;
+
+	if(false) 
+	{
+		wrappedMethod(slotid, itemId);
+	}
+
+	if(itemId != GetInvalidUniqueId())
+			item = itemId; 
+		else 
+			item = itemSlots[slotid];
+
+	return (theGame.alchexts.GetTotalToxicity(item) <= abilityManager.GetStatMax(BCS_Toxicity) );
 }
 
 @wrapMethod(W3PlayerWitcher) function DrinkPotionFromSlot(slot : EEquipmentSlots):void
@@ -3135,24 +3121,18 @@ public saved var isLowStaminaSFXPlaying : bool;
 
 @wrapMethod(W3PlayerWitcher) function StartFrenzy()
 {
-	var dm : CDefinitionsManagerAccessor = theGame.GetDefinitionsManager();
-	var min, max : SAbilityAttributeValue;
-	var skillAbilityName : name;
-	var skillLevel : int;
 	var ratio, duration : float;
-	
+	var skillLevel : int;
+
 	if(false) 
 	{
 		wrappedMethod();
 	}
-				   
+
 	isInFrenzy = true;
 	skillLevel = GetSkillLevel(S_Alchemy_s16);
-	skillAbilityName = SkillEnumToName(S_Alchemy_s16);
-	dm.GetAbilityAttributeValue(skillAbilityName, 'slowdown_ratio', min, max);
-	ratio = 1.0f - skillLevel * CalculateAttributeValue(min);
-	dm.GetAbilityAttributeValue(skillAbilityName, 'slowdown_duration', min, max);
-	duration = CalculateAttributeValue(min);
+	ratio = PowF(1.0f - abilityManager.GetStatPercents(BCS_Toxicity) * 0.44f, skillLevel);
+	duration = skillLevel * CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s16, 'slowdown_duration', false, true));
 
 	theGame.SetTimeScale(ratio, theGame.GetTimescaleSource(ETS_SkillFrenzy), theGame.GetTimescalePriority(ETS_SkillFrenzy) );
 	AddTimer('SkillFrenzyFinish', duration * ratio, , , , true);
@@ -3214,32 +3194,12 @@ private var cachedToxDmg : float;
 
 @wrapMethod(W3PlayerWitcher) function CalculatePotionDuration(item : SItemUniqueId, isMutagenPotion : bool, optional itemName : name) : float
 {
-	var duration, skillPassiveMod, mutagenSkillMod : float;
-	var val, min, max : SAbilityAttributeValue;
-	
 	if(false) 
 	{
 		wrappedMethod(item, isMutagenPotion, itemName);
 	}
 	
-	if(inv.IsIdValid(item))
-	{
-		duration = CalculateAttributeValue(inv.GetItemAttributeValue(item, 'duration'));			
-	}
-	else
-	{
-		theGame.GetDefinitionsManager().GetItemAttributeValueNoRandom(itemName, true, 'duration', min, max);
-		duration = CalculateAttributeValue(GetAttributeRandomizedValue(min, max));
-	}
-		
-	skillPassiveMod = CalculateAttributeValue(GetAttributeValue('potion_duration'));
-
-	if(isMutagenPotion)
-		duration = duration * (1 + mutagenSkillMod);
-	else
-		duration = duration * (1 + skillPassiveMod);
-	
-	return duration;																
+	return (theGame.alchexts.CalculatePotionDuration(item, isMutagenPotion, itemName) );														
 }
 
 @addMethod(W3PlayerWitcher) function GetAdaptationToxReduction() : float
@@ -3279,50 +3239,20 @@ private var cachedToxDmg : float;
 	{
 		wrappedMethod(item, effectType, finalPotionToxicity);
 	}
-	
+
 	if( effectType == EET_WhiteHoney )
 	{
 		return true;
 	}
-	
-	maxTox = abilityManager.GetStatMax(BCS_Toxicity);
-	finalPotionToxicity = CalculateAttributeValue(inv.GetItemAttributeValue(item, 'toxicity'));
-	if(CanUseSkill(S_Alchemy_s03))
-	{
-		finalPotionToxicity -= CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s03, 'toxicityReduction', false, false)) * GetSkillLevel(S_Alchemy_s03);
-	}
-	toxicityOffset = CalculateAttributeValue(inv.GetItemAttributeValue(item, 'toxicity_offset'));
-	
-	
-	if(CanUseSkill(S_Perk_13))
-	{
-		costReduction = GetSkillAttributeValue(S_Perk_13, 'cost_reduction', false, true);
-		adrenaline = FloorF(GetStat(BCS_Focus));
-		costReduction = costReduction * adrenaline;
-		finalPotionToxicity = (finalPotionToxicity - costReduction.valueBase) * (1 - costReduction.valueMultiplicative) - costReduction.valueAdditive;
-		finalPotionToxicity = MaxF(0.f, finalPotionToxicity);
-	}
-	
-	if(IsMutationActive(EPMT_Mutation12) && Mutation12FreeDecoctionAvailable())
-	{
-		toxicityOffset = 0;
-	}
-	else if(CanUseSkill(S_Alchemy_s14))
-	{
-		toxicityOffset *= MaxF(0, 1 - GetAdaptationToxReduction());
-	}
-	
-	
-	if(abilityManager.GetStat(BCS_Toxicity, false) + finalPotionToxicity + toxicityOffset > maxTox )
-	{
-		return false;
-	}
-	
-	return true;
+
+	finalPotionToxicity = theGame.alchexts.CalculatePotionToxicity(item);
+
+	return (theGame.alchexts.GetTotalToxicity(item) <= abilityManager.GetStatMax(BCS_Toxicity) );
 }
 
 @wrapMethod(W3PlayerWitcher) function DrinkPreparedPotion( slotid : EEquipmentSlots, optional itemId : SItemUniqueId )
 {	
+	var potion_data		: ExtendedPotionData;
 	var potParams : W3PotionParams;
 	var potionParams : SCustomEffectParams;
 	var factPotionParams : W3Potion_Fact_Params;
@@ -3387,26 +3317,17 @@ private var cachedToxDmg : float;
 	else if(inv.ItemHasTag( item, 'Mutagen' ))
 	{
 		mutagenParams = new W3MutagenBuffCustomParams in theGame;
-	
-		if(IsMutationActive(EPMT_Mutation12) && Mutation12FreeDecoctionAvailable())
-		{
-			mutagenParams.toxicityOffset = 0;
-			potionParams.sourceName = "Mutation12";
-			theGame.MutationHUDFeedback(MFT_PlayOnce);
-		}
-		else
-		{
-			mutagenParams.toxicityOffset = CalculateAttributeValue(inv.GetItemAttributeValue(item, 'toxicity_offset'));
-			if(CanUseSkill(S_Alchemy_s14))
-			{
-				mutagenParams.toxicityOffset *= MaxF(0, 1 - GetAdaptationToxReduction());
-			}
-		}
+		mutagenParams.toxicityOffset = CalculateAttributeValue(inv.GetItemAttributeValue(item, 'toxicity_offset'));
 		mutagenParams.potionItemName = inv.GetItemName(item);
 		
 		finalPotionToxicity += 0.001f;
 		
 		potionParams.buffSpecificParams = mutagenParams;
+		
+		if( IsMutationActive( EPMT_Mutation10 ) && !HasBuff( EET_Mutation10 ) )
+		{
+			AddEffectDefault( EET_Mutation10, this, "Mutation 10" );
+		}
 	}
 	
 	else
@@ -3417,25 +3338,26 @@ private var cachedToxDmg : float;
 		potionParams.buffSpecificParams = potParams;
 	}
 
-	
 	duration = CalculatePotionDuration(item, inv.ItemHasTag( item, 'Mutagen' ));		
-
 	
-	potionParams.effectType = effectType;
+	potion_data = new ExtendedPotionData in theGame;
+	potion_data.effectType = effectType;
+	potion_data.sourceName = "drank_potion";
+	potion_data.duration = theGame.alchexts.CalculatePotionDuration(item, inv.ItemHasTag(item, 'Mutagen') ) + theGame.alchexts.GetEffectRemainingDuration(effectType, "drank_potion"); //Can't trust variable above due to possible merge 'disasters' by the user.
+	potion_data.substance = theGame.alchexts.GetPotionSecondarySubstance(item);
+	potion_data.customAbilityName = customAbilityName;
+	potion_data.itemName = potParams.potionItemName;
+	potion_data.itemid = item;
+	potion_data.toxicity = finalPotionToxicity;
+	finalPotionToxicity = 0;
+	potion_data.buffSpecificParams = (W3PotionParams)potionParams.buffSpecificParams;
+	potionParams.buffSpecificParams = potion_data;
+	potionParams.effectType = EET_PotionDigestion;
 	potionParams.creator = this;
-	if(potionParams.sourceName != "Mutation12")
-	potionParams.sourceName = "drank_potion";
-	potionParams.duration = duration;
-	potionParams.customAbilityName = customAbilityName;
+	potionParams.sourceName = NameToString(potParams.potionItemName) + IntToString(RandRange(2147483647, 0) );
+	potionParams.duration = theGame.alchexts.digestion_time * theGame.alchexts.digestion_modifier;
+	potionParams.customAbilityName = 'PotionDigestionEffect';
 	ret = AddEffectCustom(potionParams);
-
-	
-	if(factPotionParams)
-		delete factPotionParams;
-		
-	if(mutagenParams)
-		delete mutagenParams;
-		
 	
 	inv.SingletonItemRemoveAmmo(item);
 	
@@ -3448,9 +3370,8 @@ private var cachedToxDmg : float;
 		}
 		
 		
-		if(CanUseSkill(S_Perk_13) && !inv.ItemHasTag(item, 'Mutagen'))
+		if(CanUseSkill(S_Perk_13))
 		{
-			adrenaline = FloorF(GetStat(BCS_Focus));
 			abilityManager.DrainFocus(adrenaline);
 		}
 		
@@ -3468,18 +3389,19 @@ private var cachedToxDmg : float;
 			SetFailedFundamentalsFirstAchievementCondition(true);
 		}
 		
-		if(CanUseSkill(S_Alchemy_s01)) 
-		{
-			staminaGainValue = ClampF(GetStatMax(BCS_Stamina) * CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s01, 'stamina_gain_perc', false, true)) * GetSkillLevel(S_Alchemy_s01), 0, GetStatMax(BCS_Stamina));
-			GainStat(BCS_Stamina, staminaGainValue);
-		}		
 		
 		if(CanUseSkill(S_Alchemy_s02))
 		{
 			hpGainValue = ClampF(GetStatMax(BCS_Vitality) * CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s02, 'vitality_gain_perc', false, true)) * GetSkillLevel(S_Alchemy_s02), 0, GetStatMax(BCS_Vitality));
 			GainStat(BCS_Vitality, hpGainValue);
 		}			
-
+		
+		
+		if(CanUseSkill(S_Alchemy_s04) && !skillBonusPotionEffect && (RandF() < CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s04, 'apply_chance', false, true)) * GetSkillLevel(S_Alchemy_s04)))
+		{
+			AddRandomPotionEffectFromAlch4Skill( effectType );				
+		}
+		
 		theGame.GetGamerProfile().SetStat(ES_ActivePotions, effectManager.GetPotionBuffsCount());
 	}
 	
@@ -4345,11 +4267,11 @@ private var cachedToxDmg : float;
 	PlayEffect('runeword_20_adrenaline');	
 }
 
-@addMethod(W3PlayerWitcher) function Debug_RestoreMutagensSpent()
+@addMethod(W3PlayerWitcher) function spectreDebug_RestoreMutagensSpent()
 {
 	var total : array<int>;
 	
-	total = ((W3PlayerAbilityManager)abilityManager).GetMutationsUsedMutagens();
+	total = ((W3PlayerAbilityManager)abilityManager).spectreGetMutationsUsedMutagens();
 	
 	if(total[0] > 0) inv.AddAnItem('Greater mutagen red', total[0]);
 	if(total[1] > 0) inv.AddAnItem('Greater mutagen blue', total[1]);
@@ -4422,7 +4344,7 @@ private var cachedToxDmg : float;
 	totalSkillPoints = levelManager.GetPointsTotal(ESkillPoint);
 	isMutationSystemEnabled = ((W3PlayerAbilityManager)abilityManager).IsMutationSystemEnabled();
 	
-	Debug_RestoreMutagensSpent();
+	spectreDebug_RestoreMutagensSpent();
 	
 	GetCharacterStats().GetAbilities(abs, false);
 	for(i=0; i<abs.Size(); i+=1)
@@ -4452,6 +4374,13 @@ private var cachedToxDmg : float;
 	
 	abilityManager.PostInit();
 	((W3PlayerAbilityManager)abilityManager).MutationSystemEnable(isMutationSystemEnabled);
+}
+
+@addMethod(W3PlayerWitcher) function ResetAbilityManager() 
+{
+	delete abilityManager; 
+	
+	SetAbilityManager();
 }
 
 @wrapMethod(W3PlayerWitcher) function CanSprint( speed : float ) : bool
@@ -4701,6 +4630,7 @@ var blockSprintTimestamp : float;
 		amountOfSetPiecesEquipped[ setType ] -= 1;
 	}
 	
+	theGame.alchexts.abltymgr.UpdateManticoreBonus(setType, amountOfSetPiecesEquipped[setType] == theGame.params.ITEMS_REQUIRED_FOR_MAJOR_SET_BONUS);
 	
 	if( setType != EIST_Vampire )
 	{
@@ -6311,19 +6241,46 @@ var blockSprintTimestamp : float;
 	theGame.GetJournalManager().ForceUntrackingQuestForEP1Savegame();
 }
 
-@wrapMethod( W3PlayerWitcher ) function OnSpawned( spawnData : SEntitySpawnData )
+@addMethod(W3PlayerWitcher) function spectreLearnCoreSkills()
 {
-	wrappedMethod(spawnData);
+	var i : int;
+	var skills : array<SSkill>;
 
-	if( spawnData.restored )
+	skills = thePlayer.GetPlayerSkills();
+
+	for(i=0; i<skills.Size(); i+=1)
 	{
-		AddTimer('spectreDelayedLevelUpEquipped', 0.1, false);
+		if (skills[i].skillType == S_Sword_s01
+		|| skills[i].skillType == S_Sword_s02
+		|| skills[i].skillType == S_Sword_s10
+		|| skills[i].skillType == S_Magic_s01
+		|| skills[i].skillType == S_Magic_s12
+		|| skills[i].skillType == S_Magic_s02
+		|| skills[i].skillType == S_Magic_s07
+		|| skills[i].skillType == S_Magic_s03
+		|| skills[i].skillType == S_Magic_s16
+		|| skills[i].skillType == S_Magic_s04
+		|| skills[i].skillType == S_Magic_s15
+		|| skills[i].skillType == S_Magic_s17
+		|| skills[i].skillType == S_Magic_s05
+		|| skills[i].skillType == S_Magic_s18
+		|| skills[i].skillType == S_Sword_s15
+		|| skills[i].skillType == S_Sword_s20
+		)
+		{
+			if (skills[i].level == 0)
+			{
+				thePlayer.AddSkill(skills[i].skillType);
+			}
+		}
 	}
 }
 
 @addMethod( W3PlayerWitcher ) timer function spectreDelayedLevelUpEquipped( dt : float, id : int )
 {
 	spectreLevelUpEquipped();
+
+	spectreLearnCoreSkills();
 }
 
 @wrapMethod( W3PlayerWitcher ) function EquipItemInGivenSlot(item : SItemUniqueId, slot : EEquipmentSlots, ignoreMounting : bool, optional toHand : bool) : bool
@@ -6410,4 +6367,94 @@ function spectreLevelUpItem(item : SItemUniqueId, inventory : CInventoryComponen
 	{
 		inventory.AddItemCraftedAbility(item, 'autogen_fixed_gloves_armor', true );
 	}
+}
+
+@wrapMethod(W3PlayerWitcher) function ApplyOil( oilId : SItemUniqueId, usedOnItem : SItemUniqueId ) : bool
+{
+	if (wrappedMethod(oilId, usedOnItem))
+	{
+		inv.SingletonItemRemoveAmmo(oilId);
+	}
+	else
+	{
+		return false;
+	}
+	
+	return true;
+}
+
+
+@replaceMethod(W3PlayerWitcher) function IsMutationActive( mutationType : EPlayerMutationType) : bool
+{
+	var swordQuality : int;
+	var sword : SItemUniqueId;
+
+	if( !IsMutationEquipped(mutationType) )
+	{
+		return false;
+	}
+	
+	switch( mutationType )
+	{
+		case EPMT_Mutation4 :
+		case EPMT_Mutation5 :
+		case EPMT_Mutation7 :
+		case EPMT_Mutation8 :
+		case EPMT_Mutation10 :
+		case EPMT_Mutation11 :
+		case EPMT_Mutation12 :
+			if( IsInFistFight() )
+			{
+				return false;
+			}
+	}
+	
+	if( mutationType == EPMT_Mutation1 )
+	{
+		sword = inv.GetCurrentlyHeldSword();			
+		swordQuality = inv.GetItemQuality( sword );
+		
+		
+		if( swordQuality < 3 )
+		{
+			return false;
+		}
+	}
+	
+	return true;
+}
+
+@replaceMethod(W3PlayerWitcher) function SetEquippedMutation( mutationType : EPlayerMutationType, unequip: bool ) : bool
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).SetEquippedMutation( mutationType, unequip );
+}
+
+@replaceMethod(W3PlayerWitcher) function GetEquippedMutationType() : array<EPlayerMutationType>
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).GetEquippedMutationType();
+}
+
+@addMethod(W3PlayerWitcher) function RemoveAllEquippedMutations() : bool
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).RemoveAllEquippedMutations();
+}
+
+@addMethod(W3PlayerWitcher) function IsMutationEquipped(mutationType : EPlayerMutationType) : bool
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).IsMutationEquipped(mutationType);
+}
+
+@addMethod(W3PlayerWitcher) function GetMutationSoundBank(mutationType : EPlayerMutationType) : string
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).GetMutationSoundBank(mutationType);
+}
+
+@addMethod(W3PlayerWitcher) function UpdateMutationSkillSlots()
+{
+	( ( W3PlayerAbilityManager ) abilityManager ).UpdateMutationSkillSlots();
+}
+
+@addMethod(W3PlayerWitcher) function GetMutationColors(mutationType : EPlayerMutationType ) : array< ESkillColor >
+{
+	return ( ( W3PlayerAbilityManager ) abilityManager ).GetMutationColors(mutationType);
 }

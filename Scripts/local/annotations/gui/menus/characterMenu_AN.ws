@@ -1,3 +1,67 @@
+@addField(CR4CharacterMenu)
+private var m_fxSetMasterMutationBackgroundColor 	: CScriptedFlashFunction;
+
+@addField(CR4CharacterMenu)
+private var m_fxSetMasterMutationOverlayColor 		: CScriptedFlashFunction;
+
+@addField(CR4CharacterMenu)
+private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
+
+@wrapMethod(CR4CharacterMenu) function OnConfigUI()
+{	
+	var l_flashObject			: CScriptedFlashObject;
+	var l_flashArray			: CScriptedFlashArray;
+	var filterTagsList 			: array<name>;
+
+	if(false) 
+	{
+		wrappedMethod();
+	}
+	
+	super.OnConfigUI();
+	
+	m_initialSelectionsToIgnore = 3;
+	
+	
+	m_fxPaperdollChanged = m_flashModule.GetMemberFlashFunction( "onPaperdollChanged" );
+	m_fxClearSkillSlot = m_flashModule.GetMemberFlashFunction( "clearSkillSlot" );
+	m_fxNotifySkillUpgraded = m_flashModule.GetMemberFlashFunction( "notifySkillUpgraded" );
+	m_fxActivateRunwordBuf = m_flashModule.GetMemberFlashFunction( "activateRunwordBuf" );
+	m_fxSetMutationBonusMode = m_flashModule.GetMemberFlashFunction( "setMutationBonusMode" );
+	m_fxConfirmMutResearch = m_flashModule.GetMemberFlashFunction( "confirmMutationResearch" );
+	m_fxResetInput = m_flashModule.GetMemberFlashFunction( "resetInput" );
+
+	m_fxSetMasterMutationBackgroundColor 	= m_flashModule.GetMemberFlashFunction( "setMasterMutationBackgroundColor" );
+	m_fxSetMasterMutationOverlayColor 		= m_flashModule.GetMemberFlashFunction( "setMasterMutationOverlayColor" );
+	m_fxSetConnectorsColors 				= m_flashModule.GetMemberFlashFunction( "setConnectorsColors" );
+
+	SendCombatState();
+	
+	_inv = thePlayer.GetInventory();
+	_playerInv = new W3GuiPlayerInventoryComponent in this;
+	_playerInv.Initialize( _inv );
+	_playerInv.ignorePosition = true;
+	filterTagsList.PushBack('MutagenIngredient');
+	_playerInv.SetFilterType(IFT_Ingredients);
+	_playerInv.filterTagList = filterTagsList;
+	
+	if( GetWitcherPlayer().IsMutationSystemEnabled() )
+	{
+		setMutationBonusMode( true );
+	}
+	else
+	{
+		m_fxSetMutationBonusMode.InvokeSelfOneArg( FlashArgBool( false ) );
+	}
+	
+	
+	UpdateMasterMutation();
+							
+	UpdateData(true);
+	
+	m_fxSetTooltipState.InvokeSelfTwoArgs( FlashArgBool( thePlayer.upscaledTooltipState ), FlashArgBool( true ) );
+}
+
 @wrapMethod(CR4CharacterMenu) function setMutationBonusMode( value : bool ) : void
 {
 	var updated : bool;
@@ -78,33 +142,20 @@
 	}
 	else
 	{
-		equippedMutationId = GetWitcherPlayer().GetEquippedMutationType();
-		if( equippedMutationId != EPMT_None )
-		{
-			equippedMutation = GetWitcherPlayer().GetMutation( equippedMutationId );
-		}
-		if( slotID1 >= BSS_SkillSlot1 && !equippedMutation.colors.Contains( thePlayer.GetSkillColor( skill1 ) ) ||
-			slotID2 >= BSS_SkillSlot1 && !equippedMutation.colors.Contains( thePlayer.GetSkillColor( skill2 ) ) )
-		{
-			OnPlaySoundEvent("gui_global_denied");
-		}
-		else
-		{
-			thePlayer.UnequipSkill(slotID1);
-			thePlayer.UnequipSkill(slotID2);
-			
-			thePlayer.EquipSkill(skill1, slotID1);
-			thePlayer.EquipSkill(skill2, slotID2);
+		thePlayer.UnequipSkill(slotID1);
+		thePlayer.UnequipSkill(slotID2);
 		
-			UpdateAppliedSkills();
-			UpdateSkillPoints();			
-			UpdatePlayerStatisticsData();						
-			UpdateGroupsData();
-			UpdateMutagens();
-			UpdateMasterMutation();
-			
-			OnPlaySoundEvent("gui_character_add_skill");
-		}
+		thePlayer.EquipSkill(skill1, slotID1);
+		thePlayer.EquipSkill(skill2, slotID2);
+	
+		UpdateAppliedSkills();
+		UpdateSkillPoints();			
+		UpdatePlayerStatisticsData();						
+		UpdateGroupsData();
+		UpdateMutagens();
+		UpdateMasterMutation();
+		
+		OnPlaySoundEvent("gui_character_add_skill");
 	}
 }
 
@@ -737,7 +788,7 @@
 			else 						baseString = GetLocStringByKeyExt(targetSkill.localisationDescriptionKey);
 	}
 	
-	return baseString;
+	return (((spectreAbilityManager)thePlayer.abilityManager).ReplaceSkillTooltip(baseString, locKey, targetSkill.skillType, skillLevel) );
 }
 
 @wrapMethod(CR4CharacterMenu) function GetPerkTooltipDescription(targetSkill : SSkill, skillLevel : int, locKey : string) : string
@@ -860,7 +911,7 @@
 			else 						baseString = GetLocStringByKeyExt(targetSkill.localisationDescriptionKey);
 	}
 	
-	return baseString;
+	return  (((spectreAbilityManager)thePlayer.abilityManager).ReplaceSkillTooltip(baseString, locKey, targetSkill.skillType, skillLevel) );
 }
 
 @wrapMethod(CR4CharacterMenu) function UpdatePlayerStatisticsData()
@@ -887,4 +938,591 @@
 	AddCharacterStat("majorStat1", 'vitality', "vitality", "vitality", l_flashArray, m_flashValueStorage);
 	
 	m_flashValueStorage.SetFlashArray( "playerstats.stats", l_flashArray );
+}
+
+@wrapMethod(CR4CharacterMenu) function OnCloseMutationPanel():void
+{
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	OnPlaySoundEvent( "gui_character_remove_mutagen" );
+	theGame.GetTutorialSystem().uiHandler.OnClosingMenu( 'MutationMenu' );
+	theGame.GetTutorialSystem().uiHandler.OnOpeningMenu( 'CharacterMenu' );
+											
+	UpdateData( true ); 
+	UpdateMasterMutation(true);
+	BlockClosing( false );
+}
+
+@replaceMethod(CR4CharacterMenu) function UpdateMasterMutation(optional updateMasterMutationDesc : bool):void
+{
+	var currentlyEquipped : array<EPlayerMutationType>;
+	var mutationsList      : CScriptedFlashArray;
+	var mutationData       : CScriptedFlashObject;
+	
+	if( GetWitcherPlayer().IsMutationSystemEnabled() )
+	{
+		currentlyEquipped = GetWitcherPlayer().GetEquippedMutationType();
+		
+		SetMasterMutationColors();
+
+		if(updateMasterMutationDesc)
+		{
+			mutationsList = m_flashValueStorage.CreateTempFlashArray();
+			mutationData = CreateMutationFlashDataObj( EPMT_MutationMaster );
+			mutationsList.PushBackFlashObject( mutationData );
+		
+			m_flashValueStorage.SetFlashArray( "character.mutations.list", mutationsList );
+		}
+	}
+}
+
+@addMethod(CR4CharacterMenu) function SetMasterMutationColors()
+{
+	var currentlyEquipped : array<EPlayerMutationType>;
+	var mutationSkillColors : array< ESkillColor >;
+	var count : int;
+
+	currentlyEquipped = GetWitcherPlayer().GetEquippedMutationType();
+	count = currentlyEquipped.Size();
+	if(currentlyEquipped.Size()<=0)
+	{
+		m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("1") );
+		m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("1"), FlashArgString("1"), FlashArgString("1"));
+		m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("1") );
+	}
+	else
+	{
+		mutationSkillColors = GetWitcherPlayer().GetMutationColors(currentlyEquipped[count-1]);
+		if(mutationSkillColors.Contains(SC_Yellow) && mutationSkillColors.Contains(SC_Blue) && mutationSkillColors.Contains(SC_Red)
+			&& mutationSkillColors.Contains(SC_Green))
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("yellow") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("red"), FlashArgString("blue"), FlashArgString("green"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("yellow") );
+		}
+		else if(mutationSkillColors.Contains(SC_Yellow) && mutationSkillColors.Contains(SC_Blue) && mutationSkillColors.Contains(SC_Red)
+			&& currentlyEquipped[count-1] == EPMT_Mutation1)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("blue") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("yellow"), FlashArgString("yellow"), FlashArgString("yellow"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("red") );
+		}
+		else if(mutationSkillColors.Contains(SC_Yellow) && mutationSkillColors.Contains(SC_Blue) && mutationSkillColors.Contains(SC_Red)
+			&& currentlyEquipped[count-1] == EPMT_Mutation7)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("red") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("yellow"), FlashArgString("yellow"), FlashArgString("yellow"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("blue") );
+		}
+		else if(mutationSkillColors.Contains(SC_Yellow) && mutationSkillColors.Contains(SC_Red) && mutationSkillColors.Contains(SC_Green)
+			&& currentlyEquipped[count-1] == EPMT_Mutation5)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("green") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("yellow"), FlashArgString("yellow"), FlashArgString("yellow"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("red") );
+		}
+		else if(mutationSkillColors.Contains(SC_Yellow) && mutationSkillColors.Contains(SC_Red) && mutationSkillColors.Contains(SC_Green)
+			&& currentlyEquipped[count-1] == EPMT_Mutation9)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("red") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("yellow"), FlashArgString("yellow"), FlashArgString("yellow"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("green") );
+		}
+		else if(mutationSkillColors.Contains(SC_Red) && mutationSkillColors.Size() == 1)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("red") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("red"), FlashArgString("red"), FlashArgString("red"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("red") );
+		}
+		else if(mutationSkillColors.Contains(SC_Blue) && mutationSkillColors.Size() == 1)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("blue") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("blue"), FlashArgString("blue"), FlashArgString("blue"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("blue") );
+		}
+		else if(mutationSkillColors.Contains(SC_Green) && mutationSkillColors.Size() == 1)
+		{
+			m_fxSetMasterMutationBackgroundColor.InvokeSelfOneArg( FlashArgString("green") );
+			m_fxSetConnectorsColors.InvokeSelfThreeArgs(FlashArgString("green"), FlashArgString("green"), FlashArgString("green"));
+			m_fxSetMasterMutationOverlayColor.InvokeSelfOneArg( FlashArgString("green") );
+		}
+	}
+
+}
+
+@replaceMethod(CR4CharacterMenu) function OnEquipMutation( mutationId : int )
+{
+	var currentlyEquipped : array<EPlayerMutationType>;
+	
+	currentlyEquipped = GetWitcherPlayer().GetEquippedMutationType();
+	
+	if( !GetWitcherPlayer().IsMutationEquipped(mutationId) )
+	{
+		if( thePlayer.IsInCombat() )
+		{
+			showNotification( GetLocStringByKeyExt( "menu_cannot_perform_action_combat" ) );
+			OnPlaySoundEvent( "gui_global_denied" );
+		}
+		else
+		{
+			GetWitcherPlayer().SetEquippedMutation( mutationId, false );
+			UpdateAllMutationsData();
+			UpdateMasterMutation();
+			setMutationBonusMode( true );
+			
+			OnPlaySoundEvent( "gui_character_synergy_effect" );
+		}
+	}
+}
+
+@replaceMethod(CR4CharacterMenu) function OnUnequipMutation( mutationId : int )
+{
+	var currentlyEquipped : array<EPlayerMutationType>;
+	
+	currentlyEquipped = GetWitcherPlayer().GetEquippedMutationType();
+	
+	if( currentlyEquipped.Size() > 0 )
+	{
+		if( thePlayer.IsInCombat() )
+		{
+			showNotification( GetLocStringByKeyExt( "menu_cannot_perform_action_combat" ) );
+			OnPlaySoundEvent( "gui_global_denied" );
+		}
+		else
+		{
+			if(currentlyEquipped.Size()-1==0)
+			{
+				setMutationBonusMode( false );
+			}
+
+			GetWitcherPlayer().SetEquippedMutation( mutationId, true );
+
+			UpdateAllMutationsData();
+
+			UpdateMasterMutation();
+			
+			OnPlaySoundEvent( "gui_character_synergy_effect_lose" );
+		}
+	}
+}
+
+@replaceMethod(CR4CharacterMenu) function CreateMutationFlashDataObj( curMutationId : EPlayerMutationType ) : CScriptedFlashObject
+{
+	var mutationData : CScriptedFlashObject;
+	
+	var mutationResourceList    : CScriptedFlashArray;
+	var mutationResourceData    : CScriptedFlashObject;
+	var mutationRequirementList : CScriptedFlashArray;
+	var mutationRequirementData : CScriptedFlashObject;
+	var mutationColorList 		: CScriptedFlashArray;
+	var mutationColorData       : CScriptedFlashObject;
+	var strIntParams			: array< int >;
+	var colorName			 	: string;
+	var colorsList    		 	: array< ESkillColor >;
+	var curRequiredMutations	: array< EPlayerMutationType >;
+	var curReqMutationType   	: EPlayerMutationType;
+	var curReqMutation       	: SMutation;
+	var curMutation    		 	: SMutation;
+	var curProgress     	 	: SMutationProgress;
+	var curPlayer      		 	: W3PlayerWitcher;
+	var colorsCount			 	: int;
+	var unlockedSockets      	: int;
+	var masterStage			 	: int;
+	var masterStageLabel 	 	: string;
+	var masterStageNumbLabel 	: string;
+	var masterStageDesc      	: string;
+	var nextLevelDescription 	: string;
+	var avaliableSkillPoints    : int;
+	var overalProgress          : int;
+	var i, requirementsCount    : int;
+	var progressStrInfo         : string;
+	var isResearchEnabled	    : bool;
+	var abilityManager          : W3PlayerAbilityManager;
+	var requaredResourcesCount  : int;
+	var usedResourcesCount      : int;
+	var researchedMutation	    : int;
+	var requaredForNextLevel    : int;
+	var avaliableRed		    : int;
+	var avaliableGreen		    : int;
+	var avaliableBlue		    : int;
+	var canResearch			    : bool;
+	var equippedMutationId 		: array<EPlayerMutationType>; 
+
+	curPlayer = GetWitcherPlayer();
+	abilityManager = ( ( W3PlayerAbilityManager ) curPlayer.abilityManager );
+	
+	equippedMutationId = curPlayer.GetEquippedMutationType();
+	
+	curMutation = curPlayer.GetMutation( curMutationId );
+	curProgress = curMutation.progress;
+	overalProgress = curPlayer.GetMutationResearchProgress( curMutationId );
+	mutationData = m_flashValueStorage.CreateTempFlashObject();
+	progressStrInfo = overalProgress + " % " + GetLocStringByKeyExt( "mutation_tooltip_research_progress" );
+	
+	mutationData.SetMemberFlashString( "name", GetLocStringByKeyExt( curMutation.localizationNameKey ) );
+	mutationData.SetMemberFlashString( "description", curPlayer.GetMutationLocalizedDescription( curMutationId) );
+	mutationData.SetMemberFlashString( "iconPath", curMutation.iconPath );
+	
+	usedResourcesCount = curMutation.progress.blueUsed + curMutation.progress.greenUsed + curMutation.progress.redUsed + curMutation.progress.skillpointsUsed;
+	requaredResourcesCount = curMutation.progress.blueRequired + curMutation.progress.redRequired + curMutation.progress.greenRequired + curMutation.progress.skillpointsRequired;
+	
+	mutationData.SetMemberFlashInt( "requaredResourcesCount", requaredResourcesCount );
+	mutationData.SetMemberFlashInt( "usedResourcesCount", usedResourcesCount );
+	mutationData.SetMemberFlashString( "progressInfo",  progressStrInfo );
+	
+	mutationData.SetMemberFlashInt( "mutationId", curMutationId );
+	mutationData.SetMemberFlashInt( "overallProgress", overalProgress ); 
+	mutationData.SetMemberFlashBool( "researchCompleted", overalProgress >= 100 );
+	
+	if (GetWitcherPlayer().IsMutationEquipped(curMutationId) && curMutationId != EPMT_None)
+	{
+		mutationData.SetMemberFlashBool( "isEquipped", true );
+	}
+	
+	if( curMutationId == EPMT_MutationMaster )
+	{
+		masterStage = curPlayer.GetMasterMutationStage();
+		
+		if( masterStage < MAX_MASTER_MUTATION_STAGE )
+		{
+			masterStageDesc = GetLocStringByKeyExt( "mutation_master_mutation_description" ) + "<br/>";
+		}
+		else
+		{
+			masterStageDesc = "";
+		}
+		
+		requaredForNextLevel = abilityManager.GetMutationsRequiredForMasterStage(masterStage + 1);
+		researchedMutation = abilityManager.GetResearchedMutationsCount();
+		
+		if (masterStage == 0)
+		{
+			strIntParams.Clear();
+			strIntParams.PushBack( requaredForNextLevel );
+			mutationData.SetMemberFlashString( "lockedDescription",  GetLocStringByKeyExtWithParams( "mutation_master_mutation_requires_unlock", strIntParams ) );
+		}
+		else
+		{
+			strIntParams.Clear();
+			strIntParams.PushBack( masterStage  );
+			masterStageDesc = masterStageDesc + GetLocStringByKeyExtWithParams( "mutation_master_mutation_tooltip_unlocks", strIntParams );
+				
+			if (masterStage < MAX_MASTER_MUTATION_STAGE)
+			{
+				
+				strIntParams.Clear();
+				strIntParams.PushBack( requaredForNextLevel );
+				nextLevelDescription = GetLocStringByKeyExtWithParams( "mutation_master_mutation_requires", strIntParams );
+				masterStageDesc = masterStageDesc + "<br/>"+  nextLevelDescription;
+			}
+		}
+		
+		switch( masterStage )
+		{
+			case 1:
+				masterStageLabel = GetLocStringByKeyExt( "mutation_master_mutation_stage_1" );
+				masterStageNumbLabel = "I";
+				break;
+			case 2:
+				masterStageLabel = GetLocStringByKeyExt( "mutation_master_mutation_stage_2" );
+				masterStageNumbLabel = "II";
+				break;
+			case 3:
+				masterStageLabel = GetLocStringByKeyExt( "mutation_master_mutation_stage_3" );
+				masterStageNumbLabel = "III";
+				break;
+			case 4:
+				masterStageLabel = GetLocStringByKeyExt( "mutation_master_mutation_stage_4" );
+				masterStageNumbLabel = "IV";
+				break;
+			default:
+				masterStageLabel = "";
+				masterStageNumbLabel = "";
+		}
+		
+		mutationData.SetMemberFlashInt( "stage",  masterStage );
+		mutationData.SetMemberFlashBool( "isMasterMutation", true );
+		mutationData.SetMemberFlashString( "stageLabel",  masterStageLabel );
+		mutationData.SetMemberFlashString( "stageNumbLabel",  masterStageNumbLabel );
+		mutationData.SetMemberFlashString( "name", GetLocStringByKeyExt("skill_name_mutation_master") );
+		mutationData.SetMemberFlashString( "description", masterStageDesc);
+	}
+	else
+	{
+		
+		
+		isResearchEnabled = true;
+		curRequiredMutations = curMutation.requiredMutations;
+		requirementsCount = curRequiredMutations.Size();
+		mutationRequirementList = m_flashValueStorage.CreateTempFlashArray();
+		
+		for( i = 0; i < requirementsCount; i += 1 )
+		{
+			curReqMutationType = curRequiredMutations[i];
+			
+			if( !curPlayer.IsMutationResearched( curReqMutationType ) )
+			{
+				isResearchEnabled = false;
+			}
+			
+			curReqMutation = curPlayer.GetMutation( curReqMutationType );
+			mutationRequirementData = m_flashValueStorage.CreateTempFlashObject();
+			mutationRequirementData.SetMemberFlashString( "name", GetLocStringByKeyExt( curReqMutation.localizationNameKey ) );
+			mutationRequirementData.SetMemberFlashInt( "type", curReqMutationType );
+			mutationRequirementList.PushBackFlashObject( mutationRequirementData );
+		}
+		
+		mutationData.SetMemberFlashArray( "requiredMutations", mutationRequirementList );
+		mutationData.SetMemberFlashBool( "enabled", isResearchEnabled );
+		
+		
+		
+		mutationColorList = m_flashValueStorage.CreateTempFlashArray();
+		colorsList = curMutation.colors;
+		colorsCount = colorsList.Size();
+		
+		for( i=0; i < colorsCount; i+=1 )
+		{
+			mutationColorData = m_flashValueStorage.CreateTempFlashObject();
+			mutationColorData.SetMemberFlashString( "color",  colorsList[i] );
+			
+			switch ( colorsList[i] )
+			{
+				case SC_Red:
+					colorName = GetLocStringByKeyExt("panel_character_skill_sword");
+					break;
+				case SC_Blue:
+					colorName = GetLocStringByKeyExt("panel_character_skill_signs");
+					break;						
+				case SC_Green:
+					colorName = GetLocStringByKeyExt("panel_character_skill_alchemy");
+					break;
+				case SC_Yellow:
+					colorName = GetLocStringByKeyExt("panel_character_perks_name");
+					break;
+			}
+			
+			mutationColorData.SetMemberFlashString( "colorLocName", colorName );
+			mutationColorList.PushBackFlashObject( mutationColorData );
+		}
+		
+		mutationData.SetMemberFlashArray( "colorsList", mutationColorList );
+		
+		mutationResourceList = m_flashValueStorage.CreateTempFlashArray();
+		
+		avaliableSkillPoints = GetCurrentSkillPoints();
+		mutationResourceData = m_flashValueStorage.CreateTempFlashObject();
+		mutationResourceData.SetMemberFlashString( "title", GetLocStringByKeyExt("mutation_research_knowledge") );
+		mutationResourceData.SetMemberFlashInt( "type", MRT_SkillPoints );
+		mutationResourceData.SetMemberFlashInt( "used", curProgress.skillpointsUsed );
+		mutationResourceData.SetMemberFlashInt( "required", curProgress.skillpointsRequired );
+		mutationResourceData.SetMemberFlashInt( "avaliableResources", avaliableSkillPoints );
+		mutationResourceData.SetMemberFlashUInt( "resourceColor", 0 );
+		mutationResourceData.SetMemberFlashString( "resourceName", GetLocStringByKeyExt( "mutation_ability_point" ) );
+		mutationResourceData.SetMemberFlashString( "resourceIconPath", "img://icons/skills/ico_skill_point.png" );
+		mutationResourceData.SetMemberFlashString( "description", "1 /" + GetLocStringByKeyExt( "mutation_research_point" ) );
+		mutationResourceData.SetMemberFlashString( "avaliableResourcesText", GetLocStringByKeyExt( "mutation_research_available" ) );			
+		mutationResourceData.SetMemberFlashString( "researchCostText", "1x / " + GetLocStringByKeyExt( "mutation_research_point" ) );
+		mutationResourceData.SetMemberFlashUInt( "itemName", 0 );
+		mutationResourceList.PushBackFlashObject( mutationResourceData );
+		
+		
+		mutationResourceData = m_flashValueStorage.CreateTempFlashObject();
+		mutationResourceData.SetMemberFlashString( "title", GetLocStringByKeyExt("mutation_strain_research_green") );
+		mutationResourceData.SetMemberFlashInt( "type", MRT_GreenMutation );
+		mutationResourceData.SetMemberFlashInt( "used", curProgress.greenUsed );
+		mutationResourceData.SetMemberFlashInt( "required", curProgress.greenRequired );
+		
+		avaliableGreen = thePlayer.inv.GetUnusedMutagensCount('Greater mutagen green');
+		AddItemResearchData( mutationResourceData, 'Greater mutagen green', SC_Green );
+		mutationResourceData.SetMemberFlashInt( "avaliableResources", avaliableGreen );
+		
+		mutationResourceList.PushBackFlashObject( mutationResourceData );
+		
+		
+		mutationResourceData = m_flashValueStorage.CreateTempFlashObject();
+		mutationResourceData.SetMemberFlashString( "title", GetLocStringByKeyExt("mutation_strain_research_red") );
+		mutationResourceData.SetMemberFlashInt( "type", MRT_RedMutation );
+		mutationResourceData.SetMemberFlashInt( "used", curProgress.redUsed );
+		mutationResourceData.SetMemberFlashInt( "required", curProgress.redRequired );
+		
+		avaliableRed = thePlayer.inv.GetUnusedMutagensCount('Greater mutagen red');
+		AddItemResearchData( mutationResourceData, 'Greater mutagen red', SC_Red );
+		mutationResourceData.SetMemberFlashInt( "avaliableResources", avaliableRed );
+		
+		mutationResourceList.PushBackFlashObject( mutationResourceData );
+		
+		
+		mutationResourceData = m_flashValueStorage.CreateTempFlashObject();
+		mutationResourceData.SetMemberFlashString( "title", GetLocStringByKeyExt("mutation_strain_research_blue") );
+		mutationResourceData.SetMemberFlashInt( "type", MRT_BlueMutation );
+		mutationResourceData.SetMemberFlashInt( "used", curProgress.blueUsed );
+		mutationResourceData.SetMemberFlashInt( "required", curProgress.blueRequired );
+		
+		avaliableBlue = thePlayer.inv.GetUnusedMutagensCount('Greater mutagen blue');
+		AddItemResearchData( mutationResourceData, 'Greater mutagen blue', SC_Blue );
+		mutationResourceData.SetMemberFlashInt( "avaliableResources", avaliableBlue );
+		mutationResourceList.PushBackFlashObject( mutationResourceData );
+		
+		mutationData.SetMemberFlashArray( "progressDataList", mutationResourceList );
+		
+		canResearch = avaliableRed >= curMutation.progress.redRequired;
+		canResearch = canResearch && avaliableGreen >= curMutation.progress.greenRequired;
+		canResearch = canResearch && avaliableBlue >= curMutation.progress.blueRequired;
+		canResearch = canResearch && avaliableSkillPoints >= curMutation.progress.skillpointsRequired;
+		
+		mutationData.SetMemberFlashInt( "redRequired", curMutation.progress.redRequired );
+		mutationData.SetMemberFlashInt( "greenRequired", curMutation.progress.greenRequired );
+		mutationData.SetMemberFlashInt( "blueRequired", curMutation.progress.blueRequired );
+		mutationData.SetMemberFlashInt( "skillpointsRequired", curMutation.progress.skillpointsRequired );
+	}
+	
+	mutationData.SetMemberFlashBool( "canResearch", canResearch );
+	
+	return mutationData;
+}
+	
+@replaceMethod(CR4CharacterMenu) function UpdateAppliedSkills():void
+{		
+	var gfxSlots           : CScriptedFlashObject;
+	var gfxSlotsList       : CScriptedFlashArray;
+	var curSlot            : SSkillSlot;
+	var equipedSkill       : SSkill;
+	var skillSlots         : array<SSkillSlot>;
+	var slotsCount 	       : int;
+	var i 	               : int;
+	var equippedMutationId : array<EPlayerMutationType>;
+	var equippedMutation   : SMutation;
+	var colorsList		   : array< ESkillColor >;
+	var colorBorderId      : string;
+	
+	gfxSlotsList = m_flashValueStorage.CreateTempFlashArray();
+	skillSlots = thePlayer.GetSkillSlots();
+	slotsCount = skillSlots.Size();
+	equippedMutationId = GetWitcherPlayer().GetEquippedMutationType();
+
+	if( equippedMutationId.Size() > 0 )
+	{
+		equippedMutation = GetWitcherPlayer().GetMutation( equippedMutationId[equippedMutationId.Size()-1] );
+	}
+	
+	LogChannel( 'CHR', "UpdateAppliedSkills add " + slotsCount + " items" );
+	
+	for( i=0; i < slotsCount; i+=1 )
+	{
+		curSlot = skillSlots[i];
+		equipedSkill = thePlayer.GetPlayerSkill( curSlot.socketedSkill );
+		
+		gfxSlots = m_flashValueStorage.CreateTempFlashObject();
+		GetSkillGFxObject( equipedSkill, false, gfxSlots );
+		
+		gfxSlots.SetMemberFlashInt( 'tabId', GetTabForSkill( curSlot.socketedSkill ) );
+		gfxSlots.SetMemberFlashInt( 'slotId', curSlot.id );
+		gfxSlots.SetMemberFlashInt( 'unlockedOnLevel', curSlot.unlockedOnLevel );
+		gfxSlots.SetMemberFlashInt( 'groupID', curSlot.groupID );
+		gfxSlots.SetMemberFlashBool( 'unlocked', curSlot.unlocked );
+		
+		colorBorderId = "";
+		if( curSlot.id >= BSS_SkillSlot1 )
+		{
+			gfxSlots.SetMemberFlashBool( 'isMutationSkill', true );
+			gfxSlots.SetMemberFlashInt( 'unlockedOnLevel', ( curSlot.id - BSS_SkillSlot1 + 1 ) );
+			
+			if (equippedMutationId.Size() > 0)
+			{
+				colorsList = equippedMutation.colors;
+				
+				if( colorsList.Contains(SC_Red) )
+				{
+					colorBorderId += "Red";
+				}
+				
+				if( colorsList.Contains(SC_Green) )
+				{
+					colorBorderId += "Green";
+				}
+				
+				if( colorsList.Contains(SC_Blue) )
+				{
+					colorBorderId += "Blue";
+				}
+
+				if( colorsList.Contains(SC_Yellow) )
+				{
+					colorBorderId += "Yellow";
+				}
+			}
+			
+			gfxSlots.SetMemberFlashString( 'colorBorder', colorBorderId );
+		}
+		else
+		{
+			gfxSlots.SetMemberFlashInt( 'unlockedOnLevel', curSlot.unlockedOnLevel );
+		}
+		
+		gfxSlotsList.PushBackFlashObject( gfxSlots );
+	}
+	
+	m_flashValueStorage.SetFlashArray( "character.skills.slots", gfxSlotsList );
+}
+
+@replaceMethod(CR4CharacterMenu) function SendEquippedSkillInfo(curSlot : SSkillSlot):void
+{
+	var gfxSlot       : CScriptedFlashObject;
+	var equipedSkill  : SSkill;
+	var colorsList    : array< ESkillColor >;
+	var colorBorderId : string;
+	var equippedMutationId : array<EPlayerMutationType>;
+	var equippedMutation   : SMutation;
+
+	equippedMutationId = GetWitcherPlayer().GetEquippedMutationType();
+
+	if( equippedMutationId.Size() > 0 )
+	{
+		equippedMutation = GetWitcherPlayer().GetMutation( equippedMutationId[equippedMutationId.Size()-1] );
+	}
+	
+	equipedSkill = thePlayer.GetPlayerSkill(curSlot.socketedSkill);
+	
+	gfxSlot = m_flashValueStorage.CreateTempFlashObject();
+	GetSkillGFxObject(equipedSkill, false, gfxSlot);
+	
+	gfxSlot.SetMemberFlashInt('tabId', GetTabForSkill(curSlot.socketedSkill));
+	gfxSlot.SetMemberFlashInt('slotId', curSlot.id);
+	gfxSlot.SetMemberFlashInt('unlockedOnLevel', curSlot.unlockedOnLevel);
+	gfxSlot.SetMemberFlashInt('groupID', curSlot.groupID);
+	gfxSlot.SetMemberFlashBool('unlocked', curSlot.unlocked);
+	
+	colorBorderId = "";
+	if( equippedMutationId.Size() > 0 && curSlot.id >= BSS_SkillSlot1 )
+	{
+		colorsList = equippedMutation.colors;
+		
+		if( colorsList.Contains(SC_Red) )
+		{
+			colorBorderId += "Red";
+		}
+		
+		if( colorsList.Contains(SC_Green) )
+		{
+			colorBorderId += "Green";
+		}
+		
+		if( colorsList.Contains(SC_Blue) )
+		{
+			colorBorderId += "Blue";
+		}
+
+		if( colorsList.Contains(SC_Yellow) )
+		{
+			colorBorderId += "Yellow";
+		}
+
+		gfxSlot.SetMemberFlashString( 'colorBorder', colorBorderId );
+	}
+	
+	m_flashValueStorage.SetFlashObject( "character.skills.slot.update", gfxSlot);
 }

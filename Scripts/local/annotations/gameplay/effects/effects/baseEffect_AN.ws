@@ -1,3 +1,108 @@
+@wrapMethod(CBaseGameplayEffect) function CacheSettings()
+{
+	var i,size : int;
+	var tmpString : string;
+	var dm : CDefinitionsManagerAccessor;
+	var main,temp : SCustomNode;
+	var tmpBool : bool;
+	var tmpName, customAbilityName : name;
+	var tmpFloat : float;		
+	var type : EEffectType;		
+
+	if(false) 
+	{
+		wrappedMethod();
+	}
+						
+	dm = theGame.GetDefinitionsManager();
+	main = dm.GetCustomDefinition('effects');
+	
+	for(i=0; i<main.subNodes.Size(); i+=1)
+	{
+		dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'name_name', tmpName);
+		EffectNameToType(tmpName, type, customAbilityName);
+		if(effectType == type)
+		{
+			if(dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'iconType_name', tmpName))
+				iconPath = theGame.effectMgr.GetPathForEffectIconTypeName(tmpName);
+			if( dm.GetCustomNodeAttributeValueBool(main.subNodes[i], 'showOnHUD', tmpBool))
+				showOnHUD = tmpBool;
+			
+			
+			
+							
+			
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'defaultAbilityName_name', tmpName))
+				abilityName = tmpName;
+								
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'cameraEffectName_name', tmpName))
+				cameraEffectName = tmpName;				
+			if( !IsNameValid(targetEffectName) && dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'targetEffectName_name', tmpName))
+				targetEffectName = tmpName;
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'resistStatName_name', tmpName))		
+				resistStat = ResistStatNameToEnum(tmpName, tmpBool);
+			if( dm.GetCustomNodeAttributeValueBool(main.subNodes[i], 'isPotionEffect', tmpBool))		
+				isPotionEffect = tmpBool;
+				
+			
+			if(isPotionEffect && !isPositive && !isNeutral && !isNegative)
+			{
+				isPositive = true;
+				isNeutral = false;
+				isNegative = false;
+			}
+				
+			
+			if((!isPotionEffect || tmpName == 'PotionDigestionEffect') && dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'onStartSound_name', tmpName))
+				onAddedSound = tmpName;
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'onStopSound_name', tmpName))		
+				onRemovedSound = tmpName;	
+				
+			
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'effectNameLocalisationKey_name', tmpName))		
+				effectNameLocalisationKey = tmpName;
+			if( dm.GetCustomNodeAttributeValueName(main.subNodes[i], 'effectDescriptionLocalisationKey_name', tmpName))		
+				effectDescriptionLocalisationKey = tmpName;
+				
+			
+			temp = dm.GetCustomDefinitionSubNode(main.subNodes[i],'denies');
+			if(temp.values.Size() > 0)
+			{
+				size = temp.values.Size();
+				for(i=0; i<size; i+=1)
+				{
+					if(IsNameValid(temp.values[i]))
+					{
+						EffectNameToType(temp.values[i], type, tmpName);
+						deny.PushBack(type);
+					}
+				}
+			}
+			temp = dm.GetCustomDefinitionSubNode(main.subNodes[i],'overrides');
+			if(temp.values.Size() > 0)
+			{
+				size = temp.values.Size();
+				for(i=0; i<size; i+=1)
+				{
+					if(IsNameValid(temp.values[i]))
+					{
+						EffectNameToType(temp.values[i], type, tmpName);
+						override.PushBack(type);
+					}
+				}
+			}
+
+			if(iconPath=="" && showOnHUD)
+				LogEffects("BaseEffect.Initialize: Effect " + this + " should show in GUI but has no icon defined!");
+				
+			return;
+		}			
+	}
+
+	
+	LogEffects("BaseEffect.Initialize: Cannot find GUI definitions in xml file for effect " + this);
+}
+
 @wrapMethod(CBaseGameplayEffect) function Init(params : SEffectInitInfo)
 {
 	var min, max, null : SAbilityAttributeValue;

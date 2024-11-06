@@ -1,0 +1,1267 @@
+    CEntityTemplate #0 (CEntityTemplate) : W3Rat
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : characters/base_entities/rat_base/rat_base.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : CMovingPhysicalAgentComponent0
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : movementAdjustor
+            properOverrides (Bool) : true
+            entityClass (CName) : W3Rat
+            entityObject (ptr:CEntity) : W3Rat #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : rat_01
+                    name (CName) : rat_01
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : characters/models/animals/rat/t_01__rat.w2ent
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : blood_point
+                    wasIncluded (Bool) : true
+                    name (CName) : blood_point
+                    componentName (CName) : CMovingPhysicalAgentComponent0
+                    boneName (CName) : torso2
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CAIProfile #8
+                1 (ptr:CEntityTemplateParam) : CInventoryDefinition #10
+                2 (ptr:CEntityTemplateParam) : CAnimGlobalParam #13
+                3 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #14
+                4 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #15
+                5 (ptr:CEntityTemplateParam) : CAIProfile #16
+                6 (ptr:CEntityTemplateParam) : CCharacterStatsParam #19
+                7 (ptr:CEntityTemplateParam) : CCharacterControllerParam #20
+                8 (ptr:CEntityTemplateParam) : CMonsterParam #21
+                9 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #22
+                10 (ptr:CEntityTemplateParam) : CAttackRangeParam #61
+                11 (ptr:CEntityTemplateParam) : CAnimGlobalParam #63
+            flatCompiledData (array:Uint8) : # array:Uint8
+                W3Rat #0 (W3Rat) : PreviewEntity
+                    W3Rat (W3Rat) : PreviewEntity
+                        tags (TagList) : softLock_Bolt, small_animal
+                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                                0 (CName) : softLock_Bolt
+                                1 (CName) : small_animal
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CAppearanceComponent #1
+                            1 (ptr:CComponent) : CInventoryComponent #2
+                            2 (ptr:CComponent) : CMovingPhysicalAgentComponent #3
+                            3 (ptr:CComponent) : CGameplayEffectsComponent #4
+                            4 (ptr:CComponent) : CPhantomComponent #5
+                            5 (ptr:CComponent) : CSoundEmitterComponent #6
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  c86dd3ab-39b8-41be-9efd-bd8a40520d60
+                        displayName (LocalizedString) : Rat
+                CAppearanceComponent #1 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : 166
+                        graphPositionY (Int16) : 363
+                        forcedAppearance (CName) : rat_01
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9B44FE76-4EB66A83-CEA2B384-9D18AEE0
+                                    oldName (CName) : proxy_CSoundEmitterComponent0_9B44FE76-4EB66A83-CEA2B384-9D18AEE0
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CSoundEmitterComponent0
+                                    newClass (CName) : CSoundEmitterComponent
+                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                            0 (SAppearanceAttachments) : rat_01
+                                appearance (CName) : rat_01
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : t_01__rat
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : CMovingPhysicalAgentComponent0
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : t_01__rat
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                CInventoryComponent #2 (CInventoryComponent) : CInventoryComponent0
+                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+                        guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CInventoryComponent0"
+                        graphPositionX (Int16) : 679
+                        graphPositionY (Int16) : 458
+                CMovingPhysicalAgentComponent #3 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+                        guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CMovingPhysicalAgentComponent0"
+                        graphPositionX (Int16) : 395
+                        graphPositionY (Int16) : 281
+                        skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : Exploration
+                                instanceName (CName) : Exploration
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+                CGameplayEffectsComponent #4 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                        guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CGameplayEffectsComponent0"
+                        graphPositionX (Int16) : 445
+                        graphPositionY (Int16) : 182
+                CPhantomComponent #5 (CPhantomComponent) : Character_PhantomComponent
+                    CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 2.5445
+                            Scale_y (Float) : 3.0750
+                            Scale_z (Float) : 1.8624
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 0.1000
+                        guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "Character_PhantomComponent"
+                        graphPositionX (Int16) : 255
+                        graphPositionY (Int16) : 354
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.0500
+                            Y (Float) : 0.0500
+                            Z (Float) : 0.0500
+                            W (Float) : 1.0000
+                CSoundEmitterComponent #6 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 122
+                        graphPositionY (Int16) : 148
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : animals_rat.bnk
+                        maxDistance (Float) : 31.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : light_hit
+                    name (CName) : light_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1655 bytes, MD5: b608b8447e9c90f7fda28783e4c36461
+                        CFXDefinition #0 (CFXDefinition) : light_hit
+                            CFXDefinition (CFXDefinition) : light_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 6.0231
+                                name (CName) : light_hit
+                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+                                name (String) : "blood_fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 194
+                                    Blue (Uint8) : 224
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+                                name (String) : "fx"
+                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 1.9198
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.6000
+                                        1 (Float) : 0.6000
+                                        2 (Float) : 0.6000
+                                        3 (Float) : 0.6000
+                                        4 (Float) : 0.6000
+                                        5 (Float) : 0.6000
+                                        6 (Float) : 0.6000
+                                        7 (Float) : 0.6000
+                                        8 (Float) : 0.6000
+                                        9 (Float) : 0.6000
+                                        10 (Float) : 0.6000
+                                        11 (Float) : 0.6000
+                                        12 (Float) : 0.6000
+                                        13 (Float) : 0.6000
+                                        14 (Float) : 0.6000
+                                        15 (Float) : 0.6000
+                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : blood_point
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+                                    Pitch (Float) : 0.0000
+                                    Yaw (Float) : 0.0000
+                                    Roll (Float) : 90.0000
+                1 (CEntityTemplateCookedEffect) : heavy_hit
+                    name (CName) : heavy_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2034 bytes, MD5: 826a843c527df5f963b87e239711cb36
+                        CFXDefinition #0 (CFXDefinition) : heavy_hit
+                            CFXDefinition (CFXDefinition) : heavy_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 5.9196
+                                name (CName) : heavy_hit
+                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 143
+                                    Green (Uint8) : 243
+                                    Blue (Uint8) : 184
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0100
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_blood_outflow_small_short
+                                maxDistance (Float) : 6.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : blood_fx
+                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+                                name (String) : "blood_fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 194
+                                    Blue (Uint8) : 224
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "fx"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0039
+                                timeDuration (Float) : 1.9198
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.7000
+                                        1 (Float) : 0.7000
+                                        2 (Float) : 0.7000
+                                        3 (Float) : 0.7000
+                                        4 (Float) : 0.7000
+                                        5 (Float) : 0.7000
+                                        6 (Float) : 0.7000
+                                        7 (Float) : 0.7000
+                                        8 (Float) : 0.7000
+                                        9 (Float) : 0.7000
+                                        10 (Float) : 0.7000
+                                        11 (Float) : 0.7000
+                                        12 (Float) : 0.7000
+                                        13 (Float) : 0.7000
+                                        14 (Float) : 0.7000
+                                        15 (Float) : 0.7000
+                                particleSystem (soft:CParticleSystem) : fx/blood/heavy_hit/blood_heavy_hit.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #7
+                        CFXSpawnerComponent #7 (CFXSpawnerComponent) : blood_point
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : blood_point
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+                                    Pitch (Float) : 0.0000
+                                    Yaw (Float) : 0.0000
+                                    Roll (Float) : 90.0000
+                2 (CEntityTemplateCookedEffect) : critical_burning
+                    name (CName) : critical_burning
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2796 bytes, MD5: b4b414bc5bec82e74a908890cda5775c
+                        CFXDefinition #0 (CFXDefinition) : critical_burning
+                            CFXDefinition (CFXDefinition) : critical_burning
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #7
+                                length (Float) : 6.0109
+                                loopStart (Float) : 0.5216
+                                name (CName) : critical_burning
+                                showDistance (Float) : 50.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 232
+                                    Green (Uint8) : 132
+                                    Blue (Uint8) : 227
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                    2 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #5
+                                    3 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #6
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0157
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_fire_burning_strong_begin
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.1662
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop
+                        CFXTrackItemSoundEvent #5 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 1.0737
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_fire_burning_body_strong_loop_end
+                        CFXTrackItemSoundEvent #6 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 1.1999
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_fire_burning_strong_end
+                        CFXTrackGroup #7 (CFXTrackGroup) : leg
+                            CFXTrackGroup (CFXTrackGroup) : leg
+                                name (String) : "leg"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #8
+                                    1 (ptr:CFXTrack) : CFXTrack #11
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 190
+                                    Green (Uint8) : 254
+                                    Blue (Uint8) : 242
+                                    Alpha (Uint8) : 100
+                        CFXTrack #8 (CFXTrack) : 4
+                            CFXTrack (CFXTrack) : 4
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #9
+                                name (String) : "4"
+                        CFXTrackItemParticles #9 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 6.1973
+                                timeDuration (Float) : 3.0070
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.8704
+                                        7 (Float) : 0.6770
+                                        8 (Float) : 0.4836
+                                        9 (Float) : 0.2901
+                                        10 (Float) : 0.0967
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.6000
+                                        1 (Float) : 0.6000
+                                        2 (Float) : 0.6000
+                                        3 (Float) : 0.6000
+                                        4 (Float) : 0.6000
+                                        5 (Float) : 0.6000
+                                        6 (Float) : 0.6000
+                                        7 (Float) : 0.6000
+                                        8 (Float) : 0.6000
+                                        9 (Float) : 0.6000
+                                        10 (Float) : 0.6000
+                                        11 (Float) : 0.6000
+                                        12 (Float) : 0.6000
+                                        13 (Float) : 0.6000
+                                        14 (Float) : 0.6000
+                                        15 (Float) : 0.6000
+                                particleSystem (soft:CParticleSystem) : fx/characters/man_base/critical/arson/fire_detail_mat.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #10
+                        CFXSpawnerComponent #10 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CMovingPhysicalAgentComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                parentSlotName (CName) : spine3
+                                freeRotation (Bool) : true
+                        CFXTrack #11 (CFXTrack) : 3
+                            CFXTrack (CFXTrack) : 3
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #12
+                                name (String) : "3"
+                        CFXTrackItemParticles #12 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0354
+                                timeDuration (Float) : 3.0070
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1> <0.8704343> <0.6770045> <0.4835745> <0.2901447> <0.09671485> <0> <0>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.8704
+                                        7 (Float) : 0.6770
+                                        8 (Float) : 0.4836
+                                        9 (Float) : 0.2901
+                                        10 (Float) : 0.0967
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.6000
+                                        1 (Float) : 0.6000
+                                        2 (Float) : 0.6000
+                                        3 (Float) : 0.6000
+                                        4 (Float) : 0.6000
+                                        5 (Float) : 0.6000
+                                        6 (Float) : 0.6000
+                                        7 (Float) : 0.6000
+                                        8 (Float) : 0.6000
+                                        9 (Float) : 0.6000
+                                        10 (Float) : 0.6000
+                                        11 (Float) : 0.6000
+                                        12 (Float) : 0.6000
+                                        13 (Float) : 0.6000
+                                        14 (Float) : 0.6000
+                                        15 (Float) : 0.6000
+                                particleSystem (soft:CParticleSystem) : fx/animals/boids/arson_boids_fx1.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #13
+                        CFXSpawnerComponent #13 (CFXSpawnerComponent) : CMovingPhysicalAgentComponent0
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : CMovingPhysicalAgentComponent0
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                parentSlotName (CName) : torso2
+                                freeRotation (Bool) : true
+                3 (CEntityTemplateCookedEffect) : light_hit_back
+                    name (CName) : light_hit_back
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1660 bytes, MD5: 5f0c1fc4fe89c5a73b86703b680d7ee8
+                        CFXDefinition #0 (CFXDefinition) : light_hit_back
+                            CFXDefinition (CFXDefinition) : light_hit_back
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 6.0231
+                                name (CName) : light_hit_back
+                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+                                name (String) : "blood_fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 194
+                                    Blue (Uint8) : 224
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+                                name (String) : "fx"
+                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 1.9198
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.6000
+                                        1 (Float) : 0.6000
+                                        2 (Float) : 0.6000
+                                        3 (Float) : 0.6000
+                                        4 (Float) : 0.6000
+                                        5 (Float) : 0.6000
+                                        6 (Float) : 0.6000
+                                        7 (Float) : 0.6000
+                                        8 (Float) : 0.6000
+                                        9 (Float) : 0.6000
+                                        10 (Float) : 0.6000
+                                        11 (Float) : 0.6000
+                                        12 (Float) : 0.6000
+                                        13 (Float) : 0.6000
+                                        14 (Float) : 0.6000
+                                        15 (Float) : 0.6000
+                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : blood_point
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+                                    Pitch (Float) : 0.0000
+                                    Yaw (Float) : 0.0000
+                                    Roll (Float) : 90.0000
+                4 (CEntityTemplateCookedEffect) : heavy_hit_back
+                    name (CName) : heavy_hit_back
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1660 bytes, MD5: f5e9f13450fc07e76d78bc593c0293ee
+                        CFXDefinition #0 (CFXDefinition) : heavy_hit_back
+                            CFXDefinition (CFXDefinition) : heavy_hit_back
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 6.0231
+                                name (CName) : heavy_hit_back
+                        CFXTrackGroup #1 (CFXTrackGroup) : blood_fx
+                            CFXTrackGroup (CFXTrackGroup) : blood_fx
+                                name (String) : "blood_fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 142
+                                    Green (Uint8) : 194
+                                    Blue (Uint8) : 224
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #3
+                                name (String) : "fx"
+                        CFXTrackItemParticles #3 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 1.9198
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.6000
+                                        1 (Float) : 0.6000
+                                        2 (Float) : 0.6000
+                                        3 (Float) : 0.6000
+                                        4 (Float) : 0.6000
+                                        5 (Float) : 0.6000
+                                        6 (Float) : 0.6000
+                                        7 (Float) : 0.6000
+                                        8 (Float) : 0.6000
+                                        9 (Float) : 0.6000
+                                        10 (Float) : 0.6000
+                                        11 (Float) : 0.6000
+                                        12 (Float) : 0.6000
+                                        13 (Float) : 0.6000
+                                        14 (Float) : 0.6000
+                                        15 (Float) : 0.6000
+                                particleSystem (soft:CParticleSystem) : fx/blood/standard_hit/blood_standard_hit.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #4
+                        CFXSpawnerComponent #4 (CFXSpawnerComponent) : blood_point
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : blood_point
+                                copyRotation (Bool) : false
+                                attach (Bool) : true
+                                relativeRotation (EulerAngles) : <EulerAngles>relativeRotation
+                                    Pitch (Float) : 0.0000
+                                    Yaw (Float) : 0.0000
+                                    Roll (Float) : 90.0000
+                5 (CEntityTemplateCookedEffect) : critical_frozen
+                    name (CName) : critical_frozen
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2044 bytes, MD5: 673e5167e08627318cbcc2dfe2493424
+                        CFXDefinition #0 (CFXDefinition) : critical_frozen
+                            CFXDefinition (CFXDefinition) : critical_frozen
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 4.5000
+                                loopStart (Float) : 1.9376
+                                loopEnd (Float) : 2.4989
+                                name (CName) : critical_frozen
+                                showDistance (Float) : 35.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : audio
+                            CFXTrackGroup (CFXTrackGroup) : audio
+                                name (String) : "audio"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 200
+                                    Green (Uint8) : 186
+                                    Blue (Uint8) : 244
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0155
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_critical_frozen_loop_start
+                                maxDistance (Float) : 25.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 2.6152
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : fx_critical_frozen_loop_stop
+                                maxDistance (Float) : 25.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 232
+                                    Green (Uint8) : 241
+                                    Blue (Uint8) : 164
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemMaterialOverride #7
+                                name (String) : "asd"
+                        CFXTrackItemMaterialOverride #7 (CFXTrackItemMaterialOverride) : MaterialOverride
+                            CFXTrackItemMaterialOverride (CFXTrackItemMaterialOverride) : <CFXTrackItemMaterialOverride>CFXTrackItemMaterialOverride
+                                timeDuration (Float) : 4.3039
+                                buffername (CName) : MaterialOverride
+                                count (CDynamicInt) : 4
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0.2> <0.2791193> <0.3582385> <0.4373578> <0.5383589> <0.7225504> <0.9067419> <1> <1> <1> <0
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 0.2000
+                                        1 (Float) : 0.2791
+                                        2 (Float) : 0.3582
+                                        3 (Float) : 0.4374
+                                        4 (Float) : 0.5384
+                                        5 (Float) : 0.7226
+                                        6 (Float) : 0.9067
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 0.7287
+                                        11 (Float) : 0.4557
+                                        12 (Float) : 0.1827
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    3 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                material (handle:IMaterial) : fx/gameplay/states/freezing/freezing_shader_old.w2mg
+                                drawOriginal (Bool) : true
+                                forceMeshAlternatives (Bool) : true
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    W3Rat #1 (W3Rat) : 
+        W3Rat (W3Rat) : 
+            tags (TagList) : softLock_Bolt, small_animal
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : softLock_Bolt
+                    1 (CName) : small_animal
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CAppearanceComponent #2
+                1 (ptr:CComponent) : CInventoryComponent #3
+                2 (ptr:CComponent) : CMovingPhysicalAgentComponent #4
+                3 (ptr:CComponent) : CGameplayEffectsComponent #5
+                4 (ptr:CComponent) : CPhantomComponent #6
+                5 (ptr:CComponent) : CSoundEmitterComponent #7
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  c86dd3ab-39b8-41be-9efd-bd8a40520d60
+            displayName (LocalizedString) : Rat
+    CAppearanceComponent #2 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : e989cfdd-3855-4d36-a8bc-b77b380c2f18
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            forcedAppearance (CName) : rat_01
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_9B44FE76-4EB66A83-CEA2B384-9D18AEE0
+                        oldName (CName) : proxy_CSoundEmitterComponent0_9B44FE76-4EB66A83-CEA2B384-9D18AEE0
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CSoundEmitterComponent0
+                        newClass (CName) : CSoundEmitterComponent
+            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                0 (SAppearanceAttachments) : rat_01
+                    appearance (CName) : rat_01
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : t_01__rat
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : CMovingPhysicalAgentComponent0
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : t_01__rat
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+    CInventoryComponent #3 (CInventoryComponent) : CInventoryComponent0
+        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+            guid (CGUID) : 91c1f319-ac5b-42ed-a284-70653cfdda7f
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CInventoryComponent0"
+    CMovingPhysicalAgentComponent #4 (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : CMovingPhysicalAgentComponent0
+            guid (CGUID) : 832fd847-9d29-465b-876c-efa844b4e891
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CMovingPhysicalAgentComponent0"
+            skeleton (handle:CSkeleton) : characters/base_entities/rat_base/rat_base.w2rig
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Exploration
+                    instanceName (CName) : Exploration
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/pc/steering/pc_steering.w2steer
+    CGameplayEffectsComponent #5 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+            guid (CGUID) : 297e3e92-00e3-4a24-813a-40ecb258a9c5
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CGameplayEffectsComponent0"
+    CPhantomComponent #6 (CPhantomComponent) : Character_PhantomComponent
+        CPhantomComponent (CPhantomComponent) : Character_PhantomComponent
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 2.5445
+                Scale_y (Float) : 3.0750
+                Scale_z (Float) : 1.8624
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 0.1000
+            guid (CGUID) : ce5556bd-e154-4d3e-957c-bf58dbfb8951
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "Character_PhantomComponent"
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.0500
+                Y (Float) : 0.0500
+                Z (Float) : 0.0500
+                W (Float) : 1.0000
+    CSoundEmitterComponent #7 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : 5cd4e257-66f4-46fc-958a-8da6aed400ac
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : animals_rat.bnk
+            maxDistance (Float) : 31.0000
+    CAIProfile #8 (CAIProfile) : 
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #9
+    CAISenseParams #9 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+    CInventoryDefinition #10 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #11
+    CInventoryDefinitionEntry #11 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #12
+    CInventoryInitializerUniform #12 (CInventoryInitializerUniform) : mon_rat_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_rat_weapon
+    CAnimGlobalParam #13 (CAnimGlobalParam) : sfx_rat
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            sfxTag (CName) : sfx_rat
+    CAnimBehaviorsParam #14 (CAnimBehaviorsParam) : animal
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : animal
+            wasIncluded (Bool) : true
+            name (String) : "animal"
+            componentName (String) : "CMovingPhysicalAgentComponent0"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Exploration
+                    instanceName (CName) : Exploration
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/rat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+    CAnimAnimsetsParam #15 (CAnimAnimsetsParam) : animal
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : animal
+            wasIncluded (Bool) : true
+            name (String) : "animal"
+            componentName (String) : "CMovingPhysicalAgentComponent0"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : animations/animals/rat/rat_animation.w2anims
+    CAIProfile #16 (CAIProfile) : AG_small_animals
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #17
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #18
+            attitudeGroup (CName) : AG_small_animals
+    CAISenseParams #17 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            enabled (Bool) : false
+            rangeMax (Float) : 6.0000
+            rangeAngle (Float) : 360.0000
+            testLOS (Bool) : false
+    CAISenseParams #18 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 6.0000
+            rangeAngle (Float) : 360.0000
+            testLOS (Bool) : false
+    CCharacterStatsParam #19 (CCharacterStatsParam) : rat_params
+        CCharacterStatsParam (CCharacterStatsParam) : rat_params
+            wasIncluded (Bool) : true
+            name (String) : "rat_params"
+            abilities (array:CName) : # array:CName
+                0 (CName) : animal_rat_base
+                1 (CName) : NPCDoNotGainBoost
+                2 (CName) : NoAdaptBalance
+    CCharacterControllerParam #20 (CCharacterControllerParam) : rat_character_controller_params
+        CCharacterControllerParam (CCharacterControllerParam) : rat_character_controller_params
+            wasIncluded (Bool) : true
+            name (String) : "rat_character_controller_params"
+            height (Float) : 0.9000
+            physicalRadius (Float) : 0.2000
+            interactionPriorityEnum (EInteractionPriority) : IP_Prio_0
+    CMonsterParam #21 (CMonsterParam) : monster_params
+        CMonsterParam (CMonsterParam) : monster_params
+            wasIncluded (Bool) : true
+            name (String) : "monster_params"
+            canBeStrafed (Bool) : false
+            monsterCategory (Int32) : 14
+            soundMonsterName (CName) : Rat
+    CAIBaseTreeTemplateParam #22 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #23
+    CAIMonsterBase #23 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIRatDefaults #24
+    CAIRatDefaults #24 (CAIRatDefaults) : 
+        CAIRatDefaults (CAIRatDefaults) : <CAIRatDefaults>CAIRatDefaults
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #25
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #27
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #43
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #59
+    CAIMonsterAxii #25 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #26
+    CAIMonsterAxiiParams #26 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecorator #27 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #28
+    CAIMonsterIdleDecoratorParams #28 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #29
+    CAIMonsterReactionsTree #29 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #30
+    CAIMonsterReactionsTreeParams #30 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #31
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #33
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #35
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #37
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #39
+                5 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #41
+    CAIActionSearchForTarget #31 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #32
+    CAINpcReactionSearchTarget #32 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #33 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #34
+    CAINpcReactionJoinSearchForTarget #34 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #35 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #36
+    CAINpcReactionPlayWithTarget #36 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #37 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #38
+    CAINpcReactionMoveInPack #38 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #39 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #40
+    CAINpcReactionRunWildInPack #40 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIActionLeadEscape #41 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #42
+            actionEventName (CName) : FireDanger
+    CAINpcReactionLeadEscape #42 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIMonsterCombat #43 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #44
+    CAIMonsterCombatParams #44 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIRatCombatLogic #45
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #47
+            createHitReactionEvent (CName) : MonsterHitReaction
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #49
+    CAIRatCombatLogic #45 (CAIRatCombatLogic) : CBehTree:gameplay\trees\monsters\monster_rat_logic.w2behtree
+        CAIRatCombatLogic (CAIRatCombatLogic) : <CAIRatCombatLogic>CAIRatCombatLogic
+            tree (handle:CBehTree) : gameplay/trees/monsters/monster_rat_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #46
+    CAIMonsterCombatLogicParams #46 (CAIMonsterCombatLogicParams) : 
+        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+    CAIMonsterDamageReactionTree #47 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #48
+    CAIDamageReactionTreeParams #48 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAIMonsterCombatReactionsTree #49 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #50
+    CAIMonsterReactionsTreeParams #50 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #51
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #53
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #55
+                3 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #41
+                4 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #57
+    CAIActionLeadEscape #51 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #52
+    CAINpcReactionLeadEscape #52 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #53 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #54
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #54 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #55 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #56
+    CAINpcReactionEscapeInPack #56 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIActionLeadEscape #57 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #58
+            actionEventName (CName) : CastSignAction
+    CAINpcReactionLeadEscape #58 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIMonsterDeath #59 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #60
+    CAIMonsterDeathParams #60 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+    CAttackRangeParam #61 (CAttackRangeParam) : attack_ranges
+        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+            wasIncluded (Bool) : true
+            name (String) : "attack_ranges"
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #62
+    CConeAttackRange #62 (CConeAttackRange) : basic_strike
+        CConeAttackRange (CConeAttackRange) : basic_strike
+            name (CName) : basic_strike
+            rangeMax (Float) : 0.5000
+            height (Float) : 0.4000
+            rangeAngle (Float) : 70.0000
+    CAnimGlobalParam #63 (CAnimGlobalParam) : sfx_rat
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            wasIncluded (Bool) : true
+            sfxTag (CName) : sfx_rat

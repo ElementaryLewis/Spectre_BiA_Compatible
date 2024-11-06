@@ -55,7 +55,7 @@ abstract class W3AdvancedProjectile extends CThrowable
 	final function ShootProjectileAtPosition( angle : float, velocity : float, target : Vector, optional range : float, optional collisionGroups : array<name> )
 	{
 		super.ShootProjectileAtPosition( angle, velocity, target, range, collisionGroups );
-		this.OnProjectileShot(target);
+		this.OnProjectileShot(target); ((spectreAbilityManager)GetWitcherPlayer().abilityManager).ApplyHeightenedReflexes((CActor)caster); //modSpectre
 	}
 	
 	

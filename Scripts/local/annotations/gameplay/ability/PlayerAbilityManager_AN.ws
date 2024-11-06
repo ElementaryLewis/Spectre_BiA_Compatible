@@ -1,3 +1,6 @@
+@addField(W3PlayerAbilityManager)
+var spectreActiveSkills : array<ESkill>;		
+
 @wrapMethod(W3PlayerAbilityManager) function Init(ownr : CActor, cStats : CCharacterStats, isFromLoad : bool, diff : EDifficultyMode) : bool
 {
 	var skillDefs : array<name>;
@@ -31,8 +34,12 @@
 	if(!super.Init(ownr,cStats, isFromLoad, diff))
 		return false;
 		
-	LogChannel('CHR', "Init W3PlayerAbilityManager "+isFromLoad);		
-	
+	LogChannel('CHR', "Init W3PlayerAbilityManager "+isFromLoad);
+
+	if(!isMutationSystemEnabled)
+	{
+		MutationSystemEnable(true);
+	}		
 	
 	InitSkillSlots( isFromLoad );
 	
@@ -84,10 +91,151 @@
 	LoadMutationData();		
 	
 	isInitialized = true;
+
+	UpdateMutationSkillSlotsLocks();
 	
 	return true;	
 }
 
+@wrapMethod(W3PlayerAbilityManager) function PostInit()
+{		
+	var i, playerLevel : int;
+
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	if(CanUseSkill(S_Sword_5))
+		AddPassiveSkillBuff(S_Sword_5);
+		
+	
+	if( (W3PlayerWitcher)owner )
+	{
+		playerLevel = ((W3PlayerWitcher)owner).GetLevel();
+		for(i=0; i<skillSlots.Size(); i+=1)
+		{
+			if( skillSlots[ i ].groupID != MUTATION_SKILL_GROUP_ID )
+			{
+				skillSlots[i].unlocked = ( playerLevel >= skillSlots[i].unlockedOnLevel);
+			}
+		}
+	}
+	
+	
+	if( FactsQuerySum( "154531" ) <= 0 )
+	{
+		mutationUnlockedSlotsIndexes.Clear();
+		FactsAdd( "154531" );
+	}
+	if( FactsQuerySum( "154975" ) <= 0 )
+	{
+		mutationUnlockedSlotsIndexes.Clear();
+		FactsAdd( "154975" );
+	}
+	
+	
+	if( mutationUnlockedSlotsIndexes.Size() == 0 )
+	{
+		for( i=0; i<skillSlots.Size(); i+=1 )
+		{
+			if( skillSlots[ i ].groupID == MUTATION_SKILL_GROUP_ID )
+			{
+				mutationUnlockedSlotsIndexes.PushBack( i );
+			}
+		}
+	}
+	
+	
+	if( !mutationSkillSlotsInitialized && theGame.GetDLCManager().IsEP2Enabled() && theGame.GetDLCManager().IsEP2Available() )
+	{
+		UpdateMutationSkillSlots();
+		mutationSkillSlotsInitialized = true;
+	}
+
+	spectreActiveSkills.Clear();
+	//spectreActiveSkills.PushBack(S_Sword_s21); // Fast Attack - Muscle Memory
+	//spectreActiveSkills.PushBack(S_Sword_s17); // Fast Attack - Precise Blows
+	spectreActiveSkills.PushBack(S_Sword_s01); // Fast Attack - Whirl
+	//spectreActiveSkills.PushBack(S_Sword_s05); // Fast Attack - Crippling Strikes
+	//spectreActiveSkills.PushBack(S_Sword_s04); // Strong Attack - Strength Training
+	//spectreActiveSkills.PushBack(S_Sword_s08); // Strong Attack - Crushing Blows
+	spectreActiveSkills.PushBack(S_Sword_s02); // Strong Attack - Rend
+	//spectreActiveSkills.PushBack(S_Sword_s06); // Strong Attack - Sunder Armor
+	spectreActiveSkills.PushBack(S_Sword_s10); // Defense - Arrow Deflection
+	//spectreActiveSkills.PushBack(S_Sword_s09); // Defense - Fleet Footed
+	//spectreActiveSkills.PushBack(S_Sword_s11); // Defense - Counterattack
+	//spectreActiveSkills.PushBack(S_Sword_s03); // Defense - Deadly Precision
+	//spectreActiveSkills.PushBack(S_Sword_s13); // Marksmanship - Lightning Reflexes
+	spectreActiveSkills.PushBack(S_Sword_s15); // Marksmanship - Cold Blood
+	//spectreActiveSkills.PushBack(S_Sword_s07); // Marksmanship - Anatomical Knowledge
+	//spectreActiveSkills.PushBack(S_Sword_s12); // Marksmanship - Crippling Shot
+	//spectreActiveSkills.PushBack(S_Sword_s16); // Battle Trance - Resolve
+	//spectreActiveSkills.PushBack(S_Sword_s18); // Battle Trance - Undying
+	spectreActiveSkills.PushBack(S_Sword_s20); // Battle Trance - Razor Focus
+	//spectreActiveSkills.PushBack(S_Sword_s19); // Battle Trance - Flood of Anger
+	//spectreActiveSkills.PushBack(S_Magic_s20); // Aard Sign - Far-Reaching Aard
+	spectreActiveSkills.PushBack(S_Magic_s01); // Aard Sign - Aard Sweep
+	spectreActiveSkills.PushBack(S_Magic_s12); // Aard Sign - Aard Intensity
+	//spectreActiveSkills.PushBack(S_Magic_s06); // Aard Sign - Shock Wave
+	//spectreActiveSkills.PushBack(S_Magic_s08); // Igni Sign - Melt Armor
+	spectreActiveSkills.PushBack(S_Magic_s02); // Igni Sign - Firestream
+	spectreActiveSkills.PushBack(S_Magic_s07); // Igni Sign - Igni Intensity
+	//spectreActiveSkills.PushBack(S_Magic_s09); // Igni Sign - Pyromaniac
+	//spectreActiveSkills.PushBack(S_Magic_s10); // Yrden Sign - Sustained Glyphs
+	spectreActiveSkills.PushBack(S_Magic_s03); // Yrden Sign - Magic Trap
+	spectreActiveSkills.PushBack(S_Magic_s16); // Yrden Sign - Yrden Intensity
+	//spectreActiveSkills.PushBack(S_Magic_s11); // Yrden Sign - Supercharged Glyphs
+	//spectreActiveSkills.PushBack(S_Magic_s13); // Quen Sign - Exploding Shield
+	spectreActiveSkills.PushBack(S_Magic_s04); // Quen Sign - Active Shield
+	spectreActiveSkills.PushBack(S_Magic_s15); // Quen Sign - Quen Intensity
+	//spectreActiveSkills.PushBack(S_Magic_s14); // Quen Sign - Quen Discharge
+	spectreActiveSkills.PushBack(S_Magic_s17); // Axii Sign - Delusion
+	spectreActiveSkills.PushBack(S_Magic_s05); // Axii Sign - Puppet
+	spectreActiveSkills.PushBack(S_Magic_s18); // Axii Sign - Axii Intensity
+	//spectreActiveSkills.PushBack(S_Magic_s19); // Axii Sign - Domination
+	//spectreActiveSkills.PushBack(S_Alchemy_s01); // Brewing - Heightened Tolerance
+	//spectreActiveSkills.PushBack(S_Alchemy_s02); // Brewing - Refreshment
+	//spectreActiveSkills.PushBack(S_Alchemy_s03); // Brewing - Delayed Recovery
+	//spectreActiveSkills.PushBack(S_Alchemy_s04); // Brewing - Side Effects
+	//spectreActiveSkills.PushBack(S_Alchemy_s12); // Oil Preparation - Poisoned Blades
+	//spectreActiveSkills.PushBack(S_Alchemy_s05); // Oil Preparation - Protective Coating
+	//spectreActiveSkills.PushBack(S_Alchemy_s06); // Oil Preparation - Fixative
+	//spectreActiveSkills.PushBack(S_Alchemy_s07); // Oil Preparation - Hunter Instinct
+	//spectreActiveSkills.PushBack(S_Alchemy_s09); // Bomb Creation - Steady Aim
+	//spectreActiveSkills.PushBack(S_Alchemy_s10); // Bomb Creation - Pyrotechnics
+	//spectreActiveSkills.PushBack(S_Alchemy_s08); // Bomb Creation - Efficiency
+	//spectreActiveSkills.PushBack(S_Alchemy_s11); // Bomb Creation - Cluster Bombs
+	//spectreActiveSkills.PushBack(S_Alchemy_s18); // Mutation - Acquired Tolerance
+	//spectreActiveSkills.PushBack(S_Alchemy_s13); // Mutation - Tissue Transmutation
+	//spectreActiveSkills.PushBack(S_Alchemy_s19); // Mutation - Synergy
+	//spectreActiveSkills.PushBack(S_Alchemy_s14); // Mutation - Adaptation
+	//spectreActiveSkills.PushBack(S_Alchemy_s16); // Trial of the Grasses - Frenzy
+	//spectreActiveSkills.PushBack(S_Alchemy_s20); // Trial of the Grasses - Endure Pain
+	//spectreActiveSkills.PushBack(S_Alchemy_s15); // Trial of the Grasses - Fast Metabolism
+	//spectreActiveSkills.PushBack(S_Alchemy_s17); // Trial of the Grasses - Killing Spree
+	spectreActiveSkills.PushBack(S_Perk_01); // General - Sun and Stars
+	spectreActiveSkills.PushBack(S_Perk_02); // General - Steady Shot
+	spectreActiveSkills.PushBack(S_Perk_13); // General - Metabolism Boosts
+	spectreActiveSkills.PushBack(S_Perk_14); // General - Gorged on Power
+	spectreActiveSkills.PushBack(S_Perk_04); // General - Survival Instinct
+	spectreActiveSkills.PushBack(S_Perk_09); // General - Rage Management
+	spectreActiveSkills.PushBack(S_Perk_17); // General - Trick Shot
+	spectreActiveSkills.PushBack(S_Perk_15); // General - Gourmet
+	spectreActiveSkills.PushBack(S_Perk_05); // General - Cat School Techniques
+	spectreActiveSkills.PushBack(S_Perk_11); // General - Focus
+	spectreActiveSkills.PushBack(S_Perk_18); // General - Advanced Pyrotechnics
+	spectreActiveSkills.PushBack(S_Perk_16); // General - In Combat's Fires
+	spectreActiveSkills.PushBack(S_Perk_06); // General - Griffin School Techniques
+	spectreActiveSkills.PushBack(S_Perk_10); // General - Adrenaline Burst
+	spectreActiveSkills.PushBack(S_Perk_19); // General - Battle Frenzy
+	spectreActiveSkills.PushBack(S_Perk_20); // General - Heavy Artillery
+	spectreActiveSkills.PushBack(S_Perk_07); // General - Bear School Techniques
+	spectreActiveSkills.PushBack(S_Perk_12); // General - Metabolic Control
+	spectreActiveSkills.PushBack(S_Perk_22); // General - Strong Back
+	spectreActiveSkills.PushBack(S_Perk_21); // General - Attack is the Best Defense
+}
+	
 @wrapMethod(W3PlayerAbilityManager) function AddTempNonAlchemySkills() : array<SSimpleSkill>
 {
 	var i, cnt, j : int;
@@ -673,7 +821,7 @@
 	
 	if(witcher.HasBuff(EET_OverEncumbered))
 	{
-		return ClampF(witcher.GetEncumbrance()/witcher.GetMaxRunEncumbrance(tmpBool) - 1, 0, 1);// * 100;
+		return ClampF(witcher.GetEncumbrance()/witcher.GetMaxRunEncumbrance(tmpBool) - 1, 0, 1);
 	}
 	
 	return 0;
@@ -804,6 +952,67 @@
 	}
 }
 
+@wrapMethod(W3PlayerAbilityManager) function IsSkillEquipped(skill : ESkill) : bool
+{
+	var i, idx : int;
+
+	if (false)
+	{
+		wrappedMethod(skill);
+	}
+			
+	if(spectreActiveSkills.Contains(skill) && skills[skill].level > 0)
+		return true;
+	
+	if(IsCoreSkill(skill))
+		return true;
+	
+	
+	for(i=0; i<skillSlots.Size(); i+=1)
+		if(skillSlots[i].socketedSkill == skill)
+			return true;
+	
+	
+	if(tempSkills.Contains(skill))
+		return true;
+	
+	return false;
+}
+
+@wrapMethod(W3PlayerAbilityManager)  function EquipSkill(skill : ESkill, slotID : int) : bool
+{
+	var idx : int;
+	var prevColor : ESkillColor;
+
+	if (false)
+	{
+		wrappedMethod(skill, slotID);
+	}
+	
+	if(!HasLearnedSkill(skill) || IsCoreSkill(skill))
+		return false;
+		
+	idx = GetSkillSlotIndex(slotID, true);		
+	
+	if(idx < 0)
+		return false;
+	
+	prevColor = GetSkillGroupColor(skillSlots[idx].groupID);
+	
+	UnequipSkill(slotID);
+
+	skillSlots[idx].socketedSkill = skill;
+	
+	LinkUpdate(GetSkillGroupColor(skillSlots[idx].groupID), prevColor);
+
+	if(!spectreActiveSkills.Contains(skill))
+	{
+		OnSkillEquip(skill);
+	}
+	
+	return true;
+}
+
 @wrapMethod(W3PlayerAbilityManager) function UnequipSkill(slotID : int) : bool
 {
 	var idx : int;
@@ -830,7 +1039,11 @@
 	skillSlots[idx].socketedSkill = S_SUndefined;
 	prevColor = GetSkillGroupColor(skillSlots[idx].groupID);
 	LinkUpdate(GetSkillGroupColor(skillSlots[idx].groupID), prevColor);
-	OnSkillUnequip(skill);
+
+	if(!spectreActiveSkills.Contains(skill))
+	{
+		OnSkillUnequip(skill);
+	}
 	
 	return true;
 }
@@ -1391,7 +1604,7 @@
 
 		if(skillType == S_Sword_s10) 
 		{
-			if(skills[i].level == 3)
+			if(skills[i].level >= 3)
 			{
 				skillPointsToAdd += 1;
 				skills[i].level = 2;	
@@ -1399,7 +1612,7 @@
 		}
 		else if(skillType == S_Sword_s09) 
 		{
-			if(skills[i].level == 5)
+			if(skills[i].level >= 5)
 			{
 				skillPointsToAdd += 4;
 				skills[i].level = 1;		
@@ -1422,7 +1635,7 @@
 		}
 		else if(skillType == S_Sword_s13) 
 		{
-			if(skills[i].level == 3)
+			if(skills[i].level >= 3)
 			{
 				skillPointsToAdd += 2;
 				skills[i].level = 1;	
@@ -1435,7 +1648,7 @@
 		}
 		else if(skillType == S_Alchemy_s09) 
 		{
-			if(skills[i].level == 3)
+			if(skills[i].level >= 3)
 			{
 				skillPointsToAdd += 2;
 				skills[i].level = 1;	
@@ -1507,7 +1720,7 @@
 	SetToxicityOffset(0.f);
 }
 
-@addMethod(W3PlayerAbilityManager) function GetMutationsUsedMutagens() : array<int>
+@addMethod(W3PlayerAbilityManager) function spectreGetMutationsUsedMutagens() : array<int>
 {
 	var total : array<int>;
 	var i : int;
@@ -1578,7 +1791,7 @@
 		theSound.SoundLoadBank( bank, true );
 	}
 	
-	UpdateMutationSkillSlots();
+	//UpdateMutationSkillSlots();
 	
 	if( GetWitcherPlayer().IsMutationActive( EPMT_Mutation10 ) && GetWitcherPlayer().GetStatPercents(BCS_Toxicity) >= GetWitcherPlayer().GetToxicityDamageThreshold() && GetWitcherPlayer().IsInCombat() )
 	{
@@ -1604,29 +1817,12 @@
 	}
 }
 
-@addMethod(W3PlayerAbilityManager) function LoadCurrentMutationSoundBank()
-{
-	var bank : string;
-	
-	bank = GetMutationSoundBank( GetEquippedMutationType() );
-	if( bank != "" && !theSound.SoundIsBankLoaded( bank ) )
-	{
-		theSound.SoundLoadBank( bank, true );
-	}
-}
-
-@wrapMethod(W3PlayerAbilityManager) function OnMutationFullyResearched( mutationType : EPlayerMutationType )
+@replaceMethod(W3PlayerAbilityManager) function OnMutationFullyResearched( mutationType : EPlayerMutationType )
 {
 	var idx, firstLockedSlotIdx, i : int;
 	var attributeName : name;
 	var min, max : SAbilityAttributeValue;
 	var tutEquip : W3TutorialManagerUIHandlerStateMutationsEquipping;
-	
-	if (false)
-	{
-		wrappedMethod(mutationType);
-	}
-	
 	
 	idx = GetMutationIndex( EPMT_MutationMaster );
 	if( idx < 0 )
@@ -1637,7 +1833,7 @@
 	
 	GetMutationResearchProgress( EPMT_MutationMaster );
 	
-	UpdateMutationSkillSlots();
+	//UpdateMutationSkillSlots();
 	
 	if( mutationType == EPMT_Mutation11 )
 	{
@@ -1650,7 +1846,7 @@
 	
 	if( GetResearchedMutationsCount() == 1 && !theGame.GetTutorialSystem().AreMessagesEnabled() )
 	{
-		SetEquippedMutation( mutationType );
+		SetEquippedMutation( mutationType, false );
 	}
 	
 	
@@ -1662,4 +1858,409 @@
 			tutEquip.OnMutationFullyResearched();
 		}
 	}
+}
+
+@wrapMethod(W3PlayerAbilityManager) function AddSkillInternal(skill : ESkill, spendPoints : bool, isTemporary : bool, optional skipTutorialMessages : bool) : bool
+{
+	if (false)
+	{
+		wrappedMethod(skill, spendPoints, isTemporary, skipTutorialMessages);
+	}
+
+	if(skill == S_SUndefined )
+	{
+		LogAssert(false,"W3AbilityManager.AddSkill: trying to add undefined skill, aborting!");
+		return false;
+	}	
+	if(HasLearnedSkill(skill) && skills[skill].level >= skills[skill].maxLevel)
+	{
+		LogAssert(false,"W3AbilityManager.AddSkill: trying to add skill already known <<" + SkillEnumToName(skill) + ">>, aborting!");
+		return false;
+	}
+	
+	
+	skills[skill].level += 1;
+	skills[skill].isTemporary = isTemporary;
+	
+	
+	if(!skills[skill].isCoreSkill)
+		pathPointsSpent[skills[skill].skillPath] = pathPointsSpent[skills[skill].skillPath] + 1;
+	
+	if(!isTemporary)
+	{
+		LogSkills("Skill <<" + skills[skill].abilityName + ">> learned");
+		
+		if(spendPoints)
+			((W3PlayerWitcher)owner).levelManager.SpendPoints(ESkillPoint, skills[skill].cost);
+		if ( this.IsSkillEquipped(skill) )
+			OnSkillEquippedLevelChange(skill, GetSkillLevel(skill) - 1, GetSkillLevel(skill));
+		theTelemetry.LogWithValueStr(TE_HERO_SKILL_UP, SkillEnumToName(skill));
+	}
+
+	if(spectreActiveSkills.Contains(skill))
+	{
+		if(skills[skill].level >= 1) OnSkillUnequip(skill);
+		OnSkillEquip(skill);
+	}
+	
+	return true;
+}
+
+@wrapMethod(W3PlayerAbilityManager) function ResetCharacterDev()
+{
+	var i : int;
+	var skillType : ESkill;
+
+	if (false)
+	{
+		wrappedMethod();
+	}
+	
+	for(i=0; i<spectreActiveSkills.Size(); i+=1)
+	{
+		if(skills[spectreActiveSkills[i]].level != 0) OnSkillUnequip(spectreActiveSkills[i]);
+	}
+	
+	for(i=0; i<skills.Size(); i+=1)
+	{			
+		skillType = skills[i].skillType;
+		
+		if(IsCoreSkill(skillType))
+			continue;
+		
+		if(IsSkillEquipped(skillType))
+			UnequipSkill(GetSkillSlotID(skillType));
+			
+		skills[i].level = 0;
+	}
+	
+	for(i=0; i<pathPointsSpent.Size(); i+=1)
+	{
+		pathPointsSpent[i] = 0;
+	}
+	
+	owner.RemoveAbilityAll('sword_adrenalinegain');
+	owner.RemoveAbilityAll('magic_staminaregen');
+	owner.RemoveAbilityAll('alchemy_potionduration');
+}
+
+@wrapMethod(W3PlayerAbilityManager) function GetResearchedMutationsCount() : int
+{
+	var researchedMutations, i : int;
+
+	if (false)
+	{
+		wrappedMethod();
+	}
+	
+	researchedMutations = 12;
+
+	for( i=0; i<mutations.Size(); i+=1 )
+	{
+		if( mutations[ i ].type != EPMT_MutationMaster && GetMutationResearchProgress( mutations[ i ].type ) == 100 )
+		{
+			researchedMutations += 1;
+		}
+	}
+	
+	return researchedMutations;
+}
+
+@wrapMethod(W3PlayerAbilityManager) function GetStat(stat : EBaseCharacterStats, optional skipLock : bool) : float	
+{
+	if (false)
+	{
+		wrappedMethod(stat, skipLock);
+	}
+
+	return (super.GetStat(stat) );
+}
+
+@replaceMethod(W3PlayerAbilityManager) function ResetMutationsDev()
+{
+	var i : int;
+	
+	for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+	{
+		UnequipSkill( mutationUnlockedSlotsIndexes[ i ] );
+	}
+
+	RemoveAllEquippedMutations();
+	
+	for( i=0; i<mutations.Size(); i+=1 )
+	{
+		mutations[i].progress.redUsed = 0;
+		mutations[i].progress.blueUsed = 0;
+		mutations[i].progress.greenUsed = 0;
+		mutations[i].progress.skillpointsUsed = 0;
+		mutations[i].progress.overallProgress = -1;	
+	}
+}
+
+@wrapMethod(W3PlayerAbilityManager) function LoadMutationDataFromXML( out xmlMutations : array< SMutation > )
+{
+	var dm : CDefinitionsManagerAccessor;
+	var main, subNode : SCustomNode;
+	var xmlMutation : SMutation;
+	var i, tmpInt, j : int;
+	var tmpName : name;
+	var tmpStr : string;
+	var skillColor : ESkillColor;
+
+	if (false)
+	{
+		wrappedMethod(xmlMutations);
+	}
+	
+	dm = theGame.GetDefinitionsManager();
+	main = dm.GetCustomDefinition( 'mutations' );
+	
+	xmlMutation.progress.redUsed = 0;
+	xmlMutation.progress.blueUsed = 0;
+	xmlMutation.progress.greenUsed = 0;
+	xmlMutation.progress.skillpointsUsed = 0;
+	xmlMutation.progress.overallProgress = -1;
+		
+	
+	for( i=0; i<main.subNodes.Size(); i+=1 )
+	{
+		dm.GetCustomNodeAttributeValueName( main.subNodes[ i ], 'type_name', tmpName );
+		xmlMutation.type = MutationNameToType( tmpName );
+		
+		dm.GetCustomNodeAttributeValueInt( main.subNodes[ i ], 'redMutagenPoints', tmpInt );
+		xmlMutation.progress.redRequired = tmpInt;
+		
+		dm.GetCustomNodeAttributeValueInt( main.subNodes[ i ], 'blueMutagenPoints', tmpInt );
+		xmlMutation.progress.blueRequired = tmpInt;
+		
+		dm.GetCustomNodeAttributeValueInt( main.subNodes[ i ], 'greenMutagenPoints', tmpInt );
+		xmlMutation.progress.greenRequired = tmpInt;
+		
+		dm.GetCustomNodeAttributeValueInt( main.subNodes[ i ], 'skillPoints', tmpInt );
+		xmlMutation.progress.skillpointsRequired = tmpInt;
+		
+		dm.GetCustomNodeAttributeValueName( main.subNodes[ i ], 'localizationNameKey_name', tmpName );
+		xmlMutation.localizationNameKey = tmpName;
+		
+		dm.GetCustomNodeAttributeValueName( main.subNodes[ i ], 'localizationDescriptionKey_name', tmpName );
+		xmlMutation.localizationDescriptionKey = tmpName;
+		
+		dm.GetCustomNodeAttributeValueName( main.subNodes[ i ], 'iconPath_name', tmpName );
+		xmlMutation.iconPath = tmpName;
+		
+		dm.GetCustomNodeAttributeValueString( main.subNodes[ i ], 'soundbank', tmpStr );
+		xmlMutation.soundbank = tmpStr;
+		
+		
+		subNode = dm.GetCustomDefinitionSubNode( main.subNodes[ i ], 'colors' );
+		for( j=0; j<subNode.values.Size(); j+=1 )
+		{
+			skillColor = SkillColorStringToType( subNode.values[ j ] );
+			xmlMutation.colors.PushBack( skillColor );
+		}
+		
+		
+		subNode = dm.GetCustomDefinitionSubNode( main.subNodes[ i ], 'required_mutations' );
+		for( j=0; j<subNode.values.Size(); j+=1 )
+		{
+			xmlMutation.requiredMutations.PushBack( MutationNameToType( subNode.values[ j ] ) );
+		}
+		
+		xmlMutations.PushBack( xmlMutation );
+		
+		xmlMutation.colors.Clear();
+		xmlMutation.requiredMutations.Clear();
+	}
+}
+
+@addField(W3PlayerAbilityManager)
+private saved var equippedMutations : array< EPlayerMutationType >;	
+
+@addMethod(W3PlayerAbilityManager) function IsMutationEquipped(mutationType: EPlayerMutationType): bool
+{
+	return equippedMutations.Contains(mutationType);
+}
+
+@addMethod(W3PlayerAbilityManager) function RemoveAllEquippedMutations(): bool
+{
+	var i : int;
+
+	for( i = 0; i < equippedMutations.Size(); i += 1 )
+	{
+		OnMutationUnequippedPre( equippedMutations[i] );
+		equippedMutations.Remove(equippedMutations[i]);
+	}
+
+	MutationsDisable();
+	return true;
+}
+
+@replaceMethod(W3PlayerAbilityManager) function SetEquippedMutation( mutationType : EPlayerMutationType, unequipp: bool ) : bool
+{
+	if( (unequipp || mutationType == EPMT_None) && !( ( CR4Player ) owner ).IsInCombat() )
+	{
+		if( equippedMutations.Size() > 0 )
+		{
+			OnMutationUnequippedPre( mutationType );			
+		}
+
+		equippedMutations.Remove(mutationType);
+		
+		return true;
+	}
+	else if( CanEquipMutation( mutationType ) )
+	{
+		equippedMutations.PushBack(mutationType);
+
+		OnMutationEquippedPost( mutationType );
+		return true;
+	}
+	
+	return false;
+}
+
+@wrapMethod(W3PlayerAbilityManager) function DEBUG_SetEquippedMutation( mutationType : EPlayerMutationType )
+{
+	if(false) 
+	{
+		wrappedMethod(mutationType);
+	}
+
+	if( mutationType == EPMT_None )
+	{	
+		RemoveAllEquippedMutations();
+	}
+	else
+	{	
+		equippedMutations.PushBack(mutationType);
+		MutationsEnable();
+		OnMutationEquippedPost( mutationType );
+	}
+}
+
+@wrapMethod(W3PlayerAbilityManager) function GetMutationColors( mutationType : EPlayerMutationType ) : array< ESkillColor >
+{
+	var idx : int;
+	var colors : array< ESkillColor >;
+
+	if(false) 
+	{
+		wrappedMethod(mutationType);
+	}
+	
+	idx = GetMutationIndex( mutationType );
+
+	if( idx == -1 )
+	{
+		return colors;
+	}
+	
+	colors = mutations[idx].colors;
+	
+	return colors;
+}
+
+@replaceMethod(W3PlayerAbilityManager) function UpdateMutationSkillSlots()
+{
+	var i : int;
+	var skillType : ESkill;
+	var skillColor : ESkillColor;
+	var mutationColors : array< ESkillColor >;
+	var mutType : array<EPlayerMutationType>;
+	
+	UpdateMutationSkillSlotsLocks();
+			
+	mutType = GetEquippedMutationType();
+
+	if( mutType.Size() > 0)
+	{
+		
+		mutationColors = GetMutationColors( mutType[mutType.Size()-1] );
+		for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+		{
+			
+			skillType = skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].socketedSkill;
+			if( skillType != S_SUndefined )
+			{
+				
+				skillColor = GetSkillColor( skillType );					
+				if( !mutationColors.Contains( skillColor ) )
+				{
+					UnequipSkill( GetSkillSlotID( skillType ) );
+				}
+			}
+		}
+	}
+	else
+	{
+		for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+		{
+			skillType = skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].socketedSkill;
+			UnequipSkill( GetSkillSlotID( skillType ) );
+		}
+	}
+}
+
+@replaceMethod(W3PlayerAbilityManager) function UpdateMutationSkillSlotsLocks()
+{
+	var i, researchedCount, masterStage, unlockedCount : int;
+	var tutEquip : W3TutorialManagerUIHandlerStateMutationsUnlockedSkillSlot;
+	var eqMut : array<EPlayerMutationType>;
+
+	eqMut = GetEquippedMutationType();
+
+	if( eqMut.Size() <= 0 )
+	{
+		for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+		{
+			skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].unlocked = true;
+		}
+	}		
+	else
+	{
+		researchedCount = GetResearchedMutationsCount();
+		masterStage = GetMasterMutationStage();
+		
+		for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+		{
+			skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].unlocked = true;
+			/*
+			if( masterStage >= i+1 && researchedCount >= GetMutationsRequiredForMasterStage( i+1 ) )
+			{
+				skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].unlocked = true;
+				
+				if( ShouldProcessTutorial( 'TutorialMutationsMasterLevelUp' ) )
+				{
+					tutEquip = ( W3TutorialManagerUIHandlerStateMutationsUnlockedSkillSlot ) theGame.GetTutorialSystem().uiHandler.GetCurrentState();
+					if( tutEquip )
+					{
+						tutEquip.OnMutationSkillSlotUnlocked();
+					}
+				}
+			}
+			else
+			{
+				skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].unlocked = false;
+			}
+			*/
+		}
+	}
+	
+	if( ShouldProcessTutorial( 'TutorialMutationsAdditionalSkillSlot' ) )
+	{
+		unlockedCount = 0;
+		for( i=0; i<mutationUnlockedSlotsIndexes.Size(); i+=1 )
+		{
+			if( skillSlots[ mutationUnlockedSlotsIndexes[ i ] ].unlocked )
+			{
+				unlockedCount += 1;
+			}
+		}
+		GameplayFactsSet( "tutorial_mutations_unlocked_skill_slots", unlockedCount );
+	}
+}
+
+@replaceMethod(W3PlayerAbilityManager) function GetEquippedMutationType() : array<EPlayerMutationType>
+{
+	return equippedMutations;
 }

@@ -9,7 +9,7 @@
 	<ability name="Starting Gloves _Stats"> <!-- medium gloves -->
 		<weight							type="base"	min="2"					/>
 		<quality						type="add"	min="1"		max="1"		/>
-		<armor							type="base"	min="61"	max="61"		/>
+		<armor							type="base"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
 		<piercing_resistance_perc		type="base"	min="0.01"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.01"				/>
@@ -18,7 +18,7 @@
 	</ability>
 	
 <!-- GLOVES LIGHT -->
-	<ability name="Gloves 01 _Stats"> <!-- low-quality light gloves -->
+	<ability name="Gloves 01 _Stats"> <!-- Hunting Gauntlets - low-quality light gloves -->
 		<weight							type="base"	min="1"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.01"				/>
@@ -29,7 +29,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 	
-	<ability name="Gloves 01 q2 _Stats"> <!-- medium-quality light gloves -->
+	<ability name="Gloves 01 q2 _Stats"> <!-- Hunting Gauntlets - medium-quality light gloves -->
 		<weight							type="base" min="1.5" 				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -40,7 +40,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 	
-	<ability name="Gloves 03 _Stats"> <!-- random quality light gloves -->
+	<ability name="Gloves 03 _Stats"> <!-- Tracker's Gauntlets - random quality light gloves -->
 		<weight							type="base" min="1.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -52,7 +52,7 @@
 	</ability>
 
 <!-- Relic -->	
-	<ability name="Gloves 04 _Stats"> <!-- relic light gloves: +2 to resists, +8-10% to crit chance -->
+	<ability name="Gloves 04 _Stats"> <!-- Assassin's Gauntlets - relic light gloves: +2 to resists, +8-10% to crit chance -->
 		<weight							type="base"	min="2"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.04"				/>
@@ -65,7 +65,7 @@
 	</ability>
 	
 <!-- Medium -->
-	<ability name="Gloves 02 _Stats"> <!-- low to medium quality medium gloves -->
+	<ability name="Gloves 02 _Stats"> <!-- Cavalry Gauntlets - low to medium quality medium gloves -->
 		<weight							type="base"	min="3.25"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -75,7 +75,7 @@
 		<elemental_resistance_perc		type="base"	min="0.03"				/>
 	</ability>
 	
-	<ability name="Heavy gloves 02 _Stats">  <!-- random quality medium gloves -->
+	<ability name="Heavy gloves 02 _Stats">  <!-- Knight's Gauntlets - random quality medium gloves -->
 		<weight							type="base" min="3.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -86,7 +86,7 @@
 	</ability>
 	
 <!-- GLOVES HEAVY -->
-	<ability name="Heavy gloves 01 _Stats"> <!-- low to medium quality heavy gloves -->
+	<ability name="Heavy gloves 01 _Stats"> <!-- Axeman's Gauntlets - low to medium quality heavy gloves -->
 		<weight							type="base"	min="5.25"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.06"				/>
@@ -97,7 +97,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="-0.05"				/>
 	</ability>
 
-	<ability name="Heavy gloves 03 _Stats">  <!-- random quality heavy gloves -->
+	<ability name="Heavy gloves 03 _Stats">  <!-- Assault Gauntlets - random quality heavy gloves -->
 		<weight							type="base" min="6.5"					/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.06"				/>
@@ -109,7 +109,7 @@
 	</ability>
 
 <!-- Relic -->
-	<ability name="Heavy gloves 04 _Stats"> <!-- relic heavy gloves: +2 to resists, +40-50% to crit damage, 50% less stamina penalty -->
+	<ability name="Heavy gloves 04 _Stats"> <!-- Nilfgaardian Guardsman's Gauntlets - relic heavy gloves: +2 to resists, +40-50% to crit damage, 50% less stamina penalty -->
 		<weight							type="base"	min="8"					/>
 		<quality						type="add"	min="4"		max="4"		/>
 		<slashing_resistance_perc		type="base"	min="0.10"				/>

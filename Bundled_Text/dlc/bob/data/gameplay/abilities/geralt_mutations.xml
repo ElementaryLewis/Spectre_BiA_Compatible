@@ -95,7 +95,7 @@
     <mutations>	
 		<mutation type_name="mutation1" redMutagenPoints="2" blueMutagenPoints="3" greenMutagenPoints="0" skillPoints="3" localizationNameKey_name="skill_name_mutation_1" localizationDescriptionKey_name="skill_desc_mutation_1" iconPath_name="icons\mutations\mutation_1.png" soundbank="ep2_mutations_01.bnk">
 			<colors>
-				red, blue
+				red, blue, yellow
 			</colors>
 			<required_mutations>
 				mutation6
@@ -125,7 +125,7 @@
 		
 		<mutation type_name="mutation5" redMutagenPoints="2" blueMutagenPoints="0" greenMutagenPoints="3" skillPoints="3" localizationNameKey_name="skill_name_mutation_5" localizationDescriptionKey_name="skill_desc_mutation_5" iconPath_name="icons\mutations\mutation_5.png">
 			<colors>
-				red, green
+				red, green, yellow
 			</colors>
 			<required_mutations>
 				mutation10
@@ -143,7 +143,7 @@
 		
 		<mutation type_name="mutation7" redMutagenPoints="2" blueMutagenPoints="3" greenMutagenPoints="0" skillPoints="3" localizationNameKey_name="skill_name_mutation_7" localizationDescriptionKey_name="skill_desc_mutation_7" iconPath_name="icons\mutations\mutation_7.png" soundbank="ep2_mutations_07.bnk">
 			<colors>
-				red, blue
+				red, blue, yellow
 			</colors>
 			<required_mutations>
 				mutation6, mutation3
@@ -158,7 +158,7 @@
 		
 		<mutation type_name="mutation9" redMutagenPoints="2" blueMutagenPoints="0" greenMutagenPoints="3" skillPoints="3" localizationNameKey_name="skill_name_mutation_9" localizationDescriptionKey_name="skill_desc_mutation_9" iconPath_name="icons\mutations\mutation_9.png" soundbank="ep2_mutations_09.bnk">
 			<colors>
-				red, green
+				red, green, yellow
 			</colors>
 			<required_mutations>
 				mutation3, mutation10
@@ -176,7 +176,7 @@
 		
 		<mutation type_name="mutation11" redMutagenPoints="3" blueMutagenPoints="2" greenMutagenPoints="2" skillPoints="4" localizationNameKey_name="skill_name_mutation_11" localizationDescriptionKey_name="skill_desc_mutation_11" iconPath_name="icons\mutations\mutation_11.png" soundbank="ep2_mutations_11.bnk">
 			<colors>
-				red, blue, green
+				red, blue, green, yellow
 			</colors>
 			<required_mutations>
 				mutation7
@@ -185,7 +185,7 @@
 		
 		<mutation type_name="mutation12" redMutagenPoints="2" blueMutagenPoints="2" greenMutagenPoints="3" skillPoints="4" localizationNameKey_name="skill_name_mutation_12" localizationDescriptionKey_name="skill_desc_mutation_12" iconPath_name="icons\mutations\mutation_12.png">
 			<colors>
-				red, blue, green
+				red, blue, green, yellow
 			</colors>
 			<required_mutations>
 				mutation9

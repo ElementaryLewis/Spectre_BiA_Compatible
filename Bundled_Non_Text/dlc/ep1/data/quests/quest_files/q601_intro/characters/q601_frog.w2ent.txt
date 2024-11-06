@@ -1,658 +1,658 @@
-q601_frog.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
-q601_frog.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-q601_frog.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-q601_frog.w2ent:                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/toad.w2ent
-q601_frog.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
-q601_frog.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
-q601_frog.w2ent:                    overriddenProperties (array:CName) : # array:CName
-q601_frog.w2ent:                        0 (CName) : tags
-q601_frog.w2ent:                        1 (CName) : movementAdjustor
-q601_frog.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
-q601_frog.w2ent:                    componentName (CName) : CAppearanceComponent0
-q601_frog.w2ent:                    className (CName) : CAppearanceComponent
-q601_frog.w2ent:                    overriddenProperties (array:CName) : # array:CName
-q601_frog.w2ent:                        0 (CName) : attachmentReplacements
-q601_frog.w2ent:            properOverrides (Bool) : true
-q601_frog.w2ent:            entityClass (CName) : CNewNPC
-q601_frog.w2ent:            entityObject (ptr:CEntity) : CNewNPC #1
-q601_frog.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
-q601_frog.w2ent:                0 (CEntityAppearance) : toad_02_morph
-q601_frog.w2ent:                    name (CName) : toad_02_morph
-q601_frog.w2ent:                    usesRobe (Bool) : true
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-q601_frog.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/toad/t_02__toad_morph.w2ent
-q601_frog.w2ent:            usedAppearances (array:CName) : # array:CName
-q601_frog.w2ent:                0 (CName) : toad_02_morph
-q601_frog.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-q601_frog.w2ent:                0 (EntitySlot) : spell
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : spell
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : head
-q601_frog.w2ent:                    transform (EngineTransform) : <EngineTransform>transform
-q601_frog.w2ent:                        X (Float) : 1.0000
-q601_frog.w2ent:                        Y (Float) : 0.0000
-q601_frog.w2ent:                        Z (Float) : 0.0000
-q601_frog.w2ent:                1 (EntitySlot) : bodyAttach
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : bodyAttach
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : tongue_middle_05
-q601_frog.w2ent:                2 (EntitySlot) : back_slot_r
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : back_slot_r
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : r_torso_helper_04
-q601_frog.w2ent:                3 (EntitySlot) : back_slot_l
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : back_slot_l
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : l_torso_helper_04
-q601_frog.w2ent:                4 (EntitySlot) : back_slot_r2
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : back_slot_r2
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : r_torso_helper_05
-q601_frog.w2ent:                5 (EntitySlot) : back_slot_l2
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : back_slot_l2
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : l_torso_helper_05
-q601_frog.w2ent:                6 (EntitySlot) : tongue_end
-q601_frog.w2ent:                    wasIncluded (Bool) : true
-q601_frog.w2ent:                    name (CName) : tongue_end
-q601_frog.w2ent:                    componentName (CName) : toad_base
-q601_frog.w2ent:                    boneName (CName) : tongue_middle_05
-q601_frog.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
-q601_frog.w2ent:                0 (ptr:CEntityTemplateParam) : CCharacterStatsParam #8
-q601_frog.w2ent:                1 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #9
-q601_frog.w2ent:                2 (ptr:CEntityTemplateParam) : CAIProfile #10
-q601_frog.w2ent:                3 (ptr:CEntityTemplateParam) : CInventoryDefinition #11
-q601_frog.w2ent:                4 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #16
-q601_frog.w2ent:                5 (ptr:CEntityTemplateParam) : CCharacterControllerParam #17
-q601_frog.w2ent:                6 (ptr:CEntityTemplateParam) : CMonsterParam #18
-q601_frog.w2ent:                7 (ptr:CEntityTemplateParam) : CAIProfile #19
-q601_frog.w2ent:                8 (ptr:CEntityTemplateParam) : CAttackRangeParam #22
-q601_frog.w2ent:                9 (ptr:CEntityTemplateParam) : CCharacterStatsParam #30
-q601_frog.w2ent:                10 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #31
-q601_frog.w2ent:                11 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #32
-q601_frog.w2ent:                12 (ptr:CEntityTemplateParam) : CBuffImmunityParam #73
-q601_frog.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-q601_frog.w2ent:                CNewNPC #0 (CNewNPC) : PreviewEntity
-q601_frog.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
-q601_frog.w2ent:                        tags (TagList) : NoHardLockIcon
-q601_frog.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-q601_frog.w2ent:                                0 (CName) : NoHardLockIcon
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-q601_frog.w2ent:                            Bufferdata (CByteArray) : 638 bytes, MD5: 7c567489ffdbe229b63117fc2e6f34b4
-q601_frog.w2ent:                            CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
-q601_frog.w2ent:                                CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-q601_frog.w2ent:                                    transform (EngineTransform) : <EngineTransform>transform
-q601_frog.w2ent:                                        X (Float) : 0.0000
-q601_frog.w2ent:                                        Y (Float) : 0.0000
-q601_frog.w2ent:                                        Z (Float) : 0.9000
-q601_frog.w2ent:                                    guid (CGUID) : 3f33def7-0fa5-4bb7-a1ad-aaace14e7417
-q601_frog.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                                    name (String) : "CSoundEmitterComponent0"
-q601_frog.w2ent:                                    graphPositionX (Int16) : 567
-q601_frog.w2ent:                                    graphPositionY (Int16) : 145
-q601_frog.w2ent:                                    banksDependency (array:CName) : # array:CName
-q601_frog.w2ent:                                        0 (CName) : monster_toad.bnk
-q601_frog.w2ent:                                    maxDistance (Float) : 60.0000
-q601_frog.w2ent:                        streamingDistance (Uint8) : 14
-q601_frog.w2ent:                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
-q601_frog.w2ent:                        name (String) : "PreviewEntity"
-q601_frog.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-q601_frog.w2ent:                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
-q601_frog.w2ent:                            1 (ptr:CComponent) : CAppearanceComponent #5
-q601_frog.w2ent:                            2 (ptr:CComponent) : CInventoryComponent #6
-q601_frog.w2ent:                            3 (ptr:CComponent) : CPhantomComponent #3
-q601_frog.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-q601_frog.w2ent:                            0 (SEntityBufferType1) : 
-q601_frog.w2ent:                                ComponentName (CName) : 
-q601_frog.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-q601_frog.w2ent:                        idTag (IdTag) :  8be7a8d1-8093-489a-a1ae-c42a0d8f3c43
-q601_frog.w2ent:                        displayName (LocalizedString) : Toad "Prince"
-q601_frog.w2ent:                        iconOffset (Vector) : <Vector>iconOffset
-q601_frog.w2ent:                            X (Float) : 0.0000
-q601_frog.w2ent:                            Y (Float) : 0.0000
-q601_frog.w2ent:                            Z (Float) : 2.0000
-q601_frog.w2ent:                            W (Float) : 0.0000
-q601_frog.w2ent:                        isUsingTooltip (Bool) : false
-q601_frog.w2ent:                        isImmortal (Bool) : true
-q601_frog.w2ent:                        level (Int32) : 30
-q601_frog.w2ent:                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : toad_base
-q601_frog.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : toad_base
-q601_frog.w2ent:                        tags (TagList) : NoHardLockIcon
-q601_frog.w2ent:                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-q601_frog.w2ent:                                0 (CName) : NoHardLockIcon
-q601_frog.w2ent:                        guid (CGUID) : 9fa9e495-78da-440a-a86e-6cb0e70f9bc8
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                            0 (handle:IAttachment) : CHardAttachment #2
-q601_frog.w2ent:                        name (String) : "toad_base"
-q601_frog.w2ent:                        graphPositionX (Int16) : 382
-q601_frog.w2ent:                        graphPositionY (Int16) : 240
-q601_frog.w2ent:                        ragdoll (handle:CRagdoll) : characters/base_entities/arachas_base/arachas_ragdoll.w2ragdoll
-q601_frog.w2ent:                        skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/toad_base/toad_base.w2rig
-q601_frog.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-q601_frog.w2ent:                            0 (SBehaviorGraphInstanceSlot) : Combat
-q601_frog.w2ent:                                instanceName (CName) : Combat
-q601_frog.w2ent:                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
-q601_frog.w2ent:                                alwaysOnTopOfStack (Bool) : true
-q601_frog.w2ent:                            1 (SBehaviorGraphInstanceSlot) : Cutscene
-q601_frog.w2ent:                                instanceName (CName) : Cutscene
-q601_frog.w2ent:                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-q601_frog.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
-q601_frog.w2ent:                CHardAttachment #2 (CHardAttachment) : tongue_middle_05
-q601_frog.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-q601_frog.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
-q601_frog.w2ent:                        child (ptr:CNode) : CPhantomComponent #3
-q601_frog.w2ent:                        parentSlotName (CName) : tongue_middle_05
-q601_frog.w2ent:                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #4
-q601_frog.w2ent:                CPhantomComponent #3 (CPhantomComponent) : CPhantomComponent0
-q601_frog.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-q601_frog.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #2
-q601_frog.w2ent:                        guid (CGUID) : 2e19d986-da79-4441-9ffe-a80456c0ae1d
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                            0 (handle:IAttachment) : CHardAttachment #2
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        name (String) : "CPhantomComponent0"
-q601_frog.w2ent:                        graphPositionX (Int16) : 168
-q601_frog.w2ent:                        graphPositionY (Int16) : 135
-q601_frog.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
-q601_frog.w2ent:                            0 (CName) : Character
-q601_frog.w2ent:                            1 (CName) : Ragdoll
-q601_frog.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
-q601_frog.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-q601_frog.w2ent:                            X (Float) : 0.5000
-q601_frog.w2ent:                            Y (Float) : 0.5000
-q601_frog.w2ent:                            Z (Float) : 0.5000
-q601_frog.w2ent:                            W (Float) : 1.0000
-q601_frog.w2ent:                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
-q601_frog.w2ent:                CSkeletonBoneSlot #4 (CSkeletonBoneSlot) : 
-q601_frog.w2ent:                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
-q601_frog.w2ent:                        boneIndex (Uint32) : 41
-q601_frog.w2ent:                CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
-q601_frog.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-q601_frog.w2ent:                        guid (CGUID) : 32a13019-4e42-4e0f-816f-e743e6343fb3
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        name (String) : "CAppearanceComponent0"
-q601_frog.w2ent:                        graphPositionX (Int16) : 309
-q601_frog.w2ent:                        graphPositionY (Int16) : 414
-q601_frog.w2ent:                        forcedAppearance (CName) : toad_01
-q601_frog.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-q601_frog.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-q601_frog.w2ent:                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
-q601_frog.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
-q601_frog.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q601_frog.w2ent:                                    newName (CName) : CInventoryComponent0
-q601_frog.w2ent:                                    newClass (CName) : CInventoryComponent
-q601_frog.w2ent:                                1 (SAttachmentReplacement) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
-q601_frog.w2ent:                                    oldName (CName) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
-q601_frog.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-q601_frog.w2ent:                                    newName (CName) : CPhantomComponent0
-q601_frog.w2ent:                                    newClass (CName) : CPhantomComponent
-q601_frog.w2ent:                CInventoryComponent #6 (CInventoryComponent) : CInventoryComponent0
-q601_frog.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-q601_frog.w2ent:                        guid (CGUID) : bbe1c426-c74a-4fb6-8168-221ff19035fc
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        name (String) : "CInventoryComponent0"
-q601_frog.w2ent:                        graphPositionX (Int16) : 256
-q601_frog.w2ent:                        graphPositionY (Int16) : 320
-q601_frog.w2ent:            cookedEffectsVersion (Uint32) : 1
-q601_frog.w2ent:            Unk1 (Uint32) : 0
-q601_frog.w2ent:    CNewNPC #1 (CNewNPC) : 
-q601_frog.w2ent:        CNewNPC (CNewNPC) : 
-q601_frog.w2ent:            tags (TagList) : NoHardLockIcon
-q601_frog.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-q601_frog.w2ent:                    0 (CName) : NoHardLockIcon
-q601_frog.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-q601_frog.w2ent:                Bufferdata (CByteArray) : 638 bytes, MD5: 7c567489ffdbe229b63117fc2e6f34b4
-q601_frog.w2ent:                CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
-q601_frog.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-q601_frog.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-q601_frog.w2ent:                            X (Float) : 0.0000
-q601_frog.w2ent:                            Y (Float) : 0.0000
-q601_frog.w2ent:                            Z (Float) : 0.9000
-q601_frog.w2ent:                        guid (CGUID) : 3f33def7-0fa5-4bb7-a1ad-aaace14e7417
-q601_frog.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                        name (String) : "CSoundEmitterComponent0"
-q601_frog.w2ent:                        graphPositionX (Int16) : 567
-q601_frog.w2ent:                        graphPositionY (Int16) : 145
-q601_frog.w2ent:                        banksDependency (array:CName) : # array:CName
-q601_frog.w2ent:                            0 (CName) : monster_toad.bnk
-q601_frog.w2ent:                        maxDistance (Float) : 60.0000
-q601_frog.w2ent:            streamingDistance (Uint8) : 14
-q601_frog.w2ent:            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
-q601_frog.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-q601_frog.w2ent:                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
-q601_frog.w2ent:                1 (ptr:CComponent) : CAppearanceComponent #6
-q601_frog.w2ent:                2 (ptr:CComponent) : CInventoryComponent #7
-q601_frog.w2ent:                3 (ptr:CComponent) : CPhantomComponent #4
-q601_frog.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-q601_frog.w2ent:                0 (SEntityBufferType1) : 
-q601_frog.w2ent:                    ComponentName (CName) : 
-q601_frog.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-q601_frog.w2ent:            idTag (IdTag) :  8be7a8d1-8093-489a-a1ae-c42a0d8f3c43
-q601_frog.w2ent:            displayName (LocalizedString) : Toad "Prince"
-q601_frog.w2ent:            iconOffset (Vector) : <Vector>iconOffset
-q601_frog.w2ent:                X (Float) : 0.0000
-q601_frog.w2ent:                Y (Float) : 0.0000
-q601_frog.w2ent:                Z (Float) : 2.0000
-q601_frog.w2ent:                W (Float) : 0.0000
-q601_frog.w2ent:            isUsingTooltip (Bool) : false
-q601_frog.w2ent:            isImmortal (Bool) : true
-q601_frog.w2ent:            level (Int32) : 30
-q601_frog.w2ent:    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : toad_base
-q601_frog.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : toad_base
-q601_frog.w2ent:            tags (TagList) : NoHardLockIcon
-q601_frog.w2ent:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-q601_frog.w2ent:                    0 (CName) : NoHardLockIcon
-q601_frog.w2ent:            guid (CGUID) : 9fa9e495-78da-440a-a86e-6cb0e70f9bc8
-q601_frog.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                0 (handle:IAttachment) : CHardAttachment #3
-q601_frog.w2ent:            name (String) : "toad_base"
-q601_frog.w2ent:            ragdoll (handle:CRagdoll) : characters/base_entities/arachas_base/arachas_ragdoll.w2ragdoll
-q601_frog.w2ent:            skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/toad_base/toad_base.w2rig
-q601_frog.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-q601_frog.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
-q601_frog.w2ent:                    instanceName (CName) : Combat
-q601_frog.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
-q601_frog.w2ent:                    alwaysOnTopOfStack (Bool) : true
-q601_frog.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
-q601_frog.w2ent:                    instanceName (CName) : Cutscene
-q601_frog.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-q601_frog.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
-q601_frog.w2ent:    CHardAttachment #3 (CHardAttachment) : tongue_middle_05
-q601_frog.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-q601_frog.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
-q601_frog.w2ent:            child (ptr:CNode) : CPhantomComponent #4
-q601_frog.w2ent:            parentSlotName (CName) : tongue_middle_05
-q601_frog.w2ent:            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #5
-q601_frog.w2ent:    CPhantomComponent #4 (CPhantomComponent) : CPhantomComponent0
-q601_frog.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-q601_frog.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #3
-q601_frog.w2ent:            guid (CGUID) : 2e19d986-da79-4441-9ffe-a80456c0ae1d
-q601_frog.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:                0 (handle:IAttachment) : CHardAttachment #3
-q601_frog.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            name (String) : "CPhantomComponent0"
-q601_frog.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
-q601_frog.w2ent:                0 (CName) : Character
-q601_frog.w2ent:                1 (CName) : Ragdoll
-q601_frog.w2ent:            shapeType (EPhantomShape) : PS_Sphere
-q601_frog.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
-q601_frog.w2ent:                X (Float) : 0.5000
-q601_frog.w2ent:                Y (Float) : 0.5000
-q601_frog.w2ent:                Z (Float) : 0.5000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:            onTriggerEnteredScriptEvent (CName) : OnActorCollision
-q601_frog.w2ent:    CSkeletonBoneSlot #5 (CSkeletonBoneSlot) : 
-q601_frog.w2ent:        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
-q601_frog.w2ent:            boneIndex (Uint32) : 41
-q601_frog.w2ent:    CAppearanceComponent #6 (CAppearanceComponent) : CAppearanceComponent0
-q601_frog.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-q601_frog.w2ent:            guid (CGUID) : 32a13019-4e42-4e0f-816f-e743e6343fb3
-q601_frog.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            name (String) : "CAppearanceComponent0"
-q601_frog.w2ent:            forcedAppearance (CName) : toad_01
-q601_frog.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-q601_frog.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-q601_frog.w2ent:                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
-q601_frog.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
-q601_frog.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q601_frog.w2ent:                        newName (CName) : CInventoryComponent0
-q601_frog.w2ent:                        newClass (CName) : CInventoryComponent
-q601_frog.w2ent:                    1 (SAttachmentReplacement) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
-q601_frog.w2ent:                        oldName (CName) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
-q601_frog.w2ent:                        oldClass (CName) : CExternalProxyComponent
-q601_frog.w2ent:                        newName (CName) : CPhantomComponent0
-q601_frog.w2ent:                        newClass (CName) : CPhantomComponent
-q601_frog.w2ent:    CInventoryComponent #7 (CInventoryComponent) : CInventoryComponent0
-q601_frog.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-q601_frog.w2ent:            guid (CGUID) : bbe1c426-c74a-4fb6-8168-221ff19035fc
-q601_frog.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-q601_frog.w2ent:            name (String) : "CInventoryComponent0"
-q601_frog.w2ent:    CCharacterStatsParam #8 (CCharacterStatsParam) : frogson
-q601_frog.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : frogson
-q601_frog.w2ent:            name (String) : "frogson"
-q601_frog.w2ent:    CAnimAnimsetsParam #9 (CAnimAnimsetsParam) : toad_combat
-q601_frog.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : toad_combat
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad_combat"
-q601_frog.w2ent:            componentName (String) : "toad_base"
-q601_frog.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
-q601_frog.w2ent:                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/monsters/moster_toad.w2anims
-q601_frog.w2ent:    CAIProfile #10 (CAIProfile) : AG_CURSED
-q601_frog.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            attitudeGroup (CName) : AG_CURSED
-q601_frog.w2ent:    CInventoryDefinition #11 (CInventoryDefinition) : 
-q601_frog.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
-q601_frog.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #12
-q601_frog.w2ent:                1 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #14
-q601_frog.w2ent:    CInventoryDefinitionEntry #12 (CInventoryDefinitionEntry) : monster_weapon
-q601_frog.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
-q601_frog.w2ent:            category (CName) : monster_weapon
-q601_frog.w2ent:            isMount (Bool) : true
-q601_frog.w2ent:            isLootable (Bool) : false
-q601_frog.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #13
-q601_frog.w2ent:    CInventoryInitializerUniform #13 (CInventoryInitializerUniform) : mon_toad_claw_weapon
-q601_frog.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-q601_frog.w2ent:            itemName (CName) : mon_toad_claw_weapon
-q601_frog.w2ent:    CInventoryDefinitionEntry #14 (CInventoryDefinitionEntry) : monster_weapon
-q601_frog.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
-q601_frog.w2ent:            category (CName) : monster_weapon
-q601_frog.w2ent:            isMount (Bool) : true
-q601_frog.w2ent:            isLootable (Bool) : false
-q601_frog.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #15
-q601_frog.w2ent:    CInventoryInitializerUniform #15 (CInventoryInitializerUniform) : mon_toad_tongue_weapon
-q601_frog.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-q601_frog.w2ent:            itemName (CName) : mon_toad_tongue_weapon
-q601_frog.w2ent:    CAnimConstraintsParam #16 (CAnimConstraintsParam) : CBehaviorGraph:dlc\ep1\data\gameplay\behaviors\npc\behaviorgraph\monster_toad_constraints.w2beh
-q601_frog.w2ent:        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_constraints.w2beh
-q601_frog.w2ent:    CCharacterControllerParam #17 (CCharacterControllerParam) : toad_base_character_controller
-q601_frog.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : toad_base_character_controller
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad_base_character_controller"
-q601_frog.w2ent:            height (Float) : 2.5000
-q601_frog.w2ent:            physicalRadius (Float) : 2.3000
-q601_frog.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Max_Unpushable
-q601_frog.w2ent:    CMonsterParam #18 (CMonsterParam) : toad_base_monster_params
-q601_frog.w2ent:        CMonsterParam (CMonsterParam) : toad_base_monster_params
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad_base_monster_params"
-q601_frog.w2ent:            monsterCategory (Int32) : 3
-q601_frog.w2ent:            soundMonsterName (CName) : Toad
-q601_frog.w2ent:    CAIProfile #19 (CAIProfile) : AG_CURSED
-q601_frog.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #20
-q601_frog.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #21
-q601_frog.w2ent:            attitudeGroup (CName) : AG_CURSED
-q601_frog.w2ent:    CAISenseParams #20 (CAISenseParams) : 
-q601_frog.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-q601_frog.w2ent:            rangeMax (Float) : 40.0000
-q601_frog.w2ent:            rangeAngle (Float) : 240.0000
-q601_frog.w2ent:            height (Float) : 5.0000
-q601_frog.w2ent:    CAISenseParams #21 (CAISenseParams) : 
-q601_frog.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-q601_frog.w2ent:            rangeMax (Float) : 40.0000
-q601_frog.w2ent:            rangeAngle (Float) : 360.0000
-q601_frog.w2ent:            height (Float) : 5.0000
-q601_frog.w2ent:    CAttackRangeParam #22 (CAttackRangeParam) : attack_ranges
-q601_frog.w2ent:        CAttackRangeParam (CAttackRangeParam) : attack_ranges
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "attack_ranges"
-q601_frog.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
-q601_frog.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #23
-q601_frog.w2ent:                1 (ptr:CAIAttackRange) : CConeAttackRange #24
-q601_frog.w2ent:                2 (ptr:CAIAttackRange) : CConeAttackRange #25
-q601_frog.w2ent:                3 (ptr:CAIAttackRange) : CConeAttackRange #26
-q601_frog.w2ent:                4 (ptr:CAIAttackRange) : CConeAttackRange #27
-q601_frog.w2ent:                5 (ptr:CAIAttackRange) : CBoxAttackRange #28
-q601_frog.w2ent:                6 (ptr:CAIAttackRange) : CSphereAttackRange #29
-q601_frog.w2ent:    CConeAttackRange #23 (CConeAttackRange) : cone
-q601_frog.w2ent:        CConeAttackRange (CConeAttackRange) : cone
-q601_frog.w2ent:            name (CName) : cone
-q601_frog.w2ent:            rangeMax (Float) : 3.0000
-q601_frog.w2ent:            height (Float) : 3.0000
-q601_frog.w2ent:            position (Vector) : <Vector>position
-q601_frog.w2ent:                X (Float) : 0.0000
-q601_frog.w2ent:                Y (Float) : 2.0000
-q601_frog.w2ent:                Z (Float) : 0.0000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:            rangeAngle (Float) : 140.0000
-q601_frog.w2ent:    CConeAttackRange #24 (CConeAttackRange) : tongue
-q601_frog.w2ent:        CConeAttackRange (CConeAttackRange) : tongue
-q601_frog.w2ent:            name (CName) : tongue
-q601_frog.w2ent:            rangeMax (Float) : 6.0000
-q601_frog.w2ent:            position (Vector) : <Vector>position
-q601_frog.w2ent:                X (Float) : 0.0000
-q601_frog.w2ent:                Y (Float) : 1.5000
-q601_frog.w2ent:                Z (Float) : 0.0000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:    CConeAttackRange #25 (CConeAttackRange) : counter_left
-q601_frog.w2ent:        CConeAttackRange (CConeAttackRange) : counter_left
-q601_frog.w2ent:            name (CName) : counter_left
-q601_frog.w2ent:            angleOffset (Float) : 90.0000
-q601_frog.w2ent:            position (Vector) : <Vector>position
-q601_frog.w2ent:                X (Float) : -1.5000
-q601_frog.w2ent:                Y (Float) : 0.0000
-q601_frog.w2ent:                Z (Float) : 0.0000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:    CConeAttackRange #26 (CConeAttackRange) : counter_right
-q601_frog.w2ent:        CConeAttackRange (CConeAttackRange) : counter_right
-q601_frog.w2ent:            name (CName) : counter_right
-q601_frog.w2ent:            angleOffset (Float) : 270.0000
-q601_frog.w2ent:            position (Vector) : <Vector>position
-q601_frog.w2ent:                X (Float) : 1.5000
-q601_frog.w2ent:                Y (Float) : 0.0000
-q601_frog.w2ent:                Z (Float) : 0.0000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:    CConeAttackRange #27 (CConeAttackRange) : counter_back
-q601_frog.w2ent:        CConeAttackRange (CConeAttackRange) : counter_back
-q601_frog.w2ent:            name (CName) : counter_back
-q601_frog.w2ent:            angleOffset (Float) : 180.0000
-q601_frog.w2ent:            position (Vector) : <Vector>position
-q601_frog.w2ent:                X (Float) : 0.0000
-q601_frog.w2ent:                Y (Float) : -1.5000
-q601_frog.w2ent:                Z (Float) : 0.0000
-q601_frog.w2ent:                W (Float) : 1.0000
-q601_frog.w2ent:    CBoxAttackRange #28 (CBoxAttackRange) : tongue_long
-q601_frog.w2ent:        CBoxAttackRange (CBoxAttackRange) : tongue_long
-q601_frog.w2ent:            name (CName) : tongue_long
-q601_frog.w2ent:            rangeMax (Float) : 11.0000
-q601_frog.w2ent:            height (Float) : 3.0000
-q601_frog.w2ent:    CSphereAttackRange #29 (CSphereAttackRange) : around
-q601_frog.w2ent:        CSphereAttackRange (CSphereAttackRange) : around
-q601_frog.w2ent:            name (CName) : around
-q601_frog.w2ent:            rangeMax (Float) : 4.0000
-q601_frog.w2ent:            height (Float) : 2.0000
-q601_frog.w2ent:    CCharacterStatsParam #30 (CCharacterStatsParam) : toad_base_abilities
-q601_frog.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : toad_base_abilities
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad_base_abilities"
-q601_frog.w2ent:            abilities (array:CName) : # array:CName
-q601_frog.w2ent:                0 (CName) : mon_toad_base
-q601_frog.w2ent:                1 (CName) : InstantKillImmune
-q601_frog.w2ent:                2 (CName) : BurnIgnore
-q601_frog.w2ent:    CAnimBehaviorsParam #31 (CAnimBehaviorsParam) : toad
-q601_frog.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : toad
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad"
-q601_frog.w2ent:            componentName (String) : "toad_base"
-q601_frog.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-q601_frog.w2ent:                0 (SBehaviorGraphInstanceSlot) : Combat
-q601_frog.w2ent:                    instanceName (CName) : Combat
-q601_frog.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
-q601_frog.w2ent:                    alwaysOnTopOfStack (Bool) : true
-q601_frog.w2ent:                1 (SBehaviorGraphInstanceSlot) : Cutscene
-q601_frog.w2ent:                    instanceName (CName) : Cutscene
-q601_frog.w2ent:                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
-q601_frog.w2ent:    CAIBaseTreeTemplateParam #32 (CAIBaseTreeTemplateParam) : 
-q601_frog.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #33
-q601_frog.w2ent:    CAIMonsterBase #33 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
-q601_frog.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
-q601_frog.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIToadDefaults #34
-q601_frog.w2ent:    CAIToadDefaults #34 (CAIToadDefaults) : 
-q601_frog.w2ent:        CAIToadDefaults (CAIToadDefaults) : <CAIToadDefaults>CAIToadDefaults
-q601_frog.w2ent:            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #35
-q601_frog.w2ent:            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #37
-q601_frog.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #39
-q601_frog.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #41
-q601_frog.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #55
-q601_frog.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #71
-q601_frog.w2ent:    CAIMonsterSpawnDefault #35 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
-q601_frog.w2ent:        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #36
-q601_frog.w2ent:    CAIMonsterSpawnParams #36 (CAIMonsterSpawnParams) : 
-q601_frog.w2ent:        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
-q601_frog.w2ent:    CAIMonsterTaunt #37 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
-q601_frog.w2ent:        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #38
-q601_frog.w2ent:    CAIMonsterTauntParams #38 (CAIMonsterTauntParams) : 
-q601_frog.w2ent:        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
-q601_frog.w2ent:    CAIMonsterAxii #39 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
-q601_frog.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #40
-q601_frog.w2ent:    CAIMonsterAxiiParams #40 (CAIMonsterAxiiParams) : 
-q601_frog.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
-q601_frog.w2ent:    CAIMonsterIdleDecorator #41 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
-q601_frog.w2ent:        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #42
-q601_frog.w2ent:    CAIMonsterIdleDecoratorParams #42 (CAIMonsterIdleDecoratorParams) : 
-q601_frog.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
-q601_frog.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #43
-q601_frog.w2ent:    CAIMonsterReactionsTree #43 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-q601_frog.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #44
-q601_frog.w2ent:    CAIMonsterReactionsTreeParams #44 (CAIMonsterReactionsTreeParams) : 
-q601_frog.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-q601_frog.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-q601_frog.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #45
-q601_frog.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #47
-q601_frog.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #49
-q601_frog.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #51
-q601_frog.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #53
-q601_frog.w2ent:    CAIActionSearchForTarget #45 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #46
-q601_frog.w2ent:    CAINpcReactionSearchTarget #46 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
-q601_frog.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
-q601_frog.w2ent:    CAIActionAllySearchesTarget #47 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #48
-q601_frog.w2ent:    CAINpcReactionJoinSearchForTarget #48 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
-q601_frog.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
-q601_frog.w2ent:    CAIActionPlayWithTarget #49 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #50
-q601_frog.w2ent:    CAINpcReactionPlayWithTarget #50 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
-q601_frog.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
-q601_frog.w2ent:    CAIActionMoveInPack #51 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #52
-q601_frog.w2ent:    CAINpcReactionMoveInPack #52 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
-q601_frog.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
-q601_frog.w2ent:    CAIActionRunWildInPack #53 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #54
-q601_frog.w2ent:    CAINpcReactionRunWildInPack #54 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
-q601_frog.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
-q601_frog.w2ent:    CAIMonsterCombat #55 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
-q601_frog.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #56
-q601_frog.w2ent:    CAIMonsterCombatParams #56 (CAIMonsterCombatParams) : MonsterHitReaction
-q601_frog.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
-q601_frog.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIToadCombatLogic #57
-q601_frog.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #59
-q601_frog.w2ent:            reachabilityTolerance (Float) : 5.0000
-q601_frog.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
-q601_frog.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #61
-q601_frog.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #63
-q601_frog.w2ent:    CAIToadCombatLogic #57 (CAIToadCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_toad_logic.w2behtree
-q601_frog.w2ent:        CAIToadCombatLogic (CAIToadCombatLogic) : <CAIToadCombatLogic>CAIToadCombatLogic
-q601_frog.w2ent:            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_toad_logic.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #58
-q601_frog.w2ent:    CAIMonsterCombatLogicParams #58 (CAIMonsterCombatLogicParams) : 
-q601_frog.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
-q601_frog.w2ent:    CAIMonsterDamageReactionTree #59 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
-q601_frog.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
-q601_frog.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #60
-q601_frog.w2ent:    CAIDamageReactionTreeParams #60 (CAIDamageReactionTreeParams) : 
-q601_frog.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
-q601_frog.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
-q601_frog.w2ent:    CAINpcCriticalState #61 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
-q601_frog.w2ent:        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
-q601_frog.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #62
-q601_frog.w2ent:    CAINpcCriticalStateParams #62 (CAINpcCriticalStateParams) : 
-q601_frog.w2ent:        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
-q601_frog.w2ent:    CAIMonsterCombatReactionsTree #63 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-q601_frog.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-q601_frog.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #64
-q601_frog.w2ent:    CAIMonsterReactionsTreeParams #64 (CAIMonsterReactionsTreeParams) : 
-q601_frog.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-q601_frog.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-q601_frog.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #65
-q601_frog.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #67
-q601_frog.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #69
-q601_frog.w2ent:    CAIActionLeadEscape #65 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #66
-q601_frog.w2ent:    CAINpcReactionLeadEscape #66 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-q601_frog.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-q601_frog.w2ent:    CAIActionLeadEscape #67 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #68
-q601_frog.w2ent:            actionEventName (CName) : FearsomeEvent
-q601_frog.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
-q601_frog.w2ent:    CAINpcReactionLeadEscape #68 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-q601_frog.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-q601_frog.w2ent:    CAIActionEscapeInPack #69 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-q601_frog.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-q601_frog.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #70
-q601_frog.w2ent:    CAINpcReactionEscapeInPack #70 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
-q601_frog.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
-q601_frog.w2ent:    CAIMonsterDeath #71 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
-q601_frog.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
-q601_frog.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
-q601_frog.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #72
-q601_frog.w2ent:    CAIMonsterDeathParams #72 (CAIMonsterDeathParams) : 
-q601_frog.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
-q601_frog.w2ent:    CBuffImmunityParam #73 (CBuffImmunityParam) : toad_base_immunities
-q601_frog.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : toad_base_immunities
-q601_frog.w2ent:            wasIncluded (Bool) : true
-q601_frog.w2ent:            name (String) : "toad_base_immunities"
-q601_frog.w2ent:            immunityTo (array:Int32) : # array:Int32
-q601_frog.w2ent:                0 (Int32) : 19
-q601_frog.w2ent:                1 (Int32) : 15
-q601_frog.w2ent:                2 (Int32) : 7
-q601_frog.w2ent:                3 (Int32) : 5
+    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/toad.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : toad_base
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : tags
+                        1 (CName) : movementAdjustor
+                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+                    componentName (CName) : CAppearanceComponent0
+                    className (CName) : CAppearanceComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : attachmentReplacements
+            properOverrides (Bool) : true
+            entityClass (CName) : CNewNPC
+            entityObject (ptr:CEntity) : CNewNPC #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : toad_02_morph
+                    name (CName) : toad_02_morph
+                    usesRobe (Bool) : true
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/monsters/toad/t_02__toad_morph.w2ent
+            usedAppearances (array:CName) : # array:CName
+                0 (CName) : toad_02_morph
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : spell
+                    wasIncluded (Bool) : true
+                    name (CName) : spell
+                    componentName (CName) : toad_base
+                    boneName (CName) : head
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 1.0000
+                        Y (Float) : 0.0000
+                        Z (Float) : 0.0000
+                1 (EntitySlot) : bodyAttach
+                    wasIncluded (Bool) : true
+                    name (CName) : bodyAttach
+                    componentName (CName) : toad_base
+                    boneName (CName) : tongue_middle_05
+                2 (EntitySlot) : back_slot_r
+                    wasIncluded (Bool) : true
+                    name (CName) : back_slot_r
+                    componentName (CName) : toad_base
+                    boneName (CName) : r_torso_helper_04
+                3 (EntitySlot) : back_slot_l
+                    wasIncluded (Bool) : true
+                    name (CName) : back_slot_l
+                    componentName (CName) : toad_base
+                    boneName (CName) : l_torso_helper_04
+                4 (EntitySlot) : back_slot_r2
+                    wasIncluded (Bool) : true
+                    name (CName) : back_slot_r2
+                    componentName (CName) : toad_base
+                    boneName (CName) : r_torso_helper_05
+                5 (EntitySlot) : back_slot_l2
+                    wasIncluded (Bool) : true
+                    name (CName) : back_slot_l2
+                    componentName (CName) : toad_base
+                    boneName (CName) : l_torso_helper_05
+                6 (EntitySlot) : tongue_end
+                    wasIncluded (Bool) : true
+                    name (CName) : tongue_end
+                    componentName (CName) : toad_base
+                    boneName (CName) : tongue_middle_05
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CCharacterStatsParam #8
+                1 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #9
+                2 (ptr:CEntityTemplateParam) : CAIProfile #10
+                3 (ptr:CEntityTemplateParam) : CInventoryDefinition #11
+                4 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #16
+                5 (ptr:CEntityTemplateParam) : CCharacterControllerParam #17
+                6 (ptr:CEntityTemplateParam) : CMonsterParam #18
+                7 (ptr:CEntityTemplateParam) : CAIProfile #19
+                8 (ptr:CEntityTemplateParam) : CAttackRangeParam #22
+                9 (ptr:CEntityTemplateParam) : CCharacterStatsParam #30
+                10 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #31
+                11 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #32
+                12 (ptr:CEntityTemplateParam) : CBuffImmunityParam #73
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CNewNPC #0 (CNewNPC) : PreviewEntity
+                    CNewNPC (CNewNPC) : PreviewEntity
+                        tags (TagList) : NoHardLockIcon
+                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                                0 (CName) : NoHardLockIcon
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                            Bufferdata (CByteArray) : 638 bytes, MD5: 7c567489ffdbe229b63117fc2e6f34b4
+                            CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                                CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                                    transform (EngineTransform) : <EngineTransform>transform
+                                        X (Float) : 0.0000
+                                        Y (Float) : 0.0000
+                                        Z (Float) : 0.9000
+                                    guid (CGUID) : 3f33def7-0fa5-4bb7-a1ad-aaace14e7417
+                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                                    name (String) : "CSoundEmitterComponent0"
+                                    graphPositionX (Int16) : 567
+                                    graphPositionY (Int16) : 145
+                                    banksDependency (array:CName) : # array:CName
+                                        0 (CName) : monster_toad.bnk
+                                    maxDistance (Float) : 60.0000
+                        streamingDistance (Uint8) : 14
+                        entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
+                            1 (ptr:CComponent) : CAppearanceComponent #5
+                            2 (ptr:CComponent) : CInventoryComponent #6
+                            3 (ptr:CComponent) : CPhantomComponent #3
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  8be7a8d1-8093-489a-a1ae-c42a0d8f3c43
+                        displayName (LocalizedString) : Toad "Prince"
+                        iconOffset (Vector) : <Vector>iconOffset
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 2.0000
+                            W (Float) : 0.0000
+                        isUsingTooltip (Bool) : false
+                        isImmortal (Bool) : true
+                        level (Int32) : 30
+                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : toad_base
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : toad_base
+                        tags (TagList) : NoHardLockIcon
+                            tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                                0 (CName) : NoHardLockIcon
+                        guid (CGUID) : 9fa9e495-78da-440a-a86e-6cb0e70f9bc8
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                        name (String) : "toad_base"
+                        graphPositionX (Int16) : 382
+                        graphPositionY (Int16) : 240
+                        ragdoll (handle:CRagdoll) : characters/base_entities/arachas_base/arachas_ragdoll.w2ragdoll
+                        skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/toad_base/toad_base.w2rig
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : Combat
+                                instanceName (CName) : Combat
+                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
+                                alwaysOnTopOfStack (Bool) : true
+                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+                CHardAttachment #2 (CHardAttachment) : tongue_middle_05
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #3
+                        parentSlotName (CName) : tongue_middle_05
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #4
+                CPhantomComponent #3 (CPhantomComponent) : CPhantomComponent0
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #2
+                        guid (CGUID) : 2e19d986-da79-4441-9ffe-a80456c0ae1d
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent0"
+                        graphPositionX (Int16) : 168
+                        graphPositionY (Int16) : 135
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                            1 (CName) : Ragdoll
+                        shapeType (EPhantomShape) : PS_Sphere
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.5000
+                            Y (Float) : 0.5000
+                            Z (Float) : 0.5000
+                            W (Float) : 1.0000
+                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+                CSkeletonBoneSlot #4 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 41
+                CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : 32a13019-4e42-4e0f-816f-e743e6343fb3
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : 309
+                        graphPositionY (Int16) : 414
+                        forcedAppearance (CName) : toad_01
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
+                                    oldName (CName) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CInventoryComponent0
+                                    newClass (CName) : CInventoryComponent
+                                1 (SAttachmentReplacement) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
+                                    oldName (CName) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CPhantomComponent0
+                                    newClass (CName) : CPhantomComponent
+                CInventoryComponent #6 (CInventoryComponent) : CInventoryComponent0
+                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+                        guid (CGUID) : bbe1c426-c74a-4fb6-8168-221ff19035fc
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CInventoryComponent0"
+                        graphPositionX (Int16) : 256
+                        graphPositionY (Int16) : 320
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CNewNPC #1 (CNewNPC) : 
+        CNewNPC (CNewNPC) : 
+            tags (TagList) : NoHardLockIcon
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : NoHardLockIcon
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                Bufferdata (CByteArray) : 638 bytes, MD5: 7c567489ffdbe229b63117fc2e6f34b4
+                CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 0.9000
+                        guid (CGUID) : 3f33def7-0fa5-4bb7-a1ad-aaace14e7417
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        graphPositionX (Int16) : 567
+                        graphPositionY (Int16) : 145
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_toad.bnk
+                        maxDistance (Float) : 60.0000
+            streamingDistance (Uint8) : 14
+            entityStaticFlags (EEntityStaticFlags) : ESF_Streamed
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+                1 (ptr:CComponent) : CAppearanceComponent #6
+                2 (ptr:CComponent) : CInventoryComponent #7
+                3 (ptr:CComponent) : CPhantomComponent #4
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  8be7a8d1-8093-489a-a1ae-c42a0d8f3c43
+            displayName (LocalizedString) : Toad "Prince"
+            iconOffset (Vector) : <Vector>iconOffset
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 2.0000
+                W (Float) : 0.0000
+            isUsingTooltip (Bool) : false
+            isImmortal (Bool) : true
+            level (Int32) : 30
+    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : toad_base
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : toad_base
+            tags (TagList) : NoHardLockIcon
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : NoHardLockIcon
+            guid (CGUID) : 9fa9e495-78da-440a-a86e-6cb0e70f9bc8
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+            name (String) : "toad_base"
+            ragdoll (handle:CRagdoll) : characters/base_entities/arachas_base/arachas_ragdoll.w2ragdoll
+            skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/toad_base/toad_base.w2rig
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
+                    alwaysOnTopOfStack (Bool) : true
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+    CHardAttachment #3 (CHardAttachment) : tongue_middle_05
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #4
+            parentSlotName (CName) : tongue_middle_05
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #5
+    CPhantomComponent #4 (CPhantomComponent) : CPhantomComponent0
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+            transformParent (ptr:CHardAttachment) : CHardAttachment #3
+            guid (CGUID) : 2e19d986-da79-4441-9ffe-a80456c0ae1d
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent0"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+                1 (CName) : Ragdoll
+            shapeType (EPhantomShape) : PS_Sphere
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.5000
+                Y (Float) : 0.5000
+                Z (Float) : 0.5000
+                W (Float) : 1.0000
+            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+    CSkeletonBoneSlot #5 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 41
+    CAppearanceComponent #6 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : 32a13019-4e42-4e0f-816f-e743e6343fb3
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            forcedAppearance (CName) : toad_01
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
+                        oldName (CName) : proxy_CInventoryComponent0_3DB66026-4EB4B804-FA75B2BE-23DE480D
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CInventoryComponent0
+                        newClass (CName) : CInventoryComponent
+                    1 (SAttachmentReplacement) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
+                        oldName (CName) : proxy_CPhantomComponent0_BF8D072B-415AE996-F045FE86-703C5188
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CPhantomComponent0
+                        newClass (CName) : CPhantomComponent
+    CInventoryComponent #7 (CInventoryComponent) : CInventoryComponent0
+        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+            guid (CGUID) : bbe1c426-c74a-4fb6-8168-221ff19035fc
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CInventoryComponent0"
+    CCharacterStatsParam #8 (CCharacterStatsParam) : frogson
+        CCharacterStatsParam (CCharacterStatsParam) : frogson
+            name (String) : "frogson"
+    CAnimAnimsetsParam #9 (CAnimAnimsetsParam) : toad_combat
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : toad_combat
+            wasIncluded (Bool) : true
+            name (String) : "toad_combat"
+            componentName (String) : "toad_base"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/monsters/moster_toad.w2anims
+    CAIProfile #10 (CAIProfile) : AG_CURSED
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            attitudeGroup (CName) : AG_CURSED
+    CInventoryDefinition #11 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            wasIncluded (Bool) : true
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #12
+                1 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #14
+    CInventoryDefinitionEntry #12 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #13
+    CInventoryInitializerUniform #13 (CInventoryInitializerUniform) : mon_toad_claw_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_toad_claw_weapon
+    CInventoryDefinitionEntry #14 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #15
+    CInventoryInitializerUniform #15 (CInventoryInitializerUniform) : mon_toad_tongue_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_toad_tongue_weapon
+    CAnimConstraintsParam #16 (CAnimConstraintsParam) : CBehaviorGraph:dlc\ep1\data\gameplay\behaviors\npc\behaviorgraph\monster_toad_constraints.w2beh
+        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
+            wasIncluded (Bool) : true
+            graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_constraints.w2beh
+    CCharacterControllerParam #17 (CCharacterControllerParam) : toad_base_character_controller
+        CCharacterControllerParam (CCharacterControllerParam) : toad_base_character_controller
+            wasIncluded (Bool) : true
+            name (String) : "toad_base_character_controller"
+            height (Float) : 2.5000
+            physicalRadius (Float) : 2.3000
+            interactionPriorityEnum (EInteractionPriority) : IP_Max_Unpushable
+    CMonsterParam #18 (CMonsterParam) : toad_base_monster_params
+        CMonsterParam (CMonsterParam) : toad_base_monster_params
+            wasIncluded (Bool) : true
+            name (String) : "toad_base_monster_params"
+            monsterCategory (Int32) : 3
+            soundMonsterName (CName) : Toad
+    CAIProfile #19 (CAIProfile) : AG_CURSED
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #20
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #21
+            attitudeGroup (CName) : AG_CURSED
+    CAISenseParams #20 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 40.0000
+            rangeAngle (Float) : 240.0000
+            height (Float) : 5.0000
+    CAISenseParams #21 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 40.0000
+            rangeAngle (Float) : 360.0000
+            height (Float) : 5.0000
+    CAttackRangeParam #22 (CAttackRangeParam) : attack_ranges
+        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+            wasIncluded (Bool) : true
+            name (String) : "attack_ranges"
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #23
+                1 (ptr:CAIAttackRange) : CConeAttackRange #24
+                2 (ptr:CAIAttackRange) : CConeAttackRange #25
+                3 (ptr:CAIAttackRange) : CConeAttackRange #26
+                4 (ptr:CAIAttackRange) : CConeAttackRange #27
+                5 (ptr:CAIAttackRange) : CBoxAttackRange #28
+                6 (ptr:CAIAttackRange) : CSphereAttackRange #29
+    CConeAttackRange #23 (CConeAttackRange) : cone
+        CConeAttackRange (CConeAttackRange) : cone
+            name (CName) : cone
+            rangeMax (Float) : 3.0000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 2.0000
+                Z (Float) : 0.0000
+                W (Float) : 1.0000
+            rangeAngle (Float) : 140.0000
+    CConeAttackRange #24 (CConeAttackRange) : tongue
+        CConeAttackRange (CConeAttackRange) : tongue
+            name (CName) : tongue
+            rangeMax (Float) : 6.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 1.5000
+                Z (Float) : 0.0000
+                W (Float) : 1.0000
+    CConeAttackRange #25 (CConeAttackRange) : counter_left
+        CConeAttackRange (CConeAttackRange) : counter_left
+            name (CName) : counter_left
+            angleOffset (Float) : 90.0000
+            position (Vector) : <Vector>position
+                X (Float) : -1.5000
+                Y (Float) : 0.0000
+                Z (Float) : 0.0000
+                W (Float) : 1.0000
+    CConeAttackRange #26 (CConeAttackRange) : counter_right
+        CConeAttackRange (CConeAttackRange) : counter_right
+            name (CName) : counter_right
+            angleOffset (Float) : 270.0000
+            position (Vector) : <Vector>position
+                X (Float) : 1.5000
+                Y (Float) : 0.0000
+                Z (Float) : 0.0000
+                W (Float) : 1.0000
+    CConeAttackRange #27 (CConeAttackRange) : counter_back
+        CConeAttackRange (CConeAttackRange) : counter_back
+            name (CName) : counter_back
+            angleOffset (Float) : 180.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : -1.5000
+                Z (Float) : 0.0000
+                W (Float) : 1.0000
+    CBoxAttackRange #28 (CBoxAttackRange) : tongue_long
+        CBoxAttackRange (CBoxAttackRange) : tongue_long
+            name (CName) : tongue_long
+            rangeMax (Float) : 11.0000
+            height (Float) : 3.0000
+    CSphereAttackRange #29 (CSphereAttackRange) : around
+        CSphereAttackRange (CSphereAttackRange) : around
+            name (CName) : around
+            rangeMax (Float) : 4.0000
+            height (Float) : 2.0000
+    CCharacterStatsParam #30 (CCharacterStatsParam) : toad_base_abilities
+        CCharacterStatsParam (CCharacterStatsParam) : toad_base_abilities
+            wasIncluded (Bool) : true
+            name (String) : "toad_base_abilities"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_toad_base
+                1 (CName) : InstantKillImmune
+                2 (CName) : BurnIgnore
+    CAnimBehaviorsParam #31 (CAnimBehaviorsParam) : toad
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : toad
+            wasIncluded (Bool) : true
+            name (String) : "toad"
+            componentName (String) : "toad_base"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/monster_toad_combat.w2beh
+                    alwaysOnTopOfStack (Bool) : true
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+    CAIBaseTreeTemplateParam #32 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #33
+    CAIMonsterBase #33 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIToadDefaults #34
+    CAIToadDefaults #34 (CAIToadDefaults) : 
+        CAIToadDefaults (CAIToadDefaults) : <CAIToadDefaults>CAIToadDefaults
+            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #35
+            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #37
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #39
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecorator #41
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #55
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #71
+    CAIMonsterSpawnDefault #35 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #36
+    CAIMonsterSpawnParams #36 (CAIMonsterSpawnParams) : 
+        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+    CAIMonsterTaunt #37 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #38
+    CAIMonsterTauntParams #38 (CAIMonsterTauntParams) : 
+        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+    CAIMonsterAxii #39 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #40
+    CAIMonsterAxiiParams #40 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecorator #41 (CAIMonsterIdleDecorator) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecorator (CAIMonsterIdleDecorator) : <CAIMonsterIdleDecorator>CAIMonsterIdleDecorator
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #42
+    CAIMonsterIdleDecoratorParams #42 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #43
+    CAIMonsterReactionsTree #43 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #44
+    CAIMonsterReactionsTreeParams #44 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #45
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #47
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #49
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #51
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #53
+    CAIActionSearchForTarget #45 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #46
+    CAINpcReactionSearchTarget #46 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #47 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #48
+    CAINpcReactionJoinSearchForTarget #48 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #49 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #50
+    CAINpcReactionPlayWithTarget #50 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #51 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #52
+    CAINpcReactionMoveInPack #52 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #53 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #54
+    CAINpcReactionRunWildInPack #54 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIMonsterCombat #55 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #56
+    CAIMonsterCombatParams #56 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIToadCombatLogic #57
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #59
+            reachabilityTolerance (Float) : 5.0000
+            createHitReactionEvent (CName) : MonsterHitReaction
+            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #61
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #63
+    CAIToadCombatLogic #57 (CAIToadCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_toad_logic.w2behtree
+        CAIToadCombatLogic (CAIToadCombatLogic) : <CAIToadCombatLogic>CAIToadCombatLogic
+            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_toad_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #58
+    CAIMonsterCombatLogicParams #58 (CAIMonsterCombatLogicParams) : 
+        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+    CAIMonsterDamageReactionTree #59 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #60
+    CAIDamageReactionTreeParams #60 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAINpcCriticalState #61 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #62
+    CAINpcCriticalStateParams #62 (CAINpcCriticalStateParams) : 
+        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+    CAIMonsterCombatReactionsTree #63 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #64
+    CAIMonsterReactionsTreeParams #64 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #65
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #67
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #69
+    CAIActionLeadEscape #65 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #66
+    CAINpcReactionLeadEscape #66 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #67 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #68
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #68 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #69 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #70
+    CAINpcReactionEscapeInPack #70 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIMonsterDeath #71 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #72
+    CAIMonsterDeathParams #72 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+    CBuffImmunityParam #73 (CBuffImmunityParam) : toad_base_immunities
+        CBuffImmunityParam (CBuffImmunityParam) : toad_base_immunities
+            wasIncluded (Bool) : true
+            name (String) : "toad_base_immunities"
+            immunityTo (array:Int32) : # array:Int32
+                0 (Int32) : 19
+                1 (Int32) : 15
+                2 (Int32) : 7
+                3 (Int32) : 5

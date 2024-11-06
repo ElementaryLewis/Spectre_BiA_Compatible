@@ -1,890 +1,890 @@
-mq6003_taxes.w2phase:    CQuestPhase #0 (CQuestPhase) : 
-mq6003_taxes.w2phase:        CQuestPhase (CQuestPhase) : <CQuestPhase>CQuestPhase
-mq6003_taxes.w2phase:            graph (ptr:CQuestGraph) : CQuestGraph #1
-mq6003_taxes.w2phase:    CQuestGraph #1 (CQuestGraph) : 
-mq6003_taxes.w2phase:        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
-mq6003_taxes.w2phase:            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
-mq6003_taxes.w2phase:                0 (ptr:CGraphBlock) : CQuestPhaseBlock #2
-mq6003_taxes.w2phase:                1 (ptr:CGraphBlock) : CQuestPhaseBlock #13
-mq6003_taxes.w2phase:                2 (ptr:CGraphBlock) : CQuestPhaseBlock #3
-mq6003_taxes.w2phase:                3 (ptr:CGraphBlock) : CQuestPhaseBlock #84
-mq6003_taxes.w2phase:                4 (ptr:CGraphBlock) : CQuestPauseConditionBlock #90
-mq6003_taxes.w2phase:                5 (ptr:CGraphBlock) : CQuestPauseConditionBlock #92
-mq6003_taxes.w2phase:                6 (ptr:CGraphBlock) : CQuestCutControlBlock #91
-mq6003_taxes.w2phase:                7 (ptr:CGraphBlock) : CQuestPhaseInputBlock #97
-mq6003_taxes.w2phase:                8 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #4
-mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
-mq6003_taxes.w2phase:    CQuestPhaseBlock #2 (CQuestPhaseBlock) : Scene
-mq6003_taxes.w2phase:        CQuestPhaseBlock (CQuestPhaseBlock) : Scene
-mq6003_taxes.w2phase:            name (String) : "Scene"
-mq6003_taxes.w2phase:            guid (CGUID) : f6cfdb54-2627-405a-9c20-a3ee7aac70f7
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Finished
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #3
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:                1 (SCachedConnections) : <SCachedConnections>1
-mq6003_taxes.w2phase:                    socketId (CName) : Vivaldi
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #13
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #34
-mq6003_taxes.w2phase:    CQuestPhaseBlock #3 (CQuestPhaseBlock) : Reward & Cleanup
-mq6003_taxes.w2phase:        CQuestPhaseBlock (CQuestPhaseBlock) : Reward & Cleanup
-mq6003_taxes.w2phase:            name (String) : "Reward & Cleanup"
-mq6003_taxes.w2phase:            guid (CGUID) : 51c6b2a2-8dfe-40e2-b1b7-a3aa52288051
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #4
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #5
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #4 (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 2bac8c49-cfce-496e-9b17-c68b4ad6a0b9
-mq6003_taxes.w2phase:    CQuestGraph #5 (CQuestGraph) : 
-mq6003_taxes.w2phase:        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
-mq6003_taxes.w2phase:            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
-mq6003_taxes.w2phase:                0 (ptr:CGraphBlock) : CQuestPauseConditionBlock #6
-mq6003_taxes.w2phase:                1 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #7
-mq6003_taxes.w2phase:                2 (ptr:CGraphBlock) : CQuestPhaseInputBlock #11
-mq6003_taxes.w2phase:                3 (ptr:CGraphBlock) : CQuestRewardBlock #12
-mq6003_taxes.w2phase:                4 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #8
-mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
-mq6003_taxes.w2phase:    CQuestPauseConditionBlock #6 (CQuestPauseConditionBlock) : player leaves oxenfurt
-mq6003_taxes.w2phase:        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "player leaves oxenfurt"
-mq6003_taxes.w2phase:            guid (CGUID) : fd32dd26-6d81-437f-8673-17890b12928a
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #7
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
-mq6003_taxes.w2phase:                0 (ptr:IQuestCondition) : CQuestInsideTriggerCondition #10
-mq6003_taxes.w2phase:    CQuestStoryPhaseSetterBlock #7 (CQuestStoryPhaseSetterBlock) : despawn tax collector
-mq6003_taxes.w2phase:        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "despawn tax collector"
-mq6003_taxes.w2phase:            guid (CGUID) : 146a1647-9f41-46c7-bd03-3b3d95367ab2
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #8
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
-mq6003_taxes.w2phase:                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #9
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #8 (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 1e4b38c4-05ad-4c45-9777-a9c3fe5846b0
-mq6003_taxes.w2phase:    CDeactivateSpawnset #9 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
-mq6003_taxes.w2phase:        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
-mq6003_taxes.w2phase:            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
-mq6003_taxes.w2phase:    CQuestInsideTriggerCondition #10 (CQuestInsideTriggerCondition) : mq6003_trigger_oxenfurt
-mq6003_taxes.w2phase:        CQuestInsideTriggerCondition (CQuestInsideTriggerCondition) : 
-mq6003_taxes.w2phase:            triggerTag (CName) : mq6003_trigger_oxenfurt
-mq6003_taxes.w2phase:            isInside (Bool) : false
-mq6003_taxes.w2phase:    CQuestPhaseInputBlock #11 (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 6478d0b0-5519-432d-ac82-5ab3c4afbaf8
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) :  
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestRewardBlock #12
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:    CQuestRewardBlock #12 (CQuestRewardBlock) : mq6003_completed
-mq6003_taxes.w2phase:        CQuestRewardBlock (CQuestRewardBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : c6a622f5-28ea-433b-b4f8-277c67e531ff
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #6
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            rewardName (CName) : mq6003_completed
-mq6003_taxes.w2phase:            caption (String) : "Reward [mq6003_completed]"
-mq6003_taxes.w2phase:    CQuestPhaseBlock #13 (CQuestPhaseBlock) : Vivaldi
-mq6003_taxes.w2phase:        CQuestPhaseBlock (CQuestPhaseBlock) : Vivaldi
-mq6003_taxes.w2phase:            name (String) : "Vivaldi"
-mq6003_taxes.w2phase:            guid (CGUID) : ec227814-5a63-4dc1-8508-6075e598cf74
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #3
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #14
-mq6003_taxes.w2phase:    CQuestGraph #14 (CQuestGraph) : 
-mq6003_taxes.w2phase:        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
-mq6003_taxes.w2phase:            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
-mq6003_taxes.w2phase:                0 (ptr:CGraphBlock) : CJournalQuestBlock #15
-mq6003_taxes.w2phase:                1 (ptr:CGraphBlock) : CJournalQuestBlock #16
-mq6003_taxes.w2phase:                2 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #20
-mq6003_taxes.w2phase:                3 (ptr:CGraphBlock) : CQuestCheckpointBlock #19
-mq6003_taxes.w2phase:                4 (ptr:CGraphBlock) : CQuestSceneBlock #18
-mq6003_taxes.w2phase:                5 (ptr:CGraphBlock) : CQuestScriptBlock #17
-mq6003_taxes.w2phase:                6 (ptr:CGraphBlock) : CQuestScriptBlock #27
-mq6003_taxes.w2phase:                7 (ptr:CGraphBlock) : CQuestFactsDBChangingBlock #28
-mq6003_taxes.w2phase:                8 (ptr:CGraphBlock) : CQuestPauseConditionBlock #29
-mq6003_taxes.w2phase:                9 (ptr:CGraphBlock) : CQuestInteractionDialogBlock #30
-mq6003_taxes.w2phase:                10 (ptr:CGraphBlock) : CQuestPhaseInputBlock #32
-mq6003_taxes.w2phase:                11 (ptr:CGraphBlock) : CQuestFactsDBChangingBlock #33
-mq6003_taxes.w2phase:                12 (ptr:CGraphBlock) : CJournalQuestBlock #98
-mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
-mq6003_taxes.w2phase:    CJournalQuestBlock #15 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 3c2871e1-bd19-4286-9d86-3c28166e5b5e
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #16
-mq6003_taxes.w2phase:                            putName (CName) : Success
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #23
-mq6003_taxes.w2phase:    CJournalQuestBlock #16 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : c3f50d2f-9576-4df4-87da-69794f98d7d8
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #17
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #21
-mq6003_taxes.w2phase:            showInfoOnScreen (Bool) : true
-mq6003_taxes.w2phase:    CQuestScriptBlock #17 (CQuestScriptBlock) : take 1000 gold
-mq6003_taxes.w2phase:        CQuestScriptBlock (CQuestScriptBlock) : take 1000 gold
-mq6003_taxes.w2phase:            name (String) : "take 1000 gold"
-mq6003_taxes.w2phase:            comment (String) : "take 1000 gold"
-mq6003_taxes.w2phase:            guid (CGUID) : f8ca6e70-7bc6-41be-b1af-23d002d05ac2
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #18
-mq6003_taxes.w2phase:                            putName (CName) : mq6003_one_liner_in
-mq6003_taxes.w2phase:            functionName (CName) : RemoveItemQuest
-mq6003_taxes.w2phase:            parameters (array:QuestScriptParam) : # array:QuestScriptParam
-mq6003_taxes.w2phase:                0 (QuestScriptParam) : entityTag
-mq6003_taxes.w2phase:                    name (CName) : entityTag
-mq6003_taxes.w2phase:                    value (CVariant) : PLAYER
-mq6003_taxes.w2phase:                1 (QuestScriptParam) : item_name
-mq6003_taxes.w2phase:                    name (CName) : item_name
-mq6003_taxes.w2phase:                    value (CVariant) : Crown
-mq6003_taxes.w2phase:                2 (QuestScriptParam) : item_category
-mq6003_taxes.w2phase:                    name (CName) : item_category
-mq6003_taxes.w2phase:                    value (CVariant) : 
-mq6003_taxes.w2phase:                3 (QuestScriptParam) : item_tag
-mq6003_taxes.w2phase:                    name (CName) : item_tag
-mq6003_taxes.w2phase:                    value (CVariant) : 
-mq6003_taxes.w2phase:                4 (QuestScriptParam) : quantity
-mq6003_taxes.w2phase:                    name (CName) : quantity
-mq6003_taxes.w2phase:                    value (CVariant) : 1000
-mq6003_taxes.w2phase:            caption (String) : "Script [RemoveItemQuest]"
-mq6003_taxes.w2phase:            BufferParameters (CCompressedBuffer:CVariant) : <PLAYER> <Crown> <> <> <1000>
-mq6003_taxes.w2phase:                entityTag (CVariant) : PLAYER
-mq6003_taxes.w2phase:                item_name (CVariant) : Crown
-mq6003_taxes.w2phase:                item_category (CVariant) : 
-mq6003_taxes.w2phase:                item_tag (CVariant) : 
-mq6003_taxes.w2phase:                quantity (CVariant) : 1000
-mq6003_taxes.w2phase:    CQuestSceneBlock #18 (CQuestSceneBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_geralt_one_liner.w2scene
-mq6003_taxes.w2phase:        CQuestSceneBlock (CQuestSceneBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : fc045565-af35-4a42-81fb-1def6d12c2c7
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : mq6003_one_liner_out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #19
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_geralt_one_liner.w2scene
-mq6003_taxes.w2phase:            shouldFadeOnLoading_NamesCooked (array:CName) : # array:CName
-mq6003_taxes.w2phase:                0 (CName) : mq6003_one_liner_in
-mq6003_taxes.w2phase:            shouldFadeOnLoading_ValuesCooked (array:Bool) : # array:Bool
-mq6003_taxes.w2phase:                0 (Bool) : false
-mq6003_taxes.w2phase:    CQuestCheckpointBlock #19 (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 84a9488e-aaf9-49cc-9726-b274914b9847
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #20
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #20 (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 4e0367c4-a289-49d6-ace4-ce0a78ad828a
-mq6003_taxes.w2phase:    CJournalPath #21 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #22
-mq6003_taxes.w2phase:    CJournalPath #22 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:    CJournalPath #23 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #24
-mq6003_taxes.w2phase:    CJournalPath #24 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #25
-mq6003_taxes.w2phase:    CJournalPath #25 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #26
-mq6003_taxes.w2phase:    CJournalPath #26 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 8226dea7-f425-495d-8409-13ae5ea6d462
-mq6003_taxes.w2phase:    CQuestScriptBlock #27 (CQuestScriptBlock) : RemoveItemQuest
-mq6003_taxes.w2phase:        CQuestScriptBlock (CQuestScriptBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 0fd6deee-6b7d-46f8-9d7d-04d68fdf06a4
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestFactsDBChangingBlock #28
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            functionName (CName) : RemoveItemQuest
-mq6003_taxes.w2phase:            parameters (array:QuestScriptParam) : # array:QuestScriptParam
-mq6003_taxes.w2phase:                0 (QuestScriptParam) : entityTag
-mq6003_taxes.w2phase:                    name (CName) : entityTag
-mq6003_taxes.w2phase:                    value (CVariant) : PLAYER
-mq6003_taxes.w2phase:                1 (QuestScriptParam) : item_name
-mq6003_taxes.w2phase:                    name (CName) : item_name
-mq6003_taxes.w2phase:                    value (CVariant) : mq6003_tax_bill
-mq6003_taxes.w2phase:                2 (QuestScriptParam) : item_category
-mq6003_taxes.w2phase:                    name (CName) : item_category
-mq6003_taxes.w2phase:                    value (CVariant) : 
-mq6003_taxes.w2phase:                3 (QuestScriptParam) : item_tag
-mq6003_taxes.w2phase:                    name (CName) : item_tag
-mq6003_taxes.w2phase:                    value (CVariant) : 
-mq6003_taxes.w2phase:                4 (QuestScriptParam) : quantity
-mq6003_taxes.w2phase:                    name (CName) : quantity
-mq6003_taxes.w2phase:                    value (CVariant) : 1
-mq6003_taxes.w2phase:            caption (String) : "Script [RemoveItemQuest]"
-mq6003_taxes.w2phase:            BufferParameters (CCompressedBuffer:CVariant) : <PLAYER> <mq6003_tax_bill> <> <> <1>
-mq6003_taxes.w2phase:                entityTag (CVariant) : PLAYER
-mq6003_taxes.w2phase:                item_name (CVariant) : mq6003_tax_bill
-mq6003_taxes.w2phase:                item_category (CVariant) : 
-mq6003_taxes.w2phase:                item_tag (CVariant) : 
-mq6003_taxes.w2phase:                quantity (CVariant) : 1
-mq6003_taxes.w2phase:    CQuestFactsDBChangingBlock #28 (CQuestFactsDBChangingBlock) : mq6003_fact_taxes_paid
-mq6003_taxes.w2phase:        CQuestFactsDBChangingBlock (CQuestFactsDBChangingBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "mq6003_fact_taxes_paid"
-mq6003_taxes.w2phase:            guid (CGUID) : ac5617d6-ecaa-4d62-bd45-49fc10133fa0
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #15
-mq6003_taxes.w2phase:                            putName (CName) : Success
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #98
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:            factID (String) : "mq6003_fact_taxes_paid"
-mq6003_taxes.w2phase:            value (Int32) : 1
-mq6003_taxes.w2phase:    CQuestPauseConditionBlock #29 (CQuestPauseConditionBlock) : 1s
-mq6003_taxes.w2phase:        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 1s
-mq6003_taxes.w2phase:            name (String) : "1s"
-mq6003_taxes.w2phase:            guid (CGUID) : 30a63cda-7f26-4ab2-b543-1c2553d9b6c2
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestInteractionDialogBlock #30
-mq6003_taxes.w2phase:                            putName (CName) : mq6003_vivaldi_taxes_in
-mq6003_taxes.w2phase:            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
-mq6003_taxes.w2phase:                0 (ptr:IQuestCondition) : CQuestRealtimeDelayCondition #31
-mq6003_taxes.w2phase:    CQuestInteractionDialogBlock #30 (CQuestInteractionDialogBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_vimme_vivaldi_default_replacer.w2scene
-mq6003_taxes.w2phase:        CQuestInteractionDialogBlock (CQuestInteractionDialogBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : cd0dc5ab-b663-4f2e-a781-0cfa5a663060
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : mq6003_taxes_paid
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #27
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:                1 (SCachedConnections) : <SCachedConnections>1
-mq6003_taxes.w2phase:                    socketId (CName) : mq6003_taxes_not_paid
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #29
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_vimme_vivaldi_default_replacer.w2scene
-mq6003_taxes.w2phase:            actorTags (TagList) : vivaldi
-mq6003_taxes.w2phase:                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
-mq6003_taxes.w2phase:                    0 (CName) : vivaldi
-mq6003_taxes.w2phase:    CQuestRealtimeDelayCondition #31 (CQuestRealtimeDelayCondition) : 
-mq6003_taxes.w2phase:        CQuestRealtimeDelayCondition (CQuestRealtimeDelayCondition) : 
-mq6003_taxes.w2phase:            howLong (GameTime) : <GameTime>howLong
-mq6003_taxes.w2phase:                m_seconds (Int32) : 1
-mq6003_taxes.w2phase:    CQuestPhaseInputBlock #32 (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 49e61dac-01f7-44ab-b149-2c6fdf7c0c1d
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) :  
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestFactsDBChangingBlock #33
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:    CQuestFactsDBChangingBlock #33 (CQuestFactsDBChangingBlock) : mq6003_flip_vivaldi_default
-mq6003_taxes.w2phase:        CQuestFactsDBChangingBlock (CQuestFactsDBChangingBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "mq6003_flip_vivaldi_default"
-mq6003_taxes.w2phase:            guid (CGUID) : 86c6e8aa-a0e9-41f5-933a-a4a8143c0c98
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestInteractionDialogBlock #30
-mq6003_taxes.w2phase:                            putName (CName) : mq6003_vivaldi_taxes_in
-mq6003_taxes.w2phase:            factID (String) : "mq6003_flip_vivaldi_default"
-mq6003_taxes.w2phase:            value (Int32) : 1
-mq6003_taxes.w2phase:    CQuestGraph #34 (CQuestGraph) : 
-mq6003_taxes.w2phase:        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
-mq6003_taxes.w2phase:            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
-mq6003_taxes.w2phase:                0 (ptr:CGraphBlock) : CQuestSceneBlock #35
-mq6003_taxes.w2phase:                1 (ptr:CGraphBlock) : CQuestDeletionMarkerBlock #43
-mq6003_taxes.w2phase:                2 (ptr:CGraphBlock) : CJournalQuestBlock #58
-mq6003_taxes.w2phase:                3 (ptr:CGraphBlock) : CJournalQuestBlock #59
-mq6003_taxes.w2phase:                4 (ptr:CGraphBlock) : CQuestScriptBlock #56
-mq6003_taxes.w2phase:                5 (ptr:CGraphBlock) : CJournalQuestBlock #44
-mq6003_taxes.w2phase:                6 (ptr:CGraphBlock) : CJournalQuestBlock #45
-mq6003_taxes.w2phase:                7 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #41
-mq6003_taxes.w2phase:                8 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #55
-mq6003_taxes.w2phase:                9 (ptr:CGraphBlock) : CQuestCheckpointBlock #60
-mq6003_taxes.w2phase:                10 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #61
-mq6003_taxes.w2phase:                11 (ptr:CGraphBlock) : CJournalQuestBlock #36
-mq6003_taxes.w2phase:                12 (ptr:CGraphBlock) : CJournalQuestBlock #71
-mq6003_taxes.w2phase:                13 (ptr:CGraphBlock) : CJournalQuestBlock #76
-mq6003_taxes.w2phase:                14 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #47
-mq6003_taxes.w2phase:                15 (ptr:CGraphBlock) : CQuestPauseConditionBlock #81
-mq6003_taxes.w2phase:                16 (ptr:CGraphBlock) : CQuestPhaseInputBlock #83
-mq6003_taxes.w2phase:                17 (ptr:CGraphBlock) : CQuestCheckpointBlock #46
-mq6003_taxes.w2phase:                18 (ptr:CGraphBlock) : CQuestScriptBlock #42
-mq6003_taxes.w2phase:                19 (ptr:CGraphBlock) : CQuestDeletionMarkerBlock #57
-mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
-mq6003_taxes.w2phase:    CQuestSceneBlock #35 (CQuestSceneBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_tax_collector.w2scene
-mq6003_taxes.w2phase:        CQuestSceneBlock (CQuestSceneBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 206c6156-7007-4928-8e73-ca108d361079
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : mq6003__good_geralt_out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #36
-mq6003_taxes.w2phase:                            putName (CName) : Success
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #41
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:                1 (SCachedConnections) : <SCachedConnections>1
-mq6003_taxes.w2phase:                    socketId (CName) : mq6003_bad_geralt_out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #36
-mq6003_taxes.w2phase:                            putName (CName) : Success
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #55
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_tax_collector.w2scene
-mq6003_taxes.w2phase:            shouldFadeOnLoading_NamesCooked (array:CName) : # array:CName
-mq6003_taxes.w2phase:                0 (CName) : mq6003_tax_collector_in
-mq6003_taxes.w2phase:            shouldFadeOnLoading_ValuesCooked (array:Bool) : # array:Bool
-mq6003_taxes.w2phase:                0 (Bool) : true
-mq6003_taxes.w2phase:    CJournalQuestBlock #36 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : d0b343e7-262a-4983-ac7c-b7055831021c
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #37
-mq6003_taxes.w2phase:    CJournalPath #37 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #38
-mq6003_taxes.w2phase:    CJournalPath #38 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #39
-mq6003_taxes.w2phase:    CJournalPath #39 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #40
-mq6003_taxes.w2phase:    CJournalPath #40 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
-mq6003_taxes.w2phase:    CQuestStoryPhaseSetterBlock #41 (CQuestStoryPhaseSetterBlock) : despawn tax collector
-mq6003_taxes.w2phase:        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "despawn tax collector"
-mq6003_taxes.w2phase:            guid (CGUID) : 68ff959b-c1b8-421e-aee5-11ad5c47f320
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #42
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
-mq6003_taxes.w2phase:                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #54
-mq6003_taxes.w2phase:    CQuestScriptBlock #42 (CQuestScriptBlock) : FadeInQuest
-mq6003_taxes.w2phase:        CQuestScriptBlock (CQuestScriptBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 89e7c0cd-7a68-4e8f-9723-665b041caf31
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestDeletionMarkerBlock #43
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            functionName (CName) : FadeInQuest
-mq6003_taxes.w2phase:            parameters (array:QuestScriptParam) : # array:QuestScriptParam
-mq6003_taxes.w2phase:                0 (QuestScriptParam) : fadeTime
-mq6003_taxes.w2phase:                    name (CName) : fadeTime
-mq6003_taxes.w2phase:                    value (CVariant) : 1
-mq6003_taxes.w2phase:            caption (String) : "Script [FadeInQuest]"
-mq6003_taxes.w2phase:            BufferParameters (CCompressedBuffer:CVariant) : <1>
-mq6003_taxes.w2phase:                fadeTime (CVariant) : 1
-mq6003_taxes.w2phase:    CQuestDeletionMarkerBlock #43 (CQuestDeletionMarkerBlock) : 
-mq6003_taxes.w2phase:        CQuestDeletionMarkerBlock (CQuestDeletionMarkerBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 6ea84b8c-b823-447f-a31b-e9e6ad536bf6
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #44
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:            guids (array:CGUID) : # array:CGUID
-mq6003_taxes.w2phase:                0 (CGUID) : fe89c891-7ff6-4d4d-ad53-1c016ce82a9e
-mq6003_taxes.w2phase:    CJournalQuestBlock #44 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 68e82f1f-73b2-4650-9f0f-65ac22e52e6f
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #45
-mq6003_taxes.w2phase:                            putName (CName) : Success
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #50
-mq6003_taxes.w2phase:    CJournalQuestBlock #45 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : e13ec143-2221-4fff-af41-407d5b8cf7be
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #46
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #48
-mq6003_taxes.w2phase:    CQuestCheckpointBlock #46 (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 8378c8a3-53c4-412b-ba05-5522aa17e29f
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #47
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #47 (CQuestPhaseOutputBlock) : Finished
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 494a211a-8595-44aa-a6ce-9dcd02b3a3f0
-mq6003_taxes.w2phase:            socketID (CName) : Finished
-mq6003_taxes.w2phase:    CJournalPath #48 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #49
-mq6003_taxes.w2phase:    CJournalPath #49 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:    CJournalPath #50 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #51
-mq6003_taxes.w2phase:    CJournalPath #51 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #52
-mq6003_taxes.w2phase:    CJournalPath #52 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #53
-mq6003_taxes.w2phase:    CJournalPath #53 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 039a2e5a-f6ba-428b-997f-6da270b7fb18
-mq6003_taxes.w2phase:    CDeactivateSpawnset #54 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
-mq6003_taxes.w2phase:        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
-mq6003_taxes.w2phase:            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
-mq6003_taxes.w2phase:    CQuestStoryPhaseSetterBlock #55 (CQuestStoryPhaseSetterBlock) : despawn tax collector
-mq6003_taxes.w2phase:        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "despawn tax collector"
-mq6003_taxes.w2phase:            guid (CGUID) : dd63b540-5594-4f83-bd68-dd090ac9abd0
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #56
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
-mq6003_taxes.w2phase:                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #70
-mq6003_taxes.w2phase:    CQuestScriptBlock #56 (CQuestScriptBlock) : FadeInQuest
-mq6003_taxes.w2phase:        CQuestScriptBlock (CQuestScriptBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 40ed203f-5a13-4d21-b302-987b59c92e02
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestDeletionMarkerBlock #57
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            functionName (CName) : FadeInQuest
-mq6003_taxes.w2phase:            parameters (array:QuestScriptParam) : # array:QuestScriptParam
-mq6003_taxes.w2phase:                0 (QuestScriptParam) : fadeTime
-mq6003_taxes.w2phase:                    name (CName) : fadeTime
-mq6003_taxes.w2phase:                    value (CVariant) : 1
-mq6003_taxes.w2phase:            caption (String) : "Script [FadeInQuest]"
-mq6003_taxes.w2phase:            BufferParameters (CCompressedBuffer:CVariant) : <1>
-mq6003_taxes.w2phase:                fadeTime (CVariant) : 1
-mq6003_taxes.w2phase:    CQuestDeletionMarkerBlock #57 (CQuestDeletionMarkerBlock) : 
-mq6003_taxes.w2phase:        CQuestDeletionMarkerBlock (CQuestDeletionMarkerBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 69dac0fa-19cd-4e14-a2cd-4ab8c5e327a2
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #58
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:            guids (array:CGUID) : # array:CGUID
-mq6003_taxes.w2phase:                0 (CGUID) : a70e63e4-201c-4eb5-8942-30306ff1369d
-mq6003_taxes.w2phase:    CJournalQuestBlock #58 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 95d92023-93d4-4b18-950e-54897e49a892
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #59
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #66
-mq6003_taxes.w2phase:    CJournalQuestBlock #59 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : c1d96887-61dc-4d58-8301-946371087ee8
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #60
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #62
-mq6003_taxes.w2phase:            showInfoOnScreen (Bool) : true
-mq6003_taxes.w2phase:    CQuestCheckpointBlock #60 (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 4530b0c6-a551-4a57-899f-b4ccc58f8a17
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #61
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #61 (CQuestPhaseOutputBlock) : Vivaldi
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 8352f77b-3079-4834-9ed0-8d19923bb7ef
-mq6003_taxes.w2phase:            socketID (CName) : Vivaldi
-mq6003_taxes.w2phase:    CJournalPath #62 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #63
-mq6003_taxes.w2phase:    CJournalPath #63 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #64
-mq6003_taxes.w2phase:    CJournalPath #64 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #65
-mq6003_taxes.w2phase:    CJournalPath #65 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 8226dea7-f425-495d-8409-13ae5ea6d462
-mq6003_taxes.w2phase:    CJournalPath #66 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #67
-mq6003_taxes.w2phase:    CJournalPath #67 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #68
-mq6003_taxes.w2phase:    CJournalPath #68 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #69
-mq6003_taxes.w2phase:    CJournalPath #69 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : e24aa720-ff68-46b7-b3f9-4cc75e122d52
-mq6003_taxes.w2phase:    CDeactivateSpawnset #70 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
-mq6003_taxes.w2phase:        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
-mq6003_taxes.w2phase:            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
-mq6003_taxes.w2phase:    CJournalQuestBlock #71 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 14d063fb-8937-4f49-ac96-9320ba807386
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #72
-mq6003_taxes.w2phase:    CJournalPath #72 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #73
-mq6003_taxes.w2phase:    CJournalPath #73 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #74
-mq6003_taxes.w2phase:    CJournalPath #74 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #75
-mq6003_taxes.w2phase:    CJournalPath #75 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 87fc3276-97cd-4afb-a72a-7dc1649258af
-mq6003_taxes.w2phase:    CJournalQuestBlock #76 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 0c554f15-0820-4c66-8f46-c2b26f1f6f85
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #71
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #77
-mq6003_taxes.w2phase:    CJournalPath #77 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #78
-mq6003_taxes.w2phase:    CJournalPath #78 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #79
-mq6003_taxes.w2phase:    CJournalPath #79 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #80
-mq6003_taxes.w2phase:    CJournalPath #80 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
-mq6003_taxes.w2phase:    CQuestPauseConditionBlock #81 (CQuestPauseConditionBlock) : mq6003_trigger_tax_collector
-mq6003_taxes.w2phase:        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "mq6003_trigger_tax_collector"
-mq6003_taxes.w2phase:            guid (CGUID) : 92cb21ee-8a42-4021-87e7-705368e2a658
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #76
-mq6003_taxes.w2phase:                            putName (CName) : Activate
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #35
-mq6003_taxes.w2phase:                            putName (CName) : mq6003_tax_collector_in
-mq6003_taxes.w2phase:            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
-mq6003_taxes.w2phase:                0 (ptr:IQuestCondition) : CQuestEnterTriggerCondition #82
-mq6003_taxes.w2phase:    CQuestEnterTriggerCondition #82 (CQuestEnterTriggerCondition) : mq6003_trigger_tax_collector
-mq6003_taxes.w2phase:        CQuestEnterTriggerCondition (CQuestEnterTriggerCondition) : 
-mq6003_taxes.w2phase:            triggerTag (CName) : mq6003_trigger_tax_collector
-mq6003_taxes.w2phase:    CQuestPhaseInputBlock #83 (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 8611fe59-d833-423c-a664-55e8e84bb438
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) :  
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #81
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:    CQuestPhaseBlock #84 (CQuestPhaseBlock) : Setup
-mq6003_taxes.w2phase:        CQuestPhaseBlock (CQuestPhaseBlock) : Setup
-mq6003_taxes.w2phase:            name (String) : "Setup"
-mq6003_taxes.w2phase:            guid (CGUID) : 3487c111-0560-44b7-9d71-5791cd34c474
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #2
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #85
-mq6003_taxes.w2phase:    CQuestGraph #85 (CQuestGraph) : 
-mq6003_taxes.w2phase:        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
-mq6003_taxes.w2phase:            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
-mq6003_taxes.w2phase:                0 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #86
-mq6003_taxes.w2phase:                1 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #87
-mq6003_taxes.w2phase:                2 (ptr:CGraphBlock) : CQuestPhaseInputBlock #89
-mq6003_taxes.w2phase:            sourceDataRemoved (Bool) : true
-mq6003_taxes.w2phase:    CQuestStoryPhaseSetterBlock #86 (CQuestStoryPhaseSetterBlock) : spawn tax collector
-mq6003_taxes.w2phase:        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "spawn tax collector"
-mq6003_taxes.w2phase:            guid (CGUID) : d5db4b39-58c6-4370-aa32-4f17f8590235
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #87
-mq6003_taxes.w2phase:                            putName (CName) :  
-mq6003_taxes.w2phase:            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
-mq6003_taxes.w2phase:                0 (ptr:IQuestSpawnsetAction) : CActivateStoryPhase #88
-mq6003_taxes.w2phase:    CQuestPhaseOutputBlock #87 (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 51ebe999-2ea2-4176-a0ae-370fb1748018
-mq6003_taxes.w2phase:    CActivateStoryPhase #88 (CActivateStoryPhase) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
-mq6003_taxes.w2phase:        CActivateStoryPhase (CActivateStoryPhase) : <CActivateStoryPhase>CActivateStoryPhase
-mq6003_taxes.w2phase:            spawnset (soft:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
-mq6003_taxes.w2phase:            phase (CName) : start
-mq6003_taxes.w2phase:    CQuestPhaseInputBlock #89 (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : ff15f856-e349-4591-95c6-ab70887e8af5
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) :  
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #86
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:    CQuestPauseConditionBlock #90 (CQuestPauseConditionBlock) : player has less than 35000
-mq6003_taxes.w2phase:        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "player has less than 35000"
-mq6003_taxes.w2phase:            guid (CGUID) : 649523bc-6160-4a57-84b3-37ae2a86c5d6
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestCutControlBlock #91
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #92
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
-mq6003_taxes.w2phase:                0 (ptr:IQuestCondition) : CQuestActorCondition #95
-mq6003_taxes.w2phase:    CQuestCutControlBlock #91 (CQuestCutControlBlock) : 
-mq6003_taxes.w2phase:        CQuestCutControlBlock (CQuestCutControlBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : d7d553b8-a9bd-46ae-8efb-2757c8e8bbcb
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:                1 (SCachedConnections) : <SCachedConnections>1
-mq6003_taxes.w2phase:                    socketId (CName) : Thunder
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #2
-mq6003_taxes.w2phase:                            putName (CName) : Cut
-mq6003_taxes.w2phase:            permanent (Bool) : false
-mq6003_taxes.w2phase:    CQuestPauseConditionBlock #92 (CQuestPauseConditionBlock) : quest only appears if the player has 35000+ gold
-mq6003_taxes.w2phase:        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
-mq6003_taxes.w2phase:            comment (String) : "quest only appears if the player has 35000+ gold"
-mq6003_taxes.w2phase:            guid (CGUID) : a74c7d69-7166-4f69-b287-c241aab04fab
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #84
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:                        1 (SBlockDesc) : <SBlockDesc>1
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #90
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
-mq6003_taxes.w2phase:                0 (ptr:IQuestCondition) : CQuestActorCondition #93
-mq6003_taxes.w2phase:    CQuestActorCondition #93 (CQuestActorCondition) : PLAYER
-mq6003_taxes.w2phase:        CQuestActorCondition (CQuestActorCondition) : 
-mq6003_taxes.w2phase:            actorTag (CName) : PLAYER
-mq6003_taxes.w2phase:            checkType (ptr:IActorConditionType) : CQCItemQuantity #94
-mq6003_taxes.w2phase:    CQCItemQuantity #94 (CQCItemQuantity) : Crowns
-mq6003_taxes.w2phase:        CQCItemQuantity (CQCItemQuantity) : <CQCItemQuantity>CQCItemQuantity
-mq6003_taxes.w2phase:            item (CName) : Crowns
-mq6003_taxes.w2phase:            quantity (Uint32) : 10000
-mq6003_taxes.w2phase:    CQuestActorCondition #95 (CQuestActorCondition) : PLAYER
-mq6003_taxes.w2phase:        CQuestActorCondition (CQuestActorCondition) : 
-mq6003_taxes.w2phase:            actorTag (CName) : PLAYER
-mq6003_taxes.w2phase:            checkType (ptr:IActorConditionType) : CQCItemQuantity #96
-mq6003_taxes.w2phase:    CQCItemQuantity #96 (CQCItemQuantity) : Crowns
-mq6003_taxes.w2phase:        CQCItemQuantity (CQCItemQuantity) : <CQCItemQuantity>CQCItemQuantity
-mq6003_taxes.w2phase:            item (CName) : Crowns
-mq6003_taxes.w2phase:            quantity (Uint32) : 10000
-mq6003_taxes.w2phase:            compareFunc (ECompareFunc) : CF_Less
-mq6003_taxes.w2phase:    CQuestPhaseInputBlock #97 (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 274f9774-57ed-4622-8edd-4ff153f5c4a5
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) :  
-mq6003_taxes.w2phase:                    blocks (array:SBlockDesc) : # array:SBlockDesc
-mq6003_taxes.w2phase:                        0 (SBlockDesc) : <SBlockDesc>0
-mq6003_taxes.w2phase:                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #92
-mq6003_taxes.w2phase:                            putName (CName) : In
-mq6003_taxes.w2phase:    CJournalQuestBlock #98 (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:        CJournalQuestBlock (CJournalQuestBlock) : 
-mq6003_taxes.w2phase:            guid (CGUID) : 48d467e1-5fa2-4d50-8c6e-ba1071a3f43f
-mq6003_taxes.w2phase:            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
-mq6003_taxes.w2phase:                0 (SCachedConnections) : <SCachedConnections>0
-mq6003_taxes.w2phase:                    socketId (CName) : Out
-mq6003_taxes.w2phase:            questEntry (handle:CJournalPath) : CJournalPath #99
-mq6003_taxes.w2phase:            showInfoOnScreen (Bool) : true
-mq6003_taxes.w2phase:    CJournalPath #99 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #100
-mq6003_taxes.w2phase:    CJournalPath #100 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
-mq6003_taxes.w2phase:            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #101
-mq6003_taxes.w2phase:    CJournalPath #101 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
-mq6003_taxes.w2phase:            child (handle:CJournalPath) : CJournalPath #102
-mq6003_taxes.w2phase:    CJournalPath #102 (CJournalPath) : 
-mq6003_taxes.w2phase:        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
-mq6003_taxes.w2phase:            guid (CGUID) : a0015d40-4f34-4e5d-bc79-4b3891c1c984
+    CQuestPhase #0 (CQuestPhase) : 
+        CQuestPhase (CQuestPhase) : <CQuestPhase>CQuestPhase
+            graph (ptr:CQuestGraph) : CQuestGraph #1
+    CQuestGraph #1 (CQuestGraph) : 
+        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
+            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
+                0 (ptr:CGraphBlock) : CQuestPhaseBlock #2
+                1 (ptr:CGraphBlock) : CQuestPhaseBlock #13
+                2 (ptr:CGraphBlock) : CQuestPhaseBlock #3
+                3 (ptr:CGraphBlock) : CQuestPhaseBlock #84
+                4 (ptr:CGraphBlock) : CQuestPauseConditionBlock #90
+                5 (ptr:CGraphBlock) : CQuestPauseConditionBlock #92
+                6 (ptr:CGraphBlock) : CQuestCutControlBlock #91
+                7 (ptr:CGraphBlock) : CQuestPhaseInputBlock #97
+                8 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #4
+            sourceDataRemoved (Bool) : true
+    CQuestPhaseBlock #2 (CQuestPhaseBlock) : Scene
+        CQuestPhaseBlock (CQuestPhaseBlock) : Scene
+            name (String) : "Scene"
+            guid (CGUID) : f6cfdb54-2627-405a-9c20-a3ee7aac70f7
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Finished
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #3
+                            putName (CName) : In
+                1 (SCachedConnections) : <SCachedConnections>1
+                    socketId (CName) : Vivaldi
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #13
+                            putName (CName) : In
+            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #34
+    CQuestPhaseBlock #3 (CQuestPhaseBlock) : Reward & Cleanup
+        CQuestPhaseBlock (CQuestPhaseBlock) : Reward & Cleanup
+            name (String) : "Reward & Cleanup"
+            guid (CGUID) : 51c6b2a2-8dfe-40e2-b1b7-a3aa52288051
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #4
+                            putName (CName) :  
+            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #5
+    CQuestPhaseOutputBlock #4 (CQuestPhaseOutputBlock) : 
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 2bac8c49-cfce-496e-9b17-c68b4ad6a0b9
+    CQuestGraph #5 (CQuestGraph) : 
+        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
+            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
+                0 (ptr:CGraphBlock) : CQuestPauseConditionBlock #6
+                1 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #7
+                2 (ptr:CGraphBlock) : CQuestPhaseInputBlock #11
+                3 (ptr:CGraphBlock) : CQuestRewardBlock #12
+                4 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #8
+            sourceDataRemoved (Bool) : true
+    CQuestPauseConditionBlock #6 (CQuestPauseConditionBlock) : player leaves oxenfurt
+        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
+            comment (String) : "player leaves oxenfurt"
+            guid (CGUID) : fd32dd26-6d81-437f-8673-17890b12928a
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #7
+                            putName (CName) : In
+            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
+                0 (ptr:IQuestCondition) : CQuestInsideTriggerCondition #10
+    CQuestStoryPhaseSetterBlock #7 (CQuestStoryPhaseSetterBlock) : despawn tax collector
+        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
+            comment (String) : "despawn tax collector"
+            guid (CGUID) : 146a1647-9f41-46c7-bd03-3b3d95367ab2
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #8
+                            putName (CName) :  
+            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
+                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #9
+    CQuestPhaseOutputBlock #8 (CQuestPhaseOutputBlock) : 
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 1e4b38c4-05ad-4c45-9777-a9c3fe5846b0
+    CDeactivateSpawnset #9 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
+        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
+            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+    CQuestInsideTriggerCondition #10 (CQuestInsideTriggerCondition) : mq6003_trigger_oxenfurt
+        CQuestInsideTriggerCondition (CQuestInsideTriggerCondition) : 
+            triggerTag (CName) : mq6003_trigger_oxenfurt
+            isInside (Bool) : false
+    CQuestPhaseInputBlock #11 (CQuestPhaseInputBlock) : 
+        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
+            guid (CGUID) : 6478d0b0-5519-432d-ac82-5ab3c4afbaf8
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) :  
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestRewardBlock #12
+                            putName (CName) : In
+    CQuestRewardBlock #12 (CQuestRewardBlock) : mq6003_completed
+        CQuestRewardBlock (CQuestRewardBlock) : 
+            guid (CGUID) : c6a622f5-28ea-433b-b4f8-277c67e531ff
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #6
+                            putName (CName) : In
+            rewardName (CName) : mq6003_completed
+            caption (String) : "Reward [mq6003_completed]"
+    CQuestPhaseBlock #13 (CQuestPhaseBlock) : Vivaldi
+        CQuestPhaseBlock (CQuestPhaseBlock) : Vivaldi
+            name (String) : "Vivaldi"
+            guid (CGUID) : ec227814-5a63-4dc1-8508-6075e598cf74
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #3
+                            putName (CName) : In
+            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #14
+    CQuestGraph #14 (CQuestGraph) : 
+        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
+            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
+                0 (ptr:CGraphBlock) : CJournalQuestBlock #15
+                1 (ptr:CGraphBlock) : CJournalQuestBlock #16
+                2 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #20
+                3 (ptr:CGraphBlock) : CQuestCheckpointBlock #19
+                4 (ptr:CGraphBlock) : CQuestSceneBlock #18
+                5 (ptr:CGraphBlock) : CQuestScriptBlock #17
+                6 (ptr:CGraphBlock) : CQuestScriptBlock #27
+                7 (ptr:CGraphBlock) : CQuestFactsDBChangingBlock #28
+                8 (ptr:CGraphBlock) : CQuestPauseConditionBlock #29
+                9 (ptr:CGraphBlock) : CQuestInteractionDialogBlock #30
+                10 (ptr:CGraphBlock) : CQuestPhaseInputBlock #32
+                11 (ptr:CGraphBlock) : CQuestFactsDBChangingBlock #33
+                12 (ptr:CGraphBlock) : CJournalQuestBlock #98
+            sourceDataRemoved (Bool) : true
+    CJournalQuestBlock #15 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 3c2871e1-bd19-4286-9d86-3c28166e5b5e
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #16
+                            putName (CName) : Success
+            questEntry (handle:CJournalPath) : CJournalPath #23
+    CJournalQuestBlock #16 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : c3f50d2f-9576-4df4-87da-69794f98d7d8
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #17
+                            putName (CName) : In
+            questEntry (handle:CJournalPath) : CJournalPath #21
+            showInfoOnScreen (Bool) : true
+    CQuestScriptBlock #17 (CQuestScriptBlock) : take 1000 gold
+        CQuestScriptBlock (CQuestScriptBlock) : take 1000 gold
+            name (String) : "take 1000 gold"
+            comment (String) : "take 1000 gold"
+            guid (CGUID) : f8ca6e70-7bc6-41be-b1af-23d002d05ac2
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #18
+                            putName (CName) : mq6003_one_liner_in
+            functionName (CName) : RemoveItemQuest
+            parameters (array:QuestScriptParam) : # array:QuestScriptParam
+                0 (QuestScriptParam) : entityTag
+                    name (CName) : entityTag
+                    value (CVariant) : PLAYER
+                1 (QuestScriptParam) : item_name
+                    name (CName) : item_name
+                    value (CVariant) : Crown
+                2 (QuestScriptParam) : item_category
+                    name (CName) : item_category
+                    value (CVariant) : 
+                3 (QuestScriptParam) : item_tag
+                    name (CName) : item_tag
+                    value (CVariant) : 
+                4 (QuestScriptParam) : quantity
+                    name (CName) : quantity
+                    value (CVariant) : 1000
+            caption (String) : "Script [RemoveItemQuest]"
+            BufferParameters (CCompressedBuffer:CVariant) : <PLAYER> <Crown> <> <> <1000>
+                entityTag (CVariant) : PLAYER
+                item_name (CVariant) : Crown
+                item_category (CVariant) : 
+                item_tag (CVariant) : 
+                quantity (CVariant) : 1000
+    CQuestSceneBlock #18 (CQuestSceneBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_geralt_one_liner.w2scene
+        CQuestSceneBlock (CQuestSceneBlock) : 
+            guid (CGUID) : fc045565-af35-4a42-81fb-1def6d12c2c7
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : mq6003_one_liner_out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #19
+                            putName (CName) : In
+            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_geralt_one_liner.w2scene
+            shouldFadeOnLoading_NamesCooked (array:CName) : # array:CName
+                0 (CName) : mq6003_one_liner_in
+            shouldFadeOnLoading_ValuesCooked (array:Bool) : # array:Bool
+                0 (Bool) : false
+    CQuestCheckpointBlock #19 (CQuestCheckpointBlock) : 
+        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
+            guid (CGUID) : 84a9488e-aaf9-49cc-9726-b274914b9847
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #20
+                            putName (CName) :  
+    CQuestPhaseOutputBlock #20 (CQuestPhaseOutputBlock) : 
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 4e0367c4-a289-49d6-ace4-ce0a78ad828a
+    CJournalPath #21 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #22
+    CJournalPath #22 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+    CJournalPath #23 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #24
+    CJournalPath #24 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #25
+    CJournalPath #25 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+            child (handle:CJournalPath) : CJournalPath #26
+    CJournalPath #26 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 8226dea7-f425-495d-8409-13ae5ea6d462
+    CQuestScriptBlock #27 (CQuestScriptBlock) : RemoveItemQuest
+        CQuestScriptBlock (CQuestScriptBlock) : 
+            guid (CGUID) : 0fd6deee-6b7d-46f8-9d7d-04d68fdf06a4
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestFactsDBChangingBlock #28
+                            putName (CName) : In
+            functionName (CName) : RemoveItemQuest
+            parameters (array:QuestScriptParam) : # array:QuestScriptParam
+                0 (QuestScriptParam) : entityTag
+                    name (CName) : entityTag
+                    value (CVariant) : PLAYER
+                1 (QuestScriptParam) : item_name
+                    name (CName) : item_name
+                    value (CVariant) : mq6003_tax_bill
+                2 (QuestScriptParam) : item_category
+                    name (CName) : item_category
+                    value (CVariant) : 
+                3 (QuestScriptParam) : item_tag
+                    name (CName) : item_tag
+                    value (CVariant) : 
+                4 (QuestScriptParam) : quantity
+                    name (CName) : quantity
+                    value (CVariant) : 1
+            caption (String) : "Script [RemoveItemQuest]"
+            BufferParameters (CCompressedBuffer:CVariant) : <PLAYER> <mq6003_tax_bill> <> <> <1>
+                entityTag (CVariant) : PLAYER
+                item_name (CVariant) : mq6003_tax_bill
+                item_category (CVariant) : 
+                item_tag (CVariant) : 
+                quantity (CVariant) : 1
+    CQuestFactsDBChangingBlock #28 (CQuestFactsDBChangingBlock) : mq6003_fact_taxes_paid
+        CQuestFactsDBChangingBlock (CQuestFactsDBChangingBlock) : 
+            comment (String) : "mq6003_fact_taxes_paid"
+            guid (CGUID) : ac5617d6-ecaa-4d62-bd45-49fc10133fa0
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #15
+                            putName (CName) : Success
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #98
+                            putName (CName) : Activate
+            factID (String) : "mq6003_fact_taxes_paid"
+            value (Int32) : 1
+    CQuestPauseConditionBlock #29 (CQuestPauseConditionBlock) : 1s
+        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 1s
+            name (String) : "1s"
+            guid (CGUID) : 30a63cda-7f26-4ab2-b543-1c2553d9b6c2
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestInteractionDialogBlock #30
+                            putName (CName) : mq6003_vivaldi_taxes_in
+            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
+                0 (ptr:IQuestCondition) : CQuestRealtimeDelayCondition #31
+    CQuestInteractionDialogBlock #30 (CQuestInteractionDialogBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_vimme_vivaldi_default_replacer.w2scene
+        CQuestInteractionDialogBlock (CQuestInteractionDialogBlock) : 
+            guid (CGUID) : cd0dc5ab-b663-4f2e-a781-0cfa5a663060
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : mq6003_taxes_paid
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #27
+                            putName (CName) : In
+                1 (SCachedConnections) : <SCachedConnections>1
+                    socketId (CName) : mq6003_taxes_not_paid
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #29
+                            putName (CName) : In
+            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_vimme_vivaldi_default_replacer.w2scene
+            actorTags (TagList) : vivaldi
+                tags (CBufferVLQInt32:CName) : # CBufferVLQInt32:CName
+                    0 (CName) : vivaldi
+    CQuestRealtimeDelayCondition #31 (CQuestRealtimeDelayCondition) : 
+        CQuestRealtimeDelayCondition (CQuestRealtimeDelayCondition) : 
+            howLong (GameTime) : <GameTime>howLong
+                m_seconds (Int32) : 1
+    CQuestPhaseInputBlock #32 (CQuestPhaseInputBlock) : 
+        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
+            guid (CGUID) : 49e61dac-01f7-44ab-b149-2c6fdf7c0c1d
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) :  
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestFactsDBChangingBlock #33
+                            putName (CName) : In
+    CQuestFactsDBChangingBlock #33 (CQuestFactsDBChangingBlock) : mq6003_flip_vivaldi_default
+        CQuestFactsDBChangingBlock (CQuestFactsDBChangingBlock) : 
+            comment (String) : "mq6003_flip_vivaldi_default"
+            guid (CGUID) : 86c6e8aa-a0e9-41f5-933a-a4a8143c0c98
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestInteractionDialogBlock #30
+                            putName (CName) : mq6003_vivaldi_taxes_in
+            factID (String) : "mq6003_flip_vivaldi_default"
+            value (Int32) : 1
+    CQuestGraph #34 (CQuestGraph) : 
+        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
+            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
+                0 (ptr:CGraphBlock) : CQuestSceneBlock #35
+                1 (ptr:CGraphBlock) : CQuestDeletionMarkerBlock #43
+                2 (ptr:CGraphBlock) : CJournalQuestBlock #58
+                3 (ptr:CGraphBlock) : CJournalQuestBlock #59
+                4 (ptr:CGraphBlock) : CQuestScriptBlock #56
+                5 (ptr:CGraphBlock) : CJournalQuestBlock #44
+                6 (ptr:CGraphBlock) : CJournalQuestBlock #45
+                7 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #41
+                8 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #55
+                9 (ptr:CGraphBlock) : CQuestCheckpointBlock #60
+                10 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #61
+                11 (ptr:CGraphBlock) : CJournalQuestBlock #36
+                12 (ptr:CGraphBlock) : CJournalQuestBlock #71
+                13 (ptr:CGraphBlock) : CJournalQuestBlock #76
+                14 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #47
+                15 (ptr:CGraphBlock) : CQuestPauseConditionBlock #81
+                16 (ptr:CGraphBlock) : CQuestPhaseInputBlock #83
+                17 (ptr:CGraphBlock) : CQuestCheckpointBlock #46
+                18 (ptr:CGraphBlock) : CQuestScriptBlock #42
+                19 (ptr:CGraphBlock) : CQuestDeletionMarkerBlock #57
+            sourceDataRemoved (Bool) : true
+    CQuestSceneBlock #35 (CQuestSceneBlock) : CStoryScene:dlc\ep1\data\quests\quest_files\mq6003_taxes\scenes\mq6003_tax_collector.w2scene
+        CQuestSceneBlock (CQuestSceneBlock) : 
+            guid (CGUID) : 206c6156-7007-4928-8e73-ca108d361079
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : mq6003__good_geralt_out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #36
+                            putName (CName) : Success
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #41
+                            putName (CName) : In
+                1 (SCachedConnections) : <SCachedConnections>1
+                    socketId (CName) : mq6003_bad_geralt_out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #36
+                            putName (CName) : Success
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #55
+                            putName (CName) : In
+            scene (soft:CStoryScene) : dlc/ep1/data/quests/quest_files/mq6003_taxes/scenes/mq6003_tax_collector.w2scene
+            shouldFadeOnLoading_NamesCooked (array:CName) : # array:CName
+                0 (CName) : mq6003_tax_collector_in
+            shouldFadeOnLoading_ValuesCooked (array:Bool) : # array:Bool
+                0 (Bool) : true
+    CJournalQuestBlock #36 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : d0b343e7-262a-4983-ac7c-b7055831021c
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+            questEntry (handle:CJournalPath) : CJournalPath #37
+    CJournalPath #37 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #38
+    CJournalPath #38 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #39
+    CJournalPath #39 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+            child (handle:CJournalPath) : CJournalPath #40
+    CJournalPath #40 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
+    CQuestStoryPhaseSetterBlock #41 (CQuestStoryPhaseSetterBlock) : despawn tax collector
+        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
+            comment (String) : "despawn tax collector"
+            guid (CGUID) : 68ff959b-c1b8-421e-aee5-11ad5c47f320
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #42
+                            putName (CName) : In
+            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
+                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #54
+    CQuestScriptBlock #42 (CQuestScriptBlock) : FadeInQuest
+        CQuestScriptBlock (CQuestScriptBlock) : 
+            guid (CGUID) : 89e7c0cd-7a68-4e8f-9723-665b041caf31
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestDeletionMarkerBlock #43
+                            putName (CName) : In
+            functionName (CName) : FadeInQuest
+            parameters (array:QuestScriptParam) : # array:QuestScriptParam
+                0 (QuestScriptParam) : fadeTime
+                    name (CName) : fadeTime
+                    value (CVariant) : 1
+            caption (String) : "Script [FadeInQuest]"
+            BufferParameters (CCompressedBuffer:CVariant) : <1>
+                fadeTime (CVariant) : 1
+    CQuestDeletionMarkerBlock #43 (CQuestDeletionMarkerBlock) : 
+        CQuestDeletionMarkerBlock (CQuestDeletionMarkerBlock) : 
+            guid (CGUID) : 6ea84b8c-b823-447f-a31b-e9e6ad536bf6
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #44
+                            putName (CName) : Activate
+            guids (array:CGUID) : # array:CGUID
+                0 (CGUID) : fe89c891-7ff6-4d4d-ad53-1c016ce82a9e
+    CJournalQuestBlock #44 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 68e82f1f-73b2-4650-9f0f-65ac22e52e6f
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #45
+                            putName (CName) : Success
+            questEntry (handle:CJournalPath) : CJournalPath #50
+    CJournalQuestBlock #45 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : e13ec143-2221-4fff-af41-407d5b8cf7be
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #46
+                            putName (CName) : In
+            questEntry (handle:CJournalPath) : CJournalPath #48
+    CQuestCheckpointBlock #46 (CQuestCheckpointBlock) : 
+        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
+            guid (CGUID) : 8378c8a3-53c4-412b-ba05-5522aa17e29f
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #47
+                            putName (CName) :  
+    CQuestPhaseOutputBlock #47 (CQuestPhaseOutputBlock) : Finished
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 494a211a-8595-44aa-a6ce-9dcd02b3a3f0
+            socketID (CName) : Finished
+    CJournalPath #48 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #49
+    CJournalPath #49 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+    CJournalPath #50 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #51
+    CJournalPath #51 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #52
+    CJournalPath #52 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+            child (handle:CJournalPath) : CJournalPath #53
+    CJournalPath #53 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 039a2e5a-f6ba-428b-997f-6da270b7fb18
+    CDeactivateSpawnset #54 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
+        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
+            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+    CQuestStoryPhaseSetterBlock #55 (CQuestStoryPhaseSetterBlock) : despawn tax collector
+        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
+            comment (String) : "despawn tax collector"
+            guid (CGUID) : dd63b540-5594-4f83-bd68-dd090ac9abd0
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestScriptBlock #56
+                            putName (CName) : In
+            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
+                0 (ptr:IQuestSpawnsetAction) : CDeactivateSpawnset #70
+    CQuestScriptBlock #56 (CQuestScriptBlock) : FadeInQuest
+        CQuestScriptBlock (CQuestScriptBlock) : 
+            guid (CGUID) : 40ed203f-5a13-4d21-b302-987b59c92e02
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestDeletionMarkerBlock #57
+                            putName (CName) : In
+            functionName (CName) : FadeInQuest
+            parameters (array:QuestScriptParam) : # array:QuestScriptParam
+                0 (QuestScriptParam) : fadeTime
+                    name (CName) : fadeTime
+                    value (CVariant) : 1
+            caption (String) : "Script [FadeInQuest]"
+            BufferParameters (CCompressedBuffer:CVariant) : <1>
+                fadeTime (CVariant) : 1
+    CQuestDeletionMarkerBlock #57 (CQuestDeletionMarkerBlock) : 
+        CQuestDeletionMarkerBlock (CQuestDeletionMarkerBlock) : 
+            guid (CGUID) : 69dac0fa-19cd-4e14-a2cd-4ab8c5e327a2
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #58
+                            putName (CName) : Activate
+            guids (array:CGUID) : # array:CGUID
+                0 (CGUID) : a70e63e4-201c-4eb5-8942-30306ff1369d
+    CJournalQuestBlock #58 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 95d92023-93d4-4b18-950e-54897e49a892
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #59
+                            putName (CName) : Activate
+            questEntry (handle:CJournalPath) : CJournalPath #66
+    CJournalQuestBlock #59 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : c1d96887-61dc-4d58-8301-946371087ee8
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #60
+                            putName (CName) : In
+            questEntry (handle:CJournalPath) : CJournalPath #62
+            showInfoOnScreen (Bool) : true
+    CQuestCheckpointBlock #60 (CQuestCheckpointBlock) : 
+        CQuestCheckpointBlock (CQuestCheckpointBlock) : 
+            guid (CGUID) : 4530b0c6-a551-4a57-899f-b4ccc58f8a17
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #61
+                            putName (CName) :  
+    CQuestPhaseOutputBlock #61 (CQuestPhaseOutputBlock) : Vivaldi
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 8352f77b-3079-4834-9ed0-8d19923bb7ef
+            socketID (CName) : Vivaldi
+    CJournalPath #62 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #63
+    CJournalPath #63 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #64
+    CJournalPath #64 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+            child (handle:CJournalPath) : CJournalPath #65
+    CJournalPath #65 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 8226dea7-f425-495d-8409-13ae5ea6d462
+    CJournalPath #66 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #67
+    CJournalPath #67 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #68
+    CJournalPath #68 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+            child (handle:CJournalPath) : CJournalPath #69
+    CJournalPath #69 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : e24aa720-ff68-46b7-b3f9-4cc75e122d52
+    CDeactivateSpawnset #70 (CDeactivateSpawnset) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
+        CDeactivateSpawnset (CDeactivateSpawnset) : <CDeactivateSpawnset>CDeactivateSpawnset
+            spawnset (handle:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+    CJournalQuestBlock #71 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 14d063fb-8937-4f49-ac96-9320ba807386
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+            questEntry (handle:CJournalPath) : CJournalPath #72
+    CJournalPath #72 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #73
+    CJournalPath #73 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #74
+    CJournalPath #74 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+            child (handle:CJournalPath) : CJournalPath #75
+    CJournalPath #75 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 87fc3276-97cd-4afb-a72a-7dc1649258af
+    CJournalQuestBlock #76 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 0c554f15-0820-4c66-8f46-c2b26f1f6f85
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #71
+                            putName (CName) : Activate
+            questEntry (handle:CJournalPath) : CJournalPath #77
+    CJournalPath #77 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #78
+    CJournalPath #78 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #79
+    CJournalPath #79 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : b6fab221-0b26-4b47-9cbb-b2dce9bf9a19
+            child (handle:CJournalPath) : CJournalPath #80
+    CJournalPath #80 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 1dc50895-29a3-4255-aa09-dc0bcb15a0e9
+    CQuestPauseConditionBlock #81 (CQuestPauseConditionBlock) : mq6003_trigger_tax_collector
+        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
+            comment (String) : "mq6003_trigger_tax_collector"
+            guid (CGUID) : 92cb21ee-8a42-4021-87e7-705368e2a658
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CJournalQuestBlock #76
+                            putName (CName) : Activate
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CQuestSceneBlock #35
+                            putName (CName) : mq6003_tax_collector_in
+            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
+                0 (ptr:IQuestCondition) : CQuestEnterTriggerCondition #82
+    CQuestEnterTriggerCondition #82 (CQuestEnterTriggerCondition) : mq6003_trigger_tax_collector
+        CQuestEnterTriggerCondition (CQuestEnterTriggerCondition) : 
+            triggerTag (CName) : mq6003_trigger_tax_collector
+    CQuestPhaseInputBlock #83 (CQuestPhaseInputBlock) : 
+        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
+            guid (CGUID) : 8611fe59-d833-423c-a664-55e8e84bb438
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) :  
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #81
+                            putName (CName) : In
+    CQuestPhaseBlock #84 (CQuestPhaseBlock) : Setup
+        CQuestPhaseBlock (CQuestPhaseBlock) : Setup
+            name (String) : "Setup"
+            guid (CGUID) : 3487c111-0560-44b7-9d71-5791cd34c474
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #2
+                            putName (CName) : In
+            embeddedGraph (ptr:CQuestGraph) : CQuestGraph #85
+    CQuestGraph #85 (CQuestGraph) : 
+        CQuestGraph (CQuestGraph) : <CQuestGraph>CQuestGraph
+            graphBlocks (array:ptr:CGraphBlock) : # array:ptr:CGraphBlock
+                0 (ptr:CGraphBlock) : CQuestStoryPhaseSetterBlock #86
+                1 (ptr:CGraphBlock) : CQuestPhaseOutputBlock #87
+                2 (ptr:CGraphBlock) : CQuestPhaseInputBlock #89
+            sourceDataRemoved (Bool) : true
+    CQuestStoryPhaseSetterBlock #86 (CQuestStoryPhaseSetterBlock) : spawn tax collector
+        CQuestStoryPhaseSetterBlock (CQuestStoryPhaseSetterBlock) : 
+            comment (String) : "spawn tax collector"
+            guid (CGUID) : d5db4b39-58c6-4370-aa32-4f17f8590235
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseOutputBlock #87
+                            putName (CName) :  
+            spawnsets (array:ptr:IQuestSpawnsetAction) : # array:ptr:IQuestSpawnsetAction
+                0 (ptr:IQuestSpawnsetAction) : CActivateStoryPhase #88
+    CQuestPhaseOutputBlock #87 (CQuestPhaseOutputBlock) : 
+        CQuestPhaseOutputBlock (CQuestPhaseOutputBlock) : 
+            guid (CGUID) : 51ebe999-2ea2-4176-a0ae-370fb1748018
+    CActivateStoryPhase #88 (CActivateStoryPhase) : CCommunity:dlc\ep1\data\quests\quest_files\mq6003_taxes\spawnsets\mq6003_taxes.w2comm
+        CActivateStoryPhase (CActivateStoryPhase) : <CActivateStoryPhase>CActivateStoryPhase
+            spawnset (soft:CCommunity) : dlc/ep1/data/quests/quest_files/mq6003_taxes/spawnsets/mq6003_taxes.w2comm
+            phase (CName) : start
+    CQuestPhaseInputBlock #89 (CQuestPhaseInputBlock) : 
+        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
+            guid (CGUID) : ff15f856-e349-4591-95c6-ab70887e8af5
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) :  
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestStoryPhaseSetterBlock #86
+                            putName (CName) : In
+    CQuestPauseConditionBlock #90 (CQuestPauseConditionBlock) : player has less than 35000
+        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
+            comment (String) : "player has less than 35000"
+            guid (CGUID) : 649523bc-6160-4a57-84b3-37ae2a86c5d6
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestCutControlBlock #91
+                            putName (CName) : In
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #92
+                            putName (CName) : In
+            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
+                0 (ptr:IQuestCondition) : CQuestActorCondition #95
+    CQuestCutControlBlock #91 (CQuestCutControlBlock) : 
+        CQuestCutControlBlock (CQuestCutControlBlock) : 
+            guid (CGUID) : d7d553b8-a9bd-46ae-8efb-2757c8e8bbcb
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+                1 (SCachedConnections) : <SCachedConnections>1
+                    socketId (CName) : Thunder
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #2
+                            putName (CName) : Cut
+            permanent (Bool) : false
+    CQuestPauseConditionBlock #92 (CQuestPauseConditionBlock) : quest only appears if the player has 35000+ gold
+        CQuestPauseConditionBlock (CQuestPauseConditionBlock) : 
+            comment (String) : "quest only appears if the player has 35000+ gold"
+            guid (CGUID) : a74c7d69-7166-4f69-b287-c241aab04fab
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPhaseBlock #84
+                            putName (CName) : In
+                        1 (SBlockDesc) : <SBlockDesc>1
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #90
+                            putName (CName) : In
+            conditions (array:ptr:IQuestCondition) : # array:ptr:IQuestCondition
+                0 (ptr:IQuestCondition) : CQuestActorCondition #93
+    CQuestActorCondition #93 (CQuestActorCondition) : PLAYER
+        CQuestActorCondition (CQuestActorCondition) : 
+            actorTag (CName) : PLAYER
+            checkType (ptr:IActorConditionType) : CQCItemQuantity #94
+    CQCItemQuantity #94 (CQCItemQuantity) : Crowns
+        CQCItemQuantity (CQCItemQuantity) : <CQCItemQuantity>CQCItemQuantity
+            item (CName) : Crowns
+            quantity (Uint32) : 10000
+    CQuestActorCondition #95 (CQuestActorCondition) : PLAYER
+        CQuestActorCondition (CQuestActorCondition) : 
+            actorTag (CName) : PLAYER
+            checkType (ptr:IActorConditionType) : CQCItemQuantity #96
+    CQCItemQuantity #96 (CQCItemQuantity) : Crowns
+        CQCItemQuantity (CQCItemQuantity) : <CQCItemQuantity>CQCItemQuantity
+            item (CName) : Crowns
+            quantity (Uint32) : 10000
+            compareFunc (ECompareFunc) : CF_Less
+    CQuestPhaseInputBlock #97 (CQuestPhaseInputBlock) : 
+        CQuestPhaseInputBlock (CQuestPhaseInputBlock) : 
+            guid (CGUID) : 274f9774-57ed-4622-8edd-4ff153f5c4a5
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) :  
+                    blocks (array:SBlockDesc) : # array:SBlockDesc
+                        0 (SBlockDesc) : <SBlockDesc>0
+                            ock (ptr:CQuestGraphBlock) : CQuestPauseConditionBlock #92
+                            putName (CName) : In
+    CJournalQuestBlock #98 (CJournalQuestBlock) : 
+        CJournalQuestBlock (CJournalQuestBlock) : 
+            guid (CGUID) : 48d467e1-5fa2-4d50-8c6e-ba1071a3f43f
+            cachedConnections (array:SCachedConnections) : # array:SCachedConnections
+                0 (SCachedConnections) : <SCachedConnections>0
+                    socketId (CName) : Out
+            questEntry (handle:CJournalPath) : CJournalPath #99
+            showInfoOnScreen (Bool) : true
+    CJournalPath #99 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\ep1.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : ab4175ca-b83a-4159-9b6d-36164aa3f042
+            resource (soft:CResource) : dlc/ep1/journal/quests/ep1.journal
+            child (handle:CJournalPath) : CJournalPath #100
+    CJournalPath #100 (CJournalPath) : CJournalResource:dlc\ep1\journal\quests\mq6003taxcollector.journal
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 7e6e5238-e640-4f4b-8911-ada7138f39b6
+            resource (soft:CResource) : dlc/ep1/journal/quests/mq6003taxcollector.journal
+            child (handle:CJournalPath) : CJournalPath #101
+    CJournalPath #101 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : 28c84b01-cf6f-4fbe-8ba1-a9582fc67992
+            child (handle:CJournalPath) : CJournalPath #102
+    CJournalPath #102 (CJournalPath) : 
+        CJournalPath (CJournalPath) : <CJournalPath>CJournalPath
+            guid (CGUID) : a0015d40-4f34-4e5d-bc79-4b3891c1c984

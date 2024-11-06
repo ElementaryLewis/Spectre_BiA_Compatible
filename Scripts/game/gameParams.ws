@@ -498,11 +498,6 @@ import class W3GameParams extends CObject
 		default altSignCooldown = -1000; //modSpectre
 		default meleeSpecialCooldown = -1000; //modSpectre
 		default instantCastingToggle = 0; //modSpectre
-		default lowStaminaSFXThreshold = -1000; //modSpectre
-		default lowStaminaSFXVolume = -1000; //modSpectre
-		default lowStaminaSFXRate = -1000; //modSpectre
-		default lowStaminaSFXDynVol = 0; //modSpectre
-		default lowStaminaSFXDynRate = 0; //modSpectre
 	
 	public function Init()
 	{

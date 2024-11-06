@@ -353,3 +353,16 @@
 	
 	return false;
 }
+
+@wrapMethod(CPlayerInput) function OnCommPanelAlch( action : SInputAction )
+{
+	if(false) 
+	{
+		wrappedMethod(action);
+	}
+
+	if(false)
+	{
+		PushAlchemyScreen();
+	}
+}

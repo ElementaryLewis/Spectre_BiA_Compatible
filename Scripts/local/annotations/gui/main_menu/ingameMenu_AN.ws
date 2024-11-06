@@ -4,8 +4,6 @@ protected var spectreHasChangedScalingOption : bool;
 protected var spectreHasChangedQuestLevelsOption : bool;
 @addField(CR4IngameMenu)
 protected var spectreHasChangedGameplayOption : bool;
-@addField(CR4IngameMenu)
-protected var spectreHasChangedQoLOption : bool;	
 
 @wrapMethod(CR4IngameMenu) function OnPresetApplied(groupId:name, targetPresetIndex:int)
 {
@@ -23,8 +21,6 @@ protected var spectreHasChangedQoLOption : bool;
 		spectreHasChangedQuestLevelsOption = true;
 	if (groupId == 'spectreGameplayOptions')
 		spectreHasChangedGameplayOption = true;
-	if (groupId == 'spectreQOLOptions')
-		spectreHasChangedQoLOption = true;
 		
 	if (groupId == 'Rendering' && !isMainMenu)
 	{
@@ -276,9 +272,7 @@ protected var spectreHasChangedQoLOption : bool;
 	if (optionName == 'spectreNoQuestLevels')
 		spectreHasChangedQuestLevelsOption = true;
 	if (spectreIsGameplayOption(optionName))
-		spectreHasChangedGameplayOption = true;
-	if (spectreIsQoLOption(optionName))
-		spectreHasChangedQoLOption = true;		
+		spectreHasChangedGameplayOption = true;	
 		
 	if( optionName == 'ConsentTelemetry' )
 	{
@@ -486,27 +480,22 @@ protected var spectreHasChangedQoLOption : bool;
 	}
 }
 
-@addMethod(CR4IngameMenu) function gmUserSettings()
+@addMethod(CR4IngameMenu) function spectreUserSettings()
 {
 	if(spectreHasChangedScalingOption)
 	{
 		spectreHasChangedScalingOption = false;
-		theGame.gmUserSettingsScaling();
+		theGame.spectreUserSettingsScaling();
 	}
 	if(spectreHasChangedQuestLevelsOption)
 	{
 		spectreHasChangedQuestLevelsOption = false;
-		theGame.gmUserSettingsQuestLevels();
+		theGame.spectreUserSettingsQuestLevels();
 	}
 	if(spectreHasChangedGameplayOption)
 	{
 		spectreHasChangedGameplayOption = false;
-		theGame.gmUserSettingsGameplay();
-	}
-	if(spectreHasChangedQoLOption)
-	{
-		spectreHasChangedQoLOption = false;
-		theGame.gmUserSettingsQoL();
+		theGame.spectreUserSettingsGameplay();
 	}
 }
 
@@ -516,6 +505,13 @@ protected var spectreHasChangedQoLOption : bool;
 
 	if (hasChangedOption)
 	{
-		gmUserSettings();	  
+		spectreUserSettings();	  
 	}
+}
+
+@wrapMethod(CR4IngameMenu) function SaveChangedSettings()
+{
+	theGame.alchexts.ReadMenuSettings(hasChangedOption);
+	
+	wrappedMethod();
 }

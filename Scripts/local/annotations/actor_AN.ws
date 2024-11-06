@@ -57,7 +57,7 @@ var isFocusGainPaused			: bool;
 @addField(CActor)
 var cachedIsBeast : int;
 
-@addMethod(CActor) function IsBeast() : bool
+@addMethod(CActor) function spectreIsBeast() : bool
 {
 	var monsterCategory : EMonsterCategory;
 	var tmpName : name;
@@ -79,7 +79,7 @@ var cachedIsBeast : int;
 @addField(CActor)
 var cachedIsSpecter : int;
 
-@addMethod(CActor) function IsSpecter() : bool
+@addMethod(CActor) function spectreIsSpecter() : bool
 {
 	var monsterCategory : EMonsterCategory;
 	var tmpName : name;

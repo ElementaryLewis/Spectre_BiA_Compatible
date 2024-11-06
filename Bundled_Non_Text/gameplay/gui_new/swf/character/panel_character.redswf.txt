@@ -1,0 +1,146 @@
+    CSwfResource #0 (CSwfResource) : panel-character{345ecd16}.gfx
+        CSwfResource (CSwfResource) : <CSwfResource>CSwfResource
+            linkageName (String) : "panel-character{345ecd16}.gfx"
+            textures (array:handle:CSwfTexture) : # array:handle:CSwfTexture
+                0 (handle:CSwfTexture) : CSwfTexture #1
+                1 (handle:CSwfTexture) : CSwfTexture #2
+                2 (handle:CSwfTexture) : CSwfTexture #3
+                3 (handle:CSwfTexture) : CSwfTexture #4
+                4 (handle:CSwfTexture) : CSwfTexture #5
+                5 (handle:CSwfTexture) : CSwfTexture #6
+                6 (handle:CSwfTexture) : CSwfTexture #7
+            SwfResource (CByteArray) : 236378 bytes, MD5: 944cec9f5cbc5e843cd08fd5161d370e
+            Unk1 (Uint32) : 0
+    CSwfTexture #1 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1004
+            height (Uint32) : 1020
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1004
+                    Height (Uint32) : 1020
+                    Blocksize (Uint32) : 4016
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1024080
+            Residentmip (CBytes) : 1024080 bytes, MD5: c7d4c81c6cfe4f978db98cb7982dfbf7
+            linkageName (String) : "panel-character{345ecd16}_i1.dds"
+    CSwfTexture #2 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1024
+            height (Uint32) : 1020
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1024
+                    Height (Uint32) : 1020
+                    Blocksize (Uint32) : 4096
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1044480
+            Residentmip (CBytes) : 1044480 bytes, MD5: b232625ba23c503c0d8703f910ceea78
+            linkageName (String) : "panel-character{345ecd16}_i1b.dds"
+    CSwfTexture #3 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1024
+            height (Uint32) : 1008
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1024
+                    Height (Uint32) : 1008
+                    Blocksize (Uint32) : 4096
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1032192
+            Residentmip (CBytes) : 1032192 bytes, MD5: 27b2415cbc5853c7b58154f527959027
+            linkageName (String) : "panel-character{345ecd16}_i2b.dds"
+    CSwfTexture #4 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1920
+            height (Uint32) : 1024
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1920
+                    Height (Uint32) : 1024
+                    Blocksize (Uint32) : 7680
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1966080
+            Residentmip (CBytes) : 1966080 bytes, MD5: a988fc6ef3ef8ab35e2524f0f360e013
+            linkageName (String) : "panel-character{345ecd16}_ie8.dds"
+    CSwfTexture #5 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1920
+            height (Uint32) : 1000
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1920
+                    Height (Uint32) : 1000
+                    Blocksize (Uint32) : 7680
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1920000
+            Residentmip (CBytes) : 1920000 bytes, MD5: b6cb238023f1e006a6d7e5550ea068f0
+            linkageName (String) : "panel-character{345ecd16}_if8.dds"
+    CSwfTexture #6 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1920
+            height (Uint32) : 1080
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1920
+                    Height (Uint32) : 1080
+                    Blocksize (Uint32) : 7680
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 2073600
+            Residentmip (CBytes) : 2073600 bytes, MD5: 637f24176bd802ea24a607e47ed2c655
+            linkageName (String) : "panel-character{345ecd16}_ifc.dds"
+    CSwfTexture #7 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1308
+            height (Uint32) : 952
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1308
+                    Height (Uint32) : 952
+                    Blocksize (Uint32) : 5232
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1245216
+            Residentmip (CBytes) : 1245216 bytes, MD5: d155081650f1e1929c2402ce767eaa92
+            linkageName (String) : "panel-character{345ecd16}_i254.dds"

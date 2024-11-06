@@ -31,3 +31,32 @@
 		Destroy();
 	}
 }
+
+@wrapMethod(W3ActorRemains) function OnContainerClosed()
+{
+	if (false)
+	{
+		wrappedMethod();
+	}
+
+	if(!HasQuestItem())
+	StopEffect('quest_highlight_fx');	
+		
+	if ( CanDismember() && owner )
+	{
+		theGame.FadeOutAsync(1);
+		wasDismembered = true;
+		AddTimer( 'ProcessDismembermentTimer', 2, false );
+	}
+	else
+	{
+		if ( isPlayingInteractionAnim )
+		{
+			thePlayer.PlayerStopAction( interactionAnim );	
+		}
+
+		manualTrophyTransfer = true;
+		
+		FinalizeLooting ();
+	}
+}

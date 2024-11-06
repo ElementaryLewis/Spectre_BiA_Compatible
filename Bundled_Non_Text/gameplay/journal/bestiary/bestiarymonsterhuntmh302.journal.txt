@@ -1,83 +1,83 @@
-bestiarymonsterhuntmh302.journal:    CJournalResource #0 (CJournalResource) : 
-bestiarymonsterhuntmh302.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
-bestiarymonsterhuntmh302.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
-bestiarymonsterhuntmh302.journal:    CJournalCreature #1 (CJournalCreature) : mh302 : Leszy
-bestiarymonsterhuntmh302.journal:        CJournalCreature (CJournalCreature) : Kernun
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Leszy"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 4286578686
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Leszy 8CCA7A96-4BD5C339-42B6F291-07412A2D
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
-bestiarymonsterhuntmh302.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-bestiarymonsterhuntmh302.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
-bestiarymonsterhuntmh302.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #6
-bestiarymonsterhuntmh302.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #7
-bestiarymonsterhuntmh302.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #8
-bestiarymonsterhuntmh302.journal:            name (LocalizedString) : Kernun
-bestiarymonsterhuntmh302.journal:            image (String) : "bestiary_leshenmh302.png"
-bestiarymonsterhuntmh302.journal:            entityTemplate (soft:CEntityTemplate) : quests/generic_quests/novigrad/quest_files/mh302_leshy/characters/mh302_leshy.w2ent
-bestiarymonsterhuntmh302.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
-bestiarymonsterhuntmh302.journal:                0 (CName) : Silver Dust Bomb 1
-bestiarymonsterhuntmh302.journal:                1 (CName) : Relic Oil 1
-bestiarymonsterhuntmh302.journal:                2 (CName) : Igni
-bestiarymonsterhuntmh302.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
-bestiarymonsterhuntmh302.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Descriptions"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 2147483647
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Descriptions EE84DF35-452CB736-E2DB22B1-5FC8261D
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
-bestiarymonsterhuntmh302.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-bestiarymonsterhuntmh302.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
-bestiarymonsterhuntmh302.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
-bestiarymonsterhuntmh302.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
-bestiarymonsterhuntmh302.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Kernun Final
-bestiarymonsterhuntmh302.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 24115160-241d-4134-b176-1a05f042d0dd
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Kernun Final"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 1073741823
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Kernun Final 24115160-4134241D-051A76B1-DDD042F0
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
-bestiarymonsterhuntmh302.journal:            description (LocalizedString) : <br>Geralt of Rivia was only able to finally put an end to this leshen after a long and exhausting battle. Once the beast died, the way was clear for loggers to move into its former domain. The woods will now gradually fall to the ax. Perhaps one day they'll disappear altogether - and their monstrous denizens along with them.
-bestiarymonsterhuntmh302.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Quote
-bestiarymonsterhuntmh302.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 9ebf8ecd-eee7-4bb3-9a1f-f5cecab35d84
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Quote"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 536870911
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Quote 9EBF8ECD-4BB3EEE7-CEF51F9A-845DB3CA
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
-bestiarymonsterhuntmh302.journal:            index (Uint8) : 1
-bestiarymonsterhuntmh302.journal:            description (LocalizedString) : <i>We told the prick something lurked in them woods, but he refused to believe it...</i><br>– Louis Closster, woodcutter<br>
-bestiarymonsterhuntmh302.journal:    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Kernun Precombat
-bestiarymonsterhuntmh302.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 04a56c91-9682-43b5-bf92-bf68daf1b9a1
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Kernun Precombat"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 805306366
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Kernun Precombat 04A56C91-43B59682-68BF92BF-A1B9F1DA
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
-bestiarymonsterhuntmh302.journal:            index (Uint8) : 2
-bestiarymonsterhuntmh302.journal:            description (LocalizedString) : lacerating them with razor-sharp claws, sending strangling plants shooting out of the ground or feeding them to packs of hungry wolves. If not for its vulnerability to fire, the Igni Sign included, and the protection of the Quen Sign, one could wager not even the toughest witcher would be able to slay the beast.
-bestiarymonsterhuntmh302.journal:    CJournalCreatureHuntingClueGroup #6 (CJournalCreatureHuntingClueGroup) : Hunting Clues
-bestiarymonsterhuntmh302.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : dd33a6f3-5941-4aff-8aec-0d6113225202
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Hunting Clues"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 3221225470
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Hunting Clues DD33A6F3-4AFF5941-610DEC8A-02522213
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
-bestiarymonsterhuntmh302.journal:            index (Uint8) : 1
-bestiarymonsterhuntmh302.journal:    CJournalCreatureGameplayHintGroup #7 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
-bestiarymonsterhuntmh302.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 7ea06434-617d-4f43-94ac-5be0abd60749
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Gameplay Hints"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 3758096382
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints 7EA06434-4F43617D-E05BAC94-4907D6AB
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
-bestiarymonsterhuntmh302.journal:            index (Uint8) : 2
-bestiarymonsterhuntmh302.journal:    CJournalCreatureVitalSpotGroup #8 (CJournalCreatureVitalSpotGroup) : Vital spots
-bestiarymonsterhuntmh302.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
-bestiarymonsterhuntmh302.journal:            guid (CGUID) : 401eef22-7d17-4219-aced-ff3eb21141cb
-bestiarymonsterhuntmh302.journal:            baseName (String) : "Vital spots"
-bestiarymonsterhuntmh302.journal:            order (Uint32) : 4026531838
-bestiarymonsterhuntmh302.journal:            uniqueScriptIdentifier (CName) : Vital spots 401EEF22-42197D17-3EFFEDAC-CB4111B2
-bestiarymonsterhuntmh302.journal:            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
-bestiarymonsterhuntmh302.journal:            index (Uint8) : 3
+    CJournalResource #0 (CJournalResource) : 
+        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+            entry (ptr:CJournalBase) : CJournalCreature #1
+    CJournalCreature #1 (CJournalCreature) : mh302 : Leszy
+        CJournalCreature (CJournalCreature) : Kernun
+            guid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+            baseName (String) : "Leszy"
+            order (Uint32) : 4286578686
+            uniqueScriptIdentifier (CName) : Leszy 8CCA7A96-4BD5C339-42B6F291-07412A2D
+            parentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #6
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #7
+                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #8
+            name (LocalizedString) : Kernun
+            image (String) : "bestiary_leshenmh302.png"
+            entityTemplate (soft:CEntityTemplate) : quests/generic_quests/novigrad/quest_files/mh302_leshy/characters/mh302_leshy.w2ent
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Silver Dust Bomb 1
+                1 (CName) : Relic Oil 1
+                2 (CName) : Igni
+    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+            guid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
+            baseName (String) : "Descriptions"
+            order (Uint32) : 2147483647
+            uniqueScriptIdentifier (CName) : Descriptions EE84DF35-452CB736-E2DB22B1-5FC8261D
+            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
+    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Kernun Final
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 24115160-241d-4134-b176-1a05f042d0dd
+            baseName (String) : "Kernun Final"
+            order (Uint32) : 1073741823
+            uniqueScriptIdentifier (CName) : Kernun Final 24115160-4134241D-051A76B1-DDD042F0
+            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
+            description (LocalizedString) : <br>Geralt of Rivia was only able to finally put an end to this leshen after a long and exhausting battle. Once the beast died, the way was clear for loggers to move into its former domain. The woods will now gradually fall to the ax. Perhaps one day they'll disappear altogether - and their monstrous denizens along with them.
+    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Quote
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 9ebf8ecd-eee7-4bb3-9a1f-f5cecab35d84
+            baseName (String) : "Quote"
+            order (Uint32) : 536870911
+            uniqueScriptIdentifier (CName) : Quote 9EBF8ECD-4BB3EEE7-CEF51F9A-845DB3CA
+            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
+            index (Uint8) : 1
+            description (LocalizedString) : <i>We told the prick something lurked in them woods, but he refused to believe it...</i><br>– Louis Closster, woodcutter<br>
+    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Kernun Precombat
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 04a56c91-9682-43b5-bf92-bf68daf1b9a1
+            baseName (String) : "Kernun Precombat"
+            order (Uint32) : 805306366
+            uniqueScriptIdentifier (CName) : Kernun Precombat 04A56C91-43B59682-68BF92BF-A1B9F1DA
+            parentGuid (CGUID) : ee84df35-b736-452c-b122-dbe21d26c85f
+            index (Uint8) : 2
+            description (LocalizedString) : lacerating them with razor-sharp claws, sending strangling plants shooting out of the ground or feeding them to packs of hungry wolves. If not for its vulnerability to fire, the Igni Sign included, and the protection of the Quen Sign, one could wager not even the toughest witcher would be able to slay the beast.
+    CJournalCreatureHuntingClueGroup #6 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+            guid (CGUID) : dd33a6f3-5941-4aff-8aec-0d6113225202
+            baseName (String) : "Hunting Clues"
+            order (Uint32) : 3221225470
+            uniqueScriptIdentifier (CName) : Hunting Clues DD33A6F3-4AFF5941-610DEC8A-02522213
+            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+            index (Uint8) : 1
+    CJournalCreatureGameplayHintGroup #7 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+            guid (CGUID) : 7ea06434-617d-4f43-94ac-5be0abd60749
+            baseName (String) : "Gameplay Hints"
+            order (Uint32) : 3758096382
+            uniqueScriptIdentifier (CName) : Gameplay Hints 7EA06434-4F43617D-E05BAC94-4907D6AB
+            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+            index (Uint8) : 2
+    CJournalCreatureVitalSpotGroup #8 (CJournalCreatureVitalSpotGroup) : Vital spots
+        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+            guid (CGUID) : 401eef22-7d17-4219-aced-ff3eb21141cb
+            baseName (String) : "Vital spots"
+            order (Uint32) : 4026531838
+            uniqueScriptIdentifier (CName) : Vital spots 401EEF22-42197D17-3EFFEDAC-CB4111B2
+            parentGuid (CGUID) : 8cca7a96-c339-4bd5-91f2-b6422d2a4107
+            index (Uint8) : 3

@@ -1,116 +1,116 @@
-sand_coil_proj_bob.w2ent:    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
-sand_coil_proj_bob.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-sand_coil_proj_bob.w2ent:            properOverrides (Bool) : true
-sand_coil_proj_bob.w2ent:            entityClass (CName) : DebuffProjectile
-sand_coil_proj_bob.w2ent:            entityObject (ptr:CEntity) : DebuffProjectile #1
-sand_coil_proj_bob.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-sand_coil_proj_bob.w2ent:                0 (EntitySlot) : fx
-sand_coil_proj_bob.w2ent:                    name (CName) : fx
-sand_coil_proj_bob.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-sand_coil_proj_bob.w2ent:                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
-sand_coil_proj_bob.w2ent:                    DebuffProjectile (DebuffProjectile) : PreviewEntity
-sand_coil_proj_bob.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-sand_coil_proj_bob.w2ent:                            Bufferdata (CByteArray) : 948 bytes, MD5: 8598312eb3344947e160808e955826bb
-sand_coil_proj_bob.w2ent:                            CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
-sand_coil_proj_bob.w2ent:                                CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-sand_coil_proj_bob.w2ent:                                    guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
-sand_coil_proj_bob.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                                    name (String) : "CPhantomComponent0"
-sand_coil_proj_bob.w2ent:                                    isStreamed (Bool) : true
-sand_coil_proj_bob.w2ent:                                    graphPositionX (Int16) : 194
-sand_coil_proj_bob.w2ent:                                    graphPositionY (Int16) : 274
-sand_coil_proj_bob.w2ent:                                    triggeringCollisionGroupNames (array:CName) : # array:CName
-sand_coil_proj_bob.w2ent:                                        0 (CName) : Character
-sand_coil_proj_bob.w2ent:                                    shapeType (EPhantomShape) : PS_Sphere
-sand_coil_proj_bob.w2ent:                                    shapeDimensions (Vector) : <Vector>shapeDimensions
-sand_coil_proj_bob.w2ent:                                        X (Float) : 2.0000
-sand_coil_proj_bob.w2ent:                                        Y (Float) : 0.0500
-sand_coil_proj_bob.w2ent:                                        Z (Float) : 0.0500
-sand_coil_proj_bob.w2ent:                                        W (Float) : 1.0000
-sand_coil_proj_bob.w2ent:                                    onTriggerEnteredScriptEvent (CName) : CharacterCollision
-sand_coil_proj_bob.w2ent:                                    onTriggerExitedScriptEvent (CName) : OnCharacterCollision
-sand_coil_proj_bob.w2ent:                        streamingDistance (Uint8) : 0
-sand_coil_proj_bob.w2ent:                        name (String) : "PreviewEntity"
-sand_coil_proj_bob.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-sand_coil_proj_bob.w2ent:                            0 (ptr:CComponent) : CSoundEmitterComponent #1
-sand_coil_proj_bob.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-sand_coil_proj_bob.w2ent:                            0 (SEntityBufferType1) : 
-sand_coil_proj_bob.w2ent:                                ComponentName (CName) : 
-sand_coil_proj_bob.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-sand_coil_proj_bob.w2ent:                        idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
-sand_coil_proj_bob.w2ent:                        radius (Float) : 0.5000
-sand_coil_proj_bob.w2ent:                        projSpeed (Float) : 30.0000
-sand_coil_proj_bob.w2ent:                        projDMG (Float) : 150.0000
-sand_coil_proj_bob.w2ent:                        ignoreArmor (Bool) : false
-sand_coil_proj_bob.w2ent:                        debuffType (EEffectType) : EET_Confusion
-sand_coil_proj_bob.w2ent:                        hitReactionType (EHitReactionType) : EHRT_None
-sand_coil_proj_bob.w2ent:                        damageTypeName (CName) : BludgeoningDamage
-sand_coil_proj_bob.w2ent:                        destroyQuen (Bool) : false
-sand_coil_proj_bob.w2ent:                        customDuration (Float) : 2.0000
-sand_coil_proj_bob.w2ent:                        signalDamageInstigatedEvent (Bool) : true
-sand_coil_proj_bob.w2ent:                CSoundEmitterComponent #1 (CSoundEmitterComponent) : CSoundEmitterComponent0
-sand_coil_proj_bob.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-sand_coil_proj_bob.w2ent:                        guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
-sand_coil_proj_bob.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        name (String) : "CSoundEmitterComponent0"
-sand_coil_proj_bob.w2ent:                        isStreamed (Bool) : false
-sand_coil_proj_bob.w2ent:                        graphPositionX (Int16) : 142
-sand_coil_proj_bob.w2ent:                        graphPositionY (Int16) : 179
-sand_coil_proj_bob.w2ent:                        maxDistance (Float) : 60.0000
-sand_coil_proj_bob.w2ent:            cookedEffectsVersion (Uint32) : 1
-sand_coil_proj_bob.w2ent:            Unk1 (Uint32) : 0
-sand_coil_proj_bob.w2ent:    DebuffProjectile #1 (DebuffProjectile) : BludgeoningDamage
-sand_coil_proj_bob.w2ent:        DebuffProjectile (DebuffProjectile) : 
-sand_coil_proj_bob.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-sand_coil_proj_bob.w2ent:                Bufferdata (CByteArray) : 948 bytes, MD5: 5b5049aa9ed6e1e87d9fa534c2acf4ba
-sand_coil_proj_bob.w2ent:                CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
-sand_coil_proj_bob.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-sand_coil_proj_bob.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
-sand_coil_proj_bob.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:                        name (String) : "CPhantomComponent0"
-sand_coil_proj_bob.w2ent:                        isStreamed (Bool) : true
-sand_coil_proj_bob.w2ent:                        graphPositionX (Int16) : 194
-sand_coil_proj_bob.w2ent:                        graphPositionY (Int16) : 274
-sand_coil_proj_bob.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
-sand_coil_proj_bob.w2ent:                            0 (CName) : Character
-sand_coil_proj_bob.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
-sand_coil_proj_bob.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-sand_coil_proj_bob.w2ent:                            X (Float) : 2.0000
-sand_coil_proj_bob.w2ent:                            Y (Float) : 0.0500
-sand_coil_proj_bob.w2ent:                            Z (Float) : 0.0500
-sand_coil_proj_bob.w2ent:                            W (Float) : 1.0000
-sand_coil_proj_bob.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
-sand_coil_proj_bob.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
-sand_coil_proj_bob.w2ent:            streamingDistance (Uint8) : 0
-sand_coil_proj_bob.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-sand_coil_proj_bob.w2ent:                0 (ptr:CComponent) : CSoundEmitterComponent #2
-sand_coil_proj_bob.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-sand_coil_proj_bob.w2ent:                0 (SEntityBufferType1) : 
-sand_coil_proj_bob.w2ent:                    ComponentName (CName) : 
-sand_coil_proj_bob.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-sand_coil_proj_bob.w2ent:            idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
-sand_coil_proj_bob.w2ent:            radius (Float) : 0.5000
-sand_coil_proj_bob.w2ent:            projSpeed (Float) : 30.0000
-sand_coil_proj_bob.w2ent:            projDMG (Float) : 150.0000
-sand_coil_proj_bob.w2ent:            ignoreArmor (Bool) : false
-sand_coil_proj_bob.w2ent:            debuffType (EEffectType) : EET_Confusion
-sand_coil_proj_bob.w2ent:            hitReactionType (EHitReactionType) : EHRT_None
-sand_coil_proj_bob.w2ent:            damageTypeName (CName) : BludgeoningDamage
-sand_coil_proj_bob.w2ent:            destroyQuen (Bool) : false
-sand_coil_proj_bob.w2ent:            customDuration (Float) : 2.0000
-sand_coil_proj_bob.w2ent:            signalDamageInstigatedEvent (Bool) : true
-sand_coil_proj_bob.w2ent:    CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-sand_coil_proj_bob.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-sand_coil_proj_bob.w2ent:            guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
-sand_coil_proj_bob.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-sand_coil_proj_bob.w2ent:            name (String) : "CSoundEmitterComponent0"
-sand_coil_proj_bob.w2ent:            isStreamed (Bool) : false
-sand_coil_proj_bob.w2ent:            maxDistance (Float) : 60.0000
+    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : DebuffProjectile
+            entityObject (ptr:CEntity) : DebuffProjectile #1
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : fx
+                    name (CName) : fx
+            flatCompiledData (array:Uint8) : # array:Uint8
+                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
+                    DebuffProjectile (DebuffProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                            Bufferdata (CByteArray) : 948 bytes, MD5: 8598312eb3344947e160808e955826bb
+                            CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+                                CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                                    guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                                    name (String) : "CPhantomComponent0"
+                                    isStreamed (Bool) : true
+                                    graphPositionX (Int16) : 194
+                                    graphPositionY (Int16) : 274
+                                    triggeringCollisionGroupNames (array:CName) : # array:CName
+                                        0 (CName) : Character
+                                    shapeType (EPhantomShape) : PS_Sphere
+                                    shapeDimensions (Vector) : <Vector>shapeDimensions
+                                        X (Float) : 2.0000
+                                        Y (Float) : 0.0500
+                                        Z (Float) : 0.0500
+                                        W (Float) : 1.0000
+                                    onTriggerEnteredScriptEvent (CName) : CharacterCollision
+                                    onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CSoundEmitterComponent #1
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
+                        radius (Float) : 0.5000
+                        projSpeed (Float) : 30.0000
+                        projDMG (Float) : 150.0000
+                        ignoreArmor (Bool) : false
+                        debuffType (EEffectType) : EET_Confusion
+                        hitReactionType (EHitReactionType) : EHRT_None
+                        damageTypeName (CName) : BludgeoningDamage
+                        destroyQuen (Bool) : false
+                        customDuration (Float) : 2.0000
+                        signalDamageInstigatedEvent (Bool) : true
+                CSoundEmitterComponent #1 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 142
+                        graphPositionY (Int16) : 179
+                        maxDistance (Float) : 60.0000
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    DebuffProjectile #1 (DebuffProjectile) : BludgeoningDamage
+        DebuffProjectile (DebuffProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                Bufferdata (CByteArray) : 948 bytes, MD5: 5b5049aa9ed6e1e87d9fa534c2acf4ba
+                CPhantomComponent #0 (CPhantomComponent) : CPhantomComponent0
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent0"
+                        isStreamed (Bool) : true
+                        graphPositionX (Int16) : 194
+                        graphPositionY (Int16) : 274
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Sphere
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 2.0000
+                            Y (Float) : 0.0500
+                            Z (Float) : 0.0500
+                            W (Float) : 1.0000
+                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CSoundEmitterComponent #2
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  cdd83e10-2025-4c1f-b3c8-ba84b848b811
+            radius (Float) : 0.5000
+            projSpeed (Float) : 30.0000
+            projDMG (Float) : 150.0000
+            ignoreArmor (Bool) : false
+            debuffType (EEffectType) : EET_Confusion
+            hitReactionType (EHitReactionType) : EHRT_None
+            damageTypeName (CName) : BludgeoningDamage
+            destroyQuen (Bool) : false
+            customDuration (Float) : 2.0000
+            signalDamageInstigatedEvent (Bool) : true
+    CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : 060c5136-c95f-4441-b06f-49160f063ce9
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            maxDistance (Float) : 60.0000

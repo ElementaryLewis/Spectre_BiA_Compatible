@@ -20,7 +20,7 @@
 	<ability name="Starting Armor _Stats"> <!-- medium armor -->
 		<weight							type="base"	min="8"					/>
 		<quality						type="add"	min="1"		max="1"		/>
-		<armor							type="base"	min="174"	max="174"	/>
+		<armor							type="base"	min="24"	max="24"	/>
 		<slashing_resistance_perc		type="base" min="0.08"				/>
 		<piercing_resistance_perc		type="base" min="0.02"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.02"				/>
@@ -29,7 +29,7 @@
 	</ability>
 
 <!-- ARMOR LIGHT -->
-	<ability name="Light armor 01 _Stats"> <!-- low quality light armor - 0 slots -->
+	<ability name="Light armor 01 _Stats"> <!-- Cidarian Gambeson - low quality light armor - 0 slots -->
 		<weight							type="base" min="4"					/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -40,7 +40,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.05"				/>
 	</ability>
 	
-	<ability name="Light armor 02 _Stats"> <!-- random quality light armor - 1 slot -->
+	<ability name="Light armor 02 _Stats"> <!-- Skellige Gambeson - random quality light armor - 1 slot -->
 		<weight							type="base"	min="5.75"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -51,7 +51,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="0.05"				/>
 	</ability>
 	
-	<ability name="Light armor 03 _Stats"> <!-- medium quality light armor - 1 slot -->
+	<ability name="Light armor 03 _Stats"> <!-- Kaedveni Gambeson - medium quality light armor - 1 slot -->
 		<weight							type="base" min="6.5"				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -62,7 +62,7 @@
 		<staminaRegen_armor_mod			type="mult" min="0.06"				/>
 	</ability>
 	
-	<ability name="Light armor 04 _Stats"> <!-- high quality light armor - 2 slots -->
+	<ability name="Light armor 04 _Stats"> <!-- Spikeroog Aketon - high quality light armor - 2 slots -->
 		<weight 						type="base" min="9" 				/>
 		<quality 						type="add" 	min="3"		max="3"		/>
 		<slashing_resistance_perc		type="base" min="0.03"				/>
@@ -74,7 +74,7 @@
 	</ability>
 	
 <!-- Light armor 02 variant -->
-	<ability name="Light armor 06 _Stats">  <!-- random quality light armor - 1 slot -->
+	<ability name="Light armor 06 _Stats">  <!-- Verden Archer's Gambeson - random quality light armor - 1 slot -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -86,7 +86,7 @@
 	</ability>
 	
 <!-- Light armor 03 variant -->
-	<ability name="Light armor 07 _Stats">  <!-- random quality light armor - 1 slot -->
+	<ability name="Light armor 07 _Stats">  <!-- Bounty Hunter's Gambeson - random quality light armor - 1 slot -->
 		<weight							type="base"	min="6.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.02"				/>
@@ -98,7 +98,7 @@
 	</ability>
 	
 <!-- Light armor 04 variant -->
-	<ability name="Light armor 08 _Stats">  <!-- random quality light armor - 2 slots -->
+	<ability name="Light armor 08 _Stats">  <!-- Ard Skellig Aketon - random quality light armor - 2 slots -->
 		<weight							type="base"	min="7.75"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -110,7 +110,7 @@
 	</ability>
 
 <!-- Light armor 02 variant -->
-	<ability name="Light armor 09 _Stats">  <!-- random quality light armor - 2 slots -->
+	<ability name="Light armor 09 _Stats">  <!-- Freya's Warriors' Armor - random quality light armor - 2 slots -->
 		<weight							type="base"	min="7.75"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.03"				/>
@@ -122,7 +122,7 @@
 	</ability>
 
 <!-- ARMOR MEDIUM -->		
-	<ability name="Medium armor 01 _Stats"> <!-- low quality medium armor - 0 slots -->
+	<ability name="Medium armor 01 _Stats"> <!-- Salmian Brigandine - low quality medium armor - 0 slots -->
 		<weight 						type="base"	min="10"				/>
 		<quality						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.09"				/>
@@ -132,7 +132,7 @@
 		<elemental_resistance_perc		type="base"	min="0.09"				/>
 	</ability>
 	
-	<ability name="Medium armor 02 _Stats"> <!-- random quality medium armor - 1 slot -->
+	<ability name="Medium armor 02 _Stats"> <!-- Cidarian Cavalry Armor - random quality medium armor - 1 slot -->
 		<weight							type="base"	min="11.75"				/>
 		<quality						type="add"	min="1"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.10"				/>
@@ -142,7 +142,7 @@
 		<elemental_resistance_perc		type="base"	min="0.10"				/>
 	</ability>
 	
-	<ability name="Medium armor 03 _Stats"> <!-- medium quality medium armor - 1 slot -->
+	<ability name="Medium armor 03 _Stats"> <!-- Redanian Halberdier's Armor - medium quality medium armor - 1 slot -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="2"		max="2"		/>
 		<slashing_resistance_perc		type="base"	min="0.10"				/>
@@ -152,7 +152,7 @@
 		<elemental_resistance_perc		type="base"	min="0.10"				/>
 	</ability>
 	
-	<ability name="Medium armor 04 _Stats"> <!-- high quality medium armor - 2 slots -->
+	<ability name="Medium armor 04 _Stats"> <!-- Angrenian Cuirass - high quality medium armor - 2 slots -->
 		<weight							type="base"	min="17"				/>
 		<quality						type="add"	min="3"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.12"				/>
@@ -163,7 +163,7 @@
 	</ability>
 	
 <!-- Medium armor 01 alternate stats -->
-	<ability name="Medium armor 05 _Stats"> <!-- random quality medium armor - 1 slot -->
+	<ability name="Medium armor 05 _Stats"> <!-- Belhaven Brigandine - random quality medium armor - 1 slot -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.09"				/>
@@ -174,7 +174,7 @@
 	</ability>
 	
 <!-- Medium armor 04 alternate stats -->
-	<ability name="Medium armor 07 _Stats"> <!-- random quality medium armor - 1 slot -->
+	<ability name="Medium armor 07 _Stats"> <!-- Kaedveni Cuirass - random quality medium armor - 1 slot -->
 		<weight							type="base"	min="13.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.09"				/>
@@ -185,7 +185,7 @@
 	</ability>
 	
 <!-- Medium armor 04 alternate stats -->
-	<ability name="Medium armor 10 _Stats"> <!-- random quality medium armor - 2 slots -->
+	<ability name="Medium armor 10 _Stats"> <!-- Witch Hunter's Armor - random quality medium armor - 2 slots -->
 		<weight							type="base"	min="15.25"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -196,7 +196,7 @@
 	</ability>
 	
 <!-- Medium armor 04 alternate stats -->
-	<ability name="Medium armor 11 _Stats"> <!-- random quality medium armor - 2 slots -->
+	<ability name="Medium armor 11 _Stats"> <!-- Eternal Fire Executioner's Armor - random quality medium armor - 2 slots -->
 		<weight							type="base"	min="15.25"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.11"				/>
@@ -207,7 +207,7 @@
 	</ability>
 
 <!-- ARMOR HEAVY -->	
-	<ability name="Heavy armor 01 _Stats"> <!-- low quality heavy armor - 0 slots -->
+	<ability name="Heavy armor 01 _Stats"> <!-- Mag Deira Cuirass - low quality heavy armor - 0 slots -->
 		<weight							type="base" min="15"				/>
 		<quality 						type="add"	min="1"		max="1"		/>
 		<slashing_resistance_perc		type="base"	min="0.15"				/>
@@ -218,7 +218,7 @@
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
 	</ability>
 	
-	<ability name="Heavy armor 02 _Stats"> <!-- medium quality heavy armor - 1 slot -->
+	<ability name="Heavy armor 02 _Stats"> <!-- Ban Ard Breastplate - medium quality heavy armor - 1 slot -->
 		<weight 						type="base" min="17.5"				/>
 		<quality 						type="add" 	min="2" 	max="2"		/>
 		<slashing_resistance_perc 		type="base" min="0.17"				/>
@@ -229,7 +229,7 @@
 		<staminaRegen_armor_mod 		type="mult" min="-0.30"				/>
 	</ability>
 	
-	<ability name="Heavy armor 03 _Stats"> <!-- high quality heavy armor - 2 slots -->
+	<ability name="Heavy armor 03 _Stats"> <!-- Nilfgaardian Guardsman Armor - high quality heavy armor - 2 slots -->
 		<weight							type="base"	min="20"				/>
 		<quality 						type="add"	min="3"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.20" 				/>
@@ -240,7 +240,7 @@
 		<staminaRegen_armor_mod			type="mult"	min="-0.30"				/>
 	</ability>
 	
-	<ability name="Heavy armor 04 _Stats"> <!-- random quality heavy armor - 1 slot -->
+	<ability name="Heavy armor 04 _Stats"> <!-- Hindarfjall Heavy Armor - random quality heavy armor - 1 slot -->
 		<weight							type="base"	min="17.5"				/>
 		<quality						type="add"	min="1"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.18"				/>
@@ -252,8 +252,8 @@
 		</ability>
 	
 <!-- Heavy armor 01 variant -->
-	<ability name="Heavy armor 05 _Stats"> <!-- random quality heavy armor - 2 slots -->
-		<weight							type="base"	min="18.75"					/>
+	<ability name="Heavy armor 05 _Stats"> <!-- Mahakaman Heavy Armor - random quality heavy armor - 2 slots -->
+		<weight							type="base"	min="18.75"				/>
 		<quality						type="add"	min="2"		max="3"		/>
 		<slashing_resistance_perc		type="base"	min="0.19"				/>
 		<piercing_resistance_perc		type="base"	min="0.19"				/>
@@ -781,7 +781,7 @@
 		</variants>
 	</item>
 	
-<!-- q108 Medium armor 10 / QUEST ITEM --> <!-- this is reward armor (medium, relic) -->
+<!-- q108 Medium armor 10 / QUEST ITEM --> <!-- this is reward armor (heavy, relic) -->
 	<item
 		name							="q108 Medium armor 10"
 		category						="armor"

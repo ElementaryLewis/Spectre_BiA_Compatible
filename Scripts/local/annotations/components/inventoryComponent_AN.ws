@@ -729,11 +729,6 @@ protected var tempTransferredItems : array< SItemUniqueId >;
 							newAttr.percentageValue = false;
 						}
 					}
-					//else if(buffType == EET_GoldenOriole)
-					//{
-					//	newAttr.value = val.valueBase;
-					//	newAttr.percentageValue = true;
-					//}
 					else
 					{
 						newAttr.value = val.valueBase;
@@ -741,6 +736,11 @@ protected var tempTransferredItems : array< SItemUniqueId >;
 					}
 					
 					tips.PushBack(newAttr);
+				} 
+
+				if (IsItemPotion(GetItemId(itemName))) 
+				{
+					theGame.alchexts.ChangePotionTooltipData(GetItemId(itemName), tips);
 				}
 			}
 		}
@@ -1998,6 +1998,108 @@ protected var tempTransferredItems : array< SItemUniqueId >;
 	
 	if(ent)
 		ent.OnItemGiven(data);
+}
+
+@wrapMethod(CInventoryComponent) function SingletonItemRefillAmmo( id : SItemUniqueId, optional alchemyTableUsed : bool )
+{
+	if (GetItemModifierInt(id, 'ammo_current') < 0) SetItemModifierInt(id, 'ammo_current', 1); 
+	{
+		return;
+	}
+
+	wrappedMethod(id, alchemyTableUsed);
+}
+
+@wrapMethod(CInventoryComponent) function SingletonItemSetAmmo(id : SItemUniqueId, quantity : int)
+{
+	wrappedMethod(id, quantity);
+
+	theGame.alchexts.OnSingletonChanged(id, quantity);
+}
+
+@wrapMethod(CInventoryComponent) function SingletonItemAddAmmo(id : SItemUniqueId, quantity : int)
+{
+	var ammo : int;
+
+	if(false) 
+	{
+		wrappedMethod(id, quantity);
+	}
+		
+	if(quantity <= 0)
+		return;
+		
+	ammo = GetItemModifierInt(id, 'ammo_current');
+	
+	if(ammo == -1)
+		return;	
+		
+	ammo = Clamp(ammo + quantity, 0, SingletonItemGetMaxAmmo(id));
+
+	SetItemModifierInt(id, 'ammo_current', ammo);
+
+	theGame.GetGlobalEventsManager().OnScriptedEvent( SEC_OnAmmoChanged ); 
+	
+	theGame.alchexts.OnSingletonChanged(id, ammo);
+}
+
+@wrapMethod(CInventoryComponent) function HasNotFilledSingletonItem( optional alchemyTableUsed : bool ) : bool
+{
+	if(false) 
+	{
+		wrappedMethod(alchemyTableUsed);
+	}
+
+	return (false);
+}
+
+@wrapMethod(CInventoryComponent) function SingletonItemRemoveAmmo(itemID : SItemUniqueId, optional quantity : int)
+{
+	var ammo : int;
+
+	if(false) 
+	{
+		wrappedMethod(itemID, quantity);
+	}
+	
+	if(!IsItemSingletonItem(itemID) || ItemHasTag(itemID, theGame.params.TAG_INFINITE_AMMO))
+		return;
+	
+	if(quantity <= 0)
+		quantity = 1;
+		
+	ammo = GetItemModifierInt(itemID, 'ammo_current');
+	ammo = Max(0, ammo - quantity);
+	SetItemModifierInt(itemID, 'ammo_current', ammo);theGame.alchexts.OnSingletonChanged(itemID, ammo);
+	
+	
+	if(ammo == 0 && ShouldProcessTutorial('TutorialAlchemyRefill') && FactsQuerySum("q001_nightmare_ended") > 0)
+	{
+		FactsAdd('tut_alch_refill', 1);
+	}
+	theGame.GetGlobalEventsManager().OnScriptedEvent( SEC_OnAmmoChanged );
+}
+
+@wrapMethod(CInventoryComponent) function SingletonItemGetMaxAmmo(itemID : SItemUniqueId) : int
+{
+	if(false) 
+	{
+		wrappedMethod(itemID);
+	}
+	
+	return (theGame.alchexts.GetMaxAmmoForItem(itemID, this) );
+}
+
+@wrapMethod(CInventoryComponent) function ManageSingletonItemsBonus()
+{
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	theGame.alchexts.OnAlchemyTableUsed(); 
+
+	return;
 }
 
 @addMethod(CInventoryComponent) function AddQualityAbilityToItem(item : SItemUniqueId)

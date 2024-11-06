@@ -1,447 +1,447 @@
-toad_spit_proj.w2ent:    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
-toad_spit_proj.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-toad_spit_proj.w2ent:            properOverrides (Bool) : true
-toad_spit_proj.w2ent:            entityClass (CName) : DebuffProjectile
-toad_spit_proj.w2ent:            entityObject (ptr:CEntity) : DebuffProjectile #1
-toad_spit_proj.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-toad_spit_proj.w2ent:                0 (EntitySlot) : fx
-toad_spit_proj.w2ent:                    name (CName) : fx
-toad_spit_proj.w2ent:                    componentName (CName) : CPhantomComponent0
-toad_spit_proj.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-toad_spit_proj.w2ent:                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
-toad_spit_proj.w2ent:                    DebuffProjectile (DebuffProjectile) : PreviewEntity
-toad_spit_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        streamingDistance (Uint8) : 0
-toad_spit_proj.w2ent:                        name (String) : "PreviewEntity"
-toad_spit_proj.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-toad_spit_proj.w2ent:                            0 (ptr:CComponent) : CPhantomComponent #1
-toad_spit_proj.w2ent:                            1 (ptr:CComponent) : CSoundEmitterComponent #2
-toad_spit_proj.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-toad_spit_proj.w2ent:                            0 (SEntityBufferType1) : 
-toad_spit_proj.w2ent:                                ComponentName (CName) : 
-toad_spit_proj.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-toad_spit_proj.w2ent:                        idTag (IdTag) :  8545a287-180f-43a5-bb04-c25b82133095
-toad_spit_proj.w2ent:                        radius (Float) : 0.1500
-toad_spit_proj.w2ent:                        projSpeed (Float) : 20.0000
-toad_spit_proj.w2ent:                        projAngle (Float) : 10.0000
-toad_spit_proj.w2ent:                        projDMG (Float) : 200.0000
-toad_spit_proj.w2ent:                        projEfect (EEffectType) : EET_Poison
-toad_spit_proj.w2ent:                        debuffType (EEffectType) : EET_Poison
-toad_spit_proj.w2ent:                        damageTypeName (CName) : PoisonDamage
-toad_spit_proj.w2ent:                        initFxName (CName) : spit_travel
-toad_spit_proj.w2ent:                        onCollisionFxName (CName) : spit_hit
-toad_spit_proj.w2ent:                CPhantomComponent #1 (CPhantomComponent) : CPhantomComponent0
-toad_spit_proj.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-toad_spit_proj.w2ent:                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
-toad_spit_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        name (String) : "CPhantomComponent0"
-toad_spit_proj.w2ent:                        graphPositionX (Int16) : 194
-toad_spit_proj.w2ent:                        graphPositionY (Int16) : 274
-toad_spit_proj.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
-toad_spit_proj.w2ent:                            0 (CName) : Character
-toad_spit_proj.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
-toad_spit_proj.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-toad_spit_proj.w2ent:                            X (Float) : 0.1500
-toad_spit_proj.w2ent:                            Y (Float) : 0.0500
-toad_spit_proj.w2ent:                            Z (Float) : 0.0500
-toad_spit_proj.w2ent:                            W (Float) : 0.5000
-toad_spit_proj.w2ent:                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
-toad_spit_proj.w2ent:                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
-toad_spit_proj.w2ent:                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
-toad_spit_proj.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-toad_spit_proj.w2ent:                        guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
-toad_spit_proj.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:                        name (String) : "CSoundEmitterComponent0"
-toad_spit_proj.w2ent:                        isStreamed (Bool) : false
-toad_spit_proj.w2ent:                        graphPositionX (Int16) : 102
-toad_spit_proj.w2ent:                        graphPositionY (Int16) : 196
-toad_spit_proj.w2ent:                        maxDistance (Float) : 60.0000
-toad_spit_proj.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-toad_spit_proj.w2ent:                0 (CEntityTemplateCookedEffect) : spit_travel
-toad_spit_proj.w2ent:                    name (CName) : spit_travel
-toad_spit_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-toad_spit_proj.w2ent:                        Bufferdata (CByteArray) : 2160 bytes, MD5: 2a7477f661f86e25582923764e6c6d31
-toad_spit_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_travel
-toad_spit_proj.w2ent:                            CFXDefinition (CFXDefinition) : spit_travel
-toad_spit_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-toad_spit_proj.w2ent:                                length (Float) : 0.9963
-toad_spit_proj.w2ent:                                loopStart (Float) : 0.2499
-toad_spit_proj.w2ent:                                loopEnd (Float) : 0.3326
-toad_spit_proj.w2ent:                                name (CName) : spit_travel
-toad_spit_proj.w2ent:                                showDistance (Float) : 50.0000
-toad_spit_proj.w2ent:                                isLooped (Bool) : true
-toad_spit_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : particles
-toad_spit_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
-toad_spit_proj.w2ent:                                name (String) : "particles"
-toad_spit_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-toad_spit_proj.w2ent:                                    1 (ptr:CFXTrack) : CFXTrack #5
-toad_spit_proj.w2ent:                                isExpanded (Bool) : true
-toad_spit_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_spit_proj.w2ent:                                    Red (Uint8) : 170
-toad_spit_proj.w2ent:                                    Green (Uint8) : 227
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 140
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 100
-toad_spit_proj.w2ent:                        CFXTrack #2 (CFXTrack) : light
-toad_spit_proj.w2ent:                            CFXTrack (CFXTrack) : light
-toad_spit_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-toad_spit_proj.w2ent:                                name (String) : "light"
-toad_spit_proj.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-toad_spit_proj.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-toad_spit_proj.w2ent:                                timeBegin (Float) : 0.0062
-toad_spit_proj.w2ent:                                buffername (CName) : DynamicLight
-toad_spit_proj.w2ent:                                count (CDynamicInt) : 2
-toad_spit_proj.w2ent:                                unk (Uint8) : 1
-toad_spit_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0> <0.1441665> <0.7819289> <1> <1> <0.625> <0.2083333> <0> <0> <0> <0> <0> <0> <0> <0>>
-toad_spit_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        1 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 0.1442
-toad_spit_proj.w2ent:                                        3 (Float) : 0.7819
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 0.6250
-toad_spit_proj.w2ent:                                        7 (Float) : 0.2083
-toad_spit_proj.w2ent:                                        8 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 0.0000
-toad_spit_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 1.0000
-toad_spit_proj.w2ent:                                color (Color) : <Color>color
-toad_spit_proj.w2ent:                                    Red (Uint8) : 252
-toad_spit_proj.w2ent:                                    Green (Uint8) : 227
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 180
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 255
-toad_spit_proj.w2ent:                                radius (Float) : 4.0000
-toad_spit_proj.w2ent:                                brightness (Float) : 70.0000
-toad_spit_proj.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
-toad_spit_proj.w2ent:                                    flickerPeriod (Float) : 0.0000
-toad_spit_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
-toad_spit_proj.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
-toad_spit_proj.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-toad_spit_proj.w2ent:                                slotNames (array:CName) : # array:CName
-toad_spit_proj.w2ent:                                    0 (CName) : fx
-toad_spit_proj.w2ent:                        CFXTrack #5 (CFXTrack) : fx
-toad_spit_proj.w2ent:                            CFXTrack (CFXTrack) : fx
-toad_spit_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
-toad_spit_proj.w2ent:                                name (String) : "fx"
-toad_spit_proj.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
-toad_spit_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-toad_spit_proj.w2ent:                                timeBegin (Float) : -0.0006
-toad_spit_proj.w2ent:                                buffername (CName) : Particles
-toad_spit_proj.w2ent:                                count (CDynamicInt) : 3
-toad_spit_proj.w2ent:                                unk (Uint8) : 1
-toad_spit_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-toad_spit_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 0.0000
-toad_spit_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 0.9748
-toad_spit_proj.w2ent:                                        11 (Float) : 0.7292
-toad_spit_proj.w2ent:                                        12 (Float) : 0.4837
-toad_spit_proj.w2ent:                                        13 (Float) : 0.2381
-toad_spit_proj.w2ent:                                        14 (Float) : 0.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 0.0000
-toad_spit_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 1.0000
-toad_spit_proj.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_spit_trail.w2p
-toad_spit_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
-toad_spit_proj.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
-toad_spit_proj.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-toad_spit_proj.w2ent:                                slotNames (array:CName) : # array:CName
-toad_spit_proj.w2ent:                                    0 (CName) : fx
-toad_spit_proj.w2ent:                1 (CEntityTemplateCookedEffect) : spit_hit
-toad_spit_proj.w2ent:                    name (CName) : spit_hit
-toad_spit_proj.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-toad_spit_proj.w2ent:                        Bufferdata (CByteArray) : 2710 bytes, MD5: a4c692f453eee3414f48b07708758d41
-toad_spit_proj.w2ent:                        CFXDefinition #0 (CFXDefinition) : spit_hit
-toad_spit_proj.w2ent:                            CFXDefinition (CFXDefinition) : spit_hit
-toad_spit_proj.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-toad_spit_proj.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-toad_spit_proj.w2ent:                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
-toad_spit_proj.w2ent:                                length (Float) : 4.0000
-toad_spit_proj.w2ent:                                loopEnd (Float) : 4.0000
-toad_spit_proj.w2ent:                                name (CName) : spit_hit
-toad_spit_proj.w2ent:                                showDistance (Float) : 50.0000
-toad_spit_proj.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : light
-toad_spit_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : light
-toad_spit_proj.w2ent:                                name (String) : "light"
-toad_spit_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-toad_spit_proj.w2ent:                                isExpanded (Bool) : true
-toad_spit_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_spit_proj.w2ent:                                    Red (Uint8) : 214
-toad_spit_proj.w2ent:                                    Green (Uint8) : 190
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 220
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 100
-toad_spit_proj.w2ent:                        CFXTrack #2 (CFXTrack) : dynamic
-toad_spit_proj.w2ent:                            CFXTrack (CFXTrack) : dynamic
-toad_spit_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
-toad_spit_proj.w2ent:                                name (String) : "dynamic"
-toad_spit_proj.w2ent:                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
-toad_spit_proj.w2ent:                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
-toad_spit_proj.w2ent:                                timeBegin (Float) : 0.0292
-toad_spit_proj.w2ent:                                timeDuration (Float) : 0.4968
-toad_spit_proj.w2ent:                                buffername (CName) : DynamicLight
-toad_spit_proj.w2ent:                                count (CDynamicInt) : 2
-toad_spit_proj.w2ent:                                unk (Uint8) : 1
-toad_spit_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2463834> <0.4927668> <0.7391502> <0.9855336> <0.9076383> <0.8095152> <0.7113922> <0.6
-toad_spit_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        1 (Float) : 0.2464
-toad_spit_proj.w2ent:                                        2 (Float) : 0.4928
-toad_spit_proj.w2ent:                                        3 (Float) : 0.7392
-toad_spit_proj.w2ent:                                        4 (Float) : 0.9855
-toad_spit_proj.w2ent:                                        5 (Float) : 0.9076
-toad_spit_proj.w2ent:                                        6 (Float) : 0.8095
-toad_spit_proj.w2ent:                                        7 (Float) : 0.7114
-toad_spit_proj.w2ent:                                        8 (Float) : 0.6133
-toad_spit_proj.w2ent:                                        9 (Float) : 0.5151
-toad_spit_proj.w2ent:                                        10 (Float) : 0.4170
-toad_spit_proj.w2ent:                                        11 (Float) : 0.3189
-toad_spit_proj.w2ent:                                        12 (Float) : 0.2208
-toad_spit_proj.w2ent:                                        13 (Float) : 0.1227
-toad_spit_proj.w2ent:                                        14 (Float) : 0.0245
-toad_spit_proj.w2ent:                                        15 (Float) : 0.0000
-toad_spit_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 1.0000
-toad_spit_proj.w2ent:                                color (Color) : <Color>color
-toad_spit_proj.w2ent:                                    Red (Uint8) : 252
-toad_spit_proj.w2ent:                                    Green (Uint8) : 227
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 180
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 255
-toad_spit_proj.w2ent:                                radius (Float) : 8.0000
-toad_spit_proj.w2ent:                                brightness (Float) : 25.0000
-toad_spit_proj.w2ent:                                attenuation (Float) : 0.5000
-toad_spit_proj.w2ent:                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
-toad_spit_proj.w2ent:                                    flickerPeriod (Float) : 0.0000
-toad_spit_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
-toad_spit_proj.w2ent:                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
-toad_spit_proj.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-toad_spit_proj.w2ent:                                slotNames (array:CName) : # array:CName
-toad_spit_proj.w2ent:                                    0 (CName) : fx
-toad_spit_proj.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : sounds
-toad_spit_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
-toad_spit_proj.w2ent:                                name (String) : "sounds"
-toad_spit_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-toad_spit_proj.w2ent:                                isExpanded (Bool) : true
-toad_spit_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_spit_proj.w2ent:                                    Red (Uint8) : 141
-toad_spit_proj.w2ent:                                    Green (Uint8) : 185
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 155
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 100
-toad_spit_proj.w2ent:                        CFXTrack #6 (CFXTrack) : sfx
-toad_spit_proj.w2ent:                            CFXTrack (CFXTrack) : sfx
-toad_spit_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
-toad_spit_proj.w2ent:                                name (String) : "sfx"
-toad_spit_proj.w2ent:                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
-toad_spit_proj.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-toad_spit_proj.w2ent:                                timeBegin (Float) : 0.0082
-toad_spit_proj.w2ent:                                buffername (CName) : 
-toad_spit_proj.w2ent:                                count (CDynamicInt) : 0
-toad_spit_proj.w2ent:                                unk (Uint8) : 0
-toad_spit_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-toad_spit_proj.w2ent:                                soundEventName (StringAnsi) : monster_toad_fx_mucus_hit
-toad_spit_proj.w2ent:                                maxDistance (Float) : 40.0000
-toad_spit_proj.w2ent:                        CFXTrackGroup #8 (CFXTrackGroup) : particles
-toad_spit_proj.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particles
-toad_spit_proj.w2ent:                                name (String) : "particles"
-toad_spit_proj.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #9
-toad_spit_proj.w2ent:                                isExpanded (Bool) : true
-toad_spit_proj.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-toad_spit_proj.w2ent:                                    Red (Uint8) : 192
-toad_spit_proj.w2ent:                                    Green (Uint8) : 152
-toad_spit_proj.w2ent:                                    Blue (Uint8) : 232
-toad_spit_proj.w2ent:                                    Alpha (Uint8) : 100
-toad_spit_proj.w2ent:                        CFXTrack #9 (CFXTrack) : fx1
-toad_spit_proj.w2ent:                            CFXTrack (CFXTrack) : fx1
-toad_spit_proj.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-toad_spit_proj.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #10
-toad_spit_proj.w2ent:                                name (String) : "fx1"
-toad_spit_proj.w2ent:                        CFXTrackItemParticles #10 (CFXTrackItemParticles) : Particles
-toad_spit_proj.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-toad_spit_proj.w2ent:                                timeDuration (Float) : 4.0000
-toad_spit_proj.w2ent:                                buffername (CName) : Particles
-toad_spit_proj.w2ent:                                count (CDynamicInt) : 3
-toad_spit_proj.w2ent:                                unk (Uint8) : 1
-toad_spit_proj.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-toad_spit_proj.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 1.0000
-toad_spit_proj.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 0.8333
-toad_spit_proj.w2ent:                                        11 (Float) : 0.6667
-toad_spit_proj.w2ent:                                        12 (Float) : 0.5000
-toad_spit_proj.w2ent:                                        13 (Float) : 0.3333
-toad_spit_proj.w2ent:                                        14 (Float) : 0.1667
-toad_spit_proj.w2ent:                                        15 (Float) : 0.0000
-toad_spit_proj.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-toad_spit_proj.w2ent:                                        0 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        2 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        3 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        4 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        5 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        6 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        7 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        8 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        9 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        10 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        11 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        12 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        13 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        14 (Float) : 1.0000
-toad_spit_proj.w2ent:                                        15 (Float) : 1.0000
-toad_spit_proj.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_back_burst.w2p
-toad_spit_proj.w2ent:                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #11
-toad_spit_proj.w2ent:                        CFXSpawnerComponent #11 (CFXSpawnerComponent) : fx
-toad_spit_proj.w2ent:                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
-toad_spit_proj.w2ent:                                componentName (CName) : fx
-toad_spit_proj.w2ent:                                copyRotation (Bool) : false
-toad_spit_proj.w2ent:            cookedEffectsVersion (Uint32) : 1
-toad_spit_proj.w2ent:            Unk1 (Uint32) : 0
-toad_spit_proj.w2ent:    DebuffProjectile #1 (DebuffProjectile) : PoisonDamage
-toad_spit_proj.w2ent:        DebuffProjectile (DebuffProjectile) : 
-toad_spit_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            streamingDistance (Uint8) : 0
-toad_spit_proj.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-toad_spit_proj.w2ent:                0 (ptr:CComponent) : CPhantomComponent #2
-toad_spit_proj.w2ent:                1 (ptr:CComponent) : CSoundEmitterComponent #3
-toad_spit_proj.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-toad_spit_proj.w2ent:                0 (SEntityBufferType1) : 
-toad_spit_proj.w2ent:                    ComponentName (CName) : 
-toad_spit_proj.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-toad_spit_proj.w2ent:            idTag (IdTag) :  8545a287-180f-43a5-bb04-c25b82133095
-toad_spit_proj.w2ent:            radius (Float) : 0.1500
-toad_spit_proj.w2ent:            projSpeed (Float) : 20.0000
-toad_spit_proj.w2ent:            projAngle (Float) : 10.0000
-toad_spit_proj.w2ent:            projDMG (Float) : 200.0000
-toad_spit_proj.w2ent:            projEfect (EEffectType) : EET_Poison
-toad_spit_proj.w2ent:            debuffType (EEffectType) : EET_Poison
-toad_spit_proj.w2ent:            damageTypeName (CName) : PoisonDamage
-toad_spit_proj.w2ent:            initFxName (CName) : spit_travel
-toad_spit_proj.w2ent:            onCollisionFxName (CName) : spit_hit
-toad_spit_proj.w2ent:    CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
-toad_spit_proj.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-toad_spit_proj.w2ent:            guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
-toad_spit_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            name (String) : "CPhantomComponent0"
-toad_spit_proj.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
-toad_spit_proj.w2ent:                0 (CName) : Character
-toad_spit_proj.w2ent:            shapeType (EPhantomShape) : PS_Sphere
-toad_spit_proj.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
-toad_spit_proj.w2ent:                X (Float) : 0.1500
-toad_spit_proj.w2ent:                Y (Float) : 0.0500
-toad_spit_proj.w2ent:                Z (Float) : 0.0500
-toad_spit_proj.w2ent:                W (Float) : 0.5000
-toad_spit_proj.w2ent:            onTriggerEnteredScriptEvent (CName) : CharacterCollision
-toad_spit_proj.w2ent:            onTriggerExitedScriptEvent (CName) : OnCharacterCollision
-toad_spit_proj.w2ent:    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
-toad_spit_proj.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-toad_spit_proj.w2ent:            guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
-toad_spit_proj.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-toad_spit_proj.w2ent:            name (String) : "CSoundEmitterComponent0"
-toad_spit_proj.w2ent:            isStreamed (Bool) : false
-toad_spit_proj.w2ent:            maxDistance (Float) : 60.0000
+    CEntityTemplate #0 (CEntityTemplate) : DebuffProjectile
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : DebuffProjectile
+            entityObject (ptr:CEntity) : DebuffProjectile #1
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : fx
+                    name (CName) : fx
+                    componentName (CName) : CPhantomComponent0
+            flatCompiledData (array:Uint8) : # array:Uint8
+                DebuffProjectile #0 (DebuffProjectile) : PreviewEntity
+                    DebuffProjectile (DebuffProjectile) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CPhantomComponent #1
+                            1 (ptr:CComponent) : CSoundEmitterComponent #2
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  8545a287-180f-43a5-bb04-c25b82133095
+                        radius (Float) : 0.1500
+                        projSpeed (Float) : 20.0000
+                        projAngle (Float) : 10.0000
+                        projDMG (Float) : 200.0000
+                        projEfect (EEffectType) : EET_Poison
+                        debuffType (EEffectType) : EET_Poison
+                        damageTypeName (CName) : PoisonDamage
+                        initFxName (CName) : spit_travel
+                        onCollisionFxName (CName) : spit_hit
+                CPhantomComponent #1 (CPhantomComponent) : CPhantomComponent0
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                        guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent0"
+                        graphPositionX (Int16) : 194
+                        graphPositionY (Int16) : 274
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Sphere
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.1500
+                            Y (Float) : 0.0500
+                            Z (Float) : 0.0500
+                            W (Float) : 0.5000
+                        onTriggerEnteredScriptEvent (CName) : CharacterCollision
+                        onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+                CSoundEmitterComponent #2 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        isStreamed (Bool) : false
+                        graphPositionX (Int16) : 102
+                        graphPositionY (Int16) : 196
+                        maxDistance (Float) : 60.0000
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : spit_travel
+                    name (CName) : spit_travel
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2160 bytes, MD5: 2a7477f661f86e25582923764e6c6d31
+                        CFXDefinition #0 (CFXDefinition) : spit_travel
+                            CFXDefinition (CFXDefinition) : spit_travel
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                length (Float) : 0.9963
+                                loopStart (Float) : 0.2499
+                                loopEnd (Float) : 0.3326
+                                name (CName) : spit_travel
+                                showDistance (Float) : 50.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : particles
+                            CFXTrackGroup (CFXTrackGroup) : particles
+                                name (String) : "particles"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                    1 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 170
+                                    Green (Uint8) : 227
+                                    Blue (Uint8) : 140
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : light
+                            CFXTrack (CFXTrack) : light
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "light"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0062
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0> <0.1441665> <0.7819289> <1> <1> <0.625> <0.2083333> <0> <0> <0> <0> <0> <0> <0> <0>>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.0000
+                                        2 (Float) : 0.1442
+                                        3 (Float) : 0.7819
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.6250
+                                        7 (Float) : 0.2083
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 252
+                                    Green (Uint8) : 227
+                                    Blue (Uint8) : 180
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 4.0000
+                                brightness (Float) : 70.0000
+                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+                                    flickerPeriod (Float) : 0.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                        CFXTrack #5 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "fx"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : -0.0006
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 0.9748
+                                        11 (Float) : 0.7292
+                                        12 (Float) : 0.4837
+                                        13 (Float) : 0.2381
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_spit_trail.w2p
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                1 (CEntityTemplateCookedEffect) : spit_hit
+                    name (CName) : spit_hit
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2710 bytes, MD5: a4c692f453eee3414f48b07708758d41
+                        CFXDefinition #0 (CFXDefinition) : spit_hit
+                            CFXDefinition (CFXDefinition) : spit_hit
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                    2 (ptr:CFXTrackGroup) : CFXTrackGroup #8
+                                length (Float) : 4.0000
+                                loopEnd (Float) : 4.0000
+                                name (CName) : spit_hit
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : light
+                            CFXTrackGroup (CFXTrackGroup) : light
+                                name (String) : "light"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 214
+                                    Green (Uint8) : 190
+                                    Blue (Uint8) : 220
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : dynamic
+                            CFXTrack (CFXTrack) : dynamic
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemDynamicLight #3
+                                name (String) : "dynamic"
+                        CFXTrackItemDynamicLight #3 (CFXTrackItemDynamicLight) : DynamicLight
+                            CFXTrackItemDynamicLight (CFXTrackItemDynamicLight) : <CFXTrackItemDynamicLight>CFXTrackItemDynamicLight
+                                timeBegin (Float) : 0.0292
+                                timeDuration (Float) : 0.4968
+                                buffername (CName) : DynamicLight
+                                count (CDynamicInt) : 2
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <0> <0.2463834> <0.4927668> <0.7391502> <0.9855336> <0.9076383> <0.8095152> <0.7113922> <0.6
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        1 (Float) : 0.2464
+                                        2 (Float) : 0.4928
+                                        3 (Float) : 0.7392
+                                        4 (Float) : 0.9855
+                                        5 (Float) : 0.9076
+                                        6 (Float) : 0.8095
+                                        7 (Float) : 0.7114
+                                        8 (Float) : 0.6133
+                                        9 (Float) : 0.5151
+                                        10 (Float) : 0.4170
+                                        11 (Float) : 0.3189
+                                        12 (Float) : 0.2208
+                                        13 (Float) : 0.1227
+                                        14 (Float) : 0.0245
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                color (Color) : <Color>color
+                                    Red (Uint8) : 252
+                                    Green (Uint8) : 227
+                                    Blue (Uint8) : 180
+                                    Alpha (Uint8) : 255
+                                radius (Float) : 8.0000
+                                brightness (Float) : 25.0000
+                                attenuation (Float) : 0.5000
+                                lightFlickering (SLightFlickering) : <SLightFlickering>lightFlickering
+                                    flickerPeriod (Float) : 0.0000
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #4
+                        CFXSimpleSpawner #4 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                        CFXTrackGroup #5 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 141
+                                    Green (Uint8) : 185
+                                    Blue (Uint8) : 155
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #7
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #7 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0082
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : monster_toad_fx_mucus_hit
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #8 (CFXTrackGroup) : particles
+                            CFXTrackGroup (CFXTrackGroup) : particles
+                                name (String) : "particles"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #9
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 192
+                                    Green (Uint8) : 152
+                                    Blue (Uint8) : 232
+                                    Alpha (Uint8) : 100
+                        CFXTrack #9 (CFXTrack) : fx1
+                            CFXTrack (CFXTrack) : fx1
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #10
+                                name (String) : "fx1"
+                        CFXTrackItemParticles #10 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 4.0000
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 0.8333
+                                        11 (Float) : 0.6667
+                                        12 (Float) : 0.5000
+                                        13 (Float) : 0.3333
+                                        14 (Float) : 0.1667
+                                        15 (Float) : 0.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/monsters/toad/toad_back_burst.w2p
+                                spawner (ptr:IFXSpawner) : CFXSpawnerComponent #11
+                        CFXSpawnerComponent #11 (CFXSpawnerComponent) : fx
+                            CFXSpawnerComponent (CFXSpawnerComponent) : <CFXSpawnerComponent>CFXSpawnerComponent
+                                componentName (CName) : fx
+                                copyRotation (Bool) : false
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    DebuffProjectile #1 (DebuffProjectile) : PoisonDamage
+        DebuffProjectile (DebuffProjectile) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CPhantomComponent #2
+                1 (ptr:CComponent) : CSoundEmitterComponent #3
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  8545a287-180f-43a5-bb04-c25b82133095
+            radius (Float) : 0.1500
+            projSpeed (Float) : 20.0000
+            projAngle (Float) : 10.0000
+            projDMG (Float) : 200.0000
+            projEfect (EEffectType) : EET_Poison
+            debuffType (EEffectType) : EET_Poison
+            damageTypeName (CName) : PoisonDamage
+            initFxName (CName) : spit_travel
+            onCollisionFxName (CName) : spit_hit
+    CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+            guid (CGUID) : da68a60d-e7e7-4444-b160-0ab1f85a4492
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent0"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+            shapeType (EPhantomShape) : PS_Sphere
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.1500
+                Y (Float) : 0.0500
+                Z (Float) : 0.0500
+                W (Float) : 0.5000
+            onTriggerEnteredScriptEvent (CName) : CharacterCollision
+            onTriggerExitedScriptEvent (CName) : OnCharacterCollision
+    CSoundEmitterComponent #3 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            guid (CGUID) : ef4b4a53-5990-4d37-85d8-1e1493d546c1
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            isStreamed (Bool) : false
+            maxDistance (Float) : 60.0000

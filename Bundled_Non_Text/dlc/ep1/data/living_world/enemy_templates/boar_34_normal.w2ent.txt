@@ -1,1010 +1,1010 @@
-boar_34_normal.w2ent:    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
-boar_34_normal.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-boar_34_normal.w2ent:            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-boar_34_normal.w2ent:                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/wild_boar_ep1.w2ent
-boar_34_normal.w2ent:            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
-boar_34_normal.w2ent:                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
-boar_34_normal.w2ent:                    componentName (CName) : CAppearanceComponent0
-boar_34_normal.w2ent:                    className (CName) : CAppearanceComponent
-boar_34_normal.w2ent:                    overriddenProperties (array:CName) : # array:CName
-boar_34_normal.w2ent:                        0 (CName) : attachmentReplacements
-boar_34_normal.w2ent:                        1 (CName) : appearanceAttachments
-boar_34_normal.w2ent:                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
-boar_34_normal.w2ent:                    componentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                    className (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                    overriddenProperties (array:CName) : # array:CName
-boar_34_normal.w2ent:                        0 (CName) : movementAdjustor
-boar_34_normal.w2ent:            properOverrides (Bool) : true
-boar_34_normal.w2ent:            entityClass (CName) : CNewNPC
-boar_34_normal.w2ent:            entityObject (ptr:CEntity) : CNewNPC #1
-boar_34_normal.w2ent:            appearances (array:CEntityAppearance) : # array:CEntityAppearance
-boar_34_normal.w2ent:                0 (CEntityAppearance) : wild_boar_01
-boar_34_normal.w2ent:                    name (CName) : wild_boar_01
-boar_34_normal.w2ent:                    usesRobe (Bool) : true
-boar_34_normal.w2ent:                    wasIncluded (Bool) : true
-boar_34_normal.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-boar_34_normal.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_01_wild_boar.w2ent
-boar_34_normal.w2ent:                1 (CEntityAppearance) : wild_boar_02
-boar_34_normal.w2ent:                    name (CName) : wild_boar_02
-boar_34_normal.w2ent:                    usesRobe (Bool) : true
-boar_34_normal.w2ent:                    wasIncluded (Bool) : true
-boar_34_normal.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-boar_34_normal.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_02_wild_boar.w2ent
-boar_34_normal.w2ent:                2 (CEntityAppearance) : wild_boar_03
-boar_34_normal.w2ent:                    name (CName) : wild_boar_03
-boar_34_normal.w2ent:                    usesRobe (Bool) : true
-boar_34_normal.w2ent:                    wasIncluded (Bool) : true
-boar_34_normal.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-boar_34_normal.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_03_wild_boar.w2ent
-boar_34_normal.w2ent:                3 (CEntityAppearance) : wild_boar_01_blood
-boar_34_normal.w2ent:                    name (CName) : wild_boar_01_blood
-boar_34_normal.w2ent:                    usesRobe (Bool) : true
-boar_34_normal.w2ent:                    wasIncluded (Bool) : true
-boar_34_normal.w2ent:                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
-boar_34_normal.w2ent:                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_01_wild_boar_blood.w2ent
-boar_34_normal.w2ent:            usedAppearances (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : wild_boar_01
-boar_34_normal.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-boar_34_normal.w2ent:                0 (EntitySlot) : body_fire
-boar_34_normal.w2ent:                    name (CName) : body_fire
-boar_34_normal.w2ent:                    componentName (CName) : CAppearanceComponent0
-boar_34_normal.w2ent:                1 (EntitySlot) : head
-boar_34_normal.w2ent:                    wasIncluded (Bool) : true
-boar_34_normal.w2ent:                    name (CName) : head
-boar_34_normal.w2ent:                    componentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                    boneName (CName) : head
-boar_34_normal.w2ent:            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
-boar_34_normal.w2ent:                0 (ptr:CEntityTemplateParam) : CInventoryDefinition #12
-boar_34_normal.w2ent:                1 (ptr:CEntityTemplateParam) : CR4LootParam #15
-boar_34_normal.w2ent:                2 (ptr:CEntityTemplateParam) : CCharacterStatsParam #16
-boar_34_normal.w2ent:                3 (ptr:CEntityTemplateParam) : CInventoryDefinition #17
-boar_34_normal.w2ent:                4 (ptr:CEntityTemplateParam) : CR4LootParam #20
-boar_34_normal.w2ent:                5 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #21
-boar_34_normal.w2ent:                6 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #22
-boar_34_normal.w2ent:                7 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #23
-boar_34_normal.w2ent:                8 (ptr:CEntityTemplateParam) : CCharacterControllerParam #70
-boar_34_normal.w2ent:                9 (ptr:CEntityTemplateParam) : CAIProfile #71
-boar_34_normal.w2ent:                10 (ptr:CEntityTemplateParam) : CCharacterStatsParam #74
-boar_34_normal.w2ent:                11 (ptr:CEntityTemplateParam) : CMonsterParam #75
-boar_34_normal.w2ent:                12 (ptr:CEntityTemplateParam) : CAttackRangeParam #76
-boar_34_normal.w2ent:                13 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #80
-boar_34_normal.w2ent:                14 (ptr:CEntityTemplateParam) : CBuffImmunityParam #81
-boar_34_normal.w2ent:                15 (ptr:CEntityTemplateParam) : CFocusSoundParam #82
-boar_34_normal.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-boar_34_normal.w2ent:                CNewNPC #0 (CNewNPC) : saliva
-boar_34_normal.w2ent:                    CNewNPC (CNewNPC) : PreviewEntity
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        streamingDistance (Uint8) : 0
-boar_34_normal.w2ent:                        autoPlayEffectName (CName) : saliva
-boar_34_normal.w2ent:                        name (String) : "PreviewEntity"
-boar_34_normal.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-boar_34_normal.w2ent:                            0 (ptr:CComponent) : CAppearanceComponent #4
-boar_34_normal.w2ent:                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #5
-boar_34_normal.w2ent:                            2 (ptr:CComponent) : CInventoryComponent #8
-boar_34_normal.w2ent:                            3 (ptr:CComponent) : CPhantomComponent #7
-boar_34_normal.w2ent:                            4 (ptr:CComponent) : CInteractionComponent #9
-boar_34_normal.w2ent:                            5 (ptr:CComponent) : CSoundEmitterComponent #10
-boar_34_normal.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-boar_34_normal.w2ent:                            0 (SEntityBufferType1) : 
-boar_34_normal.w2ent:                                ComponentName (CName) : 
-boar_34_normal.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-boar_34_normal.w2ent:                        idTag (IdTag) :  deb1edd4-e120-46de-a987-b74df3ba5d33
-boar_34_normal.w2ent:                        displayName (LocalizedString) : Boar
-boar_34_normal.w2ent:                        isInteractionActivator (Bool) : true
-boar_34_normal.w2ent:                        buffImmunities (array:SBuffImmunity) : # array:SBuffImmunity
-boar_34_normal.w2ent:                            0 (SBuffImmunity) : <SBuffImmunity>0
-boar_34_normal.w2ent:                                buffType (EEffectType) : EET_Blindness
-boar_34_normal.w2ent:                                sources (array:CName) : # array:CName
-boar_34_normal.w2ent:                                    0 (CName) : DeadlyEnemy
-boar_34_normal.w2ent:                            1 (SBuffImmunity) : <SBuffImmunity>1
-boar_34_normal.w2ent:                                buffType (EEffectType) : EET_WraithBlindness
-boar_34_normal.w2ent:                                sources (array:CName) : # array:CName
-boar_34_normal.w2ent:                                    0 (CName) : DeadlyEnemy
-boar_34_normal.w2ent:                        abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #1
-boar_34_normal.w2ent:                        effectManager (handle:W3EffectManager) : W3EffectManager #3
-boar_34_normal.w2ent:                        level (Int32) : 32
-boar_34_normal.w2ent:                W3NonPlayerAbilityManager #1 (W3NonPlayerAbilityManager) : 
-boar_34_normal.w2ent:                    W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
-boar_34_normal.w2ent:                        statPoints (array:SBaseStat) : # array:SBaseStat
-boar_34_normal.w2ent:                            0 (SBaseStat) : <SBaseStat>0
-boar_34_normal.w2ent:                                current (Float) : 18480.0000
-boar_34_normal.w2ent:                                max (Float) : 18480.0000
-boar_34_normal.w2ent:                            1 (SBaseStat) : <SBaseStat>1
-boar_34_normal.w2ent:                                current (Float) : 200.0000
-boar_34_normal.w2ent:                                max (Float) : 200.0000
-boar_34_normal.w2ent:                                type (EBaseCharacterStats) : BCS_Stamina
-boar_34_normal.w2ent:                        resistStats (array:SResistanceValue) : # array:SResistanceValue
-boar_34_normal.w2ent:                            0 (SResistanceValue) : <SResistanceValue>0
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PhysicalRes
-boar_34_normal.w2ent:                            1 (SResistanceValue) : <SResistanceValue>1
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BleedingRes
-boar_34_normal.w2ent:                            2 (SResistanceValue) : <SResistanceValue>2
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PoisonRes
-boar_34_normal.w2ent:                            3 (SResistanceValue) : <SResistanceValue>3
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_FireRes
-boar_34_normal.w2ent:                            4 (SResistanceValue) : <SResistanceValue>4
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_FrostRes
-boar_34_normal.w2ent:                            5 (SResistanceValue) : <SResistanceValue>5
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ShockRes
-boar_34_normal.w2ent:                            6 (SResistanceValue) : <SResistanceValue>6
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ForceRes
-boar_34_normal.w2ent:                            7 (SResistanceValue) : <SResistanceValue>7
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_WillRes
-boar_34_normal.w2ent:                            8 (SResistanceValue) : <SResistanceValue>8
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                    valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BurningRes
-boar_34_normal.w2ent:                            9 (SResistanceValue) : <SResistanceValue>9
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_SlashingRes
-boar_34_normal.w2ent:                            10 (SResistanceValue) : <SResistanceValue>10
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_PiercingRes
-boar_34_normal.w2ent:                            11 (SResistanceValue) : <SResistanceValue>11
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_BludgeoningRes
-boar_34_normal.w2ent:                            12 (SResistanceValue) : <SResistanceValue>12
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_RendingRes
-boar_34_normal.w2ent:                            13 (SResistanceValue) : <SResistanceValue>13
-boar_34_normal.w2ent:                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                                    valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                                type (ECharacterDefenseStats) : CDS_ElementalRes
-boar_34_normal.w2ent:                        owner (handle:CActor) : CNewNPC #0
-boar_34_normal.w2ent:                        charStats (handle:CCharacterStats) : CCharacterStats #2
-boar_34_normal.w2ent:                        usedDifficultyMode (EDifficultyMode) : EDM_Medium
-boar_34_normal.w2ent:                        difficultyAbilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                            1 (array:CName) : # array:CName
-boar_34_normal.w2ent:                                0 (CName) : difficulty_CommonEasy
-boar_34_normal.w2ent:                            2 (array:CName) : # array:CName
-boar_34_normal.w2ent:                                0 (CName) : difficulty_CommonMedium
-boar_34_normal.w2ent:                            3 (array:CName) : # array:CName
-boar_34_normal.w2ent:                                0 (CName) : difficulty_CommonHard
-boar_34_normal.w2ent:                            4 (array:CName) : # array:CName
-boar_34_normal.w2ent:                                0 (CName) : difficulty_CommonHardcore
-boar_34_normal.w2ent:                CCharacterStats #2 (CCharacterStats) : 
-boar_34_normal.w2ent:                    CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
-boar_34_normal.w2ent:                        abilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                            0 (CName) : mon_boar_base
-boar_34_normal.w2ent:                            1 (CName) : all_NPC_ability
-boar_34_normal.w2ent:                            2 (CName) : difficulty_CommonMedium
-boar_34_normal.w2ent:                            3 (CName) : NPCLevelBonusDeadly
-boar_34_normal.w2ent:                W3EffectManager #3 (W3EffectManager) : 
-boar_34_normal.w2ent:                    W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
-boar_34_normal.w2ent:                        statDeltas (array:Float) : # array:Float
-boar_34_normal.w2ent:                            1 (Float) : 0.0000
-boar_34_normal.w2ent:                            2 (Float) : 0.0000
-boar_34_normal.w2ent:                            3 (Float) : 0.0000
-boar_34_normal.w2ent:                            4 (Float) : 0.0000
-boar_34_normal.w2ent:                            5 (Float) : 0.0000
-boar_34_normal.w2ent:                            6 (Float) : 0.0000
-boar_34_normal.w2ent:                            7 (Float) : 0.0000
-boar_34_normal.w2ent:                            8 (Float) : 0.0000
-boar_34_normal.w2ent:                            9 (Float) : 0.0000
-boar_34_normal.w2ent:                            10 (Float) : 0.0000
-boar_34_normal.w2ent:                CAppearanceComponent #4 (CAppearanceComponent) : CAppearanceComponent0
-boar_34_normal.w2ent:                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-boar_34_normal.w2ent:                        guid (CGUID) : 56e11357-59da-4ffa-bd1f-d8934d988be3
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        name (String) : "CAppearanceComponent0"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 481
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 216
-boar_34_normal.w2ent:                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-boar_34_normal.w2ent:                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-boar_34_normal.w2ent:                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
-boar_34_normal.w2ent:                                    oldName (CName) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
-boar_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                                    newName (CName) : CInventoryComponent0
-boar_34_normal.w2ent:                                    newClass (CName) : CInventoryComponent
-boar_34_normal.w2ent:                                1 (SAttachmentReplacement) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
-boar_34_normal.w2ent:                                    oldName (CName) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
-boar_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                                    newName (CName) : ActorCollision
-boar_34_normal.w2ent:                                    newClass (CName) : CPhantomComponent
-boar_34_normal.w2ent:                                2 (SAttachmentReplacement) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
-boar_34_normal.w2ent:                                    oldName (CName) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
-boar_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                                    newName (CName) : Finish
-boar_34_normal.w2ent:                                    newClass (CName) : CInteractionComponent
-boar_34_normal.w2ent:                                3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
-boar_34_normal.w2ent:                                    oldName (CName) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
-boar_34_normal.w2ent:                                    oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                                    newName (CName) : CSoundEmitterComponent0
-boar_34_normal.w2ent:                                    newClass (CName) : CSoundEmitterComponent
-boar_34_normal.w2ent:                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
-boar_34_normal.w2ent:                            0 (SAppearanceAttachments) : wild_boar_01_blood
-boar_34_normal.w2ent:                                appearance (CName) : wild_boar_01_blood
-boar_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-boar_34_normal.w2ent:                                    0 (SAppearanceAttachment) : CFurComponent0
-boar_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                                        parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                                        childClass (CName) : CFurComponent
-boar_34_normal.w2ent:                                        childName (CName) : CFurComponent0
-boar_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                                    1 (SAppearanceAttachment) : t_01_wild_boar_blood
-boar_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                                        parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
-boar_34_normal.w2ent:                                        childName (CName) : t_01_wild_boar_blood
-boar_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                            1 (SAppearanceAttachments) : wild_boar_01
-boar_34_normal.w2ent:                                appearance (CName) : wild_boar_01
-boar_34_normal.w2ent:                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-boar_34_normal.w2ent:                                    0 (SAppearanceAttachment) : CFurComponent0
-boar_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                                        parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                                        childClass (CName) : CFurComponent
-boar_34_normal.w2ent:                                        childName (CName) : CFurComponent0
-boar_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                                    1 (SAppearanceAttachment) : t_01_wild_boar
-boar_34_normal.w2ent:                                        parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                                        parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                                        childClass (CName) : CMeshComponent
-boar_34_normal.w2ent:                                        childName (CName) : t_01_wild_boar
-boar_34_normal.w2ent:                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                CMovingPhysicalAgentComponent #5 (CMovingPhysicalAgentComponent) : wild_boar_base
-boar_34_normal.w2ent:                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : wild_boar_base
-boar_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                            Scale_x (Float) : 1.3500
-boar_34_normal.w2ent:                            Scale_y (Float) : 1.3500
-boar_34_normal.w2ent:                            Scale_z (Float) : 1.3500
-boar_34_normal.w2ent:                        guid (CGUID) : e72d32b4-0b6b-4e7d-80b3-e8c168dc3e2c
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                            0 (handle:IAttachment) : CHardAttachment #6
-boar_34_normal.w2ent:                        name (String) : "wild_boar_base"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 305
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 267
-boar_34_normal.w2ent:                        skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/wild_boar_base/wild_boar_base.w2rig
-boar_34_normal.w2ent:                        animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
-boar_34_normal.w2ent:                            0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
-boar_34_normal.w2ent:                        behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-boar_34_normal.w2ent:                            0 (SBehaviorGraphInstanceSlot) : 
-boar_34_normal.w2ent:                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-boar_34_normal.w2ent:                            0 (SBehaviorGraphInstanceSlot) : boar
-boar_34_normal.w2ent:                                instanceName (CName) : boar
-boar_34_normal.w2ent:                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
-boar_34_normal.w2ent:                            1 (SBehaviorGraphInstanceSlot) : 
-boar_34_normal.w2ent:                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
-boar_34_normal.w2ent:                CHardAttachment #6 (CHardAttachment) : 
-boar_34_normal.w2ent:                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-boar_34_normal.w2ent:                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #5
-boar_34_normal.w2ent:                        child (ptr:CNode) : CPhantomComponent #7
-boar_34_normal.w2ent:                CPhantomComponent #7 (CPhantomComponent) : ActorCollision
-boar_34_normal.w2ent:                    CPhantomComponent (CPhantomComponent) : ActorCollision
-boar_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                            X (Float) : 0.0000
-boar_34_normal.w2ent:                            Y (Float) : 0.5000
-boar_34_normal.w2ent:                            Z (Float) : 1.5000
-boar_34_normal.w2ent:                        transformParent (ptr:CHardAttachment) : CHardAttachment #6
-boar_34_normal.w2ent:                        guid (CGUID) : 6e22b147-c65c-4a9a-a589-b8391ac2af75
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                            0 (handle:IAttachment) : CHardAttachment #6
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        name (String) : "ActorCollision"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 294
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 362
-boar_34_normal.w2ent:                        triggeringCollisionGroupNames (array:CName) : # array:CName
-boar_34_normal.w2ent:                            0 (CName) : Character
-boar_34_normal.w2ent:                        shapeType (EPhantomShape) : PS_Box
-boar_34_normal.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-boar_34_normal.w2ent:                            X (Float) : 2.0000
-boar_34_normal.w2ent:                            Y (Float) : 5.0000
-boar_34_normal.w2ent:                            Z (Float) : 3.0000
-boar_34_normal.w2ent:                            W (Float) : 0.0000
-boar_34_normal.w2ent:                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
-boar_34_normal.w2ent:                CInventoryComponent #8 (CInventoryComponent) : CInventoryComponent0
-boar_34_normal.w2ent:                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-boar_34_normal.w2ent:                        guid (CGUID) : 74d8b2a5-87b0-48aa-916c-21bc724ef956
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        name (String) : "CInventoryComponent0"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 80
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 182
-boar_34_normal.w2ent:                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
-boar_34_normal.w2ent:                CInteractionComponent #9 (CInteractionComponent) : Finish
-boar_34_normal.w2ent:                    CInteractionComponent (CInteractionComponent) : Finish
-boar_34_normal.w2ent:                        guid (CGUID) : cbc5b926-5001-454a-b63b-26eaed7f130e
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        name (String) : "Finish"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 625
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 290
-boar_34_normal.w2ent:                        rangeMax (Float) : 1.7500
-boar_34_normal.w2ent:                        isEnabled (Bool) : false
-boar_34_normal.w2ent:                        actionName (String) : "Finish"
-boar_34_normal.w2ent:                        reportToScript (Bool) : true
-boar_34_normal.w2ent:                        isEnabledInCombat (Bool) : true
-boar_34_normal.w2ent:                CSoundEmitterComponent #10 (CSoundEmitterComponent) : CSoundEmitterComponent0
-boar_34_normal.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-boar_34_normal.w2ent:                        transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                            X (Float) : 0.0000
-boar_34_normal.w2ent:                            Y (Float) : 0.0000
-boar_34_normal.w2ent:                            Z (Float) : 0.6000
-boar_34_normal.w2ent:                        guid (CGUID) : c00231d5-b28d-4c76-a256-6499e1799227
-boar_34_normal.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                        name (String) : "CSoundEmitterComponent0"
-boar_34_normal.w2ent:                        graphPositionX (Int16) : 331
-boar_34_normal.w2ent:                        graphPositionY (Int16) : 144
-boar_34_normal.w2ent:                        banksDependency (array:CName) : # array:CName
-boar_34_normal.w2ent:                            0 (CName) : monster_boar.bnk
-boar_34_normal.w2ent:                        maxDistance (Float) : 50.0000
-boar_34_normal.w2ent:            cookedEffectsVersion (Uint32) : 1
-boar_34_normal.w2ent:            Unk1 (Uint32) : 0
-boar_34_normal.w2ent:    CNewNPC #1 (CNewNPC) : saliva
-boar_34_normal.w2ent:        CNewNPC (CNewNPC) : 
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            streamingDistance (Uint8) : 0
-boar_34_normal.w2ent:            autoPlayEffectName (CName) : saliva
-boar_34_normal.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-boar_34_normal.w2ent:                0 (ptr:CComponent) : CAppearanceComponent #5
-boar_34_normal.w2ent:                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #6
-boar_34_normal.w2ent:                2 (ptr:CComponent) : CInventoryComponent #9
-boar_34_normal.w2ent:                3 (ptr:CComponent) : CPhantomComponent #8
-boar_34_normal.w2ent:                4 (ptr:CComponent) : CInteractionComponent #10
-boar_34_normal.w2ent:                5 (ptr:CComponent) : CSoundEmitterComponent #11
-boar_34_normal.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-boar_34_normal.w2ent:                0 (SEntityBufferType1) : 
-boar_34_normal.w2ent:                    ComponentName (CName) : 
-boar_34_normal.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-boar_34_normal.w2ent:            idTag (IdTag) :  deb1edd4-e120-46de-a987-b74df3ba5d33
-boar_34_normal.w2ent:            displayName (LocalizedString) : Boar
-boar_34_normal.w2ent:            isInteractionActivator (Bool) : true
-boar_34_normal.w2ent:            buffImmunities (array:SBuffImmunity) : # array:SBuffImmunity
-boar_34_normal.w2ent:                0 (SBuffImmunity) : <SBuffImmunity>0
-boar_34_normal.w2ent:                    buffType (EEffectType) : EET_Blindness
-boar_34_normal.w2ent:                    sources (array:CName) : # array:CName
-boar_34_normal.w2ent:                        0 (CName) : DeadlyEnemy
-boar_34_normal.w2ent:                1 (SBuffImmunity) : <SBuffImmunity>1
-boar_34_normal.w2ent:                    buffType (EEffectType) : EET_WraithBlindness
-boar_34_normal.w2ent:                    sources (array:CName) : # array:CName
-boar_34_normal.w2ent:                        0 (CName) : DeadlyEnemy
-boar_34_normal.w2ent:            abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #2
-boar_34_normal.w2ent:            effectManager (handle:W3EffectManager) : W3EffectManager #4
-boar_34_normal.w2ent:            level (Int32) : 32
-boar_34_normal.w2ent:    W3NonPlayerAbilityManager #2 (W3NonPlayerAbilityManager) : 
-boar_34_normal.w2ent:        W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
-boar_34_normal.w2ent:            statPoints (array:SBaseStat) : # array:SBaseStat
-boar_34_normal.w2ent:                0 (SBaseStat) : <SBaseStat>0
-boar_34_normal.w2ent:                    current (Float) : 18480.0000
-boar_34_normal.w2ent:                    max (Float) : 18480.0000
-boar_34_normal.w2ent:                1 (SBaseStat) : <SBaseStat>1
-boar_34_normal.w2ent:                    current (Float) : 200.0000
-boar_34_normal.w2ent:                    max (Float) : 200.0000
-boar_34_normal.w2ent:                    type (EBaseCharacterStats) : BCS_Stamina
-boar_34_normal.w2ent:            resistStats (array:SResistanceValue) : # array:SResistanceValue
-boar_34_normal.w2ent:                0 (SResistanceValue) : <SResistanceValue>0
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PhysicalRes
-boar_34_normal.w2ent:                1 (SResistanceValue) : <SResistanceValue>1
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BleedingRes
-boar_34_normal.w2ent:                2 (SResistanceValue) : <SResistanceValue>2
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PoisonRes
-boar_34_normal.w2ent:                3 (SResistanceValue) : <SResistanceValue>3
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_FireRes
-boar_34_normal.w2ent:                4 (SResistanceValue) : <SResistanceValue>4
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_FrostRes
-boar_34_normal.w2ent:                5 (SResistanceValue) : <SResistanceValue>5
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ShockRes
-boar_34_normal.w2ent:                6 (SResistanceValue) : <SResistanceValue>6
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ForceRes
-boar_34_normal.w2ent:                7 (SResistanceValue) : <SResistanceValue>7
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_WillRes
-boar_34_normal.w2ent:                8 (SResistanceValue) : <SResistanceValue>8
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                        valueBase (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BurningRes
-boar_34_normal.w2ent:                9 (SResistanceValue) : <SResistanceValue>9
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_SlashingRes
-boar_34_normal.w2ent:                10 (SResistanceValue) : <SResistanceValue>10
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_PiercingRes
-boar_34_normal.w2ent:                11 (SResistanceValue) : <SResistanceValue>11
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_BludgeoningRes
-boar_34_normal.w2ent:                12 (SResistanceValue) : <SResistanceValue>12
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_RendingRes
-boar_34_normal.w2ent:                13 (SResistanceValue) : <SResistanceValue>13
-boar_34_normal.w2ent:                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
-boar_34_normal.w2ent:                        valueMultiplicative (Float) : 1.0000
-boar_34_normal.w2ent:                    type (ECharacterDefenseStats) : CDS_ElementalRes
-boar_34_normal.w2ent:            owner (handle:CActor) : CNewNPC #1
-boar_34_normal.w2ent:            charStats (handle:CCharacterStats) : CCharacterStats #3
-boar_34_normal.w2ent:            usedDifficultyMode (EDifficultyMode) : EDM_Medium
-boar_34_normal.w2ent:            difficultyAbilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                1 (array:CName) : # array:CName
-boar_34_normal.w2ent:                    0 (CName) : difficulty_CommonEasy
-boar_34_normal.w2ent:                2 (array:CName) : # array:CName
-boar_34_normal.w2ent:                    0 (CName) : difficulty_CommonMedium
-boar_34_normal.w2ent:                3 (array:CName) : # array:CName
-boar_34_normal.w2ent:                    0 (CName) : difficulty_CommonHard
-boar_34_normal.w2ent:                4 (array:CName) : # array:CName
-boar_34_normal.w2ent:                    0 (CName) : difficulty_CommonHardcore
-boar_34_normal.w2ent:    CCharacterStats #3 (CCharacterStats) : 
-boar_34_normal.w2ent:        CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
-boar_34_normal.w2ent:            abilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : mon_boar_base
-boar_34_normal.w2ent:                1 (CName) : all_NPC_ability
-boar_34_normal.w2ent:                2 (CName) : difficulty_CommonMedium
-boar_34_normal.w2ent:                3 (CName) : NPCLevelBonusDeadly
-boar_34_normal.w2ent:    W3EffectManager #4 (W3EffectManager) : 
-boar_34_normal.w2ent:        W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
-boar_34_normal.w2ent:            statDeltas (array:Float) : # array:Float
-boar_34_normal.w2ent:                1 (Float) : 0.0000
-boar_34_normal.w2ent:                2 (Float) : 0.0000
-boar_34_normal.w2ent:                3 (Float) : 0.0000
-boar_34_normal.w2ent:                4 (Float) : 0.0000
-boar_34_normal.w2ent:                5 (Float) : 0.0000
-boar_34_normal.w2ent:                6 (Float) : 0.0000
-boar_34_normal.w2ent:                7 (Float) : 0.0000
-boar_34_normal.w2ent:                8 (Float) : 0.0000
-boar_34_normal.w2ent:                9 (Float) : 0.0000
-boar_34_normal.w2ent:                10 (Float) : 0.0000
-boar_34_normal.w2ent:    CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
-boar_34_normal.w2ent:        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
-boar_34_normal.w2ent:            guid (CGUID) : 56e11357-59da-4ffa-bd1f-d8934d988be3
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            name (String) : "CAppearanceComponent0"
-boar_34_normal.w2ent:            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
-boar_34_normal.w2ent:                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
-boar_34_normal.w2ent:                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
-boar_34_normal.w2ent:                        oldName (CName) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
-boar_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                        newName (CName) : CInventoryComponent0
-boar_34_normal.w2ent:                        newClass (CName) : CInventoryComponent
-boar_34_normal.w2ent:                    1 (SAttachmentReplacement) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
-boar_34_normal.w2ent:                        oldName (CName) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
-boar_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                        newName (CName) : ActorCollision
-boar_34_normal.w2ent:                        newClass (CName) : CPhantomComponent
-boar_34_normal.w2ent:                    2 (SAttachmentReplacement) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
-boar_34_normal.w2ent:                        oldName (CName) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
-boar_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                        newName (CName) : Finish
-boar_34_normal.w2ent:                        newClass (CName) : CInteractionComponent
-boar_34_normal.w2ent:                    3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
-boar_34_normal.w2ent:                        oldName (CName) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
-boar_34_normal.w2ent:                        oldClass (CName) : CExternalProxyComponent
-boar_34_normal.w2ent:                        newName (CName) : CSoundEmitterComponent0
-boar_34_normal.w2ent:                        newClass (CName) : CSoundEmitterComponent
-boar_34_normal.w2ent:            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
-boar_34_normal.w2ent:                0 (SAppearanceAttachments) : wild_boar_01_blood
-boar_34_normal.w2ent:                    appearance (CName) : wild_boar_01_blood
-boar_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-boar_34_normal.w2ent:                        0 (SAppearanceAttachment) : CFurComponent0
-boar_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                            parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                            childClass (CName) : CFurComponent
-boar_34_normal.w2ent:                            childName (CName) : CFurComponent0
-boar_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                        1 (SAppearanceAttachment) : t_01_wild_boar_blood
-boar_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                            parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                            childClass (CName) : CMeshComponent
-boar_34_normal.w2ent:                            childName (CName) : t_01_wild_boar_blood
-boar_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                1 (SAppearanceAttachments) : wild_boar_01
-boar_34_normal.w2ent:                    appearance (CName) : wild_boar_01
-boar_34_normal.w2ent:                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
-boar_34_normal.w2ent:                        0 (SAppearanceAttachment) : CFurComponent0
-boar_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                            parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                            childClass (CName) : CFurComponent
-boar_34_normal.w2ent:                            childName (CName) : CFurComponent0
-boar_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:                        1 (SAppearanceAttachment) : t_01_wild_boar
-boar_34_normal.w2ent:                            parentClass (CName) : CMovingPhysicalAgentComponent
-boar_34_normal.w2ent:                            parentName (CName) : wild_boar_base
-boar_34_normal.w2ent:                            childClass (CName) : CMeshComponent
-boar_34_normal.w2ent:                            childName (CName) : t_01_wild_boar
-boar_34_normal.w2ent:                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
-boar_34_normal.w2ent:                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
-boar_34_normal.w2ent:    CMovingPhysicalAgentComponent #6 (CMovingPhysicalAgentComponent) : wild_boar_base
-boar_34_normal.w2ent:        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : wild_boar_base
-boar_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                Scale_x (Float) : 1.3500
-boar_34_normal.w2ent:                Scale_y (Float) : 1.3500
-boar_34_normal.w2ent:                Scale_z (Float) : 1.3500
-boar_34_normal.w2ent:            guid (CGUID) : e72d32b4-0b6b-4e7d-80b3-e8c168dc3e2c
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                0 (handle:IAttachment) : CHardAttachment #7
-boar_34_normal.w2ent:            name (String) : "wild_boar_base"
-boar_34_normal.w2ent:            skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/wild_boar_base/wild_boar_base.w2rig
-boar_34_normal.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
-boar_34_normal.w2ent:                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
-boar_34_normal.w2ent:            behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-boar_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : 
-boar_34_normal.w2ent:            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-boar_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : boar
-boar_34_normal.w2ent:                    instanceName (CName) : boar
-boar_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
-boar_34_normal.w2ent:                1 (SBehaviorGraphInstanceSlot) : 
-boar_34_normal.w2ent:            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
-boar_34_normal.w2ent:    CHardAttachment #7 (CHardAttachment) : 
-boar_34_normal.w2ent:        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
-boar_34_normal.w2ent:            parent (ptr:CNode) : CMovingPhysicalAgentComponent #6
-boar_34_normal.w2ent:            child (ptr:CNode) : CPhantomComponent #8
-boar_34_normal.w2ent:    CPhantomComponent #8 (CPhantomComponent) : ActorCollision
-boar_34_normal.w2ent:        CPhantomComponent (CPhantomComponent) : ActorCollision
-boar_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                X (Float) : 0.0000
-boar_34_normal.w2ent:                Y (Float) : 0.5000
-boar_34_normal.w2ent:                Z (Float) : 1.5000
-boar_34_normal.w2ent:            transformParent (ptr:CHardAttachment) : CHardAttachment #7
-boar_34_normal.w2ent:            guid (CGUID) : 6e22b147-c65c-4a9a-a589-b8391ac2af75
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:                0 (handle:IAttachment) : CHardAttachment #7
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            name (String) : "ActorCollision"
-boar_34_normal.w2ent:            triggeringCollisionGroupNames (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : Character
-boar_34_normal.w2ent:            shapeType (EPhantomShape) : PS_Box
-boar_34_normal.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
-boar_34_normal.w2ent:                X (Float) : 2.0000
-boar_34_normal.w2ent:                Y (Float) : 5.0000
-boar_34_normal.w2ent:                Z (Float) : 3.0000
-boar_34_normal.w2ent:                W (Float) : 0.0000
-boar_34_normal.w2ent:            onTriggerEnteredScriptEvent (CName) : OnActorCollision
-boar_34_normal.w2ent:    CInventoryComponent #9 (CInventoryComponent) : CInventoryComponent0
-boar_34_normal.w2ent:        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
-boar_34_normal.w2ent:            guid (CGUID) : 74d8b2a5-87b0-48aa-916c-21bc724ef956
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            name (String) : "CInventoryComponent0"
-boar_34_normal.w2ent:            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
-boar_34_normal.w2ent:    CInteractionComponent #10 (CInteractionComponent) : Finish
-boar_34_normal.w2ent:        CInteractionComponent (CInteractionComponent) : Finish
-boar_34_normal.w2ent:            guid (CGUID) : cbc5b926-5001-454a-b63b-26eaed7f130e
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            name (String) : "Finish"
-boar_34_normal.w2ent:            rangeMax (Float) : 1.7500
-boar_34_normal.w2ent:            isEnabled (Bool) : false
-boar_34_normal.w2ent:            actionName (String) : "Finish"
-boar_34_normal.w2ent:            reportToScript (Bool) : true
-boar_34_normal.w2ent:            isEnabledInCombat (Bool) : true
-boar_34_normal.w2ent:    CSoundEmitterComponent #11 (CSoundEmitterComponent) : CSoundEmitterComponent0
-boar_34_normal.w2ent:        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-boar_34_normal.w2ent:            transform (EngineTransform) : <EngineTransform>transform
-boar_34_normal.w2ent:                X (Float) : 0.0000
-boar_34_normal.w2ent:                Y (Float) : 0.0000
-boar_34_normal.w2ent:                Z (Float) : 0.6000
-boar_34_normal.w2ent:            guid (CGUID) : c00231d5-b28d-4c76-a256-6499e1799227
-boar_34_normal.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-boar_34_normal.w2ent:            name (String) : "CSoundEmitterComponent0"
-boar_34_normal.w2ent:            banksDependency (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : monster_boar.bnk
-boar_34_normal.w2ent:            maxDistance (Float) : 50.0000
-boar_34_normal.w2ent:    CInventoryDefinition #12 (CInventoryDefinition) : 
-boar_34_normal.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
-boar_34_normal.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
-boar_34_normal.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #13
-boar_34_normal.w2ent:    CInventoryDefinitionEntry #13 (CInventoryDefinitionEntry) : monster_weapon
-boar_34_normal.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
-boar_34_normal.w2ent:            category (CName) : monster_weapon
-boar_34_normal.w2ent:            isMount (Bool) : true
-boar_34_normal.w2ent:            isLootable (Bool) : false
-boar_34_normal.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #14
-boar_34_normal.w2ent:    CInventoryInitializerUniform #14 (CInventoryInitializerUniform) : mon_ghoul_weapon
-boar_34_normal.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-boar_34_normal.w2ent:            itemName (CName) : mon_ghoul_weapon
-boar_34_normal.w2ent:    CR4LootParam #15 (CR4LootParam) : loot
-boar_34_normal.w2ent:        CR4LootParam (CR4LootParam) : loot
-boar_34_normal.w2ent:            name (String) : "loot"
-boar_34_normal.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
-boar_34_normal.w2ent:                0 (CR4LootContainerParam) : _monster__Wild Boar
-boar_34_normal.w2ent:                    name (CName) : _monster__Wild Boar
-boar_34_normal.w2ent:    CCharacterStatsParam #16 (CCharacterStatsParam) : additional stats
-boar_34_normal.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : additional stats
-boar_34_normal.w2ent:            name (String) : "additional stats"
-boar_34_normal.w2ent:            abilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : mon_boarNG_ep1
-boar_34_normal.w2ent:    CInventoryDefinition #17 (CInventoryDefinition) : 
-boar_34_normal.w2ent:        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
-boar_34_normal.w2ent:                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #18
-boar_34_normal.w2ent:    CInventoryDefinitionEntry #18 (CInventoryDefinitionEntry) : monster_weapon
-boar_34_normal.w2ent:        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
-boar_34_normal.w2ent:            category (CName) : monster_weapon
-boar_34_normal.w2ent:            isLootable (Bool) : false
-boar_34_normal.w2ent:            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #19
-boar_34_normal.w2ent:    CInventoryInitializerUniform #19 (CInventoryInitializerUniform) : mon_wolf_weapon
-boar_34_normal.w2ent:        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-boar_34_normal.w2ent:            itemName (CName) : mon_wolf_weapon
-boar_34_normal.w2ent:    CR4LootParam #20 (CR4LootParam) : loot
-boar_34_normal.w2ent:        CR4LootParam (CR4LootParam) : loot
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "loot"
-boar_34_normal.w2ent:            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
-boar_34_normal.w2ent:                0 (CR4LootContainerParam) : _monster__Wild Boar
-boar_34_normal.w2ent:                    name (CName) : _monster__Wild Boar
-boar_34_normal.w2ent:    CAnimAnimsetsParam #21 (CAnimAnimsetsParam) : boar_anims
-boar_34_normal.w2ent:        CAnimAnimsetsParam (CAnimAnimsetsParam) : boar_anims
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_anims"
-boar_34_normal.w2ent:            componentName (String) : "wild_boar_base"
-boar_34_normal.w2ent:            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
-boar_34_normal.w2ent:                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
-boar_34_normal.w2ent:    CAnimBehaviorsParam #22 (CAnimBehaviorsParam) : boar_combat
-boar_34_normal.w2ent:        CAnimBehaviorsParam (CAnimBehaviorsParam) : boar_combat
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_combat"
-boar_34_normal.w2ent:            componentName (String) : "wild_boar_base"
-boar_34_normal.w2ent:            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
-boar_34_normal.w2ent:                0 (SBehaviorGraphInstanceSlot) : boar
-boar_34_normal.w2ent:                    instanceName (CName) : boar
-boar_34_normal.w2ent:                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
-boar_34_normal.w2ent:    CAIBaseTreeTemplateParam #23 (CAIBaseTreeTemplateParam) : 
-boar_34_normal.w2ent:        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #24
-boar_34_normal.w2ent:    CAIMonsterBase #24 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
-boar_34_normal.w2ent:        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIBaseMonsterDefaults) : CAIBoarDefaults #25
-boar_34_normal.w2ent:    CAIBoarDefaults #25 (CAIBoarDefaults) : 
-boar_34_normal.w2ent:        CAIBoarDefaults (CAIBoarDefaults) : <CAIBoarDefaults>CAIBoarDefaults
-boar_34_normal.w2ent:            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #26
-boar_34_normal.w2ent:            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #28
-boar_34_normal.w2ent:            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #30
-boar_34_normal.w2ent:            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorBoar #32
-boar_34_normal.w2ent:            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #52
-boar_34_normal.w2ent:            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #68
-boar_34_normal.w2ent:    CAIMonsterSpawnDefault #26 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
-boar_34_normal.w2ent:        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #27
-boar_34_normal.w2ent:    CAIMonsterSpawnParams #27 (CAIMonsterSpawnParams) : 
-boar_34_normal.w2ent:        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
-boar_34_normal.w2ent:    CAIMonsterTaunt #28 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
-boar_34_normal.w2ent:        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #29
-boar_34_normal.w2ent:    CAIMonsterTauntParams #29 (CAIMonsterTauntParams) : 
-boar_34_normal.w2ent:        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
-boar_34_normal.w2ent:    CAIMonsterAxii #30 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
-boar_34_normal.w2ent:        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #31
-boar_34_normal.w2ent:    CAIMonsterAxiiParams #31 (CAIMonsterAxiiParams) : 
-boar_34_normal.w2ent:        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
-boar_34_normal.w2ent:    CAIMonsterIdleDecoratorBoar #32 (CAIMonsterIdleDecoratorBoar) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
-boar_34_normal.w2ent:        CAIMonsterIdleDecoratorBoar (CAIMonsterIdleDecoratorBoar) : <CAIMonsterIdleDecoratorBoar>CAIMonsterIdleDecoratorBoar
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #33
-boar_34_normal.w2ent:    CAIMonsterIdleDecoratorParams #33 (CAIMonsterIdleDecoratorParams) : 
-boar_34_normal.w2ent:        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
-boar_34_normal.w2ent:            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #34
-boar_34_normal.w2ent:            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #46
-boar_34_normal.w2ent:            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
-boar_34_normal.w2ent:                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleEat #48
-boar_34_normal.w2ent:                1 (handle:CAIMonsterIdleAction) : CAIMonsterIdleSit #50
-boar_34_normal.w2ent:    CAIMonsterReactionsTree #34 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-boar_34_normal.w2ent:        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #35
-boar_34_normal.w2ent:    CAIMonsterReactionsTreeParams #35 (CAIMonsterReactionsTreeParams) : 
-boar_34_normal.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-boar_34_normal.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-boar_34_normal.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #36
-boar_34_normal.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #38
-boar_34_normal.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #40
-boar_34_normal.w2ent:                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #42
-boar_34_normal.w2ent:                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #44
-boar_34_normal.w2ent:    CAIActionSearchForTarget #36 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #37
-boar_34_normal.w2ent:    CAINpcReactionSearchTarget #37 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
-boar_34_normal.w2ent:    CAIActionAllySearchesTarget #38 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #39
-boar_34_normal.w2ent:    CAINpcReactionJoinSearchForTarget #39 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
-boar_34_normal.w2ent:    CAIActionPlayWithTarget #40 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #41
-boar_34_normal.w2ent:    CAINpcReactionPlayWithTarget #41 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
-boar_34_normal.w2ent:    CAIActionMoveInPack #42 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #43
-boar_34_normal.w2ent:    CAINpcReactionMoveInPack #43 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
-boar_34_normal.w2ent:    CAIActionRunWildInPack #44 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #45
-boar_34_normal.w2ent:    CAINpcReactionRunWildInPack #45 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
-boar_34_normal.w2ent:    CAIMonsterSearchFoodTree #46 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
-boar_34_normal.w2ent:        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #47
-boar_34_normal.w2ent:    CAIMonsterSearchFoodIdleParams #47 (CAIMonsterSearchFoodIdleParams) : 
-boar_34_normal.w2ent:        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
-boar_34_normal.w2ent:            corpse (Bool) : true
-boar_34_normal.w2ent:            monster (Bool) : true
-boar_34_normal.w2ent:    CAIMonsterIdleEat #48 (CAIMonsterIdleEat) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
-boar_34_normal.w2ent:        CAIMonsterIdleEat (CAIMonsterIdleEat) : <CAIMonsterIdleEat>CAIMonsterIdleEat
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #49
-boar_34_normal.w2ent:    CAIMonsterIdleActionParams #49 (CAIMonsterIdleActionParams) : Eat
-boar_34_normal.w2ent:        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
-boar_34_normal.w2ent:            cooldown (Float) : 10.0000
-boar_34_normal.w2ent:            loopTime (Float) : 20.0000
-boar_34_normal.w2ent:            actionName (CName) : Eat
-boar_34_normal.w2ent:    CAIMonsterIdleSit #50 (CAIMonsterIdleSit) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
-boar_34_normal.w2ent:        CAIMonsterIdleSit (CAIMonsterIdleSit) : <CAIMonsterIdleSit>CAIMonsterIdleSit
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #51
-boar_34_normal.w2ent:    CAIMonsterIdleActionParams #51 (CAIMonsterIdleActionParams) : 
-boar_34_normal.w2ent:        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
-boar_34_normal.w2ent:            loopTime (Float) : 15.0000
-boar_34_normal.w2ent:    CAIMonsterCombat #52 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
-boar_34_normal.w2ent:        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #53
-boar_34_normal.w2ent:    CAIMonsterCombatParams #53 (CAIMonsterCombatParams) : MonsterHitReaction
-boar_34_normal.w2ent:        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
-boar_34_normal.w2ent:            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBoarCombatLogic #54
-boar_34_normal.w2ent:            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #56
-boar_34_normal.w2ent:            createHitReactionEvent (CName) : MonsterHitReaction
-boar_34_normal.w2ent:            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #58
-boar_34_normal.w2ent:            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #60
-boar_34_normal.w2ent:    CAIBoarCombatLogic #54 (CAIBoarCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_boar_logic.w2behtree
-boar_34_normal.w2ent:        CAIBoarCombatLogic (CAIBoarCombatLogic) : <CAIBoarCombatLogic>CAIBoarCombatLogic
-boar_34_normal.w2ent:            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_boar_logic.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #55
-boar_34_normal.w2ent:    CAIMonsterCombatLogicParams #55 (CAIMonsterCombatLogicParams) : 
-boar_34_normal.w2ent:        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
-boar_34_normal.w2ent:    CAIMonsterDamageReactionTree #56 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
-boar_34_normal.w2ent:        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #57
-boar_34_normal.w2ent:    CAIDamageReactionTreeParams #57 (CAIDamageReactionTreeParams) : 
-boar_34_normal.w2ent:        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
-boar_34_normal.w2ent:            completeTaskAfterDisablingHitReaction (Bool) : true
-boar_34_normal.w2ent:    CAINpcCriticalState #58 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
-boar_34_normal.w2ent:        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
-boar_34_normal.w2ent:            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #59
-boar_34_normal.w2ent:    CAINpcCriticalStateParams #59 (CAINpcCriticalStateParams) : BoarKnockDownFinisher
-boar_34_normal.w2ent:        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
-boar_34_normal.w2ent:            FinisherAnim (CName) : BoarKnockDownFinisher
-boar_34_normal.w2ent:    CAIMonsterCombatReactionsTree #60 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
-boar_34_normal.w2ent:        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
-boar_34_normal.w2ent:            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #61
-boar_34_normal.w2ent:    CAIMonsterReactionsTreeParams #61 (CAIMonsterReactionsTreeParams) : 
-boar_34_normal.w2ent:        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
-boar_34_normal.w2ent:            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
-boar_34_normal.w2ent:                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #62
-boar_34_normal.w2ent:                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #64
-boar_34_normal.w2ent:                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #66
-boar_34_normal.w2ent:    CAIActionLeadEscape #62 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #63
-boar_34_normal.w2ent:    CAINpcReactionLeadEscape #63 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-boar_34_normal.w2ent:    CAIActionLeadEscape #64 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #65
-boar_34_normal.w2ent:            actionEventName (CName) : FearsomeEvent
-boar_34_normal.w2ent:            saveReactionTargetUnder (CName) : FearsomeEventSource
-boar_34_normal.w2ent:    CAINpcReactionLeadEscape #65 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
-boar_34_normal.w2ent:    CAIActionEscapeInPack #66 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
-boar_34_normal.w2ent:        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
-boar_34_normal.w2ent:            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #67
-boar_34_normal.w2ent:    CAINpcReactionEscapeInPack #67 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
-boar_34_normal.w2ent:        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
-boar_34_normal.w2ent:    CAIMonsterDeath #68 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
-boar_34_normal.w2ent:        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
-boar_34_normal.w2ent:            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
-boar_34_normal.w2ent:            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #69
-boar_34_normal.w2ent:    CAIMonsterDeathParams #69 (CAIMonsterDeathParams) : 
-boar_34_normal.w2ent:        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
-boar_34_normal.w2ent:    CCharacterControllerParam #70 (CCharacterControllerParam) : boar_base_character_controller
-boar_34_normal.w2ent:        CCharacterControllerParam (CCharacterControllerParam) : boar_base_character_controller
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_base_character_controller"
-boar_34_normal.w2ent:            height (Float) : 1.1000
-boar_34_normal.w2ent:            physicalRadius (Float) : 0.6000
-boar_34_normal.w2ent:            interactionPriorityEnum (EInteractionPriority) : IP_Prio_10
-boar_34_normal.w2ent:    CAIProfile #71 (CAIProfile) : AG_BEAST
-boar_34_normal.w2ent:        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #72
-boar_34_normal.w2ent:            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #73
-boar_34_normal.w2ent:            attitudeGroup (CName) : AG_BEAST
-boar_34_normal.w2ent:    CAISenseParams #72 (CAISenseParams) : 
-boar_34_normal.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-boar_34_normal.w2ent:            rangeMax (Float) : 25.0000
-boar_34_normal.w2ent:            rangeAngle (Float) : 360.0000
-boar_34_normal.w2ent:            height (Float) : 4.0000
-boar_34_normal.w2ent:    CAISenseParams #73 (CAISenseParams) : 
-boar_34_normal.w2ent:        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
-boar_34_normal.w2ent:            rangeMax (Float) : 25.0000
-boar_34_normal.w2ent:            rangeAngle (Float) : 360.0000
-boar_34_normal.w2ent:            height (Float) : 4.0000
-boar_34_normal.w2ent:            testLOS (Bool) : false
-boar_34_normal.w2ent:    CCharacterStatsParam #74 (CCharacterStatsParam) : boar_base_stats
-boar_34_normal.w2ent:        CCharacterStatsParam (CCharacterStatsParam) : boar_base_stats
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_base_stats"
-boar_34_normal.w2ent:            abilities (array:CName) : # array:CName
-boar_34_normal.w2ent:                0 (CName) : mon_boar_base
-boar_34_normal.w2ent:    CMonsterParam #75 (CMonsterParam) : boar_base_params
-boar_34_normal.w2ent:        CMonsterParam (CMonsterParam) : boar_base_params
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_base_params"
-boar_34_normal.w2ent:            monsterCategory (Int32) : 4
-boar_34_normal.w2ent:    CAttackRangeParam #76 (CAttackRangeParam) : boar_base_attack_ranges
-boar_34_normal.w2ent:        CAttackRangeParam (CAttackRangeParam) : boar_base_attack_ranges
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "boar_base_attack_ranges"
-boar_34_normal.w2ent:            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
-boar_34_normal.w2ent:                0 (ptr:CAIAttackRange) : CConeAttackRange #77
-boar_34_normal.w2ent:                1 (ptr:CAIAttackRange) : CBoxAttackRange #78
-boar_34_normal.w2ent:                2 (ptr:CAIAttackRange) : CConeAttackRange #79
-boar_34_normal.w2ent:    CConeAttackRange #77 (CConeAttackRange) : basic_strike
-boar_34_normal.w2ent:        CConeAttackRange (CConeAttackRange) : basic_strike
-boar_34_normal.w2ent:            name (CName) : basic_strike
-boar_34_normal.w2ent:            rangeMax (Float) : 2.0000
-boar_34_normal.w2ent:            height (Float) : 3.0000
-boar_34_normal.w2ent:    CBoxAttackRange #78 (CBoxAttackRange) : charge
-boar_34_normal.w2ent:        CBoxAttackRange (CBoxAttackRange) : charge
-boar_34_normal.w2ent:            name (CName) : charge
-boar_34_normal.w2ent:    CConeAttackRange #79 (CConeAttackRange) : hoofs
-boar_34_normal.w2ent:        CConeAttackRange (CConeAttackRange) : hoofs
-boar_34_normal.w2ent:            name (CName) : hoofs
-boar_34_normal.w2ent:            rangeMax (Float) : 2.0000
-boar_34_normal.w2ent:            angleOffset (Float) : 180.0000
-boar_34_normal.w2ent:    CAnimConstraintsParam #80 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\animals\behaviorgraph\dog_constraints.w2beh
-boar_34_normal.w2ent:        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/dog_constraints.w2beh
-boar_34_normal.w2ent:    CBuffImmunityParam #81 (CBuffImmunityParam) : immunes
-boar_34_normal.w2ent:        CBuffImmunityParam (CBuffImmunityParam) : immunes
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "immunes"
-boar_34_normal.w2ent:            immunityTo (array:Int32) : # array:Int32
-boar_34_normal.w2ent:                0 (Int32) : 52
-boar_34_normal.w2ent:    CFocusSoundParam #82 (CFocusSoundParam) : Focus_Sound
-boar_34_normal.w2ent:        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
-boar_34_normal.w2ent:            wasIncluded (Bool) : true
-boar_34_normal.w2ent:            name (String) : "Focus_Sound"
-boar_34_normal.w2ent:            eventStart (CName) : animals_wolf_focus_100m_start
-boar_34_normal.w2ent:            eventStop (CName) : animals_wolf_focus_100m_stop
+    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : dlc/ep1/data/characters/npc_entities/monsters/wild_boar_ep1.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : CAppearanceComponent0
+                    className (CName) : CAppearanceComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : attachmentReplacements
+                        1 (CName) : appearanceAttachments
+                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+                    componentName (CName) : wild_boar_base
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : movementAdjustor
+            properOverrides (Bool) : true
+            entityClass (CName) : CNewNPC
+            entityObject (ptr:CEntity) : CNewNPC #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : wild_boar_01
+                    name (CName) : wild_boar_01
+                    usesRobe (Bool) : true
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_01_wild_boar.w2ent
+                1 (CEntityAppearance) : wild_boar_02
+                    name (CName) : wild_boar_02
+                    usesRobe (Bool) : true
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_02_wild_boar.w2ent
+                2 (CEntityAppearance) : wild_boar_03
+                    name (CName) : wild_boar_03
+                    usesRobe (Bool) : true
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_03_wild_boar.w2ent
+                3 (CEntityAppearance) : wild_boar_01_blood
+                    name (CName) : wild_boar_01_blood
+                    usesRobe (Bool) : true
+                    wasIncluded (Bool) : true
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : dlc/ep1/data/characters/models/animals/wild_boar/t_01_wild_boar_blood.w2ent
+            usedAppearances (array:CName) : # array:CName
+                0 (CName) : wild_boar_01
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : body_fire
+                    name (CName) : body_fire
+                    componentName (CName) : CAppearanceComponent0
+                1 (EntitySlot) : head
+                    wasIncluded (Bool) : true
+                    name (CName) : head
+                    componentName (CName) : wild_boar_base
+                    boneName (CName) : head
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CInventoryDefinition #12
+                1 (ptr:CEntityTemplateParam) : CR4LootParam #15
+                2 (ptr:CEntityTemplateParam) : CCharacterStatsParam #16
+                3 (ptr:CEntityTemplateParam) : CInventoryDefinition #17
+                4 (ptr:CEntityTemplateParam) : CR4LootParam #20
+                5 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #21
+                6 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #22
+                7 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #23
+                8 (ptr:CEntityTemplateParam) : CCharacterControllerParam #70
+                9 (ptr:CEntityTemplateParam) : CAIProfile #71
+                10 (ptr:CEntityTemplateParam) : CCharacterStatsParam #74
+                11 (ptr:CEntityTemplateParam) : CMonsterParam #75
+                12 (ptr:CEntityTemplateParam) : CAttackRangeParam #76
+                13 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #80
+                14 (ptr:CEntityTemplateParam) : CBuffImmunityParam #81
+                15 (ptr:CEntityTemplateParam) : CFocusSoundParam #82
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CNewNPC #0 (CNewNPC) : saliva
+                    CNewNPC (CNewNPC) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 0
+                        autoPlayEffectName (CName) : saliva
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CAppearanceComponent #4
+                            1 (ptr:CComponent) : CMovingPhysicalAgentComponent #5
+                            2 (ptr:CComponent) : CInventoryComponent #8
+                            3 (ptr:CComponent) : CPhantomComponent #7
+                            4 (ptr:CComponent) : CInteractionComponent #9
+                            5 (ptr:CComponent) : CSoundEmitterComponent #10
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  deb1edd4-e120-46de-a987-b74df3ba5d33
+                        displayName (LocalizedString) : Boar
+                        isInteractionActivator (Bool) : true
+                        buffImmunities (array:SBuffImmunity) : # array:SBuffImmunity
+                            0 (SBuffImmunity) : <SBuffImmunity>0
+                                buffType (EEffectType) : EET_Blindness
+                                sources (array:CName) : # array:CName
+                                    0 (CName) : DeadlyEnemy
+                            1 (SBuffImmunity) : <SBuffImmunity>1
+                                buffType (EEffectType) : EET_WraithBlindness
+                                sources (array:CName) : # array:CName
+                                    0 (CName) : DeadlyEnemy
+                        abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #1
+                        effectManager (handle:W3EffectManager) : W3EffectManager #3
+                        level (Int32) : 32
+                W3NonPlayerAbilityManager #1 (W3NonPlayerAbilityManager) : 
+                    W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+                        statPoints (array:SBaseStat) : # array:SBaseStat
+                            0 (SBaseStat) : <SBaseStat>0
+                                current (Float) : 18480.0000
+                                max (Float) : 18480.0000
+                            1 (SBaseStat) : <SBaseStat>1
+                                current (Float) : 200.0000
+                                max (Float) : 200.0000
+                                type (EBaseCharacterStats) : BCS_Stamina
+                        resistStats (array:SResistanceValue) : # array:SResistanceValue
+                            0 (SResistanceValue) : <SResistanceValue>0
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_PhysicalRes
+                            1 (SResistanceValue) : <SResistanceValue>1
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_BleedingRes
+                            2 (SResistanceValue) : <SResistanceValue>2
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_PoisonRes
+                            3 (SResistanceValue) : <SResistanceValue>3
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_FireRes
+                            4 (SResistanceValue) : <SResistanceValue>4
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_FrostRes
+                            5 (SResistanceValue) : <SResistanceValue>5
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_ShockRes
+                            6 (SResistanceValue) : <SResistanceValue>6
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_ForceRes
+                            7 (SResistanceValue) : <SResistanceValue>7
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_WillRes
+                            8 (SResistanceValue) : <SResistanceValue>8
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                    valueBase (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_BurningRes
+                            9 (SResistanceValue) : <SResistanceValue>9
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_SlashingRes
+                            10 (SResistanceValue) : <SResistanceValue>10
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_PiercingRes
+                            11 (SResistanceValue) : <SResistanceValue>11
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_BludgeoningRes
+                            12 (SResistanceValue) : <SResistanceValue>12
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_RendingRes
+                            13 (SResistanceValue) : <SResistanceValue>13
+                                points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                                    valueMultiplicative (Float) : 1.0000
+                                percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                                    valueMultiplicative (Float) : 1.0000
+                                type (ECharacterDefenseStats) : CDS_ElementalRes
+                        owner (handle:CActor) : CNewNPC #0
+                        charStats (handle:CCharacterStats) : CCharacterStats #2
+                        usedDifficultyMode (EDifficultyMode) : EDM_Medium
+                        difficultyAbilities (array:CName) : # array:CName
+                            1 (array:CName) : # array:CName
+                                0 (CName) : difficulty_CommonEasy
+                            2 (array:CName) : # array:CName
+                                0 (CName) : difficulty_CommonMedium
+                            3 (array:CName) : # array:CName
+                                0 (CName) : difficulty_CommonHard
+                            4 (array:CName) : # array:CName
+                                0 (CName) : difficulty_CommonHardcore
+                CCharacterStats #2 (CCharacterStats) : 
+                    CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+                        abilities (array:CName) : # array:CName
+                            0 (CName) : mon_boar_base
+                            1 (CName) : all_NPC_ability
+                            2 (CName) : difficulty_CommonMedium
+                            3 (CName) : NPCLevelBonusDeadly
+                W3EffectManager #3 (W3EffectManager) : 
+                    W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+                        statDeltas (array:Float) : # array:Float
+                            1 (Float) : 0.0000
+                            2 (Float) : 0.0000
+                            3 (Float) : 0.0000
+                            4 (Float) : 0.0000
+                            5 (Float) : 0.0000
+                            6 (Float) : 0.0000
+                            7 (Float) : 0.0000
+                            8 (Float) : 0.0000
+                            9 (Float) : 0.0000
+                            10 (Float) : 0.0000
+                CAppearanceComponent #4 (CAppearanceComponent) : CAppearanceComponent0
+                    CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+                        guid (CGUID) : 56e11357-59da-4ffa-bd1f-d8934d988be3
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CAppearanceComponent0"
+                        graphPositionX (Int16) : 481
+                        graphPositionY (Int16) : 216
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
+                                    oldName (CName) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CInventoryComponent0
+                                    newClass (CName) : CInventoryComponent
+                                1 (SAttachmentReplacement) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
+                                    oldName (CName) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : ActorCollision
+                                    newClass (CName) : CPhantomComponent
+                                2 (SAttachmentReplacement) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
+                                    oldName (CName) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : Finish
+                                    newClass (CName) : CInteractionComponent
+                                3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
+                                    oldName (CName) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CSoundEmitterComponent0
+                                    newClass (CName) : CSoundEmitterComponent
+                        appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                            0 (SAppearanceAttachments) : wild_boar_01_blood
+                                appearance (CName) : wild_boar_01_blood
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : CFurComponent0
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : wild_boar_base
+                                        childClass (CName) : CFurComponent
+                                        childName (CName) : CFurComponent0
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                                    1 (SAppearanceAttachment) : t_01_wild_boar_blood
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : wild_boar_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : t_01_wild_boar_blood
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                            1 (SAppearanceAttachments) : wild_boar_01
+                                appearance (CName) : wild_boar_01
+                                attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                                    0 (SAppearanceAttachment) : CFurComponent0
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : wild_boar_base
+                                        childClass (CName) : CFurComponent
+                                        childName (CName) : CFurComponent0
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                                    1 (SAppearanceAttachment) : t_01_wild_boar
+                                        parentClass (CName) : CMovingPhysicalAgentComponent
+                                        parentName (CName) : wild_boar_base
+                                        childClass (CName) : CMeshComponent
+                                        childName (CName) : t_01_wild_boar
+                                        Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                            0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                CMovingPhysicalAgentComponent #5 (CMovingPhysicalAgentComponent) : wild_boar_base
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : wild_boar_base
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.3500
+                            Scale_y (Float) : 1.3500
+                            Scale_z (Float) : 1.3500
+                        guid (CGUID) : e72d32b4-0b6b-4e7d-80b3-e8c168dc3e2c
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #6
+                        name (String) : "wild_boar_base"
+                        graphPositionX (Int16) : 305
+                        graphPositionY (Int16) : 267
+                        skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/wild_boar_base/wild_boar_base.w2rig
+                        animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                            0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
+                        behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : 
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : boar
+                                instanceName (CName) : boar
+                                graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
+                            1 (SBehaviorGraphInstanceSlot) : 
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+                CHardAttachment #6 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #5
+                        child (ptr:CNode) : CPhantomComponent #7
+                CPhantomComponent #7 (CPhantomComponent) : ActorCollision
+                    CPhantomComponent (CPhantomComponent) : ActorCollision
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 0.5000
+                            Z (Float) : 1.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #6
+                        guid (CGUID) : 6e22b147-c65c-4a9a-a589-b8391ac2af75
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #6
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "ActorCollision"
+                        graphPositionX (Int16) : 294
+                        graphPositionY (Int16) : 362
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 2.0000
+                            Y (Float) : 5.0000
+                            Z (Float) : 3.0000
+                            W (Float) : 0.0000
+                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+                CInventoryComponent #8 (CInventoryComponent) : CInventoryComponent0
+                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+                        guid (CGUID) : 74d8b2a5-87b0-48aa-916c-21bc724ef956
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CInventoryComponent0"
+                        graphPositionX (Int16) : 80
+                        graphPositionY (Int16) : 182
+                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+                CInteractionComponent #9 (CInteractionComponent) : Finish
+                    CInteractionComponent (CInteractionComponent) : Finish
+                        guid (CGUID) : cbc5b926-5001-454a-b63b-26eaed7f130e
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "Finish"
+                        graphPositionX (Int16) : 625
+                        graphPositionY (Int16) : 290
+                        rangeMax (Float) : 1.7500
+                        isEnabled (Bool) : false
+                        actionName (String) : "Finish"
+                        reportToScript (Bool) : true
+                        isEnabledInCombat (Bool) : true
+                CSoundEmitterComponent #10 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 0.6000
+                        guid (CGUID) : c00231d5-b28d-4c76-a256-6499e1799227
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        graphPositionX (Int16) : 331
+                        graphPositionY (Int16) : 144
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : monster_boar.bnk
+                        maxDistance (Float) : 50.0000
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CNewNPC #1 (CNewNPC) : saliva
+        CNewNPC (CNewNPC) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 0
+            autoPlayEffectName (CName) : saliva
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CAppearanceComponent #5
+                1 (ptr:CComponent) : CMovingPhysicalAgentComponent #6
+                2 (ptr:CComponent) : CInventoryComponent #9
+                3 (ptr:CComponent) : CPhantomComponent #8
+                4 (ptr:CComponent) : CInteractionComponent #10
+                5 (ptr:CComponent) : CSoundEmitterComponent #11
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  deb1edd4-e120-46de-a987-b74df3ba5d33
+            displayName (LocalizedString) : Boar
+            isInteractionActivator (Bool) : true
+            buffImmunities (array:SBuffImmunity) : # array:SBuffImmunity
+                0 (SBuffImmunity) : <SBuffImmunity>0
+                    buffType (EEffectType) : EET_Blindness
+                    sources (array:CName) : # array:CName
+                        0 (CName) : DeadlyEnemy
+                1 (SBuffImmunity) : <SBuffImmunity>1
+                    buffType (EEffectType) : EET_WraithBlindness
+                    sources (array:CName) : # array:CName
+                        0 (CName) : DeadlyEnemy
+            abilityManager (handle:W3AbilityManager) : W3NonPlayerAbilityManager #2
+            effectManager (handle:W3EffectManager) : W3EffectManager #4
+            level (Int32) : 32
+    W3NonPlayerAbilityManager #2 (W3NonPlayerAbilityManager) : 
+        W3NonPlayerAbilityManager (W3NonPlayerAbilityManager) : <W3NonPlayerAbilityManager>W3NonPlayerAbilityManager
+            statPoints (array:SBaseStat) : # array:SBaseStat
+                0 (SBaseStat) : <SBaseStat>0
+                    current (Float) : 18480.0000
+                    max (Float) : 18480.0000
+                1 (SBaseStat) : <SBaseStat>1
+                    current (Float) : 200.0000
+                    max (Float) : 200.0000
+                    type (EBaseCharacterStats) : BCS_Stamina
+            resistStats (array:SResistanceValue) : # array:SResistanceValue
+                0 (SResistanceValue) : <SResistanceValue>0
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_PhysicalRes
+                1 (SResistanceValue) : <SResistanceValue>1
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_BleedingRes
+                2 (SResistanceValue) : <SResistanceValue>2
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_PoisonRes
+                3 (SResistanceValue) : <SResistanceValue>3
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_FireRes
+                4 (SResistanceValue) : <SResistanceValue>4
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_FrostRes
+                5 (SResistanceValue) : <SResistanceValue>5
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_ShockRes
+                6 (SResistanceValue) : <SResistanceValue>6
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_ForceRes
+                7 (SResistanceValue) : <SResistanceValue>7
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_WillRes
+                8 (SResistanceValue) : <SResistanceValue>8
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                        valueBase (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_BurningRes
+                9 (SResistanceValue) : <SResistanceValue>9
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_SlashingRes
+                10 (SResistanceValue) : <SResistanceValue>10
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_PiercingRes
+                11 (SResistanceValue) : <SResistanceValue>11
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_BludgeoningRes
+                12 (SResistanceValue) : <SResistanceValue>12
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_RendingRes
+                13 (SResistanceValue) : <SResistanceValue>13
+                    points (SAbilityAttributeValue) : <SAbilityAttributeValue>points
+                        valueMultiplicative (Float) : 1.0000
+                    percents (SAbilityAttributeValue) : <SAbilityAttributeValue>percents
+                        valueMultiplicative (Float) : 1.0000
+                    type (ECharacterDefenseStats) : CDS_ElementalRes
+            owner (handle:CActor) : CNewNPC #1
+            charStats (handle:CCharacterStats) : CCharacterStats #3
+            usedDifficultyMode (EDifficultyMode) : EDM_Medium
+            difficultyAbilities (array:CName) : # array:CName
+                1 (array:CName) : # array:CName
+                    0 (CName) : difficulty_CommonEasy
+                2 (array:CName) : # array:CName
+                    0 (CName) : difficulty_CommonMedium
+                3 (array:CName) : # array:CName
+                    0 (CName) : difficulty_CommonHard
+                4 (array:CName) : # array:CName
+                    0 (CName) : difficulty_CommonHardcore
+    CCharacterStats #3 (CCharacterStats) : 
+        CCharacterStats (CCharacterStats) : <CCharacterStats>CCharacterStats
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_boar_base
+                1 (CName) : all_NPC_ability
+                2 (CName) : difficulty_CommonMedium
+                3 (CName) : NPCLevelBonusDeadly
+    W3EffectManager #4 (W3EffectManager) : 
+        W3EffectManager (W3EffectManager) : <W3EffectManager>W3EffectManager
+            statDeltas (array:Float) : # array:Float
+                1 (Float) : 0.0000
+                2 (Float) : 0.0000
+                3 (Float) : 0.0000
+                4 (Float) : 0.0000
+                5 (Float) : 0.0000
+                6 (Float) : 0.0000
+                7 (Float) : 0.0000
+                8 (Float) : 0.0000
+                9 (Float) : 0.0000
+                10 (Float) : 0.0000
+    CAppearanceComponent #5 (CAppearanceComponent) : CAppearanceComponent0
+        CAppearanceComponent (CAppearanceComponent) : CAppearanceComponent0
+            guid (CGUID) : 56e11357-59da-4ffa-bd1f-d8934d988be3
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CAppearanceComponent0"
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
+                        oldName (CName) : proxy_CInventoryComponent0_79172724-4C52D9AD-F4ED648B-194E5B80
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CInventoryComponent0
+                        newClass (CName) : CInventoryComponent
+                    1 (SAttachmentReplacement) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
+                        oldName (CName) : proxy_ActorCollision_28D92605-44BADC36-F36A4092-D1550739
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : ActorCollision
+                        newClass (CName) : CPhantomComponent
+                    2 (SAttachmentReplacement) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
+                        oldName (CName) : proxy_Finish_DAAADB7A-48F43E16-70571E85-D174B353
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : Finish
+                        newClass (CName) : CInteractionComponent
+                    3 (SAttachmentReplacement) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
+                        oldName (CName) : proxy_CSoundEmitterComponent0_EF8722F5-44E24866-8CEFBEAB-905AA4CB
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CSoundEmitterComponent0
+                        newClass (CName) : CSoundEmitterComponent
+            appearanceAttachments (array:SAppearanceAttachments) : # array:SAppearanceAttachments
+                0 (SAppearanceAttachments) : wild_boar_01_blood
+                    appearance (CName) : wild_boar_01_blood
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : CFurComponent0
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : wild_boar_base
+                            childClass (CName) : CFurComponent
+                            childName (CName) : CFurComponent0
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                        1 (SAppearanceAttachment) : t_01_wild_boar_blood
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : wild_boar_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : t_01_wild_boar_blood
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                1 (SAppearanceAttachments) : wild_boar_01
+                    appearance (CName) : wild_boar_01
+                    attachments (array:SAppearanceAttachment) : # array:SAppearanceAttachment
+                        0 (SAppearanceAttachment) : CFurComponent0
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : wild_boar_base
+                            childClass (CName) : CFurComponent
+                            childName (CName) : CFurComponent0
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+                        1 (SAppearanceAttachment) : t_01_wild_boar
+                            parentClass (CName) : CMovingPhysicalAgentComponent
+                            parentName (CName) : wild_boar_base
+                            childClass (CName) : CMeshComponent
+                            childName (CName) : t_01_wild_boar
+                            Data (CBufferVLQInt32:IReferencable) : # CBufferVLQInt32:IReferencable
+                                0 (CMeshSkinningAttachment) : <CMeshSkinningAttachment>0
+    CMovingPhysicalAgentComponent #6 (CMovingPhysicalAgentComponent) : wild_boar_base
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : wild_boar_base
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.3500
+                Scale_y (Float) : 1.3500
+                Scale_z (Float) : 1.3500
+            guid (CGUID) : e72d32b4-0b6b-4e7d-80b3-e8c168dc3e2c
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #7
+            name (String) : "wild_boar_base"
+            skeleton (handle:CSkeleton) : dlc/ep1/data/characters/base_entities/wild_boar_base/wild_boar_base.w2rig
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
+            behaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : 
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : boar
+                    instanceName (CName) : boar
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
+                1 (SBehaviorGraphInstanceSlot) : 
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_fast.w2steer
+    CHardAttachment #7 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #6
+            child (ptr:CNode) : CPhantomComponent #8
+    CPhantomComponent #8 (CPhantomComponent) : ActorCollision
+        CPhantomComponent (CPhantomComponent) : ActorCollision
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 0.5000
+                Z (Float) : 1.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #7
+            guid (CGUID) : 6e22b147-c65c-4a9a-a589-b8391ac2af75
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #7
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "ActorCollision"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 2.0000
+                Y (Float) : 5.0000
+                Z (Float) : 3.0000
+                W (Float) : 0.0000
+            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+    CInventoryComponent #9 (CInventoryComponent) : CInventoryComponent0
+        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+            guid (CGUID) : 74d8b2a5-87b0-48aa-916c-21bc724ef956
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CInventoryComponent0"
+            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+    CInteractionComponent #10 (CInteractionComponent) : Finish
+        CInteractionComponent (CInteractionComponent) : Finish
+            guid (CGUID) : cbc5b926-5001-454a-b63b-26eaed7f130e
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "Finish"
+            rangeMax (Float) : 1.7500
+            isEnabled (Bool) : false
+            actionName (String) : "Finish"
+            reportToScript (Bool) : true
+            isEnabledInCombat (Bool) : true
+    CSoundEmitterComponent #11 (CSoundEmitterComponent) : CSoundEmitterComponent0
+        CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 0.6000
+            guid (CGUID) : c00231d5-b28d-4c76-a256-6499e1799227
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CSoundEmitterComponent0"
+            banksDependency (array:CName) : # array:CName
+                0 (CName) : monster_boar.bnk
+            maxDistance (Float) : 50.0000
+    CInventoryDefinition #12 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #13
+    CInventoryDefinitionEntry #13 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #14
+    CInventoryInitializerUniform #14 (CInventoryInitializerUniform) : mon_ghoul_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_ghoul_weapon
+    CR4LootParam #15 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Wild Boar
+                    name (CName) : _monster__Wild Boar
+    CCharacterStatsParam #16 (CCharacterStatsParam) : additional stats
+        CCharacterStatsParam (CCharacterStatsParam) : additional stats
+            name (String) : "additional stats"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_boarNG_ep1
+    CInventoryDefinition #17 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            wasIncluded (Bool) : true
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #18
+    CInventoryDefinitionEntry #18 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #19
+    CInventoryInitializerUniform #19 (CInventoryInitializerUniform) : mon_wolf_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_wolf_weapon
+    CR4LootParam #20 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            wasIncluded (Bool) : true
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Wild Boar
+                    name (CName) : _monster__Wild Boar
+    CAnimAnimsetsParam #21 (CAnimAnimsetsParam) : boar_anims
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : boar_anims
+            wasIncluded (Bool) : true
+            name (String) : "boar_anims"
+            componentName (String) : "wild_boar_base"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : dlc/ep1/data/animations/animals/wild_boar/wild_boar_animation.w2anims
+    CAnimBehaviorsParam #22 (CAnimBehaviorsParam) : boar_combat
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : boar_combat
+            wasIncluded (Bool) : true
+            name (String) : "boar_combat"
+            componentName (String) : "wild_boar_base"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : boar
+                    instanceName (CName) : boar
+                    graph (handle:CBehaviorGraph) : dlc/ep1/data/gameplay/behaviors/npc/behaviorgraph/boar_exploration.w2beh
+    CAIBaseTreeTemplateParam #23 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #24
+    CAIMonsterBase #24 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIBoarDefaults #25
+    CAIBoarDefaults #25 (CAIBoarDefaults) : 
+        CAIBoarDefaults (CAIBoarDefaults) : <CAIBoarDefaults>CAIBoarDefaults
+            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #26
+            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #28
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #30
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorBoar #32
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #52
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #68
+    CAIMonsterSpawnDefault #26 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #27
+    CAIMonsterSpawnParams #27 (CAIMonsterSpawnParams) : 
+        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+    CAIMonsterTaunt #28 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #29
+    CAIMonsterTauntParams #29 (CAIMonsterTauntParams) : 
+        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+    CAIMonsterAxii #30 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #31
+    CAIMonsterAxiiParams #31 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecoratorBoar #32 (CAIMonsterIdleDecoratorBoar) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecoratorBoar (CAIMonsterIdleDecoratorBoar) : <CAIMonsterIdleDecoratorBoar>CAIMonsterIdleDecoratorBoar
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #33
+    CAIMonsterIdleDecoratorParams #33 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #34
+            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #46
+            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
+                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleEat #48
+                1 (handle:CAIMonsterIdleAction) : CAIMonsterIdleSit #50
+    CAIMonsterReactionsTree #34 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #35
+    CAIMonsterReactionsTreeParams #35 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #36
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #38
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #40
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #42
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #44
+    CAIActionSearchForTarget #36 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #37
+    CAINpcReactionSearchTarget #37 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #38 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #39
+    CAINpcReactionJoinSearchForTarget #39 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #40 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #41
+    CAINpcReactionPlayWithTarget #41 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #42 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #43
+    CAINpcReactionMoveInPack #43 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #44 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #45
+    CAINpcReactionRunWildInPack #45 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIMonsterSearchFoodTree #46 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
+        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
+            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #47
+    CAIMonsterSearchFoodIdleParams #47 (CAIMonsterSearchFoodIdleParams) : 
+        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
+            corpse (Bool) : true
+            monster (Bool) : true
+    CAIMonsterIdleEat #48 (CAIMonsterIdleEat) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
+        CAIMonsterIdleEat (CAIMonsterIdleEat) : <CAIMonsterIdleEat>CAIMonsterIdleEat
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
+            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #49
+    CAIMonsterIdleActionParams #49 (CAIMonsterIdleActionParams) : Eat
+        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
+            cooldown (Float) : 10.0000
+            loopTime (Float) : 20.0000
+            actionName (CName) : Eat
+    CAIMonsterIdleSit #50 (CAIMonsterIdleSit) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
+        CAIMonsterIdleSit (CAIMonsterIdleSit) : <CAIMonsterIdleSit>CAIMonsterIdleSit
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
+            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #51
+    CAIMonsterIdleActionParams #51 (CAIMonsterIdleActionParams) : 
+        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
+            loopTime (Float) : 15.0000
+    CAIMonsterCombat #52 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #53
+    CAIMonsterCombatParams #53 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBoarCombatLogic #54
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #56
+            createHitReactionEvent (CName) : MonsterHitReaction
+            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #58
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #60
+    CAIBoarCombatLogic #54 (CAIBoarCombatLogic) : CBehTree:dlc\ep1\data\gameplay\trees\monsters\monster_boar_logic.w2behtree
+        CAIBoarCombatLogic (CAIBoarCombatLogic) : <CAIBoarCombatLogic>CAIBoarCombatLogic
+            tree (handle:CBehTree) : dlc/ep1/data/gameplay/trees/monsters/monster_boar_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #55
+    CAIMonsterCombatLogicParams #55 (CAIMonsterCombatLogicParams) : 
+        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+    CAIMonsterDamageReactionTree #56 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #57
+    CAIDamageReactionTreeParams #57 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAINpcCriticalState #58 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #59
+    CAINpcCriticalStateParams #59 (CAINpcCriticalStateParams) : BoarKnockDownFinisher
+        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+            FinisherAnim (CName) : BoarKnockDownFinisher
+    CAIMonsterCombatReactionsTree #60 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #61
+    CAIMonsterReactionsTreeParams #61 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #62
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #64
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #66
+    CAIActionLeadEscape #62 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #63
+    CAINpcReactionLeadEscape #63 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #64 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #65
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #65 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #66 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #67
+    CAINpcReactionEscapeInPack #67 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIMonsterDeath #68 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #69
+    CAIMonsterDeathParams #69 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+    CCharacterControllerParam #70 (CCharacterControllerParam) : boar_base_character_controller
+        CCharacterControllerParam (CCharacterControllerParam) : boar_base_character_controller
+            wasIncluded (Bool) : true
+            name (String) : "boar_base_character_controller"
+            height (Float) : 1.1000
+            physicalRadius (Float) : 0.6000
+            interactionPriorityEnum (EInteractionPriority) : IP_Prio_10
+    CAIProfile #71 (CAIProfile) : AG_BEAST
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #72
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #73
+            attitudeGroup (CName) : AG_BEAST
+    CAISenseParams #72 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 25.0000
+            rangeAngle (Float) : 360.0000
+            height (Float) : 4.0000
+    CAISenseParams #73 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 25.0000
+            rangeAngle (Float) : 360.0000
+            height (Float) : 4.0000
+            testLOS (Bool) : false
+    CCharacterStatsParam #74 (CCharacterStatsParam) : boar_base_stats
+        CCharacterStatsParam (CCharacterStatsParam) : boar_base_stats
+            wasIncluded (Bool) : true
+            name (String) : "boar_base_stats"
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_boar_base
+    CMonsterParam #75 (CMonsterParam) : boar_base_params
+        CMonsterParam (CMonsterParam) : boar_base_params
+            wasIncluded (Bool) : true
+            name (String) : "boar_base_params"
+            monsterCategory (Int32) : 4
+    CAttackRangeParam #76 (CAttackRangeParam) : boar_base_attack_ranges
+        CAttackRangeParam (CAttackRangeParam) : boar_base_attack_ranges
+            wasIncluded (Bool) : true
+            name (String) : "boar_base_attack_ranges"
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #77
+                1 (ptr:CAIAttackRange) : CBoxAttackRange #78
+                2 (ptr:CAIAttackRange) : CConeAttackRange #79
+    CConeAttackRange #77 (CConeAttackRange) : basic_strike
+        CConeAttackRange (CConeAttackRange) : basic_strike
+            name (CName) : basic_strike
+            rangeMax (Float) : 2.0000
+            height (Float) : 3.0000
+    CBoxAttackRange #78 (CBoxAttackRange) : charge
+        CBoxAttackRange (CBoxAttackRange) : charge
+            name (CName) : charge
+    CConeAttackRange #79 (CConeAttackRange) : hoofs
+        CConeAttackRange (CConeAttackRange) : hoofs
+            name (CName) : hoofs
+            rangeMax (Float) : 2.0000
+            angleOffset (Float) : 180.0000
+    CAnimConstraintsParam #80 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\animals\behaviorgraph\dog_constraints.w2beh
+        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
+            wasIncluded (Bool) : true
+            graph (handle:CBehaviorGraph) : gameplay/behaviors/animals/behaviorgraph/dog_constraints.w2beh
+    CBuffImmunityParam #81 (CBuffImmunityParam) : immunes
+        CBuffImmunityParam (CBuffImmunityParam) : immunes
+            wasIncluded (Bool) : true
+            name (String) : "immunes"
+            immunityTo (array:Int32) : # array:Int32
+                0 (Int32) : 52
+    CFocusSoundParam #82 (CFocusSoundParam) : Focus_Sound
+        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
+            wasIncluded (Bool) : true
+            name (String) : "Focus_Sound"
+            eventStart (CName) : animals_wolf_focus_100m_start
+            eventStop (CName) : animals_wolf_focus_100m_stop

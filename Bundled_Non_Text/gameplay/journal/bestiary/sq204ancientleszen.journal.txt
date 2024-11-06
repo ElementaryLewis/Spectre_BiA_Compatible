@@ -1,93 +1,93 @@
-sq204ancientleszen.journal:    CJournalResource #0 (CJournalResource) : 
-sq204ancientleszen.journal:        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
-sq204ancientleszen.journal:            entry (ptr:CJournalBase) : CJournalCreature #1
-sq204ancientleszen.journal:    CJournalCreature #1 (CJournalCreature) : sq204 Ancient Leszen
-sq204ancientleszen.journal:        CJournalCreature (CJournalCreature) : Woodland Spirit
-sq204ancientleszen.journal:            guid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
-sq204ancientleszen.journal:            baseName (String) : "sq204 Ancient Leszen"
-sq204ancientleszen.journal:            order (Uint32) : 4293918718
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : sq204 Ancient Leszen 920DD44F-4640510C-A48A8EAB-F8003E1D
-sq204ancientleszen.journal:            parentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
-sq204ancientleszen.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-sq204ancientleszen.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
-sq204ancientleszen.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #7
-sq204ancientleszen.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #8
-sq204ancientleszen.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #9
-sq204ancientleszen.journal:            name (LocalizedString) : Woodland Spirit
-sq204ancientleszen.journal:            image (String) : "bestiary_leshen.png"
-sq204ancientleszen.journal:            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq204_forest_spirit/characters/sq204_leshy.w2ent
-sq204ancientleszen.journal:            itemsUsedAgainstCreature (array:CName) : # array:CName
-sq204ancientleszen.journal:                0 (CName) : Silver Dust Bomb 1
-sq204ancientleszen.journal:                1 (CName) : Relic Oil 1
-sq204ancientleszen.journal:                2 (CName) : Igni
-sq204ancientleszen.journal:    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
-sq204ancientleszen.journal:        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
-sq204ancientleszen.journal:            guid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
-sq204ancientleszen.journal:            baseName (String) : "Descriptions"
-sq204ancientleszen.journal:            order (Uint32) : 2147483647
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Descriptions 02BC8A0F-487537C0-0B2176B8-357892FF
-sq204ancientleszen.journal:            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
-sq204ancientleszen.journal:            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
-sq204ancientleszen.journal:                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
-sq204ancientleszen.journal:                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
-sq204ancientleszen.journal:                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
-sq204ancientleszen.journal:                3 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #6
-sq204ancientleszen.journal:    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Ancient Leszen Precombat
-sq204ancientleszen.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-sq204ancientleszen.journal:            guid (CGUID) : 1f82b5a2-1904-481e-8ca6-13a9ce2eb5e5
-sq204ancientleszen.journal:            baseName (String) : "Ancient Leszen Precombat"
-sq204ancientleszen.journal:            order (Uint32) : 2147483647
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Ancient Leszen Precombat 1F82B5A2-481E1904-A913A68C-E5B52ECE
-sq204ancientleszen.journal:            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
-sq204ancientleszen.journal:            description (LocalizedString) : it was vulnerable to fire, that born of the Igni Sign in particular.
-sq204ancientleszen.journal:    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Ancient Leszen Final killed
-sq204ancientleszen.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-sq204ancientleszen.journal:            guid (CGUID) : bf8c16d6-bd64-4a02-9a3c-6a8f689db24e
-sq204ancientleszen.journal:            baseName (String) : "Ancient Leszen Final killed"
-sq204ancientleszen.journal:            order (Uint32) : 3221225470
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Ancient Leszen Final killed BF8C16D6-4A02BD64-8F6A3C9A-4EB29D68
-sq204ancientleszen.journal:            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
-sq204ancientleszen.journal:            index (Uint8) : 1
-sq204ancientleszen.journal:            description (LocalizedString) : <br>The witcher managed to kill the leshen, ending the murders terrorizing the woods around Fayrlund. Yet this did not mean the villagers' troubles were over…
-sq204ancientleszen.journal:    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Ancient Leszen Final Appeased
-sq204ancientleszen.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-sq204ancientleszen.journal:            guid (CGUID) : 8e373fd2-c97f-440a-af82-9280e3f29001
-sq204ancientleszen.journal:            baseName (String) : "Ancient Leszen Final Appeased"
-sq204ancientleszen.journal:            order (Uint32) : 3758096382
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Ancient Leszen Final Appeased 8E373FD2-440AC97F-809282AF-0190F2E3
-sq204ancientleszen.journal:            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
-sq204ancientleszen.journal:            index (Uint8) : 2
-sq204ancientleszen.journal:            description (LocalizedString) : <br>In the end, however, there never was a battle between Geralt and the Woodland Spirit. Geralt knew that the leshen was surely less benevolent than the elders thought - but he also knew killing it would do more harm than good.
-sq204ancientleszen.journal:    CJournalCreatureDescriptionEntry #6 (CJournalCreatureDescriptionEntry) : Quote
-sq204ancientleszen.journal:        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
-sq204ancientleszen.journal:            guid (CGUID) : aa4ff692-135a-4844-9030-7f44a85eb434
-sq204ancientleszen.journal:            baseName (String) : "Quote"
-sq204ancientleszen.journal:            order (Uint32) : 1073741823
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Quote AA4FF692-4844135A-447F3090-34B45EA8
-sq204ancientleszen.journal:            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
-sq204ancientleszen.journal:            index (Uint8) : 3
-sq204ancientleszen.journal:            description (LocalizedString) : <i>We've offended him, Sven. The Woodland Spirit seeks revenge. This here is him saying we've strayed from the old paths.</i><br>–Harald of Fayrlund<br>
-sq204ancientleszen.journal:    CJournalCreatureHuntingClueGroup #7 (CJournalCreatureHuntingClueGroup) : Hunting Clues
-sq204ancientleszen.journal:        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
-sq204ancientleszen.journal:            guid (CGUID) : 49a6111a-f9ab-4c07-9230-710a4b90113e
-sq204ancientleszen.journal:            baseName (String) : "Hunting Clues"
-sq204ancientleszen.journal:            order (Uint32) : 3221225470
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Hunting Clues 49A6111A-4C07F9AB-0A713092-3E11904B
-sq204ancientleszen.journal:            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
-sq204ancientleszen.journal:            index (Uint8) : 1
-sq204ancientleszen.journal:    CJournalCreatureGameplayHintGroup #8 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
-sq204ancientleszen.journal:        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
-sq204ancientleszen.journal:            guid (CGUID) : c023fefc-71c1-47e2-b9c2-e7d29e1cb759
-sq204ancientleszen.journal:            baseName (String) : "Gameplay Hints"
-sq204ancientleszen.journal:            order (Uint32) : 3758096382
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Gameplay Hints C023FEFC-47E271C1-D2E7C2B9-59B71C9E
-sq204ancientleszen.journal:            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
-sq204ancientleszen.journal:            index (Uint8) : 2
-sq204ancientleszen.journal:    CJournalCreatureVitalSpotGroup #9 (CJournalCreatureVitalSpotGroup) : Vital spots
-sq204ancientleszen.journal:        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
-sq204ancientleszen.journal:            guid (CGUID) : efe3a486-5f1a-4b0e-a3a7-c86b6e6eaca7
-sq204ancientleszen.journal:            baseName (String) : "Vital spots"
-sq204ancientleszen.journal:            order (Uint32) : 4026531838
-sq204ancientleszen.journal:            uniqueScriptIdentifier (CName) : Vital spots EFE3A486-4B0E5F1A-6BC8A7A3-A7AC6E6E
-sq204ancientleszen.journal:            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
-sq204ancientleszen.journal:            index (Uint8) : 3
+    CJournalResource #0 (CJournalResource) : 
+        CJournalResource (CJournalResource) : <CJournalResource>CJournalResource
+            entry (ptr:CJournalBase) : CJournalCreature #1
+    CJournalCreature #1 (CJournalCreature) : sq204 Ancient Leszen
+        CJournalCreature (CJournalCreature) : Woodland Spirit
+            guid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+            baseName (String) : "sq204 Ancient Leszen"
+            order (Uint32) : 4293918718
+            uniqueScriptIdentifier (CName) : sq204 Ancient Leszen 920DD44F-4640510C-A48A8EAB-F8003E1D
+            parentGuid (CGUID) : 5919978f-5689-428a-be0e-f2fee6d80cdb
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionGroup #2
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureHuntingClueGroup #7
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureGameplayHintGroup #8
+                3 (ptr:CJournalContainerEntry) : CJournalCreatureVitalSpotGroup #9
+            name (LocalizedString) : Woodland Spirit
+            image (String) : "bestiary_leshen.png"
+            entityTemplate (soft:CEntityTemplate) : quests/sidequests/skellige/quest_files/sq204_forest_spirit/characters/sq204_leshy.w2ent
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Silver Dust Bomb 1
+                1 (CName) : Relic Oil 1
+                2 (CName) : Igni
+    CJournalCreatureDescriptionGroup #2 (CJournalCreatureDescriptionGroup) : Descriptions
+        CJournalCreatureDescriptionGroup (CJournalCreatureDescriptionGroup) : <CJournalCreatureDescriptionGroup>CJournalCreatureDescriptionGroup
+            guid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
+            baseName (String) : "Descriptions"
+            order (Uint32) : 2147483647
+            uniqueScriptIdentifier (CName) : Descriptions 02BC8A0F-487537C0-0B2176B8-357892FF
+            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+            children (array:ptr:CJournalContainerEntry) : # array:ptr:CJournalContainerEntry
+                0 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #3
+                1 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #4
+                2 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #5
+                3 (ptr:CJournalContainerEntry) : CJournalCreatureDescriptionEntry #6
+    CJournalCreatureDescriptionEntry #3 (CJournalCreatureDescriptionEntry) : Ancient Leszen Precombat
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 1f82b5a2-1904-481e-8ca6-13a9ce2eb5e5
+            baseName (String) : "Ancient Leszen Precombat"
+            order (Uint32) : 2147483647
+            uniqueScriptIdentifier (CName) : Ancient Leszen Precombat 1F82B5A2-481E1904-A913A68C-E5B52ECE
+            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
+            description (LocalizedString) : it was vulnerable to fire, that born of the Igni Sign in particular.
+    CJournalCreatureDescriptionEntry #4 (CJournalCreatureDescriptionEntry) : Ancient Leszen Final killed
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : bf8c16d6-bd64-4a02-9a3c-6a8f689db24e
+            baseName (String) : "Ancient Leszen Final killed"
+            order (Uint32) : 3221225470
+            uniqueScriptIdentifier (CName) : Ancient Leszen Final killed BF8C16D6-4A02BD64-8F6A3C9A-4EB29D68
+            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
+            index (Uint8) : 1
+            description (LocalizedString) : <br>The witcher managed to kill the leshen, ending the murders terrorizing the woods around Fayrlund. Yet this did not mean the villagers' troubles were over…
+    CJournalCreatureDescriptionEntry #5 (CJournalCreatureDescriptionEntry) : Ancient Leszen Final Appeased
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : 8e373fd2-c97f-440a-af82-9280e3f29001
+            baseName (String) : "Ancient Leszen Final Appeased"
+            order (Uint32) : 3758096382
+            uniqueScriptIdentifier (CName) : Ancient Leszen Final Appeased 8E373FD2-440AC97F-809282AF-0190F2E3
+            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
+            index (Uint8) : 2
+            description (LocalizedString) : <br>In the end, however, there never was a battle between Geralt and the Woodland Spirit. Geralt knew that the leshen was surely less benevolent than the elders thought - but he also knew killing it would do more harm than good.
+    CJournalCreatureDescriptionEntry #6 (CJournalCreatureDescriptionEntry) : Quote
+        CJournalCreatureDescriptionEntry (CJournalCreatureDescriptionEntry) : <CJournalCreatureDescriptionEntry>CJournalCreatureDescriptionEntry
+            guid (CGUID) : aa4ff692-135a-4844-9030-7f44a85eb434
+            baseName (String) : "Quote"
+            order (Uint32) : 1073741823
+            uniqueScriptIdentifier (CName) : Quote AA4FF692-4844135A-447F3090-34B45EA8
+            parentGuid (CGUID) : 02bc8a0f-37c0-4875-b876-210bff927835
+            index (Uint8) : 3
+            description (LocalizedString) : <i>We've offended him, Sven. The Woodland Spirit seeks revenge. This here is him saying we've strayed from the old paths.</i><br>–Harald of Fayrlund<br>
+    CJournalCreatureHuntingClueGroup #7 (CJournalCreatureHuntingClueGroup) : Hunting Clues
+        CJournalCreatureHuntingClueGroup (CJournalCreatureHuntingClueGroup) : <CJournalCreatureHuntingClueGroup>CJournalCreatureHuntingClueGroup
+            guid (CGUID) : 49a6111a-f9ab-4c07-9230-710a4b90113e
+            baseName (String) : "Hunting Clues"
+            order (Uint32) : 3221225470
+            uniqueScriptIdentifier (CName) : Hunting Clues 49A6111A-4C07F9AB-0A713092-3E11904B
+            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+            index (Uint8) : 1
+    CJournalCreatureGameplayHintGroup #8 (CJournalCreatureGameplayHintGroup) : Gameplay Hints
+        CJournalCreatureGameplayHintGroup (CJournalCreatureGameplayHintGroup) : <CJournalCreatureGameplayHintGroup>CJournalCreatureGameplayHintGroup
+            guid (CGUID) : c023fefc-71c1-47e2-b9c2-e7d29e1cb759
+            baseName (String) : "Gameplay Hints"
+            order (Uint32) : 3758096382
+            uniqueScriptIdentifier (CName) : Gameplay Hints C023FEFC-47E271C1-D2E7C2B9-59B71C9E
+            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+            index (Uint8) : 2
+    CJournalCreatureVitalSpotGroup #9 (CJournalCreatureVitalSpotGroup) : Vital spots
+        CJournalCreatureVitalSpotGroup (CJournalCreatureVitalSpotGroup) : <CJournalCreatureVitalSpotGroup>CJournalCreatureVitalSpotGroup
+            guid (CGUID) : efe3a486-5f1a-4b0e-a3a7-c86b6e6eaca7
+            baseName (String) : "Vital spots"
+            order (Uint32) : 4026531838
+            uniqueScriptIdentifier (CName) : Vital spots EFE3A486-4B0E5F1A-6BC8A7A3-A7AC6E6E
+            parentGuid (CGUID) : 920dd44f-510c-4640-ab8e-8aa41d3e00f8
+            index (Uint8) : 3

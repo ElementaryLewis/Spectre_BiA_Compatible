@@ -1,0 +1,1524 @@
+    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                0 (handle:CEntityTemplate) : characters/base_entities/bies_base/bies_base.w2ent
+            overrides (array:SEntityTemplateOverride) : # array:SEntityTemplateOverride
+                0 (SEntityTemplateOverride) : <SEntityTemplateOverride>0
+                    componentName (CName) : Character
+                    className (CName) : CMovingPhysicalAgentComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : movementAdjustor
+                1 (SEntityTemplateOverride) : <SEntityTemplateOverride>1
+                    componentName (CName) : CEffectDummyComponent1
+                    className (CName) : CEffectDummyComponent
+                    overriddenProperties (array:CName) : # array:CName
+                        0 (CName) : transform
+            properOverrides (Bool) : true
+            entityClass (CName) : CNewNPC
+            entityObject (ptr:CEntity) : CNewNPC #1
+            appearances (array:CEntityAppearance) : # array:CEntityAppearance
+                0 (CEntityAppearance) : czart_01
+                    name (CName) : czart_01
+                    includedTemplates (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
+                        0 (handle:CEntityTemplate) : characters/models/monsters/czart/czart.w2ent
+            usedAppearances (array:CName) : # array:CName
+                0 (CName) : czart_01
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : horns
+                    name (CName) : horns
+                    componentName (CName) : Character
+                    boneName (CName) : head
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : -0.3000
+                        Y (Float) : -1.0000
+                        Z (Float) : 0.0000
+                1 (EntitySlot) : camera_hypnotize
+                    name (CName) : camera_hypnotize
+                    componentName (CName) : Character
+                    boneName (CName) : m_eye
+                2 (EntitySlot) : r_weapon
+                    wasIncluded (Bool) : true
+                    name (CName) : r_weapon
+                    componentName (CName) : Character
+                    boneName (CName) : r_middle1
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 0.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : 0.1314
+                        Y (Float) : -0.0492
+                        Z (Float) : 0.0182
+                3 (EntitySlot) : l_weapon
+                    wasIncluded (Bool) : true
+                    name (CName) : l_weapon
+                    componentName (CName) : Character
+                    boneName (CName) : l_middle1
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 0.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+                        X (Float) : 0.2533
+                        Y (Float) : -0.1235
+                        Z (Float) : -0.1026
+                4 (EntitySlot) : smash_fx_point
+                    wasIncluded (Bool) : true
+                    name (CName) : smash_fx_point
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.0000
+                        Y (Float) : 1.4107
+                        Z (Float) : 0.1000
+                5 (EntitySlot) : blood_point
+                    wasIncluded (Bool) : true
+                    name (CName) : blood_point
+                    componentName (CName) : Character
+                    boneName (CName) : spine2
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 1.0000
+                        Y (Float) : 1.0000
+                        Z (Float) : 0.0000
+                6 (EntitySlot) : point_hit_back
+                    wasIncluded (Bool) : true
+                    name (CName) : point_hit_back
+                    componentName (CName) : Character
+                    boneName (CName) : torso2
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : -0.3000
+                        Y (Float) : 0.5000
+                        Z (Float) : 0.0000
+                7 (EntitySlot) : head
+                    wasIncluded (Bool) : true
+                    name (CName) : head
+                    componentName (CName) : Character
+                    boneName (CName) : head
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.7500
+                        Y (Float) : -0.2800
+                        Z (Float) : 0.0000
+                8 (EntitySlot) : head2
+                    wasIncluded (Bool) : true
+                    name (CName) : head2
+                    componentName (CName) : Character
+                9 (EntitySlot) : r_claw
+                    wasIncluded (Bool) : true
+                    name (CName) : r_claw
+                    componentName (CName) : Character
+                    boneName (CName) : r_middle1
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.1314
+                        Y (Float) : -0.0492
+                        Z (Float) : 0.0182
+                10 (EntitySlot) : l_claw
+                    wasIncluded (Bool) : true
+                    name (CName) : l_claw
+                    componentName (CName) : Character
+                    boneName (CName) : l_middle1
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : 0.0849
+                        Y (Float) : -0.0415
+                        Z (Float) : -0.0326
+                11 (EntitySlot) : taunt_fx_ground
+                    wasIncluded (Bool) : true
+                    name (CName) : taunt_fx_ground
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : -1.4525
+                        Y (Float) : 0.0000
+                        Z (Float) : 0.0000
+                12 (EntitySlot) : charge_fx_point
+                    wasIncluded (Bool) : true
+                    name (CName) : charge_fx_point
+                    transform (EngineTransform) : <EngineTransform>transform
+                        X (Float) : -0.0395
+                        Y (Float) : 1.5787
+                        Z (Float) : 0.0000
+                13 (EntitySlot) : scream
+                    wasIncluded (Bool) : true
+                    name (CName) : scream
+                    componentName (CName) : Character
+                    boneName (CName) : head
+                    transform (EngineTransform) : <EngineTransform>transform
+                        Pitch (Float) : 90.0000
+                        Yaw (Float) : 0.0000
+                        Roll (Float) : 0.0000
+            templateParams (array:ptr:CEntityTemplateParam) : # array:ptr:CEntityTemplateParam
+                0 (ptr:CEntityTemplateParam) : CAIProfile #35
+                1 (ptr:CEntityTemplateParam) : CCharacterStatsParam #36
+                2 (ptr:CEntityTemplateParam) : CInventoryDefinition #37
+                3 (ptr:CEntityTemplateParam) : CR4LootParam #44
+                4 (ptr:CEntityTemplateParam) : CEntityDismemberment #45
+                5 (ptr:CEntityTemplateParam) : CAnimGlobalParam #46
+                6 (ptr:CEntityTemplateParam) : CAnimBehaviorsParam #47
+                7 (ptr:CEntityTemplateParam) : CAIProfile #48
+                8 (ptr:CEntityTemplateParam) : CAnimAnimsetsParam #51
+                9 (ptr:CEntityTemplateParam) : CAutoEffectsParam #52
+                10 (ptr:CEntityTemplateParam) : CAttackRangeParam #53
+                11 (ptr:CEntityTemplateParam) : CMonsterParam #59
+                12 (ptr:CEntityTemplateParam) : CCharacterControllerParam #60
+                13 (ptr:CEntityTemplateParam) : CBuffImmunityParam #61
+                14 (ptr:CEntityTemplateParam) : CAnimConstraintsParam #62
+                15 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #63
+                16 (ptr:CEntityTemplateParam) : CEntityDismemberment #110
+                17 (ptr:CEntityTemplateParam) : CFocusSoundParam #113
+                18 (ptr:CEntityTemplateParam) : CAnimGlobalParam #114
+                19 (ptr:CEntityTemplateParam) : CBloodTrailEffect #115
+            flatCompiledData (array:Uint8) : # array:Uint8
+                CNewNPC #0 (CNewNPC) : PreviewEntity
+                    CNewNPC (CNewNPC) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDistance (Uint8) : 21
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CMovingPhysicalAgentComponent #1
+                            1 (ptr:CComponent) : CAppearanceComponent #26
+                            2 (ptr:CComponent) : CEffectDummyComponent #27
+                            3 (ptr:CComponent) : CPhantomComponent #3
+                            4 (ptr:CComponent) : CPhantomComponent #6
+                            5 (ptr:CComponent) : CCreatureDataComponent #28
+                            6 (ptr:CComponent) : CInventoryComponent #29
+                            7 (ptr:CComponent) : CEffectDummyComponent #9
+                            8 (ptr:CComponent) : CDynamicColliderComponent #12
+                            9 (ptr:CComponent) : CDynamicColliderComponent #15
+                            10 (ptr:CComponent) : CDynamicColliderComponent #18
+                            11 (ptr:CComponent) : CCreatureDataComponent #30
+                            12 (ptr:CComponent) : CDismembermentComponent #31
+                            13 (ptr:CComponent) : CPhantomComponent #21
+                            14 (ptr:CComponent) : CPhantomComponent #23
+                            15 (ptr:CComponent) : CGameplayEffectsComponent #32
+                            16 (ptr:CComponent) : CPhantomComponent #25
+                            17 (ptr:CComponent) : CSoundEmitterComponent #33
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  adcdf429-46b6-4fd7-98a0-b950faf33e24
+                        displayName (LocalizedString) : Chort
+                        isInteractionActivator (Bool) : true
+                        level (Int32) : 27
+                        useSoundValue (Bool) : true
+                        soundValue (Int32) : 75
+                CMovingPhysicalAgentComponent #1 (CMovingPhysicalAgentComponent) : Character
+                    CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : Character
+                        guid (CGUID) : f64e11f2-3018-4d02-8ea3-f187487a4661
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                            1 (handle:IAttachment) : CHardAttachment #5
+                            2 (handle:IAttachment) : CHardAttachment #8
+                            3 (handle:IAttachment) : CHardAttachment #11
+                            4 (handle:IAttachment) : CHardAttachment #14
+                            5 (handle:IAttachment) : CHardAttachment #17
+                            6 (handle:IAttachment) : CHardAttachment #20
+                            7 (handle:IAttachment) : CHardAttachment #22
+                            8 (handle:IAttachment) : CHardAttachment #24
+                        name (String) : "Character"
+                        graphPositionX (Int16) : 170
+                        graphPositionY (Int16) : 142
+                        ragdoll (handle:CRagdoll) : characters/base_entities/bies_base/bies_ragdoll.w2ragdoll
+                        skeleton (handle:CSkeleton) : characters/base_entities/bies_base/bies_base.w2rig
+                        animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                            0 (handle:CSkeletalAnimationSet) : animations/monsters/monster_bies.w2anims
+                        overrideBudgetedTickDistance (Float) : 70.0000
+                        runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                            0 (SBehaviorGraphInstanceSlot) : Combat
+                                instanceName (CName) : Combat
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_bies_combat.w2beh
+                            1 (SBehaviorGraphInstanceSlot) : Cutscene
+                                instanceName (CName) : Cutscene
+                                graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+                        steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+                CHardAttachment #2 (CHardAttachment) : head
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #3
+                        parentSlotName (CName) : head
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #4
+                CPhantomComponent #3 (CPhantomComponent) : CPhantomComponent1
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.7411
+                            Y (Float) : -1.6435
+                            Z (Float) : -0.0746
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #2
+                        guid (CGUID) : 89a07b17-1dfa-4f25-8781-3488d3279366
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #2
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent1"
+                        graphPositionX (Int16) : 117
+                        graphPositionY (Int16) : 207
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.7000
+                            Y (Float) : 0.4000
+                            Z (Float) : 1.0000
+                            W (Float) : 1.0000
+                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+                CSkeletonBoneSlot #4 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 9
+                CHardAttachment #5 (CHardAttachment) : head
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #6
+                        parentSlotName (CName) : head
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #7
+                CPhantomComponent #6 (CPhantomComponent) : CPhantomComponent0
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : -0.2121
+                            Y (Float) : -1.8753
+                            Z (Float) : -0.1729
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #5
+                        guid (CGUID) : fb98195a-2aae-42ca-ba0a-6d2c9ed7f8f1
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #5
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent0"
+                        graphPositionX (Int16) : 6
+                        graphPositionY (Int16) : 168
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Static
+                            1 (CName) : Terrain
+                            2 (CName) : Destructible
+                        shapeType (EPhantomShape) : PS_Sphere
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 0.5000
+                            Y (Float) : 0.5000
+                            Z (Float) : 0.5000
+                            W (Float) : 1.0000
+                        onTriggerEnteredScriptEvent (CName) : OnObstacleCollision
+                CSkeletonBoneSlot #7 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 9
+                CHardAttachment #8 (CHardAttachment) : neck2
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CEffectDummyComponent #9
+                        parentSlotName (CName) : neck2
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #10
+                CEffectDummyComponent #9 (CEffectDummyComponent) : torso3effect
+                    CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #8
+                        guid (CGUID) : c5011975-3f84-4d67-b39d-5ba41f79e183
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #8
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "torso3effect"
+                        graphPositionX (Int16) : -337
+                        graphPositionY (Int16) : 248
+                CSkeletonBoneSlot #10 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 7
+                CHardAttachment #11 (CHardAttachment) : pelvis
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #12
+                        parentSlotName (CName) : pelvis
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #13
+                CDynamicColliderComponent #12 (CDynamicColliderComponent) : pelvis_coll
+                    CDynamicColliderComponent (CDynamicColliderComponent) : pelvis_coll
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 2.0000
+                            Scale_y (Float) : 2.7000
+                            Scale_z (Float) : 1.4000
+                            X (Float) : -0.8000
+                            Y (Float) : 0.8000
+                            Z (Float) : 0.0000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #11
+                        guid (CGUID) : d760d2eb-3406-4480-9273-e358b0b01d4d
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #11
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "pelvis_coll"
+                        graphPositionX (Int16) : -180
+                        graphPositionY (Int16) : 6
+                        useInWaterNormal (Bool) : false
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #13 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 2
+                CHardAttachment #14 (CHardAttachment) : r_hand
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #15
+                        parentSlotName (CName) : r_hand
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #16
+                CDynamicColliderComponent #15 (CDynamicColliderComponent) : r_hand_coll
+                    CDynamicColliderComponent (CDynamicColliderComponent) : r_hand_coll
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.5000
+                            Scale_y (Float) : 1.5000
+                            Scale_z (Float) : 1.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #14
+                        guid (CGUID) : a7be6c79-61c2-4b97-8ed7-0a99ef697a66
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #14
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "r_hand_coll"
+                        graphPositionX (Int16) : -175
+                        graphPositionY (Int16) : 50
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #16 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 19
+                CHardAttachment #17 (CHardAttachment) : l_hand
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CDynamicColliderComponent #18
+                        parentSlotName (CName) : l_hand
+                        parentSlot (ptr:ISlot) : CSkeletonBoneSlot #19
+                CDynamicColliderComponent #18 (CDynamicColliderComponent) : l_hand_coll
+                    CDynamicColliderComponent (CDynamicColliderComponent) : l_hand_coll
+                        transform (EngineTransform) : <EngineTransform>transform
+                            Scale_x (Float) : 1.5000
+                            Scale_y (Float) : 1.5000
+                            Scale_z (Float) : 1.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #17
+                        guid (CGUID) : 869b8659-ebe4-4cb1-939b-d56716dc44b8
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #17
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "l_hand_coll"
+                        graphPositionX (Int16) : -176
+                        graphPositionY (Int16) : 102
+                        useInGrassDisplacement (Bool) : true
+                CSkeletonBoneSlot #19 (CSkeletonBoneSlot) : 
+                    CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+                        boneIndex (Uint32) : 14
+                CHardAttachment #20 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #21
+                CPhantomComponent #21 (CPhantomComponent) : ActorCollision
+                    CPhantomComponent (CPhantomComponent) : ActorCollision
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 0.5000
+                            Z (Float) : 1.5000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #20
+                        guid (CGUID) : 4b54a0f1-ef97-4f60-a243-f0617496f219
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #20
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "ActorCollision"
+                        graphPositionX (Int16) : 84
+                        graphPositionY (Int16) : 267
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Character
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 2.0000
+                            Y (Float) : 5.0000
+                            Z (Float) : 3.0000
+                            W (Float) : 0.0000
+                        onTriggerEnteredScriptEvent (CName) : OnActorCollision
+                CHardAttachment #22 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #23
+                CPhantomComponent #23 (CPhantomComponent) : ObstacleCollision
+                    CPhantomComponent (CPhantomComponent) : ObstacleCollision
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 2.0000
+                            Z (Float) : 2.0000
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #22
+                        guid (CGUID) : 4aca82c7-be09-4798-86d4-ecf6cf2d180a
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #22
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "ObstacleCollision"
+                        graphPositionX (Int16) : 221
+                        graphPositionY (Int16) : 266
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Static
+                            1 (CName) : Terrain
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 1.0000
+                            Y (Float) : 2.0000
+                            Z (Float) : 2.0000
+                            W (Float) : 0.0000
+                        onTriggerEnteredScriptEvent (CName) : OnObstacleCollision
+                CHardAttachment #24 (CHardAttachment) : 
+                    CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+                        parent (ptr:CNode) : CMovingPhysicalAgentComponent #1
+                        child (ptr:CNode) : CPhantomComponent #25
+                CPhantomComponent #25 (CPhantomComponent) : ObstacleProbe
+                    CPhantomComponent (CPhantomComponent) : ObstacleProbe
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 2.5000
+                            Z (Float) : 1.7500
+                        transformParent (ptr:CHardAttachment) : CHardAttachment #24
+                        guid (CGUID) : e79cc4e7-79d8-4dc5-b4cc-ca25b6afc729
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                            0 (handle:IAttachment) : CHardAttachment #24
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "ObstacleProbe"
+                        graphPositionX (Int16) : 379
+                        graphPositionY (Int16) : 266
+                        triggeringCollisionGroupNames (array:CName) : # array:CName
+                            0 (CName) : Static
+                            1 (CName) : Terrain
+                            2 (CName) : Destructible
+                            3 (CName) : Door
+                            4 (CName) : Fence
+                        shapeType (EPhantomShape) : PS_Box
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 1.5000
+                            Y (Float) : 2.0000
+                            Z (Float) : 1.5000
+                            W (Float) : 0.0000
+                        onTriggerEnteredScriptEvent (CName) : OnObstacleCollisionProbe
+                CAppearanceComponent #26 (CAppearanceComponent) : Appearances
+                    CAppearanceComponent (CAppearanceComponent) : Appearances
+                        guid (CGUID) : ba71e057-5f87-41ac-b762-b65aa89d14b1
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "Appearances"
+                        graphPositionX (Int16) : 99
+                        graphPositionY (Int16) : 114
+                        forcedAppearance (CName) : czart_01
+                        attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                            replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                                0 (SAttachmentReplacement) : proxy_CInventoryComponent0_A747F45A-4AC683DF-43055790-B873D7B5
+                                    oldName (CName) : proxy_CInventoryComponent0_A747F45A-4AC683DF-43055790-B873D7B5
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CInventoryComponent0
+                                    newClass (CName) : CInventoryComponent
+                                1 (SAttachmentReplacement) : proxy_torso3effect_9C876C6A-496A78E4-0BF27799-E479B8CC
+                                    oldName (CName) : proxy_torso3effect_9C876C6A-496A78E4-0BF27799-E479B8CC
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : torso3effect
+                                    newClass (CName) : CEffectDummyComponent
+                                2 (SAttachmentReplacement) : proxy_pelvis_coll_45E25289-449434C2-F3A9C5A7-072F086B
+                                    oldName (CName) : proxy_pelvis_coll_45E25289-449434C2-F3A9C5A7-072F086B
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : pelvis_coll
+                                    newClass (CName) : CDynamicColliderComponent
+                                3 (SAttachmentReplacement) : proxy_r_hand_coll_F2DF9D7C-4BC26820-9C7DCE97-9BB24060
+                                    oldName (CName) : proxy_r_hand_coll_F2DF9D7C-4BC26820-9C7DCE97-9BB24060
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : r_hand_coll
+                                    newClass (CName) : CDynamicColliderComponent
+                                4 (SAttachmentReplacement) : proxy_l_hand_coll_2BF3CCCF-4E201304-E19D1395-AA1A4372
+                                    oldName (CName) : proxy_l_hand_coll_2BF3CCCF-4E201304-E19D1395-AA1A4372
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : l_hand_coll
+                                    newClass (CName) : CDynamicColliderComponent
+                                5 (SAttachmentReplacement) : proxy_CCreatureDataComponent0_97BA3D1F-422FDCE3-3506A8BD-AF665ED7
+                                    oldName (CName) : proxy_CCreatureDataComponent0_97BA3D1F-422FDCE3-3506A8BD-AF665ED7
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CCreatureDataComponent0
+                                    newClass (CName) : CCreatureDataComponent
+                                6 (SAttachmentReplacement) : proxy_CDismembermentComponent0_AC21D718-430730FA-FC7F6D84-0F81C1D8
+                                    oldName (CName) : proxy_CDismembermentComponent0_AC21D718-430730FA-FC7F6D84-0F81C1D8
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CDismembermentComponent0
+                                    newClass (CName) : CDismembermentComponent
+                                7 (SAttachmentReplacement) : proxy_ActorCollision_91098916-48569C7B-945877B2-E66406F9
+                                    oldName (CName) : proxy_ActorCollision_91098916-48569C7B-945877B2-E66406F9
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : ActorCollision
+                                    newClass (CName) : CPhantomComponent
+                                8 (SAttachmentReplacement) : proxy_ObstacleCollision_346F9832-40C1286A-DDEF49B9-14E24AE2
+                                    oldName (CName) : proxy_ObstacleCollision_346F9832-40C1286A-DDEF49B9-14E24AE2
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : ObstacleCollision
+                                    newClass (CName) : CPhantomComponent
+                                9 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_9F9F4B19-4F73C898-9F5EC89C-15C6F916
+                                    oldName (CName) : proxy_CGameplayEffectsComponent0_9F9F4B19-4F73C898-9F5EC89C-15C6F916
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CGameplayEffectsComponent0
+                                    newClass (CName) : CGameplayEffectsComponent
+                                10 (SAttachmentReplacement) : proxy_CSoundEmitterComponent_C341F60E-4D7F2BD5-94FA2AB9-8B20EDA5
+                                    oldName (CName) : proxy_CSoundEmitterComponent_C341F60E-4D7F2BD5-94FA2AB9-8B20EDA5
+                                    oldClass (CName) : CExternalProxyComponent
+                                    newName (CName) : CSoundEmitterComponent
+                                    newClass (CName) : CSoundEmitterComponent
+                CEffectDummyComponent #27 (CEffectDummyComponent) : CEffectDummyComponent1
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent1
+                        transform (EngineTransform) : <EngineTransform>transform
+                            X (Float) : 0.0000
+                            Y (Float) : 0.0000
+                            Z (Float) : 3.6187
+                        transformParent (ptr:CHardAttachment) : NULL
+                        guid (CGUID) : ee9f4494-12c7-456c-bf16-fefa969c11f7
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent1"
+                        graphPositionX (Int16) : -320
+                        graphPositionY (Int16) : 147
+                CCreatureDataComponent #28 (CCreatureDataComponent) : CCreatureDataComponent1
+                    CCreatureDataComponent (CCreatureDataComponent) : 
+                        guid (CGUID) : a8e98799-a7f3-479b-9109-1283dca708b8
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CCreatureDataComponent1"
+                        graphPositionX (Int16) : 171
+                        graphPositionY (Int16) : -26
+                        itemsUsedAgainstCreature (array:CName) : # array:CName
+                            0 (CName) : Devils Puffball 1
+                            1 (CName) : Relic Oil 1
+                        cameraDistance (Float) : 2.5000
+                        cameraLookAtZ (Float) : 1.0000
+                        cameraRotationYaw (Float) : 190.0000
+                        cameraRotationPitch (Float) : 10.0000
+                        environmentSunRotationYaw (Float) : 330.0000
+                        environmentSunRotationPitch (Float) : 340.0000
+                CInventoryComponent #29 (CInventoryComponent) : CInventoryComponent0
+                    CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+                        guid (CGUID) : 2c1298a7-36c3-49c3-8099-e7b6ee05bb0f
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CInventoryComponent0"
+                        graphPositionX (Int16) : -181
+                        graphPositionY (Int16) : 267
+                        containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+                CCreatureDataComponent #30 (CCreatureDataComponent) : CCreatureDataComponent0
+                    CCreatureDataComponent (CCreatureDataComponent) : 
+                        guid (CGUID) : 4a2772d7-0773-471a-9312-1736da898e6b
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CCreatureDataComponent0"
+                        graphPositionX (Int16) : -190
+                        graphPositionY (Int16) : 355
+                        cameraDistance (Float) : 5.0000
+                        cameraLookAtZ (Float) : 1.8000
+                        cameraRotationYaw (Float) : 157.8200
+                        cameraRotationPitch (Float) : 7.6900
+                        environmentSunRotationYaw (Float) : 250.0000
+                        environmentSunRotationPitch (Float) : 10.0000
+                CDismembermentComponent #31 (CDismembermentComponent) : CDismembermentComponent0
+                    CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+                        guid (CGUID) : 50b20fe3-ceb3-42dd-879b-bb1a81ad5472
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CDismembermentComponent0"
+                        graphPositionX (Int16) : -206
+                        graphPositionY (Int16) : 404
+                CGameplayEffectsComponent #32 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                    CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+                        guid (CGUID) : b4588041-99cc-4c17-bd33-c8b0c0e537f6
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CGameplayEffectsComponent0"
+                        graphPositionX (Int16) : -17
+                        graphPositionY (Int16) : -54
+                CSoundEmitterComponent #33 (CSoundEmitterComponent) : CSoundEmitterComponent
+                    guid (CGUID) : 80008102-2c44-4959-b7a4-75fdf9e8ffaf
+                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                    name (String) : "CSoundEmitterComponent"
+                    isStreamed (Bool) : false
+                    eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+                        0 (StringAnsi) : set_monster_bies_armour_type_generic
+                    banksDependency (array:CName) : # array:CName
+                        0 (CName) : monster_bies.bnk
+                    maxDistance (Float) : 160.0000
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    CNewNPC #1 (CNewNPC) : 
+        CNewNPC (CNewNPC) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDistance (Uint8) : 21
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CMovingPhysicalAgentComponent #2
+                1 (ptr:CComponent) : CAppearanceComponent #27
+                2 (ptr:CComponent) : CEffectDummyComponent #28
+                3 (ptr:CComponent) : CPhantomComponent #4
+                4 (ptr:CComponent) : CPhantomComponent #7
+                5 (ptr:CComponent) : CCreatureDataComponent #29
+                6 (ptr:CComponent) : CInventoryComponent #30
+                7 (ptr:CComponent) : CEffectDummyComponent #10
+                8 (ptr:CComponent) : CDynamicColliderComponent #13
+                9 (ptr:CComponent) : CDynamicColliderComponent #16
+                10 (ptr:CComponent) : CDynamicColliderComponent #19
+                11 (ptr:CComponent) : CCreatureDataComponent #31
+                12 (ptr:CComponent) : CDismembermentComponent #32
+                13 (ptr:CComponent) : CPhantomComponent #22
+                14 (ptr:CComponent) : CPhantomComponent #24
+                15 (ptr:CComponent) : CGameplayEffectsComponent #33
+                16 (ptr:CComponent) : CPhantomComponent #26
+                17 (ptr:CComponent) : CSoundEmitterComponent #34
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  adcdf429-46b6-4fd7-98a0-b950faf33e24
+            displayName (LocalizedString) : Chort
+            isInteractionActivator (Bool) : true
+            level (Int32) : 27
+            useSoundValue (Bool) : true
+            soundValue (Int32) : 75
+    CMovingPhysicalAgentComponent #2 (CMovingPhysicalAgentComponent) : Character
+        CMovingPhysicalAgentComponent (CMovingPhysicalAgentComponent) : Character
+            guid (CGUID) : f64e11f2-3018-4d02-8ea3-f187487a4661
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+                1 (handle:IAttachment) : CHardAttachment #6
+                2 (handle:IAttachment) : CHardAttachment #9
+                3 (handle:IAttachment) : CHardAttachment #12
+                4 (handle:IAttachment) : CHardAttachment #15
+                5 (handle:IAttachment) : CHardAttachment #18
+                6 (handle:IAttachment) : CHardAttachment #21
+                7 (handle:IAttachment) : CHardAttachment #23
+                8 (handle:IAttachment) : CHardAttachment #25
+            name (String) : "Character"
+            ragdoll (handle:CRagdoll) : characters/base_entities/bies_base/bies_ragdoll.w2ragdoll
+            skeleton (handle:CSkeleton) : characters/base_entities/bies_base/bies_base.w2rig
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : animations/monsters/monster_bies.w2anims
+            overrideBudgetedTickDistance (Float) : 70.0000
+            runtimeBehaviorInstanceSlots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_bies_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+            steeringBehavior (handle:CMoveSteeringBehavior) : gameplay/behaviors/npc/steering/animation_steering_bies.w2steer
+    CHardAttachment #3 (CHardAttachment) : head
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #4
+            parentSlotName (CName) : head
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #5
+    CPhantomComponent #4 (CPhantomComponent) : CPhantomComponent1
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent1
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.7411
+                Y (Float) : -1.6435
+                Z (Float) : -0.0746
+            transformParent (ptr:CHardAttachment) : CHardAttachment #3
+            guid (CGUID) : 89a07b17-1dfa-4f25-8781-3488d3279366
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #3
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent1"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.7000
+                Y (Float) : 0.4000
+                Z (Float) : 1.0000
+                W (Float) : 1.0000
+            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+    CSkeletonBoneSlot #5 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 9
+    CHardAttachment #6 (CHardAttachment) : head
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #7
+            parentSlotName (CName) : head
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #8
+    CPhantomComponent #7 (CPhantomComponent) : CPhantomComponent0
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : -0.2121
+                Y (Float) : -1.8753
+                Z (Float) : -0.1729
+            transformParent (ptr:CHardAttachment) : CHardAttachment #6
+            guid (CGUID) : fb98195a-2aae-42ca-ba0a-6d2c9ed7f8f1
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #6
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent0"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Static
+                1 (CName) : Terrain
+                2 (CName) : Destructible
+            shapeType (EPhantomShape) : PS_Sphere
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 0.5000
+                Y (Float) : 0.5000
+                Z (Float) : 0.5000
+                W (Float) : 1.0000
+            onTriggerEnteredScriptEvent (CName) : OnObstacleCollision
+    CSkeletonBoneSlot #8 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 9
+    CHardAttachment #9 (CHardAttachment) : neck2
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CEffectDummyComponent #10
+            parentSlotName (CName) : neck2
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #11
+    CEffectDummyComponent #10 (CEffectDummyComponent) : torso3effect
+        CEffectDummyComponent (CEffectDummyComponent) : torso3effect
+            transformParent (ptr:CHardAttachment) : CHardAttachment #9
+            guid (CGUID) : c5011975-3f84-4d67-b39d-5ba41f79e183
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #9
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "torso3effect"
+    CSkeletonBoneSlot #11 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 7
+    CHardAttachment #12 (CHardAttachment) : pelvis
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #13
+            parentSlotName (CName) : pelvis
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #14
+    CDynamicColliderComponent #13 (CDynamicColliderComponent) : pelvis_coll
+        CDynamicColliderComponent (CDynamicColliderComponent) : pelvis_coll
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 2.0000
+                Scale_y (Float) : 2.7000
+                Scale_z (Float) : 1.4000
+                X (Float) : -0.8000
+                Y (Float) : 0.8000
+                Z (Float) : 0.0000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #12
+            guid (CGUID) : d760d2eb-3406-4480-9273-e358b0b01d4d
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #12
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "pelvis_coll"
+            useInWaterNormal (Bool) : false
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #14 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 2
+    CHardAttachment #15 (CHardAttachment) : r_hand
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #16
+            parentSlotName (CName) : r_hand
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #17
+    CDynamicColliderComponent #16 (CDynamicColliderComponent) : r_hand_coll
+        CDynamicColliderComponent (CDynamicColliderComponent) : r_hand_coll
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.5000
+                Scale_y (Float) : 1.5000
+                Scale_z (Float) : 1.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #15
+            guid (CGUID) : a7be6c79-61c2-4b97-8ed7-0a99ef697a66
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #15
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "r_hand_coll"
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #17 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 19
+    CHardAttachment #18 (CHardAttachment) : l_hand
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CDynamicColliderComponent #19
+            parentSlotName (CName) : l_hand
+            parentSlot (ptr:ISlot) : CSkeletonBoneSlot #20
+    CDynamicColliderComponent #19 (CDynamicColliderComponent) : l_hand_coll
+        CDynamicColliderComponent (CDynamicColliderComponent) : l_hand_coll
+            transform (EngineTransform) : <EngineTransform>transform
+                Scale_x (Float) : 1.5000
+                Scale_y (Float) : 1.5000
+                Scale_z (Float) : 1.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #18
+            guid (CGUID) : 869b8659-ebe4-4cb1-939b-d56716dc44b8
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #18
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "l_hand_coll"
+            useInGrassDisplacement (Bool) : true
+    CSkeletonBoneSlot #20 (CSkeletonBoneSlot) : 
+        CSkeletonBoneSlot (CSkeletonBoneSlot) : <CSkeletonBoneSlot>CSkeletonBoneSlot
+            boneIndex (Uint32) : 14
+    CHardAttachment #21 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #22
+    CPhantomComponent #22 (CPhantomComponent) : ActorCollision
+        CPhantomComponent (CPhantomComponent) : ActorCollision
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 0.5000
+                Z (Float) : 1.5000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #21
+            guid (CGUID) : 4b54a0f1-ef97-4f60-a243-f0617496f219
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #21
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "ActorCollision"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Character
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 2.0000
+                Y (Float) : 5.0000
+                Z (Float) : 3.0000
+                W (Float) : 0.0000
+            onTriggerEnteredScriptEvent (CName) : OnActorCollision
+    CHardAttachment #23 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #24
+    CPhantomComponent #24 (CPhantomComponent) : ObstacleCollision
+        CPhantomComponent (CPhantomComponent) : ObstacleCollision
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 2.0000
+                Z (Float) : 2.0000
+            transformParent (ptr:CHardAttachment) : CHardAttachment #23
+            guid (CGUID) : 4aca82c7-be09-4798-86d4-ecf6cf2d180a
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #23
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "ObstacleCollision"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Static
+                1 (CName) : Terrain
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 1.0000
+                Y (Float) : 2.0000
+                Z (Float) : 2.0000
+                W (Float) : 0.0000
+            onTriggerEnteredScriptEvent (CName) : OnObstacleCollision
+    CHardAttachment #25 (CHardAttachment) : 
+        CHardAttachment (CHardAttachment) : <CHardAttachment>CHardAttachment
+            parent (ptr:CNode) : CMovingPhysicalAgentComponent #2
+            child (ptr:CNode) : CPhantomComponent #26
+    CPhantomComponent #26 (CPhantomComponent) : ObstacleProbe
+        CPhantomComponent (CPhantomComponent) : ObstacleProbe
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 2.5000
+                Z (Float) : 1.7500
+            transformParent (ptr:CHardAttachment) : CHardAttachment #25
+            guid (CGUID) : e79cc4e7-79d8-4dc5-b4cc-ca25b6afc729
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                0 (handle:IAttachment) : CHardAttachment #25
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "ObstacleProbe"
+            triggeringCollisionGroupNames (array:CName) : # array:CName
+                0 (CName) : Static
+                1 (CName) : Terrain
+                2 (CName) : Destructible
+                3 (CName) : Door
+                4 (CName) : Fence
+            shapeType (EPhantomShape) : PS_Box
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 1.5000
+                Y (Float) : 2.0000
+                Z (Float) : 1.5000
+                W (Float) : 0.0000
+            onTriggerEnteredScriptEvent (CName) : OnObstacleCollisionProbe
+    CAppearanceComponent #27 (CAppearanceComponent) : Appearances
+        CAppearanceComponent (CAppearanceComponent) : Appearances
+            guid (CGUID) : ba71e057-5f87-41ac-b762-b65aa89d14b1
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "Appearances"
+            forcedAppearance (CName) : czart_01
+            attachmentReplacements (SAttachmentReplacements) : <SAttachmentReplacements>attachmentReplacements
+                replacements (array:SAttachmentReplacement) : # array:SAttachmentReplacement
+                    0 (SAttachmentReplacement) : proxy_CInventoryComponent0_A747F45A-4AC683DF-43055790-B873D7B5
+                        oldName (CName) : proxy_CInventoryComponent0_A747F45A-4AC683DF-43055790-B873D7B5
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CInventoryComponent0
+                        newClass (CName) : CInventoryComponent
+                    1 (SAttachmentReplacement) : proxy_torso3effect_9C876C6A-496A78E4-0BF27799-E479B8CC
+                        oldName (CName) : proxy_torso3effect_9C876C6A-496A78E4-0BF27799-E479B8CC
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : torso3effect
+                        newClass (CName) : CEffectDummyComponent
+                    2 (SAttachmentReplacement) : proxy_pelvis_coll_45E25289-449434C2-F3A9C5A7-072F086B
+                        oldName (CName) : proxy_pelvis_coll_45E25289-449434C2-F3A9C5A7-072F086B
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : pelvis_coll
+                        newClass (CName) : CDynamicColliderComponent
+                    3 (SAttachmentReplacement) : proxy_r_hand_coll_F2DF9D7C-4BC26820-9C7DCE97-9BB24060
+                        oldName (CName) : proxy_r_hand_coll_F2DF9D7C-4BC26820-9C7DCE97-9BB24060
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : r_hand_coll
+                        newClass (CName) : CDynamicColliderComponent
+                    4 (SAttachmentReplacement) : proxy_l_hand_coll_2BF3CCCF-4E201304-E19D1395-AA1A4372
+                        oldName (CName) : proxy_l_hand_coll_2BF3CCCF-4E201304-E19D1395-AA1A4372
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : l_hand_coll
+                        newClass (CName) : CDynamicColliderComponent
+                    5 (SAttachmentReplacement) : proxy_CCreatureDataComponent0_97BA3D1F-422FDCE3-3506A8BD-AF665ED7
+                        oldName (CName) : proxy_CCreatureDataComponent0_97BA3D1F-422FDCE3-3506A8BD-AF665ED7
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CCreatureDataComponent0
+                        newClass (CName) : CCreatureDataComponent
+                    6 (SAttachmentReplacement) : proxy_CDismembermentComponent0_AC21D718-430730FA-FC7F6D84-0F81C1D8
+                        oldName (CName) : proxy_CDismembermentComponent0_AC21D718-430730FA-FC7F6D84-0F81C1D8
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CDismembermentComponent0
+                        newClass (CName) : CDismembermentComponent
+                    7 (SAttachmentReplacement) : proxy_ActorCollision_91098916-48569C7B-945877B2-E66406F9
+                        oldName (CName) : proxy_ActorCollision_91098916-48569C7B-945877B2-E66406F9
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : ActorCollision
+                        newClass (CName) : CPhantomComponent
+                    8 (SAttachmentReplacement) : proxy_ObstacleCollision_346F9832-40C1286A-DDEF49B9-14E24AE2
+                        oldName (CName) : proxy_ObstacleCollision_346F9832-40C1286A-DDEF49B9-14E24AE2
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : ObstacleCollision
+                        newClass (CName) : CPhantomComponent
+                    9 (SAttachmentReplacement) : proxy_CGameplayEffectsComponent0_9F9F4B19-4F73C898-9F5EC89C-15C6F916
+                        oldName (CName) : proxy_CGameplayEffectsComponent0_9F9F4B19-4F73C898-9F5EC89C-15C6F916
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CGameplayEffectsComponent0
+                        newClass (CName) : CGameplayEffectsComponent
+                    10 (SAttachmentReplacement) : proxy_CSoundEmitterComponent_C341F60E-4D7F2BD5-94FA2AB9-8B20EDA5
+                        oldName (CName) : proxy_CSoundEmitterComponent_C341F60E-4D7F2BD5-94FA2AB9-8B20EDA5
+                        oldClass (CName) : CExternalProxyComponent
+                        newName (CName) : CSoundEmitterComponent
+                        newClass (CName) : CSoundEmitterComponent
+    CEffectDummyComponent #28 (CEffectDummyComponent) : CEffectDummyComponent1
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent1
+            transform (EngineTransform) : <EngineTransform>transform
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 3.6187
+            transformParent (ptr:CHardAttachment) : NULL
+            guid (CGUID) : ee9f4494-12c7-456c-bf16-fefa969c11f7
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent1"
+    CCreatureDataComponent #29 (CCreatureDataComponent) : CCreatureDataComponent1
+        CCreatureDataComponent (CCreatureDataComponent) : 
+            guid (CGUID) : a8e98799-a7f3-479b-9109-1283dca708b8
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CCreatureDataComponent1"
+            itemsUsedAgainstCreature (array:CName) : # array:CName
+                0 (CName) : Devils Puffball 1
+                1 (CName) : Relic Oil 1
+            cameraDistance (Float) : 2.5000
+            cameraLookAtZ (Float) : 1.0000
+            cameraRotationYaw (Float) : 190.0000
+            cameraRotationPitch (Float) : 10.0000
+            environmentSunRotationYaw (Float) : 330.0000
+            environmentSunRotationPitch (Float) : 340.0000
+    CInventoryComponent #30 (CInventoryComponent) : CInventoryComponent0
+        CInventoryComponent (CInventoryComponent) : CInventoryComponent0
+            guid (CGUID) : 2c1298a7-36c3-49c3-8099-e7b6ee05bb0f
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CInventoryComponent0"
+            containerTemplate (handle:CEntityTemplate) : items/remains/remains__monster_01/remains__monster_01.w2ent
+    CCreatureDataComponent #31 (CCreatureDataComponent) : CCreatureDataComponent0
+        CCreatureDataComponent (CCreatureDataComponent) : 
+            guid (CGUID) : 4a2772d7-0773-471a-9312-1736da898e6b
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CCreatureDataComponent0"
+            cameraDistance (Float) : 5.0000
+            cameraLookAtZ (Float) : 1.8000
+            cameraRotationYaw (Float) : 157.8200
+            cameraRotationPitch (Float) : 7.6900
+            environmentSunRotationYaw (Float) : 250.0000
+            environmentSunRotationPitch (Float) : 10.0000
+    CDismembermentComponent #32 (CDismembermentComponent) : CDismembermentComponent0
+        CDismembermentComponent (CDismembermentComponent) : CDismembermentComponent0
+            guid (CGUID) : 50b20fe3-ceb3-42dd-879b-bb1a81ad5472
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CDismembermentComponent0"
+    CGameplayEffectsComponent #33 (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+        CGameplayEffectsComponent (CGameplayEffectsComponent) : CGameplayEffectsComponent0
+            guid (CGUID) : b4588041-99cc-4c17-bd33-c8b0c0e537f6
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CGameplayEffectsComponent0"
+    CSoundEmitterComponent #34 (CSoundEmitterComponent) : CSoundEmitterComponent
+        guid (CGUID) : 80008102-2c44-4959-b7a4-75fdf9e8ffaf
+        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+        name (String) : "CSoundEmitterComponent"
+        isStreamed (Bool) : false
+        eventsOnAttach (array:StringAnsi) : # array:StringAnsi
+            0 (StringAnsi) : set_monster_bies_armour_type_generic
+        banksDependency (array:CName) : # array:CName
+            0 (CName) : monster_bies.bnk
+        maxDistance (Float) : 160.0000
+    CAIProfile #35 (CAIProfile) : AG_fiend
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            attitudeGroup (CName) : AG_fiend
+    CCharacterStatsParam #36 (CCharacterStatsParam) : bies_czart_abilities
+        CCharacterStatsParam (CCharacterStatsParam) : bies_czart_abilities
+            name (String) : "bies_czart_abilities"
+            overrideInherited (Bool) : true
+            abilities (array:CName) : # array:CName
+                0 (CName) : mon_czart
+                1 (CName) : Charge
+                2 (CName) : mon_bies_base
+    CInventoryDefinition #37 (CInventoryDefinition) : 
+        CInventoryDefinition (CInventoryDefinition) : <CInventoryDefinition>CInventoryDefinition
+            entries (array:ptr:CInventoryDefinitionEntry) : # array:ptr:CInventoryDefinitionEntry
+                0 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #38
+                1 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #40
+                2 (ptr:CInventoryDefinitionEntry) : CInventoryDefinitionEntry #42
+    CInventoryDefinitionEntry #38 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #39
+    CInventoryInitializerUniform #39 (CInventoryInitializerUniform) : mon_czart_basic_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_czart_basic_weapon
+    CInventoryDefinitionEntry #40 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #41
+    CInventoryInitializerUniform #41 (CInventoryInitializerUniform) : mon_czart_r_claw_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_czart_r_claw_weapon
+    CInventoryDefinitionEntry #42 (CInventoryDefinitionEntry) : monster_weapon
+        CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
+            category (CName) : monster_weapon
+            isMount (Bool) : true
+            isLootable (Bool) : false
+            initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #43
+    CInventoryInitializerUniform #43 (CInventoryInitializerUniform) : mon_czart_l_claw_weapon
+        CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
+            itemName (CName) : mon_czart_l_claw_weapon
+    CR4LootParam #44 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Czart
+                    name (CName) : _monster__Czart
+    CEntityDismemberment #45 (CEntityDismemberment) : 
+        CEntityDismemberment (CEntityDismemberment) : <CEntityDismemberment>CEntityDismemberment
+            disabledWounds (array:SDismembermentWoundFilter) : # array:SDismembermentWoundFilter
+                0 (SDismembermentWoundFilter) : czart_01
+                    wound (CName) : bies_trophy_head
+                    appearance (CName) : czart_01
+                1 (SDismembermentWoundFilter) : czart_01
+                    wound (CName) : czart_trophy_head
+                    appearance (CName) : czart_01
+    CAnimGlobalParam #46 (CAnimGlobalParam) : sfx_bies
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            sfxTag (CName) : sfx_bies
+    CAnimBehaviorsParam #47 (CAnimBehaviorsParam) : monster
+        CAnimBehaviorsParam (CAnimBehaviorsParam) : monster
+            wasIncluded (Bool) : true
+            name (String) : "monster"
+            componentName (String) : "Character"
+            slots (array:SBehaviorGraphInstanceSlot) : # array:SBehaviorGraphInstanceSlot
+                0 (SBehaviorGraphInstanceSlot) : Combat
+                    instanceName (CName) : Combat
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_bies_combat.w2beh
+                1 (SBehaviorGraphInstanceSlot) : Cutscene
+                    instanceName (CName) : Cutscene
+                    graph (handle:CBehaviorGraph) : gameplay/behaviors/cutscene_graph.w2beh
+    CAIProfile #48 (CAIProfile) : monsters
+        CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
+            wasIncluded (Bool) : true
+            senseVisionParams (ptr:CAISenseParams) : CAISenseParams #49
+            senseAbsoluteParams (ptr:CAISenseParams) : CAISenseParams #50
+            attitudeGroup (CName) : monsters
+    CAISenseParams #49 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 20.0000
+            rangeAngle (Float) : 360.0000
+    CAISenseParams #50 (CAISenseParams) : 
+        CAISenseParams (CAISenseParams) : <CAISenseParams>CAISenseParams
+            rangeMax (Float) : 3.0000
+            rangeAngle (Float) : 360.0000
+            testLOS (Bool) : false
+    CAnimAnimsetsParam #51 (CAnimAnimsetsParam) : bies
+        CAnimAnimsetsParam (CAnimAnimsetsParam) : bies
+            wasIncluded (Bool) : true
+            name (String) : "bies"
+            animationSets (array:handle:CSkeletalAnimationSet) : # array:handle:CSkeletalAnimationSet
+                0 (handle:CSkeletalAnimationSet) : animations/monsters/monster_bies.w2anims
+    CAutoEffectsParam #52 (CAutoEffectsParam) : bies_base_autobuffs
+        CAutoEffectsParam (CAutoEffectsParam) : bies_base_autobuffs
+            wasIncluded (Bool) : true
+            name (String) : "bies_base_autobuffs"
+            autoEffects (array:CName) : # array:CName
+                0 (CName) : AutoEssenceRegen
+                1 (CName) : AutoStaminaRegen
+                2 (CName) : AutoMoraleRegen
+    CAttackRangeParam #53 (CAttackRangeParam) : attack_ranges
+        CAttackRangeParam (CAttackRangeParam) : attack_ranges
+            wasIncluded (Bool) : true
+            name (String) : "attack_ranges"
+            attackRanges (array:ptr:CAIAttackRange) : # array:ptr:CAIAttackRange
+                0 (ptr:CAIAttackRange) : CConeAttackRange #54
+                1 (ptr:CAIAttackRange) : CBoxAttackRange #55
+                2 (ptr:CAIAttackRange) : CConeAttackRange #56
+                3 (ptr:CAIAttackRange) : CConeAttackRange #57
+                4 (ptr:CAIAttackRange) : CBoxAttackRange #58
+    CConeAttackRange #54 (CConeAttackRange) : base
+        CConeAttackRange (CConeAttackRange) : base
+            name (CName) : base
+            rangeMax (Float) : 3.5000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.5000
+                W (Float) : 1.0000
+    CBoxAttackRange #55 (CBoxAttackRange) : bite
+        CBoxAttackRange (CBoxAttackRange) : bite
+            name (CName) : bite
+            rangeMax (Float) : 3.0000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.5000
+                W (Float) : 1.0000
+            rangeWidth (Float) : 1.5000
+    CConeAttackRange #56 (CConeAttackRange) : SlowMo
+        CConeAttackRange (CConeAttackRange) : SlowMo
+            name (CName) : SlowMo
+            rangeMax (Float) : 3.5000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.5000
+                W (Float) : 1.0000
+            rangeAngle (Float) : 90.0000
+    CConeAttackRange #57 (CConeAttackRange) : horns
+        CConeAttackRange (CConeAttackRange) : horns
+            name (CName) : horns
+            rangeMax (Float) : 3.0000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.5000
+                W (Float) : 1.0000
+            rangeAngle (Float) : 80.0000
+    CBoxAttackRange #58 (CBoxAttackRange) : charge
+        CBoxAttackRange (CBoxAttackRange) : charge
+            name (CName) : charge
+            rangeMax (Float) : 4.0000
+            height (Float) : 3.0000
+            position (Vector) : <Vector>position
+                X (Float) : 0.0000
+                Y (Float) : 0.0000
+                Z (Float) : 1.5000
+                W (Float) : 1.0000
+            rangeWidth (Float) : 2.0000
+    CMonsterParam #59 (CMonsterParam) : bies_base_monster_params
+        CMonsterParam (CMonsterParam) : bies_base_monster_params
+            wasIncluded (Bool) : true
+            name (String) : "bies_base_monster_params"
+            monsterCategory (Int32) : 1
+            soundMonsterName (CName) : Bies
+    CCharacterControllerParam #60 (CCharacterControllerParam) : bies_base_character_controller
+        CCharacterControllerParam (CCharacterControllerParam) : bies_base_character_controller
+            wasIncluded (Bool) : true
+            name (String) : "bies_base_character_controller"
+            height (Float) : 4.0000
+            physicalRadius (Float) : 1.0000
+            interactionPriorityEnum (EInteractionPriority) : IP_Prio_10
+            virtualControllers (array:SVirtualControllerParams) : # array:SVirtualControllerParams
+                0 (SVirtualControllerParams) : secondCapsule
+                    name (CName) : secondCapsule
+                    localOffset (Vector) : <Vector>localOffset
+                        X (Float) : 0.0000
+                        Y (Float) : 1.4000
+                        Z (Float) : 1.4000
+                        W (Float) : 0.0000
+                    height (Float) : 1.8000
+                    radius (Float) : 1.0000
+                1 (SVirtualControllerParams) : thirdCapsule
+                    name (CName) : thirdCapsule
+                    localOffset (Vector) : <Vector>localOffset
+                        X (Float) : 0.0000
+                        Y (Float) : -0.8000
+                        Z (Float) : 0.0000
+                        W (Float) : 0.0000
+                    height (Float) : 0.5000
+                    radius (Float) : 1.0000
+            significance (Float) : 6.0000
+    CBuffImmunityParam #61 (CBuffImmunityParam) : buff_immunity
+        CBuffImmunityParam (CBuffImmunityParam) : buff_immunity
+            wasIncluded (Bool) : true
+            name (String) : "buff_immunity"
+            immunityTo (array:Int32) : # array:Int32
+                0 (Int32) : 6
+                1 (Int32) : 9
+                2 (Int32) : 7
+                3 (Int32) : 11
+                4 (Int32) : 45
+    CAnimConstraintsParam #62 (CAnimConstraintsParam) : CBehaviorGraph:gameplay\behaviors\npc\behaviorgraph\monster_bies_constraints.w2beh
+        CAnimConstraintsParam (CAnimConstraintsParam) : <CAnimConstraintsParam>CAnimConstraintsParam
+            wasIncluded (Bool) : true
+            graph (handle:CBehaviorGraph) : gameplay/behaviors/npc/behaviorgraph/monster_bies_constraints.w2beh
+    CAIBaseTreeTemplateParam #63 (CAIBaseTreeTemplateParam) : 
+        CAIBaseTreeTemplateParam (CAIBaseTreeTemplateParam) : 
+            wasIncluded (Bool) : true
+            aiBaseTree (handle:CAIBaseTree) : CAIMonsterBase #64
+    CAIMonsterBase #64 (CAIMonsterBase) : CBehTree:gameplay\trees\monster_base.w2behtree
+        CAIMonsterBase (CAIMonsterBase) : <CAIMonsterBase>CAIMonsterBase
+            tree (handle:CBehTree) : gameplay/trees/monster_base.w2behtree
+            params (handle:CAIBaseMonsterDefaults) : CAIBiesDefaults #65
+    CAIBiesDefaults #65 (CAIBiesDefaults) : 
+        CAIBiesDefaults (CAIBiesDefaults) : <CAIBiesDefaults>CAIBiesDefaults
+            spawnTree (handle:CAIMonsterSpawn) : CAIMonsterSpawnDefault #66
+            tauntTree (handle:CAIMonsterTaunt) : CAIMonsterTaunt #68
+            axiiTree (handle:CAIMonsterAxii) : CAIMonsterAxii #70
+            idleDecoratorTree (handle:CAIMonsterIdleDecorator) : CAIMonsterIdleDecoratorBies #72
+            combatTree (handle:CAIMonsterCombat) : CAIMonsterCombat #92
+            deathTree (handle:CAIMonsterDeath) : CAIMonsterDeath #108
+    CAIMonsterSpawnDefault #66 (CAIMonsterSpawnDefault) : CBehTree:gameplay\trees\monster_spawn_default.w2behtree
+        CAIMonsterSpawnDefault (CAIMonsterSpawnDefault) : <CAIMonsterSpawnDefault>CAIMonsterSpawnDefault
+            tree (handle:CBehTree) : gameplay/trees/monster_spawn_default.w2behtree
+            params (handle:CAIMonsterSpawnParams) : CAIMonsterSpawnParams #67
+    CAIMonsterSpawnParams #67 (CAIMonsterSpawnParams) : 
+        CAIMonsterSpawnParams (CAIMonsterSpawnParams) : <CAIMonsterSpawnParams>CAIMonsterSpawnParams
+    CAIMonsterTaunt #68 (CAIMonsterTaunt) : CBehTree:gameplay\trees\monster_basetaunt.w2behtree
+        CAIMonsterTaunt (CAIMonsterTaunt) : <CAIMonsterTaunt>CAIMonsterTaunt
+            tree (handle:CBehTree) : gameplay/trees/monster_basetaunt.w2behtree
+            params (handle:CAIMonsterTauntParams) : CAIMonsterTauntParams #69
+    CAIMonsterTauntParams #69 (CAIMonsterTauntParams) : 
+        CAIMonsterTauntParams (CAIMonsterTauntParams) : <CAIMonsterTauntParams>CAIMonsterTauntParams
+    CAIMonsterAxii #70 (CAIMonsterAxii) : CBehTree:gameplay\trees\monster_baseaxii.w2behtree
+        CAIMonsterAxii (CAIMonsterAxii) : <CAIMonsterAxii>CAIMonsterAxii
+            tree (handle:CBehTree) : gameplay/trees/monster_baseaxii.w2behtree
+            params (handle:CAIMonsterAxiiParams) : CAIMonsterAxiiParams #71
+    CAIMonsterAxiiParams #71 (CAIMonsterAxiiParams) : 
+        CAIMonsterAxiiParams (CAIMonsterAxiiParams) : <CAIMonsterAxiiParams>CAIMonsterAxiiParams
+    CAIMonsterIdleDecoratorBies #72 (CAIMonsterIdleDecoratorBies) : CBehTree:gameplay\trees\idle\monster_idle_decorator.w2behtree
+        CAIMonsterIdleDecoratorBies (CAIMonsterIdleDecoratorBies) : <CAIMonsterIdleDecoratorBies>CAIMonsterIdleDecoratorBies
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_decorator.w2behtree
+            params (handle:CAIMonsterIdleDecoratorParams) : CAIMonsterIdleDecoratorParams #73
+    CAIMonsterIdleDecoratorParams #73 (CAIMonsterIdleDecoratorParams) : 
+        CAIMonsterIdleDecoratorParams (CAIMonsterIdleDecoratorParams) : <CAIMonsterIdleDecoratorParams>CAIMonsterIdleDecoratorParams
+            reactionTree (handle:CAIMonsterReactionsTree) : CAIMonsterReactionsTree #74
+            searchFoodTree (handle:CAIMonsterSearchFoodTree) : CAIMonsterSearchFoodTree #88
+            actions (array:handle:CAIMonsterIdleAction) : # array:handle:CAIMonsterIdleAction
+                0 (handle:CAIMonsterIdleAction) : CAIMonsterIdleHowl #90
+    CAIMonsterReactionsTree #74 (CAIMonsterReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterReactionsTree (CAIMonsterReactionsTree) : <CAIMonsterReactionsTree>CAIMonsterReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #75
+    CAIMonsterReactionsTreeParams #75 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionSearchForTarget #76
+                1 (handle:CAIMonsterActionSubtree) : CAIActionAllySearchesTarget #78
+                2 (handle:CAIMonsterActionSubtree) : CAIActionPlayWithTarget #80
+                3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #82
+                4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #84
+                5 (handle:CAIMonsterActionSubtree) : CAIActionMoveToLure #86
+    CAIActionSearchForTarget #76 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionSearchTarget #77
+    CAINpcReactionSearchTarget #77 (CAINpcReactionSearchTarget) : CBehTree:gameplay\trees\reactions\reaction_search_target.w2behtree
+        CAINpcReactionSearchTarget (CAINpcReactionSearchTarget) : <CAINpcReactionSearchTarget>CAINpcReactionSearchTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_search_target.w2behtree
+    CAIActionAllySearchesTarget #78 (CAIActionAllySearchesTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionAllySearchesTarget (CAIActionAllySearchesTarget) : <CAIActionAllySearchesTarget>CAIActionAllySearchesTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionJoinSearchForTarget #79
+    CAINpcReactionJoinSearchForTarget #79 (CAINpcReactionJoinSearchForTarget) : CBehTree:gameplay\trees\reactions\reaction_join_search_for_target.w2behtree
+        CAINpcReactionJoinSearchForTarget (CAINpcReactionJoinSearchForTarget) : <CAINpcReactionJoinSearchForTarget>CAINpcReactionJoinSearchForTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_join_search_for_target.w2behtree
+    CAIActionPlayWithTarget #80 (CAIActionPlayWithTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionPlayWithTarget (CAIActionPlayWithTarget) : <CAIActionPlayWithTarget>CAIActionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionPlayWithTarget #81
+    CAINpcReactionPlayWithTarget #81 (CAINpcReactionPlayWithTarget) : CBehTree:gameplay\trees\reactions\reaction_play_around.w2behtree
+        CAINpcReactionPlayWithTarget (CAINpcReactionPlayWithTarget) : <CAINpcReactionPlayWithTarget>CAINpcReactionPlayWithTarget
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_play_around.w2behtree
+    CAIActionMoveInPack #82 (CAIActionMoveInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveInPack (CAIActionMoveInPack) : <CAIActionMoveInPack>CAIActionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveInPack #83
+    CAINpcReactionMoveInPack #83 (CAINpcReactionMoveInPack) : CBehTree:gameplay\trees\reactions\reaction_move_in_pack.w2behtree
+        CAINpcReactionMoveInPack (CAINpcReactionMoveInPack) : <CAINpcReactionMoveInPack>CAINpcReactionMoveInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_move_in_pack.w2behtree
+    CAIActionRunWildInPack #84 (CAIActionRunWildInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionRunWildInPack (CAIActionRunWildInPack) : <CAIActionRunWildInPack>CAIActionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionRunWildInPack #85
+    CAINpcReactionRunWildInPack #85 (CAINpcReactionRunWildInPack) : CBehTree:gameplay\trees\reactions\reaction_run_wild_in_pack.w2behtree
+        CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
+    CAIActionMoveToLure #86 (CAIActionMoveToLure) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionMoveToLure (CAIActionMoveToLure) : <CAIActionMoveToLure>CAIActionMoveToLure
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionMoveToLure #87
+    CAINpcReactionMoveToLure #87 (CAINpcReactionMoveToLure) : CBehTree:gameplay\trees\reactions\reaction_monster_move_to_lure.w2behtree
+        CAINpcReactionMoveToLure (CAINpcReactionMoveToLure) : <CAINpcReactionMoveToLure>CAINpcReactionMoveToLure
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_move_to_lure.w2behtree
+    CAIMonsterSearchFoodTree #88 (CAIMonsterSearchFoodTree) : CBehTree:gameplay\trees\idle\monster_search_food_idle.w2behtree
+        CAIMonsterSearchFoodTree (CAIMonsterSearchFoodTree) : <CAIMonsterSearchFoodTree>CAIMonsterSearchFoodTree
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_search_food_idle.w2behtree
+            params (handle:CAIMonsterSearchFoodIdleParams) : CAIMonsterSearchFoodIdleParams #89
+    CAIMonsterSearchFoodIdleParams #89 (CAIMonsterSearchFoodIdleParams) : 
+        CAIMonsterSearchFoodIdleParams (CAIMonsterSearchFoodIdleParams) : <CAIMonsterSearchFoodIdleParams>CAIMonsterSearchFoodIdleParams
+            vegetable (Bool) : true
+    CAIMonsterIdleHowl #90 (CAIMonsterIdleHowl) : CBehTree:gameplay\trees\idle\monster_idle_action_howl.w2behtree
+        CAIMonsterIdleHowl (CAIMonsterIdleHowl) : <CAIMonsterIdleHowl>CAIMonsterIdleHowl
+            tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_howl.w2behtree
+            params (handle:CAIMonsterIdleActionParams) : CAIMonsterIdleActionParams #91
+    CAIMonsterIdleActionParams #91 (CAIMonsterIdleActionParams) : 
+        CAIMonsterIdleActionParams (CAIMonsterIdleActionParams) : <CAIMonsterIdleActionParams>CAIMonsterIdleActionParams
+            cooldown (Float) : 60.0000
+            loopTime (Float) : 5.0000
+    CAIMonsterCombat #92 (CAIMonsterCombat) : CBehTree:gameplay\trees\monster_basecombat.w2behtree
+        CAIMonsterCombat (CAIMonsterCombat) : <CAIMonsterCombat>CAIMonsterCombat
+            tree (handle:CBehTree) : gameplay/trees/monster_basecombat.w2behtree
+            params (handle:CAIMonsterCombatParams) : CAIMonsterCombatParams #93
+    CAIMonsterCombatParams #93 (CAIMonsterCombatParams) : MonsterHitReaction
+        CAIMonsterCombatParams (CAIMonsterCombatParams) : <CAIMonsterCombatParams>CAIMonsterCombatParams
+            combatLogicTree (handle:CAIMonsterCombatLogic) : CAIBiesCombatLogic #94
+            damageReactionTree (handle:CAIMonsterSimpleDamageReactionTree) : CAIMonsterDamageReactionTree #96
+            reachabilityTolerance (Float) : 4.0000
+            createHitReactionEvent (CName) : MonsterHitReaction
+            criticalState (handle:CAINpcCriticalState) : CAINpcCriticalState #98
+            reactionTree (handle:CAIMonsterCombatReactionsTree) : CAIMonsterCombatReactionsTree #100
+    CAIBiesCombatLogic #94 (CAIBiesCombatLogic) : CBehTree:gameplay\trees\monsters\monster_bies_logic.w2behtree
+        CAIBiesCombatLogic (CAIBiesCombatLogic) : <CAIBiesCombatLogic>CAIBiesCombatLogic
+            tree (handle:CBehTree) : gameplay/trees/monsters/monster_bies_logic.w2behtree
+            params (handle:CAIMonsterCombatLogicParams) : CAIMonsterCombatLogicParams #95
+    CAIMonsterCombatLogicParams #95 (CAIMonsterCombatLogicParams) : 
+        CAIMonsterCombatLogicParams (CAIMonsterCombatLogicParams) : <CAIMonsterCombatLogicParams>CAIMonsterCombatLogicParams
+    CAIMonsterDamageReactionTree #96 (CAIMonsterDamageReactionTree) : CBehTree:gameplay\trees\monster_damage_reaction.w2behtree
+        CAIMonsterDamageReactionTree (CAIMonsterDamageReactionTree) : <CAIMonsterDamageReactionTree>CAIMonsterDamageReactionTree
+            tree (handle:CBehTree) : gameplay/trees/monster_damage_reaction.w2behtree
+            params (handle:CAIDamageReactionTreeParams) : CAIDamageReactionTreeParams #97
+    CAIDamageReactionTreeParams #97 (CAIDamageReactionTreeParams) : 
+        CAIDamageReactionTreeParams (CAIDamageReactionTreeParams) : <CAIDamageReactionTreeParams>CAIDamageReactionTreeParams
+            completeTaskAfterDisablingHitReaction (Bool) : true
+    CAINpcCriticalState #98 (CAINpcCriticalState) : CBehTree:gameplay\trees\npc_critical_state.w2behtree
+        CAINpcCriticalState (CAINpcCriticalState) : <CAINpcCriticalState>CAINpcCriticalState
+            tree (handle:CBehTree) : gameplay/trees/npc_critical_state.w2behtree
+            params (handle:CAINpcCriticalStateParams) : CAINpcCriticalStateParams #99
+    CAINpcCriticalStateParams #99 (CAINpcCriticalStateParams) : 
+        CAINpcCriticalStateParams (CAINpcCriticalStateParams) : <CAINpcCriticalStateParams>CAINpcCriticalStateParams
+    CAIMonsterCombatReactionsTree #100 (CAIMonsterCombatReactionsTree) : CBehTree:gameplay\trees\reactions\monster_base_reactions.w2behtree
+        CAIMonsterCombatReactionsTree (CAIMonsterCombatReactionsTree) : <CAIMonsterCombatReactionsTree>CAIMonsterCombatReactionsTree
+            tree (handle:CBehTree) : gameplay/trees/reactions/monster_base_reactions.w2behtree
+            params (handle:CAIMonsterReactionsTreeParams) : CAIMonsterReactionsTreeParams #101
+    CAIMonsterReactionsTreeParams #101 (CAIMonsterReactionsTreeParams) : 
+        CAIMonsterReactionsTreeParams (CAIMonsterReactionsTreeParams) : <CAIMonsterReactionsTreeParams>CAIMonsterReactionsTreeParams
+            reactions (array:handle:CAIMonsterActionSubtree) : # array:handle:CAIMonsterActionSubtree
+                0 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #102
+                1 (handle:CAIMonsterActionSubtree) : CAIActionLeadEscape #104
+                2 (handle:CAIMonsterActionSubtree) : CAIActionEscapeInPack #106
+    CAIActionLeadEscape #102 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #103
+    CAINpcReactionLeadEscape #103 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionLeadEscape #104 (CAIActionLeadEscape) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionLeadEscape (CAIActionLeadEscape) : <CAIActionLeadEscape>CAIActionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionLeadEscape #105
+            actionEventName (CName) : FearsomeEvent
+            saveReactionTargetUnder (CName) : FearsomeEventSource
+    CAINpcReactionLeadEscape #105 (CAINpcReactionLeadEscape) : CBehTree:gameplay\trees\reactions\reaction_monster_lead_escape.w2behtree
+        CAINpcReactionLeadEscape (CAINpcReactionLeadEscape) : <CAINpcReactionLeadEscape>CAINpcReactionLeadEscape
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_lead_escape.w2behtree
+    CAIActionEscapeInPack #106 (CAIActionEscapeInPack) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
+        CAIActionEscapeInPack (CAIActionEscapeInPack) : <CAIActionEscapeInPack>CAIActionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
+            reactionLogicTree (handle:CAINpcReaction) : CAINpcReactionEscapeInPack #107
+    CAINpcReactionEscapeInPack #107 (CAINpcReactionEscapeInPack) : CBehTree:gameplay\trees\reactions\reaction_monster_escape_in_pack.w2behtree
+        CAINpcReactionEscapeInPack (CAINpcReactionEscapeInPack) : <CAINpcReactionEscapeInPack>CAINpcReactionEscapeInPack
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_escape_in_pack.w2behtree
+    CAIMonsterDeath #108 (CAIMonsterDeath) : CBehTree:gameplay\trees\death\death.w2behtree
+        CAIMonsterDeath (CAIMonsterDeath) : <CAIMonsterDeath>CAIMonsterDeath
+            tree (handle:CBehTree) : gameplay/trees/death/death.w2behtree
+            params (handle:CAINpcDeathParams) : CAIMonsterDeathParams #109
+    CAIMonsterDeathParams #109 (CAIMonsterDeathParams) : 
+        CAIMonsterDeathParams (CAIMonsterDeathParams) : <CAIMonsterDeathParams>CAIMonsterDeathParams
+    CEntityDismemberment #110 (CEntityDismemberment) : 
+        CEntityDismemberment (CEntityDismemberment) : <CEntityDismemberment>CEntityDismemberment
+            wasIncluded (Bool) : true
+            wounds (array:ptr:CDismembermentWound) : # array:ptr:CDismembermentWound
+                0 (ptr:CDismembermentWound) : CDismembermentWound #111
+                1 (ptr:CDismembermentWound) : CDismembermentWound #112
+    CDismembermentWound #111 (CDismembermentWound) : bies_trophy_head
+        CDismembermentWound (CDismembermentWound) : bies_trophy_head
+            name (CName) : bies_trophy_head
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 197.7010
+                Yaw (Float) : 10.7591
+                Roll (Float) : 211.0010
+                Scale_x (Float) : 3.3762
+                Scale_y (Float) : 1.3309
+                Scale_z (Float) : 2.5888
+                X (Float) : -1.4852
+                Y (Float) : 1.3700
+                Z (Float) : 3.0845
+            fillMesh (handle:CMesh) : characters/models/monsters/bies/model/w_bies_head_fill.w2mesh
+            decal (SDismembermentWoundDecal) : <SDismembermentWoundDecal>decal
+                materialInfo (SDynamicDecalMaterialInfo) : <SDynamicDecalMaterialInfo>materialInfo
+                    diffuseTexture (handle:CBitmapTexture) : characters/models/common/textures/decals/wounds/wnd__decal_d01.xbm
+                    normalTexture (handle:CBitmapTexture) : characters/models/common/textures/decals/wounds/wnd__decal_n01.xbm
+                    specularColor (Color) : <Color>specularColor
+                        Red (Uint8) : 10
+                        Green (Uint8) : 10
+                        Blue (Uint8) : 10
+                        Alpha (Uint8) : 0
+                depthScale (Float) : 2.3000
+                applyToFillMesh (Bool) : false
+    CDismembermentWound #112 (CDismembermentWound) : czart_trophy_head
+        CDismembermentWound (CDismembermentWound) : czart_trophy_head
+            name (CName) : czart_trophy_head
+            transform (EngineTransform) : <EngineTransform>transform
+                Pitch (Float) : 180.2860
+                Yaw (Float) : 352.6060
+                Roll (Float) : 182.2210
+                Scale_x (Float) : 3.5293
+                Scale_y (Float) : 1.1737
+                Scale_z (Float) : 3.3068
+                X (Float) : -0.0077
+                Y (Float) : 1.3800
+                Z (Float) : 2.6546
+            fillMesh (handle:CMesh) : characters/models/monsters/czart/model/w_czart_head_fill.w2mesh
+            decal (SDismembermentWoundDecal) : <SDismembermentWoundDecal>decal
+                materialInfo (SDynamicDecalMaterialInfo) : <SDynamicDecalMaterialInfo>materialInfo
+                    diffuseTexture (handle:CBitmapTexture) : characters/models/common/textures/decals/wounds/wnd__decal_d01.xbm
+                    normalTexture (handle:CBitmapTexture) : characters/models/common/textures/decals/wounds/wnd__decal_n01.xbm
+                    specularColor (Color) : <Color>specularColor
+                        Red (Uint8) : 10
+                        Green (Uint8) : 10
+                        Blue (Uint8) : 10
+                        Alpha (Uint8) : 0
+                scale (Vector2) : <Vector2>scale
+                    X (Float) : 0.5400
+                    Y (Float) : 0.7000
+                depthScale (Float) : 1.8200
+                offset (Vector2) : <Vector2>offset
+                    X (Float) : 0.0000
+                    Y (Float) : 0.0200
+                depthFadePower (Float) : -0.1000
+                normalFadeBias (Float) : -0.3500
+                normalFadeScale (Float) : 3.0000
+                applyToFillMesh (Bool) : false
+    CFocusSoundParam #113 (CFocusSoundParam) : Focus_Sound
+        CFocusSoundParam (CFocusSoundParam) : Focus_Sound
+            wasIncluded (Bool) : true
+            name (String) : "Focus_Sound"
+            eventStart (CName) : monster_bies_focus_100m_start
+            eventStop (CName) : monster_bies_focus_100m_stop
+    CAnimGlobalParam #114 (CAnimGlobalParam) : sfx_bies
+        CAnimGlobalParam (CAnimGlobalParam) : <CAnimGlobalParam>CAnimGlobalParam
+            wasIncluded (Bool) : true
+            sfxTag (CName) : sfx_bies
+    CBloodTrailEffect #115 (CBloodTrailEffect) : blood_trail
+        CBloodTrailEffect (CBloodTrailEffect) : blood_trail
+            wasIncluded (Bool) : true
+            name (String) : "blood_trail"
+            effect (CName) : default_blood_trail

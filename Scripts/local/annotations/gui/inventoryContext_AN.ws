@@ -370,7 +370,7 @@
 				else if (invComponentRef.GetItemName(currentItemId) == 'Razor')
 				{
 					ShaveGeralt_Quest();
-					invMenuRef.UpdateFace();
+					invMenuRef.spectreUpdateFace();
 					theSound.SoundEvent("gui_inventory_other_attach");
 					invMenuRef.showNotification(GetLocStringByKeyExt("spectre_used_razor_success"));
 				}

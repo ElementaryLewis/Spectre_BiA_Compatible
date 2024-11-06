@@ -144,6 +144,7 @@
 					casterPos = caster.GetWorldPosition();
 					casterPos.Z += 1.5;
 					this.Init(thePlayer);
+					this.projDMG *= (thePlayer.GetSkillLevel(S_Sword_s10) * 2) + CalculateAttributeValue( thePlayer.GetSkillAttributeValue(S_Sword_s10, 'damage_increase', false, true) );
 					this.ShootProjectileAtPosition(2,projSpeed*0.7,casterPos);
 					ActivateTrail('arrow_trail_red');
 					isBouncedArrow = true;

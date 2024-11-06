@@ -1,0 +1,86 @@
+    CSwfResource #0 (CSwfResource) : panel-alchemy{67d9d392}.gfx
+        CSwfResource (CSwfResource) : <CSwfResource>CSwfResource
+            linkageName (String) : "panel-alchemy{67d9d392}.gfx"
+            textures (array:handle:CSwfTexture) : # array:handle:CSwfTexture
+                0 (handle:CSwfTexture) : CSwfTexture #1
+                1 (handle:CSwfTexture) : CSwfTexture #2
+                2 (handle:CSwfTexture) : CSwfTexture #3
+                3 (handle:CSwfTexture) : CSwfTexture #4
+            SwfResource (CByteArray) : 199768 bytes, MD5: 7dde797d044f12f84a37b91668b2cc4f
+            Unk1 (Uint32) : 0
+    CSwfTexture #1 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1024
+            height (Uint32) : 980
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1024
+                    Height (Uint32) : 980
+                    Blocksize (Uint32) : 4096
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1003520
+            Residentmip (CBytes) : 1003520 bytes, MD5: 4cb8541cfbbb78ac30f6d1809a52d3ca
+            linkageName (String) : "panel-alchemy{67d9d392}_i1.dds"
+    CSwfTexture #2 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 1024
+            height (Uint32) : 1024
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 1024
+                    Height (Uint32) : 1024
+                    Blocksize (Uint32) : 4096
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1048576
+            Residentmip (CBytes) : 1048576 bytes, MD5: efc9c27d6a49cb11b17db7ac1ebf15e8
+            linkageName (String) : "panel-alchemy{67d9d392}_ic.dds"
+    CSwfTexture #3 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 40
+            height (Uint32) : 48
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 40
+                    Height (Uint32) : 48
+                    Blocksize (Uint32) : 160
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 1920
+            Residentmip (CBytes) : 1920 bytes, MD5: a13261f67ef77a7c28cdf61e0c4f1e54
+            linkageName (String) : "panel-alchemy{67d9d392}_i1d.dds"
+    CSwfTexture #4 (CSwfTexture) : GUIWithAlpha
+        CSwfTexture (CSwfTexture) : <CSwfTexture>CSwfTexture
+            width (Uint32) : 528
+            height (Uint32) : 380
+            compression (ETextureCompression) : TCM_DXTAlpha
+            textureGroup (CName) : GUIWithAlpha
+            unk (Uint32) : 0
+            MipsCount (Uint32) : 1
+            Mipdata (CCompressedBuffer:SMipData) : <<SMipData>0>
+                0 (SMipData) : <SMipData>0
+                    Width (Uint32) : 528
+                    Height (Uint32) : 380
+                    Blocksize (Uint32) : 2112
+                    Mip (CByteArray) : 0 bytes, MD5: d41d8cd98f00b204e9800998ecf8427e
+            unk1 (Uint16) : 16
+            unk2 (Uint16) : 0
+            ResidentmipSize (Uint32) : 200640
+            Residentmip (CBytes) : 200640 bytes, MD5: 5901aa1c76acf175cfb4e9c18af955f5
+            linkageName (String) : "panel-alchemy{67d9d392}_i105.dds"

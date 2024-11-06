@@ -19,11 +19,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<PoisonDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<attack_power					type="mult"	min="0.08"	max="0.12"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.12"	/>
+		<PoisonDamage 					type="add"  min="25" 	max="25"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.1"				/>
+		<buff_apply_chance				type="add"	min="0.1"				/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>	
 	<!-- unique, main quest, lvl 18 -> 22 -->
@@ -32,10 +32,10 @@
 		<quality						type="add"	min="4"					/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.20"				/>
-		<critical_hit_chance			type="add"	min="0.35"				/>
+		<attack_power					type="mult"	min="0.10"				/>
+		<critical_hit_chance			type="add"	min="0.25"				/>
 		<critical_hit_damage_bonus		type="add"	min="0.75"				/>
-		<focus_gain 					type="add" 	min="0.2"				/>
+		<focus_gain 					type="add" 	min="0.1"				/>
 	</ability>
 	
 	<!-- living world - non-random containers -->
@@ -46,11 +46,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_burningchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="10"	max="30"	/>
+		<FireDamage 					type="add"  min="10" 	max="20"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.1"	/>
+		<desc_burningchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>	
 	<!-- living world -->
@@ -59,11 +59,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.15"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.30"	/>
+		<focus_gain 					type="add" 	min="0.05"	max="0.10"	/>
+		<desc_staggerchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>
 	<!-- living world -->
@@ -72,11 +72,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<PoisonDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.04"	max="0.08"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.15"	/>
+		<PoisonDamage 					type="add"  min="10" 	max="20"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>	
 	<!-- living world -->
@@ -85,11 +85,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.04"	max="0.08"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.15"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.3"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>	
 	<!-- living world -->
@@ -98,11 +98,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="10"	max="30"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.3"	/>
+		<spell_power_yrden				type="mult"	min="0.05"	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
+		<desc_confusionchance_mult		type="add"	min="0.05"	max="0.08"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>	
 	<!-- living world -->
@@ -111,11 +111,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_burningchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.05"	max="0.1"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.1"	/>
+		<FireDamage 					type="add"  min="10" 	max="20"	/>
+		<desc_burningchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>
 
@@ -127,11 +127,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_burningchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.3"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.1"	/>
+		<FireDamage 					type="add"  min="10" 	max="20"	/>
+		<desc_burningchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 0-10 -->
@@ -140,11 +140,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.15"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.10"	max="0.3"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.1"	/>
+		<desc_confusionchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 0-10 -->
@@ -153,11 +153,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance 				type="add" 	min="0.2" 	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2" 	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.15"	/>
+		<spell_power_aard				type="mult"	min="0.05"	max="0.1"	/>
+		<FrostDamage 					type="add"  min="10" 	max="20"	/>
+		<buff_apply_chance 				type="add" 	min="0.05" 	max="0.08"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.05" 	max="0.08"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>	
 	<!-- rnd lvl 0-10 -->
@@ -166,11 +166,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.10"	max="0.3"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.1"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.1"	/>
+		<desc_staggerchance_mult		type="add"	min="0.05"	max="0.08"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.08"	/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 2-11 -->
@@ -179,11 +179,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<PoisonDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.05"	max="0.11"	/>
+		<spell_power_yrden				type="mult"	min="0.05"	max="0.11"	/>
+		<PoisonDamage 					type="add"  min="10" 	max="25"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.09"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.05"	max="0.09"	/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 3-12 -->
@@ -192,11 +192,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="35"	/>
+		<critical_hit_chance			type="add"	min="0.07"	max="0.17"	/>
+		<FrostDamage 					type="add"  min="10" 	max="25"	/>
+		<buff_apply_chance 				type="add" 	min="0.06" max="0.1"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.06" max="0.1"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>	
 	<!-- rnd lvl 4-13, has crafted variant -->
@@ -205,11 +205,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_staggerchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.05"	max="0.1"	/>
+		<critical_hit_chance			type="add"	min="0.10"	max="0.2"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.15"	max="0.4"	/>
+		<desc_staggerchance_mult		type="add"	min="0.08"	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.1"	/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 5-14 -->
@@ -218,11 +218,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="40"	/>
+		<focus_gain 					type="add" 	min="0.05"	max="0.12"	/>
+		<spell_power_quen				type="mult"	min="0.05"	max="0.12"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.08"	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.1"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 6-15 -->
@@ -231,11 +231,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_burningchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.05"	max="0.10"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.12"	/>
+		<FireDamage 					type="add"  min="15" 	max="25"	/>
+		<desc_burningchance_mult		type="add"	min="0.08"	max="0.10"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.10"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 7-16, has crafted variant -->
@@ -244,11 +244,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="40"	/>
+		<FrostDamage 					type="add"  min="15" 	max="25"	/>
+		<spell_power_aard				type="mult"	min="0.05"	max="0.12"	/>
+		<buff_apply_chance 				type="add" 	min="0.08" max="0.10"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.08" max="0.10"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>	
 	<!-- rnd lvl 11-20 -->
@@ -257,11 +257,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.08"	max="0.15"	/>
+		<focus_gain 					type="add" 	min="0.08"	max="0.15"	/>
+		<spell_power_quen				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_staggerchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 11-20 -->
@@ -270,11 +270,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_burningchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="20"	max="60"	/>
+		<critical_hit_chance			type="add"	min="0.15"	max="0.3"	/>
+		<FireDamage 					type="add"  min="20" 	max="30"	/>
+		<desc_burningchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 11-20 -->
@@ -283,11 +283,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.15"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.2"	max="0.6"	/>
+		<spell_power_axii				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>		
 	<!-- rnd lvl 11-20 -->
@@ -296,11 +296,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="20"	max="60"	/>
+		<armor_reduction_perc			type="add"	min="0.06"	max="0.15"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.1"	max="0.15"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 12-21 -->
@@ -309,11 +309,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.08"	max="0.15"	/>
+		<focus_gain 					type="add" 	min="0.08"	max="0.15"	/>
+		<spell_power_yrden				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 13-22 -->
@@ -322,11 +322,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.15"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.2"	max="0.6"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 14-23 -->
@@ -335,11 +335,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>	
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.06"	max="0.15"	/>
+		<FrostDamage 					type="add"  min="25" 	max="35"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.15"	/>	
+		<buff_apply_chance 				type="add" 	min="0.1"	max="0.15"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.1"	max="0.15"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>		
 	<!-- rnd lvl 15-25 -->
@@ -348,11 +348,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<spell_power_axii				type="mult"	min="0.08"	max="0.15"	/>
+		<critical_hit_chance			type="add"	min="0.2"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.25"	max="0.65"	/>
+		<desc_confusionchance_mult		type="add"	min="0.12"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.12"	max="0.15"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 16-26, has crafted variant -->
@@ -361,11 +361,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<PoisonDamage 					type="add"  min="45" 	max="50"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="25"	max="65"	/>
+		<spell_power_yrden				type="mult"	min="0.08"	max="0.15"	/>
+		<PoisonDamage 					type="add"  min="25" 	max="40"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.12"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.12"	max="0.15"	/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 17-27 -->
@@ -374,11 +374,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.08"	max="0.15"	/>
+		<spell_power_quen				type="mult"	min="0.08"	max="0.15"	/>
+		<FrostDamage 					type="add"  min="25" 	max="40"	/>
+		<buff_apply_chance 				type="add" 	min="0.12"	max="0.15"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.12"	max="0.15"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>	
 	<!-- rnd lvl 21+, has crafted variant -->
@@ -387,11 +387,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<armor_reduction_perc			type="add"	min="0.1"	max="0.16"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"	max="0.65"	/>
+		<spell_power_aard				type="mult"	min="0.1"	max="0.15"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 21+ -->
@@ -400,11 +400,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance 				type="add"	min="0.25"				/>
-		<desc_burningchance_mult 		type="add"	min="0.25" 				/>
+		<focus_gain 					type="add" 	min="0.1"	max="0.15"	/>
+		<FireDamage 					type="add"  min="30" 	max="40"	/>
+		<spell_power_igni				type="mult"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance 				type="add"	min="0.15"				/>
+		<desc_burningchance_mult 		type="add"	min="0.15" 				/>
 		<BurningEffect 					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 21+ -->
@@ -413,10 +413,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"   />
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
+		<armor_reduction				type="base"	min="30"	max="65"   />
+		<armor_reduction_perc			type="add"	min="0.1"	max="0.16"	/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"	max="0.65"	/>
 	</ability>	
 	<!-- rnd lvl 21+ -->
 	<ability name="Abarad_Stats"> <!-- 10-15% attack power, 50-75 frost damage, 15% freezing chance, 10-15% yrden power -->
@@ -424,11 +424,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance 				type="add" 	min="0.25" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.25" 				/>
+		<attack_power					type="mult"	min="0.1"	max="0.15"	/>
+		<spell_power_yrden				type="mult"	min="0.1"	max="0.15"	/>
+		<FrostDamage 					type="add"  min="30" 	max="40"	/>
+		<buff_apply_chance 				type="add" 	min="0.15" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.15" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>	
 	<!-- rnd lvl 22+ -->
@@ -437,11 +437,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<armor_reduction				type="base"	min="30"	max="65"	/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"	max="0.65"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 23+ -->
@@ -450,11 +450,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<attack_power					type="mult"	min="0.1"	max="0.15"	/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.3"	/>
+		<spell_power_quen				type="mult"	min="0.1"	max="0.15"	/>
+		<desc_staggerchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 24+ -->
@@ -463,11 +463,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<armor_reduction_perc			type="add"	min="0.12"	max="0.16"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.35"	max="0.65"	/>
+		<spell_power_axii				type="mult"	min="0.1"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>	
 	<!-- rnd lvl 25+ -->
@@ -476,10 +476,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage					type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="45" 	max="50"	/>
-		<buff_apply_chance				type="add"	min="0.25"	 			/>
-		<desc_burningchance_mult		type="add"	min="0.25"				/>
+		<spell_power_igni				type="mult"	min="0.1"	max="0.15"	/>
+		<FireDamage 					type="add"  min="35" 	max="40"	/>
+		<buff_apply_chance				type="add"	min="0.15"	 			/>
+		<desc_burningchance_mult		type="add"	min="0.15"				/>
 		<BurningEffect					is_ability="true"					/>
 		<instant_kill_chance	 		type="add"	min="0.01" 	max="0.03"	/>
 		<instant_kill_chance_mult 		type="add"	min="0.01" 	max="0.03"	/>
@@ -490,11 +490,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SilverDamage 					type="base"	min="1"					/>
 		<dismember_chance				type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.25"				/>
-		<critical_hit_chance			type="add"	min="0.35"				/>
-		<spell_power_aard				type="mult"	min="0.25"				/>
-		<desc_staggerchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<attack_power					type="mult"	min="0.15"				/>
+		<critical_hit_chance			type="add"	min="0.3"				/>
+		<spell_power_aard				type="mult"	min="0.15"				/>
+		<desc_staggerchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>
 	
@@ -508,11 +508,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<PoisonDamage 					type="add"  min="55" 	max="60"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.2" 	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2" 	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="40"	/>
+		<spell_power_aard				type="mult"	min="0.05"	max="0.1"	/>
+		<PoisonDamage 					type="add"  min="20" 	max="30"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.05" 	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05" 	max="0.1"	/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>
 	<!-- unique, where? -->
@@ -521,11 +521,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="55" 	max="60"	/>
-		<desc_burningchance_mult		type="add"	min="0.2" 	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2" 	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.1"	max="0.2"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.1"	/>
+		<FireDamage 					type="add"  min="20" 	max="30"	/>
+		<desc_burningchance_mult		type="add"	min="0.05" 	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05" 	max="0.1"	/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>
 	<!-- unique, where? -->
@@ -534,11 +534,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2" 	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2" 	max="0.25"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.2"	max="0.4"	/>
+		<focus_gain 					type="add" 	min="0.05"	max="0.1"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.1"	/>
+		<desc_confusionchance_mult		type="add"	min="0.05" 	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05" 	max="0.1"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- King's Gambit reward, quest lvl 18 -> 22 -->
@@ -547,11 +547,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.75"				/>
-		<FireDamage 					type="add"  min="60"				/>
-		<spell_power_igni				type="mult"	min="0.25"				/>
-		<desc_burningchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<critical_hit_damage_bonus		type="add"	min="0.6"				/>
+		<FireDamage 					type="add"  min="45"				/>
+		<spell_power_igni				type="mult"	min="0.15"				/>
+		<desc_burningchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<BurningEffect					is_ability="true"					/>
 	</ability>
 	<!-- KM battle, new gear, lvl 24 -->
@@ -560,11 +560,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<armor_reduction_perc			type="add"	min="0.12"	max="0.16"	/>
+		<spell_power_axii				type="mult"	min="0.1"	max="0.15"	/>
+		<spell_power_yrden				type="mult"	min="0.1"	max="0.15"	/>
+		<desc_staggerchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>
 	<!-- KM battle, new gear, lvl 24 -->
@@ -573,21 +573,21 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.35"	max="0.65"	/>
+		<spell_power_quen				type="mult"	min="0.1"	max="0.15"	/>
+		<spell_power_igni				type="mult"	min="0.1"	max="0.15"	/>
 	</ability>
 	<!-- killed Eredin, lvl 30 -->
 	<ability name="Havcaaren_Stats"> <!--  -->
 		<weight							type="base"	min="4"					/>
-		<quality						type="add"	min="4"		max="4"		/>
+		<quality						type="add"	min="4"					/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance				type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.75"				/>
-		<spell_power_aard				type="mult"	min="0.25"				/>
-		<buff_apply_chance 				type="add" 	min="0.25" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.25" 				/>
+		<critical_hit_damage_bonus		type="add"	min="0.65"				/>
+		<spell_power_aard				type="mult"	min="0.15"				/>
+		<buff_apply_chance 				type="add" 	min="0.15" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.15" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 		<instant_kill_chance	 		type="add"	min="0.03"				/>
 		<instant_kill_chance_mult 		type="add"	min="0.03"				/>
@@ -601,10 +601,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.04"	max="0.08"	/>
+		<attack_power					type="mult"	min="0.05"	max="0.1"	/>
+		<spell_power_quen				type="mult"	min="0.05"	max="0.1"	/>
+		<spell_power_yrden				type="mult"	min="0.05"	max="0.1"	/>
 	</ability>
 	<!-- living world -->
 	<ability name="Moonblade_Stats"> <!-- 5-10% focus gain, 5-8% freezing chance, 5-10% yrden power, 10-35 frost damage -->
@@ -612,11 +612,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="55" 	max="60"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<focus_gain 					type="add" 	min="0.05"	max="0.1"	/>
+		<FrostDamage 					type="add"  min="20" 	max="30"	/>
+		<spell_power_yrden				type="mult"	min="0.05"	max="0.1"	/>
+		<buff_apply_chance 				type="add" 	min="0.05"	max="0.08"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.05"	max="0.08"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	
@@ -628,11 +628,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.2"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.4"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.12"	/>
+		<desc_confusionchance_mult		type="add"	min="0.05"	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.1"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 0-15 -->
@@ -641,11 +641,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="55" 	max="60"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<armor_reduction_perc			type="add"	min="0.04"	max="0.1"	/>
+		<spell_power_aard				type="mult"	min="0.05"	max="0.12"	/>
+		<FrostDamage 					type="add"  min="20" 	max="35"	/>
+		<buff_apply_chance 				type="add" 	min="0.05"	max="0.1"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.05"	max="0.1"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	<!-- rnd lvl 0-15 -->
@@ -654,11 +654,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="10"	max="40"	/>
+		<critical_hit_chance			type="add"	min="0.05"	max="0.2"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.1"	max="0.4"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.05"	max="0.1"	/>
+		<buff_apply_chance				type="add"	min="0.05"	max="0.1"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 0-15 -->
@@ -667,11 +667,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="55" 	max="60"	/>
-		<buff_apply_chance 				type="add"	min="0.2"	max="0.25"	/>
-		<desc_burningchance_mult 		type="add"	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.05"	max="0.12"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.12"	/>
+		<FireDamage 					type="add"  min="20" 	max="35"	/>
+		<buff_apply_chance 				type="add"	min="0.05"	max="0.1"	/>
+		<desc_burningchance_mult 		type="add"	min="0.05"	max="0.1"	/>
 		<BurningEffect 					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 3-17 -->
@@ -680,11 +680,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
-		<desc_staggerchance_mult		type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.15"	max="0.5"	/>
+		<spell_power_yrden				type="mult"	min="0.05"	max="0.12"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.12"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.12"	/>
+		<desc_staggerchance_mult		type="add"	min="0.08"	max="0.12"	/>
 		<StaggerEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 5-19 -->
@@ -693,11 +693,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="50"	/>
+		<armor_reduction_perc			type="add"	min="0.05"	max="0.12"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.12"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.08"	max="0.12"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.12"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 7-21 -->
@@ -706,11 +706,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<FrostDamage 					type="add"  min="55" 	max="60"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance 				type="add" 	min="0.2"	max="0.25"	/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.2"	max="0.25"	/>
+		<FrostDamage 					type="add"  min="25" 	max="45"	/>
+		<spell_power_igni				type="mult"	min="0.05"	max="0.12"	/>
+		<spell_power_quen				type="mult"	min="0.05"	max="0.12"	/>
+		<buff_apply_chance 				type="add" 	min="0.08"	max="0.15"	/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.08"	max="0.15"	/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	<!-- rnd lvl 9-23 -->
@@ -719,11 +719,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="15"	max="60"	/>
+		<focus_gain 					type="add" 	min="0.05"	max="0.15"	/>
+		<spell_power_axii				type="mult"	min="0.05"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.08"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.08"	max="0.15"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 11+ -->
@@ -732,11 +732,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<FireDamage 					type="add"  min="55" 	max="60"	/>
-		<buff_apply_chance 				type="add" min="0.2"	max="0.25"	/>
-		<desc_burningchance_mult 		type="add" min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.08"	max="0.15"	/>
+		<critical_hit_chance			type="add"	min="0.15"	max="0.3"	/>
+		<FireDamage 					type="add"  min="25" 	max="45"	/>
+		<buff_apply_chance 				type="add" min="0.1"	max="0.15"	/>
+		<desc_burningchance_mult 		type="add" min="0.1"	max="0.15"	/>
 		<BurningEffect 					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 13+ -->
@@ -745,11 +745,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_chance			type="add"	min="0.15"	max="0.3"	/>
+		<spell_power_igni				type="mult"	min="0.08"	max="0.15"	/>
+		<spell_power_yrden				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.1"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.1"	max="0.15"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 16+ -->
@@ -758,11 +758,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.2"	max="0.25"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.25"	max="0.65"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.15"	/>
+		<spell_power_quen				type="mult"	min="0.08"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.12"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.12"	max="0.15"	/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 16+ -->
@@ -771,10 +771,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_axii				type="mult"	min="0.2"	max="0.25"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"  />
+		<armor_reduction_perc			type="add"	min="0.08"	max="0.16"	/>
+		<spell_power_aard				type="mult"	min="0.08"	max="0.15"	/>
+		<spell_power_axii				type="mult"	min="0.08"	max="0.15"	/>
+		<spell_power_yrden				type="mult"	min="0.08"	max="0.15"  />
 	</ability>
 	<!-- rnd lvl 16+ -->
 	<ability name="Gynvael_Stats"> <!-- 25-65 armor reduction, 12-15% poison chance, 8-15% quen power, 50-75 poison damage -->
@@ -782,11 +782,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<spell_power_quen				type="mult"	min="0.2"	max="0.25"	/>
-		<PoisonDamage 					type="add"  min="55" 	max="60"	/>
-		<desc_poinsonchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="25"	max="65"	/>
+		<spell_power_quen				type="mult"	min="0.08"	max="0.15"	/>
+		<PoisonDamage 					type="add"  min="35" 	max="45"	/>
+		<desc_poinsonchance_mult		type="add"	min="0.12"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.12"	max="0.15"	/>
 		<PoisonEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 16+ -->
@@ -795,10 +795,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<focus_gain 					type="add" 	min="0.2"	max="0.25"	/>
+		<attack_power					type="mult"	min="0.08"	max="0.15"	/>
+		<critical_hit_chance			type="add"	min="0.2"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.45"	max="0.75"	/>
+		<focus_gain 					type="add" 	min="0.08"	max="0.15"	/>
 	</ability>
 	<!-- rnd lvl 18+ -->
 	<ability name="Virgin_Stats"> <!-- 25-65 armor reduction, 8-16% armor reduction, 12-15% bleeding chance, 8-15% igni power -->
@@ -806,11 +806,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction				type="base"	min="80"	max="90"	/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.2"	max="0.25"	/>
-		<buff_apply_chance				type="add"	min="0.2"	max="0.25"	/>
+		<armor_reduction				type="base"	min="25"	max="65"	/>
+		<armor_reduction_perc			type="add"	min="0.08"	max="0.16"	/>
+		<spell_power_igni				type="mult"	min="0.08"	max="0.15"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.12"	max="0.15"	/>
+		<buff_apply_chance				type="add"	min="0.12"	max="0.15"	/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 20+ -->
@@ -819,11 +819,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<spell_power_yrden				type="mult"	min="0.2"	max="0.25"	/>
-		<desc_confusionchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<armor_reduction_perc			type="add"	min="0.12"	max="0.16"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"	max="0.65"	/>
+		<spell_power_yrden				type="mult"	min="0.1"	max="0.15"	/>
+		<desc_confusionchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<ConfusionEffect				is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 22+ -->
@@ -832,11 +832,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<attack_power					type="mult"	min="0.2"	max="0.25"	/>
-		<critical_hit_chance			type="add"	min="0.3"	max="0.35"	/>
-		<critical_hit_damage_bonus		type="add"	min="0.65"	max="0.75"	/>
-		<desc_bleedingchance_mult		type="add"	min="0.25"				/>
-		<buff_apply_chance				type="add"	min="0.25"				/>
+		<attack_power					type="mult"	min="0.1"	max="0.15"	/>
+		<critical_hit_chance			type="add"	min="0.25"	max="0.3"	/>
+		<critical_hit_damage_bonus		type="add"	min="0.3"	max="0.65"	/>
+		<desc_bleedingchance_mult		type="add"	min="0.15"				/>
+		<buff_apply_chance				type="add"	min="0.15"				/>
 		<BleedingEffect					is_ability="true"					/>
 	</ability>
 	<!-- rnd lvl 24+ -->
@@ -845,11 +845,11 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<armor_reduction_perc			type="add"	min="0.2"	max="0.25"	/>
-		<spell_power_aard				type="mult"	min="0.2"	max="0.25"	/>
-		<FrostDamage 					type="add"  min="55" 	max="60"	/>
-		<buff_apply_chance 				type="add" 	min="0.25" 				/>	
-		<desc_freezingchance_mult 		type="add" 	min="0.25" 				/>
+		<armor_reduction_perc			type="add"	min="0.12"	max="0.16"	/>
+		<spell_power_aard				type="mult"	min="0.1"	max="0.15"	/>
+		<FrostDamage 					type="add"  min="45" 	max="50"	/>
+		<buff_apply_chance 				type="add" 	min="0.15" 				/>	
+		<desc_freezingchance_mult 		type="add" 	min="0.15" 				/>
 		<SlowdownFrostEffect 			is_ability="true" 					/>
 	</ability>
 	<!-- rnd lvl 25+ -->
@@ -858,10 +858,10 @@
 		<quality						type="add"	min="4"		max="4"		/>
 		<SlashingDamage 				type="base"	min="1"					/>
 		<dismember_chance			type="add"	min="0.1"				/>
-		<spell_power_igni				type="mult"	min="0.2"	max="0.25"	/>
-		<FireDamage 					type="add"  min="55" 	max="60"	/>
-		<buff_apply_chance				type="add"	min="0.25"	 			/>
-		<desc_burningchance_mult		type="add"	min="0.25"				/>
+		<spell_power_igni				type="mult"	min="0.10"	max="0.15"	/>
+		<FireDamage 					type="add"  min="45" 	max="50"	/>
+		<buff_apply_chance				type="add"	min="0.15"	 			/>
+		<desc_burningchance_mult		type="add"	min="0.15"				/>
 		<BurningEffect					is_ability="true"					/>
 		<instant_kill_chance 			type="add" min="0.01" 	max="0.03"	/>
 		<instant_kill_chance_mult		type="add" min="0.01" 	max="0.03"	/>

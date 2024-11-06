@@ -1,520 +1,520 @@
-quick_sand.w2ent:    CEntityTemplate #0 (CEntityTemplate) : W3WitchBoilingWaterObstacle
-quick_sand.w2ent:        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
-quick_sand.w2ent:            properOverrides (Bool) : true
-quick_sand.w2ent:            entityClass (CName) : W3WitchBoilingWaterObstacle
-quick_sand.w2ent:            entityObject (ptr:CEntity) : W3WitchBoilingWaterObstacle #1
-quick_sand.w2ent:            slots (array:EntitySlot) : # array:EntitySlot
-quick_sand.w2ent:                0 (EntitySlot) : fx
-quick_sand.w2ent:                    name (CName) : fx
-quick_sand.w2ent:            flatCompiledData (array:Uint8) : # array:Uint8
-quick_sand.w2ent:                W3WitchBoilingWaterObstacle #0 (W3WitchBoilingWaterObstacle) : quicksand
-quick_sand.w2ent:                    W3WitchBoilingWaterObstacle (W3WitchBoilingWaterObstacle) : PreviewEntity
-quick_sand.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-quick_sand.w2ent:                            Bufferdata (CByteArray) : 577 bytes, MD5: c6ec208467ba5f622ffe8def6e3bd8d7
-quick_sand.w2ent:                            CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
-quick_sand.w2ent:                                CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-quick_sand.w2ent:                                    guid (CGUID) : d3b8a23b-6d0b-4dce-a8d8-0416fbfa2058
-quick_sand.w2ent:                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                                    name (String) : "CSoundEmitterComponent0"
-quick_sand.w2ent:                                    graphPositionX (Int16) : 414
-quick_sand.w2ent:                                    graphPositionY (Int16) : 321
-quick_sand.w2ent:                                    banksDependency (array:CName) : # array:CName
-quick_sand.w2ent:                                        0 (CName) : magic_man_mage.bnk
-quick_sand.w2ent:                                    maxDistance (Float) : 50.0000
-quick_sand.w2ent:                        streamingDistance (Uint8) : 7
-quick_sand.w2ent:                        autoPlayEffectName (CName) : quicksand
-quick_sand.w2ent:                        name (String) : "PreviewEntity"
-quick_sand.w2ent:                        Components (array:ptr:CComponent) : # array:ptr:CComponent
-quick_sand.w2ent:                            0 (ptr:CComponent) : CEffectDummyComponent #1
-quick_sand.w2ent:                            1 (ptr:CComponent) : CPhantomComponent #2
-quick_sand.w2ent:                            2 (ptr:CComponent) : W3SummonedEntityComponent #3
-quick_sand.w2ent:                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-quick_sand.w2ent:                            0 (SEntityBufferType1) : 
-quick_sand.w2ent:                                ComponentName (CName) : 
-quick_sand.w2ent:                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-quick_sand.w2ent:                        idTag (IdTag) :  8a877004-90e1-4114-8fc0-b2ab9a7c8a30
-quick_sand.w2ent:                        lifeTimeDuration (SRangeF) : <SRangeF>lifeTimeDuration
-quick_sand.w2ent:                            min (Float) : 8.0000
-quick_sand.w2ent:                            max (Float) : 10.0000
-quick_sand.w2ent:                        disappearEffectName (CName) : quicksand
-quick_sand.w2ent:                        simplyStopEffect (Bool) : true
-quick_sand.w2ent:                        applyDebuffType (EEffectType) : EET_Confusion
-quick_sand.w2ent:                        debuffDuration (Float) : 3.0000
-quick_sand.w2ent:                        damageValue (Float) : 300.0000
-quick_sand.w2ent:                        allowDmgValueOverrideFromXML (Bool) : false
-quick_sand.w2ent:                        attackDelay (Float) : 2.0000
-quick_sand.w2ent:                        attackRadius (Float) : 0.4000
-quick_sand.w2ent:                        ignoreVictimWithTag (CName) : hakland_mage
-quick_sand.w2ent:                        preAttackEffectName (CName) : quicksand_yrden
-quick_sand.w2ent:                        attackEffectName (CName) : quick_sand_hit
-quick_sand.w2ent:                        hitReactionType (EHitReactionType) : EHRT_Light
-quick_sand.w2ent:                        loopedAttack (Bool) : true
-quick_sand.w2ent:                        playAttackEffectOnlyWhenHit (Bool) : true
-quick_sand.w2ent:                        useSeperateAttackEffectEntity (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/mage/quick_sand_hit.w2ent
-quick_sand.w2ent:                        onHitCameraShakeStrength (Float) : 1.0000
-quick_sand.w2ent:                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
-quick_sand.w2ent:                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-quick_sand.w2ent:                        guid (CGUID) : 843d5b28-915a-4480-9b00-9dc9809f3c3a
-quick_sand.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        name (String) : "CEffectDummyComponent0"
-quick_sand.w2ent:                        graphPositionX (Int16) : -61
-quick_sand.w2ent:                        graphPositionY (Int16) : 274
-quick_sand.w2ent:                CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
-quick_sand.w2ent:                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-quick_sand.w2ent:                        guid (CGUID) : 7441dcf9-c05d-4662-90fb-59ab3b4aeb31
-quick_sand.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        name (String) : "CPhantomComponent0"
-quick_sand.w2ent:                        graphPositionX (Int16) : 171
-quick_sand.w2ent:                        graphPositionY (Int16) : 319
-quick_sand.w2ent:                        shapeType (EPhantomShape) : PS_Sphere
-quick_sand.w2ent:                        shapeDimensions (Vector) : <Vector>shapeDimensions
-quick_sand.w2ent:                            X (Float) : 1.0000
-quick_sand.w2ent:                            Y (Float) : 0.0500
-quick_sand.w2ent:                            Z (Float) : 0.0500
-quick_sand.w2ent:                            W (Float) : 1.0000
-quick_sand.w2ent:                W3SummonedEntityComponent #3 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
-quick_sand.w2ent:                    W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
-quick_sand.w2ent:                        guid (CGUID) : e041cac1-7c12-4d5e-a5f3-cbebf4ea21c9
-quick_sand.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        name (String) : "W3SummonedEntityComponent0"
-quick_sand.w2ent:                        graphPositionX (Int16) : 259
-quick_sand.w2ent:                        graphPositionY (Int16) : 228
-quick_sand.w2ent:            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
-quick_sand.w2ent:                0 (CEntityTemplateCookedEffect) : quicksand
-quick_sand.w2ent:                    name (CName) : quicksand
-quick_sand.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-quick_sand.w2ent:                        Bufferdata (CByteArray) : 2080 bytes, MD5: b9c8870ae95a290419d87a4355a029bb
-quick_sand.w2ent:                        CFXDefinition #0 (CFXDefinition) : quicksand
-quick_sand.w2ent:                            CFXDefinition (CFXDefinition) : quicksand
-quick_sand.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-quick_sand.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-quick_sand.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
-quick_sand.w2ent:                                length (Float) : 2.9617
-quick_sand.w2ent:                                loopStart (Float) : 0.3735
-quick_sand.w2ent:                                loopEnd (Float) : 0.6804
-quick_sand.w2ent:                                name (CName) : quicksand
-quick_sand.w2ent:                                showDistance (Float) : 55.0000
-quick_sand.w2ent:                                isLooped (Bool) : true
-quick_sand.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sfx
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sfx
-quick_sand.w2ent:                                name (String) : "sfx"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 227
-quick_sand.w2ent:                                    Green (Uint8) : 183
-quick_sand.w2ent:                                    Blue (Uint8) : 220
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : sfx
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-quick_sand.w2ent:                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
-quick_sand.w2ent:                                name (String) : "sfx"
-quick_sand.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-quick_sand.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-quick_sand.w2ent:                                timeBegin (Float) : 0.0100
-quick_sand.w2ent:                                buffername (CName) : 
-quick_sand.w2ent:                                count (CDynamicInt) : 0
-quick_sand.w2ent:                                unk (Uint8) : 0
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-quick_sand.w2ent:                                soundEventName (StringAnsi) : magic_man_quicksand_loop_start
-quick_sand.w2ent:                                maxDistance (Float) : 40.0000
-quick_sand.w2ent:                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
-quick_sand.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-quick_sand.w2ent:                                timeBegin (Float) : 0.6900
-quick_sand.w2ent:                                buffername (CName) : 
-quick_sand.w2ent:                                count (CDynamicInt) : 0
-quick_sand.w2ent:                                unk (Uint8) : 0
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-quick_sand.w2ent:                                soundEventName (StringAnsi) : magic_man_quicksand_loop_stop
-quick_sand.w2ent:                                maxDistance (Float) : 40.0000
-quick_sand.w2ent:                        CFXTrackGroup #5 (CFXTrackGroup) : fx
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-quick_sand.w2ent:                                name (String) : "fx"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #6
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 220
-quick_sand.w2ent:                                    Green (Uint8) : 236
-quick_sand.w2ent:                                    Blue (Uint8) : 144
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #6 (CFXTrack) : asd
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : asd
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
-quick_sand.w2ent:                                name (String) : "asd"
-quick_sand.w2ent:                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
-quick_sand.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-quick_sand.w2ent:                                timeDuration (Float) : 3.2886
-quick_sand.w2ent:                                buffername (CName) : Particles
-quick_sand.w2ent:                                count (CDynamicInt) : 3
-quick_sand.w2ent:                                unk (Uint8) : 1
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1>
-quick_sand.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 0.6173
-quick_sand.w2ent:                                        5 (Float) : 0.1235
-quick_sand.w2ent:                                        6 (Float) : 0.0000
-quick_sand.w2ent:                                        7 (Float) : 0.0000
-quick_sand.w2ent:                                        8 (Float) : 0.0000
-quick_sand.w2ent:                                        9 (Float) : 0.0000
-quick_sand.w2ent:                                        10 (Float) : 0.0000
-quick_sand.w2ent:                                        11 (Float) : 0.0000
-quick_sand.w2ent:                                        12 (Float) : 0.0000
-quick_sand.w2ent:                                        13 (Float) : 0.0000
-quick_sand.w2ent:                                        14 (Float) : 0.0000
-quick_sand.w2ent:                                        15 (Float) : 0.0000
-quick_sand.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_trap3.w2p
-quick_sand.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #8
-quick_sand.w2ent:                        CFXSimpleSpawner #8 (CFXSimpleSpawner) : 
-quick_sand.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-quick_sand.w2ent:                                slotNames (array:CName) : # array:CName
-quick_sand.w2ent:                                    0 (CName) : fx
-quick_sand.w2ent:                1 (CEntityTemplateCookedEffect) : attack_fx1
-quick_sand.w2ent:                    name (CName) : attack_fx1
-quick_sand.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-quick_sand.w2ent:                        Bufferdata (CByteArray) : 1957 bytes, MD5: 5cfbfe08480c8eb4a8e860a8c336490a
-quick_sand.w2ent:                        CFXDefinition #0 (CFXDefinition) : attack_fx1
-quick_sand.w2ent:                            CFXDefinition (CFXDefinition) : attack_fx1
-quick_sand.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-quick_sand.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-quick_sand.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
-quick_sand.w2ent:                                length (Float) : 5.2948
-quick_sand.w2ent:                                loopStart (Float) : 0.3091
-quick_sand.w2ent:                                name (CName) : attack_fx1
-quick_sand.w2ent:                                showDistance (Float) : 50.0000
-quick_sand.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
-quick_sand.w2ent:                                name (String) : "sounds"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 253
-quick_sand.w2ent:                                    Green (Uint8) : 151
-quick_sand.w2ent:                                    Blue (Uint8) : 151
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : sfx
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-quick_sand.w2ent:                                name (String) : "sfx"
-quick_sand.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-quick_sand.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-quick_sand.w2ent:                                timeBegin (Float) : 0.0059
-quick_sand.w2ent:                                buffername (CName) : 
-quick_sand.w2ent:                                count (CDynamicInt) : 0
-quick_sand.w2ent:                                unk (Uint8) : 0
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-quick_sand.w2ent:                                soundEventName (StringAnsi) : magic_man_sand_trap_explode
-quick_sand.w2ent:                                maxDistance (Float) : 40.0000
-quick_sand.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : particle
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : particle
-quick_sand.w2ent:                                name (String) : "particle"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 233
-quick_sand.w2ent:                                    Green (Uint8) : 200
-quick_sand.w2ent:                                    Blue (Uint8) : 147
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #5 (CFXTrack) : fx
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : fx
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
-quick_sand.w2ent:                                name (String) : "fx"
-quick_sand.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
-quick_sand.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-quick_sand.w2ent:                                timeBegin (Float) : 0.0155
-quick_sand.w2ent:                                timeDuration (Float) : 5.2551
-quick_sand.w2ent:                                buffername (CName) : Particles
-quick_sand.w2ent:                                count (CDynamicInt) : 3
-quick_sand.w2ent:                                unk (Uint8) : 1
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
-quick_sand.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_trap_explode.w2p
-quick_sand.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
-quick_sand.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
-quick_sand.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-quick_sand.w2ent:                                slotNames (array:CName) : # array:CName
-quick_sand.w2ent:                                    0 (CName) : fx
-quick_sand.w2ent:                2 (CEntityTemplateCookedEffect) : quicksand_yrden
-quick_sand.w2ent:                    name (CName) : quicksand_yrden
-quick_sand.w2ent:                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
-quick_sand.w2ent:                        Bufferdata (CByteArray) : 1966 bytes, MD5: c02b781355b04b56d73318db65cf7b1d
-quick_sand.w2ent:                        CFXDefinition #0 (CFXDefinition) : quicksand_yrden
-quick_sand.w2ent:                            CFXDefinition (CFXDefinition) : quicksand_yrden
-quick_sand.w2ent:                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
-quick_sand.w2ent:                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
-quick_sand.w2ent:                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
-quick_sand.w2ent:                                length (Float) : 2.9617
-quick_sand.w2ent:                                loopStart (Float) : 0.3735
-quick_sand.w2ent:                                loopEnd (Float) : 0.6804
-quick_sand.w2ent:                                name (CName) : quicksand_yrden
-quick_sand.w2ent:                                showDistance (Float) : 55.0000
-quick_sand.w2ent:                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : sounds
-quick_sand.w2ent:                                name (String) : "sounds"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #2
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 135
-quick_sand.w2ent:                                    Green (Uint8) : 157
-quick_sand.w2ent:                                    Blue (Uint8) : 173
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #2 (CFXTrack) : sfx
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : sfx
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
-quick_sand.w2ent:                                name (String) : "sfx"
-quick_sand.w2ent:                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
-quick_sand.w2ent:                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
-quick_sand.w2ent:                                timeBegin (Float) : 0.0100
-quick_sand.w2ent:                                buffername (CName) : 
-quick_sand.w2ent:                                count (CDynamicInt) : 0
-quick_sand.w2ent:                                unk (Uint8) : 0
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
-quick_sand.w2ent:                                soundEventName (StringAnsi) : magic_man_sand_trap_explode
-quick_sand.w2ent:                                maxDistance (Float) : 40.0000
-quick_sand.w2ent:                        CFXTrackGroup #4 (CFXTrackGroup) : fx
-quick_sand.w2ent:                            CFXTrackGroup (CFXTrackGroup) : fx
-quick_sand.w2ent:                                name (String) : "fx"
-quick_sand.w2ent:                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
-quick_sand.w2ent:                                    0 (ptr:CFXTrack) : CFXTrack #5
-quick_sand.w2ent:                                isExpanded (Bool) : true
-quick_sand.w2ent:                                trackGroupColor (Color) : <Color>trackGroupColor
-quick_sand.w2ent:                                    Red (Uint8) : 220
-quick_sand.w2ent:                                    Green (Uint8) : 236
-quick_sand.w2ent:                                    Blue (Uint8) : 144
-quick_sand.w2ent:                                    Alpha (Uint8) : 100
-quick_sand.w2ent:                        CFXTrack #5 (CFXTrack) : asd
-quick_sand.w2ent:                            CFXTrack (CFXTrack) : asd
-quick_sand.w2ent:                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
-quick_sand.w2ent:                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
-quick_sand.w2ent:                                name (String) : "asd"
-quick_sand.w2ent:                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
-quick_sand.w2ent:                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
-quick_sand.w2ent:                                timeDuration (Float) : 3.2886
-quick_sand.w2ent:                                buffername (CName) : Particles
-quick_sand.w2ent:                                count (CDynamicInt) : 3
-quick_sand.w2ent:                                unk (Uint8) : 1
-quick_sand.w2ent:                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1>
-quick_sand.w2ent:                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 0.6173
-quick_sand.w2ent:                                        5 (Float) : 0.1235
-quick_sand.w2ent:                                        6 (Float) : 0.0000
-quick_sand.w2ent:                                        7 (Float) : 0.0000
-quick_sand.w2ent:                                        8 (Float) : 0.0000
-quick_sand.w2ent:                                        9 (Float) : 0.0000
-quick_sand.w2ent:                                        10 (Float) : 0.0000
-quick_sand.w2ent:                                        11 (Float) : 0.0000
-quick_sand.w2ent:                                        12 (Float) : 0.0000
-quick_sand.w2ent:                                        13 (Float) : 0.0000
-quick_sand.w2ent:                                        14 (Float) : 0.0000
-quick_sand.w2ent:                                        15 (Float) : 0.0000
-quick_sand.w2ent:                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
-quick_sand.w2ent:                                        0 (Float) : 1.0000
-quick_sand.w2ent:                                        2 (Float) : 1.0000
-quick_sand.w2ent:                                        3 (Float) : 1.0000
-quick_sand.w2ent:                                        4 (Float) : 1.0000
-quick_sand.w2ent:                                        5 (Float) : 1.0000
-quick_sand.w2ent:                                        6 (Float) : 1.0000
-quick_sand.w2ent:                                        7 (Float) : 1.0000
-quick_sand.w2ent:                                        8 (Float) : 1.0000
-quick_sand.w2ent:                                        9 (Float) : 1.0000
-quick_sand.w2ent:                                        10 (Float) : 1.0000
-quick_sand.w2ent:                                        11 (Float) : 1.0000
-quick_sand.w2ent:                                        12 (Float) : 1.0000
-quick_sand.w2ent:                                        13 (Float) : 1.0000
-quick_sand.w2ent:                                        14 (Float) : 1.0000
-quick_sand.w2ent:                                        15 (Float) : 1.0000
-quick_sand.w2ent:                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_yrden.w2p
-quick_sand.w2ent:                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
-quick_sand.w2ent:                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
-quick_sand.w2ent:                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
-quick_sand.w2ent:                                slotNames (array:CName) : # array:CName
-quick_sand.w2ent:                                    0 (CName) : fx
-quick_sand.w2ent:            cookedEffectsVersion (Uint32) : 1
-quick_sand.w2ent:            Unk1 (Uint32) : 0
-quick_sand.w2ent:    W3WitchBoilingWaterObstacle #1 (W3WitchBoilingWaterObstacle) : quicksand
-quick_sand.w2ent:        W3WitchBoilingWaterObstacle (W3WitchBoilingWaterObstacle) : 
-quick_sand.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
-quick_sand.w2ent:                Bufferdata (CByteArray) : 577 bytes, MD5: 68650185b314ebcc6279035f8bc85c3b
-quick_sand.w2ent:                CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
-quick_sand.w2ent:                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
-quick_sand.w2ent:                        guid (CGUID) : d3b8a23b-6d0b-4dce-a8d8-0416fbfa2058
-quick_sand.w2ent:                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:                        name (String) : "CSoundEmitterComponent0"
-quick_sand.w2ent:                        graphPositionX (Int16) : 414
-quick_sand.w2ent:                        graphPositionY (Int16) : 321
-quick_sand.w2ent:                        banksDependency (array:CName) : # array:CName
-quick_sand.w2ent:                            0 (CName) : magic_man_mage.bnk
-quick_sand.w2ent:                        maxDistance (Float) : 50.0000
-quick_sand.w2ent:            streamingDistance (Uint8) : 7
-quick_sand.w2ent:            autoPlayEffectName (CName) : quicksand
-quick_sand.w2ent:            Components (array:ptr:CComponent) : # array:ptr:CComponent
-quick_sand.w2ent:                0 (ptr:CComponent) : CEffectDummyComponent #2
-quick_sand.w2ent:                1 (ptr:CComponent) : CPhantomComponent #3
-quick_sand.w2ent:                2 (ptr:CComponent) : W3SummonedEntityComponent #4
-quick_sand.w2ent:            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
-quick_sand.w2ent:                0 (SEntityBufferType1) : 
-quick_sand.w2ent:                    ComponentName (CName) : 
-quick_sand.w2ent:            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
-quick_sand.w2ent:            idTag (IdTag) :  8a877004-90e1-4114-8fc0-b2ab9a7c8a30
-quick_sand.w2ent:            lifeTimeDuration (SRangeF) : <SRangeF>lifeTimeDuration
-quick_sand.w2ent:                min (Float) : 8.0000
-quick_sand.w2ent:                max (Float) : 10.0000
-quick_sand.w2ent:            disappearEffectName (CName) : quicksand
-quick_sand.w2ent:            simplyStopEffect (Bool) : true
-quick_sand.w2ent:            applyDebuffType (EEffectType) : EET_Confusion
-quick_sand.w2ent:            debuffDuration (Float) : 3.0000
-quick_sand.w2ent:            damageValue (Float) : 300.0000
-quick_sand.w2ent:            allowDmgValueOverrideFromXML (Bool) : false
-quick_sand.w2ent:            attackDelay (Float) : 2.0000
-quick_sand.w2ent:            attackRadius (Float) : 0.4000
-quick_sand.w2ent:            ignoreVictimWithTag (CName) : hakland_mage
-quick_sand.w2ent:            preAttackEffectName (CName) : quicksand_yrden
-quick_sand.w2ent:            attackEffectName (CName) : quick_sand_hit
-quick_sand.w2ent:            hitReactionType (EHitReactionType) : EHRT_Light
-quick_sand.w2ent:            loopedAttack (Bool) : true
-quick_sand.w2ent:            playAttackEffectOnlyWhenHit (Bool) : true
-quick_sand.w2ent:            useSeperateAttackEffectEntity (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/mage/quick_sand_hit.w2ent
-quick_sand.w2ent:            onHitCameraShakeStrength (Float) : 1.0000
-quick_sand.w2ent:    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
-quick_sand.w2ent:        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
-quick_sand.w2ent:            guid (CGUID) : 843d5b28-915a-4480-9b00-9dc9809f3c3a
-quick_sand.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            name (String) : "CEffectDummyComponent0"
-quick_sand.w2ent:    CPhantomComponent #3 (CPhantomComponent) : CPhantomComponent0
-quick_sand.w2ent:        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
-quick_sand.w2ent:            guid (CGUID) : 7441dcf9-c05d-4662-90fb-59ab3b4aeb31
-quick_sand.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            name (String) : "CPhantomComponent0"
-quick_sand.w2ent:            shapeType (EPhantomShape) : PS_Sphere
-quick_sand.w2ent:            shapeDimensions (Vector) : <Vector>shapeDimensions
-quick_sand.w2ent:                X (Float) : 1.0000
-quick_sand.w2ent:                Y (Float) : 0.0500
-quick_sand.w2ent:                Z (Float) : 0.0500
-quick_sand.w2ent:                W (Float) : 1.0000
-quick_sand.w2ent:    W3SummonedEntityComponent #4 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
-quick_sand.w2ent:        W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
-quick_sand.w2ent:            guid (CGUID) : e041cac1-7c12-4d5e-a5f3-cbebf4ea21c9
-quick_sand.w2ent:            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            attachments (array:handle:IAttachment) : # array:handle:IAttachment
-quick_sand.w2ent:            name (String) : "W3SummonedEntityComponent0"
+    CEntityTemplate #0 (CEntityTemplate) : W3WitchBoilingWaterObstacle
+        CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
+            properOverrides (Bool) : true
+            entityClass (CName) : W3WitchBoilingWaterObstacle
+            entityObject (ptr:CEntity) : W3WitchBoilingWaterObstacle #1
+            slots (array:EntitySlot) : # array:EntitySlot
+                0 (EntitySlot) : fx
+                    name (CName) : fx
+            flatCompiledData (array:Uint8) : # array:Uint8
+                W3WitchBoilingWaterObstacle #0 (W3WitchBoilingWaterObstacle) : quicksand
+                    W3WitchBoilingWaterObstacle (W3WitchBoilingWaterObstacle) : PreviewEntity
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                            Bufferdata (CByteArray) : 577 bytes, MD5: c6ec208467ba5f622ffe8def6e3bd8d7
+                            CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                                CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                                    guid (CGUID) : d3b8a23b-6d0b-4dce-a8d8-0416fbfa2058
+                                    AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                                    AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                                    name (String) : "CSoundEmitterComponent0"
+                                    graphPositionX (Int16) : 414
+                                    graphPositionY (Int16) : 321
+                                    banksDependency (array:CName) : # array:CName
+                                        0 (CName) : magic_man_mage.bnk
+                                    maxDistance (Float) : 50.0000
+                        streamingDistance (Uint8) : 7
+                        autoPlayEffectName (CName) : quicksand
+                        name (String) : "PreviewEntity"
+                        Components (array:ptr:CComponent) : # array:ptr:CComponent
+                            0 (ptr:CComponent) : CEffectDummyComponent #1
+                            1 (ptr:CComponent) : CPhantomComponent #2
+                            2 (ptr:CComponent) : W3SummonedEntityComponent #3
+                        BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                            0 (SEntityBufferType1) : 
+                                ComponentName (CName) : 
+                        BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+                        idTag (IdTag) :  8a877004-90e1-4114-8fc0-b2ab9a7c8a30
+                        lifeTimeDuration (SRangeF) : <SRangeF>lifeTimeDuration
+                            min (Float) : 8.0000
+                            max (Float) : 10.0000
+                        disappearEffectName (CName) : quicksand
+                        simplyStopEffect (Bool) : true
+                        applyDebuffType (EEffectType) : EET_Confusion
+                        debuffDuration (Float) : 3.0000
+                        damageValue (Float) : 300.0000
+                        allowDmgValueOverrideFromXML (Bool) : false
+                        attackDelay (Float) : 2.0000
+                        attackRadius (Float) : 0.4000
+                        ignoreVictimWithTag (CName) : hakland_mage
+                        preAttackEffectName (CName) : quicksand_yrden
+                        attackEffectName (CName) : quick_sand_hit
+                        hitReactionType (EHitReactionType) : EHRT_Light
+                        loopedAttack (Bool) : true
+                        playAttackEffectOnlyWhenHit (Bool) : true
+                        useSeperateAttackEffectEntity (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/mage/quick_sand_hit.w2ent
+                        onHitCameraShakeStrength (Float) : 1.0000
+                CEffectDummyComponent #1 (CEffectDummyComponent) : CEffectDummyComponent0
+                    CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+                        guid (CGUID) : 843d5b28-915a-4480-9b00-9dc9809f3c3a
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CEffectDummyComponent0"
+                        graphPositionX (Int16) : -61
+                        graphPositionY (Int16) : 274
+                CPhantomComponent #2 (CPhantomComponent) : CPhantomComponent0
+                    CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+                        guid (CGUID) : 7441dcf9-c05d-4662-90fb-59ab3b4aeb31
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CPhantomComponent0"
+                        graphPositionX (Int16) : 171
+                        graphPositionY (Int16) : 319
+                        shapeType (EPhantomShape) : PS_Sphere
+                        shapeDimensions (Vector) : <Vector>shapeDimensions
+                            X (Float) : 1.0000
+                            Y (Float) : 0.0500
+                            Z (Float) : 0.0500
+                            W (Float) : 1.0000
+                W3SummonedEntityComponent #3 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+                    W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+                        guid (CGUID) : e041cac1-7c12-4d5e-a5f3-cbebf4ea21c9
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "W3SummonedEntityComponent0"
+                        graphPositionX (Int16) : 259
+                        graphPositionY (Int16) : 228
+            cookedEffects (array:CEntityTemplateCookedEffect) : # array:CEntityTemplateCookedEffect
+                0 (CEntityTemplateCookedEffect) : quicksand
+                    name (CName) : quicksand
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 2080 bytes, MD5: b9c8870ae95a290419d87a4355a029bb
+                        CFXDefinition #0 (CFXDefinition) : quicksand
+                            CFXDefinition (CFXDefinition) : quicksand
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #5
+                                length (Float) : 2.9617
+                                loopStart (Float) : 0.3735
+                                loopEnd (Float) : 0.6804
+                                name (CName) : quicksand
+                                showDistance (Float) : 55.0000
+                                isLooped (Bool) : true
+                        CFXTrackGroup #1 (CFXTrackGroup) : sfx
+                            CFXTrackGroup (CFXTrackGroup) : sfx
+                                name (String) : "sfx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 227
+                                    Green (Uint8) : 183
+                                    Blue (Uint8) : 220
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                    1 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #4
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0100
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : magic_man_quicksand_loop_start
+                                maxDistance (Float) : 40.0000
+                        CFXTrackItemSoundEvent #4 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.6900
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : magic_man_quicksand_loop_stop
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #5 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #6
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 220
+                                    Green (Uint8) : 236
+                                    Blue (Uint8) : 144
+                                    Alpha (Uint8) : 100
+                        CFXTrack #6 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #7
+                                name (String) : "asd"
+                        CFXTrackItemParticles #7 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 3.2886
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 0.6173
+                                        5 (Float) : 0.1235
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_trap3.w2p
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #8
+                        CFXSimpleSpawner #8 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                1 (CEntityTemplateCookedEffect) : attack_fx1
+                    name (CName) : attack_fx1
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1957 bytes, MD5: 5cfbfe08480c8eb4a8e860a8c336490a
+                        CFXDefinition #0 (CFXDefinition) : attack_fx1
+                            CFXDefinition (CFXDefinition) : attack_fx1
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 5.2948
+                                loopStart (Float) : 0.3091
+                                name (CName) : attack_fx1
+                                showDistance (Float) : 50.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 253
+                                    Green (Uint8) : 151
+                                    Blue (Uint8) : 151
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0059
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : magic_man_sand_trap_explode
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : particle
+                            CFXTrackGroup (CFXTrackGroup) : particle
+                                name (String) : "particle"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 233
+                                    Green (Uint8) : 200
+                                    Blue (Uint8) : 147
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : fx
+                            CFXTrack (CFXTrack) : fx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "fx"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeBegin (Float) : 0.0155
+                                timeDuration (Float) : 5.2551
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1> <1> <1> <1> <1
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_trap_explode.w2p
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+                2 (CEntityTemplateCookedEffect) : quicksand_yrden
+                    name (CName) : quicksand_yrden
+                    buffer (SharedDataBuffer) : <SharedDataBuffer>buffer
+                        Bufferdata (CByteArray) : 1966 bytes, MD5: c02b781355b04b56d73318db65cf7b1d
+                        CFXDefinition #0 (CFXDefinition) : quicksand_yrden
+                            CFXDefinition (CFXDefinition) : quicksand_yrden
+                                trackGroups (array:ptr:CFXTrackGroup) : # array:ptr:CFXTrackGroup
+                                    0 (ptr:CFXTrackGroup) : CFXTrackGroup #1
+                                    1 (ptr:CFXTrackGroup) : CFXTrackGroup #4
+                                length (Float) : 2.9617
+                                loopStart (Float) : 0.3735
+                                loopEnd (Float) : 0.6804
+                                name (CName) : quicksand_yrden
+                                showDistance (Float) : 55.0000
+                        CFXTrackGroup #1 (CFXTrackGroup) : sounds
+                            CFXTrackGroup (CFXTrackGroup) : sounds
+                                name (String) : "sounds"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #2
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 135
+                                    Green (Uint8) : 157
+                                    Blue (Uint8) : 173
+                                    Alpha (Uint8) : 100
+                        CFXTrack #2 (CFXTrack) : sfx
+                            CFXTrack (CFXTrack) : sfx
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemSoundEvent #3
+                                name (String) : "sfx"
+                        CFXTrackItemSoundEvent #3 (CFXTrackItemSoundEvent) : 
+                            CFXTrackItemSoundEvent (CFXTrackItemSoundEvent) : <CFXTrackItemSoundEvent>CFXTrackItemSoundEvent
+                                timeBegin (Float) : 0.0100
+                                buffername (CName) : 
+                                count (CDynamicInt) : 0
+                                unk (Uint8) : 0
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : 0
+                                soundEventName (StringAnsi) : magic_man_sand_trap_explode
+                                maxDistance (Float) : 40.0000
+                        CFXTrackGroup #4 (CFXTrackGroup) : fx
+                            CFXTrackGroup (CFXTrackGroup) : fx
+                                name (String) : "fx"
+                                tracks (array:ptr:CFXTrack) : # array:ptr:CFXTrack
+                                    0 (ptr:CFXTrack) : CFXTrack #5
+                                isExpanded (Bool) : true
+                                trackGroupColor (Color) : <Color>trackGroupColor
+                                    Red (Uint8) : 220
+                                    Green (Uint8) : 236
+                                    Blue (Uint8) : 144
+                                    Alpha (Uint8) : 100
+                        CFXTrack #5 (CFXTrack) : asd
+                            CFXTrack (CFXTrack) : asd
+                                trackItems (array:ptr:CFXTrackItem) : # array:ptr:CFXTrackItem
+                                    0 (ptr:CFXTrackItem) : CFXTrackItemParticles #6
+                                name (String) : "asd"
+                        CFXTrackItemParticles #6 (CFXTrackItemParticles) : Particles
+                            CFXTrackItemParticles (CFXTrackItemParticles) : <CFXTrackItemParticles>CFXTrackItemParticles
+                                timeDuration (Float) : 3.2886
+                                buffername (CName) : Particles
+                                count (CDynamicInt) : 3
+                                unk (Uint8) : 1
+                                buffer (CCompressedBuffer:CBufferUInt16:CFloat) : <1> <1>
+                                    0 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 0.6173
+                                        5 (Float) : 0.1235
+                                        6 (Float) : 0.0000
+                                        7 (Float) : 0.0000
+                                        8 (Float) : 0.0000
+                                        9 (Float) : 0.0000
+                                        10 (Float) : 0.0000
+                                        11 (Float) : 0.0000
+                                        12 (Float) : 0.0000
+                                        13 (Float) : 0.0000
+                                        14 (Float) : 0.0000
+                                        15 (Float) : 0.0000
+                                    1 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                    2 (CBufferUInt16:CFloat) : # CBufferUInt16:CFloat
+                                        0 (Float) : 1.0000
+                                        2 (Float) : 1.0000
+                                        3 (Float) : 1.0000
+                                        4 (Float) : 1.0000
+                                        5 (Float) : 1.0000
+                                        6 (Float) : 1.0000
+                                        7 (Float) : 1.0000
+                                        8 (Float) : 1.0000
+                                        9 (Float) : 1.0000
+                                        10 (Float) : 1.0000
+                                        11 (Float) : 1.0000
+                                        12 (Float) : 1.0000
+                                        13 (Float) : 1.0000
+                                        14 (Float) : 1.0000
+                                        15 (Float) : 1.0000
+                                particleSystem (soft:CParticleSystem) : dlc/ep1/data/fx/characters/hakland_mage/sand_trap/sand_yrden.w2p
+                                spawner (ptr:IFXSpawner) : CFXSimpleSpawner #7
+                        CFXSimpleSpawner #7 (CFXSimpleSpawner) : 
+                            CFXSimpleSpawner (CFXSimpleSpawner) : <CFXSimpleSpawner>CFXSimpleSpawner
+                                slotNames (array:CName) : # array:CName
+                                    0 (CName) : fx
+            cookedEffectsVersion (Uint32) : 1
+            Unk1 (Uint32) : 0
+    W3WitchBoilingWaterObstacle #1 (W3WitchBoilingWaterObstacle) : quicksand
+        W3WitchBoilingWaterObstacle (W3WitchBoilingWaterObstacle) : 
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            streamingDataBuffer (SharedDataBuffer) : <SharedDataBuffer>streamingDataBuffer
+                Bufferdata (CByteArray) : 577 bytes, MD5: 68650185b314ebcc6279035f8bc85c3b
+                CSoundEmitterComponent #0 (CSoundEmitterComponent) : CSoundEmitterComponent0
+                    CSoundEmitterComponent (CSoundEmitterComponent) : CSoundEmitterComponent0
+                        guid (CGUID) : d3b8a23b-6d0b-4dce-a8d8-0416fbfa2058
+                        AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+                        AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+                        name (String) : "CSoundEmitterComponent0"
+                        graphPositionX (Int16) : 414
+                        graphPositionY (Int16) : 321
+                        banksDependency (array:CName) : # array:CName
+                            0 (CName) : magic_man_mage.bnk
+                        maxDistance (Float) : 50.0000
+            streamingDistance (Uint8) : 7
+            autoPlayEffectName (CName) : quicksand
+            Components (array:ptr:CComponent) : # array:ptr:CComponent
+                0 (ptr:CComponent) : CEffectDummyComponent #2
+                1 (ptr:CComponent) : CPhantomComponent #3
+                2 (ptr:CComponent) : W3SummonedEntityComponent #4
+            BufferV1 (CCompressedBuffer:SEntityBufferType1) : <>
+                0 (SEntityBufferType1) : 
+                    ComponentName (CName) : 
+            BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
+            idTag (IdTag) :  8a877004-90e1-4114-8fc0-b2ab9a7c8a30
+            lifeTimeDuration (SRangeF) : <SRangeF>lifeTimeDuration
+                min (Float) : 8.0000
+                max (Float) : 10.0000
+            disappearEffectName (CName) : quicksand
+            simplyStopEffect (Bool) : true
+            applyDebuffType (EEffectType) : EET_Confusion
+            debuffDuration (Float) : 3.0000
+            damageValue (Float) : 300.0000
+            allowDmgValueOverrideFromXML (Bool) : false
+            attackDelay (Float) : 2.0000
+            attackRadius (Float) : 0.4000
+            ignoreVictimWithTag (CName) : hakland_mage
+            preAttackEffectName (CName) : quicksand_yrden
+            attackEffectName (CName) : quick_sand_hit
+            hitReactionType (EHitReactionType) : EHRT_Light
+            loopedAttack (Bool) : true
+            playAttackEffectOnlyWhenHit (Bool) : true
+            useSeperateAttackEffectEntity (handle:CEntityTemplate) : dlc/ep1/data/gameplay/abilities/mage/quick_sand_hit.w2ent
+            onHitCameraShakeStrength (Float) : 1.0000
+    CEffectDummyComponent #2 (CEffectDummyComponent) : CEffectDummyComponent0
+        CEffectDummyComponent (CEffectDummyComponent) : CEffectDummyComponent0
+            guid (CGUID) : 843d5b28-915a-4480-9b00-9dc9809f3c3a
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CEffectDummyComponent0"
+    CPhantomComponent #3 (CPhantomComponent) : CPhantomComponent0
+        CPhantomComponent (CPhantomComponent) : CPhantomComponent0
+            guid (CGUID) : 7441dcf9-c05d-4662-90fb-59ab3b4aeb31
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "CPhantomComponent0"
+            shapeType (EPhantomShape) : PS_Sphere
+            shapeDimensions (Vector) : <Vector>shapeDimensions
+                X (Float) : 1.0000
+                Y (Float) : 0.0500
+                Z (Float) : 0.0500
+                W (Float) : 1.0000
+    W3SummonedEntityComponent #4 (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+        W3SummonedEntityComponent (W3SummonedEntityComponent) : W3SummonedEntityComponent0
+            guid (CGUID) : e041cac1-7c12-4d5e-a5f3-cbebf4ea21c9
+            AttachmentsReference (array:handle:IAttachment) : # array:handle:IAttachment
+            AttachmentsChild (array:handle:IAttachment) : # array:handle:IAttachment
+            name (String) : "W3SummonedEntityComponent0"

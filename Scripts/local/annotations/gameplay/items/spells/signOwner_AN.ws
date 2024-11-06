@@ -4,7 +4,7 @@
 	var ret : bool;
 	var shouldAltCast : bool;
 	var altInputHeld : bool;
-	
+
 	if(false) 
 	{
 		wrappedMethod(signEntity, newSkill);
@@ -71,7 +71,7 @@
 	{
 		ret = false;
 	}	
-	else if ( spectreTestCastSignHold() )
+	else if ( (spectreTestCastSignHold() || altInputHeld) && shouldAltCast)
 	{
 		if ( !player.IsCombatMusicEnabled() && !player.CanAttackWhenNotInCombat( EBAT_CastSign, true, newTarget ) )
 		{

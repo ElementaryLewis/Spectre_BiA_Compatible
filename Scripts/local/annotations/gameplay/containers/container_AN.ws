@@ -18,3 +18,29 @@
 		inv.AddRandomEnhancementToItem(items[i], inv.GetItemLevel(items[i]));
 	}
 }
+
+@wrapMethod(W3Container) function ProcessLoot()
+{
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	if(disableLooting)
+		return;
+		
+	if(skipInventoryPanel || usedByCiri)
+	{
+		
+		if( !thePlayer.IsAnyWeaponHeld() && !thePlayer.IsHoldingItemInLHand() )
+			thePlayer.RaiseEvent('LootHerb');
+		
+
+		TakeAllItems();
+		OnContainerClosed();			
+	}
+	else
+	{
+		ShowLoot();
+	}
+}

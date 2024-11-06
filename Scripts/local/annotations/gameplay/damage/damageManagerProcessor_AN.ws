@@ -723,7 +723,7 @@ private var hasArmor					: bool;
 
 			if(actorVictim.HasBuff(EET_Confusion))
 			{
-				confusionCrit = ((W3ConfuseEffect)actorVictim.GetBuff(EET_Confusion)).GetCriticalHitChanceBonus();
+				//confusionCrit = ((W3ConfuseEffect)actorVictim.GetBuff(EET_Confusion)).GetCriticalHitChanceBonus();
 			}
 			
 			if(blindnessCrit || confusionCrit)
