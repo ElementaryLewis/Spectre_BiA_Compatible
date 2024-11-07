@@ -702,7 +702,7 @@
 		localisation_key_description	="item_desc_quest_item"
 		icon_path						="icons/inventory/scrolls/scroll4.dds"
 	>
-		<tags>							Quest, QuestEP1, mod_book							
+		<tags>							Quest, ReadableItem, mod_book, QuestEP1
 		</tags>
 	</item>
 	<item
@@ -1898,6 +1898,23 @@
 		<tags>							ReadableItem						
 		</tags>
 	</item>
+	<!---===modBIA===--->
+	<!--Unfinished letter-->
+	<item
+		name							="th1010_gloves_note"
+		category						="misc"
+		price							="1"
+		stackable						="100"
+		localisation_key_name			="item_name_th1010_gloves_note"
+		localisation_key_description	="item_desc_book"
+		icon_path						="icons/inventory/scrolls/scroll3.dds"
+	>
+		<tags>							ReadableItem						
+		</tags>
+		<recycling_parts>				<parts count="1">Ashes</parts>
+		</recycling_parts>
+	</item>
+	<!---===modBIA===--->
 	<item
 		name							="th1010_schematic_armor"
 		category						="misc"

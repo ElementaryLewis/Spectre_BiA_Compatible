@@ -2895,7 +2895,7 @@
 		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
-		equip_template					="nomansland_sword_lvl2"
+		equip_template					="witcher_steel_viper_v2_sword_lvl2"
 		equip_slot						="steel_sword_back_slot" 
 		hold_slot						="r_weapon" 
 		weapon							="true" 
@@ -2909,9 +2909,9 @@
 		holster_event					="HolsterWeapon"
 		holster_act						="holster_steel_sword_back_act"
 		holster_deact					="holster_steel_sword_back_deact"
-		localisation_key_name			="item_name_viper_school_steel_sword" 
+		localisation_key_name			="item_name_newgame_viper_school_steel_sword" 
 		localisation_key_description	="item_desc_steel_sword"
-		icon_path						="icons/inventory/weapons/nomansland_sword_lvl2_64x128.png"
+		icon_path						="icons\inventory\weapons\witcher_steel_viper_sword_lvl2_64x128.png"
 	>
 		<tags>							PlayerSteelWeapon, Weapon, sword1h, 1handedWeapon, mod_weapon, DoNotEnhance
 		</tags>
@@ -5141,7 +5141,7 @@
 		enhancement_slots				="1"
 		stackable						="1"
 		grid_size						="2"
-		equip_template					="silver_sword_lvl2"
+		equip_template					="witcher_silver_viper_v2_sword_lvl2"
 		equip_slot						="silver_sword_back_slot"
 		hold_slot						="r_weapon"
 		weapon							="true"
@@ -5155,9 +5155,9 @@
 		holster_event					="HolsterWeapon"
 		holster_act						="holster_steel_sword_back_act"
 		holster_deact					="holster_steel_sword_back_deact"
-		localisation_key_name			="item_name_viper_school_silver_sword" 
+		localisation_key_name			="item_name_newgame_viper_school_silver_sword" 
 		localisation_key_description	="item_desc_silver_sword"
-		icon_path						="icons/inventory/weapons/silver_sword_lvl2_64x128.png"
+		icon_path						="icons\inventory\weapons\witcher_silver_viper_sword_lvl2_64x128.png"
 	>
 		<tags>							PlayerSilverWeapon, Weapon, Upgradeable, sword1h, mod_weapon, DoNotEnhance
 		</tags>

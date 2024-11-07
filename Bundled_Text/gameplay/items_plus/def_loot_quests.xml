@@ -167,7 +167,8 @@
     </loot>
     <loot name="mq2001_small_bandit_chest" player_level_min="0" player_level_max="0" quantity_min="2" quantity_max="2" chance="100">
         <loot_entry name="mq2001_horn" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-        <loot_entry name="mq2001_journal_2b" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
+        <!---===modBIA===--->
+    <!--<loot_entry name="mq2001_journal_2b" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />-->
     </loot>
     <loot name="mq2003_bandit_journal_chest" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="mq2003_bandit_journal" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -750,7 +751,7 @@
         <loot_entry name="Beauclair White" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
     </loot>
     <loot name="q206_arnvalds_book_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
-        <loot_entry name="lore_skellige_heroes_broddr" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
+        <loot_entry name="lore_ballad_of_bran_the_conqueror" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
     </loot>
     <loot name="q206_bread_basket" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100">
         <loot_entry name="Bread" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100" />

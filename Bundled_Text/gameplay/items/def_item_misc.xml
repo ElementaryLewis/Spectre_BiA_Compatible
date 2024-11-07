@@ -241,8 +241,8 @@
 			</action>
 		</anim_actions>
 	</item>
-	<item name="ciris_phylactery" category="usable" price = "1" weight="0.7" equip_slot="" hold_slot="l_weapon" equip_template="ciris_phylactery" hold_template="ciris_phylactery"  icon_path="icons\inventory\quests\ciris_phylactery-64x64.png" localisation_key_name = "item_name_ciris_phylactery" localisation_key_description = "item_desc_quest_item" >
-		<tags>Quest</tags>
+	<item name="ciris_phylactery" category="misc" price = "1" weight="0.7" equip_slot="" hold_slot="l_weapon" equip_template="ciris_phylactery" hold_template="ciris_phylactery"  icon_path="icons\inventory\quests\ciris_phylactery-64x64.png" localisation_key_name = "item_name_ciris_phylactery" localisation_key_description = "item_desc_quest_item" >
+		<tags>Quest, mod_junk</tags>
 	</item>
 	<item name="q403_ciri_meteor" category="usable" price = "1" weight="0.45" equip_slot="" hold_slot="l_weapon" equip_template="q403_ciri_meteor" hold_template="q403_ciri_meteor"  icon_path="icons\inventory\quests\q403_ciri_meteor_quest_item_64x64.png" localisation_key_name = "item_name_q403_ciri_meteor" localisation_key_description = "item_desc_q403_ciri_meteor" >
 		<tags>FocusObject,Quest,QuickSlot, UI_Meteor</tags>
