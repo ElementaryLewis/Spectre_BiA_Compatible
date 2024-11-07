@@ -1,4 +1,5 @@
-    CEntityTemplate #0 (CEntityTemplate) : CNewNPC
+    [Not Next Gen 4.04 Compatible]
+	CEntityTemplate #0 (CEntityTemplate) : CNewNPC
         CEntityTemplate (CEntityTemplate) : <CEntityTemplate>CEntityTemplate
             includes (array:handle:CEntityTemplate) : # array:handle:CEntityTemplate
                 0 (handle:CEntityTemplate) : gameplay/templates/monsters/troll_ice_lvl13.w2ent
@@ -104,6 +105,7 @@
                 22 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #50
                 23 (ptr:CEntityTemplateParam) : CAnimMimicParam #93
                 24 (ptr:CEntityTemplateParam) : CEntityDismemberment #94
+                25 (ptr:CEntityTemplateParam) : CR4LootParam #96
             flatCompiledData (array:Uint8) : # array:Uint8
                 CNewNPC #0 (CNewNPC) : PreviewEntity
                     CNewNPC (CNewNPC) : PreviewEntity
@@ -129,7 +131,7 @@
                                 ComponentName (CName) : 
                         BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
                         idTag (IdTag) :  1d629707-d54a-4ed0-af0a-71240f946848
-                        displayName (LocalizedString) : Rock Troll
+                        displayName (LocalizedString) : Ice Troll
                         isInteractionActivator (Bool) : true
                         voiceTag (CName) : TROLL_3
                         level (Int32) : 21
@@ -6585,7 +6587,7 @@
                     ComponentName (CName) : 
             BufferV2 (CBufferUInt32:SEntityBufferType2) : # CBufferUInt32:SEntityBufferType2
             idTag (IdTag) :  1d629707-d54a-4ed0-af0a-71240f946848
-            displayName (LocalizedString) : Rock Troll
+            displayName (LocalizedString) : Ice Troll
             isInteractionActivator (Bool) : true
             voiceTag (CName) : TROLL_3
             level (Int32) : 21
@@ -6937,16 +6939,16 @@
         CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
             category (CName) : crafting_ingredient
             initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #25
-    CInventoryInitializerUniform #25 (CInventoryInitializerUniform) : Troll skin
+    CInventoryInitializerUniform #25 (CInventoryInitializerUniform) : REMOVED
         CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-            itemName (CName) : Troll skin
+            itemName (CName) : REMOVED
     CInventoryDefinitionEntry #26 (CInventoryDefinitionEntry) : crafting_ingredient
         CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
             category (CName) : crafting_ingredient
             initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #27
-    CInventoryInitializerUniform #27 (CInventoryInitializerUniform) : Ruby flawless
+    CInventoryInitializerUniform #27 (CInventoryInitializerUniform) : REMOVED
         CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-            itemName (CName) : Ruby flawless
+            itemName (CName) : REMOVED
     CAIProfile #28 (CAIProfile) : AG_cave_troll
         CAIProfile (CAIProfile) : <CAIProfile>CAIProfile
             wasIncluded (Bool) : true
@@ -7307,3 +7309,9 @@
                     Y (Float) : -0.2000
                 depthFadePower (Float) : -0.2000
                 applyToFillMesh (Bool) : false
+    CR4LootParam #96 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Ice troll
+                    name (CName) : _monster__Ice troll
