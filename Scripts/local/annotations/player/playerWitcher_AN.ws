@@ -1393,7 +1393,7 @@ private saved var enemiesKilledByType				: array<int>;
 		}
 	}
 	
-	if( IsMutationActive( EPMT_Mutation10 ) && ( action.IsActionMelee() ) )
+	if( IsMutationActive( EPMT_Mutation10 ) && HasBuff( EET_Mutation10 ) && ( action.IsActionMelee() ) )
 	{
 		PlayEffect( 'mutation_10_energy' );
 	}
@@ -3326,7 +3326,7 @@ private var cachedToxDmg : float;
 		
 		if( IsMutationActive( EPMT_Mutation10 ) && !HasBuff( EET_Mutation10 ) )
 		{
-			AddEffectDefault( EET_Mutation10, this, "Mutation 10" );
+			//AddEffectDefault( EET_Mutation10, this, "Mutation 10" );//---===modBIA===---//
 		}
 	}
 	
@@ -3367,11 +3367,16 @@ private var cachedToxDmg : float;
 		if( finalPotionToxicity > 0.f )
 		{				
 			abilityManager.GainStat(BCS_Toxicity, finalPotionToxicity );
+			//---===modBIA===---//
+			if ( inv.ItemHasTag( item, 'Mutagen' ) )
+				abilityManager.DrainToxicity(finalPotionToxicity);
+			//---===modBIA===---//
 		}
 		
 		
-		if(CanUseSkill(S_Perk_13))
+		if(CanUseSkill(S_Perk_13) && !inv.ItemHasTag( item, 'Mutagen' ) && effectType != EET_WhiteHoney)//---===modBIA===---//
 		{
+			adrenaline = FloorF(GetStat(BCS_Focus));//---===modBIA===---//
 			abilityManager.DrainFocus(adrenaline);
 		}
 		
@@ -4452,6 +4457,24 @@ var blockSprintTimestamp : float;
 		
 		return true;
 	}
+
+	//No idea how to put here...
+	/*enemies = GetEnemies();
+	for( i=0; i<enemies.Size(); i+=1 )
+	{
+		weapons.Clear();
+		invent = enemies[i].GetInventory();
+		weapons = invent.GetHeldWeapons();
+		
+		for( j=0; j<weapons.Size(); j+=1 )
+		{
+			if( invent.IsItemFists( weapons[j] ) && !enemies[i].HasAbility('SkillSorceress') )//---===modBIA===---//
+			{
+				return true;
+			}
+		}
+	}*/
+
 	return false;
 }
 

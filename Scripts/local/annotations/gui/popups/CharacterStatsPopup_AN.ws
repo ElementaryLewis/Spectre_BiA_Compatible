@@ -702,7 +702,7 @@
 		valueAbility = CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_3, 'trap_duration', false, false));
 		if(GetWitcherPlayer().CanUseSkill(S_Magic_s10))
 			valueAbility *= 1 + CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_s10, 'trap_duration_bonus', false, false)) * GetWitcherPlayer().GetSkillLevel(S_Magic_s10);
-		valueStr = FloatToStringPrec( valueAbility, 1 ) + GetLocStringByKeyExt("per_second");
+		valueStr = FloatToStringPrec( valueAbility, 1 ) + " " + GetLocStringByKeyExt("per_second");
 	}
 	else if ( varKey == 'yrden_range' )
 	{
@@ -823,7 +823,7 @@
 		if(GetWitcherPlayer().CanUseSkill(S_Magic_s18))
 			valueAbility *= 1 + CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_s18, 'axii_duration_bonus', false, false)) * GetWitcherPlayer().GetSkillLevel(S_Magic_s18);
 		valueAbility *= 1 + SignPowerStatToPowerBonus(sp.valueMultiplicative);
-		valueStr = FloatToStringPrec(valueAbility, 1) + GetLocStringByKeyExt("per_second");
+		valueStr = FloatToStringPrec(valueAbility, 1) + " " + GetLocStringByKeyExt("per_second");
 	}
 	else if ( varKey == 'axii_instakill' )
 	{

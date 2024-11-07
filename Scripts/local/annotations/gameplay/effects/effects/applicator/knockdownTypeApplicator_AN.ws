@@ -48,6 +48,17 @@
 		else
 			appliedType = EET_Knockdown;
 	}
+	//---===modBIA===---//
+	/*Applies shorter knockdown time for Melusine and keeps it same for any other monsters potentionally using it*/
+	else if ( target.HasAbility( 'WeakToAard' ) && !target.HasAbility( 'mon_siren_base' ) || target.HasAbility( 'qmh210_lamia' ) )
+	{
+		appliedType = EET_Knockdown;
+	}		
+	else if ( target.HasAbility( 'WeakToAard' ) && target.HasAbility( 'mon_siren_base' ) && !target.HasAbility( 'qmh210_lamia' ) )
+	{
+		appliedType = EET_HeavyKnockdown;
+	}
+	//---===modBIA===---//
 	else
 	{
 		chance = 0.66;
