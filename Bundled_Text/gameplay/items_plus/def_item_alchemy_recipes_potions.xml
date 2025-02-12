@@ -177,6 +177,12 @@
 						<a>Magic _Stats</a>
 					</base_abilities>
 			</item>
+			<item category="alchemy_recipe" name="Recipe for Signs Enhancement" stackable="100" price="15" weight="0.1" icon_path="icons/inventory/quests/ico_recipe.png" localisation_key_name = "item_name_recipe_for_signs_enhancement" localisation_key_description = "item_desc_recipe_for_signs_enhancement" >
+				<tags>ReadableItem, mod_alchemy</tags>
+					<base_abilities>
+						<a>Magic _Stats</a>
+					</base_abilities>
+			</item>
 		</items>	
 	</definitions>
 

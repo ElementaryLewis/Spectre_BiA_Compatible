@@ -104,6 +104,7 @@
                 22 (ptr:CEntityTemplateParam) : CAIBaseTreeTemplateParam #50
                 23 (ptr:CEntityTemplateParam) : CAnimMimicParam #100
                 24 (ptr:CEntityTemplateParam) : CEntityDismemberment #101
+                25 (ptr:CEntityTemplateParam) : CR4LootParam #103
             flatCompiledData (array:Uint8) : # array:Uint8
                 CNewNPC #0 (CNewNPC) : PreviewEntity
                     CNewNPC (CNewNPC) : PreviewEntity
@@ -6939,9 +6940,9 @@
         CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
             category (CName) : crafting_ingredient
             initializer (ptr:IInventoryInitializer) : CInventoryInitializerUniform #25
-    CInventoryInitializerUniform #25 (CInventoryInitializerUniform) : Troll skin
+    CInventoryInitializerUniform #25 (CInventoryInitializerUniform) : REMOVED
         CInventoryInitializerUniform (CInventoryInitializerUniform) : <CInventoryInitializerUniform>CInventoryInitializerUniform
-            itemName (CName) : Troll skin
+            itemName (CName) : REMOVED
     CInventoryDefinitionEntry #26 (CInventoryDefinitionEntry) : crafting_ingredient
         CInventoryDefinitionEntry (CInventoryDefinitionEntry) : <CInventoryDefinitionEntry>CInventoryDefinitionEntry
             category (CName) : crafting_ingredient
@@ -7147,8 +7148,8 @@
                 3 (handle:CAIMonsterActionSubtree) : CAIActionMoveInPack #69
                 4 (handle:CAIMonsterActionSubtree) : CAIActionRunWildInPack #71
                 5 (handle:CAIMonsterActionSubtree) : CAIActionMonsterBumpTree #73
-                6 (handle:CAIMonsterActionSubtree) : CAIActionMonsterPlayerPresence #75
-                7 (handle:CAIMonsterActionSubtree) : CAIActionMonsterRain #77
+                6 (handle:CAIMonsterActionSubtree) : CAIActionMonsterPlayerPresence #74
+                7 (handle:CAIMonsterActionSubtree) : CAIActionMonsterRain #78
     CAIActionSearchForTarget #63 (CAIActionSearchForTarget) : CBehTree:gameplay\trees\reactions\npc_reaction.w2behtree
         CAIActionSearchForTarget (CAIActionSearchForTarget) : <CAIActionSearchForTarget>CAIActionSearchForTarget
             tree (handle:CBehTree) : gameplay/trees/reactions/npc_reaction.w2behtree
@@ -7185,31 +7186,31 @@
         CAINpcReactionRunWildInPack (CAINpcReactionRunWildInPack) : <CAINpcReactionRunWildInPack>CAINpcReactionRunWildInPack
             tree (handle:CBehTree) : gameplay/trees/reactions/reaction_run_wild_in_pack.w2behtree
     CAIActionMonsterBumpTree #73 (CAIActionMonsterBumpTree) : 
-        unknownBytes (CBytes) : 112 bytes, MD5: 649df6c8d08a372c0a4d5a46626386f0
-    CAINpcReactionBump #74 (CAINpcReactionBump) : CBehTree:gameplay\trees\reactions\reaction_monster_bump.w2behtree
-        CAINpcReactionBump (CAINpcReactionBump) : <CAINpcReactionBump>CAINpcReactionBump
-            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_bump.w2behtree
-            voiceSet (String) : "bump"
-    CAIActionMonsterPlayerPresence #75 (CAIActionMonsterPlayerPresence) : 
-        unknownBytes (CBytes) : 100 bytes, MD5: c2cf96d28170ea2178f3b3e53ecfcb84
-    CAINpcReactionStopAndComment #76 (CAINpcReactionStopAndComment) : CBehTree:gameplay\trees\reactions\reaction_stop_and_comment.w2behtree
+        unknownBytes (CBytes) : 112 bytes, MD5: 739c1a8850f26389777796d8127a600d
+    CAIActionMonsterPlayerPresence #74 (CAIActionMonsterPlayerPresence) : 
+        unknownBytes (CBytes) : 100 bytes, MD5: f7a3bb54577fc489890dc7fa94bc26ba
+    CAINpcReactionStopAndComment #75 (CAINpcReactionStopAndComment) : CBehTree:gameplay\trees\reactions\reaction_stop_and_comment.w2behtree
         CAINpcReactionStopAndComment (CAINpcReactionStopAndComment) : <CAINpcReactionStopAndComment>CAINpcReactionStopAndComment
             tree (handle:CBehTree) : gameplay/trees/reactions/reaction_stop_and_comment.w2behtree
             voiceSet (String) : "reaction_to_geralt"
             stopDuration (Float) : 6.0000
             activationChance (Int32) : 100
             distanceToInterrupt (Int32) : 10
-    CAIActionMonsterRain #77 (CAIActionMonsterRain) : 
-        unknownBytes (CBytes) : 91 bytes, MD5: 0e32c25bc9424d9dc481b92b725a7f3a
-    CAINpcReactionRain #78 (CAINpcReactionRain) : CBehTree:gameplay\trees\reactions\reaction_rain.w2behtree
-        CAINpcReactionRain (CAINpcReactionRain) : <CAINpcReactionRain>CAINpcReactionRain
-            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_rain.w2behtree
-            voiceSet (String) : "rain"
-            actionPointSelector (handle:CRainActionPointSelector) : CRainActionPointSelector #79
-    CRainActionPointSelector #79 (CRainActionPointSelector) : 
+    CRainActionPointSelector #76 (CRainActionPointSelector) : 
         CRainActionPointSelector (CRainActionPointSelector) : <CRainActionPointSelector>CRainActionPointSelector
             radius (Float) : 30.0000
             chooseClosestAP (Bool) : true
+    CAINpcReactionRain #77 (CAINpcReactionRain) : CBehTree:gameplay\trees\reactions\reaction_rain.w2behtree
+        CAINpcReactionRain (CAINpcReactionRain) : <CAINpcReactionRain>CAINpcReactionRain
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_rain.w2behtree
+            voiceSet (String) : "rain"
+            actionPointSelector (handle:CRainActionPointSelector) : CRainActionPointSelector #76
+    CAIActionMonsterRain #78 (CAIActionMonsterRain) : 
+        unknownBytes (CBytes) : 91 bytes, MD5: dc6405edb4fb529dad3ed7ad5a76d857
+    CAINpcReactionBump #79 (CAINpcReactionBump) : CBehTree:gameplay\trees\reactions\reaction_monster_bump.w2behtree
+        CAINpcReactionBump (CAINpcReactionBump) : <CAINpcReactionBump>CAINpcReactionBump
+            tree (handle:CBehTree) : gameplay/trees/reactions/reaction_monster_bump.w2behtree
+            voiceSet (String) : "bump"
     CAIMonsterIdleStretch #80 (CAIMonsterIdleStretch) : CBehTree:gameplay\trees\idle\monster_idle_action_slot.w2behtree
         CAIMonsterIdleStretch (CAIMonsterIdleStretch) : <CAIMonsterIdleStretch>CAIMonsterIdleStretch
             tree (handle:CBehTree) : gameplay/trees/idle/monster_idle_action_slot.w2behtree
@@ -7338,3 +7339,9 @@
                     Y (Float) : -0.2000
                 depthFadePower (Float) : -0.2000
                 applyToFillMesh (Bool) : false
+    CR4LootParam #103 (CR4LootParam) : loot
+        CR4LootParam (CR4LootParam) : loot
+            name (String) : "loot"
+            containers (array:CR4LootContainerParam) : # array:CR4LootContainerParam
+                0 (CR4LootContainerParam) : _monster__Ice troll
+                    name (CName) : _monster__Ice troll

@@ -504,6 +504,7 @@
                             ock (ptr:CQuestGraphBlock) : CQuestCheckpointBlock #46
                             putName (CName) : In
             questEntry (handle:CJournalPath) : CJournalPath #48
+            showInfoOnScreen (Bool) : true
     CQuestCheckpointBlock #46 (CQuestCheckpointBlock) : 
         CQuestCheckpointBlock (CQuestCheckpointBlock) : 
             guid (CGUID) : 8378c8a3-53c4-412b-ba05-5522aa17e29f

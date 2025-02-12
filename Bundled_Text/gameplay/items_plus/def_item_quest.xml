@@ -61,7 +61,7 @@
 		equip_template					="q202_hornval_horn"
 		localisation_key_name			="item_name_q202_navigator_horn"
 		localisation_key_description	="item_desc_q202_navigator_horn"
-		icon_path						="icons/inventory/other/huntinghorn.dds"
+		icon_path						="icons/inventory/quests/hornval_horn-64x64.png"
 	>
 		<tags>							Quest, QuickSlot, UI_Horn, mod_junk
 		</tags>
@@ -1189,7 +1189,7 @@
 		stackable						="1"
 		localisation_key_name			="item_name_q401_avallachs_wisp"
 		localisation_key_description	="item_desc_q401_avallachs_wisp"
-		icon_path						="icons/inventory/potions/healing-potion-64x64.png"
+		icon_path						="icons/inventory/quests/q401_magic_firefly_64x64.png"
 	>
 		<tags>							Quest, mod_junk
 		</tags>
@@ -2243,7 +2243,7 @@
 		stackable						="100"
 		localisation_key_name			="item_name_mq2001_horn"
 		localisation_key_description	="item_desc_quest_item"
-		icon_path						="icons/inventory/quests/conch-64x64.png"
+		icon_path						="icons/inventory/quests/mq2001_horn_quest_item_64x64.png"
 	>
 		<tags>							Quest, mod_junk
 		</tags>
@@ -3130,7 +3130,7 @@
 		hold_slot						=""
 		localisation_key_name			="item_name_q201_poisoned_source"
 		localisation_key_description	="item_desc_book"
-		icon_path						="icons/inventory/quests/mq2049_book_2.png"
+		icon_path						="icons/inventory/quests/q201_poisoned_source_64x64.png"
 	>
 		<tags>							ReadableItem, mod_book
 		</tags>
@@ -3241,7 +3241,7 @@
 		localisation_key_description	="item_desc_book"
 		icon_path						="icons/inventory/quests/q301_drawing_crib_64x64.png"
 	>
-		<tags>							ReadableItem, Quest, mod_junk
+		<tags>							Quest, Painting
 		</tags>
 	</item>	
 
@@ -3254,7 +3254,7 @@
 		localisation_key_description	="item_desc_book"
 		icon_path						="icons/inventory/quests/q301_oven_drawing_64x64.png"
 	>
-		<tags>							ReadableItem, mod_junk
+		<tags>							Quest, Painting
 		</tags>
 	</item>	
 
@@ -3437,7 +3437,7 @@
 		hold_slot						=""
 		localisation_key_name			="item_name_q303_marked_bible"
 		localisation_key_description	="item_desc_book"
-		icon_path						="icons/inventory/books/book_1.png"
+		icon_path						="icons/inventory/quests/q303_marked_bible_64x64.png"
 	>
 		<tags>							ReadableItem, Quest, mod_book
 		</tags>
@@ -4875,7 +4875,7 @@
 		localisation_key_description	="item_desc_book"
 		icon_path						="icons/inventory/scrolls/scroll3.dds"
 	>
-		<tags>							ReadableItem, Quest, mod_book
+		<tags>							Quest, Painting
 		</tags>
 	</item>		
 
@@ -4889,7 +4889,7 @@
 		localisation_key_description	="item_desc_book"
 		icon_path						="icons/inventory/scrolls/scroll3.dds"
 	>
-		<tags>							ReadableItem, Quest, mod_book
+		<tags>							Quest, Painting
 		</tags>
 	</item>	
 

@@ -74,7 +74,7 @@
     <loot name="mq0004_talers_monocle_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
 		<!-- +++modWBC+++ -->
         <loot_entry name="mq0004_thalers_monocle_wearable" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="mq0003_womans_corpse_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="mq0003_ornate_bracelet" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -167,7 +167,7 @@
     </loot>
     <loot name="mq2001_small_bandit_chest" player_level_min="0" player_level_max="0" quantity_min="2" quantity_max="2" chance="100">
         <loot_entry name="mq2001_horn" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-        <loot_entry name="mq2001_journal_2b" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
+        <!-- <loot_entry name="mq2001_journal_2b" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" /> -->
     </loot>
     <loot name="mq2003_bandit_journal_chest" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="mq2003_bandit_journal" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -262,7 +262,7 @@
         <loot_entry name="Crowns" player_level_min="0" player_level_max="0" quantity_min="50" quantity_max="50" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="lore_tyromancy" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="mq2015_log_stash" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="Orens" player_level_min="0" player_level_max="0" quantity_min="200" quantity_max="200" chance="100" />
@@ -325,7 +325,7 @@
         <loot_entry name="q002_yenn_notes_about_ciri" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="lore_inteligence_report_about_ciri" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q001_clothes_rack_01" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100">
         <loot_entry name="Nilfgaardian Casual Suit 01" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -375,7 +375,7 @@
         <loot_entry name="q201_yen_journal_1" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="lore_cult_of_hemdall" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q201_skull" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q201_skull" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -403,7 +403,7 @@
         <loot_entry name="q201_mousesack_letter" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="item_name_sq210_notice" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q201_captain_corpse" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100">
         <loot_entry name="Crowns" player_level_min="0" player_level_max="0" quantity_min="1000" quantity_max="1000" chance="100" />
@@ -443,7 +443,7 @@
         <loot_entry name="q301_rose_remembrance" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="mq1002_3012_notice" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q301_lost_triss_parcel" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q301_triss_parcel" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -640,7 +640,7 @@
         <loot_entry name="Gold ring" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="lore_the_great_four" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q303_wine_clue_note_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q303_note_for_ciri" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -661,7 +661,7 @@
         <loot_entry name="Pearl" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="q302_dijkstras_notes" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q303_wine_bottle_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q303_wine_bottle" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -680,7 +680,7 @@
         <loot_entry name="q103_nilfgaardian_demand" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="mq1043_notice" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q103_letter_from_graden_2" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q103_letter_from_graden_2" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -717,7 +717,7 @@
         <loot_entry name="q302_crafter_notes" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="q302_whoreson_letter_to_radowid" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q302_roche_report_container" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q302_roche_report" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -751,6 +751,7 @@
     </loot>
     <loot name="q206_arnvalds_book_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="lore_skellige_heroes_broddr" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
+    	<loot_entry name="lore_ballad_of_bran_the_conqueror" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />
     </loot>
     <loot name="q206_bread_basket" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100">
         <loot_entry name="Bread" player_level_min="0" player_level_max="0" quantity_min="3" quantity_max="3" chance="100" />
@@ -887,7 +888,7 @@
 		<loot_entry name="q210_avallach_notes_01" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<loot_entry name="q210_avallach_notes_02" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<loot_entry name="lore_elven_legends" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q210_avallach_notes_01" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q210_avallach_notes_01" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -909,7 +910,7 @@
 		<!-- +++modWBC+++ -->
 		<loot_entry name="lw_cp36_note" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<loot_entry name="q310_explorer_note" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="q310_sewer_key_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="q310_sewer_door_key" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -1073,7 +1074,7 @@
         <loot_entry name="sq102_dolores_diary" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="sq102_huberts_diary" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
     <loot name="sq102_loose_papers_loot" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100">
         <loot_entry name="sq102_loose_papers" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
@@ -1121,7 +1122,7 @@
         <loot_entry name="Light Armor 6 schematic" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
 		<!-- +++modWBC+++ -->
 		<loot_entry name="sq104_werewolf" player_level_min="0" player_level_max="0" quantity_min="1" quantity_max="1" chance="100" />
-		<!-- ---modWBC--- -->
+		<!-- modWBC -->
     </loot>
 	<loot name="mq1060_crumpled_note1" quantity_min="1" quantity_max="1" player_level_min="0" player_level_max="100" player_level_min="0" player_level_max="0" respawn_time="0">
 		<loot_entry name="mq1060_witcher_discarded_note1" quantity_min="1" quantity_max="1" player_level_min="0" player_level_max="100" player_level_min="0" player_level_max="0" chance="100" />
