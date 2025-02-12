@@ -54,7 +54,8 @@
 				default :
 					break;
 			}
-			if( spectreInstantCastingAllowed() )
+
+			if( theGame.params.GetInstantCasting() )
 			{
 				thePlayer.SetCastSignHoldTimestamp( theGame.GetEngineTimeAsSeconds() );
 				return CastSign();
@@ -194,12 +195,6 @@
 		return;
 	}
 
-	if(IsSignOnCooldown(thePlayer.GetEquippedSign()))
-	{
-		thePlayer.SoundEvent("gui_no_adrenaline");
-		return;
-	}
-
 	signSkill = SignEnumToSkillEnum(signType);
 	if( signSkill != S_SUndefined )
 	{
@@ -211,7 +206,14 @@
 	
 		if( thePlayer.HasStaminaToUseSkill( signSkill, false ) )
 		{
-			GetWitcherPlayer().SetEquippedSign(signType);				
+			GetWitcherPlayer().SetEquippedSign(signType);	
+
+			if(IsSignOnCooldown(thePlayer.GetEquippedSign()))
+			{
+				thePlayer.SoundEvent("gui_no_adrenaline");
+				return;
+			}
+
 			thePlayer.SetupCombatAction( EBAT_CastSign, BS_Pressed );
 		}
 		else
@@ -223,9 +225,42 @@
 
 @wrapMethod(CPlayerInput) function OnCastSign( action : SInputAction )
 {
+	var signSkill : ESkill;
+
 	if(false) 
 	{
 		wrappedMethod(action);
+	}
+
+	if (IsReleased( action ) && altSignCasting && GetWitcherPlayer().IsCurrentSignChanneled())
+	{
+		theGame.GetGuiManager().ShowNotification(GetLocStringByKey("ACS_initialized"));
+	}
+
+	if( altSignCasting )
+		thePlayer.ApplyCastSettings(); 
+	
+	
+	if(altSignCasting && !theInput.LastUsedPCInput())
+	{
+		if(IsPressed( action ) && (theInput.GetActionValue( 'LockAndGuard' ) > 0) && !GetWitcherPlayer().IsCurrentSignChanneled()) 
+		{
+			AltCastSign(ST_Igni);
+		}
+		else if(IsPressed( action ))
+		{
+			thePlayer.BlockAction(EIAB_Interactions, 'NGE_CastSign_Block');
+			thePlayer.BlockAction(EIAB_InteractionAction, 'NGE_CastSign_Block');
+			thePlayer.BlockAction(EIAB_InteractionContainers, 'NGE_CastSign_Block');
+		}
+		else if(IsReleased( action ))
+		{
+			thePlayer.UnblockAction(EIAB_Interactions, 'NGE_CastSign_Block');
+			thePlayer.UnblockAction(EIAB_InteractionAction, 'NGE_CastSign_Block');
+			thePlayer.UnblockAction(EIAB_InteractionContainers, 'NGE_CastSign_Block');
+		}
+		
+		return false;
 	}
 	
 	if( !thePlayer.GetBIsInputAllowed() )
@@ -364,5 +399,103 @@
 	if(false)
 	{
 		PushAlchemyScreen();
+	}
+}
+
+@wrapMethod(CPlayerInput) function OnExpFocus( action : SInputAction )
+{
+	if(false) 
+	{
+		wrappedMethod(action);
+	}
+
+	if(!thePlayer.IsCiri())
+	{
+		if(altSignCasting && !theInput.LastUsedPCInput() && theInput.IsActionPressed('CastSign'))
+		{
+			if(IsPressed( action ) && !GetWitcherPlayer().IsCurrentSignChanneled())
+			{
+				theGame.GetFocusModeController().Deactivate(); 
+				AltCastSign(ST_Igni);
+				return false;
+			} 
+
+			if (IsReleased( action ) && GetWitcherPlayer().IsCurrentSignChanneled())
+			{
+				thePlayer.AbortSign();
+				return false;
+			}
+		}
+	}
+	
+	if(thePlayer.IsCiri() && IsActionAllowed(EIAB_ExplorationFocus))
+	{
+		if( IsPressed( action ) )
+		{
+			if( thePlayer.GoToCombatIfNeeded() )
+			{
+				OnCommGuard( action );
+				return false;
+			}
+			theGame.GetFocusModeController().Activate();
+		}
+		else if( IsReleased( action ) )
+		{
+			theGame.GetFocusModeController().Deactivate();
+		}
+	}
+	else if(IsActionAllowed(EIAB_ExplorationFocus) && !GetWitcherPlayer().IsCurrentSignChanneled()) 
+	{
+		if( IsPressed( action ) )
+		{
+			
+			if( thePlayer.GoToCombatIfNeeded() )
+			{
+				OnCommGuard( action );
+				return false;
+			}
+			theGame.GetFocusModeController().Activate();
+			
+		}
+		else if( IsReleased( action ) )
+		{
+			theGame.GetFocusModeController().Deactivate();
+		}
+	}
+	else
+	{
+		thePlayer.DisplayActionDisallowedHudMessage(EIAB_ExplorationFocus);
+		theGame.GetFocusModeController().Deactivate();	
+	}
+}
+
+@wrapMethod(CPlayerInput) function OnAltQuen( action : SInputAction )
+{	
+	if(false) 
+	{
+		wrappedMethod(action);
+	}
+
+	if(altSignCasting && !theInput.LastUsedPCInput() && IsPressed( action ) && theInput.IsActionPressed('CastSign') && !GetWitcherPlayer().IsCurrentSignChanneled())
+	{
+		//AltCastSign(ST_Quen);
+	}
+
+	if(!thePlayer.IsCiri())
+	{
+		if(altSignCasting && !theInput.LastUsedPCInput() && theInput.IsActionPressed('CastSign'))
+		{
+			if(IsPressed( action ) && !GetWitcherPlayer().IsCurrentSignChanneled())
+			{
+				AltCastSign(ST_Quen);
+				return false;
+			} 
+
+			if (IsReleased( action ) && GetWitcherPlayer().IsCurrentSignChanneled())
+			{
+				thePlayer.AbortSign();
+				return false;
+			}
+		}
 	}
 }

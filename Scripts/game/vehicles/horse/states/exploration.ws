@@ -1895,53 +1895,6 @@ state Exploration in W3HorseComponent
 		
 		ProcessControlInput( rl, fb, dt, parent.IsControllableInLocalSpace() || parent.riderSharedParams.mountStatus == VMS_mountInProgress );
 		
-		if( !PerformNavDataTest() && !isInJumpAnim ) 
-		{		
-			if( PerformInclinationTest( rl, fb ) && PerformWaterTest( rl, fb, waterDepth  ) ) 
-			{
-				ToggleSpeedLock( 'OnNavStop', false );
-				
-				if( PerformAutoJumpTest( rl, fb ) )
-				{
-					Jump();
-				}
-				
-				
-				parentActor.SetBehaviorVariable( 'canSlowWalk', 1.0f );
-			}
-			else if( !isFollowingRoad && !parent.ShouldIgnoreTests() )
-			{			
-				destSpeed = MIN_SPEED;
-				ToggleSpeedLock( 'OnNavStop', true );
-				if( !isRefusingToGo && parent.isInIdle && CanPlayCollisionAnim() && ( rl != 0.0 || fb != 0.0 ) && !isReversing ) 
-				{
-					parent.GenerateEvent( 'WallCollision' );
-					collisionAnimTimestamp = theGame.GetEngineTimeAsSeconds();
-				}	
-				
-				
-				if(parent.lastRider == thePlayer)
-				{
-					parentActor.SetBehaviorVariable( 'canSlowWalk', 0.0f );
-					isReversing = false;
-				}
-			}
-			else
-			{
-				ToggleSpeedLock( 'OnNavStop', false );
-				
-				
-				parentActor.SetBehaviorVariable( 'canSlowWalk', 1.0f );
-			}
-		}
-		else
-		{
-			ToggleSpeedLock( 'OnNavStop', false );
-			
-			
-			parentActor.SetBehaviorVariable( 'canSlowWalk', 1.0f );
-		}
-		
 		if( requestJump )
 		{
 			if( PerformObstructionJumpTest() && PerformWaterJumpTest() && PerformFallJumpTest() )

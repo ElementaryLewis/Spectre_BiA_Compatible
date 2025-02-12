@@ -93,6 +93,13 @@ var spectreActiveSkills : array<ESkill>;
 	isInitialized = true;
 
 	UpdateMutationSkillSlotsLocks();
+
+	if (!spectre_recolorManager)
+	{
+		spectre_recolorManager = new spectrePlayerAbilityRecolorManager in this;
+	}
+	
+	spectre_recolorManager.Init(this);
 	
 	return true;	
 }
@@ -1389,6 +1396,20 @@ var spectreActiveSkills : array<ESkill>;
 	{
 		MutagensSyngergyBonusUpdate( GetSkillGroupIdFromSkill( skill ), GetSkillLevel(S_Alchemy_s19) );
 	}
+
+	if(spectreResetSkill)
+	{
+		for(i=0; i<skills.Size(); i+=1)
+		{			
+			if(skills[i].skillType == skill)
+			{
+				pathPointsSpent[skills[i].skillPath] -= skills[i].level;
+				GetWitcherPlayer().AddPoints(ESkillPoint, skills[i].level, true);
+				skills[i].level = 0;
+			}
+		}
+		( (CR4CharacterMenu) ((CR4MenuBase)theGame.GetGuiManager().GetRootMenu()).GetLastChild() ).UpdateData(true);
+	}
 }
 
 @addMethod(W3PlayerAbilityManager) function ManageSetArmorTypeBonus()
@@ -1918,7 +1939,10 @@ var spectreActiveSkills : array<ESkill>;
 	
 	for(i=0; i<spectreActiveSkills.Size(); i+=1)
 	{
-		if(skills[spectreActiveSkills[i]].level != 0) OnSkillUnequip(spectreActiveSkills[i]);
+		if(skills[spectreActiveSkills[i]].level != 0) 
+		{
+			OnSkillUnequip(spectreActiveSkills[i]);
+		}
 	}
 	
 	for(i=0; i<skills.Size(); i+=1)
@@ -1926,12 +1950,36 @@ var spectreActiveSkills : array<ESkill>;
 		skillType = skills[i].skillType;
 		
 		if(IsCoreSkill(skillType))
-			continue;
-		
+		continue;
+
 		if(IsSkillEquipped(skillType))
 			UnequipSkill(GetSkillSlotID(skillType));
 			
 		skills[i].level = 0;
+
+		if (skills[i].skillType == S_Sword_s01
+		|| skills[i].skillType == S_Sword_s02
+		|| skills[i].skillType == S_Sword_s10
+		|| skills[i].skillType == S_Magic_s01
+		|| skills[i].skillType == S_Magic_s12
+		|| skills[i].skillType == S_Magic_s02
+		|| skills[i].skillType == S_Magic_s07
+		|| skills[i].skillType == S_Magic_s03
+		|| skills[i].skillType == S_Magic_s16
+		|| skills[i].skillType == S_Magic_s04
+		|| skills[i].skillType == S_Magic_s15
+		|| skills[i].skillType == S_Magic_s17
+		|| skills[i].skillType == S_Magic_s05
+		|| skills[i].skillType == S_Magic_s18
+		|| skills[i].skillType == S_Sword_s15
+		|| skills[i].skillType == S_Sword_s20
+		)
+		{
+			if (skills[i].level == 0)
+			{
+				thePlayer.AddSkill(skills[i].skillType);
+			}
+		}
 	}
 	
 	for(i=0; i<pathPointsSpent.Size(); i+=1)
@@ -1939,6 +1987,8 @@ var spectreActiveSkills : array<ESkill>;
 		pathPointsSpent[i] = 0;
 	}
 	
+	spectre_recolorManager.ResetColors();
+
 	owner.RemoveAbilityAll('sword_adrenalinegain');
 	owner.RemoveAbilityAll('magic_staminaregen');
 	owner.RemoveAbilityAll('alchemy_potionduration');
@@ -2263,4 +2313,85 @@ private saved var equippedMutations : array< EPlayerMutationType >;
 @replaceMethod(W3PlayerAbilityManager) function GetEquippedMutationType() : array<EPlayerMutationType>
 {
 	return equippedMutations;
+}
+
+@wrapMethod(W3PlayerAbilityManager) function CanUseSkill(skill : ESkill) : bool
+{
+	var ind : int;
+
+	if(false) 
+	{
+		wrappedMethod(skill);
+	}
+	
+	if(!IsSkillEquipped(skill))
+		return false;
+		
+	if(skills[skill].level < 0)
+		return false;
+		
+	if(skills[skill].remainingBlockedTime != 0)
+		return false;
+		
+	if(theGame.GetDefinitionsManager().IsAbilityDefined(skills[skill].abilityName) && charStats.HasAbility(skills[skill].abilityName))
+		return !IsAbilityBlocked(skills[skill].abilityName);
+	
+	return true;
+}
+
+@addField(W3PlayerAbilityManager)
+public var spectreResetSkill : bool;
+
+@addMethod(W3PlayerAbilityManager) function spectreResetSkill( b : bool) 
+{ 
+	spectreResetSkill = b; 
+}
+
+@addField(W3PlayerAbilityManager)
+private saved var spectre_recolorManager : spectrePlayerAbilityRecolorManager;
+
+@wrapMethod(W3PlayerAbilityManager) function GetSkillColor(skill : ESkill) : ESkillColor
+{
+	if(false) 
+	{
+		wrappedMethod(skill);
+	}
+
+	return spectre_recolorManager.GetSkillColor(skill);
+}
+
+@addMethod(W3PlayerAbilityManager) public final function EstimateRecolorCost(skill : ESkill, color : ESkillColor) : int
+{
+	return spectre_recolorManager.EstimateRecolorCost(skill, color);
+}
+
+@addMethod(W3PlayerAbilityManager) public function EstimateRecolorRefund(skill : ESkill) : int
+{
+	return spectre_recolorManager.EstimateRecolorRefund(skill);
+}
+
+@addMethod(W3PlayerAbilityManager) public final function SetSkillColor(skill : ESkill, color: ESkillColor): bool
+{
+	var skillPoints : int = EstimateRecolorCost(skill, color);
+	
+	if (spectre_recolorManager.SetColor(skill, color))
+	{
+		GetWitcherPlayer().levelManager.SpendPoints(ESkillPoint, skillPoints);
+		return true;
+	}
+	
+	return false;
+}
+
+@addMethod(W3PlayerAbilityManager) public final function ResetSkillColor(skill: ESkill): bool
+{
+	var skillPoints : int = EstimateRecolorRefund(skill);
+
+	if (spectre_recolorManager.ResetColor(skill))
+	{
+		GetWitcherPlayer().levelManager.UnspendPoints(ESkillPoint, skillPoints);
+		return true;
+	}
+
+	return false;
 }

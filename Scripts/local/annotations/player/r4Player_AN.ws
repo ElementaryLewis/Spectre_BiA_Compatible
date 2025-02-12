@@ -10,9 +10,18 @@ public			var castSignHoldTimestamp			: float;
 {
 	wrappedMethod(spawnData);
 	
-	spectreInitAttempt();
+	if (!spectreIsInitialized()) 
+	{
+		spectreInitializeSettings(); 
+    }
+	else
+	{
+		theGame.GetInGameConfigWrapper().SetVarValue('spectreMainOptions', 'spectreVersionControl', spectreGetVersion());
+	}
 
 	AddTimer('spectreWatcher', 0.01f, true);
+
+	thePlayer.ResumeStaminaRegen( 'SignCast' );
 }
 
 @addMethod( CR4Player ) timer function spectreWatcher( dt : float, id : int )
@@ -264,6 +273,12 @@ public			var castSignHoldTimestamp			: float;
 	StopLowStaminaSFX();
 }
 
+@addField(CR4Player)
+private var spectre_acs_player_counter_index																										: int;
+
+@addField(CR4Player)
+private var previous_spectre_acs_player_counter_index																								: int;
+
 @wrapMethod(CR4Player) function PerformCounterCheck(parryInfo: SParryInfo) : bool
 {
 	var attType						: float; 
@@ -367,7 +382,177 @@ public			var castSignHoldTimestamp			: float;
 					}
 					else if ( npc && !npc.IsHuman() && !npc.HasTag( 'dettlaff_vampire' ) )
 					{
-						repelType = PRT_SideStepSlash;
+						if (theGame.GetDLCManager().IsDLCAvailable('dlc_eh') 
+						&& theGame.GetDLCManager().IsDLCEnabled('dlc_eh') 
+						)
+						{
+							switch(ACS_Settings_Main_Int('EHmodParrySkillsSettings','EHmodMonsterCounterSettings', 0))
+							{
+								case 0:
+								repelType = PRT_SideStepSlash;
+								break;
+
+								case 1:
+								spectre_acs_player_counter_index = RandDifferent(this.previous_spectre_acs_player_counter_index , 2);
+
+								switch (spectre_acs_player_counter_index) 
+								{
+									case 1:
+									thisPos = this.GetWorldPosition();
+									attackerPos = parryInfo.attacker.GetWorldPosition();
+									playerToTargetRot = VecToRotation( thisPos - attackerPos );
+									zDifference = thisPos.Z - attackerPos.Z;
+									
+									if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+									{
+										repelType = PRT_Kick;
+										
+										ragdollTarget = parryInfo.attacker;
+										AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+									}
+									else
+									{
+										useKnockdown = false;
+										if ( CanUseSkill(S_Sword_s11) )
+										{
+											if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+											{
+												duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+												useKnockdown = true;
+											}
+										}
+										else if ( parryInfo.attacker.IsHuman() || parryInfo.attacker.IsMonster() )
+										{ 
+											
+											tracePosStart = parryInfo.attacker.GetWorldPosition();
+											tracePosStart.Z += 1.f;
+											playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+											tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+											tracePosEnd.Z += 1.f;
+
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+											{
+												tracePosStart = tracePosEnd;
+												tracePosEnd -= 3.f;
+												
+												if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+													useKnockdown = true;
+											}
+										}
+										
+										if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+										{
+											if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+											{
+												params.effectType = EET_HeavyKnockdown;
+											}
+											else
+											{
+												params.effectType = EET_Knockdown;
+											}
+											
+											repelType = PRT_Kick;
+											params.creator = this;
+											params.sourceName = "ReflexParryPerformed";
+											params.duration = duration;
+											
+											parryInfo.attacker.AddEffectCustom(params);
+										}
+										else
+										{
+											parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+										}
+									}
+									break;
+
+									case 0:
+									repelType = PRT_SideStepSlash;
+									break;
+
+									default:
+									repelType = PRT_SideStepSlash;
+									break;
+								}
+								this.previous_spectre_acs_player_counter_index = spectre_acs_player_counter_index;
+								break;
+
+								case 2:
+								thisPos = this.GetWorldPosition();
+								attackerPos = parryInfo.attacker.GetWorldPosition();
+								playerToTargetRot = VecToRotation( thisPos - attackerPos );
+								zDifference = thisPos.Z - attackerPos.Z;
+								
+								if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+								{
+									repelType = PRT_Kick;
+									
+									ragdollTarget = parryInfo.attacker;
+									AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+								}
+								else
+								{
+									useKnockdown = false;
+									if ( CanUseSkill(S_Sword_s11) )
+									{
+										if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+										{
+											duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+											useKnockdown = true;
+										}
+									}
+									else if ( parryInfo.attacker.IsHuman() || parryInfo.attacker.IsMonster() )
+									{ 
+										
+										tracePosStart = parryInfo.attacker.GetWorldPosition();
+										tracePosStart.Z += 1.f;
+										playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+										tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+										tracePosEnd.Z += 1.f;
+
+										if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+										{
+											tracePosStart = tracePosEnd;
+											tracePosEnd -= 3.f;
+											
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+												useKnockdown = true;
+										}
+									}
+									
+									if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+									{
+										if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+										{
+											params.effectType = EET_HeavyKnockdown;
+										}
+										else
+										{
+											params.effectType = EET_Knockdown;
+										}
+										
+										repelType = PRT_Kick;
+										params.creator = this;
+										params.sourceName = "ReflexParryPerformed";
+										params.duration = duration;
+										
+										parryInfo.attacker.AddEffectCustom(params);
+									}
+									else
+									{
+										parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+									}
+								}
+								break;
+
+								default:
+								repelType = PRT_SideStepSlash;
+								break;
+							}
+						}
+						else
+						{
+							repelType = PRT_SideStepSlash;
+						}
 					}
 					else if ( npc.IsHuman() && (npc.HasAbility('SkillTwoHanded') || npc.HasAbility('sq701_tournament_npcs')) )
 					{
@@ -375,37 +560,335 @@ public			var castSignHoldTimestamp			: float;
 					}
 					else
 					{
-						thisPos = this.GetWorldPosition();
-						attackerPos = parryInfo.attacker.GetWorldPosition();
-						playerToTargetRot = VecToRotation( thisPos - attackerPos );
-						zDifference = thisPos.Z - attackerPos.Z;
-						
-						if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+						if (theGame.GetDLCManager().IsDLCAvailable('dlc_eh') 
+						&& theGame.GetDLCManager().IsDLCEnabled('dlc_eh') 
+						)
 						{
-							repelType = PRT_Kick;
-							
-							ragdollTarget = parryInfo.attacker;
-							AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+							switch(ACS_Settings_Main_Int('EHmodParrySkillsSettings','EHmodHumanCounterSettings', 0))
+							{
+								case 0:
+								thisPos = this.GetWorldPosition();
+								attackerPos = parryInfo.attacker.GetWorldPosition();
+								playerToTargetRot = VecToRotation( thisPos - attackerPos );
+								zDifference = thisPos.Z - attackerPos.Z;
+								
+								if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+								{
+									repelType = PRT_Kick;
+									
+									ragdollTarget = parryInfo.attacker;
+									AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+								}
+								else
+								{
+									useKnockdown = false;
+									if ( CanUseSkill(S_Sword_s11) )
+									{
+										if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+										{
+											duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+											useKnockdown = true;
+										}
+									}
+									else if ( parryInfo.attacker.IsHuman() )
+									{ 
+										
+										tracePosStart = parryInfo.attacker.GetWorldPosition();
+										tracePosStart.Z += 1.f;
+										playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+										tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+										tracePosEnd.Z += 1.f;
+
+										if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+										{
+											tracePosStart = tracePosEnd;
+											tracePosEnd -= 3.f;
+											
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+												useKnockdown = true;
+										}
+									}
+									
+									if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+									{
+										if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+										{
+											params.effectType = EET_HeavyKnockdown;
+										}
+										else
+										{
+											params.effectType = EET_Knockdown;
+										}
+										
+										repelType = PRT_Kick;
+										params.creator = this;
+										params.sourceName = "ReflexParryPerformed";
+										params.duration = duration;
+										
+										parryInfo.attacker.AddEffectCustom(params);
+									}
+									else
+									{
+										parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+									}
+								}
+								break;
+
+								case 1:
+								spectre_acs_player_counter_index = RandDifferent(this.previous_spectre_acs_player_counter_index , 2);
+
+								switch (spectre_acs_player_counter_index) 
+								{
+									case 1:
+									repelType = PRT_SideStepSlash;
+									break;
+
+									case 0:
+									thisPos = this.GetWorldPosition();
+									attackerPos = parryInfo.attacker.GetWorldPosition();
+									playerToTargetRot = VecToRotation( thisPos - attackerPos );
+									zDifference = thisPos.Z - attackerPos.Z;
+									
+									if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+									{
+										repelType = PRT_Kick;
+										
+										ragdollTarget = parryInfo.attacker;
+										AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+									}
+									else
+									{
+										useKnockdown = false;
+										if ( CanUseSkill(S_Sword_s11) )
+										{
+											if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+											{
+												duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+												useKnockdown = true;
+											}
+										}
+										else if ( parryInfo.attacker.IsHuman() )
+										{ 
+											
+											tracePosStart = parryInfo.attacker.GetWorldPosition();
+											tracePosStart.Z += 1.f;
+											playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+											tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+											tracePosEnd.Z += 1.f;
+
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+											{
+												tracePosStart = tracePosEnd;
+												tracePosEnd -= 3.f;
+												
+												if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+													useKnockdown = true;
+											}
+										}
+										
+										if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+										{
+											if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+											{
+												params.effectType = EET_HeavyKnockdown;
+											}
+											else
+											{
+												params.effectType = EET_Knockdown;
+											}
+											
+											repelType = PRT_Kick;
+											params.creator = this;
+											params.sourceName = "ReflexParryPerformed";
+											params.duration = duration;
+											
+											parryInfo.attacker.AddEffectCustom(params);
+										}
+										else
+										{
+											parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+										}
+									}
+									break;
+
+									default:
+									thisPos = this.GetWorldPosition();
+									attackerPos = parryInfo.attacker.GetWorldPosition();
+									playerToTargetRot = VecToRotation( thisPos - attackerPos );
+									zDifference = thisPos.Z - attackerPos.Z;
+									
+									if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+									{
+										repelType = PRT_Kick;
+										
+										ragdollTarget = parryInfo.attacker;
+										AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+									}
+									else
+									{
+										useKnockdown = false;
+										if ( CanUseSkill(S_Sword_s11) )
+										{
+											if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+											{
+												duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+												useKnockdown = true;
+											}
+										}
+										else if ( parryInfo.attacker.IsHuman() )
+										{ 
+											
+											tracePosStart = parryInfo.attacker.GetWorldPosition();
+											tracePosStart.Z += 1.f;
+											playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+											tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+											tracePosEnd.Z += 1.f;
+
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+											{
+												tracePosStart = tracePosEnd;
+												tracePosEnd -= 3.f;
+												
+												if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+													useKnockdown = true;
+											}
+										}
+										
+										if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+										{
+											if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+											{
+												params.effectType = EET_HeavyKnockdown;
+											}
+											else
+											{
+												params.effectType = EET_Knockdown;
+											}
+											
+											repelType = PRT_Kick;
+											params.creator = this;
+											params.sourceName = "ReflexParryPerformed";
+											params.duration = duration;
+											
+											parryInfo.attacker.AddEffectCustom(params);
+										}
+										else
+										{
+											parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+										}
+									}
+									break;
+								}
+								this.previous_spectre_acs_player_counter_index = spectre_acs_player_counter_index;
+								break;
+
+								case 2:
+								repelType = PRT_SideStepSlash;
+								break;
+
+								default:
+								thisPos = this.GetWorldPosition();
+								attackerPos = parryInfo.attacker.GetWorldPosition();
+								playerToTargetRot = VecToRotation( thisPos - attackerPos );
+								zDifference = thisPos.Z - attackerPos.Z;
+								
+								if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+								{
+									repelType = PRT_Kick;
+									
+									ragdollTarget = parryInfo.attacker;
+									AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+								}
+								else
+								{
+									useKnockdown = false;
+									if ( CanUseSkill(S_Sword_s11) )
+									{
+										if( GetSkillLevel(S_Sword_s11) > 1 && RandRangeF(3,0) < GetWitcherPlayer().GetStat(BCS_Focus) )
+										{
+											duration = CalculateAttributeValue(GetSkillAttributeValue(S_Sword_s11, 'duration', false, true));
+											useKnockdown = true;
+										}
+									}
+									else if ( parryInfo.attacker.IsHuman() )
+									{ 
+										
+										tracePosStart = parryInfo.attacker.GetWorldPosition();
+										tracePosStart.Z += 1.f;
+										playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+										tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+										tracePosEnd.Z += 1.f;
+
+										if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+										{
+											tracePosStart = tracePosEnd;
+											tracePosEnd -= 3.f;
+											
+											if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+												useKnockdown = true;
+										}
+									}
+									
+									if(useKnockdown && (!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown) || !parryInfo.attacker.IsImmuneToBuff(EET_Knockdown)))
+									{
+										if(!parryInfo.attacker.IsImmuneToBuff(EET_HeavyKnockdown))
+										{
+											params.effectType = EET_HeavyKnockdown;
+										}
+										else
+										{
+											params.effectType = EET_Knockdown;
+										}
+										
+										repelType = PRT_Kick;
+										params.creator = this;
+										params.sourceName = "ReflexParryPerformed";
+										params.duration = duration;
+										
+										parryInfo.attacker.AddEffectCustom(params);
+									}
+									else
+									{
+										parryInfo.attacker.AddEffectDefault(EET_CounterStrikeHit, this, "ReflexParryPerformed");
+									}
+								}
+								break;
+							}
 						}
 						else
 						{
-							useKnockdown = false;
-							if ( parryInfo.attacker.IsHuman() )
-							{ 
-								tracePosStart = parryInfo.attacker.GetWorldPosition();
-								tracePosStart.Z += 1.f;
-								playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
-								tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
-								tracePosEnd.Z += 1.f;
+							thisPos = this.GetWorldPosition();
+							attackerPos = parryInfo.attacker.GetWorldPosition();
+							playerToTargetRot = VecToRotation( thisPos - attackerPos );
+							zDifference = thisPos.Z - attackerPos.Z;
+							
+							if ( playerToTargetRot.Pitch < -5.f && zDifference > 0.35 )
+							{
+								repelType = PRT_Kick;
+								
+								ragdollTarget = parryInfo.attacker;
+								AddTimer( 'ApplyCounterRagdollTimer', 0.3 );
+							}
+							else
+							{
+								useKnockdown = false;
+								if ( parryInfo.attacker.IsHuman() )
+								{ 
+									tracePosStart = parryInfo.attacker.GetWorldPosition();
+									tracePosStart.Z += 1.f;
+									playerToAttackerVector = VecNormalize( parryInfo.attacker.GetWorldPosition() -  parryInfo.target.GetWorldPosition() );
+									tracePosEnd = ( playerToAttackerVector * 0.75f ) + ( playerToAttackerVector * parryInfo.attacker.GetRadius() ) + parryInfo.attacker.GetWorldPosition();
+									tracePosEnd.Z += 1.f;
 
-								if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
-								{
-									tracePosStart = tracePosEnd;
-									tracePosEnd -= 3.f;
-									
 									if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
 									{
-										useKnockdown = true;
+										tracePosStart = tracePosEnd;
+										tracePosEnd -= 3.f;
+										
+										if ( !theGame.GetWorld().StaticTrace( tracePosStart, tracePosEnd, hitPos, hitNormal, counterCollisionGroupNames ) )
+										{
+											useKnockdown = true;
+										}
 									}
 								}
 							}
@@ -499,7 +982,10 @@ public			var castSignHoldTimestamp			: float;
 		wrappedMethod(attacker);
 	}
 
-	if ( thePlayer.GetSkillLevel(S_Sword_s11) == 10 )
+	if ( thePlayer.GetSkillLevel(S_Sword_s11) == 10 
+	&& thePlayer.CanUseSkill(S_Sword_s11)
+	&& (GetWitcherPlayer().IsGuarded() || GetWitcherPlayer().IsInGuardedState())
+	) 
 	{
 		return true;
 	}
@@ -696,32 +1182,28 @@ public			var castSignHoldTimestamp			: float;
 	{
 		return false;
 	}
+	
 	if ( !IsSwimming() )
 	{
 		if ( ShouldUseStaminaWhileSprinting() && !GetIsSprinting() && !IsInCombat() && GetStat(BCS_Stamina) <= 0 )
 		{
 			return false;
 		}
+
 		if( ( !IsCombatMusicEnabled() || IsInFistFightMiniGame() ) && ( !IsActionAllowed(EIAB_RunAndSprint) || !IsActionAllowed(EIAB_Sprint) )  )
 		{
 			return false;
 		}
-		if( IsTerrainTooSteepToRunUp() )
-		{
-			return false;
-		}
+
 		if( IsInCombatAction() )
 		{
 			return false;
 		}
+		
 		if( IsInAir() )
 		{
 			return false;
 		}
-	}
-	if( theGame.IsFocusModeActive() )
-	{
-		return false;
 	}
 	
 	return true;
@@ -1432,7 +1914,7 @@ protected var parryingWithNotEnoughStamina : bool;
 {
 	var ret : bool;
 	var cost : float;
-	
+
 	if(false) 
 	{
 		wrappedMethod(skill, perSec, signHack);

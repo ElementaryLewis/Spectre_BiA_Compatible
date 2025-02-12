@@ -92,6 +92,11 @@ private var animSpeedMult						: int;
 
 	levelFakeAddon = 0;
 	newGamePlusFakeLevelAddon = false;
+
+	if ( npcGroupType == ENGT_Guard )
+	{
+		SetImmortalityMode(AIM_None, AIC_Default);	
+	}
 }
 
 @wrapMethod(CNewNPC) function SetLevel ( _level : int )
@@ -517,10 +522,14 @@ private var animSpeedMult						: int;
 
 	if( GetNPCType() == ENGT_Guard )
 	{
+		/*
 		if( currentLevel < playerLevel )
 			currentLevel = playerLevel;
 		if( !theGame.params.GetNoAdditionalLevelsForGuards() )
 			currentLevel += theGame.params.LEVEL_DIFF_DEADLY + 1;
+		*/
+
+		currentLevel = playerLevel;
 	}
 
 	currentLevel = Max(1, currentLevel);

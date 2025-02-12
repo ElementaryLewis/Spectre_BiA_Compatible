@@ -38,7 +38,7 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 	SendCombatState();
 	
 	_inv = thePlayer.GetInventory();
-	_playerInv = new W3GuiPlayerInventoryComponent in this;
+	_playerInv = new spectre_GuiCharacterTabInventoryComponent in this;
 	_playerInv.Initialize( _inv );
 	_playerInv.ignorePosition = true;
 	filterTagsList.PushBack('MutagenIngredient');
@@ -94,10 +94,10 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 		}
 	}
 	if( !updated )
-		CheckAdditionalSlots();
+		spectreCheckAdditionalSlots();
 }
 
-@addMethod(CR4CharacterMenu) function CheckAdditionalSlots()
+@addMethod(CR4CharacterMenu) function spectreCheckAdditionalSlots()
 {
 	var skillSlots : array<SSkillSlot>;
 	var curSlot : SSkillSlot;
@@ -614,7 +614,7 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 			baseString = GetLocStringByKeyExtWithParams(locKey, argsInt);
 			break;
 		case S_Magic_s17:
-			argsInt.PushBack(RoundMath(CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_s17, 'slowdown_mod', false, false)) * 100 * skillLevel));
+			argsInt.PushBack(RoundMath(CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_s17, 'slowdown_mod', false, false)) * 50 * skillLevel));
 			argsInt.PushBack(RoundMath(CalculateAttributeValue(GetWitcherPlayer().GetSkillAttributeValue(S_Magic_s17, 'crit_chance_bonus', false, false)) * 100 * skillLevel));
 			baseString = GetLocStringByKeyExtWithParams(locKey, argsInt);
 			break;
@@ -966,7 +966,7 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 	{
 		currentlyEquipped = GetWitcherPlayer().GetEquippedMutationType();
 		
-		SetMasterMutationColors();
+		spectreSetMasterMutationColors();
 
 		if(updateMasterMutationDesc)
 		{
@@ -979,7 +979,7 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 	}
 }
 
-@addMethod(CR4CharacterMenu) function SetMasterMutationColors()
+@addMethod(CR4CharacterMenu) function spectreSetMasterMutationColors()
 {
 	var currentlyEquipped : array<EPlayerMutationType>;
 	var mutationSkillColors : array< ESkillColor >;
@@ -1525,4 +1525,176 @@ private var m_fxSetConnectorsColors 				: CScriptedFlashFunction;
 	}
 	
 	m_flashValueStorage.SetFlashObject( "character.skills.slot.update", gfxSlot);
+}
+
+@wrapMethod(CR4CharacterMenu) function OnClosingMenu()
+{
+	wrappedMethod();
+
+	( ( W3PlayerAbilityManager ) GetWitcherPlayer().abilityManager ).spectreResetSkill(false);
+}
+
+@wrapMethod(CR4CharacterMenu) function OnEquipSkill(skill : ESkill, slotID : int)
+{
+	var oldSkill:ESkill;
+	var foundSkill:bool;
+	var oldSkillSlot:int;
+	var targetSlot:SSkillSlot;
+	var dragInterest : spectre_EChTabInterests;
+
+	if (false)
+	{
+		wrappedMethod(skill, slotID);
+	}
+	
+	dragInterest = ((spectre_GuiCharacterTabInventoryComponent)_playerInv).ECTIConvertFromESkill(skill);
+
+	if (thePlayer.IsInCombat())
+	{
+		showNotification(GetLocStringByKeyExt("menu_cannot_perform_action_combat"));
+		OnPlaySoundEvent("gui_global_denied");
+	}
+	else if (dragInterest != spectre_ECTI_Not_Interesting_Item)
+	{
+		foundSkill = thePlayer.GetSkillOnSlot(slotID, oldSkill);
+		
+		if (foundSkill && dragInterest == spectre_ECTI_Clearing_Potion)
+		{
+			spectreHandleSkillColorReset(oldSkill, dragInterest);
+		}
+		else if (foundSkill)
+		{
+			spectreHandleRecolorRequest(oldSkill, dragInterest);
+		}
+	}
+	else
+	{
+		foundSkill = thePlayer.GetSkillOnSlot(slotID, oldSkill);
+		
+		OnPlaySoundEvent("gui_character_add_skill");
+		
+		if (!foundSkill || oldSkill != skill)
+		{
+			tryUnequipSkill(skill);
+			
+			thePlayer.EquipSkill(skill, slotID);
+			
+			PopulateTabData(GetTabForSkill(skill));
+			
+			if (oldSkillSlot != -1)
+			{
+				m_fxClearSkillSlot.InvokeSelfOneArg(FlashArgInt(oldSkillSlot));
+			}
+			
+			UpdateAppliedSkill(slotID);				
+			UpdateMutagens();
+			UpdatePlayerStatisticsData();				
+			UpdateGroupsData();
+			UpdateMasterMutation();
+			
+			if (oldSkill != S_SUndefined)
+			{
+				PopulateTabData(GetTabForSkill(oldSkill));
+			}
+			
+			m_fxPaperdollChanged.InvokeSelf();
+		}
+	}
+}
+
+@wrapMethod(CR4CharacterMenu) function OnEquipMutagen(itemID:SItemUniqueId, slotId:EEquipmentSlots)
+{
+	if (false)
+	{
+		wrappedMethod(itemID, slotId);
+	}
+
+	if (thePlayer.IsInCombat())
+	{
+		showNotification(GetLocStringByKeyExt("menu_cannot_perform_action_combat"));
+		OnPlaySoundEvent("gui_global_denied");
+	}
+	else if (_playerInv.GetItemName(itemID) == 'Clearing Potion')
+	{
+		OnPlaySoundEvent("gui_global_denied");
+	}
+	else
+	{
+		GetWitcherPlayer().EquipItemInGivenSlot(itemID, slotId, false);
+		
+		OnPlaySoundEvent("gui_character_place_mutagen");
+		
+		UpdateMutagens();
+		UpdateGroupsData();
+		PopulateTabData(CharacterMenuTab_Mutagens);
+		UpdatePlayerStatisticsData();
+		UpdateMasterMutation();
+		
+		m_fxPaperdollChanged.InvokeSelf();
+	}
+}
+
+@addMethod(CR4CharacterMenu) function spectreHandleSkillColorReset(targetSkill: ESkill, applied : spectre_EChTabInterests)
+{
+	var pam : W3PlayerAbilityManager;
+	var component : spectre_GuiCharacterTabInventoryComponent;
+	var itemName : name;
+
+	pam = (W3PlayerAbilityManager)thePlayer.abilityManager;
+	component = ((spectre_GuiCharacterTabInventoryComponent)_playerInv);
+	itemName = component.NeededItemEnumToName(applied);
+
+	if (pam.ResetSkillColor(targetSkill))
+	{
+		spectreAfterSkillColorChange(targetSkill);
+	}
+}
+
+@addMethod(CR4CharacterMenu) function spectreHandleRecolorRequest(targetSkill: ESkill, applied : spectre_EChTabInterests)
+{
+	var confirmation: spectre_RecolorSkillConfirmation;
+	confirmation = new spectre_RecolorSkillConfirmation in this;
+	confirmation.component = ((spectre_GuiCharacterTabInventoryComponent)_playerInv);
+	confirmation.characterMenuRef = this;
+	confirmation.Setup(targetSkill, applied);
+	initDataBuySkill = confirmation;
+}
+
+@addMethod(CR4CharacterMenu) function spectreHandleRecolorSkillConfirmation(targetSkill: ESkill, applied : spectre_EChTabInterests)
+{
+	var pam : W3PlayerAbilityManager;
+	var component : spectre_GuiCharacterTabInventoryComponent;
+	var itemName : name;
+	var targetColor: ESkillColor;
+
+	pam = (W3PlayerAbilityManager)thePlayer.abilityManager;
+	component = ((spectre_GuiCharacterTabInventoryComponent)_playerInv);
+	itemName = component.NeededItemEnumToName(applied);
+	targetColor = component.NeededItemEnumToColor(applied);
+
+	if (pam.SetSkillColor(targetSkill, targetColor))
+	{
+		_inv.RemoveUnusedMutagensCount(itemName, 1);
+		spectreAfterSkillColorChange(targetSkill);
+	}
+}
+
+@addMethod(CR4CharacterMenu) function spectreAfterSkillColorChange(skill: ESkill)
+{
+	var slotID : int = GetSlotForSkill(skill);
+	thePlayer.EquipSkill(skill, slotID);
+	
+	OnPlaySoundEvent("gui_character_buy_skill");
+	UpdateSkillPoints();
+	
+	PopulateTabData(GetTabForSkill(skill), skill);
+	PopulateTabData(CharacterMenuTab_Mutagens);
+	
+	UpdateAppliedSkill(slotID);
+	UpdateMutagens();
+	UpdatePlayerStatisticsData();
+	UpdateGroupsData();
+	UpdateMasterMutation();
+	
+	m_fxPaperdollChanged.InvokeSelf();
 }

@@ -790,6 +790,24 @@
         </base_abilities>
       </item>
 	  
+	   <!-- mq1060 Reinald's Philtre. Quest item so we cant gobble it -->
+	  <item name="Signs Enhancement" category="potion" price="300" grid_size="1" ability_slots="0" stackable="1000" icon_path="icons/inventory/ingredients/alchemy/alcohol_vodka_pepper_64x64.png" localisation_key_name="item_name_signs_enhancement" localisation_key_description="item_desc_signs_enhancement">
+        <tags>Quest, SingletonItem, mod_nosale</tags>
+        <base_abilities>
+		  <a>ReinaldPhiltre</a>
+          <a>default_potion_stats</a>
+        </base_abilities>
+      </item>
+	  
+	  <!-- mq1060 Reinald's Philtre actual potion -->
+	  <item name="ReinaldsPhiltre" category="potion" price="300" grid_size="1" ability_slots="0" stackable="1000" icon_path="icons/inventory/ingredients/alchemy/alcohol_vodka_pepper_64x64.png" localisation_key_name="item_name_signs_enhancement" localisation_key_description="item_desc_signs_enhancement">
+        <tags>Potion, SingletonItem, mod_nosale</tags>
+        <base_abilities>
+          <a>ReinaldPhiltre</a>
+          <a>default_potion_stats</a>
+        </base_abilities>
+      </item>
+	  
     </items>
   </definitions>
 </redxml>

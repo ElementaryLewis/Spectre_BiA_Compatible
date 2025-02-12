@@ -13,7 +13,18 @@
 	
 	super.OnUpdate(dt);
 	
-	if(stat == BCS_Vitality && isOnPlayer && target == GetWitcherPlayer() && GetWitcherPlayer().HasRunewordActive('Runeword 4 _Stats'))
+	if(stat == BCS_Vitality 
+	&& isOnPlayer 
+	&& target == GetWitcherPlayer() 
+	&& GetWitcherPlayer().HasRunewordActive('Runeword 4 _Stats')
+	&& !effectManager.HasEffect(EET_AutoVitalityRegen)
+	&& !effectManager.HasEffect(EET_AutoStaminaRegen)
+	&& !effectManager.HasEffect(EET_AutoEssenceRegen)
+	&& !effectManager.HasEffect(EET_AutoMoraleRegen)
+	&& !effectManager.HasEffect(EET_AutoAirRegen)
+	&& !effectManager.HasEffect(EET_AutoPanicRegen)
+	&& !effectManager.HasEffect(EET_AutoSwimmingStaminaRegen)
+	)
 	{
 		canRegen = true;
 	}
@@ -22,7 +33,7 @@
 		canRegen = (target.GetStatPercents(stat) < 1);
 	}
 	
-	if(canRegen && ShouldApplyRegenEH() )//---===modBIA===---// *Thanks to skyliner390*
+	if(canRegen)
 	{
 		
 		regenPoints = effectValue.valueAdditive + effectValue.valueMultiplicative * target.GetStatMax(stat);
@@ -54,34 +65,3 @@
 			effectManager.CacheStatUpdate(stat, regenPoints * dt);
 	}
 }	
-
-//---===modBIA===---// *Thanks to skyliner390*
-@addMethod(W3RegenEffect) private function ShouldApplyRegenEH() : bool
-	{
-		var auto_effect : EEffectType;
-
-		switch (effectType)
-		{	case EET_AutoVitalityRegen:
-			case EET_AutoStaminaRegen:
-			case EET_AutoEssenceRegen:
-			case EET_AutoMoraleRegen:
-			case EET_AutoAirRegen:
-			case EET_AutoPanicRegen:
-			case EET_AutoSwimmingStaminaRegen:
-				return (true);
-			default:
-				switch (regenStat)
-				{	case CRS_Vitality:			auto_effect = EET_AutoVitalityRegen;			break ;
-					case CRS_Stamina:			auto_effect = EET_AutoStaminaRegen;				break ;
-					case CRS_Essence:			auto_effect = EET_AutoEssenceRegen;				break ;
-					case CRS_Morale:			auto_effect = EET_AutoMoraleRegen;				break ;
-					case CRS_Air:				auto_effect = EET_AutoAirRegen;					break ;
-					case CRS_Panic:				auto_effect = EET_AutoPanicRegen;				break ;
-					case CRS_SwimmingStamina:	auto_effect = EET_AutoSwimmingStaminaRegen;		break ;
-					default:
-						return (true);
-				}
-				return (!effectManager.HasEffect(auto_effect) );
-		}
-	}
-	//---===modBIA===---//

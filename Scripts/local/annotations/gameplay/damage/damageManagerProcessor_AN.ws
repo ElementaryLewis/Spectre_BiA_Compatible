@@ -27,6 +27,7 @@ private var hasArmor					: bool;
 	
 	InitializeActionVars(act);
 	
+	/*
 	if(playerVictim && attackAction && attackAction.IsActionMelee() && 
 		(attackAction.IsParried() || attackAction.IsCountered()) && 
 		(!attackAction.CanBeParried() ||
@@ -56,6 +57,7 @@ private var hasArmor					: bool;
 			}
 		}
 	}
+	*/
 	
 	ProcessPreHitModifications();
 
@@ -1027,7 +1029,33 @@ private var hasArmor					: bool;
 	{
 		dmgBonusMult += witcherAttacker.GetRendPowerBonus();
 	}
-	
+
+	if( witcherAttacker && actorVictim && attackAction.IsActionMelee() && GetWitcherPlayer().IsSetBonusActive( EISB_Wolf_1 ) )
+	{
+		FindGameplayEntitiesInRange( entities, playerAttacker, 50, 1000, , FLAG_OnlyAliveActors );
+		if( entities.Size() > 0 )
+		{
+			for( i=0; i<entities.Size(); i+=1 )
+			{
+				npcVictim = (CNewNPC) entities[i];
+				if( npcVictim )
+				{
+					if( npcVictim.HasBuff( EET_Bleeding ) )  bonusCount += 1;
+					if( npcVictim.HasBuff( EET_Bleeding1 ) ) bonusCount += 1;
+					if( npcVictim.HasBuff( EET_Bleeding2 ) ) bonusCount += 1;
+					if( npcVictim.HasBuff( EET_Bleeding3 ) ) bonusCount += 1;
+				}
+			}
+			
+			bonusCount *= ((W3PlayerWitcher)playerAttacker).GetSetPartsEquipped( EIST_Wolf );
+			
+			for( i=0; i<dmgInfos.Size() ; i+=1 )
+			{
+				dmgInfos[i].dmgVal *= 1 + bonusCount*0.01;
+			}
+		}
+	}
+
 	if(witcherAttacker && witcherAttacker.HasGlyphwordActive('Glyphword 4 _Stats') && action.IsActionMelee() && !witcherAttacker.IsDoingSpecialAttack(true) && !witcherAttacker.IsDoingSpecialAttack(false))
 	{
 		theGame.GetDefinitionsManager().GetAbilityAttributeValue('Glyphword 4 _Stats', 'glyphword4_mod', min, max);
@@ -2392,7 +2420,7 @@ private var confusionInstakillTested : bool;
 		wrappedMethod();
 	}
 	
-	if(!action.victim.IsAlive() || action.WasDodged() || (attackAction && attackAction.IsActionMelee() && !attackAction.ApplyBuffsIfParried() && attackAction.CanBeParried() && attackAction.IsParried()) )
+	if(!action.victim.IsAlive() || action.WasDodged() || (attackAction && attackAction.IsActionMelee() && !attackAction.ApplyBuffsIfParried() && attackAction.IsParried()) )
 		return true;
 		
 	if( actorAttacker == thePlayer && action.IsActionWitcherSign() && action.IsCriticalHit() && GetWitcherPlayer().IsMutationActive( EPMT_Mutation2 ) && action.HasBuff( EET_Burning ) )

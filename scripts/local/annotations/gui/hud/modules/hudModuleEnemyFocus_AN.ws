@@ -1,3 +1,4 @@
+/*
 @wrapMethod( CR4HudModuleEnemyFocus ) function OnTick( timeDelta : float )
 {
 	var l_targetNonActor			: CGameplayEntity;
@@ -8,4 +9,4 @@
 	{
 		wrappedMethod(timeDelta);
 	}
-}
+}*/

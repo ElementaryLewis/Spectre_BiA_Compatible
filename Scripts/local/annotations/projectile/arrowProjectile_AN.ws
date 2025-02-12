@@ -44,7 +44,7 @@
 	if(!victim && thePlayer.HasAbility('sq108_heavy_armor _Stats', true))
 		victim = thePlayer;
 	
-	if( collidingComponent && !hitCollisionsGroups.Contains( 'Static' ) )
+	if( collidingComponent && !hitCollisionsGroups.Contains( 'Static' ) && !((CActor)victim).IsCurrentlyDodging() )
 	{	
 		if ( !victim || collidedEntities.Contains(victim) || victim == caster )
 			return false;

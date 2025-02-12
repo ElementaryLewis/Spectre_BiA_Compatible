@@ -136,13 +136,14 @@
 	}
 }
 
+
 @wrapMethod(IgniChanneled) function OnEnded(optional isEnd : bool)
 {
 	if(false) 
 	{
 		wrappedMethod(isEnd);
 	}
-	
+
 	super.OnEnded(isEnd);
 	
 	if ( caster.IsPlayer() )
@@ -160,6 +161,7 @@
 	parent.StopEffect( parent.effects[parent.fireMode].throwEffectSpellPower );	
 }
 
+
 @replaceMethod(IgniChanneled) function ChannelIgni()
 {
 	caster.GetActor().OnSignCastPerformed(ST_Igni, true);
@@ -167,9 +169,14 @@
 	while( Update(theTimer.timeDelta) )
 	{
 		ProcessThrow(theTimer.timeDelta);
+
+		if(parent.IsEffectActive('burn', false) || parent.IsEffectActive('burn_upgrade', false))
+			parent.burnEffectPlayed = true;
+
 		Sleep(theTimer.timeDelta);
 	}
 }
+
 
 @wrapMethod(IgniChanneled) function CleanUp()
 {
@@ -202,4 +209,24 @@
 	reusableProjectiles.Clear();
 	
 	parent.CleanUp();
+}
+
+@wrapMethod(IgniChanneled) function OnSignAborted( optional force : bool )
+{
+	if(false) 
+	{
+		wrappedMethod();
+	}
+
+	if ( caster.IsPlayer() )
+	{
+		caster.GetPlayer().LockToTarget( false );
+	}
+	
+	parent.AddTimer('RangeFXTimedOutDestroy', 0.1, , , , true);
+	parent.AddTimer('CollisionFXTimedOutDestroy', 0.3, , , , true);
+	
+	CleanUp();
+	
+	super.OnSignAborted( force );
 }

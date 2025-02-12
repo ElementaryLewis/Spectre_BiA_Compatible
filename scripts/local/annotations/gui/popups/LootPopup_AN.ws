@@ -53,6 +53,7 @@ private var spectreAreaLoot				: spectreAoELoot;
             }
         }
         
+        if (thePlayer.HasTag('ACS_IsSwordWalking')){thePlayer.RemoveTag('ACS_IsSwordWalking');}
         thePlayer.RaiseEvent('LootHerb');
 
         m_fxSetWindowScale.InvokeSelfOneArg(FlashArgNumber(targetSize));
@@ -222,7 +223,8 @@ private var spectreAreaLoot				: spectreAoELoot;
 	{
 		wrappedMethod(Id);
 	}
-
+    
+    if (thePlayer.HasTag('ACS_IsSwordWalking')){thePlayer.RemoveTag('ACS_IsSwordWalking');}
     thePlayer.RaiseEvent('LootHerb');
     
     m_indexToSelect = Id;

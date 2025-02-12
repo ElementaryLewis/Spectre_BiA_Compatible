@@ -43,22 +43,34 @@
 	}
 	
 	if( anger == 0 ) 
-	{			
+	{	
 		currentRewardMultiply = 1.f;
 		minimalHagglingReward = FloorF(rewardValue);					
-		maxMult = 1;		   
+		maxMult =  (thePlayer.GetSkillLevel(S_Magic_s17) * thePlayer.GetSkillLevel(S_Magic_s17) / 10) + RandRangeF(0.5, 0.35);
 		maxHaggleValue = FloorF( rewardValue * (1.f + maxMult) );
 		currentReward = minimalHagglingReward;
 		
-		if ( alwaysSuccessful )
+		if ( alwaysSuccessful || thePlayer.GetSkillLevel(S_Magic_s17) >= 5)
 		{
+			spectrePlayAxiiEffectOnNpcsAroundDialog(true, true);	
+
 			NPCsPrettyClose = 1.f + maxMult;
 			NPCsTooMuch = NPCsPrettyClose;
 		}
 		else
 		{
-			NPCsPrettyClose = 1.f + RandRangeF(0.7, 0.2f) * maxMult;		
-			NPCsTooMuch = NPCsPrettyClose + 0.3 * maxMult;				
+			if (thePlayer.GetSkillLevel(S_Magic_s17) >= 1)
+			{
+				spectrePlayAxiiEffectOnNpcsAroundDialog(true, false);
+
+				NPCsPrettyClose = thePlayer.GetSkillLevel(S_Magic_s17) + 1.f + RandRangeF(0.8f, 0.1f) * maxMult;	
+				NPCsTooMuch = NPCsPrettyClose + 0.3f * RandRangeF(0.5, 0.35);		
+			}
+			else
+			{
+				NPCsPrettyClose = 1.f + RandRangeF(0.7f, 0.2f) * RandRangeF(0.5, 0.35);		
+				NPCsTooMuch = NPCsPrettyClose + 0.3f * RandRangeF(0.5, 0.35);	
+			}
 		}
 		
 		LogHaggle("");
@@ -83,4 +95,83 @@
 	popupData.maxValue = maxHaggleValue;
 	
 	theGame.RequestMenu('PopupMenu', popupData);		
+}
+
+@wrapMethod(CR4HudModuleDialog) function OnDialogChoiceTimeoutSet(timeOutPercent : float)
+{
+	wrappedMethod(timeOutPercent);
+	spectrePlayAxiiEffectOnNpcsAroundDialog(false, false);
+}
+
+@wrapMethod(CR4HudModuleDialog) function OnDialogChoiceTimeoutHide()
+{
+	wrappedMethod();
+	spectrePlayAxiiEffectOnNpcsAroundDialog(false, false);
+}
+
+@wrapMethod(CR4HudModuleDialog) function OnDialogSkipConfirmShow()
+{
+	wrappedMethod();
+	spectrePlayAxiiEffectOnNpcsAroundDialog(false, false);
+}
+
+@wrapMethod(CR4HudModuleDialog) function OnDialogSkipConfirmHide()
+{
+	wrappedMethod();
+	spectrePlayAxiiEffectOnNpcsAroundDialog(false, false);
+}
+
+function spectrePlayAxiiEffectOnNpcsAroundDialog(effect_add, max_effect : bool)
+{
+	var actor							: CActor; 
+	var actors		    				: array<CActor>;
+	var i								: int;
+	var npc								: CNewNPC;
+
+	actors.Clear();
+
+	actors = thePlayer.GetNPCsAndPlayersInRange( 10, 5, , FLAG_OnlyAliveActors + FLAG_ExcludePlayer);
+
+	if( actors.Size() > 0 )
+	{
+		for( i = 0; i < actors.Size(); i += 1 )
+		{
+			npc = (CNewNPC)actors[i];
+
+			actor = actors[i];
+
+			if (effect_add)
+			{
+				if (!npc.HasTag('ACS_Dialog_Axiied')
+				)
+				{
+					//thePlayer.GetRootAnimatedComponent().PlaySlotAnimationAsync( 'high_standing_determined_gesture_axii_covert', 'PLAYER_SLOT', SAnimatedComponentSlotAnimationSettings(0.25f, 0.25f) );
+
+					//npc.PlayEffectSingle('demonic_possession');
+
+					npc.PlayEffectSingle('axii_confusion');
+
+					if(max_effect)
+					{
+						npc.PlayEffectSingle('axii_guardian');
+					}
+	
+					npc.AddTag('ACS_Dialog_Axiied');
+				}
+			}
+			else
+			{
+				if (npc.HasTag('ACS_Dialog_Axiied'))
+				{
+					//npc.StopEffect('demonic_possession');
+
+					npc.StopEffect('axii_confusion');
+
+					npc.StopEffect('axii_guardian');
+
+					npc.RemoveTag('ACS_Dialog_Axiied');
+				}
+			}
+		}
+	}
 }

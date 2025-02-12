@@ -317,7 +317,7 @@ import class W3GameParams extends CObject
 		default ITEM_SET_TAG_GRYPHON_MINOR = 'GryphonSetMinor';
 		default ITEM_SET_TAG_LYNX_MINOR = 'LynxSetMinor';
 		default ITEM_SET_TAG_WOLF_MINOR = 'WolfSetMinor';
-		default ITEM_SET_TAG_RED_WOLF = 'RedWolfSetMinor';	
+		default ITEM_SET_TAG_RED_WOLF_MINOR = 'RedWolfSetMinor';	
 	
 	
 	private var newGamePlusLevel : int;						

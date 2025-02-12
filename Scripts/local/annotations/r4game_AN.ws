@@ -1,5 +1,5 @@
 @addField(CR4Game)
-public var alchexts : AlchemyExtensions; 
+public var alchexts : SpectreAlchemyExtensions; 
 
 @addField(CR4Game)
 public saved var spawnareas : array<S_SpawnArea>;
@@ -13,7 +13,7 @@ public saved var spawnareas : array<S_SpawnArea>;
 		wrappedMethod(restored);
 	}
 
-	start_spectre(this);
+	SpectreAlchemyInitialize(this);
 
 	if(!restored)
 	{

@@ -206,12 +206,20 @@ var speedMultCasuserId	: int;
 	if(!owner.GetPlayer())
 		return;
 	
-	speed = 0.6;
+	speed = 1;
+
 	if(owner.CanUseSkill(S_Magic_s17))
+	{
 		speed -= CalculateAttributeValue(owner.GetSkillAttributeValue(S_Magic_s17, 'slowdown_mod', false, true)) * owner.GetSkillLevel(S_Magic_s17);
 
+		if (speed <= 0.1)
+		{
+			speed = 0.1;
+		}
+	}
+		
 	theGame.SetTimeScale(speed, theGame.GetTimescaleSource(ETS_ThrowingAim), theGame.GetTimescalePriority(ETS_ThrowingAim), false);
-	speedMultCasuserId = owner.GetActor().SetAnimationSpeedMultiplier(1/speed * 0.5);
+	speedMultCasuserId = owner.GetActor().SetAnimationSpeedMultiplier(1/speed*0.5);
 	theSound.SoundEvent("gui_slowmo_start");
 }
 

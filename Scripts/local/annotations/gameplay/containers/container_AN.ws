@@ -33,6 +33,8 @@
 	{
 		
 		if( !thePlayer.IsAnyWeaponHeld() && !thePlayer.IsHoldingItemInLHand() )
+
+			if (thePlayer.HasTag('ACS_IsSwordWalking')){thePlayer.RemoveTag('ACS_IsSwordWalking');}
 			thePlayer.RaiseEvent('LootHerb');
 		
 

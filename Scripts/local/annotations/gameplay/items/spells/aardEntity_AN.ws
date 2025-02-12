@@ -1,6 +1,6 @@
 @wrapMethod(W3AardEntity) function ProcessThrow_MainTick( alternateCast : bool )
 {
-	var projectile	: W3AardProjectile;
+	var projectile, projectile_2	: W3AardProjectile;
 	var spawnPos, collisionPos, collisionNormal, waterCollTestPos : Vector;
 	var spawnRot : EulerAngles;
 	var heading : Vector;
@@ -11,6 +11,10 @@
 	var movingAgent : CMovingPhysicalAgentComponent;
 	var hitsWater : bool;
 	var collisionGroupNames : array<name>;
+	var victims			 				: array<CActor>;
+	var j								: int;
+	var actortarget						: CActor;
+	var position						: Vector;
 	
 	if(false) 
 	{
@@ -49,12 +53,68 @@
 			else
 				attackRange = theGame.GetAttackRangeForEntity( this, 'blast_upgrade2' );
 		}
-		else if(dispersionLevel >= 3)
+		else if(dispersionLevel == 3)
 		{
 			if ( !alternateCast )
 				attackRange = theGame.GetAttackRangeForEntity( this, 'cone_upgrade3' );
 			else
 				attackRange = theGame.GetAttackRangeForEntity( this, 'blast_upgrade3' );
+		}
+		else if(dispersionLevel == 4)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade4' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade4' );
+		}
+		else if(dispersionLevel == 5)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade5' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade5' );
+		}
+		else if(dispersionLevel == 6)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade6' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade6' );
+		}
+		else if(dispersionLevel == 7)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade7' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade7' );
+		}
+		else if(dispersionLevel == 8)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade8' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade8' );
+		}
+		else if(dispersionLevel == 9)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade9' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade9' );
+		}
+		else if(dispersionLevel == 10)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade10' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade10' );
+		}
+		else if(dispersionLevel >= 10)
+		{
+			if ( !alternateCast )
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'cone_upgrade10' );
+			else
+				attackRange = theGame.GetAttackRangeForEntity( spectreGetCustomAardAttackRangeEnt(), 'blast_upgrade10' );
 		}
 	}
 	else
@@ -90,7 +150,38 @@
 		projectile.ExtInit( owner, skillEnum, this );							
 		projectile.SetAttackRange( attackRange );
 		
-		projectile.ShootCakeProjectileAtPosition( aspects[fireMode].cone, 3.5f, 0.0f, 30.0f, spawnPos + heading * distance, distance, projectileCollision );			
+		projectile.ShootCakeProjectileAtPosition( aspects[fireMode].cone, 8.5f, 0.0f, 30.0f, spawnPos + heading * distance, distance, projectileCollision );		
+
+		if (thePlayer.IsCastingSign() && distance >= 10)
+		{
+			victims.Clear();
+
+			victims = GetWitcherPlayer().GetNPCsAndPlayersInCone(distance, VecHeading(GetWitcherPlayer().GetHeadingVector()), 60, 20, , FLAG_OnlyAliveActors + FLAG_ExcludePlayer );
+
+			if( victims.Size() > 0 )
+			{
+				for( j = 0; j < victims.Size(); j += 1 )
+				{
+					//theGame.GetGuiManager().ShowNotification("test");
+
+					actortarget = victims[j];
+
+					actortarget.AddEffectDefault( EET_Stagger, GetWitcherPlayer(), 'spectre_aard_projectile_effect' );	
+
+					position = actortarget.GetWorldPosition();
+
+					position.Z += 1.5;
+
+					projectile_2 = (W3AardProjectile)theGame.CreateEntity( aspects[fireMode].projTemplate, spawnPos, spawnRot );				
+					projectile_2.ExtInit( owner, skillEnum, this );							
+					projectile_2.SetAttackRange( attackRange );
+
+					//projectile_2.ShootProjectileAtPosition( 0, 30, position, distance );
+
+					projectile_2.ShootCakeProjectileAtPosition( aspects[fireMode].cone, 8.5f, 0.0f, 30.0f,position, distance, projectileCollision );		
+				}
+			}
+		}	
 	}
 	
 	if((W3PlayerWitcher)ownerActor && ((W3PlayerWitcher)ownerActor).HasGlyphwordActive('Glyphword 6 _Stats'))
@@ -354,6 +445,13 @@
 			case 1 : return aspects[ fireMode ].distanceUpgrade1;
 			case 2 : return aspects[ fireMode ].distanceUpgrade2;
 			case 3 : return aspects[ fireMode ].distanceUpgrade3;
+			case 4 : return 10;
+			case 5 : return 11;
+			case 6 : return 12;
+			case 7 : return 13;
+			case 8 : return 14;
+			case 9 : return 15;
+			case 10 : return 16;
 			default : return aspects[ fireMode ].distanceUpgrade3;
 		}
 	}

@@ -3131,11 +3131,11 @@ private saved var enemiesKilledByType				: array<int>;
 
 	isInFrenzy = true;
 	skillLevel = GetSkillLevel(S_Alchemy_s16);
-	ratio = PowF(1.0f - abilityManager.GetStatPercents(BCS_Toxicity) * 0.44f, skillLevel);
+	ratio = PowF(1.0f - abilityManager.GetStatPercents(BCS_Toxicity) * 0.1f, skillLevel);
 	duration = skillLevel * CalculateAttributeValue(GetSkillAttributeValue(S_Alchemy_s16, 'slowdown_duration', false, true));
 
 	theGame.SetTimeScale(ratio, theGame.GetTimescaleSource(ETS_SkillFrenzy), theGame.GetTimescalePriority(ETS_SkillFrenzy) );
-	AddTimer('SkillFrenzyFinish', duration * ratio, , , , true);
+	AddTimer('SkillFrenzyFinish', 2 * ratio, , , , true);
 }
 
 @wrapMethod(W3PlayerWitcher) function GetToxicityDamageThreshold() : float
@@ -3323,11 +3323,6 @@ private var cachedToxDmg : float;
 		finalPotionToxicity += 0.001f;
 		
 		potionParams.buffSpecificParams = mutagenParams;
-		
-		if( IsMutationActive( EPMT_Mutation10 ) && !HasBuff( EET_Mutation10 ) )
-		{
-			//AddEffectDefault( EET_Mutation10, this, "Mutation 10" );//---===modBIA===---//
-		}
 	}
 	
 	else
@@ -3367,16 +3362,17 @@ private var cachedToxDmg : float;
 		if( finalPotionToxicity > 0.f )
 		{				
 			abilityManager.GainStat(BCS_Toxicity, finalPotionToxicity );
-			//---===modBIA===---//
+
 			if ( inv.ItemHasTag( item, 'Mutagen' ) )
+			{
 				abilityManager.DrainToxicity(finalPotionToxicity);
-			//---===modBIA===---//
+			}
 		}
 		
 		
-		if(CanUseSkill(S_Perk_13) && !inv.ItemHasTag( item, 'Mutagen' ) && effectType != EET_WhiteHoney)//---===modBIA===---//
+		if(CanUseSkill(S_Perk_13) && !inv.ItemHasTag( item, 'Mutagen' ) && effectType != EET_WhiteHoney)
 		{
-			adrenaline = FloorF(GetStat(BCS_Focus));//---===modBIA===---//
+			adrenaline = FloorF(GetStat(BCS_Focus));
 			abilityManager.DrainFocus(adrenaline);
 		}
 		
@@ -4457,24 +4453,6 @@ var blockSprintTimestamp : float;
 		
 		return true;
 	}
-
-	//No idea how to put here...
-	/*enemies = GetEnemies();
-	for( i=0; i<enemies.Size(); i+=1 )
-	{
-		weapons.Clear();
-		invent = enemies[i].GetInventory();
-		weapons = invent.GetHeldWeapons();
-		
-		for( j=0; j<weapons.Size(); j+=1 )
-		{
-			if( invent.IsItemFists( weapons[j] ) && !enemies[i].HasAbility('SkillSorceress') )//---===modBIA===---//
-			{
-				return true;
-			}
-		}
-	}*/
-
 	return false;
 }
 
@@ -4789,6 +4767,7 @@ var blockSprintTimestamp : float;
 	{
 		return EIST_Viper;
 	}
+	else 
 	if( dm.ItemHasTag( itemName, theGame.params.ITEM_SET_TAG_NETFLIX ) )
 	{
 		return EIST_Netflix;
@@ -4897,6 +4876,59 @@ var blockSprintTimestamp : float;
 	desc2 = GetSetBonusTooltipDescription( setBonus );
 }
 
+@wrapMethod(W3PlayerWitcher)  function ItemSetTypeToItemSetBonus( setType : EItemSetType, nr : int ) : EItemSetBonus
+{
+	var setBonus : EItemSetBonus;
+
+	if(false) 
+	{
+		wrappedMethod(setType, nr);
+	}
+
+	if( nr == 1 )
+	{
+		switch( setType )
+		{
+			case EIST_Lynx: 			setBonus = EISB_Lynx_1;		break;
+			case EIST_Gryphon: 			setBonus = EISB_Gryphon_1;	break;
+			case EIST_Bear: 			setBonus = EISB_Bear_1;		break;
+			case EIST_Wolf: 			setBonus = EISB_Wolf_1;		break;
+			case EIST_RedWolf: 			setBonus = EISB_RedWolf_1;	break;
+			case EIST_Vampire:			setBonus = EISB_Vampire;	break;
+			case EIST_Viper:			setBonus = EISB_Viper;		break;
+			case EIST_KaerMorhen:		setBonus = EISB_KaerMorhen;	break;
+			case EIST_Lynx_Minor:		setBonus = EISB_Lynx_1;		break;
+			case EIST_Gryphon_Minor:	setBonus = EISB_Gryphon_1;	break;
+			case EIST_Bear_Minor:		setBonus = EISB_Bear_1;		break;
+			case EIST_Wolf_Minor:		setBonus = EISB_Wolf_1;		break;
+			case EIST_RedWolf_Minor: 	setBonus = EISB_RedWolf_1;	break;
+			case EIST_Netflix:			setBonus = EISB_Netflix_1;	break;
+		}
+	}
+	else
+	{
+		switch( setType )
+		{
+			case EIST_Lynx: 			setBonus = EISB_Lynx_2;		break;
+			case EIST_Gryphon: 			setBonus = EISB_Gryphon_2;	break;
+			case EIST_Bear: 			setBonus = EISB_Bear_2;		break;
+			case EIST_Wolf: 			setBonus = EISB_Wolf_2;		break;
+			case EIST_RedWolf: 			setBonus = EISB_RedWolf_2;	break;
+			case EIST_Vampire:			setBonus = EISB_Undefined;	break;
+			case EIST_Viper:			setBonus = EISB_Undefined;	break;
+			case EIST_KaerMorhen:		setBonus = EISB_Undefined;	break;
+			case EIST_Lynx_Minor:		setBonus = EISB_Undefined;	break;
+			case EIST_Gryphon_Minor:	setBonus = EISB_Undefined;	break;
+			case EIST_Bear_Minor:		setBonus = EISB_Undefined;	break;
+			case EIST_Wolf_Minor:		setBonus = EISB_Undefined;	break;
+			case EIST_RedWolf_Minor: 	setBonus = EISB_Undefined;	break;
+			case EIST_Netflix:			setBonus = EISB_Netflix_2;	break;
+		}
+	} 
+
+	return setBonus;
+}
+
 @wrapMethod(W3PlayerWitcher) function GetSetBonusTooltipDescription( bonus : EItemSetBonus ) : string
 {
 	var finalString : string;
@@ -4919,8 +4951,8 @@ var blockSprintTimestamp : float;
 		case EISB_Gryphon_2:		tempString = "skill_desc_gryphon_set_ability2"; break;
 		case EISB_Bear_1:			tempString = "skill_desc_bear_set_ability1"; break;
 		case EISB_Bear_2:			tempString = "skill_desc_bear_set_ability2"; break;
-		case EISB_Wolf_1:			tempString = "skill_desc_wolf_set_ability2"; break;
-		case EISB_Wolf_2:			tempString = "skill_desc_wolf_set_ability1"; break;
+		case EISB_Wolf_1:			tempString = "skill_desc_wolf_set_ability1"; break;
+		case EISB_Wolf_2:			tempString = "skill_desc_wolf_set_ability2"; break;
 		case EISB_RedWolf_1:		tempString = "skill_desc_red_wolf_set_ability1"; break;
 		case EISB_RedWolf_2:		tempString = "skill_desc_red_wolf_set_ability2"; break;
 		case EISB_Vampire:			tempString = "skill_desc_vampire_set_ability1"; break;
@@ -4978,6 +5010,7 @@ var blockSprintTimestamp : float;
 		finalString = GetLocStringByKeyExtWithParams( tempString,,,arrString );
 		break;
 	case EISB_Wolf_1:
+		arrString.PushBack( FloatToString( GetSetPartsEquipped( EIST_Wolf ) ) );
 		dm.GetAbilityAttributeValue( 'SetBonusAbilityWolf_1', 'per_piece_oil_bonus', min, max );
 		arrString.PushBack( RoundMath( CalculateAttributeValue(min) * 100 ) );
 		arrString.PushBack( RoundMath( CalculateAttributeValue(min) * 100 * GetSetPartsEquipped( EIST_Wolf ) ) );
@@ -5001,7 +5034,7 @@ var blockSprintTimestamp : float;
 		break;
 	case EISB_RedWolf_2:
 		dm.GetAbilityAttributeValue( 'setBonusAbilityRedWolf_2', 'amount', min, max );
-		arrString.PushBack( FloatToString( min.valueAdditive ) );
+		arrString.PushBack( NoTrailZeros( CalculateAttributeValue(min) * 100 ) );
 		finalString = GetLocStringByKeyExtWithParams( tempString,,,arrString );
 		break;
 	case EISB_Vampire:

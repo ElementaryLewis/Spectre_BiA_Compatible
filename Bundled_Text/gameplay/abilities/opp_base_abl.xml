@@ -245,6 +245,46 @@
         <vitality type="base" always_random="false" min="998000" max="998000" />
       </ability>
 	  
+	  <ability name="ConDefaultSilver">
+        <!-- man_base-->
+        <tags> "base" </tags>
+        <level type="add" always_random="false" min="1" max="1" />
+        <vitality type="base" always_random="false" min="0" max="0" />
+        <essence type="base" always_random="false" min="25" max="25" />
+        <stamina type="base" always_random="false" min="100" max="100" />
+        <morale type="base" always_random="false" min="100" max="100" />
+        <camera_weight type="add" always_random="false" min="0" max="0" />
+        <humanoid type="add" always_random="false" min="1.0" max="1.0" />
+        <vitalityRegen type="mult" always_random="false" min="0" max="0" />
+        <essenceRegen type="mult" always_random="false" min="0" max="0" />
+        <staminaRegen type="mult" always_random="false" min="0.07" max="0.07" />
+        <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
+        <light_attack_damage_vitality type="base" always_random="false" min="100" max="100" />
+        <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="100" max="100" />
+        <heavy_attack_damage_vitality type="mult" always_random="false" min="0.0" max="0.0" />
+        <heavy_attack_damage_essence type="base" always_random="false" min="0" max="0" />
+        <physical_resistance type="add" always_random="false" min="0" max="0" />
+        <physical_resistance type="mult" always_random="false" min="0" max="0" />
+        <fire_resistance type="add" always_random="false" min="0" max="0" />
+        <fire_resistance type="mult" always_random="false" min="0" max="0" />
+		    <fire_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
+        <frost_resistance type="add" always_random="false" min="0" max="0" />
+        <frost_resistance type="mult" always_random="false" min="0" max="0" />
+        <force_resistance type="add" always_random="false" min="0" max="0" />
+        <force_resistance type="mult" always_random="false" min="0" max="0" />
+        <shock_resistance type="add" always_random="false" min="0" max="0" />
+        <shock_resistance type="mult" always_random="false" min="0" max="0" />
+        <poison_resistance type="add" always_random="false" min="0" max="0" />
+        <poison_resistance type="mult" always_random="false" min="0" max="0" />
+        <bleeding_resistance type="add" always_random="false" min="0" max="0" />
+        <bleeding_resistance type="mult" always_random="false" min="0" max="0" />
+		    <taunt_chance type="base" always_random="false" min="0" max="0"/>
+        <!-- skills -->
+        <attack_light is_ability="true" />
+        <attack_heavy is_ability="true" />
+      </ability>
+	  
 	  <ability name="mq1060_Reinald">
         <!-- man_base-->
         <tags> "base" </tags>

@@ -44,7 +44,7 @@
 			total = GetTotalExpForNextLevel();
 			if(total > 0 && GetPointsTotal(EExperiencePoint) >= total)
 			{
-				if( GainLevel( true ) ) //---===modBIA===---//
+				if( GainLevel( true ) )
 				{
 					GetWitcherPlayer().AddAbility( GetWitcherPlayer().GetLevelupAbility( GetWitcherPlayer().GetLevel() ) );
 				}

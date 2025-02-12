@@ -2572,3 +2572,63 @@ protected var tempTransferredItems : array< SItemUniqueId >;
 	
 	return weight;
 }
+
+@wrapMethod(CInventoryComponent) function IsItemSetItem(item : SItemUniqueId) : bool
+{
+	if(false) 
+	{
+		wrappedMethod(item);
+	}
+
+	return
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_BEAR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_BEAR_MINOR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_GRYPHON) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_GRYPHON_MINOR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_LYNX) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_LYNX_MINOR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_WOLF) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_WOLF_MINOR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_RED_WOLF) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_RED_WOLF_MINOR) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_VAMPIRE ) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_VIPER) ||
+		ItemHasTag(item, theGame.params.ITEM_SET_TAG_NETFLIX);
+}
+
+@wrapMethod(CInventoryComponent) function DetectTagOfASet(item : SItemUniqueId) : name
+{
+	if(false) 
+	{
+		wrappedMethod(item);
+	}
+
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_BEAR) )
+		return theGame.params.ITEM_SET_TAG_BEAR;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_GRYPHON) )
+		return theGame.params.ITEM_SET_TAG_GRYPHON;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_LYNX) )
+		return theGame.params.ITEM_SET_TAG_LYNX;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_WOLF) )
+		return theGame.params.ITEM_SET_TAG_WOLF;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_RED_WOLF) )
+		return theGame.params.ITEM_SET_TAG_RED_WOLF;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_VAMPIRE) )
+		return theGame.params.ITEM_SET_TAG_VAMPIRE;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_VIPER) )
+		return theGame.params.ITEM_SET_TAG_VIPER;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_NETFLIX) )
+		return theGame.params.ITEM_SET_TAG_NETFLIX;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_BEAR_MINOR) )
+		return theGame.params.ITEM_SET_TAG_BEAR_MINOR;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_GRYPHON_MINOR) )
+		return theGame.params.ITEM_SET_TAG_GRYPHON_MINOR;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_LYNX_MINOR) )
+		return theGame.params.ITEM_SET_TAG_LYNX_MINOR;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_WOLF_MINOR) )
+		return theGame.params.ITEM_SET_TAG_WOLF_MINOR;
+	if (ItemHasTag(item, theGame.params.ITEM_SET_TAG_RED_WOLF_MINOR) )
+		return theGame.params.ITEM_SET_TAG_RED_WOLF_MINOR;
+		
+	return '';
+}
